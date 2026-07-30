@@ -114,7 +114,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     transition:transform .15s ease;
   }}
   .submap-badge:hover{{ transform:scale(1.25); }}
-  #legend{{ position:fixed; bottom:14px; left:14px; background:rgba(253,250,243,0.92); border-radius:6px; padding:10px 14px; font-size:11px; color:#3a2f22; box-shadow:2px 3px 8px rgba(0,0,0,0.25); z-index:50; }}
+  #legend{{ position:fixed; bottom:14px; left:14px; background:rgba(253,250,243,0.92); border-radius:6px; padding:10px 14px; font-size:11px; color:#3a2f22; box-shadow:2px 3px 8px rgba(0,0,0,0.25); z-index:90; }}
   #legend div{{ margin:3px 0; display:flex; align-items:center; gap:6px; }}
   #legend .swatch{{ width:20px; height:3px; display:inline-block; border-radius:2px; }}
   #legend .dot{{ width:11px; height:11px; border-radius:50%; display:inline-block; }}
@@ -213,11 +213,11 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     box-shadow:0 1px 2px rgba(0,0,0,.7), inset 0 0 1px rgba(0,0,0,.5);
   }}
   #pipis-guest{{
-    position:fixed; left:-14px; bottom:0; z-index:35; height:22vh; max-height:210px; min-height:130px;
+    position:fixed; left:200px; bottom:0; z-index:84; height:22vh; max-height:210px; min-height:130px;
     pointer-events:none; image-rendering:pixelated;
     filter:drop-shadow(6px 10px 14px rgba(0,0,0,.6));
   }}
-  @media (max-width: 900px){{ #pipis-guest{{ display:none; }} }}
+  @media (max-width: 1100px){{ #pipis-guest{{ display:none; }} }}
 </style>
 <svg width="0" height="0" style="position:absolute">
 <defs>
