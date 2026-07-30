@@ -1,0 +1,243 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Carol — la alcaldesa que oculta algo\n\nMadre de Dess y Noelle, esposa de Rudy. Investiga la zona sur del pueblo y guarda una katana negra en su propio dormitorio.",
+			"x": -180,
+			"y": -70,
+			"width": 380,
+			"height": 210,
+			"color": "6"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**¿Es la llamada misteriosa?**\nAparece justo tras la llamada secreta de Kris — pero su voz en la Ruta Rara no coincide con la de esa llamada.",
+			"x": 346,
+			"y": -209,
+			"width": 270,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Dess y Noelle**\nDuelo no resuelto por Dess; control asfixiante y presión constante sobre Noelle.",
+			"x": 164,
+			"y": 294,
+			"width": 270,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Rudy**\nSe conocieron cuando él le dijo que era 'un pedazo de mujer que ARDÍA' — ella lo dejó inconsciente de una bofetada.",
+			"x": -424,
+			"y": 294,
+			"width": 270,
+			"height": 170,
+			"color": "4"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Asgore**\nSu casero y posible colaborador de investigación — comparten un corcho de documentos casi idéntico.",
+			"x": -606,
+			"y": -209,
+			"width": 270,
+			"height": 160,
+			"color": "3"
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**¿Sabe del Ángel (jugador)?**\nLa llamada misteriosa remarca 'TÚ' en rojo, como si supiera que alguien controla a Kris desde fuera.",
+			"x": 900,
+			"y": -70,
+			"width": 270,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "Sprites/Carol_call_weird_route.webp",
+			"x": 711,
+			"y": -341,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "Sprites/Carol_welcoming_kriss_and_YOU.png",
+			"x": 418,
+			"y": 561,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "Sprites/Carol_and_Rudy_room.png",
+			"x": -668,
+			"y": 571,
+			"width": 252,
+			"height": 190
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "Sprites/Asgore_y_Carol_corcho.webp",
+			"x": -961,
+			"y": -347,
+			"width": 260,
+			"height": 182
+		},
+		{
+			"id": "s5-img",
+			"type": "file",
+			"file": "Sprites/Carol_welcoming_kriss_and_YOU.png",
+			"x": 1285,
+			"y": -87,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "Sprites/Carol_Holiday.webp",
+			"x": -79,
+			"y": -436,
+			"width": 178,
+			"height": 387
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**¿Es el Roaring Knight?**\nCornamenta y katana negra similares al Cuchillo Negro — pero está en casa cuando el Knight ataca en la iglesia.",
+			"x": -450,
+			"y": -730,
+			"width": 270,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "Sprites/Carol_face_ominous_unused.png",
+			"x": -449,
+			"y": -1120,
+			"width": 190,
+			"height": 190
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s2",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s3",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s4",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e5",
+			"fromNode": "s1",
+			"fromSide": "right",
+			"toNode": "s5",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s3-img-e",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s4-img-e",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s5-img-e",
+			"fromNode": "s5-img",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "6"
+		}
+	]
+}

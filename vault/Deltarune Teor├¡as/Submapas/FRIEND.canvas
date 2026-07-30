@@ -1,0 +1,279 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# FRIEND — el Portador del Shadow Mantle\n\nCatalogado junto a Knight, Voice y Man. Ligado al círculo de 'Strange Someone'.",
+			"x": -190,
+			"y": -80,
+			"width": 400,
+			"height": 220,
+			"color": "6"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Forgotten Man**\nMismo grupo 'Other' en la wiki oficial.",
+			"x": -130,
+			"y": -538,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Spamton NEO**\nSus gafas coinciden en color con los ojos de FRIEND. Su equipo resiste daño Cat, y el círculo azul de Pipis fue un regalo suyo a Noelle.",
+			"x": 320,
+			"y": 164,
+			"width": 270,
+			"height": 190,
+			"color": "3"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Everyman**\nEaster eggs de la misma categoría de misterio menor.",
+			"x": -580,
+			"y": 164,
+			"width": 270,
+			"height": 150,
+			"color": "1"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "Sprites/FRIEND.png",
+			"x": -960,
+			"y": -207,
+			"width": 205,
+			"height": 190
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "Sprites/Man_overworld_tree.gif",
+			"x": -129,
+			"y": -938,
+			"width": 221,
+			"height": 190
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "Sprites/Spamton_NEO_battle.gif",
+			"x": 669,
+			"y": 306,
+			"width": 133,
+			"height": 190
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "Sprites/everyman.png",
+			"x": -920,
+			"y": 303,
+			"width": 251,
+			"height": 190
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**¿Cola del infierno de la Profecía?**\nMisma estética de círculos encadenados que las mascotas de Cat Petterz 2.",
+			"x": 320,
+			"y": -538,
+			"width": 280,
+			"height": 170,
+			"color": "3"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Dess**\n¿La invocaron de niños Kris, Asriel, Noelle y ella? Pista del Organikk sobre el bosque.",
+			"x": -580,
+			"y": -538,
+			"width": 280,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**Mad Mew Mew (Pink)**\nRevela que son 'proteína' y una manada de gatos, no un individuo.",
+			"x": 700,
+			"y": -70,
+			"width": 270,
+			"height": 160,
+			"color": "4"
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "Sprites/prophecy-identification-v0-jtgejdcm3m6f1.webp",
+			"x": 700,
+			"y": -940,
+			"width": 260,
+			"height": 161
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "Sprites/Dess.png",
+			"x": -960,
+			"y": -940,
+			"width": 91,
+			"height": 190
+		},
+		{
+			"id": "s5-img",
+			"type": "file",
+			"file": "Sprites/Pink_screenshot_cat_bite.png",
+			"x": 1050,
+			"y": -140,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s_rarecats",
+			"type": "text",
+			"x": -130,
+			"y": 450,
+			"width": 280,
+			"height": 160,
+			"color": "3",
+			"text": "**Minijuego de gatos raros (ARG, 2025)** Escrito por Noelle: FRIEND tiene un 0,1% de aparecer y dar un jumpscare — la primera aparición suya fuera del propio juego."
+		},
+		{
+			"id": "s_antagonista_final",
+			"type": "text",
+			"text": "**¿Antagonista final de Deltarune?**\nTeorizado como posible responsable de gran parte de los sucesos misteriosos del pasado —incluida la desaparición de Dess— y del propio trauma de Kris. Muy extendida entre fans, sin confirmación textual.",
+			"x": -960,
+			"y": 690,
+			"width": 320,
+			"height": 200,
+			"color": "3"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s3",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s4",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e5",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s5",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "s3-img-e",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s4-img-e",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s5-img-e",
+			"fromNode": "s5-img",
+			"fromSide": "left",
+			"toNode": "s5",
+			"toSide": "right",
+			"color": "6"
+		},
+		{
+			"id": "e_rarecats",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_rarecats",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_antagonista_final",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_antagonista_final",
+			"toSide": "top",
+			"color": "3"
+		}
+	]
+}

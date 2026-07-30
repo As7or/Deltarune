@@ -59,8 +59,27 @@ PAGE_CSS = '''
 
   .wikilink{ color:#8a3a30; border-bottom:1px dotted #8a3a30; text-decoration:none; cursor:pointer; }
   a.wikilink:hover{ background:#f3ead6; }
-  .fm-bar{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
-  .fm-badge{ background:#e4d6b0; border-radius:10px; padding:3px 10px; font-size:11px; color:#4a3b20; font-family:'Segoe UI',sans-serif; }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+  .fm-badge{
+    display:inline-flex; align-items:center; gap:6px;
+    background:#f4ecd2; border:1px solid rgba(90,64,32,.3);
+    border-radius:3px 12px 3px 12px;
+    padding:4px 12px 4px 8px;
+    font-size:11px; font-family:'Segoe UI', Tahoma, sans-serif; color:#4a3b20;
+    box-shadow:0 2px 3px rgba(0,0,0,.15), inset 0 1px 0 rgba(255,255,255,.55);
+  }
+  .fm-badge:nth-child(odd){ transform:rotate(-0.7deg); }
+  .fm-badge:nth-child(even){ transform:rotate(0.6deg); }
+  .fm-badge i{ font-style:normal; font-size:13px; line-height:1; }
+  .fm-badge b{ text-transform:uppercase; font-size:8.5px; letter-spacing:.07em; opacity:.62; font-weight:bold; margin-right:1px; }
+  .fm-badge.w-lightner{ background:#dcefd9; border-color:#2e8b46; }
+  .fm-badge.w-darkner{ background:#e8def0; border-color:#6b3fa0; }
+  .fm-badge.w-ambos{ background:linear-gradient(90deg,#dcefd9 50%,#e8def0 50%); border-color:#7a5a94; }
+  .fm-badge.w-na{ background:#e6e3dc; border-color:#6b7280; }
+  .fm-badge.c-oficial{ background:#dcefd9; border-color:#2e8b46; }
+  .fm-badge.c-fuerte{ background:#f5e8c8; border-color:#c9982e; }
+  .fm-badge.c-debil{ background:#f5d9d3; border-color:#b23c30; }
+  .fm-badge.c-mixta{ background:#eee6d6; border-color:#8a7a5c; }
 '''
 
 PAGE_CSS_PARCHMENT = '''
@@ -141,8 +160,27 @@ PAGE_CSS_PARCHMENT = '''
 
   .wikilink{ color:#7a2e22; border-bottom:1px dotted #7a2e22; text-decoration:none; cursor:pointer; }
   a.wikilink:hover{ background:rgba(122,46,34,0.12); }
-  .fm-bar{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
-  .fm-badge{ background:#d8bd82; border:1px solid #b8985e; border-radius:10px; padding:3px 10px; font-size:10.5px; color:#4a3b20; font-family:'Segoe UI',sans-serif; }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+  .fm-badge{
+    display:inline-flex; align-items:center; gap:6px;
+    background:#d8bd82; border:1px solid #8a6a3a;
+    border-radius:3px 12px 3px 12px;
+    padding:4px 12px 4px 8px;
+    font-size:10.5px; font-family:'Segoe UI', Tahoma, sans-serif; color:#4a3418;
+    box-shadow:0 2px 3px rgba(0,0,0,.25), inset 0 1px 0 rgba(255,240,200,.4);
+  }
+  .fm-badge:nth-child(odd){ transform:rotate(-0.7deg); }
+  .fm-badge:nth-child(even){ transform:rotate(0.6deg); }
+  .fm-badge i{ font-style:normal; font-size:13px; line-height:1; }
+  .fm-badge b{ text-transform:uppercase; font-size:8.5px; letter-spacing:.07em; opacity:.68; font-weight:bold; margin-right:1px; }
+  .fm-badge.w-lightner{ background:#c3d9a8; border-color:#3f6b2e; }
+  .fm-badge.w-darkner{ background:#c9b3d8; border-color:#5a3a7a; }
+  .fm-badge.w-ambos{ background:linear-gradient(90deg,#c3d9a8 50%,#c9b3d8 50%); border-color:#6b5040; }
+  .fm-badge.w-na{ background:#c9c2ac; border-color:#5c5648; }
+  .fm-badge.c-oficial{ background:#c3d9a8; border-color:#3f6b2e; }
+  .fm-badge.c-fuerte{ background:#e0c478; border-color:#8a6a1e; }
+  .fm-badge.c-debil{ background:#d9a892; border-color:#8a3a24; }
+  .fm-badge.c-mixta{ background:#cbb98e; border-color:#6b5638; }
 '''
 
 PAGE_CSS_WET = PAGE_CSS + '''

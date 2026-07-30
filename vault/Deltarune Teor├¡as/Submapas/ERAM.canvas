@@ -1,0 +1,236 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# ERAM (Shadow Mantle Holder)\n\nJefe secreto de la Ruta Espada del Cap.3, oculto tras el tercer minijuego de rango S del Juego Original. Porta el Shadow Mantle. Nombre de fandom sacado del tema de su combate; en los archivos es 'Nightmare'.",
+			"x": -180,
+			"y": -70,
+			"width": 400,
+			"height": 230,
+			"color": "6"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Kris**\nLe habla con una familiaridad inquietante, burlándose de su posible disfrute de la violencia en los caminos ocultos del juego.",
+			"x": -130,
+			"y": -538,
+			"width": 270,
+			"height": 160,
+			"color": "4"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**FRIEND**\nAparece como enemigo de apoyo durante su combate — entidades distintas, aunque fáciles de confundir.",
+			"x": 346,
+			"y": -209,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Ramb**\nComparte el tramo final del Juego Original en el Green Room. Teoría: podría ser el propio Ramb tras recibir un Cristal Oscuro.",
+			"x": 164,
+			"y": 294,
+			"width": 270,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Cristal Oscuro**\nSu combate pertenece al mismo círculo temático que los Cristales Oscuros y 'Alguien Extraño', aunque porta el Shadow Mantle, un objeto distinto.",
+			"x": -424,
+			"y": 294,
+			"width": 270,
+			"height": 170,
+			"color": "3"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**¿Es la 'versión de videojuego' del Caballero Rugiente?**\nComparten leitmotif musical, color negro dominante y magia de fuego.",
+			"x": -606,
+			"y": -209,
+			"width": 270,
+			"height": 160,
+			"color": "1"
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**¿Es 'Alguien Extraño'?**\nEl mismo que habría enloquecido a Jevil y Spamton — comenta tener 'trabajo pendiente' junto a Kris tras el combate.",
+			"x": 700,
+			"y": 150,
+			"width": 270,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "Sprites/kriss_Shadow_Mantle_holder_screenshot.png",
+			"x": -136,
+			"y": -933,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "Sprites/FRIEND.png",
+			"x": 705,
+			"y": -367,
+			"width": 205,
+			"height": 190
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "Sprites/Ramb.webp",
+			"x": 413,
+			"y": 576,
+			"width": 154,
+			"height": 190
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "Sprites/Shadow_Crystal_item.webp",
+			"x": -677,
+			"y": 563,
+			"width": 148,
+			"height": 190
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "Sprites/TheRoaringKnightDeltarune.webp",
+			"x": -959,
+			"y": -351,
+			"width": 166,
+			"height": 190
+		},
+		{
+			"id": "2271c77ca599421d",
+			"x": -52,
+			"y": -190,
+			"width": 114,
+			"height": 122,
+			"type": "file",
+			"file": "Sprites/Shadow_Mantle_holder_battle_flames.gif"
+		},
+		{
+			"id": "s_etim",
+			"type": "text",
+			"x": -900,
+			"y": 50,
+			"width": 280,
+			"height": 180,
+			"color": "6",
+			"text": "**Etimología \"Nightmare\"** \"Mare\" viene de una raíz germánica de íncubo/parálisis del sueño, no de yegua — encaja con \"night\" + Knight. Además, el Typer 667 casi anima a Kris a perder contra el Caballero."
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s2",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s3",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s4",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e5",
+			"fromNode": "s1",
+			"fromSide": "right",
+			"toNode": "s5",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s3-img-e",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s4-img-e",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e_etim",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s_etim",
+			"toSide": "right",
+			"color": "6"
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"x": -190,
+			"y": -105,
+			"width": 420,
+			"height": 220,
+			"color": "6",
+			"text": "# Napstablook\n👮 Agente de policía de Hometown junto a Undyne — un puesto que consiguió \"por accidente\" y del que no se atreve a dimitir porque sus primos dependen de él."
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"x": -640,
+			"y": -105,
+			"width": 220,
+			"height": 190,
+			"file": "Sprites/Napstablook.webp"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"x": -130,
+			"y": -640,
+			"width": 280,
+			"height": 210,
+			"color": "1",
+			"text": "**Undyne**\nSu compañera de trabajo en la comisaría. Se preocupa genuinamente por ella cuando desaparece."
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"x": -130,
+			"y": -870,
+			"width": 220,
+			"height": 190,
+			"file": "Sprites/Napstablook_overworld_ground.png"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"x": 420,
+			"y": -260,
+			"width": 280,
+			"height": 210,
+			"color": "1",
+			"text": "**Mad Mew Mew (Pink)**\nSu prima, con quien convive en la Casa Blook junto a Nobody."
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"x": 420,
+			"y": -480,
+			"width": 220,
+			"height": 150,
+			"file": "Sprites/Napstablook_screenshot_strength_tester.png"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e0-img",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s1",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e1-img",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		}
+	]
+}

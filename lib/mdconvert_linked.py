@@ -293,7 +293,35 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
         i += 1
     fm_html = ""
     if fm:
-        badges = "".join(f'<span class="fm-badge">{html.escape(k)}: {html.escape(v[:60])}</span>' for k, v in fm.items())
+        FM_ICONS = {"tipo": "🎭", "mundo": "🌍", "especie": "🧬", "familia": "👪",
+                    "confianza": "🔍", "pronombres": "🏷️"}
+
+        def _badge(k, v):
+            icon = FM_ICONS.get(k.lower(), "📌")
+            cls = "fm-badge"
+            vlow = v.lower()
+            if k.lower() == "mundo":
+                if "ambos" in vlow:
+                    cls += " w-ambos"
+                elif "lightner" in vlow:
+                    cls += " w-lightner"
+                elif "darkner" in vlow:
+                    cls += " w-darkner"
+                else:
+                    cls += " w-na"
+            elif k.lower() == "confianza":
+                if "oficial" in vlow:
+                    cls += " c-oficial"
+                elif "fuerte" in vlow:
+                    cls += " c-fuerte"
+                elif "mixta" in vlow:
+                    cls += " c-mixta"
+                elif "bil" in vlow:
+                    cls += " c-debil"
+            return (f'<span class="{cls}"><i>{icon}</i>'
+                    f'<b>{html.escape(k)}</b>{html.escape(v[:60])}</span>')
+
+        badges = "".join(_badge(k, v) for k, v in fm.items())
         fm_html = f'<div class="fm-bar">{badges}</div>'
     return fm_html + "\n".join(out)
 

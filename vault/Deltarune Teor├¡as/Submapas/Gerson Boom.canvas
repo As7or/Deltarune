@@ -1,0 +1,237 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Gerson Boom\n🔨 Herrero, historiador y escritor best-seller, autor de la saga *Lord of the Hammer* (inspirada en la Profecía).",
+			"x": -190,
+			"y": -105,
+			"width": 420,
+			"height": 220,
+			"color": "6"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Susie**\nSu alumna principal — la mentoriza durante todo el Cap.4, y su combate como Hammer of Justice funciona casi como un rito de iniciación para ella, en un paralelismo directo con su papel como…",
+			"x": -130,
+			"y": -640,
+			"width": 280,
+			"height": 210,
+			"color": "6"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Alvin**\nSu hijo, encargado de su tumba y de su antigua oficina de historiador.",
+			"x": 420,
+			"y": -260,
+			"width": 280,
+			"height": 210,
+			"color": "6"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Caballero Rugiente**\nSu revivificación como Darkner depende directamente de los Santuarios Oscuros que crea el propio Caballero al llegar al Cap.4 — sin él, Gerson seguiría siendo solo polvo sobre un martillo.",
+			"x": 420,
+			"y": 220,
+			"width": 280,
+			"height": 210,
+			"color": "6"
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Noelle**\nAunque nunca llegan a conocerse en persona, es la fan más entregada de Dragon Blazers, la saga de videojuegos basada en el libro de Gerson — se la juega con su padre Rudy, la comparte en secreto con…",
+			"x": -130,
+			"y": 480,
+			"width": 280,
+			"height": 210,
+			"color": "6"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**¿Por qué \"Ms. Boom\"?**\nSe menciona una pariente llamada \"Ms.",
+			"x": -680,
+			"y": 220,
+			"width": 280,
+			"height": 240,
+			"color": "1"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "Sprites/gerson-grave.png",
+			"x": -67,
+			"y": -295,
+			"width": 175,
+			"height": 190
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**¿Un eco más de Gaster?**\nEl patrón \"genio desaparecido cuyo legado pesa sobre el siguiente\" recuerda a Gaster y sus Seguidores — con la diferencia de que Gerson sí anima activamente a Alvin a superarlo. Paralelismo temático de la wiki oficial.",
+			"x": -680,
+			"y": 770,
+			"width": 320,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s6",
+			"type": "text",
+			"text": "**Paralelismo con J. R. R. Tolkien**\nAmbos historiadores/profesores devenidos autores de fantasía que dejaron su obra sin terminar al morir — la diferencia está en el hijo que (no) continúa la obra, hasta que Alvin por fin escribe su propio sermón en el Cap.5.",
+			"x": -340,
+			"y": 770,
+			"width": 320,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s7",
+			"type": "text",
+			"text": "**El origen real del nombre**\nConfirmado por Toby Fox en 2018: viene de una partida de Smash Bros. 64 en un torneo peruano (2014) entre los jugadores Gerson y SuPeRbOoMfAn (\"Boom\"). Alvin, ganador de esa ronda, da nombre al hijo.",
+			"x": 0,
+			"y": 770,
+			"width": 320,
+			"height": 200,
+			"color": "4"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "Sprites/Susie_artwork.png",
+			"x": -130,
+			"y": -850,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "Sprites/Alvin_overwolrd.webp",
+			"x": 420,
+			"y": -470,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "Sprites/TheRoaringKnightDeltarune.webp",
+			"x": 420,
+			"y": 10,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "Sprites/Noelle_overworld.png",
+			"x": -130,
+			"y": 270,
+			"width": 240,
+			"height": 180
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s1",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "top",
+			"toNode": "s3",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s4",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e_s5",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s6",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s6",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s7",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s7",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s0-img",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s1-img",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s2-img",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s3-img",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "3"
+		}
+	]
+}

@@ -1,0 +1,166 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"x": -190,
+			"y": -105,
+			"width": 420,
+			"height": 220,
+			"color": "4",
+			"text": "# Alvin\n- ⛪ Párroco de la iglesia de Hometown."
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"x": -640,
+			"y": -105,
+			"width": 220,
+			"height": 190,
+			"file": "Sprites/Alvin_overwolrd.webp"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"x": -130,
+			"y": -640,
+			"width": 280,
+			"height": 210,
+			"color": "6",
+			"text": "**Gerson Boom**\nSu padre, fallecido antes del inicio del juego."
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"x": 420,
+			"y": -260,
+			"width": 280,
+			"height": 210,
+			"color": "6",
+			"text": "**Asriel**\nDe pequeño, iba a \"confesarle\" falsos pecados a modo de juego, muchos de ellos en nombre de Kris."
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"x": 420,
+			"y": 220,
+			"width": 280,
+			"height": 210,
+			"color": "6",
+			"text": "**Susie**\nEs ella quien reescribe la carta final de Gerson para él en el Cap.4, aunque no llegan a interactuar en pantalla."
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"x": -130,
+			"y": 480,
+			"width": 280,
+			"height": 240,
+			"color": "1",
+			"text": "**¿Abrió Alvin la Fuente de la iglesia sin saberlo?**\nLa Fuente Oscura del Primer Santuario en la iglesia es notablemente más pequeña de lo habitual, lo que sugiere poca determinación al abrirla — y el propio juego establece que quien la abre suele hacerlo pensando en un…"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "Sprites/alvin_in_the_grave_of_his_father.png",
+			"x": -130,
+			"y": -850,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "Sprites/asriel.png",
+			"x": 420,
+			"y": -470,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "Sprites/alvin_susie_discover_gerson_dust.webp",
+			"x": 420,
+			"y": 10,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Ángel (Jugador)**\nCree firmemente en la fe y la Profecía, y lo trata con verdadero respeto religioso. En el Cap.5 le atribuye los destrozos de la iglesia, describiéndolo como \"vientos de gran cambio\".",
+			"x": 760,
+			"y": 220,
+			"width": 280,
+			"height": 210,
+			"color": "3"
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s1",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "top",
+			"toNode": "s3",
+			"toSide": "bottom",
+			"color": "1"
+		},
+		{
+			"id": "e_s0-img",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s1-img",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s2-img",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s4",
+			"toSide": "left",
+			"color": "3"
+		}
+	]
+}
