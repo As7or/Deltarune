@@ -154,6 +154,23 @@ def build(vault_path, out_dir):
         f.write(board_html)
     print(f"Corcho principal generado: {len(data['items'])} nodos, {len(data['edges'])} conexiones.")
 
+    # index.html de redireccion, para que la URL raiz de GitHub Pages
+    # (https://usuario.github.io/repo/) caiga directo en el corcho sin
+    # tener que escribir /corcho-principal.html a mano.
+    index_redirect = '''<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=corcho-principal.html">
+<link rel="canonical" href="corcho-principal.html">
+<title>Redirigiendo al Corcho…</title>
+<style>body{background:#5c5347;color:#e8dcc0;font-family:Georgia,serif;
+display:flex;align-items:center;justify-content:center;height:100vh;margin:0;}</style>
+</head><body>
+<p>Abriendo el corcho… si no pasa nada, <a href="corcho-principal.html" style="color:#c9982e;">haz clic aquí</a>.</p>
+</body></html>'''
+    with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
+        f.write(index_redirect)
+    print("index.html de redireccion generado.")
+
     # 4) Submapas
     ok, fail = build_submap.build_all_submaps(submaps_dir, notes_dir, sprites_dir, out_submaps)
     print(f"Submapas generados: {ok} (fallos: {len(fail)})")
