@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "9b92777363670f06",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ecf3e3bd14d1ac9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22d72705392f5006",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Deltarune Teorías/00 Corcho Principal.canvas",
+                "viewState": {
+                  "x": 1115.0084362396074,
+                  "y": -2888.719079668017,
+                  "zoom": -3.493439042551511
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "00 Corcho Principal"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11665397b3b0a2cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "b284ebc363bc3032",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d690267e1a5f6f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "423bf85b9b71c553",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "c9ae87ef85fc95f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e155fd26966be43",
+    "type": "split",
+    "children": [
+      {
+        "id": "52fe076e323fad88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1892c460993938f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Deltarune Teorías/00 Corcho Principal.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 00 Corcho Principal"
+            }
+          },
+          {
+            "id": "2d2611cc1376a7b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Deltarune Teorías/00 Corcho Principal.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de 00 Corcho Principal"
+            }
+          },
+          {
+            "id": "84beda356f42a8d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "c6984ab45fbe7064",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "7c7efbbc5fb58be1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Deltarune Teorías/00 Corcho Principal.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 00 Corcho Principal"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "22d72705392f5006",
+  "lastOpenFiles": [
+    "Deltarune Teorías/00 Índice.md",
+    "Deltarune Teorías/Conexiones del Corcho.md",
+    "Deltarune Teorías/Objetos del Mundo Oscuro.md",
+    "Deltarune Teorías/Sprites/1406-pipis.png",
+    "Deltarune Teorías/Sprites/Aqua_screenshot_play.png",
+    "Deltarune Teorías/Sprites/Aqua_overworld_three_eyes.png",
+    "Deltarune Teorías/Sprites/alvin_susie_discover_gerson_dust.webp",
+    "Deltarune Teorías/Sprites/alvin_in_the_grave_of_his_father.png",
+    "Deltarune Teorías/Sprites/86374-and-sans-undertale-black-line-white-sprite.png",
+    "Deltarune Teorías/Sprites/800px-No_Hat_Ralsei_Plush_merch.png.webp",
+    "Deltarune Teorías/Sprites/7_Colored_Flowers_screenshot_sword_clash.png",
+    "Deltarune Teorías/00 Corcho Principal.canvas"
+  ]
+}

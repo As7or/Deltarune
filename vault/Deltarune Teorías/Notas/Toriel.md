@@ -111,6 +111,9 @@ confianza: oficial
 > ![[Toriel_and_Rudy_overworld_fruit_juice.gif]]
 > *Toriel y Rudy compartiendo un zumo de frutas — todavía buenos amigos pese a los años.*
 
+> [!quote]- Carol
+> Familias amigas desde hace años —celebraban juntos las Navidades, cuando Kris, Asriel, Dess y Noelle eran pequeños—, pero es la única relación de las dos familias que no se ha reconciliado con el tiempo: en el Cap.4, cuando Rudy se refiere a Carol como su "mujer", Toriel corrige diciendo "tu esposa..." con un tono notablemente frío, y en esa misma escena admite estar "agradecida" por su ayuda económica a Asgore sin ningún entusiasmo real. [[Carol]]
+
 > [!quote]- Alphys
 > Amiga y compañera en el colegio; suele preguntarle cómo va Kris en clase y si ha estado "haciendo algo raro". Alphys también le cuenta cosas sobre Susie, incluida su costumbre de comerse las tizas, lo que lleva a Toriel a pedirle a Kris que no deje que esa costumbre les "influya". [[Alphys]]
 
@@ -135,6 +138,7 @@ confianza: oficial
 - [[Rudy]]
 - [[Susie]]
 - [[Alphys]]
+- [[Carol]]
 
 ## Submapa
 [[Submapas/Toriel.canvas|Abrir submapa gráfico]]

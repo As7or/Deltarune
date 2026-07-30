@@ -56,6 +56,9 @@ confianza: oficial
 > [!quote]- Rudy
 > Su esposo. Se conocieron cuando él le soltó que era *"a HOT piece of work"* — ella lo dejó inconsciente de una bofetada, y aun así se casaron y tuvieron a Dess y Noelle. La anécdota no se ve en pantalla: Kris la escucha de refilón en el Hospital, cuando Rudy se la cuenta a Noelle mientras ella está de visita (accesible ya desde el Cap.1-2). [[Rudy]]
 
+> [!quote]- Toriel
+> Familias amigas desde hace años, pero la única relación de las dos familias que no se ha reconciliado con el tiempo — en el Cap.4, Toriel corrige a Rudy con frialdad cuando este llama a Carol "su mujer" delante de ella, y solo admite estar "agradecida" por su ayuda económica a Asgore sin ningún entusiasmo real. [[Toriel]]
+
 > [!quote]- Dess
 > Su hija mayor, desaparecida antes del juego. Mantiene su habitación intacta, y su insistencia en preservar las cosas importantes se lee como una forma de no soltarla del todo. [[Dess]]
 
@@ -138,6 +141,7 @@ confianza: oficial
 - [[Asgore]]
 - [[Roaring Knight]]
 - [[Susie]]
+- [[Toriel]]
 
 ## Submapa
 [[Submapas/Carol.canvas|Abrir submapa gráfico]]
