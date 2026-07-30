@@ -1,0 +1,593 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Profecía — el texto que lo anuncia todo\n\nTapices del Santuario Oscuro (Cap.4): Fragmentos, duelo con el Knight, sacrificio final.",
+			"x": -190,
+			"y": -80,
+			"width": 400,
+			"height": 220,
+			"color": "6"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Frase de Gaster**\n'Sombras cortando profundo' — casi cita literal suya.",
+			"x": -130,
+			"y": -538,
+			"width": 270,
+			"height": 150,
+			"color": "1"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Roaring Knight**\nEl antagonista que anuncia el propio texto.",
+			"x": 320,
+			"y": 164,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Routes**\nCada ruta oculta reinterpreta el sacrificio.",
+			"x": -580,
+			"y": 164,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Profecy.gif",
+			"x": -960,
+			"y": -207,
+			"width": 190,
+			"height": 190
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/gaster.png",
+			"x": -129,
+			"y": -938,
+			"width": 74,
+			"height": 190
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/TheRoaringKnightDeltarune.webp",
+			"x": 669,
+			"y": 306,
+			"width": 166,
+			"height": 190
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/routes.png",
+			"x": -920,
+			"y": 303,
+			"width": 190,
+			"height": 190
+		},
+		{
+			"id": "s_gerson",
+			"type": "text",
+			"text": "**Gerson Boom — \"La Tortuga\"** Un tapiz descartado lo nombra forjador del hacha mágica; su saga \"Lord of the Hammer\" refleja capítulo a capítulo la propia estructura de Deltarune.",
+			"x": -580,
+			"y": -300,
+			"width": 280,
+			"height": 170,
+			"color": "3"
+		},
+		{
+			"id": "s_gerson-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/gerson-grave.png",
+			"x": -580,
+			"y": -510,
+			"width": 166,
+			"height": 180
+		},
+		{
+			"id": "s_angel",
+			"type": "text",
+			"text": "**Ángel (Jugador)**\nEl \"Cielo del Ángel\" que hay que desterrar según la Profecía es una de las conexiones más directas del texto con la propia figura del Jugador. Vidrieras 14-15.",
+			"x": -1400,
+			"y": 700,
+			"width": 300,
+			"height": 210,
+			"color": "3"
+		},
+		{
+			"id": "s_angel-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp",
+			"x": -1400,
+			"y": 510,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_titan",
+			"type": "text",
+			"text": "**Titan**\nVidriera 04: primera mención textual directa del Rugido y los Titanes, antes incluso de que Ralsei lo explique en el Cap.2.",
+			"x": -1060,
+			"y": 700,
+			"width": 300,
+			"height": 210,
+			"color": "4"
+		},
+		{
+			"id": "s_titan-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Titan_battle_idle.gif",
+			"x": -1060,
+			"y": 510,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_susie",
+			"type": "text",
+			"text": "**Susie**\nVidriera 12: el Segundo Héroe es \"la Chica, con esperanza cruzada en el corazón\" — base de la teoría de si es ella. También rompe un tapiz con la mano.",
+			"x": -720,
+			"y": 700,
+			"width": 300,
+			"height": 210,
+			"color": "3"
+		},
+		{
+			"id": "s_susie-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Susie_artwork.png",
+			"x": -720,
+			"y": 510,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_kris",
+			"type": "text",
+			"text": "**Kris**\nVidriera 09: el Primer Héroe es \"la Jaula, con ALMA y partes humanas\" — clave para las teorías sobre su naturaleza.",
+			"x": -380,
+			"y": 700,
+			"width": 300,
+			"height": 210,
+			"color": "3"
+		},
+		{
+			"id": "s_kris-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_artwork.png",
+			"x": -380,
+			"y": 510,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_jockington",
+			"type": "text",
+			"text": "**Jockington**\nVidriera 21: \"Jockington se deja crecer la barba\" — el único personaje mencionado por su nombre propio en toda la Profecía.",
+			"x": -40,
+			"y": 700,
+			"width": 300,
+			"height": 210,
+			"color": "4"
+		},
+		{
+			"id": "s_jockington-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Jockington_overworld.webp",
+			"x": -40,
+			"y": 510,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_dess",
+			"type": "text",
+			"text": "**Dess**\nVidriera 16: el cuchillo negro del Caballero, el mismo objeto de la teoría \"¿Es Dess el Caballero Rugiente?\".",
+			"x": -1400,
+			"y": 1050,
+			"width": 300,
+			"height": 210,
+			"color": "3"
+		},
+		{
+			"id": "s_dess-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Dess.png",
+			"x": -1400,
+			"y": 860,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_queen",
+			"type": "text",
+			"text": "**Queen**\nVidriera 18: \"El carro de la Reina\" — confirmado, la imagen la muestra literalmente dentro de su coche del Mundo Cíber.",
+			"x": -1060,
+			"y": 1050,
+			"width": 300,
+			"height": 210,
+			"color": "4"
+		},
+		{
+			"id": "s_queen-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Queen_deltarune.webp",
+			"x": -1060,
+			"y": 860,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_lancer",
+			"type": "text",
+			"text": "**Lancer**\nVidriera 22: \"el de cabeza puntiaguda\" — lectura razonada por su diseño. Sin confirmar.",
+			"x": -380,
+			"y": 1050,
+			"width": 300,
+			"height": 210,
+			"color": "1"
+		},
+		{
+			"id": "s_lancer-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Lancer_Overworld.webp",
+			"x": -380,
+			"y": 860,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_tenna",
+			"type": "text",
+			"text": "**Tenna**\nVidriera 19: es él, \"el Señor de las Pantallas\" — cortado (los brazos) por el Caballero tras derrotarlo en el Cap.3.",
+			"x": -40,
+			"y": 1050,
+			"width": 300,
+			"height": 210,
+			"color": "4"
+		},
+		{
+			"id": "s_tenna-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Tenna_Overworld_gif.gif",
+			"x": -40,
+			"y": 860,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_friend",
+			"type": "text",
+			"text": "**FRIEND**\nVidriera 15: apodado por el fandom \"la Cola del Infierno\". Sin confirmar.",
+			"x": -1400,
+			"y": 1400,
+			"width": 300,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s_friend-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/FRIEND.png",
+			"x": -1400,
+			"y": 1210,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_asgore2",
+			"type": "text",
+			"text": "**Asgore**\nVidriera 20: \"El Hombre Flor, atrapado en el asilo\" — confirmado como antagonista del Cap.5.",
+			"x": -1060,
+			"y": 1400,
+			"width": 300,
+			"height": 200,
+			"color": "4"
+		},
+		{
+			"id": "s_asgore2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Asgore_Dreemurr_overworld.webp",
+			"x": -1060,
+			"y": 1210,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s_shelter",
+			"type": "text",
+			"text": "**Shelter**\n\"Asilo\" = refugio — posible anticipo de esta zona.",
+			"x": -720,
+			"y": 1400,
+			"width": 300,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s_shelter-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Shelter.png",
+			"x": -720,
+			"y": 1210,
+			"width": 180,
+			"height": 170
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e_gerson",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s_gerson",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e_s_gerson-img",
+			"fromNode": "s_gerson-img",
+			"fromSide": "bottom",
+			"toNode": "s_gerson",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_angel",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_angel",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_angel-img",
+			"fromNode": "s_angel-img",
+			"fromSide": "bottom",
+			"toNode": "s_angel",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_titan",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_titan",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_titan-img",
+			"fromNode": "s_titan-img",
+			"fromSide": "bottom",
+			"toNode": "s_titan",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_susie",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_susie",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_susie-img",
+			"fromNode": "s_susie-img",
+			"fromSide": "bottom",
+			"toNode": "s_susie",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_kris",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_kris",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_kris-img",
+			"fromNode": "s_kris-img",
+			"fromSide": "bottom",
+			"toNode": "s_kris",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_jockington",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_jockington",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_jockington-img",
+			"fromNode": "s_jockington-img",
+			"fromSide": "bottom",
+			"toNode": "s_jockington",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_dess",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_dess",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_dess-img",
+			"fromNode": "s_dess-img",
+			"fromSide": "bottom",
+			"toNode": "s_dess",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_queen",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_queen",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_queen-img",
+			"fromNode": "s_queen-img",
+			"fromSide": "bottom",
+			"toNode": "s_queen",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_lancer",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_lancer",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s_lancer-img",
+			"fromNode": "s_lancer-img",
+			"fromSide": "bottom",
+			"toNode": "s_lancer",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s_tenna",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_tenna",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_tenna-img",
+			"fromNode": "s_tenna-img",
+			"fromSide": "bottom",
+			"toNode": "s_tenna",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_friend",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_friend",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_friend-img",
+			"fromNode": "s_friend-img",
+			"fromSide": "bottom",
+			"toNode": "s_friend",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_asgore2",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_asgore2",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_asgore2-img",
+			"fromNode": "s_asgore2-img",
+			"fromSide": "bottom",
+			"toNode": "s_asgore2",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s_shelter",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_shelter",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_shelter-img",
+			"fromNode": "s_shelter-img",
+			"fromSide": "bottom",
+			"toNode": "s_shelter",
+			"toSide": "top",
+			"color": "3"
+		}
+	]
+}

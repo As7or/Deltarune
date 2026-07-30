@@ -1,0 +1,479 @@
+{
+	"nodes": [
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Orange — Valentía**\nUna ratoncita boxeadora que esconde su miedo real bajo una fachada dura; \"hermana pequeña\" de Flowery, con subtrama propia junto a Pink.",
+			"x": -440,
+			"y": -160,
+			"width": 280,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Seth — Perseverancia**\nIntelectual con gafas que idolatra a Berdly como \"genio aviar\" — llega a imitar sus poses y negocia con Kris a cambio de una de sus plumas.",
+			"x": -660,
+			"y": -500,
+			"width": 280,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Aqua — Paciencia**\nLa más infantil e impulsiva; se lo toma todo como un juego, incluido su propio combate. Ataca con cuchillos.",
+			"x": -480,
+			"y": -840,
+			"width": 280,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Yellow — Justicia**\nVaquero crédulo que se autocastiga por crímenes que no cometió; reparte una llave en el Castillo de las Flores.",
+			"x": 50,
+			"y": -940,
+			"width": 280,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# 7 Flores de Colores\n🌸 El ramo de bodas de Asgore y Toriel, cobrando vida en el Mundo Oscuro del Cap.5 — seis de ellas espejan las ALMAs humanas de Undertale.",
+			"x": 10,
+			"y": -540,
+			"width": 380,
+			"height": 170,
+			"color": "3"
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**Blue — Integridad**\nBailarín elegante, pareja de Yellow (\"cariño\"); moral algo flexible pero siempre busca igualar las cosas al final.",
+			"x": 600,
+			"y": -850,
+			"width": 280,
+			"height": 210,
+			"color": "3"
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Green — Bondad**\nCocinero tranquilo y práctico; sus ataques son literalmente comida que cura al grupo.",
+			"x": 740,
+			"y": -470,
+			"width": 280,
+			"height": 190,
+			"color": "3"
+		},
+		{
+			"id": "s6",
+			"type": "text",
+			"text": "**Flowery**\nSu \"hermano\" y líder — la séptima flor, sin virtud humana asociada, que las convoca a todas para el combate final del Cap.5.",
+			"x": 680,
+			"y": -120,
+			"width": 280,
+			"height": 200,
+			"color": "4"
+		},
+		{
+			"id": "s6-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Flowery_battle_idle.gif",
+			"x": 740,
+			"y": 80,
+			"width": 158,
+			"height": 170
+		},
+		{
+			"id": "s7",
+			"type": "text",
+			"text": "**Asgore**\nLas cuidó durante años mucho más allá de su vida natural, por puro cariño hacia el ramo de su boda con Toriel.",
+			"x": -460,
+			"y": 250,
+			"width": 280,
+			"height": 200,
+			"color": "4"
+		},
+		{
+			"id": "s7-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Asgore_Dreemurr_overworld.webp",
+			"x": -420,
+			"y": 450,
+			"width": 120,
+			"height": 170
+		},
+		{
+			"id": "s8",
+			"type": "text",
+			"text": "**Berdly**\nSeth lo idolatra como el \"genio aviar\" al que aspira a parecerse.",
+			"x": -880,
+			"y": -160,
+			"width": 280,
+			"height": 180,
+			"color": "4"
+		},
+		{
+			"id": "s8-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Berdly_battle_intro.gif",
+			"x": -840,
+			"y": 20,
+			"width": 200,
+			"height": 112
+		},
+		{
+			"id": "s9",
+			"type": "text",
+			"text": "**Kris**\nYa hablaba con la versión Mundo Claro de Seth mucho antes del Cap.5, negociando su ayuda a cambio de una pluma de Berdly.",
+			"x": 20,
+			"y": 165,
+			"width": 280,
+			"height": 200,
+			"color": "4"
+		},
+		{
+			"id": "s9-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_artwork.png",
+			"x": 60,
+			"y": 365,
+			"width": 200,
+			"height": 122
+		},
+		{
+			"id": "s10",
+			"type": "text",
+			"text": "**¿Por qué Flowery no representa ninguna virtud humana?**\nLas otras seis calcan las 6 ALMAs humanas de Undertale, pero Flowery apunta directamente a Flowey — reforzando su naturaleza corrupta frente a sus \"hermanas\".",
+			"x": 539,
+			"y": 450,
+			"width": 280,
+			"height": 230,
+			"color": "1"
+		},
+		{
+			"id": "s11-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Noelle_overworld.png",
+			"x": 128,
+			"y": -1440,
+			"width": 85,
+			"height": 170
+		},
+		{
+			"id": "s11",
+			"type": "text",
+			"text": "**¿Noelle = llave, como Yellow?**\nEn la Ruta de la Espada (Cap.3), el White Cloak que la representa se \"usa\" en una puerta igual que la Llave de Hielo — \"She was used up\", igual que la llave. Conecta con Yellow vía el chiste \"Just-Ice\" de Undertale.",
+			"x": 10,
+			"y": -1295,
+			"width": 320,
+			"height": 250,
+			"color": "1"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Aqua_battle_idle.gif",
+			"x": -480,
+			"y": -1030,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Seth_battle_idle.gif",
+			"x": -660,
+			"y": -690,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Orange_battle_idle.gif",
+			"x": -440,
+			"y": -350,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Green_battle_idle.gif",
+			"x": 740,
+			"y": -660,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Yellow_battle_idle.gif",
+			"x": 50,
+			"y": -1130,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "s5-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Blue_battle_idle.gif",
+			"x": 600,
+			"y": -1040,
+			"width": 180,
+			"height": 170
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/7_Colored_Flowers_screenshot_enemies.png",
+			"x": 10,
+			"y": -760,
+			"width": 260,
+			"height": 200
+		},
+		{
+			"id": "s12",
+			"type": "text",
+			"text": "**Mad Mew Mew (Pink)**\nComparten el Diner del Reino de las Flores, donde se puede invitar a distintos personajes a una cita/conversación tras derrotarla como jefe secreto. Orange la visita ahí y la llama \"hermana mayor\".",
+			"x": -440,
+			"y": 240,
+			"width": 300,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "s12-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Flower_Tea_Time_screenshot_Pink_welcome.png",
+			"x": -440,
+			"y": 470,
+			"width": 220,
+			"height": 170
+		}
+	],
+	"edges": [
+		{
+			"id": "e_s0",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s1",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s2",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s3",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s4",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s5",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s6",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s6",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s7",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s7",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s8",
+			"fromNode": "s1",
+			"fromSide": "bottom",
+			"toNode": "s8",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s9",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s9",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s10",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s10",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s6-img",
+			"fromNode": "s6-img",
+			"fromSide": "bottom",
+			"toNode": "s6",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s7-img",
+			"fromNode": "s7-img",
+			"fromSide": "bottom",
+			"toNode": "s7",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s8-img",
+			"fromNode": "s8-img",
+			"fromSide": "bottom",
+			"toNode": "s8",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s9-img",
+			"fromNode": "s9-img",
+			"fromSide": "bottom",
+			"toNode": "s9",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s11",
+			"fromNode": "s4",
+			"fromSide": "right",
+			"toNode": "s11",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s11-img",
+			"fromNode": "s11-img",
+			"fromSide": "bottom",
+			"toNode": "s11",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "6f9123cd18218ec3",
+			"fromNode": "s6",
+			"fromSide": "left",
+			"toNode": "s10",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s0-img",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s1-img",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s2-img",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s3-img",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s4-img",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s5-img",
+			"fromNode": "s5-img",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_center-img",
+			"fromNode": "center-img",
+			"fromSide": "bottom",
+			"toNode": "center",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s12",
+			"fromNode": "s2",
+			"fromSide": "bottom",
+			"toNode": "s12",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s12-img",
+			"fromNode": "s12-img",
+			"fromSide": "bottom",
+			"toNode": "s12",
+			"toSide": "top",
+			"color": "4"
+		}
+	]
+}

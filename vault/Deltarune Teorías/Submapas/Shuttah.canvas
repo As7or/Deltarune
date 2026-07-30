@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Shuttah — el jefe-cámara del Tablero de la Isla\nMiniboss del Cap.3: rostro con boca de carrete y ojos en las manos. Sus fotos son, por diseño, en blanco y negro — 'memorias en gris'.","x":-190,"y":-80,"width":400,"height":220,"color":"6"},
+		{"id":"s0","type":"text","text":"**Kris** Usa la Cámara para derrotarlo/fotografiarlo en el Tablero de la Isla — su recluta se llama 'Copia'.","x":-130,"y":-538,"width":270,"height":170,"color":"3"},
+		{"id":"s1","type":"text","text":"**Gaster** Cortina tipo True Lab antes del combate; mismo campo temático de gris/monocromía que los Seguidores y el Vessel.","x":390,"y":-70,"width":270,"height":170,"color":"1"},
+		{"id":"s2","type":"text","text":"**Envidia de Kris (verde/gris)** Sus fotos grises hasta que el grupo le devuelve el color — mismo código visual que el cuarto de Kris/Asriel.","x":-130,"y":398,"width":270,"height":170,"color":"1"},
+		{"id":"s3","type":"text","text":"**TV World / Green Room** Aparece tras una cortina junto al Green Room; recuerda la época sin Fuente Oscura y conoce la Isla Olvidada.","x":-650,"y":-70,"width":270,"height":170,"color":"3"},
+		{"id":"center-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Shuttah_battle_idle.gif","x":-190,"y":-380,"width":194,"height":260},
+		{"id":"s0-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Kris_artwork.png","x":-130,"y":-748,"width":240,"height":146},
+		{"id":"s1-img","type":"file","file":"vault/Deltarune Teorías/Sprites/gaster.png","x":390,"y":-280,"width":70,"height":180}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"3"},
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"1"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"1"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"3"},
+		{"id":"e_center-img","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"4"},
+		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
+		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"1"}
+	]
+}

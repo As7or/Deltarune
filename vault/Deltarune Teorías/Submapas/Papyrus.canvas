@@ -1,0 +1,139 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"x": -190,
+			"y": -105,
+			"width": 420,
+			"height": 220,
+			"color": "6",
+			"text": "# Papyrus\n🦴 Hermano pequeño de Sans; vive con él en una casa al este de la tienda de comestibles, en Hometown."
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"x": -130,
+			"y": -640,
+			"width": 280,
+			"height": 210,
+			"color": "6",
+			"text": "**Sans**\nSu hermano mayor, con quien se instala en Hometown justo antes del inicio del juego."
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"x": 420,
+			"y": -260,
+			"width": 280,
+			"height": 210,
+			"color": "6",
+			"text": "**Gaster (W. D. Gaster)**\nComparte con Sans la misma ausencia total en pantalla, y la misma naturaleza de \"personaje-misterio\" construido enteramente a partir de referencias indirectas."
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"x": 420,
+			"y": 220,
+			"width": 280,
+			"height": 240,
+			"color": "1",
+			"text": "**¿Dónde está?**\nLa pregunta abierta más citada sobre Papyrus."
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"x": -130,
+			"y": 480,
+			"width": 280,
+			"height": 240,
+			"color": "1",
+			"text": "**¿Confunde a Flowey con [[Flowery]]?**\nIdea especulativa (no documentada en el juego, pura hipótesis de fan encajando con su personaje de Undertale): dado que en Undertale Papyrus mostraba cierto interés distraído por Flowey sin darle mayor importancia,…"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Papyrus_sprite1.webp",
+			"x": -190,
+			"y": -405,
+			"width": 260,
+			"height": 260
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/86374-and-sans-undertale-black-line-white-sprite.png",
+			"x": -130,
+			"y": -850,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/gaster.png",
+			"x": 420,
+			"y": -470,
+			"width": 240,
+			"height": 180
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s1",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "top",
+			"toNode": "s3",
+			"toSide": "bottom",
+			"color": "1"
+		},
+		{
+			"id": "e_center-img",
+			"fromNode": "center-img",
+			"fromSide": "bottom",
+			"toNode": "center",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s0-img",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s1-img",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "3"
+		}
+	]
+}

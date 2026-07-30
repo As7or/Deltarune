@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Susie — de matona a heroína\n\nSegunda heroína de la Profecía. Grosera por fuera, leal y observadora por dentro. Vida familiar sin confirmar, pero con muchas señales de precariedad.","x":-180,"y":-70,"width":380,"height":210,"color":"6"},
+		{"id":"s0","type":"text","text":"**Posible vida familiar dura**\nNo reconoce el concepto de 'su propia habitación'; come cualquier cosa; no llama a sus padres.","x":-130,"y":-520,"width":270,"height":150,"color":"1"},
+		{"id":"s1","type":"text","text":"**Kris**\nDe la hostilidad inicial al vínculo más fuerte del grupo hacia el Cap.4.","x":346,"y":-209,"width":270,"height":150,"color":"3"},
+		{"id":"s2","type":"text","text":"**Ralsei**\nLe enseña sarcasmo, él le enseña magia curativa. El dúo más cómplice.","x":164,"y":294,"width":270,"height":150,"color":"3"},
+		{"id":"s3","type":"text","text":"**Noelle**\nSe hacen pareja a lo largo de los Caps 2-5.","x":-424,"y":294,"width":270,"height":150,"color":"4"},
+		{"id":"s4","type":"text","text":"**Destruye la última Profecía**\nCon sus propias manos, sangrando — la escena más citada de su arco.","x":-606,"y":-209,"width":270,"height":150,"color":"4"},
+		{"id":"s6","type":"text","text":"**¿Sospecha que Kris es el Knight?**\nEn el Cap.5 es Kris quien crea la Fuente tras la floristería. Susie no lo ve, pero ya desconfiaba desde el Cap.4. Teoría de fans (\"Kris-Knight theory\"), no confirmada.","x":346,"y":-450,"width":270,"height":180,"color":"1"},
+		{"id":"s0-img","type":"file","file":"vault/Deltarune Teorías/Sprites/susie_room.png","x":-129,"y":-920,"width":226,"height":190},
+		{"id":"s2-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_and_Ralsei_screenshot_spotlight.png","x":418,"y":561,"width":253,"height":190},
+		{"id":"s3-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_carrying_Noelle.webp","x":-672,"y":557,"width":259,"height":146},
+		{"id":"s4-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_screenshot_bleeding.png","x":-960,"y":-355,"width":253,"height":190},
+		{"id":"s6-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_and_Knight_overworld_clash.gif","x":642,"y":-699,"width":202,"height":190},
+		{"id":"center-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_artwork.png","x":-765,"y":0,"width":159,"height":190},
+		{"id":"s5","type":"text","text":"**¿Es ella \"la chica\" del final de la Profecía?**\nEl símbolo del Rude Buster que acompaña esa parte también decora la alfombra de su cuarto. Teoría de fans — contrateoría: sería Noelle (espada/lápices).","x":-540,"y":-506,"width":270,"height":180,"color":"1"},
+		{"id":"s5-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_screenshot_eye_reveal.png","x":-793,"y":-760,"width":253,"height":190},
+		{"id":"s_toriel","type":"text","text":"**Toriel** Le cuenta a Tenna (Cap.3) que la consoló llorando sola en un banco del cementerio al llegar a Hometown — el origen real de su confianza en ella.","x":700,"y":300,"width":270,"height":170,"color":"3"},
+		{"id":"s1-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_and_Kris_overworld_knife_reveal.gif","x":615,"y":-183,"width":171,"height":124},
+		{"id":"s_manzana","type":"text","text":"**La escena de la manzana (relato de Noelle)** Amenaza a Kris de niña y este \"contesta\" solo moviendo los labios — Susie sale huyendo aterrorizada. Pista temprana del Vessel, previa al Cap.1.","x":700,"y":-40,"width":270,"height":180,"color":"1"},
+		{"id":"s_toriel-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Toriel_Overworld.webp","x":700,"y":90,"width":91,"height":180}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"1"},
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"3"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"4"},
+		{"id":"e4","fromNode":"center","fromSide":"left","toNode":"s4","toSide":"right","color":"4"},
+		{"id":"e5","fromNode":"s4","fromSide":"top","toNode":"s5","toSide":"bottom","color":"1"},
+		{"id":"e6","fromNode":"s1","fromSide":"top","toNode":"s6","toSide":"bottom","color":"1"},
+		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
+		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
+		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
+		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
+		{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
+		{"id":"s4-img-e","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"6"},
+		{"id":"s5-img-e","fromNode":"s5-img","fromSide":"bottom","toNode":"s5","toSide":"top","color":"6"},
+		{"id":"s6-img-e","fromNode":"s6-img","fromSide":"bottom","toNode":"s6","toSide":"top","color":"6"},
+		{"id":"e_toriel","fromNode":"center","fromSide":"right","toNode":"s_toriel","toSide":"left","color":"3"},
+		{"id":"e_manzana","fromNode":"center","fromSide":"right","toNode":"s_manzana","toSide":"left","color":"1"},
+		{"id":"e_s_toriel-img","fromNode":"s_toriel-img","fromSide":"bottom","toNode":"s_toriel","toSide":"top","color":"3"}
+	]
+}

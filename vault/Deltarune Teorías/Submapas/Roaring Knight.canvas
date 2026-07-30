@@ -1,0 +1,322 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Roaring Knight — el Caballero enmascarado\n\nSirve a 'The Roaring'. Susie confirma que es un Lightner tras verlo de noche.",
+			"x": -190,
+			"y": -80,
+			"width": 400,
+			"height": 220,
+			"color": "6"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Profecía**\nAntagonista directo del texto profético.",
+			"x": 390,
+			"y": -70,
+			"width": 270,
+			"height": 150,
+			"color": "1"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**King**\nRecibe de Jevil la idea de su 'genialidad' y una vía al poder.",
+			"x": -130,
+			"y": 398,
+			"width": 270,
+			"height": 150,
+			"color": "1"
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/King_Battle (2).gif",
+			"x": -129,
+			"y": 758,
+			"width": 190,
+			"height": 190
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Profecy.gif",
+			"x": 430,
+			"y": -440,
+			"width": 190,
+			"height": 190
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Dess**\nTeoría dominante: es ella bajo la máscara.",
+			"x": -1480,
+			"y": 513,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Dess.png",
+			"x": -1525,
+			"y": 30,
+			"width": 91,
+			"height": 190
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**¿Ciervo negro o monstruo negro?** Podrían ser dos pistas distintas: el ciervo negro = Dess 'atrapada en los archivos'; el monstruo negro de la Ruta Rara (misma silueta que Toriel/Asgore jefe) = el propio Caballero. Sin confirmar.",
+			"x": -772,
+			"y": 758,
+			"width": 270,
+			"height": 190,
+			"color": "1"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/TheRoaringKnightDeltarune.webp",
+			"x": -73,
+			"y": -270,
+			"width": 166,
+			"height": 190
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Knight_screenshot_Asgore_captured.png",
+			"x": -620,
+			"y": -560,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Cliffhanger Cap.4**\nSecuestra a Undyne y huye al Shelter; las puertas se cierran.",
+			"x": -600,
+			"y": -230,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Asriel** Teoría alternativa real (no solo especulación): bate 'wiffle' = objeto descartado \"Asriel's Bat\" de UT; ataques que evitan/suavizan el daño a Kris; gestos de pose compartidos; favorito de Tenna cambia a \"Sword Magician\". En contra: los cuernos recuerdan más a los Holiday que a un Dreemurr.",
+			"x": 800,
+			"y": 528,
+			"width": 300,
+			"height": 230,
+			"color": "1"
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/asriel_roaringknight.webp",
+			"x": 875,
+			"y": 138,
+			"width": 151,
+			"height": 190
+		},
+		{
+			"id": "s6",
+			"type": "text",
+			"text": "**Complicidad de Kris**\nEl Knight tiene patrones de ataque diseñados para no dañar (o dañar mucho menos) a Kris, mientras noquea con normalidad a Ralsei y Susie — sugiere que Kris coopera de algún modo con el Knight.",
+			"x": 800,
+			"y": -350,
+			"width": 300,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "s6-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/kris_Knight_overworld_knighting.gif",
+			"x": 875,
+			"y": -580,
+			"width": 200,
+			"height": 149
+		},
+		{
+			"id": "s_patron_deliberado",
+			"type": "text",
+			"text": "**¿Un patrón deliberado, o casualidad?**\nTres intentos, tres miembros de la familia Dreemurr/su círculo cercano (Toriel, Undyne, Asgore). ¿Busca silenciar a alguien que \"sabe demasiado\", o los secuestros apuntan específicamente a esta familia desde el principio?",
+			"x": -1525,
+			"y": 1028,
+			"width": 320,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s_carol_rudy",
+			"type": "text",
+			"text": "**Carol y Rudy Holiday**\nEspeculación mucho más débil que la de Dess o Asriel, sin apenas evidencia textual directa — se menciona más como posibilidad remota que como teoría con peso propio.",
+			"x": -1185,
+			"y": 1028,
+			"width": 320,
+			"height": 200,
+			"color": "1"
+		},
+		{
+			"id": "s_carol_rudy-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Carol_Holiday.webp",
+			"x": -1185,
+			"y": 818,
+			"width": 240,
+			"height": 180
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s3",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "top",
+			"toNode": "s2",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "s3-img-e",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s4",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "s4-img-e",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e5",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s5",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e-s0-s5",
+			"fromNode": "s0",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e6",
+			"fromNode": "center",
+			"fromSide": "top",
+			"toNode": "s6",
+			"toSide": "bottom",
+			"color": "3"
+		},
+		{
+			"id": "s6-img-e",
+			"fromNode": "s6-img",
+			"fromSide": "bottom",
+			"toNode": "s6",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e_s_patron_deliberado",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_patron_deliberado",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_carol_rudy",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_carol_rudy",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s_carol_rudy-img",
+			"fromNode": "s_carol_rudy-img",
+			"fromSide": "bottom",
+			"toNode": "s_carol_rudy",
+			"toSide": "top",
+			"color": "1"
+		}
+	]
+}

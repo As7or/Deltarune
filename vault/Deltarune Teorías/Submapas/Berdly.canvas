@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Berdly — de villano a aliado\n\nAntagonista secundario del Cap.2, aliado de Queen. Decisivo para derrotarla. Su arco depende sobre todo de cómo trata el jugador a Noelle a lo largo del capítulo.","x":-180,"y":-70,"width":380,"height":220,"color":"6"},
+		{"id":"s1","type":"text","text":"**Noelle**\nSu única amiga real desde la infancia; depende de ella para estudiar más de lo que admite en público.","x":346,"y":-209,"width":270,"height":150,"color":"4"},
+		{"id":"s2","type":"text","text":"**Queen**\nAliado en el Cap.2 para construir la 'Smartopia'; ella termina controlándolo a la fuerza cuando se le va de las manos.","x":164,"y":294,"width":270,"height":170,"color":"4"},
+		{"id":"s3","type":"text","text":"**Susie**\nSe enamora de ella tras que le asegure que le da igual si es listo o tonto — la apoda 'Gamer Girl'.","x":-424,"y":294,"width":270,"height":150,"color":"4"},
+		{"id":"s4","type":"text","text":"**¿Qué esconde su brazo paralizado?**\nEn el Cap.4 menciona tener una teoría propia que descarta por 'irracional', sin explicarla.","x":-606,"y":-209,"width":270,"height":160,"color":"1"},
+		{"id":"s0-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Berdly_overworld_frozen.png","x":-129,"y":-928,"width":125,"height":190},
+		{"id":"s1-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Noelle_overworld_Berdly_shake.gif","x":707,"y":-361,"width":178,"height":190},
+		{"id":"s2-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Berdly_joining_queen.png","x":416,"y":573,"width":253,"height":190},
+		{"id":"s3-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Susie_overworld_eyes.png","x":-675,"y":555,"width":108,"height":190},
+		{"id":"s4-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Berdly_overworld_broken_arm.png","x":-606,"y":-463,"width":95,"height":190},
+		{"id":"center-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Berdly_battle_intro.gif","x":-125,"y":-215,"width":259,"height":145},
+		{"id":"s0","type":"text","text":"**Ruta Rara — Snowgrave**\nCongelado por Noelle con SnowGrave en el Cap.2; puede quedar en coma en el hospital durante todo el Cap.4 si la ruta sigue activa.","x":-66,"y":-633,"width":270,"height":170,"color":"4"},
+		{"id":"1396a7b7e134bd2f","type":"file","file":"vault/Deltarune Teorías/Sprites/Berdly_overworld_hospital_comatose.png","x":135,"y":-928,"width":119,"height":182}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"4"},
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"4"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"4"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"4"},
+		{"id":"e4","fromNode":"center","fromSide":"left","toNode":"s4","toSide":"right","color":"1"},
+		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
+		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
+		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
+		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"bottom","color":"6"},
+		{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
+		{"id":"s4-img-e","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"6"},
+		{"id":"839fea810672e7df","fromNode":"1396a7b7e134bd2f","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"}
+	]
+}

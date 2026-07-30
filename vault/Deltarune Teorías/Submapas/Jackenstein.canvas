@@ -1,0 +1,236 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"x": -190,
+			"y": -105,
+			"width": 420,
+			"height": 220,
+			"color": "6",
+			"text": "# Jackenstein\n🎃 Encontrado en la biblioteca del Santuario Oscuro (Cap.4); su combate se libra en completa oscuridad."
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"x": -640,
+			"y": -105,
+			"width": 220,
+			"height": 190,
+			"file": "vault/Deltarune Teorías/Sprites/Jackenstein_overworld_Halloween_decoration.png"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"x": -130,
+			"y": -640,
+			"width": 280,
+			"height": 210,
+			"color": "1",
+			"text": "**Kris**\nEs el ALMA de Kris —no la del Jugador— la que emite la luz necesaria para vencerlo; el propio combate se usa narrativamente para remarcar que ambas almas son cosas distintas."
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"x": 420,
+			"y": -260,
+			"width": 280,
+			"height": 210,
+			"color": "1",
+			"text": "**Susie**\nEs la única capaz de curarlo del todo, tras el ánimo del Viejo — un pequeño momento de crecimiento personal para su magia."
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"x": 420,
+			"y": 220,
+			"width": 280,
+			"height": 210,
+			"color": "1",
+			"text": "**Gerson Boom**\nComo Old Man, es quien empuja a Susie a intentar curar a Jackenstein cuando los hechizos de Ralsei no bastan — y, según la propia wiki, ambos habrían sido \"excompañeros de piso\" dentro del Santuario."
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"x": -800,
+			"y": 300,
+			"width": 300,
+			"height": 210,
+			"color": "1",
+			"text": "**La cara bajo la máscara**\nEsconde una cara real con forma de vela pequeña, orejas, una antena y ojos como puntos — el motivo real de por qué necesita oscuridad total."
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"x": -800,
+			"y": 80,
+			"width": 170,
+			"height": 190,
+			"file": "vault/Deltarune Teorías/Sprites/Jackenstein_overworld_blush.gif"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"x": 700,
+			"y": -640,
+			"width": 300,
+			"height": 210,
+			"color": "3",
+			"text": "**El laberinto 'No Pumpkin'**\nCinco símbolos (King, Queen, espada, Jack, flor) — la flor apunta al Reino de las Flores del Cap.5, ya confirmado tras su publicación."
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"x": -800,
+			"y": -450,
+			"width": 300,
+			"height": 210,
+			"color": "3",
+			"text": "**Patrón de cartas**\nComo Jevil (Comodín), King y Queen, Jackenstein representa a la Jota (Jack) — el mismo sistema de nombres que el resto de jefes del Reino de las Cartas."
+		},
+		{
+			"id": "s6",
+			"type": "text",
+			"x": 700,
+			"y": 460,
+			"width": 300,
+			"height": 210,
+			"color": "1",
+			"text": "**Cap.5 — Top Bakery**\nPor su tamaño no se le lleva a Castle Town de inmediato; en el Cap.5 aparece trabajando dentro de la Top Bakery."
+		},
+		{
+			"id": "s6-img",
+			"type": "file",
+			"x": 700,
+			"y": 690,
+			"width": 220,
+			"height": 150,
+			"file": "vault/Deltarune Teorías/Sprites/Jackenstein_screenshot_tower_climb.png"
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_artwork.png",
+			"x": -130,
+			"y": -850,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Susie_artwork.png",
+			"x": 420,
+			"y": -470,
+			"width": 240,
+			"height": 180
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/gerson-grave.png",
+			"x": 420,
+			"y": 10,
+			"width": 240,
+			"height": 180
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "top",
+			"toNode": "s0",
+			"toSide": "bottom",
+			"color": "1"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s2",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s3",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e3_img",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s4",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e5",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s5",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e6",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s6",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e6_img",
+			"fromNode": "s6-img",
+			"fromSide": "top",
+			"toNode": "s6",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "e_s0-img",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s1-img",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_s2-img",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "1"
+		}
+	]
+}

@@ -1,0 +1,420 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Kris — Teoría del Vessel\n\n¿Controla Kris su propio cuerpo, o hay alguien más al volante?",
+			"x": -180,
+			"y": -70,
+			"width": 360,
+			"height": 200,
+			"color": "6"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**El ALMA se extrae con normalidad**\nEn Undertale extraer un ALMA era un suceso extremo. En Kris es rutina — ya desde el minuto uno del Cap.1.",
+			"x": -130,
+			"y": -502,
+			"width": 260,
+			"height": 140,
+			"color": "3"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Final del Capítulo 1**\nKris se arranca su propia ALMA y se clava un cuchillo en cuanto pierde el control directo del jugador. Su expresión no coincide con nada que hayas elegido tú.",
+			"x": 286,
+			"y": -286,
+			"width": 260,
+			"height": 140,
+			"color": "1"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**«Tú» controla sus decisiones**\nEl juego trata al jugador como una entidad narrativa aparte de Kris, no como su voz interior — a diferencia de la mayoría de RPGs.",
+			"x": 286,
+			"y": 146,
+			"width": 260,
+			"height": 140,
+			"color": "3"
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Chara (Undertale)**\nSospecha principal sobre quién es «tú»: ya protagonizó una historia sobre controlar a un niño desde fuera en la ruta genocida.",
+			"x": -130,
+			"y": 362,
+			"width": 260,
+			"height": 140,
+			"color": "1"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Ángel (Jugador)**\nEl propio juego juega con la idea de que el jugador es el «Ángel» profetizado — la misma pregunta, otro ángulo.",
+			"x": -546,
+			"y": 146,
+			"width": 260,
+			"height": 140,
+			"color": "3"
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**Ralsei**\nCompañero que insiste en el rol de héroe de Kris — ¿sabe más de lo que aparenta sobre quién controla a su amigo?",
+			"x": -546,
+			"y": -286,
+			"width": 260,
+			"height": 140,
+			"color": "1"
+		},
+		{
+			"id": "s_ch5",
+			"type": "text",
+			"text": "**Capítulo 5 — Ruta Rara**\nPiel verdosa, se resiste a levantarse. Noelle lo guía al lago; quedan sumergidos. 'Insertar Cap.7 Lado B'.",
+			"x": -900,
+			"y": 300,
+			"width": 280,
+			"height": 160,
+			"color": "1"
+		},
+		{
+			"id": "s_hand",
+			"type": "text",
+			"text": "**Teoría de la mano**\nSilueta de la Profecía sin brazo visible + sprites donde el brazo no se dibuja del todo.",
+			"x": 900,
+			"y": 300,
+			"width": 280,
+			"height": 160,
+			"color": "1"
+		},
+		{
+			"id": "s_knight",
+			"type": "text",
+			"text": "**¿Kris es el Knight?**\nAl final del Cap.2 abre una Fuente Oscura él solo, con su propia Determinación.",
+			"x": -900,
+			"y": 300,
+			"width": 290,
+			"height": 165,
+			"color": "3"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_artwork.png",
+			"x": -1280,
+			"y": -95,
+			"width": 260,
+			"height": 158
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_overworld_SOUL.png",
+			"x": -130,
+			"y": -907,
+			"width": 102,
+			"height": 189
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_screenshot_kicking_SOUL.png",
+			"x": 613,
+			"y": -504,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Undertale.png",
+			"x": -130,
+			"y": 717,
+			"width": 190,
+			"height": 190
+		},
+		{
+			"id": "s5-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Ralsei_overworld_hatless.png",
+			"x": -873,
+			"y": -504,
+			"width": 100,
+			"height": 190
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp",
+			"x": -760,
+			"y": -17,
+			"width": 260,
+			"height": 147
+		},
+		{
+			"id": "s_knight-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/kris_Knight_overworld_knighting.gif",
+			"x": -820,
+			"y": 634,
+			"width": 255,
+			"height": 190
+		},
+		{
+			"id": "s_ch5-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/kriss_Weird_Route_screenshot_Chapter_5.png",
+			"x": -1240,
+			"y": 444,
+			"width": 253,
+			"height": 190
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_battle_act.gif",
+			"x": 360,
+			"y": 459,
+			"width": 259,
+			"height": 160
+		},
+		{
+			"id": "s_jackenstein",
+			"type": "text",
+			"text": "**Jackenstein (Cap.4)** Su combate confirma textualmente que el alma de Kris y la del Jugador son dos entidades distintas — la luz que lo vence sale del alma de Kris, no de la tuya.",
+			"x": 1300,
+			"y": -300,
+			"width": 280,
+			"height": 170,
+			"color": "3"
+		},
+		{
+			"id": "s_islaolvidada",
+			"type": "text",
+			"text": "**Isla Olvidada (Cap.3)** Los Siete Ases Voladores, copias que Kris coloreó de niño, dicen \"las copias son monocromáticas, pero tú nos coloreaste con cariño\" — paralelismo directo con el Vessel.",
+			"x": 1300,
+			"y": 150,
+			"width": 280,
+			"height": 170,
+			"color": "3"
+		},
+		{
+			"id": "s_verde_envidia",
+			"type": "text",
+			"text": "**El simbolismo del verde: ¿envidia hacia Asriel?**\nEl lado de Kris en su cuarto está vacío mientras el de Asriel rebosa trofeos y color — el mismo contraste cromático se repite en el Green Room del Mundo TV y en otros sitios más.",
+			"x": -1280,
+			"y": 987,
+			"width": 320,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s_quien_es_tu",
+			"type": "text",
+			"text": "**¿Quién es \"tú\" realmente?**\nLa sospecha más fuerte apunta a Chara, o como mínimo a una fuerza similar que ya protagonizó antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.",
+			"x": -940,
+			"y": 987,
+			"width": 320,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s_jackenstein-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Jackenstein_overworld_Halloween_decoration.png",
+			"x": 1300,
+			"y": -510,
+			"width": 240,
+			"height": 180
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s2",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s3",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s4",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "e5",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s5",
+			"toSide": "right",
+			"color": "1"
+		},
+		{
+			"id": "e_ch5",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_ch5",
+			"toSide": "top",
+			"color": "1"
+		},
+		{
+			"id": "e_hand",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s_hand",
+			"toSide": "left",
+			"color": "1"
+		},
+		{
+			"id": "e_knight",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s_knight",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s3-img-e",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s4-img-e",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s5-img-e",
+			"fromNode": "s5-img",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s_ch5-img-e",
+			"fromNode": "s_ch5-img",
+			"fromSide": "bottom",
+			"toNode": "s_ch5",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s_knight-img-e",
+			"fromNode": "s_knight-img",
+			"fromSide": "bottom",
+			"toNode": "s_knight",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e_jackenstein",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s_jackenstein",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e_islaolvidada",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s_islaolvidada",
+			"toSide": "left",
+			"color": "3"
+		},
+		{
+			"id": "e_s_verde_envidia",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_verde_envidia",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_quien_es_tu",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s_quien_es_tu",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s_jackenstein-img",
+			"fromNode": "s_jackenstein-img",
+			"fromSide": "bottom",
+			"toNode": "s_jackenstein",
+			"toSide": "top",
+			"color": "3"
+		}
+	]
+}
