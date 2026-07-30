@@ -1,0 +1,55 @@
+name: Generar y publicar el Corcho
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "vault/**"
+      - "build.py"
+      - "lib/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias (Pillow + ffmpeg)
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install -r requirements.txt
+
+      # La carpeta "vault/" del repo debe contener tu vault de Obsidian
+      # (Notas/, Submapas/, Sprites/ y el .canvas principal) tal cual lo
+      # exportas — súbelo con git add / git push cada vez que lo actualices.
+      - name: Generar la web
+        run: python build.py vault --out dist
+
+      - name: Preparar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir el sitio generado
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
