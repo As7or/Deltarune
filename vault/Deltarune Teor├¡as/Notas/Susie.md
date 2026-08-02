@@ -176,7 +176,6 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 
 > [!quote]- Lancer
 > Uno de sus vínculos más genuinos y menos conflictivos; llegan a formar equipo propio en el Cap.1. Lo carga a la espalda cuando empieza a convertirse en piedra fuera de su Mundo Oscuro nativo.
-> ![[Susie_and_Lancer_overworld_high_five.gif]]
 
 > [!quote]- Rudy
 > Le conoce en el Cap.2; él bromea (medio en serio) con pegarle si le hace daño a Noelle, y terminan llevándose sorprendentemente bien. En el Cap.5 lo ve montando las luces del Festival para los reyes de Hometown de ese año.
@@ -201,8 +200,6 @@ Tiene el HP y el Ataque más altos del grupo — su rol es aguantar golpes y peg
 
 > [!question]- Contra-teoría: esa "chica" final sería Noelle, no Susie
 > Otro sector del fandom señala que la figura de esa última parte de la profecía empuña una espada, arma que en el juego está asociada a los lápices que se convierten en espadas dentro del Mundo Oscuro — y Noelle es quien constantemente aparece con lápices desde el Cap.1 ("¿perdiste el lápiz otra vez?"). Bajo esta lectura, Susie asumiría erróneamente que "la chica" es ella (de ahí que le diga a Ralsei "te equivocas de persona" cuando él le resume la profecía), cuando en realidad el papel podría ser el de Noelle. **Teoría de fans, débil y en discusión activa; no hay confirmación en el juego.**
->
-> ![[profecy_susie.webp]]
 
 > [!question]+ ¿Sospecha Susie que Kris es el Roaring Knight?
 > En el Cap.5, es Kris —no el Knight— quien crea la nueva Fuente Oscura tras la floristería, delante de Susie, aunque ella no llega a ver la escena directamente. Combinado con que ya en el Cap.4 desconfiaba de que le ocultaran cosas (primero de Ralsei, y según esta teoría también de Kris) y con que en el Cap.2 el Mundo Oscuro del ordenador pudo haber sido obra de Kris a solas mientras el SOUL no estaba puesto, parte del fandom sostiene que Susie intuye, sin llegar a confirmarlo del todo, que Kris tiene un papel activo en la creación de Fuentes y podría ser el propio Knight (o estar ligado a él). Ralsei, según esta misma teoría, ya lo sabría todo y estaría callando por decisión propia. **Teoría de fans (la llamada "Kris-Knight theory"), fuerte pero no confirmada; el juego deja la identidad del Knight deliberadamente ambigua.**

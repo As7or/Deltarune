@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"center","type":"text","text":"# Jugador\n🕹️ La persona real que controla a Kris a través del ALMA — el propio juego confirma mecánicamente que son dos entidades distintas.","x":0,"y":0,"width":380,"height":180,"color":"6"},
+		{"id":"center-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Kris_overworld_SOUL.png","x":0,"y":-220,"width":220,"height":190},
+		{"id":"s0","type":"text","text":"**Kris**\nLa relación central: el juego confirma una y otra vez que Kris y el Jugador son dos entidades distintas.","x":-650,"y":300,"width":300,"height":190,"color":"4"},
+		{"id":"s0-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Kris_screenshot_kicking_SOUL.png","x":-650,"y":90,"width":200,"height":180},
+		{"id":"s1","type":"text","text":"**Noelle**\nUna de las pocas Lightners que percibe conscientemente su presencia, llegando a preguntar en voz alta durante Snowgrave si de verdad es Kris quien actúa.","x":-300,"y":300,"width":300,"height":220,"color":"4"},
+		{"id":"s1-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Noelle_overworld.png","x":-300,"y":90,"width":200,"height":180},
+		{"id":"s2","type":"text","text":"**Routes**\nEl propio sistema de rutas ocultas, invisible para los personajes, es una prueba directa de la tensión entre el Jugador y el control real de la historia.","x":60,"y":300,"width":300,"height":210,"color":"4"},
+		{"id":"s2-img","type":"file","file":"vault/Deltarune Teorías/Sprites/routes.png","x":60,"y":90,"width":200,"height":180},
+		{"id":"s3","type":"text","text":"**Cristal Oscuro**\nEl deseo de \"liberarse del guion\" que comparten sus portadores refleja la misma tensión entre el control del Jugador y el destino impuesto.","x":420,"y":300,"width":300,"height":210,"color":"3"},
+		{"id":"s3-img","type":"file","file":"vault/Deltarune Teorías/Sprites/ShadowCrystals.png","x":420,"y":90,"width":200,"height":180},
+		{"id":"s4","type":"text","text":"**Ángel**\n¿Es el Jugador, en realidad, el Ángel de la Profecía? La teoría más extendida de todo el fandom.","x":780,"y":300,"width":300,"height":190,"color":"3"},
+		{"id":"s4-img","type":"file","file":"vault/Deltarune Teorías/Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp","x":780,"y":90,"width":200,"height":170},
+		{"id":"s5","type":"text","text":"**Jackenstein**\nSu combate confirma textualmente, por primera vez, que el alma de Kris y la del Jugador son dos entidades distintas.","x":-650,"y":620,"width":300,"height":200,"color":"4"},
+		{"id":"s5-img","type":"file","file":"vault/Deltarune Teorías/Sprites/Jackenstein_overworld_Halloween_decoration.png","x":-650,"y":850,"width":200,"height":170},
+		{"id":"s6","type":"text","text":"**Gaster (W. D. Gaster)**\nLa teoría \"Gaster's List\" lo señala como la Voz que guía la creación del primer Vessel — nombre interno GONERMAKER, escala de grises, leitmotiv compartido.","x":1140,"y":300,"width":300,"height":220,"color":"3"},
+		{"id":"s6-img","type":"file","file":"vault/Deltarune Teorías/Sprites/gaster_gonerkid.webp","x":1140,"y":110,"width":200,"height":170},
+		{"id":"s7","type":"text","text":"**Clam Guy**\nSu vínculo con Clam Girl (\"Clam Goner\") comparte el mismo patrón visual de Gaster poseyendo o usando cuerpos ajenos como vasijas.","x":1480,"y":300,"width":300,"height":220,"color":"1"},
+		{"id":"s7-img","type":"file","file":"vault/Deltarune Teorías/Sprites/gaster_gonerclampgirl.webp","x":1480,"y":110,"width":200,"height":170}
+	],
+	"edges":[
+		{"id":"e_c_img","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"6"},
+		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"4"},
+		{"id":"e0i","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"4"},
+		{"id":"e1","fromNode":"center","fromSide":"bottom","toNode":"s1","toSide":"top","color":"4"},
+		{"id":"e1i","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"4"},
+		{"id":"e2","fromNode":"center","fromSide":"bottom","toNode":"s2","toSide":"top","color":"4"},
+		{"id":"e2i","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"4"},
+		{"id":"e3","fromNode":"center","fromSide":"bottom","toNode":"s3","toSide":"top","color":"3"},
+		{"id":"e3i","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"3"},
+		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
+		{"id":"e4i","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
+		{"id":"e5","fromNode":"s0","fromSide":"bottom","toNode":"s5","toSide":"top","color":"4"},
+		{"id":"e5i","fromNode":"s5-img","fromSide":"bottom","toNode":"s5","toSide":"top","color":"4"},
+		{"id":"e_s6","fromNode":"center","fromSide":"bottom","toNode":"s6","toSide":"top","color":"3"},
+		{"id":"e_s6-img","fromNode":"s6-img","fromSide":"bottom","toNode":"s6","toSide":"top","color":"3"},
+		{"id":"e_s7","fromNode":"center","fromSide":"bottom","toNode":"s7","toSide":"top","color":"1"},
+		{"id":"e_s7-img","fromNode":"s7-img","fromSide":"bottom","toNode":"s7","toSide":"top","color":"1"}
+	]
+}

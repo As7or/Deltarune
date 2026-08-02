@@ -31,8 +31,8 @@ Asriel es, a día de hoy, un personaje construido enteramente por ausencia: el j
 
 En el Cap.4, [[Susie]] descubre ese mismo contraste al fijarse en las estanterías de la habitación: la de Asriel repleta de trofeos, la de Kris vacía del todo — y se lleva una estrella fosforescente de la de Asriel para hacerle a Kris un trofeo propio. Es un detalle que encaja con una lectura mucho más amplia del fandom: el cuarto de Asriel está lleno de vida, color y logros; el de Kris es liso, gris y sin nada propio — la misma paleta apagada que comparten, por ejemplo, los Gaster Followers o cualquier "copia" sin identidad real dentro del universo de Undertale/Deltarune. Bajo esa lectura, la habitación de Kris no estaría vacía por casualidad, sino como otro reflejo visual de la teoría del Vessel: literalmente, poco "propio" que mostrar.
 
-## ¿Kris esconde al Ángel (Jugador) de Asriel?
-Esta es, con diferencia, la pista más directa y menos citada de todas: cuando Kris fisgonea en el cuarto de Asriel en la Mansión de Queen, la narración dice explícitamente "*abriste la puerta con los ojos cerrados. No viste nada*" — el propio Kris, no el jugador, decide no dejar ver ese cuarto. Es la única vez en todo el juego en la que una acción tan simple (abrir una puerta y mirar) queda bloqueada de una forma tan deliberada y tan explícitamente narrada como una elección de Kris.
+## ¿Kris esconde algo del Jugador?
+Esta es, con diferencia, la pista más directa y menos citada de todas: cuando Kris fisgonea en el cuarto de Asriel en la Mansión de Queen, la narración dice explícitamente "*abriste la puerta con los ojos cerrados. No viste nada*" — el propio Kris, no el jugador, decide no dejar ver ese cuarto. Es la única vez en todo el juego en la que una acción tan simple (abrir una puerta y mirar) queda bloqueada de una forma tan deliberada y tan explícitamente narrada como una elección de Kris. Ver [[Jugador]] para el desarrollo completo de esta tensión.
 
 Y hay una segunda pieza que encaja casi a la perfección: al intentar hacer **Check** al Caballero Rugiente durante el combate, el juego responde con la misma estructura exacta — primero "*(Tienes la sensación de que no aprenderías nada.)*", y si se insiste, "*Pero Kris no pudo aprender nada.*" Es el mismo verbo ("aprender"/"ver"), la misma negación total, y el mismo sujeto implícito: es Kris, específicamente, quien no puede o no quiere que se sepa algo — no un fallo genérico del sistema de Check, que normalmente sí da alguna descripción por mínima que sea.
 
@@ -147,7 +147,8 @@ Confirmado por el juego: de niño, [[Berdly|Bratty]] convenció a Asriel de darl
 - [[Asgore]]
 - [[Dess]]
 - [[Roaring Knight]]
-- [[Ángel (Jugador)]]
+- [[Jugador]]
+- [[Ángel]]
 - [[Susie]]
 - [[Carol]]
 - [[Alvin]]

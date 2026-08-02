@@ -51,8 +51,8 @@ confianza: fuerte
 > [!quote]- Gerson Boom
 > Cuarto portador confirmado, bajo su identidad de combate Hammer of Justice en el Cap.5. Su caso es distinto al resto: Seam, que normalmente describe con inquietud la aparición de cada nuevo portador, dice por primera vez sentir "esperanza" en vez de solo preocupación — quizá porque, a diferencia de los anteriores, Gerson ya lleva años muerto y su motivación no nace de la desesperación sino de otra cosa. [[Gerson Boom]]
 
-> [!quote]- Ángel (Jugador)
-> El deseo de "liberarse del guion" que comparten los portadores del Cristal refleja directamente la propia tensión entre el Jugador/Ángel y el control de la historia de Deltarune. [[Ángel (Jugador)]]
+> [!quote]- Jugador
+> El deseo de "liberarse del guion" que comparten los portadores del Cristal refleja directamente la propia tensión entre el Jugador y el control de la historia de Deltarune. [[Jugador]]
 
 ## Teorías
 
@@ -75,7 +75,7 @@ confianza: fuerte
 - [[Spamton]]
 - [[Roaring Knight]]
 - [[Gerson Boom]]
-- [[Ángel (Jugador)]]
+- [[Jugador]]
 - [[Mad Mew Mew (Pink)]]
 
 ## Submapa

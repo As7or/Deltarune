@@ -59,8 +59,8 @@ confianza: oficial
 > [!quote]- Susie
 > Aunque no llegan a interactuar directamente en pantalla, es Susie quien reescribe para él la carta final de Gerson en el Cap.4 — un gesto que conecta indirectamente a dos personajes marcados por la muerte de una figura paterna o mentora. Alvin nunca sabe con certeza quién fue, pero el gesto cumple su propósito igualmente. [[Susie]]
 
-> [!quote]- Ángel (Jugador)
-> Cree firmemente en la fe y la Profecía, y trata al Ángel con verdadero respeto religioso. En el Cap.5 llega a atribuirle los destrozos de la iglesia del capítulo anterior, describiéndolo como "vientos de gran cambio". [[Ángel (Jugador)]]
+> [!quote]- Ángel
+> Cree firmemente en la fe y la Profecía, y trata al Ángel con verdadero respeto religioso. En el Cap.5 llega a atribuirle los destrozos de la iglesia del capítulo anterior, describiéndolo como "vientos de gran cambio". [[Ángel]]
 
 ## Teorías
 
@@ -76,7 +76,7 @@ confianza: oficial
 - [[Susie]]
 - [[Asriel]]
 - [[Shelter]]
-- [[Ángel (Jugador)]]
+- [[Ángel]]
 
 ## Submapa
 [[Submapas/Alvin.canvas|Abrir submapa gráfico]]

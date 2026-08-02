@@ -15,9 +15,9 @@
               "state": {
                 "file": "00 Corcho Principal.canvas",
                 "viewState": {
-                  "x": 2361.25989480318,
-                  "y": -2991.2787639863673,
-                  "zoom": -2.666666666666666
+                  "x": -1227.436899003801,
+                  "y": -980.3094667978398,
+                  "zoom": -2.6560130392412566
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Corcho Principal.canvas",
+                "file": "Notas/Lancer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 00 Corcho Principal"
+              "title": "Enlaces entrantes de Lancer"
             }
           },
           {
@@ -116,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Corcho Principal.canvas",
+                "file": "Notas/Lancer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 00 Corcho Principal"
+              "title": "Enlaces salientes de Lancer"
             }
           },
           {
@@ -159,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Corcho Principal.canvas",
+                "file": "Notas/Lancer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de 00 Corcho Principal"
+              "title": "Esquema de Lancer"
             }
           }
         ]
@@ -187,5 +187,41 @@
     }
   },
   "active": "06f07da71b66f89e",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "00 Índice.md",
+    "Submapas/Undyne.canvas",
+    "Submapas/Mad Mew Mew (Pink).canvas",
+    "Submapas/King.canvas",
+    "Submapas/Jugador.canvas",
+    "Notas/Jugador.md",
+    "Notas/Gaster (W. D. Gaster).md",
+    "Jugador.canvas",
+    "Jugador.md",
+    "Notas/Ángel.md",
+    "Notas/Alvin.md",
+    "Notas/├üngel (Jugador).md",
+    "Notas/Profecía.md",
+    "Submapas/Profecía.canvas",
+    "Submapas/Ángel.canvas",
+    "Routes.md",
+    "Profecía.md",
+    "Profecía.canvas",
+    "Noelle.md",
+    "Kris.md",
+    "Kris.canvas",
+    "Jackenstein.md",
+    "Cristal Oscuro.md",
+    "Asriel.md",
+    "Ángel.md",
+    "Ángel.canvas",
+    "Alvin.md",
+    "Sprites/3rd_Sanctuary_location_angel_prophecy.png",
+    "Sprites/Sin confirmar 451348.crdownload",
+    "Sprites/Angel_doll_overworld.png",
+    "Sprites/Sin confirmar 973999.crdownload",
+    "Notas/Lancer.md",
+    "Notas/Susie.md",
+    "00 ├ìndice.md",
+    "Notas/Alphys.md"
+  ]
 }

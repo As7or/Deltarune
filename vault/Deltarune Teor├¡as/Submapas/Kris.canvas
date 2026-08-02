@@ -53,7 +53,7 @@
 		{
 			"id": "s4",
 			"type": "text",
-			"text": "**Ángel (Jugador)**\nEl propio juego juega con la idea de que el jugador es el «Ángel» profetizado — la misma pregunta, otro ángulo.",
+			"text": "**Jugador**\nEl propio juego juega con la idea de que el jugador es el \"Ángel\" profetizado — la misma pregunta, otro ángulo.",
 			"x": -546,
 			"y": 146,
 			"width": 260,
@@ -103,7 +103,7 @@
 		{
 			"id": "center-img",
 			"type": "file",
-			"file": "Sprites/Kris_artwork.png",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_artwork.png",
 			"x": -1280,
 			"y": -95,
 			"width": 260,
@@ -112,7 +112,7 @@
 		{
 			"id": "s0-img",
 			"type": "file",
-			"file": "Sprites/Kris_overworld_SOUL.png",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_overworld_SOUL.png",
 			"x": -130,
 			"y": -907,
 			"width": 102,
@@ -121,7 +121,7 @@
 		{
 			"id": "s1-img",
 			"type": "file",
-			"file": "Sprites/Kris_screenshot_kicking_SOUL.png",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_screenshot_kicking_SOUL.png",
 			"x": 613,
 			"y": -504,
 			"width": 253,
@@ -130,7 +130,7 @@
 		{
 			"id": "s3-img",
 			"type": "file",
-			"file": "Sprites/Undertale.png",
+			"file": "vault/Deltarune Teorías/Sprites/Undertale.png",
 			"x": -130,
 			"y": 717,
 			"width": 190,
@@ -139,7 +139,7 @@
 		{
 			"id": "s5-img",
 			"type": "file",
-			"file": "Sprites/Ralsei_overworld_hatless.png",
+			"file": "vault/Deltarune Teorías/Sprites/Ralsei_overworld_hatless.png",
 			"x": -873,
 			"y": -504,
 			"width": 100,
@@ -148,7 +148,7 @@
 		{
 			"id": "s4-img",
 			"type": "file",
-			"file": "Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp",
+			"file": "vault/Deltarune Teorías/Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp",
 			"x": -760,
 			"y": -17,
 			"width": 260,
@@ -157,7 +157,7 @@
 		{
 			"id": "s_knight-img",
 			"type": "file",
-			"file": "Sprites/kris_Knight_overworld_knighting.gif",
+			"file": "vault/Deltarune Teorías/Sprites/kris_Knight_overworld_knighting.gif",
 			"x": -820,
 			"y": 634,
 			"width": 255,
@@ -166,7 +166,7 @@
 		{
 			"id": "s_ch5-img",
 			"type": "file",
-			"file": "Sprites/kriss_Weird_Route_screenshot_Chapter_5.png",
+			"file": "vault/Deltarune Teorías/Sprites/kriss_Weird_Route_screenshot_Chapter_5.png",
 			"x": -1240,
 			"y": 444,
 			"width": 253,
@@ -175,7 +175,7 @@
 		{
 			"id": "s2-img",
 			"type": "file",
-			"file": "Sprites/Kris_battle_act.gif",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_battle_act.gif",
 			"x": 360,
 			"y": 459,
 			"width": 259,
@@ -224,7 +224,7 @@
 		{
 			"id": "s_jackenstein-img",
 			"type": "file",
-			"file": "Sprites/Jackenstein_overworld_Halloween_decoration.png",
+			"file": "vault/Deltarune Teorías/Sprites/Jackenstein_overworld_Halloween_decoration.png",
 			"x": 1300,
 			"y": -510,
 			"width": 240,

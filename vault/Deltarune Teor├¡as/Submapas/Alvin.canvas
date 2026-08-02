@@ -17,7 +17,7 @@
 			"y": -105,
 			"width": 220,
 			"height": 190,
-			"file": "Sprites/Alvin_overwolrd.webp"
+			"file": "vault/Deltarune Teorías/Sprites/Alvin_overwolrd.webp"
 		},
 		{
 			"id": "s0",
@@ -62,7 +62,7 @@
 		{
 			"id": "s0-img",
 			"type": "file",
-			"file": "Sprites/alvin_in_the_grave_of_his_father.png",
+			"file": "vault/Deltarune Teorías/Sprites/alvin_in_the_grave_of_his_father.png",
 			"x": -130,
 			"y": -850,
 			"width": 240,
@@ -71,7 +71,7 @@
 		{
 			"id": "s1-img",
 			"type": "file",
-			"file": "Sprites/asriel.png",
+			"file": "vault/Deltarune Teorías/Sprites/asriel.png",
 			"x": 420,
 			"y": -470,
 			"width": 240,
@@ -80,7 +80,7 @@
 		{
 			"id": "s2-img",
 			"type": "file",
-			"file": "Sprites/alvin_susie_discover_gerson_dust.webp",
+			"file": "vault/Deltarune Teorías/Sprites/alvin_susie_discover_gerson_dust.webp",
 			"x": 420,
 			"y": 10,
 			"width": 240,
@@ -89,7 +89,7 @@
 		{
 			"id": "s4",
 			"type": "text",
-			"text": "**Ángel (Jugador)**\nCree firmemente en la fe y la Profecía, y lo trata con verdadero respeto religioso. En el Cap.5 le atribuye los destrozos de la iglesia, describiéndolo como \"vientos de gran cambio\".",
+			"text": "**Ángel**\nCree firmemente en la fe y la Profecía, y lo trata con verdadero respeto religioso. En el Cap.5 le atribuye los destrozos de la iglesia, describiéndolo como \"vientos de gran cambio\".",
 			"x": 760,
 			"y": 220,
 			"width": 280,

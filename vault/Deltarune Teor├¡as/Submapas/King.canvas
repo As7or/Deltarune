@@ -1,156 +1,23 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "6",
-			"text": "# King\n👑 Padre de Lancer y antagonista principal del Cap.1, guardián de la Fuente Oriental en lo alto de Card Castle."
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"x": -640,
-			"y": -105,
-			"width": 220,
-			"height": 190,
-			"file": "Sprites/King_face.png"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"x": -130,
-			"y": -640,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Lancer**\nSu hijo, a quien trata con indiferencia y usa como rehén en el clímax del Cap.1 — pero a quien, en el fondo, nunca habría hecho daño de verdad."
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Roaring Knight**\nSu nuevo \"propósito\" tras la llegada del Caballero: dice servirle directamente, y es quien lo empuja hacia la villanía y el autoproclamado gobierno absoluto sobre el Reino."
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"x": 420,
-			"y": 220,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Jevil**\nAntes de su encierro, fue Jevil quien le contó sobre la gloria del Caballero Rugiente — la chispa que encendió la villanía de King."
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"x": -130,
-			"y": 480,
-			"width": 280,
-			"height": 240,
-			"color": "1",
-			"text": "**¿Qué fue del resto de los reyes?**\nKing encerró a los otros tres reyes de la baraja (corazones, diamantes, tréboles) para hacerse con el poder absoluto junto a Lancer — el juego no profundiza demasiado en qué fue de ellos más allá de su encierro en el…"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/Lancer_Overworld.webp",
-			"x": -130,
-			"y": -850,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/TheRoaringKnightDeltarune.webp",
-			"x": 420,
-			"y": -470,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/Jevil.gif",
-			"x": 420,
-			"y": 10,
-			"width": 240,
-			"height": 180
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# King\n👑 Padre de Lancer y antagonista principal del Cap.1, guardián de la Fuente Oriental en lo alto de Card Castle.","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
+		{"id":"s0","type":"text","text":"**Lancer**\nSu hijo, a quien trata con indiferencia y usa como rehén en el clímax del Cap.1 — pero a quien, en el fondo, nunca habría hecho daño de verdad.","x":-130,"y":-640,"width":280,"height":210,"color":"6"},
+		{"id":"s1","type":"text","text":"**Roaring Knight**\nSu nuevo \"propósito\" tras la llegada del Caballero: dice servirle directamente, y es quien lo empuja hacia la villanía y el autoproclamado gobierno absoluto sobre el Reino.","x":420,"y":-260,"width":280,"height":210,"color":"6"},
+		{"id":"s2","type":"text","text":"**Jevil**\nAntes de su encierro, fue Jevil quien le contó sobre la gloria del Caballero Rugiente — la chispa que encendió la villanía de King.","x":420,"y":220,"width":280,"height":210,"color":"6"},
+		{"id":"s3","type":"text","text":"**¿Qué fue del resto de los reyes?**\nKing encerró a los otros tres reyes de la baraja (corazones, diamantes, tréboles) para hacerse con el poder absoluto junto a Lancer — el juego no profundiza demasiado en qué fue de ellos más allá de su encierro en el…","x":-130,"y":480,"width":280,"height":240,"color":"1"},
+		{"id":"s0-img","type":"file","file":"Sprites/Lancer_Overworld.webp","x":-130,"y":-850,"width":148,"height":180},
+		{"id":"s1-img","type":"file","file":"Sprites/TheRoaringKnightDeltarune.webp","x":420,"y":-470,"width":158,"height":180},
+		{"id":"s2-img","type":"file","file":"Sprites/Jevil.gif","x":420,"y":10,"width":183,"height":180},
+		{"id":"center-img","type":"file","file":"Sprites/King_face.png","x":-68,"y":-260,"width":157,"height":190}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s2",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e3_x0",
-			"fromNode": "s3",
-			"fromSide": "left",
-			"toNode": "s0",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "top",
-			"toNode": "s3",
-			"toSide": "bottom",
-			"color": "1"
-		},
-		{
-			"id": "e_s0-img",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e_s1-img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s2-img",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "3"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
+		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"s1","toSide":"right","color":"3"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"3"},
+		{"id":"e3_x0","fromNode":"s3","fromSide":"left","toNode":"s0","toSide":"right","color":"1"},
+		{"id":"e3","fromNode":"center","fromSide":"top","toNode":"s3","toSide":"bottom","color":"1"},
+		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"1"},
+		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"3"},
+		{"id":"e_s2-img","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"3"}
 	]
 }

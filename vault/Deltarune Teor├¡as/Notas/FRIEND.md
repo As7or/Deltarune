@@ -48,9 +48,6 @@ confianza: fuerte
 >
 > ![[friend_water_cap4.jpeg]]
 > *FRIEND, apenas visible entre las ondas del agua, en el pasillo inundado del Santuario del Cap.4.*
->
-> ![[friend_water_cap4.jpeg]]
-> *La sombra de FRIEND reflejada por las ondas de sonido en una sala del Capítulo 4.*
 
 > [!example]+ Jardín y otras zonas del Cap.5
 > Puede aparecer brevemente en el Jardín del Reino de las Flores, hiriendo a Kris con un mordisco si se le encuentra sin protección — es este mordisco el que Pink identifica después en su diálogo secreto.

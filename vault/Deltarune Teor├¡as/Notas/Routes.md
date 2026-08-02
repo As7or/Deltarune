@@ -36,8 +36,8 @@ Cada capítulo con Ruta Rara sigue una lógica parecida: el jugador puede tomar 
 > [!quote]- Lake
 > El final exclusivo de la Ruta Rara del Cap.5 tiene lugar aquí, y es de momento la culminación más extrema del patrón acumulativo de decisiones. [[Lake]]
 
-> [!quote]- Ángel (Jugador)
-> El propio sistema de rutas ocultas, invisible para los personajes pero registrado por el juego, es una de las pruebas más directas de la tensión entre las decisiones del Jugador/Ángel y el control real de la historia. [[Ángel (Jugador)]]
+> [!quote]- Jugador
+> El propio sistema de rutas ocultas, invisible para los personajes pero registrado por el juego, es una de las pruebas más directas de la tensión entre las decisiones del Jugador y el control real de la historia. [[Jugador]]
 
 > [!quote]- Noelle
 > Es, con diferencia, el personaje más afectado por el patrón acumulativo de la Ruta Rara a lo largo de los capítulos — desde Snowgrave en el Cap.2 hasta su corrupción progresiva en el Cap.4 y el final del Lago en el Cap.5. Ningún otro personaje encadena tantas consecuencias entre capítulos distintos como ella. [[Noelle]]
@@ -53,7 +53,7 @@ Cada capítulo con Ruta Rara sigue una lógica parecida: el jugador puede tomar 
 ## Relacionado
 - [[Profecía]]
 - [[Lake]]
-- [[Ángel (Jugador)]]
+- [[Jugador]]
 - [[Noelle]]
 
 ## Submapa

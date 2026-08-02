@@ -1,261 +1,35 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "4",
-			"text": "# Undyne\n👮 Jefa de policía de Hometown, encargada de mantener el orden y arrestar a los pocos \"criminales\" del pueblo."
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"x": -640,
-			"y": -105,
-			"width": 220,
-			"height": 190,
-			"file": "Sprites/Officer_Undyne_Overworld.webp"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"x": -130,
-			"y": -640,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Roaring Knight**\nSu secuestrador. Fue tras derrotar a la Delta Team cuando el Caballero cambió de objetivo, capturándola a ella en vez de a Toriel, y la arrastró hasta el Shelter."
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Shelter**\nEl lugar donde queda atrapada desde el final del Cap.3 — su rescate es uno de los grandes objetivos pendientes de la trama."
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"x": 420,
-			"y": 220,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Alphys**\nA diferencia de Undertale, aquí son prácticamente desconocidas al empezar el juego — pero Undyne se preocupa por ella tras un accidente de bici en el Cap.2, y la invita a la iglesia antes del Cap.4."
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"x": -130,
-			"y": 480,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Toriel**\nA quien intenta proteger del Caballero Rugiente, siendo capturada en su lugar."
-		},
-		{
-			"id": "s4",
-			"type": "text",
-			"x": -680,
-			"y": 220,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Asgore**\nOcupó el puesto de jefe de policía antes que ella, por razones que el juego nunca explica del todo."
-		},
-		{
-			"id": "s5",
-			"type": "text",
-			"x": -680,
-			"y": -260,
-			"width": 280,
-			"height": 240,
-			"color": "1",
-			"text": "**¿Por qué Asgore dejó la policía?**\nNunca se explica por qué Asgore fue apartado del puesto que ahora ocupa Undyne — dado lo que se insinúa sobre su autoculpa y una tragedia pasada (ver Asgore), es una de las piezas sueltas más citadas para reconstruir…"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/TheRoaringKnightDeltarune.webp",
-			"x": -130,
-			"y": -850,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/Shelter.png",
-			"x": 420,
-			"y": -470,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/alphys_sprite_transparent_v2.png",
-			"x": 420,
-			"y": 10,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/Toriel_Overworld.webp",
-			"x": -130,
-			"y": 270,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s4-img",
-			"type": "file",
-			"file": "Sprites/Asgore_Dreemurr_overworld.webp",
-			"x": -680,
-			"y": 10,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s6",
-			"type": "text",
-			"text": "**Susie**\nNo llegan a interactuar mucho en pantalla, pero es Susie quien se propone rescatarla del Shelter en el Cap.4, convirtiéndose en el objetivo personal que más empuja al grupo a investigar el misterio de esa zona.",
-			"x": -340,
-			"y": 220,
-			"width": 280,
-			"height": 210,
-			"color": "4"
-		},
-		{
-			"id": "s6-img",
-			"type": "file",
-			"file": "Sprites/Susie_artwork.png",
-			"x": -340,
-			"y": 30,
-			"width": 180,
-			"height": 170
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Undyne\n👮 Jefa de policía de Hometown, encargada de mantener el orden y arrestar a los pocos \"criminales\" del pueblo.","x":-190,"y":-105,"width":420,"height":220,"color":"4"},
+		{"id":"center-img","type":"file","file":"Sprites/Officer_Undyne_Overworld.webp","x":-640,"y":-105,"width":114,"height":190},
+		{"id":"s0","type":"text","text":"**Roaring Knight**\nSu secuestrador. Fue tras derrotar a la Delta Team cuando el Caballero cambió de objetivo, capturándola a ella en vez de a Toriel, y la arrastró hasta el Shelter.","x":-130,"y":-640,"width":280,"height":210,"color":"6"},
+		{"id":"s1","type":"text","text":"**Shelter**\nEl lugar donde queda atrapada desde el final del Cap.3 — su rescate es uno de los grandes objetivos pendientes de la trama.","x":420,"y":-260,"width":280,"height":210,"color":"6"},
+		{"id":"s2","type":"text","text":"**Alphys**\nA diferencia de Undertale, aquí son prácticamente desconocidas al empezar el juego — pero Undyne se preocupa por ella tras un accidente de bici en el Cap.2, y la invita a la iglesia antes del Cap.4.","x":420,"y":220,"width":280,"height":210,"color":"6"},
+		{"id":"s3","type":"text","text":"**Toriel**\nA quien intenta proteger del Caballero Rugiente, siendo capturada en su lugar.","x":-130,"y":480,"width":280,"height":210,"color":"6"},
+		{"id":"s4","type":"text","text":"**Asgore**\nOcupó el puesto de jefe de policía antes que ella, por razones que el juego nunca explica del todo.","x":-680,"y":220,"width":280,"height":210,"color":"6"},
+		{"id":"s5","type":"text","text":"**¿Por qué Asgore dejó la policía?**\nNunca se explica por qué Asgore fue apartado del puesto que ahora ocupa Undyne — dado lo que se insinúa sobre su autoculpa y una tragedia pasada (ver Asgore), es una de las piezas sueltas más citadas para reconstruir…","x":-680,"y":-260,"width":280,"height":240,"color":"1"},
+		{"id":"s0-img","type":"file","file":"Sprites/TheRoaringKnightDeltarune.webp","x":-130,"y":-850,"width":158,"height":180},
+		{"id":"s1-img","type":"file","file":"Sprites/Shelter.png","x":420,"y":-470,"width":240,"height":180},
+		{"id":"s2-img","type":"file","file":"Sprites/alphys_sprite_transparent_v2.png","x":420,"y":10,"width":121,"height":180},
+		{"id":"s3-img","type":"file","file":"Sprites/Toriel_Overworld.webp","x":-130,"y":270,"width":91,"height":180},
+		{"id":"s4-img","type":"file","file":"Sprites/Asgore_Dreemurr_overworld.webp","x":-680,"y":10,"width":127,"height":180},
+		{"id":"s6","type":"text","text":"**Susie**\nNo llegan a interactuar mucho en pantalla, pero es Susie quien se propone rescatarla del Shelter en el Cap.4, convirtiéndose en el objetivo personal que más empuja al grupo a investigar el misterio de esa zona.","x":-340,"y":220,"width":280,"height":210,"color":"4"},
+		{"id":"s6-img","type":"file","file":"Sprites/Susie_artwork.png","x":-340,"y":30,"width":142,"height":170}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s2",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "top",
-			"toNode": "s3",
-			"toSide": "bottom",
-			"color": "3"
-		},
-		{
-			"id": "e4",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s4",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "e5_x4",
-			"fromNode": "s5",
-			"fromSide": "left",
-			"toNode": "s4",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e5",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s5",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "e_s0-img",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s1-img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s2-img",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s3-img",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s4-img",
-			"fromNode": "s4-img",
-			"fromSide": "bottom",
-			"toNode": "s4",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e6",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s6",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "e_s6-img",
-			"fromNode": "s6-img",
-			"fromSide": "bottom",
-			"toNode": "s6",
-			"toSide": "top",
-			"color": "4"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
+		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"s1","toSide":"right","color":"3"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"top","toNode":"s3","toSide":"bottom","color":"3"},
+		{"id":"e4","fromNode":"center","fromSide":"right","toNode":"s4","toSide":"left","color":"3"},
+		{"id":"e5_x4","fromNode":"s5","fromSide":"left","toNode":"s4","toSide":"right","color":"1"},
+		{"id":"e5","fromNode":"center","fromSide":"right","toNode":"s5","toSide":"left","color":"1"},
+		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
+		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"3"},
+		{"id":"e_s2-img","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"3"},
+		{"id":"e_s3-img","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"3"},
+		{"id":"e_s4-img","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"1"},
+		{"id":"e6","fromNode":"center","fromSide":"right","toNode":"s6","toSide":"left","color":"4"},
+		{"id":"e_s6-img","fromNode":"s6-img","fromSide":"bottom","toNode":"s6","toSide":"top","color":"4"}
 	]
 }

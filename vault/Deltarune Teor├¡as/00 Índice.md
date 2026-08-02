@@ -24,7 +24,8 @@ El corcho principal ahora muestra la imagen directamente en la tarjeta (no hace 
 | Forgotten Man | `forgotten-man.png` | deltarune.wiki/w/Forgotten_Man |
 | Dess | `dess.png` | deltarune.wiki/w/Dess |
 | Roaring Knight | `roaring-knight.png` | deltarune.wiki/w/Knight |
-| Ángel (Jugador) | `angel-jugador.png` | deltarune.wiki/w/Angel |
+| Ángel | `angel.png` | deltarune.wiki/w/Angel |
+| Jugador | `jugador.png` | deltarune.wiki/w/Player |
 | Profecía | `profecia.png` | deltarune.wiki/w/Prophecy (captura del texto) |
 | Conexión Undertale | `conexion-undertale.png` | un sprite de Toriel/Asgore/Sans en Deltarune |
 | FRIEND | `friend.png` | busca "FRIEND" en deltarune.wiki |

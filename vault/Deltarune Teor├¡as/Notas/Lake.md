@@ -88,8 +88,6 @@ confianza: fuerte
 
 > [!quote]- Onionsan
 > NPC recurrente del Lago durante los dos primeros capítulos, hasta que desaparece por completo a partir del Cap.4 — justo cuando el Normal NPC empieza a ocupar su mismo sitio. La sustitución nunca se explica dentro del juego, aunque un Pipis llega a comentar que el takoyaki que vende el Normal NPC "sabe a cebolla cruda" — el detalle que más alimenta la teoría de que Onionsan no desapareció sin más, sino que el Normal NPC tiene algo que ver con su desaparición. [[Onionsan]]
->
-> ![[Deltarune_-_Sprite_-_Onionsan_-_Kawaii.webp]]
 
 > [!quote]- Normal NPC
 > Ocupa el mismo punto exacto donde antes estaba Onionsan, justo después de su desaparición, con un patrón de habla que coincide de forma inquietante con el suyo — la base de la teoría de que podría estar directamente implicado en lo que le pasó. [[Normal NPC]]

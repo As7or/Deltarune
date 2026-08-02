@@ -266,7 +266,8 @@ Uno de los primeros bocetos de Kris es de 2014 o 2015, compartido por Toby Fox e
 - Durante las Spamton Sweepstakes de 2022, varias publicaciones del blog privado de Noelle detallan recuerdos suyos con Kris — incluida la confirmación de que su apellido es Dreemurr a través de la URL de una de ellas.
 
 ## Relacionado
-- [[Ángel (Jugador)]]
+- [[Ángel]]
+- [[Jugador]]
 - [[Conexión Undertale]]
 - [[Ralsei]]
 - [[Susie]]

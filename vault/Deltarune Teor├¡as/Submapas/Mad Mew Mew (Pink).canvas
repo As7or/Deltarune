@@ -1,244 +1,33 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Mad Mew Mew (Pink)\n👻 Fantasma de la familia Blook, el mismo que en Undertale poseía el maniquí de entrenamiento como \"Mad Dummy\" y, en la versión de Switch, un animatrónico de Mew Mew como \"Mad Mew Mew\".",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "6"
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/Mad_Mew_Mew_Pink.gif",
-			"x": -640,
-			"y": -105,
-			"width": 220,
-			"height": 186
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**Alphys**\nLe regaló a Asgore la figura de Mew Mew que termina poseyendo como Pink — el origen indirecto de todo lo que le pasa en el Cap.5.",
-			"x": -130,
-			"y": -640,
-			"width": 280,
-			"height": 210,
-			"color": "1"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Asgore**\nGuarda la figura como mascota de su tienda, sin saber lo que esconde hasta que el Mundo Oscuro le da vida.",
-			"x": 420,
-			"y": -380,
-			"width": 280,
-			"height": 210,
-			"color": "1"
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/Pink_screenshot_asgore_tell_that_she_is_the_mascot.png",
-			"x": 420,
-			"y": -600,
-			"width": 220,
-			"height": 165
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**Cristal Oscuro**\nQuinta y última portadora confirmada, uno por capítulo — la más difícil de encontrar de las cinco.",
-			"x": 420,
-			"y": 80,
-			"width": 280,
-			"height": 210,
-			"color": "1"
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**Kris**\nSe la considera un paralelismo directo de Kris: ambas son \"vehículos\" controlados por una entidad externa, y ambas comparten cuerpo con esa entidad.",
-			"x": -130,
-			"y": 480,
-			"width": 280,
-			"height": 210,
-			"color": "1"
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/Border_screenshot_Pink_with_ghost_when_they_split.png",
-			"x": -130,
-			"y": 700,
-			"width": 220,
-			"height": 124
-		},
-		{
-			"id": "s4",
-			"type": "text",
-			"text": "**El paralelismo con Kris**\nTanto ella como Kris son un cuerpo compartido entre una voluntad propia y una fuerza externa que lo controla, y en ambos casos esa fuerza puede llegar a separarse del \"vehículo\".",
-			"x": -680,
-			"y": 220,
-			"width": 300,
-			"height": 240,
-			"color": "3"
-		},
-		{
-			"id": "s5",
-			"type": "text",
-			"text": "**Seam y la revelación de los cristales**\nAl entregarle los cinco Cristales Oscuros (Jevil, Spamton NEO, el Caballero, el Viejo y Pink), Seam revela por fin qué son: \"el poder de los sueños perdidos\".",
-			"x": 700,
-			"y": 320,
-			"width": 300,
-			"height": 230,
-			"color": "1"
-		},
-		{
-			"id": "s6",
-			"type": "text",
-			"text": "**El espejo con Gerson Boom**\nGerson (Cap.4) es tendero pacífico y clave en la trama; Pink (Cap.5) es jefa opcional e irrelevante para la trama principal — reversos casi exactos entre sí.",
-			"x": -800,
-			"y": -450,
-			"width": 300,
-			"height": 250,
-			"color": "3"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/alphys_sprite_transparent_v2.png",
-			"x": -130,
-			"y": -850,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/Shadow_Crystal_item.webp",
-			"x": 420,
-			"y": -130,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s5-img",
-			"type": "file",
-			"file": "Sprites/Seam_Face.webp",
-			"x": 700,
-			"y": 110,
-			"width": 240,
-			"height": 180
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Mad Mew Mew (Pink)\n👻 Fantasma de la familia Blook, el mismo que en Undertale poseía el maniquí de entrenamiento como \"Mad Dummy\" y, en la versión de Switch, un animatrónico de Mew Mew como \"Mad Mew Mew\".","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
+		{"id":"center-img","type":"file","file":"Sprites/Mad_Mew_Mew_Pink.gif","x":-640,"y":-105,"width":220,"height":186},
+		{"id":"s0","type":"text","text":"**Alphys**\nLe regaló a Asgore la figura de Mew Mew que termina poseyendo como Pink — el origen indirecto de todo lo que le pasa en el Cap.5.","x":-130,"y":-640,"width":280,"height":210,"color":"1"},
+		{"id":"s1","type":"text","text":"**Asgore**\nGuarda la figura como mascota de su tienda, sin saber lo que esconde hasta que el Mundo Oscuro le da vida.","x":420,"y":-380,"width":280,"height":210,"color":"1"},
+		{"id":"s1-img","type":"file","file":"Sprites/Pink_screenshot_asgore_tell_that_she_is_the_mascot.png","x":420,"y":-600,"width":220,"height":165},
+		{"id":"s2","type":"text","text":"**Cristal Oscuro**\nQuinta y última portadora confirmada, uno por capítulo — la más difícil de encontrar de las cinco.","x":420,"y":80,"width":280,"height":210,"color":"1"},
+		{"id":"s3","type":"text","text":"**Kris**\nSe la considera un paralelismo directo de Kris: ambas son \"vehículos\" controlados por una entidad externa, y ambas comparten cuerpo con esa entidad.","x":-130,"y":480,"width":280,"height":210,"color":"1"},
+		{"id":"s3-img","type":"file","file":"Sprites/Border_screenshot_Pink_with_ghost_when_they_split.png","x":-130,"y":700,"width":220,"height":124},
+		{"id":"s4","type":"text","text":"**El paralelismo con Kris**\nTanto ella como Kris son un cuerpo compartido entre una voluntad propia y una fuerza externa que lo controla, y en ambos casos esa fuerza puede llegar a separarse del \"vehículo\".","x":-680,"y":220,"width":300,"height":240,"color":"3"},
+		{"id":"s5","type":"text","text":"**Seam y la revelación de los cristales**\nAl entregarle los cinco Cristales Oscuros (Jevil, Spamton NEO, el Caballero, el Viejo y Pink), Seam revela por fin qué son: \"el poder de los sueños perdidos\".","x":700,"y":320,"width":300,"height":230,"color":"1"},
+		{"id":"s6","type":"text","text":"**El espejo con Gerson Boom**\nGerson (Cap.4) es tendero pacífico y clave en la trama; Pink (Cap.5) es jefa opcional e irrelevante para la trama principal — reversos casi exactos entre sí.","x":-800,"y":-450,"width":300,"height":250,"color":"3"},
+		{"id":"s0-img","type":"file","file":"Sprites/alphys_sprite_transparent_v2.png","x":-130,"y":-850,"width":121,"height":180},
+		{"id":"s2-img","type":"file","file":"Sprites/Shadow_Crystal_item.webp","x":420,"y":-130,"width":140,"height":180},
+		{"id":"s5-img","type":"file","file":"Sprites/Seam_Face.webp","x":700,"y":110,"width":223,"height":180}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e1_img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s2",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "top",
-			"toNode": "s3",
-			"toSide": "bottom",
-			"color": "1"
-		},
-		{
-			"id": "e3_img",
-			"fromNode": "s3-img",
-			"fromSide": "top",
-			"toNode": "s3",
-			"toSide": "bottom",
-			"color": "6"
-		},
-		{
-			"id": "e4_x3",
-			"fromNode": "s4",
-			"fromSide": "left",
-			"toNode": "s3",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e4",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s4",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "e5",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s5",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "e6",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s6",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e_s0-img",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e_s2-img",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e_s5-img",
-			"fromNode": "s5-img",
-			"fromSide": "bottom",
-			"toNode": "s5",
-			"toSide": "top",
-			"color": "1"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"1"},
+		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"s1","toSide":"right","color":"1"},
+		{"id":"e1_img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"1"},
+		{"id":"e3","fromNode":"center","fromSide":"top","toNode":"s3","toSide":"bottom","color":"1"},
+		{"id":"e3_img","fromNode":"s3-img","fromSide":"top","toNode":"s3","toSide":"bottom","color":"6"},
+		{"id":"e4_x3","fromNode":"s4","fromSide":"left","toNode":"s3","toSide":"right","color":"1"},
+		{"id":"e4","fromNode":"center","fromSide":"right","toNode":"s4","toSide":"left","color":"3"},
+		{"id":"e5","fromNode":"center","fromSide":"right","toNode":"s5","toSide":"left","color":"1"},
+		{"id":"e6","fromNode":"center","fromSide":"left","toNode":"s6","toSide":"right","color":"3"},
+		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"1"},
+		{"id":"e_s2-img","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"1"},
+		{"id":"e_s5-img","fromNode":"s5-img","fromSide":"bottom","toNode":"s5","toSide":"top","color":"1"}
 	]
 }

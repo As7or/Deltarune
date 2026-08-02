@@ -125,9 +125,6 @@ confianza: oficial
 
 ## Curiosidades
 
-![[Carol_face.png]]
-*Retrato de Carol con su expresión habitual, seria y poco expresiva.*
-
 - Sus rasgos faciales recuerdan visualmente al Grinch de ciertas adaptaciones cinematográficas de "Cómo el Grinch robó la Navidad".
 - Antes de la desaparición de Dess, Carol y Rudy solían ir con frecuencia a casa de los Dreemurr por las fiestas — algo que dejaron de hacer poco después.
 - Tiene predilección por los objetos con forma de corazón, con una colección de cojines de esa forma según comenta Noelle.

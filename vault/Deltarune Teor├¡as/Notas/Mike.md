@@ -30,9 +30,6 @@ confianza: fuerte
 
 > [!example]+ Capítulo 2 — La primera mención
 > Spamton lo menciona brevemente antes de su combate, dejando entrever que tiene historia con alguien llamado Mike, aunque no da más detalles en ese momento.
->
-> ![[spamton_mike.webp]]
-> 
 
 > [!example]+ Capítulo 3 — Mencionado, nunca visto
 > Tenna menciona repetidamente a Mike a lo largo del capítulo, siempre como su ayudante y socio de confianza, pidiéndole cosas que "él mismo hace, o el grupo hace en secreto, o simplemente ocurren". Cuando el resto del equipo de Tenna lo abandona tras descubrir su plan, Mike es —supuestamente— el último empleado en irse, iluminando a Tenna con un foco un instante antes de marcharse, mientras Tenna le suplica que no lo haga.

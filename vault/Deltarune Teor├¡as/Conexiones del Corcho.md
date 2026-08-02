@@ -56,7 +56,7 @@ confianza: mixta
 - **Caballero Rugiente ↔ Cristal Oscuro** (🟢 tercer portador): El único de los cinco cuyo combate y aparición no están ocultos — es obligatorio para avanzar el Cap.3.
 - **Gerson Boom ↔ Cristal Oscuro** (🟢 cuarto portador): Como Hammer of Justice, su entrega es la primera vez que Seam describe sentir "esperanza" en vez de solo preocupación.
 - **Jevil ↔ Noelle** (🔴 ¿Devilsknife la reconoce?): Teoría de foro sin confirmar: si se le da el Devilsknife (arma de Jevil) a Noelle, ella comenta que "le sonríe" — algunos lo leen como un guiño a que el arma conserva parte de su consciencia.
-- **Cristal Oscuro ↔ Ángel (Jugador)** (🟡 liberarse del guion): Los portadores de Cristal Oscuro buscan "liberarse" del guion prefijado del juego, un deseo que refleja directamente el conflicto del Jugador/Ángel con el control de la historia.
+- **Cristal Oscuro ↔ Jugador** (🟡 liberarse del guion): Los portadores de Cristal Oscuro buscan "liberarse" del guion prefijado del juego, un deseo que refleja directamente el conflicto del Jugador con el control de la historia.
 
 ## Gerson, Flowery — nuevos en el corcho
 
@@ -103,7 +103,7 @@ confianza: mixta
 - **Rouxls Kaard ↔ Queen** (🟢 intenta ser su mano derecha): Sin éxito duradero, en el Cap.2.
 - **Rouxls Kaard ↔ Tenna** (🟢 intenta ser su segundo): Forma un trío con Lanino y Elnina en el Cap.3 para intentarlo; Tenna se burla de él en público.
 
-- **Asriel ↔ Ángel (Jugador)** (🟡 el mismo bloqueo textual): Al fisgonear en el cuarto de Asriel, la narración dice "no viste nada"; al hacer Check al Caballero Rugiente en combate, dice "Kris no pudo aprender nada" — misma estructura, mismo sujeto (Kris), dos veces en todo el juego. No confirma que ambos casos estén conectados entre sí, pero es de las coincidencias textuales más sólidas del juego.
+- **Asriel ↔ Jugador** (🟡 el mismo bloqueo textual): Al fisgonear en el cuarto de Asriel, la narración dice "no viste nada"; al hacer Check al Caballero Rugiente en combate, dice "Kris no pudo aprender nada" — misma estructura, mismo sujeto (Kris), dos veces en todo el juego. No confirma que ambos casos estén conectados entre sí, pero es de las coincidencias textuales más sólidas del juego.
 - **Kris ↔ Spamton** (🟢 se conocen en el callejón): Kris queda visiblemente afectado tras la batalla contra Spamton NEO, al oírle hablar de ser una marioneta y de su destino.
 - **Tenna ↔ Ralsei y Susie** (🟢 concursantes favoritos): Disfruta teniéndolos en su show; Susie le promete después encontrarle un nuevo dueño, promesa que cumple junto a Kris.
 - **Tenna ↔ Caballero Rugiente** (🟢 el trato roto): Hace un trato con él para retener Lightners a cambio de recuperar audiencia; al romperlo liberando a Toriel, el Caballero le corta los brazos como castigo.
@@ -166,9 +166,10 @@ confianza: mixta
 
 ## Profecía, Rutas y el Jugador/Ángel
 
-- **Ángel (Jugador) ↔ Profecía** (🟡 figura profetizada): La Profecía habla de una figura que desciende para liberar el Mundo Oscuro; muchos fans identifican a esa figura con el propio Jugador/Ángel.
-- **Ángel (Jugador) ↔ Kris** (🟡 ¿quién controla a quién?): Teoría de quién controla realmente el cuerpo de Kris: el propio juego reconoce la tensión entre el Jugador y Kris, sobre todo al final del Cap.2.
-- **Noelle ↔ Ángel (Jugador)** (🟢 también lo menciona): Noelle es una de las pocas Lightners que parece percibir conscientemente al Jugador/Ángel, mencionándolo en diálogo opcional.
+- **Ángel ↔ Profecía** (🟢 figura profetizada): La Profecía describe directamente al Ángel como la figura cuyo "Cielo" hay que desterrar.
+- **Jugador ↔ Kris** (🟡 ¿quién controla a quién?): Teoría de quién controla realmente el cuerpo de Kris: el propio juego reconoce la tensión entre el Jugador y Kris, sobre todo al final del Cap.2.
+- **Noelle ↔ Ángel** (🟡 el reloj del ARG): Pista real de merchandising (Spamton Sweepstakes 2022) que la señala como candidata a ser el propio Ángel de la Profecía.
+- **Noelle ↔ Jugador** (🟢 también lo percibe): Noelle es una de las pocas Lightners que parece percibir conscientemente al Jugador, mencionándolo en diálogo opcional.
 - **Profecía ↔ Routes** (🟢 cada ruta reinterpreta el sacrificio): La Profecía anuncia un sacrificio final para sellar el Mundo Oscuro; cada ruta (Normal, Rara, Snowgrave) reinterpreta qué significa ese sacrificio.
 - **FRIEND ↔ Profecía** (🟡 La cola del Infierno): Se ha vinculado a FRIEND con "la cola del Infierno" mencionada en textos crípticos relacionados con la Profecía, aunque el significado exacto sigue sin confirmarse.
 

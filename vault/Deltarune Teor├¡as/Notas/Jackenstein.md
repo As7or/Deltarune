@@ -102,7 +102,7 @@ Además del propio Jackenstein, existe un NPC separado llamado oficialmente "Jac
 - [[Susie]]
 - [[Ralsei]]
 - [[Gerson Boom]]
-- [[Ángel (Jugador)]]
+- [[Jugador]]
 
 ## Submapa
 [[Submapas/Jackenstein.canvas|Abrir submapa gráfico]]

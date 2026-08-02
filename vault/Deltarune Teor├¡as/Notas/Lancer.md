@@ -8,7 +8,7 @@ confianza: fuerte
 
 | Mundo Oscuro (Card Kingdom)                                                                        | Mundo Claro                                                                                                                               |
 | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| ![[Lancer_Overworld.webp]]<br>*Lancer, el príncipe autoproclamado "malo" del Reino de las Cartas.* | ![[Cards_item_Lancer.gif\|320]]<br><br>*(hueco de imagen: la caja vacía de cartas, su objeto real según la lista de identidades del Cap.1 |
+| ![[Lancer_Overworld.webp]]<br>*Lancer, el príncipe autoproclamado "malo" del Reino de las Cartas.* | ![[Cards_item_Lancer.gif\|320]]<br>*Su identidad real: el icono con el que aparece representado dentro del inventario del Cap.2.* |
 
 > [!info]+ Datos rápidos
 > 🃏 Hijo del Rey y príncipe del Reino de las Cartas; antagonista secundario del Cap.1, convertido en aliado y amigo cercano de Susie.
