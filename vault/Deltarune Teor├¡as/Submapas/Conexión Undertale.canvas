@@ -1,0 +1,278 @@
+{
+	"nodes": [
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Conexión Undertale\n\nUniverso paralelo confirmado por Toby Fox. Comparte personajes y varios hilos de lore.",
+			"x": -190,
+			"y": -80,
+			"width": 400,
+			"height": 220,
+			"color": "6"
+		},
+		{
+			"id": "s0",
+			"type": "text",
+			"text": "**Gaster**\nPersonaje original de UT, desaparecido en ambos juegos.",
+			"x": -130,
+			"y": -538,
+			"width": 270,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "**Asriel**\nMismo personaje, otra historia.",
+			"x": 320,
+			"y": 164,
+			"width": 270,
+			"height": 150,
+			"color": "4"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "**Kris**\nSOULs y la teoría del Vessel comparten mecánica con UT.",
+			"x": -580,
+			"y": 164,
+			"width": 270,
+			"height": 150,
+			"color": "3"
+		},
+		{
+			"id": "center-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Undertale.png",
+			"x": -960,
+			"y": -207,
+			"width": 190,
+			"height": 190
+		},
+		{
+			"id": "s0-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/gaster.png",
+			"x": -129,
+			"y": -938,
+			"width": 74,
+			"height": 190
+		},
+		{
+			"id": "s1-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/asriel.png",
+			"x": 669,
+			"y": 306,
+			"width": 99,
+			"height": 190
+		},
+		{
+			"id": "s2-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_artwork.png",
+			"x": -920,
+			"y": 303,
+			"width": 260,
+			"height": 158
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "**Sans**\nEl personaje menos alterado de todo el elenco compartido — teoría fuerte de que viaja literalmente entre realidades, reforzada por la tarjeta perforada del Cap.5.",
+			"x": -240,
+			"y": 164,
+			"width": 300,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "s3-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/86374-and-sans-undertale-black-line-white-sprite.png",
+			"x": -240,
+			"y": -26,
+			"width": 190,
+			"height": 170
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "**Jugador**\nLa creación del Vessel en la intro reutiliza terminología, estética y música asociadas a Gaster en Undertale.",
+			"x": 100,
+			"y": 164,
+			"width": 300,
+			"height": 220,
+			"color": "3"
+		},
+		{
+			"id": "s4-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Kris_overworld_SOUL.png",
+			"x": 100,
+			"y": -26,
+			"width": 190,
+			"height": 170
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "**Ángel**\nEl \"Cielo del Ángel\" de la Profecía ya existía como concepto en el propio Delta Rune de Undertale, con dos lecturas: liberador benevolente o Ángel de la Muerte.",
+			"x": 440,
+			"y": 164,
+			"width": 300,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "s5-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp",
+			"x": 440,
+			"y": -26,
+			"width": 190,
+			"height": 170
+		},
+		{
+			"id": "s6",
+			"type": "text",
+			"text": "**Gerson Boom**\nEl propio Gerson de Undertale ya mencionaba la Profecía y al Ángel en su tienda de Waterfall, años antes de que Deltarune existiera.",
+			"x": 780,
+			"y": 164,
+			"width": 300,
+			"height": 220,
+			"color": "4"
+		},
+		{
+			"id": "s6-img",
+			"type": "file",
+			"file": "vault/Deltarune Teorías/Sprites/Hammer_of_Justice_battle_idle.gif",
+			"x": 780,
+			"y": -26,
+			"width": 190,
+			"height": 170
+		}
+	],
+	"edges": [
+		{
+			"id": "e0",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s0",
+			"toSide": "right",
+			"color": "4"
+		},
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left",
+			"color": "4"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "s2",
+			"toSide": "right",
+			"color": "3"
+		},
+		{
+			"id": "center-img-e",
+			"fromNode": "center-img",
+			"fromSide": "right",
+			"toNode": "center",
+			"toSide": "left",
+			"color": "6"
+		},
+		{
+			"id": "s0-img-e",
+			"fromNode": "s0-img",
+			"fromSide": "bottom",
+			"toNode": "s0",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s1-img-e",
+			"fromNode": "s1-img",
+			"fromSide": "bottom",
+			"toNode": "s1",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "s2-img-e",
+			"fromNode": "s2-img",
+			"fromSide": "bottom",
+			"toNode": "s2",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "e_s3",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s3-img",
+			"fromNode": "s3-img",
+			"fromSide": "bottom",
+			"toNode": "s3",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s4",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s4-img",
+			"fromNode": "s4-img",
+			"fromSide": "bottom",
+			"toNode": "s4",
+			"toSide": "top",
+			"color": "3"
+		},
+		{
+			"id": "e_s5",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s5-img",
+			"fromNode": "s5-img",
+			"fromSide": "bottom",
+			"toNode": "s5",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s6",
+			"fromNode": "center",
+			"fromSide": "bottom",
+			"toNode": "s6",
+			"toSide": "top",
+			"color": "4"
+		},
+		{
+			"id": "e_s6-img",
+			"fromNode": "s6-img",
+			"fromSide": "bottom",
+			"toNode": "s6",
+			"toSide": "top",
+			"color": "4"
+		}
+	]
+}

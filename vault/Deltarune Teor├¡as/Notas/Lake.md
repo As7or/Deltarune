@@ -101,7 +101,7 @@ confianza: fuerte
 > Su frase al revelarse como jefe secreto del Cap.4 —"¿Puedes oír su canción, cantando desde las profundidades?"— es una de las piezas centrales de la teoría de "la canción que viene de lejos", que conecta el Lago con Onionsan, el Riverman de Undertale y la Sala de Sonido secreta de Gaster (ver Teorías, más abajo). [[Gerson Boom]]
 
 > [!quote]- Routes
-> El Lago alberga el final más reciente de la Ruta Rara: en el Cap.5, si se ha acumulado un número suficiente de elecciones ocultas en capítulos anteriores, Kris y Noelle terminan sumergiéndose en él, con un corte directo a un misterioso "Capítulo 7, Lado B". Es, de momento, la culminación más ambiciosa de todo el patrón acumulativo de la Ruta Rara. [[Routes]]
+> El Lago alberga el final más reciente de la Ruta Rara: en el Cap.5, si se ha acumulado un número suficiente de elecciones ocultas en capítulos anteriores, Kris y Noelle terminan sumergiéndose en él, con un corte directo a un misterioso "Capítulo 7, Lado B". Es, de momento, la culminación más ambiciosa de todo el patrón acumulativo de la Ruta Rara. [[Rutas]]
 
 ## Teorías
 
@@ -136,7 +136,7 @@ confianza: fuerte
 
 ## Relacionado
 - [[Dess]]
-- [[Routes]]
+- [[Rutas]]
 - [[Noelle]]
 - [[Kris]]
 - [[Onionsan]]

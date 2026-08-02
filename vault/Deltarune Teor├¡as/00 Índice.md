@@ -34,7 +34,7 @@ El corcho principal ahora muestra la imagen directamente en la tarjeta (no hace 
 | Mike | `mike.png` | deltarune.wiki/w/Cyber_World/NPCs |
 | Everyman | `everyman.png` | busca "Everyman" en deltarune.wiki |
 | Lake | `lake.png` | deltarune.wiki/w/Lake (captura de la localización) |
-| Routes | `routes.png` | deltarune.wiki/w/Route |
+| Rutas | `routes.png` | deltarune.wiki/w/Route |
 | Shelter | `shelter.png` | deltarune.wiki/w/Shelter |
 | Dark Crystal (¿Libertad?) | `dark-crystal.png` | deltarune.wiki/w/Shadow_Crystal_boss |
 

@@ -65,7 +65,7 @@ confianza: oficial
 
 ## La Ruta Rara la reinterpreta
 
-Es la primera vez que el juego deja entrever que ese "guion" puede torcerse: las decisiones ocultas que se acumulan capítulo a capítulo (ver [[Routes]]) sugieren que la Profecía puede cumplirse de formas muy distintas a la letal literalidad de su texto.
+Es la primera vez que el juego deja entrever que ese "guion" puede torcerse: las decisiones ocultas que se acumulan capítulo a capítulo (ver [[Rutas]]) sugieren que la Profecía puede cumplirse de formas muy distintas a la letal literalidad de su texto.
 
 ## Análisis de las vidrieras del Cap.4
 
@@ -292,7 +292,7 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 > Es la única figura de la Profecía referida siempre por su título ("el Caballero"), nunca por nombre — a diferencia de Queen, mencionada solo por su apodo, que también funciona como título. [[Roaring Knight]]
 
 > [!quote]- Routes
-> Cada ruta reinterpreta de forma distinta el sacrificio final que anuncia el texto profético — desde el final estándar de cada capítulo hasta las variantes más oscuras de la Ruta Rara, como Snowgrave en el Cap.2 o el final del Lago en el Cap.5. Ninguna de esas variantes contradice directamente el texto de la Profecía; simplemente cambian el tono y el coste emocional de cumplirla. [[Routes]]
+> Cada ruta reinterpreta de forma distinta el sacrificio final que anuncia el texto profético — desde el final estándar de cada capítulo hasta las variantes más oscuras de la Ruta Rara, como Snowgrave en el Cap.2 o el final del Lago en el Cap.5. Ninguna de esas variantes contradice directamente el texto de la Profecía; simplemente cambian el tono y el coste emocional de cumplirla. [[Rutas]]
 
 > [!quote]- Ángel
 > El "Cielo del Ángel" que hay que desterrar según la Profecía es una de las conexiones más directas del texto con esta figura. [[Ángel]]
@@ -350,7 +350,7 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 
 ## Relacionado
 - [[Roaring Knight]]
-- [[Routes]]
+- [[Rutas]]
 - [[Ángel]]
 - [[Jugador]]
 - [[Gaster (W. D. Gaster)]]

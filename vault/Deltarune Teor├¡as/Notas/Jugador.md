@@ -103,7 +103,7 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 > Es una de las pocas Lightners que parece percibir conscientemente la presencia del Jugador, llegando a preguntar en voz alta durante la Ruta Snowgrave si de verdad es Kris quien actúa. [[Noelle]]
 
 > [!quote]- Routes
-> El propio sistema de rutas ocultas —invisible para los personajes, pero registrado por el juego— es una de las pruebas más directas de la tensión entre las decisiones del Jugador y el control real de la historia. [[Routes]]
+> El propio sistema de rutas ocultas —invisible para los personajes, pero registrado por el juego— es una de las pruebas más directas de la tensión entre las decisiones del Jugador y el control real de la historia. [[Rutas]]
 
 > [!quote]- Cristal Oscuro
 > El deseo de "liberarse del guion" que comparten sus portadores refleja directamente esta misma tensión entre el control del Jugador y el destino que la Profecía parece imponerles. [[Cristal Oscuro]]
@@ -129,7 +129,7 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 ## Relacionado
 - [[Kris]]
 - [[Noelle]]
-- [[Routes]]
+- [[Rutas]]
 - [[Cristal Oscuro]]
 - [[Ángel]]
 - [[Gaster (W. D. Gaster)]]

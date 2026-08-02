@@ -170,7 +170,7 @@ confianza: mixta
 - **Jugador ↔ Kris** (🟡 ¿quién controla a quién?): Teoría de quién controla realmente el cuerpo de Kris: el propio juego reconoce la tensión entre el Jugador y Kris, sobre todo al final del Cap.2.
 - **Noelle ↔ Ángel** (🟡 el reloj del ARG): Pista real de merchandising (Spamton Sweepstakes 2022) que la señala como candidata a ser el propio Ángel de la Profecía.
 - **Noelle ↔ Jugador** (🟢 también lo percibe): Noelle es una de las pocas Lightners que parece percibir conscientemente al Jugador, mencionándolo en diálogo opcional.
-- **Profecía ↔ Routes** (🟢 cada ruta reinterpreta el sacrificio): La Profecía anuncia un sacrificio final para sellar el Mundo Oscuro; cada ruta (Normal, Rara, Snowgrave) reinterpreta qué significa ese sacrificio.
+- **Profecía ↔ Rutas** (🟢 cada ruta reinterpreta el sacrificio): La Profecía anuncia un sacrificio final para sellar el Mundo Oscuro; cada ruta (Normal, Rara, Espada) reinterpreta qué significa ese sacrificio.
 - **FRIEND ↔ Profecía** (🟡 La cola del Infierno): Se ha vinculado a FRIEND con "la cola del Infierno" mencionada en textos crípticos relacionados con la Profecía, aunque el significado exacto sigue sin confirmarse.
 
 ## Lago, Refugio, Dess y el Caballero Rugiente
@@ -180,7 +180,7 @@ confianza: mixta
 - **Forgotten Man ↔ Refugio** (🟡 mismo incidente): El Forgotten Man reparte huevos cerca de la zona del Refugio, justo donde se cree que ocurrió el incidente que hizo desaparecer a Dess.
 - **Carol ↔ Refugio** (🔴 investiga la zona): Como alcaldesa, Carol investiga oficialmente la zona del Refugio tras la desaparición de Dess.
 - **Asgore ↔ Refugio** (🔴 corcho secreto): Pista ambiental: Asgore parece tener un tablón de teorías propio y secreto relacionado con el Refugio, sugiriendo que también investiga la zona por su cuenta.
-- **Lago ↔ Routes** (🟡 final exclusivo ruta rara): El Lago esconde un final exclusivo de la Ruta Rara, solo accesible tras acumular suficientes elecciones ocultas del sistema de Routes.
+- **Lago ↔ Rutas** (🟡 final exclusivo ruta rara): El Lago esconde un final exclusivo de la Ruta Rara, solo accesible tras acumular suficientes elecciones ocultas del sistema de Rutas.
 - **Lago ↔ Noelle** (🟡 escena clave del Cap.5): En el Cap.5, Susie lleva a Noelle al agua del Lago tras su cita en el Festival — una de las escenas más comentadas del capítulo.
 - **Onionsan ↔ Normal NPC** (🔴 ¿asesinato?): Teoría especulativa: la desaparición de Onionsan del Lago coincide con la aparición del Normal NPC, lo que algunos leen como una posible relación causal entre ambos sucesos.
 - **Onionsan ↔ Lago** (🟢 aparece en el lago): Onionsan es un NPC recurrente que habita el Lago desde capítulos anteriores al Cap.4.

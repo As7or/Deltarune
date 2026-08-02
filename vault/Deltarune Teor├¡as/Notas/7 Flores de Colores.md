@@ -175,7 +175,7 @@ En el Mundo Claro, las 7 Flores siguen siendo simples flores en macetas, guardad
 - [[Kris]]
 - [[Mad Mew Mew (Pink)]]
 - [[Noelle]]
-- [[Routes]]
+- [[Rutas]]
 - [[Ralsei]]
 - [[Susie]]
 
