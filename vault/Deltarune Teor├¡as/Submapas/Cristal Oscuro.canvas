@@ -1,260 +1,43 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "6",
-			"text": "# Cristal Oscuro\n💎 El Cristal Oscuro es el objeto clave secreto de cada capítulo, obtenido al derrotar al jefe secreto correspondiente. (Nombre original en inglés: Shadow Crystal — en esta nota se usa siempre \"Cristal Oscuro\" para no mezclar idiomas.)"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"x": -130,
-			"y": -640,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Seam**\nEl único personaje que recibe y estudia los Cristales Oscuros según se van consiguiendo; sus comentarios (esperanza, un \"Pure Crystal\" sin usar, la desaparición del Shadow Mantle) son la fuente…"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Jevil**\nPrimer portador conocido."
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"x": 420,
-			"y": 220,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Spamton**\nSegundo portador, en su forma NEO."
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"x": -130,
-			"y": 480,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Roaring Knight**\nTercer portador, el único cuyo combate no está oculto."
-		},
-		{
-			"id": "s4",
-			"type": "text",
-			"x": -680,
-			"y": 220,
-			"width": 280,
-			"height": 210,
-			"color": "6",
-			"text": "**Gerson Boom**\nCuarto portador, como Hammer of Justice."
-		},
-		{
-			"id": "s5",
-			"type": "text",
-			"x": -680,
-			"y": -260,
-			"width": 280,
-			"height": 240,
-			"color": "1",
-			"text": "**¿Quién es \"Alguien Extraño\"?**\nVarios portadores (al menos Jevil y Spamton) fueron contactados por la misma figura misteriosa antes de su declive."
-		},
-		{
-			"id": "s6",
-			"type": "text",
-			"x": 900,
-			"y": -20,
-			"width": 280,
-			"height": 240,
-			"color": "1",
-			"text": "**El patrón \"cada vez más Lightner\"**\nTeoría fuerte: los portadores de Cristal Oscuro se vuelven progresivamente menos \"Darkner puro\" — Jevil es un Darkner normal, Spamton está a medio camino, el Caballero Rugiente parece mitad Lightner mitad Darkner, y…"
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/Shadow_Crystal_item.webp",
-			"x": -190,
-			"y": -405,
-			"width": 260,
-			"height": 260
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/Seam_Face.webp",
-			"x": -130,
-			"y": -850,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/Jevil.gif",
-			"x": 420,
-			"y": -470,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/spamton.gif",
-			"x": 420,
-			"y": 10,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/TheRoaringKnightDeltarune.webp",
-			"x": -130,
-			"y": 270,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s4-img",
-			"type": "file",
-			"file": "Sprites/gerson-grave.png",
-			"x": -680,
-			"y": 10,
-			"width": 240,
-			"height": 180
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Cristal Oscuro\n💎 Objeto clave secreto de cada capítulo, obtenido al derrotar al jefe secreto correspondiente. Cinco confirmados hasta la fecha (Cap.1-5).","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
+		{"id":"s0","type":"text","text":"**Seam**\nEl único personaje que recibe y estudia los Cristales Oscuros conforme se consiguen; sus comentarios son la fuente principal de información sobre su naturaleza.","x":-150,"y":-925,"width":300,"height":210,"color":"6"},
+		{"id":"s0-img","type":"file","file":"Sprites/Seam_Face.webp","x":-95,"y":-1315,"width":190,"height":154},
+		{"id":"s1","type":"text","text":"**Jevil**\nPrimer portador confirmado (Cap.1). Tras conocer a Alguien Extraño, cree que el mundo es solo un juego.","x":332,"y":-768,"width":300,"height":210,"color":"6"},
+		{"id":"s1-img","type":"file","file":"Sprites/Jevil.gif","x":628,"y":-1080,"width":173,"height":170},
+		{"id":"s2","type":"text","text":"**Spamton**\nSegundo portador confirmado (Cap.2), en su forma corrupta NEO.","x":630,"y":-358,"width":300,"height":210,"color":"6"},
+		{"id":"s2-img","type":"file","file":"Sprites/spamton.gif","x":1075,"y":-465,"width":151,"height":170},
+		{"id":"s3","type":"text","text":"**Roaring Knight**\nTercer portador (Cap.3), el único cuyo combate no está oculto como jefe secreto.","x":630,"y":148,"width":300,"height":210,"color":"6"},
+		{"id":"s3-img","type":"file","file":"Sprites/TheRoaringKnightDeltarune.webp","x":1075,"y":295,"width":149,"height":170},
+		{"id":"s4","type":"text","text":"**Gerson Boom**\nCuarto portador (Cap.4), como Hammer of Justice. Seam siente por primera vez \"esperanza\".","x":332,"y":558,"width":300,"height":210,"color":"6"},
+		{"id":"s4-img","type":"file","file":"Sprites/Hammer_of_Justice_battle_idle.gif","x":628,"y":910,"width":190,"height":138},
+		{"id":"s5","type":"text","text":"**Pink**\nQuinta y última portadora confirmada (Cap.5), la más escondida. Su combate revela que los Cristales son \"sueños fallidos\".","x":-150,"y":715,"width":300,"height":210,"color":"6"},
+		{"id":"s5-img","type":"file","file":"Sprites/Mad_Mew_Mew_Pink.gif","x":-95,"y":1145,"width":190,"height":160},
+		{"id":"s6","type":"text","text":"**Shadow Mantle (ERAM)**\nObjeto hermano, no un Cristal: reduce daño Oscuro/Estrella. Lo entrega ERAM, el \"Shadow Mantle Holder\", mismo círculo temático.","x":-632,"y":558,"width":300,"height":210,"color":"6"},
+		{"id":"s6-img","type":"file","file":"Sprites/shadow_mantle.gif","x":-818,"y":910,"width":170,"height":170},
+		{"id":"s7","type":"text","text":"**🎲 ¿Quién es \"Alguien Extraño\"?**\nContactó al menos a Jevil y Spamton antes de su declive. Identidad sin confirmar — se especula que podría ligarse a la Voz/Gaster.","x":-930,"y":148,"width":300,"height":210,"color":"1"},
+		{"id":"s8","type":"text","text":"**🎲 El \"Pure Crystal\"**\nObjeto sin usar en los archivos, descrito como \"la sombra purificada por el gato\" — posible guiño a Seam. Contenido cortado, nunca implementado.","x":-930,"y":-358,"width":300,"height":210,"color":"1"},
+		{"id":"s9","type":"text","text":"**🎲 La estrella caída y el cristal**\nUn libro del 2º Santuario describe lágrimas de una estrella caída que formaron algo \"parecido al cristal\" — posible origen simbólico, sin confirmación directa.","x":-632,"y":-768,"width":300,"height":210,"color":"1"},
+		{"id":"center-img","type":"file","file":"Sprites/ShadowCrystals.png","x":-74,"y":-171,"width":189,"height":66}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s2",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "top",
-			"toNode": "s3",
-			"toSide": "bottom",
-			"color": "3"
-		},
-		{
-			"id": "e4",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s4",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "e5_x1",
-			"fromNode": "s5",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e5",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s5",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "e6_x1",
-			"fromNode": "s6",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e6",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s6",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e_center-img",
-			"fromNode": "center-img",
-			"fromSide": "bottom",
-			"toNode": "center",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e_s0-img",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s1-img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e_s2-img",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s3-img",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s4-img",
-			"fromNode": "s4-img",
-			"fromSide": "bottom",
-			"toNode": "s4",
-			"toSide": "top",
-			"color": "3"
-		}
+	"edges":[
+		{"id":"e_center-img","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"4"},
+		{"id":"e_s0","fromNode":"center","fromSide":"top","toNode":"s0","toSide":"bottom","color":"3"},
+		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
+		{"id":"e_s1","fromNode":"center","fromSide":"top","toNode":"s1","toSide":"bottom","color":"3"},
+		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"3"},
+		{"id":"e_s2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"3"},
+		{"id":"e_s2-img","fromNode":"s2-img","fromSide":"left","toNode":"s2","toSide":"right","color":"3"},
+		{"id":"e_s3","fromNode":"center","fromSide":"right","toNode":"s3","toSide":"left","color":"3"},
+		{"id":"e_s3-img","fromNode":"s3-img","fromSide":"left","toNode":"s3","toSide":"right","color":"3"},
+		{"id":"e_s4","fromNode":"center","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
+		{"id":"e_s4-img","fromNode":"s4-img","fromSide":"top","toNode":"s4","toSide":"bottom","color":"3"},
+		{"id":"e_s5","fromNode":"center","fromSide":"bottom","toNode":"s5","toSide":"top","color":"3"},
+		{"id":"e_s5-img","fromNode":"s5-img","fromSide":"top","toNode":"s5","toSide":"bottom","color":"3"},
+		{"id":"e_s6","fromNode":"center","fromSide":"bottom","toNode":"s6","toSide":"top","color":"3"},
+		{"id":"e_s6-img","fromNode":"s6-img","fromSide":"top","toNode":"s6","toSide":"bottom","color":"3"},
+		{"id":"e_s7","fromNode":"center","fromSide":"left","toNode":"s7","toSide":"right","color":"1"},
+		{"id":"e_s8","fromNode":"center","fromSide":"left","toNode":"s8","toSide":"right","color":"1"},
+		{"id":"e_s9","fromNode":"center","fromSide":"top","toNode":"s9","toSide":"bottom","color":"1"}
 	]
 }

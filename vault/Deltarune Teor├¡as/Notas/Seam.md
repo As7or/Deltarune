@@ -6,9 +6,9 @@ familia: N/A
 confianza: fuerte
 ---
 
-| Seam                                                                       | Mundo Real                                                                                   | Su tienda                                                                    |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ![[Seam_Face.webp]]<br>*Seam, el tendero peluche del Reino de las Cartas.* | ![[Seam_lightowrld.png]]<br>*Su identidad real, según Objetos del Mundo Oscuro: un peluche.* | ![[Seam's_Shop_location.png]]<br>*La ubicación de su tienda en Castle Town.* |
+| Seam                                                                       | Mundo Real                                                                                   |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| ![[Seam_Face.webp]]<br>*Seam, el tendero peluche del Reino de las Cartas.* | ![[Seam_lightowrld.png]]<br>*Su identidad real, según Objetos del Mundo Oscuro: un peluche.* |
 
 *Nota de tabla: Seam solo aparece dentro de su propia tienda (el "Seap") — es el único tendero del juego que nunca sale de ella.*
 
@@ -27,6 +27,9 @@ confianza: fuerte
 
 > [!example]+ Capítulo 1 — El mago de la corte
 > Regenta su tienda en el Campo del Reino de las Cartas. Si Jevil ha sido derrotado, Seam nota que Kris recibió un Cristal Oscuro de él, y explica que podrían hacer algo con estos cristales si el grupo consigue reunir más derrotando a los jefes secretos de cada capítulo.
+>
+> ![[Seam's_Shop_location.png]]
+> *La ubicación de su tienda, el "Seap", en el Campo del Reino de las Cartas.*
 
 > [!example]+ Capítulo 2 — Traslado a Castle Town y la advertencia del Shadow Mantle
 > Su tienda se traslada a Castle Town tras el traslado de los Darkners del Cap.1. Si se consiguen los Cristales de Jevil y Spamton NEO, advierte que el siguiente enemigo con un Cristal Oscuro (el Caballero, revelado en el Cap.3) podría ser imposible de vencer sin un objeto llamado Shadow Mantle — que intenta darles ("Si tuvierais el MANTO DE SOMBRA, vuestra suerte podría ser distinta... sin manto, no hay cristal"), pero no logra encontrar, dando a entender que alguien se lo ha quitado.

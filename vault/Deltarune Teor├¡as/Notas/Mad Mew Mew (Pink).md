@@ -135,6 +135,7 @@ confianza: fuerte
 - [[Huevo]]
 - [[Forgotten Man]]
 - [[FRIEND]]
+- [[Sr. Cattenheimer]]
 
 ## Submapa
 [[Submapas/Mad Mew Mew (Pink).canvas|Abrir submapa gráfico]]

@@ -253,6 +253,30 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None):
       <div class="summary">{summary}</div>
     </div>
   </div>''')
+        elif it["label"] == "Cristal Oscuro":
+            node_html.append(f'''
+  <div class="node node-crystal" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+    {submap_badge}
+    <div class="crystal">
+      <div class="crystal-facets"></div>
+      <div class="{thumb_class} crystal-thumb" style="height:{thumb_h:.0f}px;">{img_tag}</div>
+      <div class="title">{title}</div>
+      <div class="summary">{summary}</div>
+    </div>
+  </div>''')
+        elif it["label"] == "Shelter":
+            node_html.append(f'''
+  <div class="node node-rust" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+    <div class="rivet"></div>
+    {submap_badge}
+    <div class="card rust-card">
+      <div class="rust-stains"></div><div class="rust-streaks"></div>
+      <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
+      <div class="tag">{tag}</div>
+      <div class="title">{title}</div>
+      <div class="summary">{summary}</div>
+    </div>
+  </div>''')
         else:
             node_html.append(f'''
   <div class="node" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">

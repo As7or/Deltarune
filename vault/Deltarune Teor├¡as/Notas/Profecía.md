@@ -364,6 +364,7 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 - [[Lancer]]
 - [[Tenna]]
 - [[FRIEND]]
+- [[Cristal Oscuro]]
 - [[Asgore]]
 - [[Shelter]]
 

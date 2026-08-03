@@ -70,7 +70,7 @@
 		{
 			"id": "s2-img",
 			"type": "file",
-			"file": "Sprites/Kris_artwork.png",
+			"file": "Sprites/Kris_overworld_static.png",
 			"x": -920,
 			"y": 303,
 			"width": 260,

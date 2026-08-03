@@ -118,7 +118,7 @@
 		{
 			"id": "s5-img",
 			"type": "file",
-			"file": "Sprites/Kris_artwork.png",
+			"file": "Sprites/Kris_overworld_static.png",
 			"x": -130,
 			"y": 690,
 			"width": 180,

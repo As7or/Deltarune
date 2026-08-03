@@ -146,7 +146,7 @@
 		{
 			"id": "s_susie-img",
 			"type": "file",
-			"file": "Sprites/Susie_artwork.png",
+			"file": "Sprites/Susie_overworld_eyes.png",
 			"x": -720,
 			"y": 510,
 			"width": 180,
@@ -165,7 +165,7 @@
 		{
 			"id": "s_kris-img",
 			"type": "file",
-			"file": "Sprites/Kris_artwork.png",
+			"file": "Sprites/Kris_overworld_static.png",
 			"x": -380,
 			"y": 510,
 			"width": 180,

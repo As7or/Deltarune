@@ -23,6 +23,7 @@ confianza: fuerte
 > - 🍫 **Curiosidad de diseño:** comparte con Chara (Undertale) la fascinación por los cuchillos y el gusto por el chocolate.
 > - ❤️ **HP:** 90 en el Mundo Oscuro (crece con cada fuente sellada) / siempre 20 en el Mundo Claro — el mismo HP que Frisk a Lv.1.
 > - 🗣️ **Apodos que le ponen otros:** "Blue person" (Lancer), "Krissy" (Bratty, Catty, Onion), "Krismas" (Rudy, Noelle, Onion), "Kris Cross Applesauce" (Queen, Berdly), "Little Sponge" (Spamton), "THE CAGE" (la Profecía).
+> - 🖐️ **Teoría de fans (no confirmada):** varias pistas visuales, y desde el Cap.5 un comentario textual de Mad Mew Mew/Pink sobre una mordedura de gato en su mano, alimentan la especulación de que Kris podría perder la mano más adelante — Pink lo comenta, pero en ningún momento lo confirma. Ver "Teoría de la mano" más abajo.
 
 ## Personalidad
 
@@ -53,13 +54,19 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 *El ALMA de Kris brillando — el objeto que el jugador controla directamente, no a Kris mismo.*
 
 ## Teoría de la mano
-Teoría especulativa (sin confirmación en el juego) que sostiene que Kris perderá un brazo o una mano en un capítulo futuro.
+Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; el propio Cap.5 añadió la primera confirmación textual real de que hay un gato de por medio, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
 
-> [!question]- La evidencia que se cita
+> [!question]+ La evidencia que se cita
+> - **Confirmado en el Cap.5:** el diálogo secreto de Pink (ver [[Mad Mew Mew (Pink)]]) reconoce en pantalla que Kris tiene una mordedura de gato en la mano, y advierte de una "manada de gatos de caza" tras la proteína — la nota de Pink conecta este aviso principalmente con [[FRIEND]] y los Huevos.
 > - La silueta del héroe en la Profecía completa parece mostrarse sin un brazo visible.
 > - En ciertos sprites del Mundo Claro —por ejemplo al usar Fragmentos Oscuros, o en la sala de la máquina tragaperras del Capítulo 3— el brazo de Kris no llega a dibujarse del todo.
 > - La lectura de que el propio Knight podría ser un cadáver o un cuerpo mutilado bajo la armadura alimenta el salto especulativo de que la mutilación no sería exclusiva del Knight.
-> - Es, en conjunto, una de las teorías más "de fandom" de esta lista — divertida y con cierta base visual, pero sin pista textual directa que la sostenga con firmeza.
+> - El puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) es otra de las escenas que el fandom cita como posible pista visual, aunque no hay ninguna línea de diálogo que la conecte directamente con la mano de Kris.
+> - 🎲 Pieza más nueva y más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
+> - Es, en conjunto, una de las teorías más "de fandom" de esta lista — ahora con una pieza de diálogo real detrás, pero todavía sin confirmación de que Kris vaya a perder la mano.
+
+![[Kriss_hand_acid_river_scene.webp]]
+*Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) — una de las escenas que el fandom cita como pista visual sobre la mano de Kris.*
 
 ## Historia por capítulos
 
@@ -282,6 +289,7 @@ Uno de los primeros bocetos de Kris es de 2014 o 2015, compartido por Toby Fox e
 - [[FRIEND]]
 - [[Forgotten Man]]
 - [[Asriel]]
+- [[Sr. Cattenheimer]]
 
 ## Submapa
 [[Submapas/Kris.canvas|Abrir submapa gráfico]]

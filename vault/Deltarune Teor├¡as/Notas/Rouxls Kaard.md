@@ -8,7 +8,7 @@ confianza: fuerte
 
 | Mundo Claro                                                                                                                                               | Mundo Oscuro (Card Kingdom)                                                         |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| ![[Ruruskaado.webp]]*(hueco de imagen: la carta de las reglas, su objeto real según la lista de identidades del Cap.1 — todavía sin guardar en el vault)* | ![[Rouxls_Kaard_face.png]]<br>*Rouxls Kaard, autoproclamado "Duque de los Puzles".* |
+| ![[Ruruskaado.webp]]*(hueco de imagen: la carta de las reglas, su objeto real según la lista de identidades del Cap.1 — todavía sin guardar en el vault)* | ![[Rouxls_Kaard_overworld_appear.gif]]<br>*Rouxls Kaard apareciendo en el Reino de las Cartas.* |
 
 > [!info]+ Datos rápidos
 > 🃏 Darkner del Reino de las Cartas; se autoproclama "Duque de los Puzles" y sirve al Rey en el Cap.1. Según Jigsaw Joe, cuando el Rey tomó el poder "despidió a todo el mundo y sustituyó a todos los creadores de puzles por él... Rouxls Kaard".
@@ -21,6 +21,9 @@ confianza: fuerte
 
 > [!tip]- Ficha de personalidad
 > Egocéntrico, oportunista y completamente ajeno a sus propias carencias — se cree apto para cualquier cosa que se proponga, pese a ser incompetente en casi todo lo que intenta. Traiciona a sus superiores sin dudarlo si eso le beneficia, y evita el conflicto directo huyendo de los Lightners en cuanto puede. Pese a su fachada traicionera, cuida de Lancer con un cariño genuino que se empeña en disimular. Cuando Susie le echa en cara sus intentos de asesinato en el Cap.1, él responde con total seriedad que es "una interesante Teoría-eth Histórica" pero que "las pruebas lo desmienten-eth" — y le ofrece un plato de gusanos a cambio de su silencio; Susie acepta el trato sin más.
+>
+> ![[Rouxls_Kaard_face.png]]
+> *Rouxls Kaard, autoproclamado "Duque de los Puzles".*
 >
 > ![[Rouxls_Kaard_overworld_crying.gif]]
 > *Rouxls Kaard llorando tras ser derrotado — su reacción habitual pese a la fachada de villano seguro de sí mismo.*

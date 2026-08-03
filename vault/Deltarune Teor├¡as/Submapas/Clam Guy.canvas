@@ -1,148 +1,22 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Clam Guy\n🐚 Personaje que regresa de Undertale, ahora en el camino del Lago de Hometown (Cap.2). Comparte diseño casi calcado con Clam Girl, un NPC distinto y exclusivo de Undertale.",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "6"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Gaster (W. D. Gaster)**\nComparte el mismo sonido de desaparición que Mystery Man y sus Seguidores, y su sprite gris la vincula directamente a la misma estética \"Goner\" de todo lo relacionado con él.",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 210,
-			"color": "6"
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/gaster_gonerclampgirl.webp",
-			"x": 420,
-			"y": -470,
-			"width": 123,
-			"height": 180
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/gaster_Clam_Guy_overworld.png",
-			"x": -35,
-			"y": -290,
-			"width": 111,
-			"height": 189
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**¿Sabía Gaster de la existencia de Susie antes de que existiera Deltarune?**\nSi Clam Girl está realmente ligada a Gaster (por el sonido y el color compartidos), su mención de \"Suzy\" implicaría que, dentro de la propia ficción, alguna versión de Gaster ya era consciente de la existencia de Susie…",
-			"x": -640,
-			"y": -125,
-			"width": 280,
-			"height": 240,
-			"color": "1"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**Susie**\nLa lectura casi unánime del fandom es que \"Suzy\" es la propia Susie de Deltarune — el parecido de nombres, sumado a que este diálogo se añadió justo un mes antes del anuncio del Cap.1, hace muy…",
-			"x": -470,
-			"y": -555,
-			"width": 280,
-			"height": 210,
-			"color": "6"
-		},
-		{
-			"id": "4a1daccf3a23ed4b",
-			"type": "file",
-			"file": "Sprites/Susie_overworld_eyes.png",
-			"x": -443,
-			"y": -842,
-			"width": 163,
-			"height": 287
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**Onionsan**\n\"La cosa\" a la que Clam Guy alude sin nombrarla directamente, tras cruzarse con él junto al Lago en el Cap.1.",
-			"x": 482,
-			"y": 200,
-			"width": 280,
-			"height": 210,
-			"color": "4"
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/Deltarune_-_Sprite_-_Onionsan_-_Kawaii.webp",
-			"x": 880,
-			"y": 5,
-			"width": 173,
-			"height": 170
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Clam Guy\n🐚 Personaje que regresa de Undertale, ahora en el camino del Lago de Hometown (Cap.2). Comparte diseño casi calcado con Clam Girl, un NPC distinto y exclusivo de Undertale.","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
+		{"id":"s1","type":"text","text":"**Gaster (W. D. Gaster)**\nComparte el mismo sonido de desaparición que Mystery Man y sus Seguidores, y su sprite gris la vincula directamente a la misma estética \"Goner\" de todo lo relacionado con él.","x":420,"y":-260,"width":280,"height":210,"color":"6"},
+		{"id":"s1-img","type":"file","file":"Sprites/gaster_gonerclampgirl.webp","x":420,"y":-470,"width":123,"height":180},
+		{"id":"center-img","type":"file","file":"Sprites/gaster_Clam_Guy_overworld.png","x":-35,"y":-290,"width":111,"height":189},
+		{"id":"s2","type":"text","text":"**¿Sabía Gaster de la existencia de Susie antes de que existiera Deltarune?**\nSi Clam Girl está realmente ligada a Gaster (por el sonido y el color compartidos), su mención de \"Suzy\" implicaría que, dentro de la propia ficción, alguna versión de Gaster ya era consciente de la existencia de Susie…","x":-640,"y":-125,"width":280,"height":240,"color":"1"},
+		{"id":"s0","type":"text","text":"**Susie**\nLa lectura casi unánime del fandom es que \"Suzy\" es la propia Susie de Deltarune — el parecido de nombres, sumado a que este diálogo se añadió justo un mes antes del anuncio del Cap.1, hace muy…","x":-470,"y":-555,"width":280,"height":210,"color":"6"},
+		{"id":"4a1daccf3a23ed4b","type":"file","file":"Sprites/Susie_overworld_eyes.png","x":-443,"y":-842,"width":163,"height":287},
+		{"id":"s3","type":"text","text":"**Onionsan**\n\"La cosa\" a la que Clam Guy alude sin nombrarla directamente, tras cruzarse con él junto al Lago en el Cap.1.","x":482,"y":200,"width":280,"height":210,"color":"4"},
+		{"id":"s3-img","type":"file","file":"Sprites/Deltarune_-_Sprite_-_Onionsan_-_Kawaii.webp","x":880,"y":5,"width":173,"height":170}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "top",
-			"toNode": "s0",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s1",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "e2_x0",
-			"fromNode": "s2",
-			"fromSide": "left",
-			"toNode": "s0",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s2",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e_s1-img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s3",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "e_s3-img",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "4"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"top","toNode":"s0","toSide":"right","color":"3"},
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"3"},
+		{"id":"e2_x0","fromNode":"s2","fromSide":"left","toNode":"s0","toSide":"left","color":"1"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"1"},
+		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"right","toNode":"s3","toSide":"left","color":"4"},
+		{"id":"e_s3-img","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"4"}
 	]
 }

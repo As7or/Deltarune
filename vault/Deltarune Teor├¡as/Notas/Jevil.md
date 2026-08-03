@@ -6,10 +6,10 @@ familia: N/A
 confianza: fuerte
 ---
 
-| Jevil | Devilsknife | Carrusel (Cap.1) |
-|---|---|---|
-| ![[Jevil.gif]] | ![[jevil_Devilsknife_item.png]] | ![[jevil_Everyman_attack_ducks.png]] |
-| *(bufón encerrado, jefe secreto)* | *(arma obtenida al derrotarlo con violencia)* | *(su ataque carrusel — con el cameo de Everyman en una de cada 50 caras de pato)* |
+| Jevil | Devilsknife |
+|---|---|
+| ![[Jevil.gif]] | ![[jevil_Devilsknife_item.png]] |
+| *(bufón encerrado, jefe secreto)* | *(arma obtenida al derrotarlo con violencia)* |
 
 > [!info]+ Datos rápidos
 > 🃏 Antiguo bufón de la corte del Reino de las Cartas, jefe secreto y primer portador conocido del Cristal Oscuro, en el Cap.1.
@@ -42,6 +42,9 @@ Darkner del Reino de las Cartas, antiguo bufón de la corte de King. Tras un enc
 > *Jevil moviéndose tan rápido que deja estela — su Fase 5, el tramo final del combate.*
 >
 > **El combate.** Cuando el grupo consigue la llave y entra en su celda, Jevil propone un "sencillo juego de números": "CUANDO TU HP LLEGUE A 0, ¡PIERDES!". Tras la batalla, deja caer pistas sobre el futuro según cómo se le haya derrotado — perdonado, promete "dormir otros 100 años" y advierte de una pesadilla "a la sombra de la mano del Caballero"; derrotado por la fuerza, profetiza el regreso de Queen y "el Rugido" burbujeando desde las profundidades. En ambos casos se transforma en el Devilsknife y entrega un Cristal Oscuro, además del Jevilstail o el propio Devilsknife según el método.
+>
+> ![[jevil_Everyman_attack_ducks.png]]
+> *Su ataque carrusel — con el cameo de Everyman escondido en una de cada 50 caras de pato.*
 >
 > ![[Jevil_attack_Chaos_Chaos.gif]]
 > *Uno de sus ataques de picas en Fase 1 — la mezcla de palos de baraja es su sello distintivo en combate.*

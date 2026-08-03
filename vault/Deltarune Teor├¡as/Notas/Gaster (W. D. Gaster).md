@@ -17,8 +17,8 @@ confianza: fuerte (dato de archivo) / débil (identidad real)
 > 💥 Sus tres Seguidores (grises, sin color) cuentan versiones contradictorias de su desaparición: "cayó en su propia creación", "sus experimentos salieron mal", "quedó hecho añicos a través del tiempo y el espacio".
 > 🈳 Habla en Wingdings — de ahí el propio nombre "W. D. Gaster" ("Wing Dings").
 > 👻 El River Person avisa: "cuidado con el hombre que habla con las manos" — referencia directa a esa fuente tipográfica.
-> 6️⃣ El número **666** aparece ligado a él por todas partes: el valor de tipografía de la Voz en la intro de Deltarune es 666, la versión del instalador del Cap.1 es 0.6.6.6, y cerca del Refugio de Hometown suena su "ruido de estática" ralentizado al 666%.
-> 🔊 Ese "ruido de estática" (`snd_smile`) es el mismo sonido que se oye al usar el teléfono dentro de un Mundo Oscuro — y también el mismo que acompaña su Entrada Número 17.
+> 6️⃣ El número **666** aparece ligado a él por todas partes: el valor de tipografía de la Voz en la intro de Deltarune es 666, y la versión del instalador del Cap.1 es 0.6.6.6.
+> 🔊 El "ruido de sonrisa" (`mus_smile`) que suena junto al Refugio, ralentizado al 15%, es el mismo sonido que se oye al usar el teléfono dentro de un Mundo Oscuro — y también el mismo que acompaña a su Entrada Número 17 en Undertale.
 > 🐦 Tiene una posible contraparte Lightner en Deltarune: el [[Normal NPC]] del Mundo Cíber, cuyo propio nombre de archivo interno ("normalnpc") es igual de inusual que el resto de sus pistas.
 
 > [!tip]- Ficha de personalidad
@@ -175,10 +175,10 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 > Sus nombres internos, DEVICE_FRIEND e IMAGE_FRIEND, usan el mismo prefijo DEVICE_ y la misma convención en mayúsculas que los recursos ligados a la Voz. [[FRIEND]]
 
 > [!quote]- Shelter
-> El sonido de estática (`snd_smile`) asociado a él se escucha, ralentizado al 666%, junto al Refugio al sur de Hometown y en el sótano de la casa de Noelle. [[Shelter]]
+> El "ruido de sonrisa" (`mus_smile`) asociado a él se escucha, ralentizado al 15%, junto al Refugio al sur de Hometown y en el sótano de la Mansión Holiday. [[Shelter]]
 >
 > ![[Shelter.png]]
-> *El Refugio de Hometown, el lugar donde suena su ruido de estática ralentizado al 666%.*
+> *El Refugio de Hometown, el lugar donde suena su ruido de sonrisa ralentizado al 15%.*
 
 > [!quote]- Profecía
 > La frase "las sombras cortan más profundo" del himno de la Profecía (Cap.4) coincide casi textualmente con una línea de la Entrada 17. Seam, en el Cap.1, y Ralsei, en el Cap.3, citan también casi literalmente "más oscuro, aún más oscuro". [[Profecía]]

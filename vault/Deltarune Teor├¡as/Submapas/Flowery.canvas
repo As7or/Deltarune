@@ -1,333 +1,44 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Flowery — la flor dorada\n\nLíder de las 7 Flores de Colores; antagonista principal y jefe final del Cap.5. Contraparte de Flowey (Undertale).",
-			"x": -190,
-			"y": -80,
-			"width": 400,
-			"height": 220,
-			"color": "6"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**Ralsei**\nSu archirrival declarado — celos mutuos, pero respeto de fondo.",
-			"x": -130,
-			"y": -538,
-			"width": 270,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Asgore**\nEl centro de todo lo que hace: quiere devolverle el cariño recibido durante años.",
-			"x": 346,
-			"y": -209,
-			"width": 270,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**Caballero Rugiente**\nLo enfrenta para proteger a Asgore — le cuesta la vida.",
-			"x": 164,
-			"y": 294,
-			"width": 270,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**Kris**\nSabe que creó la Fuente y los acusa de poner en riesgo a Asgore.",
-			"x": -424,
-			"y": 294,
-			"width": 270,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "s4",
-			"type": "text",
-			"text": "**Aqua** (Paciencia) **y Seth** (Perseverancia)\nLas dos primeras flores del Jardín — cuchillos y libros.",
-			"x": -606,
-			"y": -209,
-			"width": 270,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "s5",
-			"type": "text",
-			"text": "**Orange** (Valentía) **y Green** (Bondad)\nLa ratoncita del Castillo y la chef de las flores.",
-			"x": 900,
-			"y": -70,
-			"width": 270,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "s6",
-			"type": "text",
-			"text": "**Yellow** (Justicia) **y Blue** (Integridad)\nEl vaquero crédulo y el bailarín — pareja implícita.",
-			"x": 900,
-			"y": 400,
-			"width": 270,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/Flowery_battle_idle.gif",
-			"x": -986,
-			"y": -79,
-			"width": 177,
-			"height": 190
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/Flowery_screenshot_faith_in_Ralsei.png",
-			"x": -129,
-			"y": -938,
-			"width": 253,
-			"height": 190
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/Flowery_screenshot_Asgore_bestfriend.png",
-			"x": 710,
-			"y": -354,
-			"width": 253,
-			"height": 190
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/Flowery_and_Knight_battle_clash.gif",
-			"x": 416,
-			"y": 563,
-			"width": 260,
-			"height": 178
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/kriss_flowery.png",
-			"x": -670,
-			"y": 559,
-			"width": 253,
-			"height": 190
-		},
-		{
-			"id": "s_semillas_codigo",
-			"type": "text",
-			"text": "**Las Semillas y el código del Shelter**\nAl sellar la Fuente del Reino de las Flores en el Cap.5, Kris encuentra un paquete de Semillas con avisos de peligro y el código del Shelter, enterrados en la maceta rota de Flowery — no pueden soltarse una vez cogidas, guiño directo a las semillas de flor dorada de Undertale, que el fandom vincula al intento de Chara. Sin confirmación oficial de su propósito real.",
-			"x": -986,
-			"y": 829,
-			"width": 320,
-			"height": 210,
-			"color": "3"
-		},
-		{
-			"id": "s_codigo_0915",
-			"type": "text",
-			"text": "**¿Qué significa el código \"0915199X\"?**\n\"0915\" parece guiñar a la fecha de lanzamiento de Undertale (15/09); la \"X\" final deja el año sin confirmar, lo que alimenta la teoría paralela de que sea la fecha de la boda de Asgore y Toriel. Lo primero está casi confirmado por diseño; lo segundo es solo teoría de fans.",
-			"x": -646,
-			"y": 829,
-			"width": 320,
-			"height": 210,
-			"color": "3"
-		},
-		{
-			"id": "s_quien_es_pink",
-			"type": "text",
-			"text": "**¿Quién es Pink?**\nActúa como una flor más del grupo (Orange la llama \"hermana mayor\"), pero no es una de las 7 Flores originales del ramo de Asgore y Toriel — su origen exacto no se explica del todo dentro del juego.",
-			"x": -306,
-			"y": 829,
-			"width": 320,
-			"height": 210,
-			"color": "3"
-		},
-		{
-			"id": "s_flowey_ralsei",
-			"type": "text",
-			"text": "**¿\"Podríamos haber sido amigos\" = guiño a Undertale?**\nMuy probable: Ralsei es un espejo confirmado de Asriel, y Flowery una alusión directa a Flowey — en Undertale, Flowey y Asriel son la misma persona; Deltarune separa esa idea en dos personajes enfrentados. La frase de Flowery podría ser casi un comentario metatextual sobre esa dualidad.",
-			"x": 34,
-			"y": 829,
-			"width": 320,
-			"height": 210,
-			"color": "3"
-		},
-		{
-			"id": "s_semillas_codigo-img",
-			"type": "file",
-			"file": "Sprites/flowery_shelter_code_scene.webp",
-			"x": -986,
-			"y": 619,
-			"width": 220,
-			"height": 180
-		},
-		{
-			"id": "s_flowey_ralsei-img",
-			"type": "file",
-			"file": "Sprites/asriel_ralsei_fire_atack.jpeg",
-			"x": 34,
-			"y": 619,
-			"width": 220,
-			"height": 180
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Flowery — la flor dorada\n\nLíder de las 7 Flores de Colores; antagonista principal y jefe final del Cap.5. Contraparte de Flowey (Undertale).","x":-190,"y":-80,"width":400,"height":220,"color":"6"},
+		{"id":"s0","type":"text","text":"**Ralsei**\nSu archirrival declarado — celos mutuos, pero respeto de fondo.","x":-130,"y":-538,"width":270,"height":150,"color":"4"},
+		{"id":"s1","type":"text","text":"**Asgore**\nEl centro de todo lo que hace: quiere devolverle el cariño recibido durante años.","x":346,"y":-209,"width":270,"height":150,"color":"4"},
+		{"id":"s2","type":"text","text":"**Caballero Rugiente**\nLo enfrenta para proteger a Asgore — le cuesta la vida.","x":164,"y":294,"width":270,"height":150,"color":"4"},
+		{"id":"s3","type":"text","text":"**Kris**\nSabe que creó la Fuente y los acusa de poner en riesgo a Asgore.","x":-424,"y":294,"width":270,"height":150,"color":"4"},
+		{"id":"s5","type":"text","text":"**Orange** (Valentía) **y Green** (Bondad)\nLa ratoncita del Castillo y la chef de las flores.","x":900,"y":-70,"width":270,"height":170,"color":"4"},
+		{"id":"s6","type":"text","text":"**Yellow** (Justicia) **y Blue** (Integridad)\nEl vaquero crédulo y el bailarín — pareja implícita.","x":900,"y":400,"width":270,"height":170,"color":"4"},
+		{"id":"s0-img","type":"file","file":"Sprites/Flowery_screenshot_faith_in_Ralsei.png","x":-129,"y":-938,"width":253,"height":190},
+		{"id":"s1-img","type":"file","file":"Sprites/Flowery_screenshot_Asgore_bestfriend.png","x":710,"y":-354,"width":253,"height":190},
+		{"id":"s2-img","type":"file","file":"Sprites/Flowery_and_Knight_battle_clash.gif","x":416,"y":563,"width":260,"height":178},
+		{"id":"s3-img","type":"file","file":"Sprites/kriss_flowery.png","x":-670,"y":559,"width":253,"height":190},
+		{"id":"s_semillas_codigo","type":"text","text":"**Las Semillas y el código del Shelter**\nAl sellar la Fuente del Reino de las Flores en el Cap.5, Kris encuentra un paquete de Semillas con avisos de peligro y el código del Shelter, enterrados en la maceta rota de Flowery — no pueden soltarse una vez cogidas, guiño directo a las semillas de flor dorada de Undertale, que el fandom vincula al intento de Chara. Sin confirmación oficial de su propósito real.","x":-986,"y":829,"width":320,"height":210,"color":"3"},
+		{"id":"s_codigo_0915","type":"text","text":"**¿Qué significa el código \"0915199X\"?**\n\"0915\" parece guiñar a la fecha de lanzamiento de Undertale (15/09); la \"X\" final deja el año sin confirmar, lo que alimenta la teoría paralela de que sea la fecha de la boda de Asgore y Toriel. Lo primero está casi confirmado por diseño; lo segundo es solo teoría de fans.","x":-646,"y":829,"width":320,"height":210,"color":"3"},
+		{"id":"s_quien_es_pink","type":"text","text":"**¿Quién es Pink?**\nActúa como una flor más del grupo (Orange la llama \"hermana mayor\"), pero no es una de las 7 Flores originales del ramo de Asgore y Toriel — su origen exacto no se explica del todo dentro del juego.","x":-306,"y":829,"width":320,"height":210,"color":"3"},
+		{"id":"s_semillas_codigo-img","type":"file","file":"Sprites/flowery_shelter_code_scene.webp","x":-986,"y":619,"width":218,"height":180},
+		{"id":"center-img","type":"file","file":"Sprites/Flowery_battle_idle.gif","x":-91,"y":-270,"width":177,"height":190},
+		{"id":"s_flowey_ralsei","type":"text","text":"**¿\"Podríamos haber sido amigos\" = guiño a Undertale?**\nMuy probable: Ralsei es un espejo confirmado de Asriel, y Flowery una alusión directa a Flowey — en Undertale, Flowey y Asriel son la misma persona; Deltarune separa esa idea en dos personajes enfrentados. La frase de Flowery podría ser casi un comentario metatextual sobre esa dualidad.","x":-936,"y":30,"width":320,"height":210,"color":"3"},
+		{"id":"s_flowey_ralsei-img","type":"file","file":"Sprites/asriel_ralsei_fire_atack.jpeg","x":-936,"y":-180,"width":220,"height":118},
+		{"id":"s4","type":"text","text":"**Aqua** (Paciencia) **y Seth** (Perseverancia)\nLas dos primeras flores del Jardín — cuchillos y libros.","x":-616,"y":-350,"width":270,"height":170,"color":"4"}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s0",
-			"toSide": "right",
-			"color": "4"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s1",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s2",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s3",
-			"toSide": "right",
-			"color": "4"
-		},
-		{
-			"id": "e4",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s4",
-			"toSide": "right",
-			"color": "4"
-		},
-		{
-			"id": "e5",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s5",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "e6",
-			"fromNode": "s1",
-			"fromSide": "right",
-			"toNode": "s6",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "center-img-e",
-			"fromNode": "center-img",
-			"fromSide": "right",
-			"toNode": "center",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "s0-img-e",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s1-img-e",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s2-img-e",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s3-img-e",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e_s_semillas_codigo",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s_semillas_codigo",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s_codigo_0915",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s_codigo_0915",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s_quien_es_pink",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s_quien_es_pink",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s_flowey_ralsei",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s_flowey_ralsei",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s_semillas_codigo-img",
-			"fromNode": "s_semillas_codigo-img",
-			"fromSide": "bottom",
-			"toNode": "s_semillas_codigo",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e_s_flowey_ralsei-img",
-			"fromNode": "s_flowey_ralsei-img",
-			"fromSide": "bottom",
-			"toNode": "s_flowey_ralsei",
-			"toSide": "top",
-			"color": "3"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"4"},
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"4"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"4"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"4"},
+		{"id":"e4","fromNode":"center","fromSide":"left","toNode":"s4","toSide":"right","color":"4"},
+		{"id":"e5","fromNode":"center","fromSide":"right","toNode":"s5","toSide":"left","color":"4"},
+		{"id":"e6","fromNode":"s1","fromSide":"right","toNode":"s6","toSide":"left","color":"4"},
+		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
+		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
+		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
+		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
+		{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
+		{"id":"e_s_semillas_codigo","fromNode":"center","fromSide":"bottom","toNode":"s_semillas_codigo","toSide":"top","color":"3"},
+		{"id":"e_s_codigo_0915","fromNode":"center","fromSide":"bottom","toNode":"s_codigo_0915","toSide":"top","color":"3"},
+		{"id":"e_s_quien_es_pink","fromNode":"center","fromSide":"bottom","toNode":"s_quien_es_pink","toSide":"top","color":"3"},
+		{"id":"e_s_flowey_ralsei","fromNode":"center","fromSide":"bottom","toNode":"s_flowey_ralsei","toSide":"top","color":"3"},
+		{"id":"e_s_semillas_codigo-img","fromNode":"s_semillas_codigo-img","fromSide":"bottom","toNode":"s_semillas_codigo","toSide":"top","color":"3"},
+		{"id":"e_s_flowey_ralsei-img","fromNode":"s_flowey_ralsei-img","fromSide":"bottom","toNode":"s_flowey_ralsei","toSide":"top","color":"3"},
+		{"id":"d1810709a92f8c75","fromNode":"s_flowey_ralsei","fromSide":"top","toNode":"s4","toSide":"bottom","color":"4"}
 	]
 }

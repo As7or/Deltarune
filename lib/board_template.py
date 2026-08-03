@@ -193,6 +193,63 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-scroll .tear.t1{{ top:7px; }} .node-scroll .tear.t2{{ bottom:5px; }}
   .node-scroll .sheet .thumb{{ position:relative; z-index:2; margin:0 auto 4px; filter:sepia(.2); background:transparent !important; }}
   .node-scroll .sheet .title, .node-scroll .sheet .summary{{ position:relative; z-index:2; }}
+
+  /* ---- Cristal Oscuro: gema facetada con brillo interior ---- */
+  .node-crystal{{ text-align:center; }}
+  .node-crystal .crystal{{
+    position:relative; padding:22px 10px 14px;
+    clip-path: polygon(50% 0%, 76% 7%, 100% 26%, 90% 50%, 100% 74%, 76% 93%, 50% 100%, 24% 93%, 0% 74%, 10% 50%, 0% 26%, 24% 7%);
+    background:
+      linear-gradient(112deg, transparent 16%, rgba(255,255,255,.32) 19%, transparent 24%),
+      linear-gradient(68deg, transparent 52%, rgba(205,175,255,.26) 56%, transparent 62%),
+      linear-gradient(155deg, transparent 72%, rgba(255,255,255,.16) 75%, transparent 80%),
+      radial-gradient(circle at 46% 32%, rgba(195,155,245,.55), transparent 55%),
+      linear-gradient(150deg, #170c26 0%, #3c2359 32%, #150c1f 58%, #4d2f70 84%, #150c1f 100%);
+    box-shadow: 0 0 24px 3px rgba(130,80,200,.45), 0 12px 20px rgba(0,0,0,.55);
+    animation: crystal-glow 4.5s ease-in-out infinite;
+  }}
+  @keyframes crystal-glow{{
+    0%,100%{{ box-shadow: 0 0 22px 2px rgba(130,80,200,.4), 0 12px 20px rgba(0,0,0,.55); }}
+    50%{{ box-shadow: 0 0 32px 7px rgba(160,110,230,.6), 0 12px 20px rgba(0,0,0,.55); }}
+  }}
+  .node-crystal .crystal-thumb{{
+    background:transparent !important; margin-bottom:6px;
+    filter: brightness(1.15) saturate(1.3) drop-shadow(0 0 7px rgba(170,120,235,.7));
+  }}
+  .node-crystal .title{{ color:#efe4ff; text-shadow:0 0 6px rgba(170,120,235,.8); font-family:Arial,sans-serif; font-size:11.5px; font-weight:bold; }}
+  .node-crystal .summary{{ color:#c9b6e8; font-size:9px; font-style:italic; margin-top:2px; }}
+
+  /* ---- Shelter: nota oxidada de refugio/bunker ---- */
+  .node-rust{{ position:relative; }}
+  .rivet{{
+    position:absolute; top:-8px; left:50%; transform:translateX(-50%); z-index:5;
+    width:13px; height:13px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #d8d4c6, #4a463c 78%);
+    box-shadow:0 2px 3px rgba(0,0,0,.6), inset 0 0 2px rgba(0,0,0,.5);
+  }}
+  .rust-card{{ position:relative; overflow:hidden;
+    background:
+      radial-gradient(circle at 18% 22%, rgba(170,85,25,.55) 0, transparent 20%),
+      radial-gradient(circle at 78% 14%, rgba(150,68,18,.5) 0, transparent 17%),
+      radial-gradient(circle at 60% 72%, rgba(165,80,22,.5) 0, transparent 23%),
+      radial-gradient(circle at 12% 82%, rgba(140,62,15,.45) 0, transparent 18%),
+      radial-gradient(circle at 92% 60%, rgba(150,70,20,.4) 0, transparent 15%),
+      linear-gradient(155deg, #d6cfb8 0%, #c2b89a 45%, #a89e82 75%, #8f8770 100%);
+    background-blend-mode: multiply, multiply, multiply, multiply, multiply, normal;
+  }}
+  .rust-stains{{ position:absolute; inset:0; pointer-events:none;
+    background-image:
+      radial-gradient(circle at 30% 40%, rgba(120,55,15,.35) 0 6px, transparent 8px),
+      radial-gradient(circle at 70% 65%, rgba(120,55,15,.3) 0 4px, transparent 6px),
+      radial-gradient(circle at 45% 85%, rgba(120,55,15,.3) 0 3px, transparent 5px);
+    mix-blend-mode:multiply;
+  }}
+  .rust-streaks{{ position:absolute; inset:0; pointer-events:none; opacity:.55;
+    background:repeating-linear-gradient(179deg, transparent 0 14px, rgba(135,60,16,.3) 15px 18px, transparent 19px 34px);
+    mix-blend-mode:multiply;
+  }}
+  .node-rust .title{{ color:#3a2f1c; }}
+  .node-rust .tag{{ color:#7a5636; }}
   #wood-frame{{
     position:fixed; z-index:80; pointer-events:none;
     left:0; top:0; right:0; bottom:0;

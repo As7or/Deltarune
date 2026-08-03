@@ -1,244 +1,33 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Forgotten Man\n\nSiempre oculto tras un árbol; reparte un Huevo por capítulo. Kris es el único que lo conoce, y ambos se olvidan mutuamente una y otra vez.",
-			"x": -180,
-			"y": -70,
-			"width": 400,
-			"height": 220,
-			"color": "6"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**Kris**\nEl único personaje que puede encontrarlo — nadie más lo ve nunca.",
-			"x": -130,
-			"y": -538,
-			"width": 270,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Huevo**\nEl objeto que entrega cada capítulo — tiene nota y submapa temático propio.",
-			"x": 346,
-			"y": -209,
-			"width": 270,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**¿Es Gaster?**\nSala del Cap.1 comparte diseño con Mystery Man; se mueve entre ambos mundos.",
-			"x": 164,
-			"y": 294,
-			"width": 270,
-			"height": 170,
-			"color": "1"
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**¿Trauma reprimido de Kris?**\nÚnico presente en sus escenas; Cap.4 tiene lugar en una sesión de terapia infantil.",
-			"x": -424,
-			"y": 294,
-			"width": 270,
-			"height": 170,
-			"color": "1"
-		},
-		{
-			"id": "s4",
-			"type": "text",
-			"text": "**¿Es Papyrus?**\nMerchandising real de Fangamer lo muestra tras un árbol similar — sin pista dentro del juego.",
-			"x": -606,
-			"y": -209,
-			"width": 270,
-			"height": 170,
-			"color": "1"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/man_2nd_Sanctuary_window_overworld_egg_comparison.png",
-			"x": -126,
-			"y": -933,
-			"width": 143,
-			"height": 180
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/man_egg.png",
-			"x": 717,
-			"y": -358,
-			"width": 180,
-			"height": 180
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/gaster-follower-3.png",
-			"x": 420,
-			"y": 582,
-			"width": 153,
-			"height": 180
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/Man_screenshot_Chapter_4_debug.png",
-			"x": -665,
-			"y": 570,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "s4-img",
-			"type": "file",
-			"file": "Sprites/man_Bibliox_screenshot_hermit_mumble.png",
-			"x": -951,
-			"y": -334,
-			"width": 240,
-			"height": 180
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/Man_overworld_tree.gif",
-			"x": -711,
-			"y": 114,
-			"width": 210,
-			"height": 180
-		},
-		{
-			"id": "s_valentin",
-			"type": "text",
-			"x": 700,
-			"y": -209,
-			"width": 280,
-			"height": 170,
-			"color": "3",
-			"text": "**Carta de San Valentín (2024)** Su primera aparición real, más de un año antes del Cap.3 — repite casi textualmente su cierre \"lávate la cara y vístete\"."
-		},
-		{
-			"id": "s_islaolvidada",
-			"type": "text",
-			"x": 0,
-			"y": 600,
-			"width": 280,
-			"height": 170,
-			"color": "3",
-			"text": "**Isla Olvidada / Ases Voladores** Su reino personal en Mancountry; los Rudinns son copias que Kris coloreó de niño — clave para la teoría del Vessel."
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Forgotten Man\n\nSiempre oculto tras un árbol; reparte un Huevo por capítulo. Kris es el único que lo conoce, y ambos se olvidan mutuamente una y otra vez.","x":-180,"y":-70,"width":400,"height":220,"color":"6"},
+		{"id":"s0","type":"text","text":"**Kris**\nEl único personaje que puede encontrarlo — nadie más lo ve nunca.","x":-130,"y":-538,"width":270,"height":150,"color":"4"},
+		{"id":"s1","type":"text","text":"**Huevo**\nEl objeto que entrega cada capítulo — tiene nota y submapa temático propio.","x":346,"y":-209,"width":270,"height":150,"color":"4"},
+		{"id":"s2","type":"text","text":"**¿Es Gaster?**\nSala del Cap.1 comparte diseño con Mystery Man; se mueve entre ambos mundos.","x":164,"y":294,"width":270,"height":170,"color":"1"},
+		{"id":"s3","type":"text","text":"**¿Trauma reprimido de Kris?**\nÚnico presente en sus escenas; Cap.4 tiene lugar en una sesión de terapia infantil.","x":-424,"y":294,"width":270,"height":170,"color":"1"},
+		{"id":"s4","type":"text","text":"**¿Es Papyrus?**\nMerchandising real de Fangamer lo muestra tras un árbol similar — sin pista dentro del juego.","x":-606,"y":-209,"width":270,"height":170,"color":"1"},
+		{"id":"s0-img","type":"file","file":"Sprites/man_2nd_Sanctuary_window_overworld_egg_comparison.png","x":-126,"y":-933,"width":143,"height":180},
+		{"id":"s1-img","type":"file","file":"Sprites/man_egg.png","x":717,"y":-358,"width":180,"height":180},
+		{"id":"s2-img","type":"file","file":"Sprites/gaster-follower-3.png","x":420,"y":582,"width":153,"height":180},
+		{"id":"s3-img","type":"file","file":"Sprites/Man_screenshot_Chapter_4_debug.png","x":-665,"y":570,"width":240,"height":180},
+		{"id":"s4-img","type":"file","file":"Sprites/man_Bibliox_screenshot_hermit_mumble.png","x":-951,"y":-334,"width":240,"height":180},
+		{"id":"center-img","type":"file","file":"Sprites/Man_overworld_tree.gif","x":-711,"y":114,"width":210,"height":180},
+		{"id":"s_valentin","type":"text","text":"**Carta de San Valentín (2024)** Su primera aparición real, más de un año antes del Cap.3 — repite casi textualmente su cierre \"lávate la cara y vístete\".","x":700,"y":-209,"width":280,"height":170,"color":"3"},
+		{"id":"s_islaolvidada","type":"text","text":"**Isla Olvidada / Ases Voladores** Su reino personal en Mancountry; los Rudinns son copias que Kris coloreó de niño — clave para la teoría del Vessel.","x":0,"y":600,"width":280,"height":170,"color":"3"}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s0",
-			"toSide": "right",
-			"color": "4"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s1",
-			"toSide": "left",
-			"color": "4"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s2",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s3",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e4",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s4",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "center-img-e",
-			"fromNode": "center-img",
-			"fromSide": "right",
-			"toNode": "center",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "s0-img-e",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s1-img-e",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s2-img-e",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s3-img-e",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s4-img-e",
-			"fromNode": "s4-img",
-			"fromSide": "bottom",
-			"toNode": "s4",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e_valentin",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s_valentin",
-			"toSide": "left",
-			"color": "3"
-		},
-		{
-			"id": "e_islaolvidada",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s_islaolvidada",
-			"toSide": "top",
-			"color": "3"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"4"},
+		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"4"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"1"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"1"},
+		{"id":"e4","fromNode":"center","fromSide":"left","toNode":"s4","toSide":"right","color":"1"},
+		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
+		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
+		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
+		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
+		{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
+		{"id":"s4-img-e","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"6"},
+		{"id":"e_valentin","fromNode":"center","fromSide":"right","toNode":"s_valentin","toSide":"left","color":"3"},
+		{"id":"e_islaolvidada","fromNode":"center","fromSide":"bottom","toNode":"s_islaolvidada","toSide":"top","color":"3"}
 	]
 }

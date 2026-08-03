@@ -74,6 +74,7 @@ confianza: fuerte
 - [[Susie]]
 - [[Berdly]]
 - [[Toriel]]
+- [[Shelter]]
 
 ## Submapa
 [[Submapas/Alphys.canvas|Abrir submapa gráfico]]

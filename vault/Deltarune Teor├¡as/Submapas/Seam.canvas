@@ -1,121 +1,19 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Seam\n🧵 Tendero Darkner del Reino de las Cartas; un peluche de gato desgastado con cara lavanda, ropa marrón y un cuello de peluche naranja.",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "6"
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/Seam_Face.webp",
-			"x": -640,
-			"y": -105,
-			"width": 220,
-			"height": 178
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**Jevil**\nSu mejor y único amigo en el Reino de las Cartas — fue Seam quien tuvo que encerrarlo por su propia seguridad, y quien sigue preguntando por él capítulos después.",
-			"x": -130,
-			"y": -640,
-			"width": 280,
-			"height": 210,
-			"color": "6"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Cristal Oscuro**\nEl único personaje que recibe y estudia cada Cristal Oscuro conforme se consigue; casi toda la información que existe sobre su naturaleza viene de sus comentarios.",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 210,
-			"color": "6"
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**¿Qué es lo \"muy, muy interesante\"?**\nEn el Cap.5, Seam insinúa saber algo que podría hacer con los cinco Cristales Oscuros reunidos, sin llegar a decir qué es.",
-			"x": 420,
-			"y": 220,
-			"width": 280,
-			"height": 240,
-			"color": "1"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/Jevil.gif",
-			"x": -130,
-			"y": -860,
-			"width": 220,
-			"height": 216
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/ShadowCrystals.png",
-			"x": 420,
-			"y": -480,
-			"width": 220,
-			"height": 77
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Seam\n🧵 Tendero Darkner del Reino de las Cartas; un peluche de gato desgastado con cara lavanda, ropa marrón y un cuello de peluche naranja.","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
+		{"id":"s0","type":"text","text":"**Jevil**\nSu mejor y único amigo en el Reino de las Cartas — fue Seam quien tuvo que encerrarlo por su propia seguridad, y quien sigue preguntando por él capítulos después.","x":-130,"y":-640,"width":280,"height":210,"color":"6"},
+		{"id":"s1","type":"text","text":"**Cristal Oscuro**\nEl único personaje que recibe y estudia cada Cristal Oscuro conforme se consigue; casi toda la información que existe sobre su naturaleza viene de sus comentarios.","x":420,"y":-260,"width":280,"height":210,"color":"6"},
+		{"id":"s2","type":"text","text":"**¿Qué es lo \"muy, muy interesante\"?**\nEn el Cap.5, Seam insinúa saber algo que podría hacer con los cinco Cristales Oscuros reunidos, sin llegar a decir qué es.","x":420,"y":220,"width":280,"height":240,"color":"1"},
+		{"id":"s0-img","type":"file","file":"Sprites/Jevil.gif","x":-130,"y":-860,"width":220,"height":216},
+		{"id":"s1-img","type":"file","file":"Sprites/ShadowCrystals.png","x":420,"y":-480,"width":220,"height":77},
+		{"id":"center-img","type":"file","file":"Sprites/Seam_Face.webp","x":-70,"y":-283,"width":220,"height":178}
 	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e2_x1",
-			"fromNode": "s2",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s2",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e_s0-img",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e_s1-img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "6"
-		}
+	"edges":[
+		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
+		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"s1","toSide":"right","color":"3"},
+		{"id":"e2_x1","fromNode":"s2","fromSide":"left","toNode":"s1","toSide":"right","color":"1"},
+		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"1"},
+		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
+		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"}
 	]
 }

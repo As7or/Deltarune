@@ -6,10 +6,9 @@ familia: "Papyrus (hermano menor); ¿Gaster (padre)? — teoría heredada de Und
 confianza: fuerte
 ---
 
-| Mundo Claro                                                    | Undertale                | *Su retrato de diálogo.*        |
-| -------------------------------------------------------------- | ------------------------ | ------------------------------- |
-| ![[86374-and-sans-undertale-black-line-white-sprite.png\|233]] | ![[sans-fight.gif\|144]] | <br>![[Sans_face.png\|155]]<br> |
-|                                                                |                          |                                 |
+| Mundo Claro                                                    | Undertale                |
+| -------------------------------------------------------------- | ------------------------ |
+| ![[86374-and-sans-undertale-black-line-white-sprite.png\|233]] | ![[sans-fight.gif\|144]] |
 
 *Nota de tabla: Sans no tiene forma Darkner ni talksprite propio confirmado — solo aparece como Lightner, siempre en el Mundo Claro.*
 
@@ -23,6 +22,9 @@ confianza: fuerte
 
 > [!tip]- Ficha de personalidad
 > Igual que en Undertale: relajado, bromista y encantado de tomarle el pelo a quien tenga cerca —le da a Kris un número de teléfono falso que redirige a una línea para "bebés idiotas"—, pero con un cariño genuino y protector hacia su hermano pequeño. Su forma de hablar, en minúsculas y con la fuente Comic Sans, se mantiene sin cambios respecto al juego original.
+>
+> ![[Sans_face.png|155]]
+> *Su retrato de diálogo, sin apenas cambios respecto al de Undertale.*
 
 ## Historia por capítulos
 

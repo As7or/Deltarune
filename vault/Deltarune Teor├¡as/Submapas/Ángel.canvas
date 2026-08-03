@@ -1,208 +1,29 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Ángel\n👼 Figura central de la Profecía y de la religión de Hometown — según el texto, hay que \"desterrar su Cielo\" para salvar ambos mundos.",
-			"x": 0,
-			"y": 0,
-			"width": 380,
-			"height": 170,
-			"color": "6"
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "vault/Deltarune Teorías/Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp",
-			"x": 0,
-			"y": -220,
-			"width": 260,
-			"height": 190
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**Profecía**\nEl \"Cielo del Ángel\" que hay que desterrar es una de las conexiones más directas del texto con esta figura.",
-			"x": -650,
-			"y": 300,
-			"width": 300,
-			"height": 190,
-			"color": "4"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "vault/Deltarune Teorías/Sprites/Profecy.gif",
-			"x": -650,
-			"y": 90,
-			"width": 200,
-			"height": 180
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Alvin**\nCree firmemente en la fe y la Profecía, y trata al Ángel con verdadero respeto religioso — reza por su guía.",
-			"x": -300,
-			"y": 300,
-			"width": 300,
-			"height": 190,
-			"color": "4"
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "vault/Deltarune Teorías/Sprites/Alvin_overwolrd.webp",
-			"x": -300,
-			"y": 90,
-			"width": 200,
-			"height": 180
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**Noelle**\nConserva desde niña unas alitas de ángel gastadas, de la función navideña — y un reloj de un ARG real la señala como candidata a ser el propio Ángel.",
-			"x": 60,
-			"y": 300,
-			"width": 300,
-			"height": 220,
-			"color": "3"
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "vault/Deltarune Teorías/Sprites/Noelle_overworld.png",
-			"x": 60,
-			"y": 90,
-			"width": 200,
-			"height": 180
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**Ralsei**\nEs quien más repite la idea del Ángel como parte del \"guion\" — pero ni él mismo parece seguro de lo que representa su tapiz.",
-			"x": 420,
-			"y": 300,
-			"width": 300,
-			"height": 200,
-			"color": "4"
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "vault/Deltarune Teorías/Sprites/Ralsei_overworld_hatless.png",
-			"x": 420,
-			"y": 90,
-			"width": 200,
-			"height": 180
-		},
-		{
-			"id": "s4",
-			"type": "text",
-			"text": "**Jugador**\n¿Es el Ángel una personificación narrativa de quien controla a Kris desde fuera de la ficción? La teoría más extendida de todo el fandom.",
-			"x": 780,
-			"y": 300,
-			"width": 300,
-			"height": 210,
-			"color": "3"
-		},
-		{
-			"id": "s4-img",
-			"type": "file",
-			"file": "vault/Deltarune Teorías/Sprites/Kris_overworld_SOUL.png",
-			"x": 780,
-			"y": 90,
-			"width": 200,
-			"height": 180
-		}
+	"nodes":[
+		{"id":"center","type":"text","text":"# Ángel\n👼 Figura central de la Profecía y de la religión de Hometown — según el texto, hay que \"desterrar su Cielo\" para salvar ambos mundos.","x":0,"y":0,"width":380,"height":170,"color":"6"},
+		{"id":"center-img","type":"file","file":"Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp","x":0,"y":-220,"width":260,"height":147},
+		{"id":"s0","type":"text","text":"**Profecía**\nEl \"Cielo del Ángel\" que hay que desterrar es una de las conexiones más directas del texto con esta figura.","x":-650,"y":300,"width":300,"height":190,"color":"4"},
+		{"id":"s0-img","type":"file","file":"Sprites/Profecy.gif","x":-650,"y":90,"width":180,"height":180},
+		{"id":"s1","type":"text","text":"**Alvin**\nCree firmemente en la fe y la Profecía, y trata al Ángel con verdadero respeto religioso — reza por su guía.","x":-300,"y":300,"width":300,"height":190,"color":"4"},
+		{"id":"s1-img","type":"file","file":"Sprites/Alvin_overwolrd.webp","x":-300,"y":90,"width":96,"height":180},
+		{"id":"s2","type":"text","text":"**Noelle**\nConserva desde niña unas alitas de ángel gastadas, de la función navideña — y un reloj de un ARG real la señala como candidata a ser el propio Ángel.","x":60,"y":300,"width":300,"height":220,"color":"3"},
+		{"id":"s2-img","type":"file","file":"Sprites/Noelle_overworld.png","x":60,"y":90,"width":90,"height":180},
+		{"id":"s3","type":"text","text":"**Ralsei**\nEs quien más repite la idea del Ángel como parte del \"guion\" — pero ni él mismo parece seguro de lo que representa su tapiz.","x":420,"y":300,"width":300,"height":200,"color":"4"},
+		{"id":"s3-img","type":"file","file":"Sprites/Ralsei_overworld_hatless.png","x":420,"y":90,"width":95,"height":180},
+		{"id":"s4","type":"text","text":"**Jugador**\n¿Es el Ángel una personificación narrativa de quien controla a Kris desde fuera de la ficción? La teoría más extendida de todo el fandom.","x":780,"y":300,"width":300,"height":210,"color":"3"},
+		{"id":"s4-img","type":"file","file":"Sprites/Kris_overworld_SOUL.png","x":780,"y":90,"width":97,"height":180}
 	],
-	"edges": [
-		{
-			"id": "e_c_img",
-			"fromNode": "center-img",
-			"fromSide": "bottom",
-			"toNode": "center",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e0i",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e1i",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e2i",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e3i",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "4"
-		},
-		{
-			"id": "e4",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s4",
-			"toSide": "top",
-			"color": "3"
-		},
-		{
-			"id": "e4i",
-			"fromNode": "s4-img",
-			"fromSide": "bottom",
-			"toNode": "s4",
-			"toSide": "top",
-			"color": "3"
-		}
+	"edges":[
+		{"id":"e_c_img","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"6"},
+		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"4"},
+		{"id":"e0i","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"4"},
+		{"id":"e1","fromNode":"center","fromSide":"bottom","toNode":"s1","toSide":"top","color":"4"},
+		{"id":"e1i","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"4"},
+		{"id":"e2","fromNode":"center","fromSide":"bottom","toNode":"s2","toSide":"top","color":"3"},
+		{"id":"e2i","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"3"},
+		{"id":"e3","fromNode":"center","fromSide":"bottom","toNode":"s3","toSide":"top","color":"4"},
+		{"id":"e3i","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"4"},
+		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
+		{"id":"e4i","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"}
 	]
 }
