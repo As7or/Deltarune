@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Submapas/Cristal Oscuro.canvas",
+                "file": "00 Corcho Principal.canvas",
                 "viewState": {
-                  "x": 87.32626706279211,
-                  "y": 33.32012415328515,
-                  "zoom": -1.9969995932875768
+                  "x": -3254.2565830947137,
+                  "y": -25.53876279657385,
+                  "zoom": -4
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Cristal Oscuro"
+              "title": "00 Corcho Principal"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "06f07da71b66f89e",
   "lastOpenFiles": [
+    "Submapas/Cristal Oscuro.canvas",
     "Notas/Cristal Oscuro.md",
     "Notas/Spamton.md",
     "Notas/Shuttah.md",
@@ -200,7 +201,6 @@
     "Notas/Sans.md",
     "Notas/Seam.md",
     "Submapas/Shelter.canvas",
-    "Submapas/Cristal Oscuro.canvas",
     "Submapas/Dess.canvas",
     "Submapas/Conexión Undertale.canvas",
     "Submapas/Clam Guy.canvas",
@@ -230,7 +230,6 @@
     "Notas/Catti (2).md",
     "Notas/Seam (actualizado).md",
     "Notas/Sans (actualizado).md",
-    "Notas/Rouxls Kaard (actualizado).md",
     "Sprites/Shadow_Crystal_item_Castle_Town.png",
     "Sprites/Sin confirmar 276548.crdownload",
     "Sprites/Shadow_Crystal_item_Pink.png",
