@@ -39,6 +39,8 @@ import build_submap
 # para otras notas especiales.
 PARCHMENT_NOTES = {"Profecía"}
 WET_NOTES = {"Lake"}
+CRYSTAL_NOTES = {"Cristal Oscuro"}
+RUST_NOTES = {"Shelter"}
 
 
 def find_vault_root(path):
@@ -130,7 +132,10 @@ def build(vault_path, out_dir):
         slug = md_slugify(stem)
         text = open(os.path.join(srcdir, fname), encoding="utf-8").read()
         body = convert_note_linked(text, sprites_prefix="../Sprites/")
-        theme = "parchment" if stem in PARCHMENT_NOTES else "wet" if stem in WET_NOTES else "postit"
+        theme = ("parchment" if stem in PARCHMENT_NOTES else
+                 "wet" if stem in WET_NOTES else
+                 "crystal" if stem in CRYSTAL_NOTES else
+                 "rust" if stem in RUST_NOTES else "postit")
         page = note_page_template.render_page(html.escape(stem), body, theme=theme)
         with open(os.path.join(out_notes, slug + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
