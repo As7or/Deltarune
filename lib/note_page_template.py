@@ -356,13 +356,13 @@ PAGE_CSS_RUST = '''
       radial-gradient(circle at 10% 85%, rgba(135,60,15,.18) 0, transparent 18%),
       #3a352c;
   }
-  h1{ font-size:22px; color:#3a2f1c; border-bottom:2px solid #8a5636; padding-bottom:6px; }
-  h2{ font-size:17px; color:#5a4020; margin-top:24px; }
-  h3{ font-size:15px; color:#5a4020; }
-  p{ font-size:15.5px; line-height:1.6; margin:8px 0; color:#3a3020; }
+  h1{ font-size:22px; color:#e8c99a; border-bottom:2px solid #a86a3a; padding-bottom:6px; }
+  h2{ font-size:17px; color:#d4a468; margin-top:24px; }
+  h3{ font-size:15px; color:#d4a468; }
+  p{ font-size:15.5px; line-height:1.6; margin:8px 0; color:#e6dcc4; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
-  figcaption{ font-size:12.5px; font-style:italic; color:#6b5c3e; margin-top:4px; }
+  figcaption{ font-size:12.5px; font-style:italic; color:#b8a888; margin-top:4px; }
   .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px;
     box-shadow:0 3px 10px rgba(60,30,10,.35); filter:sepia(.12); }
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; }
@@ -381,6 +381,7 @@ PAGE_CSS_RUST = '''
     padding:20px 24px 22px;
     margin:22px 6px 26px;
   }
+  .callout figcaption{ color:#6b5c3e; }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase;
     letter-spacing:.03em; color:#4a3418; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.55; color:#3a3020; }
@@ -393,8 +394,10 @@ PAGE_CSS_RUST = '''
   .callout .callout{ margin:14px 4px 6px; background:linear-gradient(160deg,#bcb094,#a1957a);
     box-shadow:inset 0 0 14px rgba(120,60,15,.28), 0 4px 10px rgba(0,0,0,.3); }
 
-  .wikilink{ color:#7a3a1e; border-bottom:1px dotted #7a3a1e; text-decoration:none; cursor:pointer; }
-  a.wikilink:hover{ background:rgba(122,58,30,.12); }
+  .wikilink{ color:#e0b978; border-bottom:1px dotted #e0b978; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(224,185,120,.15); }
+  .callout .wikilink{ color:#7a3a1e; border-bottom-color:#7a3a1e; }
+  .callout a.wikilink:hover{ background:rgba(122,58,30,.12); }
   .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
   .fm-badge{
     display:inline-flex; align-items:center; gap:6px;

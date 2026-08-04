@@ -57,6 +57,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .thumb{{ width:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; background-color:#3a3a3a; }}
   .thumb-dark{{ background-color:#f2f2f2; }}
   .thumb img{{ width:100%; height:100%; object-fit:contain; display:block; image-rendering:pixelated; }}
+  .thumb-dark img{{ object-fit:cover; }}
 
   .news-clip{{
     position:absolute; width:560px; z-index:3; transform:rotate(-0.8deg);
