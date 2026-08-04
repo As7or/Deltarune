@@ -164,6 +164,8 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   }}
   .node-wet .crumple{{ position:absolute; inset:-4px; background:#8a8a8a; filter:url(#crumpleTex);
     mix-blend-mode:overlay; opacity:.5; pointer-events:none; z-index:1; }}
+  #board.interacting .crumple{{ filter:none; }}
+  #board.interacting .node-crystal::before{{ animation-play-state:paused; }}
   .node-wet .creases{{ position:absolute; inset:0; mix-blend-mode:overlay; opacity:.8; pointer-events:none; z-index:1;
     background:
       linear-gradient(112deg, transparent 27%, rgba(255,255,255,.4) 28%, rgba(0,0,0,.22) 29%, transparent 30%),
@@ -196,9 +198,20 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-scroll .sheet .title, .node-scroll .sheet .summary{{ position:relative; z-index:2; }}
 
   /* ---- Cristal Oscuro: gema facetada con brillo interior ---- */
-  .node-crystal{{ text-align:center; }}
+  .node-crystal{{ text-align:center; position:absolute; }}
+  .node-crystal::before{{
+    content:""; position:absolute; inset:-16px; z-index:0; pointer-events:none;
+    background: radial-gradient(circle, rgba(160,110,230,.6), transparent 68%);
+    filter: blur(7px);
+    opacity:.45;
+    animation: crystal-glow-op 4.5s ease-in-out infinite;
+  }}
+  @keyframes crystal-glow-op{{
+    0%,100%{{ opacity:.32; }}
+    50%{{ opacity:.7; }}
+  }}
   .node-crystal .crystal{{
-    position:relative; padding:22px 10px 14px;
+    position:relative; z-index:1; padding:22px 10px 14px;
     clip-path: polygon(50% 0%, 76% 7%, 100% 26%, 90% 50%, 100% 74%, 76% 93%, 50% 100%, 24% 93%, 0% 74%, 10% 50%, 0% 26%, 24% 7%);
     background:
       linear-gradient(112deg, transparent 16%, rgba(255,255,255,.32) 19%, transparent 24%),
@@ -207,11 +220,6 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
       radial-gradient(circle at 46% 32%, rgba(195,155,245,.55), transparent 55%),
       linear-gradient(150deg, #170c26 0%, #3c2359 32%, #150c1f 58%, #4d2f70 84%, #150c1f 100%);
     box-shadow: 0 0 24px 3px rgba(130,80,200,.45), 0 12px 20px rgba(0,0,0,.55);
-    animation: crystal-glow 4.5s ease-in-out infinite;
-  }}
-  @keyframes crystal-glow{{
-    0%,100%{{ box-shadow: 0 0 22px 2px rgba(130,80,200,.4), 0 12px 20px rgba(0,0,0,.55); }}
-    50%{{ box-shadow: 0 0 32px 7px rgba(160,110,230,.6), 0 12px 20px rgba(0,0,0,.55); }}
   }}
   .node-crystal .crystal-thumb{{
     background:transparent !important; margin-bottom:6px;
@@ -354,8 +362,16 @@ function applyTransform(){{
 }}
 applyTransform();
 
+let interactTimer = null;
+function markInteracting(){{
+  board.classList.add('interacting');
+  clearTimeout(interactTimer);
+  interactTimer = setTimeout(()=> board.classList.remove('interacting'), 220);
+}}
+
 viewport.addEventListener('wheel', (e) => {{
   e.preventDefault();
+  markInteracting();
   const rect = viewport.getBoundingClientRect();
   const px = e.clientX - rect.left, py = e.clientY - rect.top;
   const boardX = (px - panX) / zoom, boardY = (py - panY) / zoom;
@@ -604,6 +620,7 @@ window.addEventListener('mousemove', e=>{{
     panX = panOrigX + (e.clientX - panStartX);
     panY = panOrigY + (e.clientY - panStartY);
     applyTransform();
+    markInteracting();
   }}
 }});
 
