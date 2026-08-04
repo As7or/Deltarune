@@ -225,7 +225,17 @@ def render_callout_block(lines, sprites_prefix, depth=0):
             while i < len(lines) and lines[i][0] > base_depth:
                 nested.append((lines[i][0]-base_depth, lines[i][1]))
                 i += 1
-            body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
+            first_content = nested[0][1] if nested else ""
+            if re.match(r"\[!\w+\][+-]?\s*", first_content):
+                body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
+            else:
+                # Cita simple anidada (sin [!tipo]) - no es otro callout, es solo
+                # texto citado/enfatizado dentro del callout padre (p.ej. un
+                # fragmento textual del juego). Se renderiza como blockquote,
+                # no como otra caja de postit anidada.
+                quote_lines = [c for _, c in nested if c.strip()]
+                quote_html = "".join(f"<p>{inline_md(c, sprites_prefix, force_small=force_small_here)}</p>" for c in quote_lines)
+                body_parts.append(f'<blockquote class="nested-quote">{quote_html}</blockquote>')
         else:
             if content.strip():
                 body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
@@ -288,6 +298,14 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
                         (f"<figcaption>{html.escape(caption)}</figcaption>" if caption else "") + "</figure>")
         elif line.strip() == "":
             pass
+        elif re.match(r"^-\s+", line.strip()):
+            items = []
+            while i < n and re.match(r"^-\s+", lines[i].strip()):
+                items.append(re.sub(r"^-\s+", "", lines[i].strip()))
+                i += 1
+            out.append("<ul class=\"note-list\">" + "".join(
+                f"<li>{inline_md(it, sprites_prefix)}</li>" for it in items) + "</ul>")
+            continue
         else:
             out.append(f"<p>{inline_md(line, sprites_prefix)}</p>")
         i += 1

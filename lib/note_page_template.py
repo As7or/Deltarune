@@ -10,6 +10,8 @@ PAGE_CSS = '''
   h2{ font-size:17px; color:#5a4020; margin-top:22px; }
   h3{ font-size:15px; color:#5a4020; }
   p{ font-size:15.5px; line-height:1.6; margin:8px 0; }
+  ul.note-list{ margin:10px 0 14px; padding-left:22px; }
+  ul.note-list li{ font-size:15px; line-height:1.55; margin:4px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12.5px; font-style:italic; color:#6b5c46; margin-top:4px; }
@@ -43,6 +45,9 @@ PAGE_CSS = '''
   }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; }
+  blockquote.nested-quote{ margin:10px 4px; padding:6px 0 6px 14px; border-left:3px solid #8a6a3a;
+    font-style:italic; color:#4a3b20; }
+  blockquote.nested-quote p{ margin:3px 0; font-size:13.5px; line-height:1.5; }
 
   .callout-info{ background:#cfe6f7; }
   .callout-tip{ background:#d9f0d2; }
@@ -97,6 +102,8 @@ PAGE_CSS_PARCHMENT = '''
   h2{ font-size:17px; color:#5a4020; margin-top:24px; font-variant:small-caps; letter-spacing:.04em; }
   h3{ font-size:15px; color:#5a4020; font-variant:small-caps; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; }
+  ul.note-list{ margin:10px 0 14px; padding-left:22px; }
+  ul.note-list li{ font-size:15px; line-height:1.6; margin:4px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12.5px; font-style:italic; color:#5a4520; margin-top:4px; }
@@ -145,6 +152,9 @@ PAGE_CSS_PARCHMENT = '''
   }
   .callout-body{ position:relative; z-index:2; }
   .callout-body p{ margin:6px 0; font-size:15px; line-height:1.55; color:#3f3120; }
+  blockquote.nested-quote{ margin:10px 4px; padding:6px 0 6px 14px; border-left:3px solid #6e4526;
+    font-style:italic; color:#4a3418; }
+  blockquote.nested-quote p{ margin:3px 0; font-size:13.5px; line-height:1.5; }
 
   .callout-info{ border-left-color:#3a7bd5; }
   .callout-tip{ border-left-color:#2e8b57; }
@@ -289,6 +299,8 @@ PAGE_CSS_CRYSTAL = '''
   h2{ font-size:17px; color:#d8c4f5; margin-top:26px; }
   h3{ font-size:15px; color:#c9b0e8; }
   p{ font-size:15.5px; line-height:1.6; margin:8px 0; color:#e6dcf5; }
+  ul.note-list{ margin:10px 0 14px; padding-left:22px; color:#e6dcf5; }
+  ul.note-list li{ font-size:15px; line-height:1.55; margin:4px 0; }
   img{ max-width:100%; border-radius:3px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12.5px; font-style:italic; color:#b9a4d6; margin-top:4px; }
@@ -314,6 +326,9 @@ PAGE_CSS_CRYSTAL = '''
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase;
     letter-spacing:.03em; color:#ecdfff; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.55; color:#e6dcf5; }
+  blockquote.nested-quote{ margin:10px 4px; padding:6px 0 6px 14px; border-left:3px solid rgba(185,145,235,.5);
+    font-style:italic; color:#d8c4f5; }
+  blockquote.nested-quote p{ margin:3px 0; font-size:13.5px; line-height:1.5; }
   .callout-info{ border-left:3px solid #7ab0e6; }
   .callout-tip{ border-left:3px solid #7fd9a0; }
   .callout-example{ border-left:3px solid #d4af5a; }
@@ -360,6 +375,8 @@ PAGE_CSS_RUST = '''
   h2{ font-size:17px; color:#d4a468; margin-top:24px; }
   h3{ font-size:15px; color:#d4a468; }
   p{ font-size:15.5px; line-height:1.6; margin:8px 0; color:#e6dcc4; }
+  ul.note-list{ margin:10px 0 14px; padding-left:22px; color:#e6dcc4; }
+  ul.note-list li{ font-size:15px; line-height:1.55; margin:4px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12.5px; font-style:italic; color:#b8a888; margin-top:4px; }
@@ -385,6 +402,9 @@ PAGE_CSS_RUST = '''
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase;
     letter-spacing:.03em; color:#4a3418; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.55; color:#3a3020; }
+  blockquote.nested-quote{ margin:10px 4px; padding:6px 0 6px 14px; border-left:3px solid #8a5636;
+    font-style:italic; color:#4a3418; }
+  blockquote.nested-quote p{ margin:3px 0; font-size:13.5px; line-height:1.5; }
   .callout-info{ border-left:4px solid #6b8a5a; }
   .callout-tip{ border-left:4px solid #5a8a6b; }
   .callout-example{ border-left:4px solid #b08a3a; }

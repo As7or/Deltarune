@@ -17,8 +17,8 @@ confianza: fuerte (dato de archivo) / débil (identidad real)
 > 💥 Sus tres Seguidores (grises, sin color) cuentan versiones contradictorias de su desaparición: "cayó en su propia creación", "sus experimentos salieron mal", "quedó hecho añicos a través del tiempo y el espacio".
 > 🈳 Habla en Wingdings — de ahí el propio nombre "W. D. Gaster" ("Wing Dings").
 > 👻 El River Person avisa: "cuidado con el hombre que habla con las manos" — referencia directa a esa fuente tipográfica.
-> 6️⃣ El número **666** aparece ligado a él por todas partes: el valor de tipografía de la Voz en la intro de Deltarune es 666, y la versión del instalador del Cap.1 es 0.6.6.6.
-> 🔊 El "ruido de sonrisa" (`mus_smile`) que suena junto al Refugio, ralentizado al 15%, es el mismo sonido que se oye al usar el teléfono dentro de un Mundo Oscuro — y también el mismo que acompaña a su Entrada Número 17 en Undertale.
+> 6️⃣ El número **666** aparece ligado a él por todas partes: el valor de tipografía de la Voz en la intro de Deltarune es 666, la versión del instalador del Cap.1 es 0.6.6.6, y cerca del Refugio de Hometown suena su "ruido de estática" ralentizado al 666%.
+> 🔊 Ese "ruido de estática" (`snd_smile`) es el mismo sonido que se oye al usar el teléfono dentro de un Mundo Oscuro — y también el mismo que acompaña su Entrada Número 17.
 > 🐦 Tiene una posible contraparte Lightner en Deltarune: el [[Normal NPC]] del Mundo Cíber, cuyo propio nombre de archivo interno ("normalnpc") es igual de inusual que el resto de sus pistas.
 
 > [!tip]- Ficha de personalidad
@@ -133,7 +133,17 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 > [!question]- ¿Es Deltarune el "experimento" de Gaster, y Undertale el resultado de una Ruta Rara?
 > Uniendo varias piezas —que Toby Fox llamó "experimento" a Deltarune antes de su lanzamiento, que la Voz/Gaster habla de "mostrar algo" al jugador, y que toda la premisa de Deltarune gira en torno a un "Ángel" que controla a Kris desde fuera— parte del fandom especula con una lectura meta: que Deltarune sería, dentro de su propia ficción, un experimento del propio Gaster para observar cómo se comporta "el jugador" bajo distintas condiciones, y que Undertale podría leerse retroactivamente como una simulación previa, o incluso como el resultado de una de sus "rutas raras". Es una teoría de las más especulativas de todas las que existen sobre él — bonita como lectura meta-narrativa, pero sin ningún apoyo textual directo dentro de ninguno de los dos juegos. **Teoría de fans muy especulativa; no confirmada.**
 
-## Pistas nuevas del Capítulo 3 (recopilación de un vídeo de análisis, verificadas contra la wiki donde ha sido posible)
+## Pistas del Capítulo 1
+- **El Hombre Tras el Árbol y el Huevo**: entre la sala del Starwalker Bird y la sala del árbol oscuro hay una probabilidad de 1/50 (2%) de acabar, caminando de un lado a otro sin el grupo, en una sala vacía con un único árbol. Al rodearlo aparece un hombre nunca visible en pantalla que entrega un Huevo y desaparece — el mismo patrón (sala oculta, personaje jamás mostrado, objeto que se queda en el inventario) que el resto de secretos ligados a Gaster. La palabra "EGG" escrita con la fuente Wingdings —la misma en la que habla Gaster— da como resultado el símbolo ☜☝☝, que en notación de ajedrez es el movimiento de un caballo. Este personaje tiene su propia nota dedicada ([[Forgotten Man]]); aquí solo se recoge su vínculo concreto con Gaster, no toda su mecánica.
+- **GASTER bloquea la introducción**: si escribes "GASTER" como nombre del vessel o del creador durante la introducción del Cap.1, la partida se reinicia al principio del capítulo — calco exacto de lo que pasa en Undertale al llamar "Gaster" al humano caído en el prólogo.
+- **El valor de tipografía 666, ya desde la intro**: uno de los dos valores `global.typer` usados en la introducción del Cap.1 es 666 — el mismo valor que usa la Entrada 17 en `room_gaster` de Undertale, muy por encima del siguiente valor más alto conocido (111), lo que hace muy improbable que sea casualidad.
+- **El leitmotiv de Gaster en "ANOTHER HIM" y en "Don't Forget"**: el motivo musical de tres notas asociado a Gaster en Undertale aparece tanto en el tema de apertura de Deltarune ("ANOTHER HIM") como en el tema de créditos del Cap.1 ("Don't Forget") — en este último, justo sobre la palabra "dark" de la última línea, "I'm with you in the dark".
+- **Grafiti de Everyman**: en el callejón donde se encuentra a Alphys al final del Cap.1 aparece un grafiti de Everyman, entidad que comparte con Gaster el mismo patrón de nomenclatura interna en "-man" (`spr_strangeman` / `spr_mysteryman`). [[Everyman]]
+- **El sonido de estática ya suena en el Cap.1**: el ruido de estática ralentizado al 666% junto al Refugio de Hometown, y el fragmento de `snd_smile` al intentar usar el teléfono en el Mundo Oscuro, están presentes desde este primer capítulo — no son una novedad de capítulos posteriores. [[Shelter]]
+
+> *Nota de rigor: la mayoría de estos datos sí están documentados y verificados (el valor 666 de la intro, el crash al escribir GASTER, el leitmotiv musical en dos temas concretos) — de los indicios más sólidos de toda esta nota. La lectura de "EGG" en Wingdings como movimiento de ajedrez es una curiosidad de fans ingeniosa pero sin confirmación oficial dentro del juego.*
+
+## Pistas del Capítulo 3 (recopilación de un vídeo de análisis, verificadas contra la wiki donde ha sido posible)
 - **La G que falta**: al elegir las siglas del jugador en el show de Tenna, la letra G es la única excluida de la selección para el tercer hueco — casualmente la posición exacta que ocuparía en "WDG" (W. D. Gaster).
 - **Ausencia de sonidos G/A**: en el Cap.1 y 2 existían efectos de sonido internos llamados simplemente "W" y "D"; en los Caps. 3 y 4 no se ha encontrado ningún archivo de sonido llamado "G" ni "A" — si esta ausencia es intencionada (dejando la "G" para otro sitio, como la selección de siglas) sigue sin confirmarse.
 - **El gris con valor 666**: cuando Tenna cree que el grupo no quiere participar en el concurso, el rótulo del programa se pone gris — un gris cuyo valor decimal de color es exactamente 666.
@@ -175,10 +185,10 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 > Sus nombres internos, DEVICE_FRIEND e IMAGE_FRIEND, usan el mismo prefijo DEVICE_ y la misma convención en mayúsculas que los recursos ligados a la Voz. [[FRIEND]]
 
 > [!quote]- Shelter
-> El "ruido de sonrisa" (`mus_smile`) asociado a él se escucha, ralentizado al 15%, junto al Refugio al sur de Hometown y en el sótano de la Mansión Holiday. [[Shelter]]
+> El sonido de estática (`snd_smile`) asociado a él se escucha, ralentizado al 666%, junto al Refugio al sur de Hometown y en el sótano de la casa de Noelle. [[Shelter]]
 >
 > ![[Shelter.png]]
-> *El Refugio de Hometown, el lugar donde suena su ruido de sonrisa ralentizado al 15%.*
+> *El Refugio de Hometown, el lugar donde suena su ruido de estática ralentizado al 666%.*
 
 > [!quote]- Profecía
 > La frase "las sombras cortan más profundo" del himno de la Profecía (Cap.4) coincide casi textualmente con una línea de la Entrada 17. Seam, en el Cap.1, y Ralsei, en el Cap.3, citan también casi literalmente "más oscuro, aún más oscuro". [[Profecía]]
