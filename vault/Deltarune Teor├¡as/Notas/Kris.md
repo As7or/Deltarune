@@ -274,6 +274,7 @@ Uno de los primeros bocetos de Kris es de 2014 o 2015, compartido por Toby Fox e
 
 ## Relacionado
 - [[Ángel]]
+- [[Fuentes Oscuras]]
 - [[Jugador]]
 - [[Conexión Undertale]]
 - [[Ralsei]]

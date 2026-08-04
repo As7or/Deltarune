@@ -104,6 +104,7 @@ Como enemigo del Cap.2, ataca con "Chirashi" (papeles con sobresalientes "A+" di
 
 ## Relacionado
 - [[Noelle]]
+- [[Fuentes Oscuras]]
 - [[Susie]]
 - [[Queen]]
 - [[Kris]]

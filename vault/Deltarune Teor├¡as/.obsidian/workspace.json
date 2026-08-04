@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "00 Corcho Principal.canvas",
+                "file": "Submapas/Fuentes Oscuras.canvas",
                 "viewState": {
-                  "x": -3254.2565830947137,
-                  "y": -25.53876279657385,
-                  "zoom": -4
+                  "x": -441.91625347839044,
+                  "y": 317.76650441987556,
+                  "zoom": -1.366367590527239
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "00 Corcho Principal"
+              "title": "Fuentes Oscuras"
             }
           }
         ]
@@ -190,6 +190,8 @@
   },
   "active": "06f07da71b66f89e",
   "lastOpenFiles": [
+    "Notas/Fuentes Oscuras.md",
+    "00 Corcho Principal.canvas",
     "Submapas/Cristal Oscuro.canvas",
     "Notas/Cristal Oscuro.md",
     "Notas/Spamton.md",
@@ -208,7 +210,6 @@
     "Submapas/Berdly.canvas",
     "Submapas/Asriel.canvas",
     "Submapas/Ángel.canvas",
-    "Submapas/7 Flores de Colores.canvas",
     "Notas/Dess.md",
     "Shelter.md",
     "Gaster (W. D. Gaster).md",
@@ -229,7 +230,6 @@
     "Notas/Catti.md",
     "Notas/Catti (2).md",
     "Notas/Seam (actualizado).md",
-    "Notas/Sans (actualizado).md",
     "Sprites/Shadow_Crystal_item_Castle_Town.png",
     "Sprites/Sin confirmar 276548.crdownload",
     "Sprites/Shadow_Crystal_item_Pink.png",

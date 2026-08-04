@@ -144,6 +144,9 @@ confianza: fuerte
 > ![[asriel_ralsei_fire_atack.jpeg]]
 > *Comparativa entre el ataque de fuego de Ralsei y el de Asriel — otro paralelismo que alimenta la teoría de su conexión.*
 
+> [!quote]- Profecía
+> Es quien se la resume por primera vez a Kris y Susie en el Cap.1, y el único Darkner conocido que la conoce entera, incluido su final trágico — a diferencia del resto, que solo la conocen a través de fragmentos sueltos (vidrieras, corchos de investigación, rumores). También es el único capaz de sentir la "presencia oscura" de las Fuentes Oscuras y del propio Caballero antes de que aparezcan en pantalla, un sexto sentido que ningún otro personaje demuestra tener. [[Profecía]]
+
 ## Teorías
 
 > [!question]+ ¿Qué es Ralsei realmente?
@@ -184,10 +187,12 @@ confianza: fuerte
 
 ## Relacionado
 - [[Asriel]]
+- [[Fuentes Oscuras]]
 - [[Kris]]
 - [[Susie]]
 - [[Flowery]]
 - [[FRIEND]]
+- [[Profecía]]
 
 ## Submapa
 [[Submapas/Ralsei.canvas|Abrir submapa gráfico]]

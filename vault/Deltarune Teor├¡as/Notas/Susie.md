@@ -216,6 +216,7 @@ Tiene el HP y el Ataque más altos del grupo — su rol es aguantar golpes y peg
 
 ## Relacionado
 - [[Dess]]
+- [[Fuentes Oscuras]]
 - [[Kris]]
 - [[Ralsei]]
 - [[Noelle]]

@@ -120,6 +120,7 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 ## Relacionado
 - [[Gaster (W. D. Gaster)]]
+- [[Fuentes Oscuras]]
 - [[Forgotten Man]]
 - [[Dess]]
 - [[Carol]]

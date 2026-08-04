@@ -44,7 +44,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .highlight-visible{{ stroke-width:4.5; fill:none; stroke-linecap:round; }}
   .highlight-label-bg{{ fill:rgba(35,24,12,0.92); }}
   .highlight-label{{ font-size:14px; font-weight:bold; fill:#efe6d3; }}
-  .node{{ position:absolute; text-align:center; cursor:pointer; user-select:none; transition:transform .18s ease, filter .18s ease; z-index:2; }}
+  .node{{ position:absolute; text-align:center; cursor:pointer; user-select:none; transition:transform .18s ease, filter .18s ease; z-index:2; contain:layout; }}
   .node::before{{
     content:""; position:absolute; left:8%; right:8%; bottom:-9px; height:16px; z-index:-1;
     background:radial-gradient(ellipse 60% 100% at 50% 0%, rgba(10,7,4,.5), transparent 72%);
@@ -365,7 +365,6 @@ viewport.addEventListener('wheel', (e) => {{
   panY = py - boardY * newZoom;
   zoom = newZoom;
   applyTransform();
-  draw();
 }}, {{ passive: false }});
 
 function center(el){{
@@ -432,22 +431,55 @@ function edgeSeed(a,b){{
   return s/1000;
 }}
 
-const nodeGroups = {{}}; // id -> [ {{g, other}} ]
+const nodeGroups = {{}}; // id -> [ edgeRecord, ... ]
+const nodeEls = {{}}; // cache de elementos .node por id, para no repetir querySelector
+
+function edgeGeometry(a, b){{
+  const elA = nodeEls[a] || (nodeEls[a] = document.querySelector(`[data-id="${{a}}"]`));
+  const elB = nodeEls[b] || (nodeEls[b] = document.querySelector(`[data-id="${{b}}"]`));
+  if(!elA||!elB) return null;
+  const p1 = center(elA), p2 = center(elB);
+  const dist = Math.hypot(p2.x-p1.x, p2.y-p1.y);
+  const jitter = 0.7 + edgeSeed(a,b)*0.6; // 0.7-1.3, cada cuerda con tension distinta
+  const sag = Math.min(55, dist*0.09*jitter);
+  const bow = (edgeSeed(b,a)-0.5)*18; // ligero arco lateral, no siempre cae recto
+  const mx = (p1.x+p2.x)/2 + bow, my = (p1.y+p2.y)/2 + sag;
+  return {{p1,p2,mx,my}};
+}}
+
+function applyEdgeGeometry(rec, geo){{
+  const {{p1,p2,mx,my}} = geo;
+  rec.shadow.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my+5}} ${{p2.x}} ${{p2.y}}`);
+  rec.path.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my}} ${{p2.x}} ${{p2.y}}`);
+  rec.twist.setAttribute('d', `M ${{p1.x}} ${{p1.y-0.9}} Q ${{mx}} ${{my-0.9}} ${{p2.x}} ${{p2.y-0.9}}`);
+  rec.twistDark.setAttribute('d', `M ${{p1.x}} ${{p1.y+0.9}} Q ${{mx}} ${{my+0.9}} ${{p2.x}} ${{p2.y+0.9}}`);
+  rec.hit.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my}} ${{p2.x}} ${{p2.y}}`);
+  rec.knotA.setAttribute('cx', p1.x); rec.knotA.setAttribute('cy', p1.y);
+  rec.knotB.setAttribute('cx', p2.x); rec.knotB.setAttribute('cy', p2.y);
+  rec.p1 = p1; rec.p2 = p2; rec.mx = mx; rec.my = my;
+}}
+
+// Durante el arrastre de una nota no hace falta reconstruir las 245 conexiones
+// enteras en cada mousemove (eso es lo que iba lento) — solo recalculamos las
+// que tocan a esa nota en concreto, reutilizando los mismos elementos SVG.
+function updateEdgesFor(nodeId){{
+  const recs = nodeGroups[nodeId];
+  if(!recs) return;
+  recs.forEach(rec=>{{
+    const geo = edgeGeometry(rec.a, rec.b);
+    if(geo) applyEdgeGeometry(rec, geo);
+  }});
+}}
 
 function draw(){{
   svg.innerHTML = '';
   highlightSvg.innerHTML = '';
   for(const k in nodeGroups) delete nodeGroups[k];
+  for(const k in nodeEls) delete nodeEls[k];
   links.forEach(([a,b,color,label])=>{{
-    const elA = document.querySelector(`[data-id="${{a}}"]`);
-    const elB = document.querySelector(`[data-id="${{b}}"]`);
-    if(!elA||!elB) return;
-    const p1 = center(elA), p2 = center(elB);
-    const dist = Math.hypot(p2.x-p1.x, p2.y-p1.y);
-    const jitter = 0.7 + edgeSeed(a,b)*0.6; // 0.7-1.3, cada cuerda con tension distinta
-    const sag = Math.min(55, dist*0.09*jitter);
-    const bow = (edgeSeed(b,a)-0.5)*18; // ligero arco lateral, no siempre cae recto
-    const mx = (p1.x+p2.x)/2 + bow, my = (p1.y+p2.y)/2 + sag;
+    const geo = edgeGeometry(a, b);
+    if(!geo) return;
+    const {{p1,p2,mx,my}} = geo;
 
     const g = document.createElementNS(NS,'g');
     g.setAttribute('class','string-group');
@@ -476,12 +508,14 @@ function draw(){{
     twistDark.setAttribute('d', `M ${{p1.x}} ${{p1.y+0.9}} Q ${{mx}} ${{my+0.9}} ${{p2.x}} ${{p2.y+0.9}}`);
     g.appendChild(twistDark);
 
-    [p1,p2].forEach(p=>{{
-      const knot = document.createElementNS(NS,'circle');
-      knot.setAttribute('class','string-knot');
-      knot.setAttribute('cx', p.x); knot.setAttribute('cy', p.y); knot.setAttribute('r', 2.1);
-      g.appendChild(knot);
-    }});
+    const knotA = document.createElementNS(NS,'circle');
+    knotA.setAttribute('class','string-knot');
+    knotA.setAttribute('cx', p1.x); knotA.setAttribute('cy', p1.y); knotA.setAttribute('r', 2.1);
+    g.appendChild(knotA);
+    const knotB = document.createElementNS(NS,'circle');
+    knotB.setAttribute('class','string-knot');
+    knotB.setAttribute('cx', p2.x); knotB.setAttribute('cy', p2.y); knotB.setAttribute('r', 2.1);
+    g.appendChild(knotB);
 
     const hit = document.createElementNS(NS,'path');
     hit.setAttribute('class','string-hit');
@@ -490,8 +524,9 @@ function draw(){{
 
     svg.appendChild(g);
 
-    (nodeGroups[a] = nodeGroups[a]||[]).push({{g, other:b}});
-    (nodeGroups[b] = nodeGroups[b]||[]).push({{g, other:a}});
+    const rec = {{a, b, g, shadow, path, twist, twistDark, knotA, knotB, hit, p1, p2, mx, my}};
+    (nodeGroups[a] = nodeGroups[a]||[]).push(rec);
+    (nodeGroups[b] = nodeGroups[b]||[]).push(rec);
 
     // el "encendido" y la etiqueta se dibujan en una capa aparte, siempre por encima
     // de todo (incluidas las fotos), sin mover nada del DOM original — así el
@@ -503,24 +538,28 @@ function draw(){{
 window.addEventListener('resize', draw);
 draw();
 
+const allNodeEls = Array.from(document.querySelectorAll('.node'));
+const allStringGroups = Array.from(document.querySelectorAll('.string-group'));
+
 // pasar el raton por una nota ilumina toda su red de conexiones (como conectar
 // pistas en un corcho de investigacion): las cuerdas ajenas se atenuan.
-document.querySelectorAll('.node').forEach(n=>{{
+allNodeEls.forEach(n=>{{
   const nid = n.dataset.id;
   n.addEventListener('mouseenter', ()=>{{
     const mine = nodeGroups[nid] || [];
     if(!mine.length) return;
-    document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '0.12');
-    document.querySelectorAll('.node').forEach(other=>{{ if(other!==n) other.classList.add('dimmed'); }});
-    mine.forEach(({{g,other}})=>{{
-      g.style.opacity = '1';
-      const otherEl = document.querySelector(`[data-id="${{other}}"]`);
+    allStringGroups.forEach(g=> g.style.opacity = '0.12');
+    allNodeEls.forEach(other=>{{ if(other!==n) other.classList.add('dimmed'); }});
+    mine.forEach(rec=>{{
+      rec.g.style.opacity = '1';
+      const otherId = rec.a === nid ? rec.b : rec.a;
+      const otherEl = nodeEls[otherId] || (nodeEls[otherId] = document.querySelector(`[data-id="${{otherId}}"]`));
       if(otherEl) otherEl.classList.remove('dimmed');
     }});
   }});
   n.addEventListener('mouseleave', ()=>{{
-    document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
-    document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
+    allStringGroups.forEach(g=> g.style.opacity = '');
+    allNodeEls.forEach(other=> other.classList.remove('dimmed'));
   }});
 }});
 
@@ -548,13 +587,19 @@ viewport.addEventListener('mousedown', e=>{{
   viewport.classList.add('panning');
 }});
 
+let dragRAF = null;
 window.addEventListener('mousemove', e=>{{
   if(mode === 'node' && dragEl){{
     if(Math.abs(e.clientX-startX) > 5 || Math.abs(e.clientY-startY) > 5) moved = true;
     const b=board.getBoundingClientRect();
     dragEl.style.left = ((e.clientX-b.left)/zoom-offX)+'px';
     dragEl.style.top = ((e.clientY-b.top)/zoom-offY)+'px';
-    draw();
+    if(dragRAF === null){{
+      dragRAF = requestAnimationFrame(()=>{{
+        updateEdgesFor(dragEl.dataset.id);
+        dragRAF = null;
+      }});
+    }}
   }} else if(mode === 'pan'){{
     panX = panOrigX + (e.clientX - panStartX);
     panY = panOrigY + (e.clientY - panStartY);

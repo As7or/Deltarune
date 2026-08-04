@@ -5,6 +5,7 @@ especie: entidad primordial de oscuridad
 confianza: oficial
 ---
 ![[knight_titan_profecy.webp]]
+*El dibujo de la Última Profecía que ilustra el Rugido: un Titán central flanqueado por dos figuras que recuerdan a la silueta del Caballero Rugiente — ver teoría más abajo.*
 
 | Mundo Oscuro (Cap.4)                                                                  | Titan Spawn (sus crías)                                                         |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -69,10 +70,7 @@ confianza: oficial
 > Son quienes lo derrotan entre los dos: Susie lanza a Kris dentro del Titán, y es el ALMA de Kris, brillando desde dentro, la que finalmente lo destruye. [[Susie]] [[Kris]]
 
 > [!quote]- Profecía
-> El Rugido que los Titanes anuncian es uno de los grandes eventos catastróficos recogidos en la Última Profecía — el del Cap.4 es, de momento, el único que ha llegado a materializarse en pantalla. Su diseño recuerda directamente a la silueta del Titán que aparece en el centro del dibujo profético del Rugido. [[Profecía]]
->
-> ![[knight_titan_profecy.webp]]
-> *El dibujo de la Última Profecía que ilustra el Rugido, con un Titán en el centro — la referencia visual más citada para conectarlo con el del Cap.4.*
+> El Rugido que los Titanes anuncian es uno de los grandes eventos catastróficos recogidos en la Última Profecía — el del Cap.4 es, de momento, el único que ha llegado a materializarse en pantalla. Su diseño recuerda directamente a la silueta del Titán que aparece en el centro del dibujo profético del Rugido, mostrado al principio de esta nota. [[Profecía]]
 
 ## Teorías
 
@@ -82,6 +80,14 @@ confianza: oficial
 > [!question]- ¿Pueden los Titan Spawn convertirse en Titanes?
 > No está claro si los Titan Spawn son crías reales del Titán que podrían crecer hasta convertirse en uno, o si son una especie completamente distinta — el propio Titán del Cap.4 parece formarse casi de golpe en cuanto se crea la Fuente, sin pasar por ninguna fase intermedia visible. **Teoría de fans, sin confirmar.**
 
+> [!question]- 🎲 Las dos figuras que flanquean al Titán en la ilustración profética
+> En el dibujo de la Última Profecía que ilustra el Rugido (arriba del todo de esta nota), el Titán central aparece flanqueado por dos siluetas idénticas y simétricas, con una corona de púas en la cabeza y unos brazos angulares en forma de ala — un diseño que coincide de forma llamativa con la silueta oficial del propio Caballero Rugiente. Es una lectura visual, no confirmada por ningún texto del juego, pero el parecido es difícil de pasar por alto: compárese directamente con el retrato de perfil del Caballero.
+>
+> ![[TheRoaringKnightDeltarune.webp]]
+> *La silueta oficial del Caballero Rugiente — la misma corona de púas y los mismos brazos en ala que las dos figuras que flanquean al Titán en la Profecía.*
+>
+> Si la lectura es correcta, la ilustración podría estar anticipando visualmente que el propio Caballero es quien "escolta" o incluso genera al Titán —coherente con que es él quien, en efecto, abre la Fuente que lo crea en el Cap.4—, o alimentar la teoría, todavía sin ninguna base textual sólida, de que existe más de un Caballero, o de que "el Caballero Rugiente" es más un rol/armadura que una identidad única. Pura especulación visual por ahora.
+
 ## Curiosidades
 - El tema de su combate se llama "GUARDIAN", un nombre que no encaja del todo con la descripción que da Ralsei de los Titanes — podría referirse a que el Titán "guarda" la Fuente, o ser un guiño a los Sanctuary Guardians de EarthBound, dado que el propio Mundo Oscuro del Cap.4 se llama "Santuario" en la banda sonora.
 - Como todos los jefes de Deltarune, tiene un píxel muerto oculto en una de sus alas — parte de la broma recurrente de que cada jefe del juego incluye uno.
@@ -90,6 +96,7 @@ confianza: oficial
 
 ## Relacionado
 - [[Roaring Knight]]
+- [[Fuentes Oscuras]]
 - [[Gerson Boom]]
 - [[Ralsei]]
 - [[Susie]]

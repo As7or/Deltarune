@@ -110,6 +110,7 @@ confianza: fuerte
 
 ## Relacionado
 - [[Berdly]]
+- [[Fuentes Oscuras]]
 - [[Noelle]]
 - [[Roaring Knight]]
 - [[Cristal Oscuro]]
