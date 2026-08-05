@@ -143,6 +143,14 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 
 > *Nota de rigor: la mayoría de estos datos sí están documentados y verificados (el valor 666 de la intro, el crash al escribir GASTER, el leitmotiv musical en dos temas concretos) — de los indicios más sólidos de toda esta nota. La lectura de "EGG" en Wingdings como movimiento de ajedrez es una curiosidad de fans ingeniosa pero sin confirmación oficial dentro del juego.*
 
+## Pistas del Capítulo 2
+- **La puerta del Refugio, ya con diálogo propio**: en el epílogo del Cap.2, si vuelves con Susie hasta el fondo del pasillo sur de Hometown, Snowdrake Hijo y Monster Kid especulan en voz alta sobre qué habrá detrás de la puerta cerrada del Refugio — la primera vez que el juego dedica diálogo directo a esa puerta, no solo el sonido de estática ambiental que ya sonaba desde el Cap.1. [[Shelter]]
+- **La Sala de Huevo, en un hospital**: el Huevo oculto del Cap.2 se obtiene en una réplica de vestíbulo de hospital: tras encontrar la puerta central con un árbol dibujado, aparece "un hombre" que pide dibujar en un lienzo; aceptar desencadena una breve secuencia y el Huevo llega automáticamente, sin verse nunca directamente al hombre — mismo patrón (nunca visible, objeto que persiste en el inventario) que en el resto de capítulos. [[Forgotten Man]]
+- **Everyman se multiplica**: en el Cap.2 aparece en la cabeza de uno de los patos del ataque del carrusel de Jevil y en uno de los anuncios de Poppup — sumándose al grafiti ya visto en el Cap.1, reforzando el mismo patrón de nomenclatura "-man" (`spr_strangeman`) que comparte con Gaster (`spr_mysteryman`). [[Everyman]]
+- **Los Titanes, mencionados por primera vez**: Ralsei explica el fenómeno de "El Rugido" y la existencia de los Titanes al final del Cap.2 — parte del fandom conecta visualmente a los Titanes con Gaster (caras/máscaras sin rasgos, tratamiento "roto" similar), pero es una lectura débil y muy discutida incluso dentro del propio fandom; no hay ninguna pista textual ni de archivo que lo respalde directamente, a diferencia del resto de esta nota.
+
+> *Nota de rigor: la puerta del Refugio con diálogo y la Sala de Huevo del hospital están confirmadas por el propio guion del juego. La conexión Titanes-Gaster es, con diferencia, la más débil de toda esta nota — casi pura especulación estética de fans, incluida solo porque circula de forma recurrente en compilaciones de "Gaster eggs" del Cap.2.*
+
 ## Pistas del Capítulo 3 (recopilación de un vídeo de análisis, verificadas contra la wiki donde ha sido posible)
 - **La G que falta**: al elegir las siglas del jugador en el show de Tenna, la letra G es la única excluida de la selección para el tercer hueco — casualmente la posición exacta que ocuparía en "WDG" (W. D. Gaster).
 - **Ausencia de sonidos G/A**: en el Cap.1 y 2 existían efectos de sonido internos llamados simplemente "W" y "D"; en los Caps. 3 y 4 no se ha encontrado ningún archivo de sonido llamado "G" ni "A" — si esta ausencia es intencionada (dejando la "G" para otro sitio, como la selección de siglas) sigue sin confirmarse.
@@ -154,6 +162,22 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 - **Ramb y Mystery Man**: según listas de diseño filtradas, Ramb comparte una cara moderadamente similar a la de Mystery Man (el sprite ligado a Gaster en Undertale), junto con Jevil y Rouxls Kaard.
 
 > *Nota de rigor: gran parte de esta lista son coincidencias numéricas y de nomenclatura de archivos, no diálogo ni confirmación directa del juego — encajan con el patrón ya establecido en esta nota (666, gris, "olvido"), pero cada dato aislado es débil por sí solo. Se incluyen porque encajan con un patrón ya extensamente documentado, no como pruebas nuevas independientes.*
+
+## Pistas del Capítulo 4
+- **Todo el capítulo gira en torno al propio Refugio**: la trama del Cap.4 consiste literalmente en investigar el pueblo para encontrar el código de la puerta del Refugio; Kris y Susie preguntan a los vecinos, sospechan de la alcaldesa Carol, y acaban registrando la casa de Noelle — convirtiendo por primera vez el "misterio ambiental" de Gaster (presente desde el Cap.1 solo como sonido y puerta cerrada) en el motor central de la trama de un capítulo entero. [[Shelter]]
+- **El código en la guitarra de Dess**: Kris encuentra dentro de la guitarra de Dess (la hermana ausente de Noelle) un papel con el código de la puerta — solo se alcanzan a ver los dígitos "122" antes de que Kris se arranque el ALMA del cuerpo e interrumpa la lectura. El código completo nunca se revela en pantalla.
+- **El himno de la Profecía cita casi textualmente la Entrada 17**: el coro que suena durante la revelación de la Profecía repite frases que calcan "oscuro, aún más oscuro" y "las sombras cortan más profundo" — la conexión textual más directa y menos discutible de toda la nota entre Gaster y el propio guion del Cap.4. [[Profecía]]
+- **La voz tras los créditos**: al terminar el Cap.4, una voz en mayúsculas dice frases como "MY DELTARUNE" en el mismo tono espaciado que la Entrada 17 y que la Voz de la introducción — el fandom lo atribuye a la misma entidad, aunque el juego nunca lo confirma por nombre.
+- **FRIEND y el prefijo DEVICE_**: las referencias a FRIEND en este capítulo refuerzan el patrón ya señalado en "Relaciones": IMAGE_FRIEND está catalogado internamente en la categoría DEVICE_, la misma que otros recursos ligados a la Voz/Gaster. [[FRIEND]]
+
+> *Nota de rigor: el código en la guitarra y el himno del Cap.4 están confirmados directamente por el guion. La identidad de la voz tras los créditos sigue sin confirmarse — el fandom la asume Gaster por el estilo de escritura, no por ninguna declaración directa del juego.*
+
+## Pistas del Capítulo 5
+Dado que el Cap.5 se publicó el 24 de junio de 2026 — después de mi fecha de corte de conocimiento —, esta sección es más corta que las anteriores: no encontré ningún análisis de fans con el mismo nivel de detalle contrastable que el vídeo usado para el Cap.3, y varias fuentes recientes sobre este capítulo en concreto tienen pinta de contenido genérico de SEO sin citas verificables, así que las descarté. Lo que sí puedo confirmar contra la wiki:
+- **El Huevo del Cap.5 revierte a Kris a nivel 1**: acceder a la Sala de Huevo de este capítulo y mirar las estadísticas del menú muestra a Kris de vuelta a LVL 1 y 80 HP, con el título en blanco — un efecto único de este capítulo que no ocurre en ningún Huevo anterior, y que el fandom lee como que la escena "ocurrió" antes de los sucesos de Deltarune, quizá un recuerdo del propio Kris. [[Forgotten Man]]
+- **El árbol del Hombre Tras el Árbol, posiblemente el último**: el Cap.5 contiene el quinto árbol de la serie; si es el definitivo (no se puede confirmar todavía, ya que se han anunciado más capítulos), cerraría esta mecánica concreta.
+
+> *Nota de rigor: en cuanto haya fuentes más sólidas sobre el Cap.5 (wiki más desarrollada, análisis de fans contrastados), esta sección se puede ampliar — prefiero dejarla corta pero fiable antes que rellenarla con contenido de baja calidad.*
 
 ## Relaciones
 
