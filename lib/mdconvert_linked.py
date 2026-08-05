@@ -237,6 +237,15 @@ def render_callout_block(lines, sprites_prefix, depth=0):
                 quote_html = "".join(f"<p>{inline_md(c, sprites_prefix, force_small=force_small_here)}</p>" for c in quote_lines)
                 body_parts.append(f'<blockquote class="nested-quote">{quote_html}</blockquote>')
         else:
+            if content.strip().startswith("|"):
+                table_lines = []
+                while i < len(lines) and lines[i][0] == d and lines[i][1].strip().startswith("|"):
+                    table_lines.append(lines[i][1])
+                    i += 1
+                t = parse_table(table_lines, sprites_prefix)
+                if t:
+                    body_parts.append(t)
+                continue
             if content.strip():
                 body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
             i += 1

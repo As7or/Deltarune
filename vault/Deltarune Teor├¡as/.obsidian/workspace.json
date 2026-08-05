@@ -11,17 +11,14 @@
             "id": "06f07da71b66f89e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Submapas/Fuentes Oscuras.canvas",
-                "viewState": {
-                  "x": -441.91625347839044,
-                  "y": 317.76650441987556,
-                  "zoom": -1.366367590527239
-                }
+                "file": "Notas/Gaster (W. D. Gaster).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Fuentes Oscuras"
+              "icon": "lucide-file",
+              "title": "Gaster (W. D. Gaster)"
             }
           }
         ]
@@ -190,6 +187,7 @@
   },
   "active": "06f07da71b66f89e",
   "lastOpenFiles": [
+    "Submapas/Fuentes Oscuras.canvas",
     "Notas/Fuentes Oscuras.md",
     "00 Corcho Principal.canvas",
     "Submapas/Cristal Oscuro.canvas",
