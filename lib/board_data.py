@@ -4,11 +4,70 @@ Lee el canvas principal (00 Corcho Principal.canvas) y genera:
   - las conexiones entre ellos (edges)
   - el HTML de las tarjetas del corcho, listo para insertar en la plantilla
 """
-import json, os, re, html, random, urllib.parse, unicodedata
+import json, os, re, html, random, urllib.parse, unicodedata, subprocess, tempfile
 
 def slugify(name):
     nfkd = unicodedata.normalize('NFKD', name)
     return nfkd.encode('ascii', 'ignore').decode('ascii') or name
+
+# Tamano por encima del cual una miniatura del corcho se comprime: las tarjetas
+# se muestran a ~150px de ancho, asi que no tiene sentido cargar un gif/imagen
+# de varios MB en su tamano original solo para eso (era una de las causas de
+# que el corcho fuera lento, sobre todo al hacer zoom con muchas tarjetas).
+THUMB_SIZE_LIMIT = 400 * 1024  # bytes
+_thumb_cache = {}
+
+def make_board_thumb(img_name, sprites_dir, thumbs_out_dir, max_w=220):
+    """Si img_name pesa mas de THUMB_SIZE_LIMIT, genera una version reducida
+    dentro de thumbs_out_dir y devuelve su ruta relativa a partir de 'Sprites/'.
+    Si no hace falta comprimir (o falla), devuelve la ruta original."""
+    original_rel = img_name
+    if img_name in _thumb_cache:
+        return _thumb_cache[img_name]
+
+    src_path = os.path.join(sprites_dir, img_name)
+    try:
+        size = os.path.getsize(src_path)
+    except OSError:
+        _thumb_cache[img_name] = original_rel
+        return original_rel
+
+    if size <= THUMB_SIZE_LIMIT:
+        _thumb_cache[img_name] = original_rel
+        return original_rel
+
+    ext = os.path.splitext(img_name)[1].lower()
+    os.makedirs(thumbs_out_dir, exist_ok=True)
+    out_name = img_name
+    out_path = os.path.join(thumbs_out_dir, out_name)
+
+    try:
+        if ext == ".gif":
+            cmd = [
+                "ffmpeg", "-y", "-i", src_path, "-t", "4",
+                "-vf", f"fps=10,scale={max_w}:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=64[p];[s1][p]paletteuse",
+                out_path, "-loglevel", "error",
+            ]
+            subprocess.run(cmd, check=True)
+        else:
+            from PIL import Image
+            im = Image.open(src_path)
+            im = im.convert("RGBA")
+            w, h = im.size
+            if w > max_w:
+                im = im.resize((max_w, int(h * max_w / w)), Image.LANCZOS)
+            # normalizamos siempre a PNG para las miniaturas estaticas: mas
+            # predecible que reusar la extension original (algunos .webp no
+            # comprimen bien vueltos a guardar como .webp con Pillow por defecto)
+            out_name = os.path.splitext(img_name)[0] + "_thumb.png"
+            out_path = os.path.join(thumbs_out_dir, out_name)
+            im.save(out_path, "PNG", optimize=True)
+        rel = "_thumbs/" + out_name
+        _thumb_cache[img_name] = rel
+        return rel
+    except Exception:
+        _thumb_cache[img_name] = original_rel
+        return original_rel
 
 NODE_COLOR_MAP = {
     "4": "#2e8b46", "6": "#6b3fa0",
@@ -128,7 +187,7 @@ def extract_main_canvas_data(canvas_path, notes_dir, submaps_dir, sprites_dir):
     return {"items": items, "edges": elinks, "hub": nodes.get("hub")}
 
 
-def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None):
+def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None):
     """A partir de {"items","edges"} genera (nodes_html, links_js, board_w, board_h)."""
     items = data["items"]
     edges = data["edges"]
@@ -205,7 +264,10 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None):
         thumb_h = max(min_h, min(max_h, inner_w * aspect))
 
         if it["img"]:
-            src = "Sprites/" + urllib.parse.quote(it["img"])
+            img_ref = it["img"]
+            if sprites_dir and thumbs_out_dir:
+                img_ref = make_board_thumb(it["img"], sprites_dir, thumbs_out_dir)
+            src = "Sprites/" + urllib.parse.quote(img_ref)
             img_tag = f'<img src="{src}" alt="" loading="lazy">'
         else:
             img_tag = '<div class="noimg"><i>sin imagen</i></div>'
@@ -247,30 +309,6 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None):
     {submap_badge}
     <div class="card wet-card" style="border-top:5px solid {it['color']};">
       <div class="crumple"></div><div class="creases"></div>
-      <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
-      <div class="tag">{tag}</div>
-      <div class="title">{title}</div>
-      <div class="summary">{summary}</div>
-    </div>
-  </div>''')
-        elif it["label"] == "Cristal Oscuro":
-            node_html.append(f'''
-  <div class="node node-crystal" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
-    {submap_badge}
-    <div class="crystal">
-      <div class="crystal-facets"></div>
-      <div class="{thumb_class} crystal-thumb" style="height:{thumb_h:.0f}px;">{img_tag}</div>
-      <div class="title">{title}</div>
-      <div class="summary">{summary}</div>
-    </div>
-  </div>''')
-        elif it["label"] == "Shelter":
-            node_html.append(f'''
-  <div class="node node-rust" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
-    <div class="rivet"></div>
-    {submap_badge}
-    <div class="card rust-card">
-      <div class="rust-stains"></div><div class="rust-streaks"></div>
       <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
       <div class="tag">{tag}</div>
       <div class="title">{title}</div>

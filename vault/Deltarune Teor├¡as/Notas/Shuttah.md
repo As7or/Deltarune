@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: humanoide con cámara/carrete por boca y ojos en las manos
+especie: objeto (una cámara Polaroid)
 familia: N/A
 confianza: fuerte
 ---

@@ -55,6 +55,14 @@ confianza: fuerte
 > ![[Pink_screenshot_cat_bite.png]]
 > *El diálogo secreto de Pink en el Cap.5: confirma por primera vez que un gato ha mordido la mano de Kris.*
 
+## Relaciones
+
+> [!quote]- Asgore y Rudy
+> Amigos fuera del propio juego: un dibujo promocional de una newsletter oficial (no una escena jugable de Deltarune) los muestra a los tres juntos en una barbacoa, con Cattenheimer a la parrilla mientras Asgore y Rudy charlan sentados. No es contenido dentro del juego, pero sí material oficial que confirma la amistad entre los tres. [[Asgore]] [[Rudy]]
+>
+> ![[Asgore_Rudy_and_Mr.Cat_enjoying_bbq.gif]]
+> *Asgore, Rudy y el Sr. Cattenheimer en una barbacoa — arte de una newsletter oficial, no una escena del juego.*
+
 ## Relacionado
 - [[Catti]]
 - [[Kris]]
@@ -62,6 +70,8 @@ confianza: fuerte
 - [[Shelter]]
 - [[FRIEND]]
 - [[Toriel]]
+- [[Asgore]]
+- [[Rudy]]
 
 ## Submapa
 [[Submapas/Sr. Cattenheimer.canvas|Abrir submapa gráfico]]

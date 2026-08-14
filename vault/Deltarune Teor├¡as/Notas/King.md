@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner (carta del rey de picas)
+especie: objeto (el rey de picas)
 familia: "Lancer (hijo)"
 confianza: fuerte
 ---

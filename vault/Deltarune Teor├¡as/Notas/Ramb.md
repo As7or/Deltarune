@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner (regleta eléctrica)
+especie: objeto (una regleta eléctrica)
 familia: N/A
 confianza: fuerte
 ---

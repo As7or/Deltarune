@@ -26,10 +26,20 @@ confianza: oficial
 
 ## Historia por capítulos
 
-> [!example]+ Capítulos 1-4 — El padre ausente, antes de Flower King
-> Asgore no aparece en persona en ningún momento antes del Cap.5, pero su presencia se deja sentir por todo el pueblo desde el principio. Ya lleva tiempo llevando la floristería Flower King, que alquila a Carol Holiday con más generosidad de la que cabría esperar de alguien tan poco carismático de cara al público. Es amigo de Alphys desde hace tiempo: le regala flores cada vez que le pregunta cómo le va a Kris en clase, y comparten afición por *Mew Mew Kissy Cutie* — fue ella quien le regaló la figura de acción de Mew Mew que él guarda en la tienda como mascota, sin sospechar lo que esa misma figura acabaría siendo en el Cap.5.
+> [!example]+ Capítulo 1 — El abrazo en la floristería
+> Kris puede visitar Flower King después de clase y encuentra a Asgore regando las flores. En cuanto los ve, corre a abrazarlos y los levanta en volandas de la emoción, casi con las mismas palabras exactas que usa al conocer a Frisk en Undertale. Antes de que se vayan, les da un ramo en secreto para que se lo entreguen a Toriel — ella no se deja engañar, pero lo acepta a regañadientes si Kris se lo da.
 >
-> Tras el divorcio, Kris ya no vive con él, y la relación se nota tensa e incómoda por parte de Kris, que evita hablar del tema — el frigorífico vacío y el hecho de que Asgore fuera despedido de su puesto como jefe de policía de Hometown (cargo que pasaría después a Undyne) son la prueba visible de un declive personal que arrastra desde antes del inicio del juego. Pese a todo, sigue siendo un padre presente a su manera: incluye a Kris y Asriel en sus rezos en la iglesia, visita con frecuencia a su viejo amigo de universidad Rudy en el hospital, y sueña con volver a llevar algún día a toda la familia al mismo diner de siempre, como en los viejos tiempos.
+> ![[Asgore_Dreemurr_overworld_hug.gif]]
+> *Asgore abrazando a Kris nada más verlos entrar en la tienda — su primera aparición en persona del juego.*
+
+> [!example]+ Capítulo 2 — Pepinillos gratis en la tienda de Sans
+> La floristería aparece cerrada, pero Asgore aparece al día siguiente en la tienda de comestibles de Sans, mientras este bromea con Toriel. Intenta hablar con ella —le pregunta qué flores le recordarían a cuando se conocieron— y ella lo rechaza con delicadeza, aunque le promete que hablarán de Asriel cuando "vuelva la semana que viene". Sans le aconseja, medio en broma, que "hable con sus plantas", y Asgore se va con unos pepinillos gratis que Sans le regala.
+
+> [!example]+ Capítulo 4 — El rechazo tras el sermón
+> Tras el sermón de Alvin en la iglesia, Asgore intenta reconciliarse con Toriel — ella vuelve a rechazarlo, esta vez con más frialdad que en el Cap.2. La floristería sigue cerrada, pero inspeccionando la puerta trasera se ve, a través de una ventana del sótano, un corcho de investigación cubierto de documentos — el mismo tipo de corcho que también tiene Carol (ver [[Shelter]]).
+>
+> ![[Asgore_and_Toriel_overworld_awkward.gif]]
+> *El reencuentro incómodo entre Asgore y Toriel tras el sermón del Cap.4.*
 
 > [!example]+ Capítulo 5 — Festival Day
 > Nada más empezar el capítulo, pone a Kris al día sobre el Festival: él y Toriel fueron coronados Rey y Reina en una edición pasada, de donde sale el nombre real de su floristería, Flower King. En ese mismo encuentro, le confiesa a Kris que espera recuperar su antiguo puesto por mediación de Carol, preocupado por que Toriel tenga que criarlo solo con un sueldo de profesora — un pequeño gesto esperanzado de alguien que intenta sostener a su familia desde la distancia.
@@ -65,6 +75,12 @@ confianza: oficial
 > Viejo amigo de la universidad, de cuando ambos eran mucho más jóvenes; desde que Rudy está hospitalizado, Asgore lo visita con frecuencia, le lleva rosas de su propia floristería y lo incluye en sus rezos. Es una de las pocas amistades adultas de Asgore que se mantiene fuera del círculo directo de la familia Dreemurr. [[Rudy]]
 > ![[Asgore_y_Rudy_universidad.png]]
 
+> [!quote]- Sr. Cattenheimer
+> Amigos fuera del propio juego: un dibujo promocional de una newsletter oficial (no una escena jugable de Deltarune) los muestra junto a Rudy en una barbacoa, con Cattenheimer a la parrilla. [[Sr. Cattenheimer]]
+>
+> ![[Asgore_Rudy_and_Mr.Cat_enjoying_bbq.gif]]
+> *Asgore, Rudy y el Sr. Cattenheimer en una barbacoa — arte de una newsletter oficial, no una escena del juego.*
+
 > [!quote]- Alphys
 > Amigos desde antes del inicio del juego: él le regala flores a menudo a cambio de noticias sobre el rendimiento de Kris en clase, y comparten su afición por *Mew Mew Kissy Cutie*. Fue ella quien le regaló la figura de Mew Mew que él guarda en la tienda como mascota — el mismo objeto que en el Cap.5 se revela como el jefe secreto Pink. [[Alphys]]
 
@@ -92,6 +108,7 @@ confianza: oficial
 - [[Susie]]
 - [[Alphys]]
 - [[Rudy]]
+- [[Sr. Cattenheimer]]
 
 ## Submapa
 [[Submapas/Asgore.canvas|Abrir submapa gráfico]]

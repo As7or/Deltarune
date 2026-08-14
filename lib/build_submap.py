@@ -282,7 +282,7 @@ viewport.addEventListener('wheel', (e) => {{
   const delta = -e.deltaY * 0.0015;
   const newZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoom + delta * zoom));
   panX = px - boardX * newZoom; panY = py - boardY * newZoom; zoom = newZoom;
-  applyTransform(); draw();
+  applyTransform();
 }}, {{ passive:false }});
 
 function center(el){{

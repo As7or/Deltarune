@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: calabaza/espantapájaros animado
+especie: objeto (una decoración de Halloween)
 familia: N/A
 confianza: fuerte
 ---

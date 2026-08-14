@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner (enemigo común, basado en un dado)
+especie: objeto (dados)
 familia: N/A
 confianza: fuerte
 ---

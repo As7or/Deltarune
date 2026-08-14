@@ -243,6 +243,8 @@ Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítu
 > La lectura más extendida: Kris no controla del todo su propio cuerpo — que el jugador, o algo que se hace pasar por el jugador, ocupa su lugar. El final del Capítulo 1 es la prueba más citada.
 >
 > Otra pista confirmada que se suma a esta teoría: en la Isla Olvidada (Cap.3), los Siete Ases Voladores —copias de cartas que el propio Kris fotocopió y coloreó a mano de niño— dicen textualmente que "las copias son monocromáticas, pero tú nos coloreaste a cada uno con cariño", y le preguntan por qué no "fotocopia a Kris" para jugar con ellos. El paralelismo con el Vessel —una copia de Kris sin color ni identidad propia— es de las conexiones más citadas del capítulo, aunque no está confirmado que sea una referencia deliberada al Vessel en concreto. Ver [[Forgotten Man]] para el desarrollo completo.
+>
+> 🎲 Si el ALMA que controlamos no es la auténtica de Kris, queda abierta la pregunta de dónde está la real — una rama de esta teoría propone que es [[Ralsei]] quien la tiene, ver su nota para el desarrollo completo.
 
 > [!question]- ¿Quién es "tú" realmente?
 > La sospecha más fuerte es que la entidad que controla a Kris guarda relación con Chara — o como mínimo con una fuerza que ya ha protagonizado antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.

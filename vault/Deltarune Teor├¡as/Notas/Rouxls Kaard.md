@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner (la carta de las reglas, animada)
+especie: objeto (la carta de las reglas)
 familia: "Lancer (a quien cuida como su 'padre menor'); Lanino y Elnina (pareja poliamorosa desde el Cap.3)"
 confianza: fuerte
 ---

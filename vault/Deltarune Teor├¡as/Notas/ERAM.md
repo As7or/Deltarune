@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: desconocida (sprite negro sin forma definida)
+especie: objeto (la diadema con cuernos de Kris)
 familia: N/A
 confianza: fuerte
 ---

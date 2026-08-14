@@ -6,11 +6,11 @@ familia: Holiday — esposo de Carol, padre de Dess y Noelle
 confianza: oficial
 ---
 
-| Mundo Claro                          |
-| ------------------------------------ |
-| ![[Rudy_Overworld_1.png]]<br>*Rudy.* |
+| Mundo Claro                          | Talksprite                      |
+| ------------------------------------ | -------------------------------- |
+| ![[Rudy_Overworld_1.png]]<br>*Rudy.* | ![[Rudy_face.png]]<br>*Su retrato de diálogo.* |
 
-*Nota de tabla: Rudy no tiene forma Darkner ni talksprite propio confirmado — solo aparece como Lightner, siempre en el hospital.*
+*Nota de tabla: Rudy no tiene forma Darkner confirmada — solo aparece como Lightner, siempre en el hospital.*
 
 > [!info]+ Datos rápidos
 > 🦌 Padre de Noelle y Dess, esposo de Carol; postrado en cama en el hospital de Hometown.
@@ -81,6 +81,12 @@ confianza: oficial
 > ![[Asgore_y_Rudy_universidad.png]]
 > *Asgore y Rudy en su época de universidad, ya amigos desde entonces.*
 
+> [!quote]- Sr. Cattenheimer
+> Amigo de Asgore y Rudy fuera del juego: un dibujo promocional de una newsletter oficial (no una escena del propio Deltarune) los muestra a los tres pasándolo bien en una barbacoa — Cattenheimer a la parrilla, Asgore y Rudy sentados charlando. No es contenido jugable, pero sí material oficial que confirma su amistad. [[Sr. Cattenheimer]]
+>
+> ![[Asgore_Rudy_and_Mr.Cat_enjoying_bbq.gif]]
+> *Asgore, Rudy y el Sr. Cattenheimer en una barbacoa — arte de una newsletter oficial, no una escena del juego.*
+
 > [!quote]- Toriel
 > También la conoció en la universidad, la misma época en la que conoció a Asgore, y la recuerda como mucho más salvaje y enérgica de joven que la Toriel calmada y maternal que es ahora. Pese a los años, siguen siendo buenos amigos y coinciden con normalidad en las visitas al hospital. [[Toriel]]
 >
@@ -105,6 +111,7 @@ confianza: oficial
 - [[Carol]]
 - [[Noelle]]
 - [[Asgore]]
+- [[Sr. Cattenheimer]]
 - [[Roaring Knight]]
 - [[Susie]]
 - [[Berdly]]

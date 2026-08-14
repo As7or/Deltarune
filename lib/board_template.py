@@ -44,7 +44,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .highlight-visible{{ stroke-width:4.5; fill:none; stroke-linecap:round; }}
   .highlight-label-bg{{ fill:rgba(35,24,12,0.92); }}
   .highlight-label{{ font-size:14px; font-weight:bold; fill:#efe6d3; }}
-  .node{{ position:absolute; text-align:center; cursor:pointer; user-select:none; transition:transform .18s ease, filter .18s ease; z-index:2; contain:layout; }}
+  .node{{ position:absolute; text-align:center; cursor:pointer; user-select:none; transition:transform .18s ease, filter .18s ease; z-index:2; }}
   .node::before{{
     content:""; position:absolute; left:8%; right:8%; bottom:-9px; height:16px; z-index:-1;
     background:radial-gradient(ellipse 60% 100% at 50% 0%, rgba(10,7,4,.5), transparent 72%);
@@ -57,7 +57,6 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .thumb{{ width:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; background-color:#3a3a3a; }}
   .thumb-dark{{ background-color:#f2f2f2; }}
   .thumb img{{ width:100%; height:100%; object-fit:contain; display:block; image-rendering:pixelated; }}
-  .thumb-dark img{{ object-fit:cover; }}
 
   .news-clip{{
     position:absolute; width:560px; z-index:3; transform:rotate(-0.8deg);
@@ -164,8 +163,6 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   }}
   .node-wet .crumple{{ position:absolute; inset:-4px; background:#8a8a8a; filter:url(#crumpleTex);
     mix-blend-mode:overlay; opacity:.5; pointer-events:none; z-index:1; }}
-  #board.interacting .crumple{{ filter:none; }}
-  #board.interacting .node-crystal::before{{ animation-play-state:paused; }}
   .node-wet .creases{{ position:absolute; inset:0; mix-blend-mode:overlay; opacity:.8; pointer-events:none; z-index:1;
     background:
       linear-gradient(112deg, transparent 27%, rgba(255,255,255,.4) 28%, rgba(0,0,0,.22) 29%, transparent 30%),
@@ -196,69 +193,6 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-scroll .tear.t1{{ top:7px; }} .node-scroll .tear.t2{{ bottom:5px; }}
   .node-scroll .sheet .thumb{{ position:relative; z-index:2; margin:0 auto 4px; filter:sepia(.2); background:transparent !important; }}
   .node-scroll .sheet .title, .node-scroll .sheet .summary{{ position:relative; z-index:2; }}
-
-  /* ---- Cristal Oscuro: gema facetada con brillo interior ---- */
-  .node-crystal{{ text-align:center; position:absolute; }}
-  .node-crystal::before{{
-    content:""; position:absolute; inset:-16px; z-index:0; pointer-events:none;
-    background: radial-gradient(circle, rgba(160,110,230,.6), transparent 68%);
-    filter: blur(7px);
-    opacity:.45;
-    animation: crystal-glow-op 4.5s ease-in-out infinite;
-  }}
-  @keyframes crystal-glow-op{{
-    0%,100%{{ opacity:.32; }}
-    50%{{ opacity:.7; }}
-  }}
-  .node-crystal .crystal{{
-    position:relative; z-index:1; padding:22px 10px 14px;
-    clip-path: polygon(50% 0%, 76% 7%, 100% 26%, 90% 50%, 100% 74%, 76% 93%, 50% 100%, 24% 93%, 0% 74%, 10% 50%, 0% 26%, 24% 7%);
-    background:
-      linear-gradient(112deg, transparent 16%, rgba(255,255,255,.32) 19%, transparent 24%),
-      linear-gradient(68deg, transparent 52%, rgba(205,175,255,.26) 56%, transparent 62%),
-      linear-gradient(155deg, transparent 72%, rgba(255,255,255,.16) 75%, transparent 80%),
-      radial-gradient(circle at 46% 32%, rgba(195,155,245,.55), transparent 55%),
-      linear-gradient(150deg, #170c26 0%, #3c2359 32%, #150c1f 58%, #4d2f70 84%, #150c1f 100%);
-    box-shadow: 0 0 24px 3px rgba(130,80,200,.45), 0 12px 20px rgba(0,0,0,.55);
-  }}
-  .node-crystal .crystal-thumb{{
-    background:transparent !important; margin-bottom:6px;
-    filter: brightness(1.15) saturate(1.3) drop-shadow(0 0 7px rgba(170,120,235,.7));
-  }}
-  .node-crystal .title{{ color:#efe4ff; text-shadow:0 0 6px rgba(170,120,235,.8); font-family:Arial,sans-serif; font-size:11.5px; font-weight:bold; }}
-  .node-crystal .summary{{ color:#c9b6e8; font-size:9px; font-style:italic; margin-top:2px; }}
-
-  /* ---- Shelter: nota oxidada de refugio/bunker ---- */
-  .node-rust{{ position:relative; }}
-  .rivet{{
-    position:absolute; top:-8px; left:50%; transform:translateX(-50%); z-index:5;
-    width:13px; height:13px; border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #d8d4c6, #4a463c 78%);
-    box-shadow:0 2px 3px rgba(0,0,0,.6), inset 0 0 2px rgba(0,0,0,.5);
-  }}
-  .rust-card{{ position:relative; overflow:hidden;
-    background:
-      radial-gradient(circle at 18% 22%, rgba(170,85,25,.55) 0, transparent 20%),
-      radial-gradient(circle at 78% 14%, rgba(150,68,18,.5) 0, transparent 17%),
-      radial-gradient(circle at 60% 72%, rgba(165,80,22,.5) 0, transparent 23%),
-      radial-gradient(circle at 12% 82%, rgba(140,62,15,.45) 0, transparent 18%),
-      radial-gradient(circle at 92% 60%, rgba(150,70,20,.4) 0, transparent 15%),
-      linear-gradient(155deg, #d6cfb8 0%, #c2b89a 45%, #a89e82 75%, #8f8770 100%);
-    background-blend-mode: multiply, multiply, multiply, multiply, multiply, normal;
-  }}
-  .rust-stains{{ position:absolute; inset:0; pointer-events:none;
-    background-image:
-      radial-gradient(circle at 30% 40%, rgba(120,55,15,.35) 0 6px, transparent 8px),
-      radial-gradient(circle at 70% 65%, rgba(120,55,15,.3) 0 4px, transparent 6px),
-      radial-gradient(circle at 45% 85%, rgba(120,55,15,.3) 0 3px, transparent 5px);
-    mix-blend-mode:multiply;
-  }}
-  .rust-streaks{{ position:absolute; inset:0; pointer-events:none; opacity:.55;
-    background:repeating-linear-gradient(179deg, transparent 0 14px, rgba(135,60,16,.3) 15px 18px, transparent 19px 34px);
-    mix-blend-mode:multiply;
-  }}
-  .node-rust .title{{ color:#3a2f1c; }}
-  .node-rust .tag{{ color:#7a5636; }}
   #wood-frame{{
     position:fixed; z-index:80; pointer-events:none;
     left:0; top:0; right:0; bottom:0;
@@ -362,16 +296,8 @@ function applyTransform(){{
 }}
 applyTransform();
 
-let interactTimer = null;
-function markInteracting(){{
-  board.classList.add('interacting');
-  clearTimeout(interactTimer);
-  interactTimer = setTimeout(()=> board.classList.remove('interacting'), 220);
-}}
-
 viewport.addEventListener('wheel', (e) => {{
   e.preventDefault();
-  markInteracting();
   const rect = viewport.getBoundingClientRect();
   const px = e.clientX - rect.left, py = e.clientY - rect.top;
   const boardX = (px - panX) / zoom, boardY = (py - panY) / zoom;
@@ -447,55 +373,22 @@ function edgeSeed(a,b){{
   return s/1000;
 }}
 
-const nodeGroups = {{}}; // id -> [ edgeRecord, ... ]
-const nodeEls = {{}}; // cache de elementos .node por id, para no repetir querySelector
-
-function edgeGeometry(a, b){{
-  const elA = nodeEls[a] || (nodeEls[a] = document.querySelector(`[data-id="${{a}}"]`));
-  const elB = nodeEls[b] || (nodeEls[b] = document.querySelector(`[data-id="${{b}}"]`));
-  if(!elA||!elB) return null;
-  const p1 = center(elA), p2 = center(elB);
-  const dist = Math.hypot(p2.x-p1.x, p2.y-p1.y);
-  const jitter = 0.7 + edgeSeed(a,b)*0.6; // 0.7-1.3, cada cuerda con tension distinta
-  const sag = Math.min(55, dist*0.09*jitter);
-  const bow = (edgeSeed(b,a)-0.5)*18; // ligero arco lateral, no siempre cae recto
-  const mx = (p1.x+p2.x)/2 + bow, my = (p1.y+p2.y)/2 + sag;
-  return {{p1,p2,mx,my}};
-}}
-
-function applyEdgeGeometry(rec, geo){{
-  const {{p1,p2,mx,my}} = geo;
-  rec.shadow.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my+5}} ${{p2.x}} ${{p2.y}}`);
-  rec.path.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my}} ${{p2.x}} ${{p2.y}}`);
-  rec.twist.setAttribute('d', `M ${{p1.x}} ${{p1.y-0.9}} Q ${{mx}} ${{my-0.9}} ${{p2.x}} ${{p2.y-0.9}}`);
-  rec.twistDark.setAttribute('d', `M ${{p1.x}} ${{p1.y+0.9}} Q ${{mx}} ${{my+0.9}} ${{p2.x}} ${{p2.y+0.9}}`);
-  rec.hit.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my}} ${{p2.x}} ${{p2.y}}`);
-  rec.knotA.setAttribute('cx', p1.x); rec.knotA.setAttribute('cy', p1.y);
-  rec.knotB.setAttribute('cx', p2.x); rec.knotB.setAttribute('cy', p2.y);
-  rec.p1 = p1; rec.p2 = p2; rec.mx = mx; rec.my = my;
-}}
-
-// Durante el arrastre de una nota no hace falta reconstruir las 245 conexiones
-// enteras en cada mousemove (eso es lo que iba lento) — solo recalculamos las
-// que tocan a esa nota en concreto, reutilizando los mismos elementos SVG.
-function updateEdgesFor(nodeId){{
-  const recs = nodeGroups[nodeId];
-  if(!recs) return;
-  recs.forEach(rec=>{{
-    const geo = edgeGeometry(rec.a, rec.b);
-    if(geo) applyEdgeGeometry(rec, geo);
-  }});
-}}
+const nodeGroups = {{}}; // id -> [ {{g, other}} ]
 
 function draw(){{
   svg.innerHTML = '';
   highlightSvg.innerHTML = '';
   for(const k in nodeGroups) delete nodeGroups[k];
-  for(const k in nodeEls) delete nodeEls[k];
   links.forEach(([a,b,color,label])=>{{
-    const geo = edgeGeometry(a, b);
-    if(!geo) return;
-    const {{p1,p2,mx,my}} = geo;
+    const elA = document.querySelector(`[data-id="${{a}}"]`);
+    const elB = document.querySelector(`[data-id="${{b}}"]`);
+    if(!elA||!elB) return;
+    const p1 = center(elA), p2 = center(elB);
+    const dist = Math.hypot(p2.x-p1.x, p2.y-p1.y);
+    const jitter = 0.7 + edgeSeed(a,b)*0.6; // 0.7-1.3, cada cuerda con tension distinta
+    const sag = Math.min(55, dist*0.09*jitter);
+    const bow = (edgeSeed(b,a)-0.5)*18; // ligero arco lateral, no siempre cae recto
+    const mx = (p1.x+p2.x)/2 + bow, my = (p1.y+p2.y)/2 + sag;
 
     const g = document.createElementNS(NS,'g');
     g.setAttribute('class','string-group');
@@ -524,14 +417,12 @@ function draw(){{
     twistDark.setAttribute('d', `M ${{p1.x}} ${{p1.y+0.9}} Q ${{mx}} ${{my+0.9}} ${{p2.x}} ${{p2.y+0.9}}`);
     g.appendChild(twistDark);
 
-    const knotA = document.createElementNS(NS,'circle');
-    knotA.setAttribute('class','string-knot');
-    knotA.setAttribute('cx', p1.x); knotA.setAttribute('cy', p1.y); knotA.setAttribute('r', 2.1);
-    g.appendChild(knotA);
-    const knotB = document.createElementNS(NS,'circle');
-    knotB.setAttribute('class','string-knot');
-    knotB.setAttribute('cx', p2.x); knotB.setAttribute('cy', p2.y); knotB.setAttribute('r', 2.1);
-    g.appendChild(knotB);
+    [p1,p2].forEach(p=>{{
+      const knot = document.createElementNS(NS,'circle');
+      knot.setAttribute('class','string-knot');
+      knot.setAttribute('cx', p.x); knot.setAttribute('cy', p.y); knot.setAttribute('r', 2.1);
+      g.appendChild(knot);
+    }});
 
     const hit = document.createElementNS(NS,'path');
     hit.setAttribute('class','string-hit');
@@ -540,9 +431,8 @@ function draw(){{
 
     svg.appendChild(g);
 
-    const rec = {{a, b, g, shadow, path, twist, twistDark, knotA, knotB, hit, p1, p2, mx, my}};
-    (nodeGroups[a] = nodeGroups[a]||[]).push(rec);
-    (nodeGroups[b] = nodeGroups[b]||[]).push(rec);
+    (nodeGroups[a] = nodeGroups[a]||[]).push({{g, other:b}});
+    (nodeGroups[b] = nodeGroups[b]||[]).push({{g, other:a}});
 
     // el "encendido" y la etiqueta se dibujan en una capa aparte, siempre por encima
     // de todo (incluidas las fotos), sin mover nada del DOM original — así el
@@ -554,28 +444,24 @@ function draw(){{
 window.addEventListener('resize', draw);
 draw();
 
-const allNodeEls = Array.from(document.querySelectorAll('.node'));
-const allStringGroups = Array.from(document.querySelectorAll('.string-group'));
-
 // pasar el raton por una nota ilumina toda su red de conexiones (como conectar
 // pistas en un corcho de investigacion): las cuerdas ajenas se atenuan.
-allNodeEls.forEach(n=>{{
+document.querySelectorAll('.node').forEach(n=>{{
   const nid = n.dataset.id;
   n.addEventListener('mouseenter', ()=>{{
     const mine = nodeGroups[nid] || [];
     if(!mine.length) return;
-    allStringGroups.forEach(g=> g.style.opacity = '0.12');
-    allNodeEls.forEach(other=>{{ if(other!==n) other.classList.add('dimmed'); }});
-    mine.forEach(rec=>{{
-      rec.g.style.opacity = '1';
-      const otherId = rec.a === nid ? rec.b : rec.a;
-      const otherEl = nodeEls[otherId] || (nodeEls[otherId] = document.querySelector(`[data-id="${{otherId}}"]`));
+    document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '0.12');
+    document.querySelectorAll('.node').forEach(other=>{{ if(other!==n) other.classList.add('dimmed'); }});
+    mine.forEach(({{g,other}})=>{{
+      g.style.opacity = '1';
+      const otherEl = document.querySelector(`[data-id="${{other}}"]`);
       if(otherEl) otherEl.classList.remove('dimmed');
     }});
   }});
   n.addEventListener('mouseleave', ()=>{{
-    allStringGroups.forEach(g=> g.style.opacity = '');
-    allNodeEls.forEach(other=> other.classList.remove('dimmed'));
+    document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
+    document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
   }});
 }});
 
@@ -603,24 +489,17 @@ viewport.addEventListener('mousedown', e=>{{
   viewport.classList.add('panning');
 }});
 
-let dragRAF = null;
 window.addEventListener('mousemove', e=>{{
   if(mode === 'node' && dragEl){{
     if(Math.abs(e.clientX-startX) > 5 || Math.abs(e.clientY-startY) > 5) moved = true;
     const b=board.getBoundingClientRect();
     dragEl.style.left = ((e.clientX-b.left)/zoom-offX)+'px';
     dragEl.style.top = ((e.clientY-b.top)/zoom-offY)+'px';
-    if(dragRAF === null){{
-      dragRAF = requestAnimationFrame(()=>{{
-        updateEdgesFor(dragEl.dataset.id);
-        dragRAF = null;
-      }});
-    }}
+    draw();
   }} else if(mode === 'pan'){{
     panX = panOrigX + (e.clientX - panStartX);
     panY = panOrigY + (e.clientY - panStartY);
     applyTransform();
-    markInteracting();
   }}
 }});
 

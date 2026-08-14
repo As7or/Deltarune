@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: "objeto (marioneta/maniquí de ventrílocuo — por qué tiene esa forma en vez de ser un Addison normal más es un misterio sin resolver; su identidad real en el Mundo Claro, según la lista de Objetos del Mundo Oscuro, es un anuncio publicitario de un concesionario de coches, no un maniquí)"
+especie: objeto (anuncio de un concesionario de coches)
 familia: N/A
 confianza: fuerte
 ---

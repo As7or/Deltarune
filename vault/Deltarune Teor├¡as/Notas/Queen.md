@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner (portátil/laptop)
+especie: objeto (un portátil)
 familia: N/A
 confianza: fuerte
 ---

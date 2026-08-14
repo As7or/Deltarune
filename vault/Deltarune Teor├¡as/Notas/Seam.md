@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner (peluche de gato desgastado)
+especie: objeto (un peluche)
 familia: N/A
 confianza: fuerte
 ---

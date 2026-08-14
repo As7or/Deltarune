@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: darkner niño (naipe animado)
+especie: objeto (la carta de la jota de picas)
 familia: "King (padre); Queen (madre, relación 'decidida arbitrariamente')"
 confianza: fuerte
 ---

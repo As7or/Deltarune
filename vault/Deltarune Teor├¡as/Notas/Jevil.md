@@ -1,7 +1,7 @@
 ---
 tipo: personaje
 mundo: darkner
-especie: "imp/bufón de la corte (Darkner del Reino de las Cartas); su identidad real en el Mundo Claro, según la lista de Objetos del Mundo Oscuro, es la carta del Comodín (Joker)"
+especie: objeto (la carta del Comodín / Joker)
 familia: N/A
 confianza: fuerte
 ---
