@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Gaster (W. D. Gaster).md",
+                "file": "Notas/Toriel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gaster (W. D. Gaster)"
+              "title": "Toriel"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "06f07da71b66f89e",
   "lastOpenFiles": [
+    "Notas/Conexión Undertale.md",
+    "Notas/Gaster (W. D. Gaster).md",
     "Submapas/Fuentes Oscuras.canvas",
     "Notas/Fuentes Oscuras.md",
     "00 Corcho Principal.canvas",
@@ -207,7 +209,6 @@
     "Submapas/Catti.canvas",
     "Submapas/Berdly.canvas",
     "Submapas/Asriel.canvas",
-    "Submapas/Ángel.canvas",
     "Notas/Dess.md",
     "Shelter.md",
     "Gaster (W. D. Gaster).md",
@@ -227,7 +228,6 @@
     "Notas/Jevil.md",
     "Notas/Catti.md",
     "Notas/Catti (2).md",
-    "Notas/Seam (actualizado).md",
     "Sprites/Shadow_Crystal_item_Castle_Town.png",
     "Sprites/Sin confirmar 276548.crdownload",
     "Sprites/Shadow_Crystal_item_Pink.png",

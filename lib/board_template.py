@@ -289,6 +289,7 @@ const links = [
 const board = document.getElementById('board');
 const viewport = document.getElementById('viewport');
 let zoom = 0.55, panX = 60, panY = 60;
+let pinnedNodeId = null;
 const MIN_ZOOM = 0.15, MAX_ZOOM = 2.5;
 
 function applyTransform(){{
@@ -440,28 +441,44 @@ function draw(){{
     hit.addEventListener('mouseenter', ()=> showHighlight(p1,p2,mx,my,color,label));
     hit.addEventListener('mouseleave', hideHighlight);
   }});
+  if(pinnedNodeId) applyNetworkHighlight(pinnedNodeId);
 }}
 window.addEventListener('resize', draw);
 draw();
 
 // pasar el raton por una nota ilumina toda su red de conexiones (como conectar
-// pistas en un corcho de investigacion): las cuerdas ajenas se atenuan.
+// pistas en un corcho de investigacion): las cuerdas ajenas se atenuan. Al
+// hacer clic y abrir la nota, ese resaltado se queda fijado hasta que se
+// cierra el panel o se abre otra nota — no hace falta mantener el raton encima.
+function applyNetworkHighlight(nid){{
+  const mine = nodeGroups[nid] || [];
+  if(!mine.length) return;
+  document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '0.12');
+  document.querySelectorAll('.node').forEach(other=> other.classList.add('dimmed'));
+  const selfEl = document.querySelector(`[data-id="${{nid}}"]`);
+  if(selfEl) selfEl.classList.remove('dimmed');
+  mine.forEach(({{g,other}})=>{{
+    g.style.opacity = '1';
+    const otherEl = document.querySelector(`[data-id="${{other}}"]`);
+    if(otherEl) otherEl.classList.remove('dimmed');
+  }});
+}}
+function clearNetworkHighlight(){{
+  document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
+  document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
+}}
+
 document.querySelectorAll('.node').forEach(n=>{{
   const nid = n.dataset.id;
   n.addEventListener('mouseenter', ()=>{{
-    const mine = nodeGroups[nid] || [];
-    if(!mine.length) return;
-    document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '0.12');
-    document.querySelectorAll('.node').forEach(other=>{{ if(other!==n) other.classList.add('dimmed'); }});
-    mine.forEach(({{g,other}})=>{{
-      g.style.opacity = '1';
-      const otherEl = document.querySelector(`[data-id="${{other}}"]`);
-      if(otherEl) otherEl.classList.remove('dimmed');
-    }});
+    applyNetworkHighlight(nid);
   }});
   n.addEventListener('mouseleave', ()=>{{
-    document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
-    document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
+    if(pinnedNodeId){{
+      applyNetworkHighlight(pinnedNodeId);
+    }} else {{
+      clearNetworkHighlight();
+    }}
   }});
 }});
 
@@ -509,6 +526,9 @@ window.addEventListener('mouseup', ()=>{{
     if(!moved){{
       const note = dragEl.dataset.note;
       const title = dragEl.querySelector('.title').textContent;
+      const nid = dragEl.dataset.id;
+      pinnedNodeId = nid;
+      applyNetworkHighlight(nid);
       if(note){{
         openNote(note, title);
       }} else {{
@@ -552,6 +572,8 @@ function openNote(noteStem, label){{
 function closeNote(){{
   panel.classList.remove('open');
   overlay.classList.remove('open');
+  pinnedNodeId = null;
+  clearNetworkHighlight();
 }}
 document.getElementById('note-close').addEventListener('click', closeNote);
 overlay.addEventListener('click', closeNote);

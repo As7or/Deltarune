@@ -93,6 +93,8 @@ PAGE_CSS = '''
   .node{ position:absolute; text-align:center; cursor:pointer; user-select:none; transition:transform .15s ease; z-index:2; }
   .node:hover{ transform:rotate(0deg) scale(1.06) !important; z-index:10; }
   .node.node-center:hover{ transform:rotate(0deg) scale(1.04) !important; }
+  .node.dimmed{ opacity:.22; filter:saturate(.5); }
+  .string-group{ cursor:default; transition:opacity .2s ease; }
   .card{ background:#fdfaf3; padding:8px 8px 12px 8px; border-radius:2px; box-shadow:3px 6px 10px var(--cork-shadow); }
   .center-card{ padding:10px 10px 14px 10px; }
   .thumb{ width:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; background-color:#3a3a3a; }
@@ -325,9 +327,31 @@ function showHighlight(p1,p2,mx,my,color,label){{
 }}
 function hideHighlight(){{ highlightSvg.innerHTML=''; }}
 
+const nodeGroups = {{}};
+let pinnedNodeId = null;
+
+function applyNetworkHighlight(nid){{
+  const mine = nodeGroups[nid] || [];
+  if(!mine.length) return;
+  document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '0.12');
+  document.querySelectorAll('.node').forEach(other=> other.classList.add('dimmed'));
+  const selfEl = document.querySelector(`[data-id="${{nid}}"]`);
+  if(selfEl) selfEl.classList.remove('dimmed');
+  mine.forEach(({{g,other}})=>{{
+    g.style.opacity = '1';
+    const otherEl = document.querySelector(`[data-id="${{other}}"]`);
+    if(otherEl) otherEl.classList.remove('dimmed');
+  }});
+}}
+function clearNetworkHighlight(){{
+  document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
+  document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
+}}
+
 function draw(){{
   svg.innerHTML = '';
   highlightSvg.innerHTML = '';
+  for(const k in nodeGroups) delete nodeGroups[k];
   links.forEach(([a,b,color,label])=>{{
     const elA = document.querySelector(`[data-id="${{a}}"]`);
     const elB = document.querySelector(`[data-id="${{b}}"]`);
@@ -337,6 +361,7 @@ function draw(){{
     const sag = Math.min(50, dist*0.12);
     const mx = (p1.x+p2.x)/2, my = (p1.y+p2.y)/2 + sag;
     const g = document.createElementNS(NS,'g');
+    g.setAttribute('class','string-group');
     const shadow = document.createElementNS(NS,'path');
     shadow.setAttribute('class','string-shadow');
     shadow.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my+5}} ${{p2.x}} ${{p2.y}}`);
@@ -351,12 +376,23 @@ function draw(){{
     hit.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my}} ${{p2.x}} ${{p2.y}}`);
     g.appendChild(hit);
     svg.appendChild(g);
+    (nodeGroups[a] = nodeGroups[a]||[]).push({{g, other:b}});
+    (nodeGroups[b] = nodeGroups[b]||[]).push({{g, other:a}});
     hit.addEventListener('mouseenter', ()=> showHighlight(p1,p2,mx,my,color,label));
     hit.addEventListener('mouseleave', hideHighlight);
   }});
+  if(pinnedNodeId) applyNetworkHighlight(pinnedNodeId);
 }}
 window.addEventListener('resize', draw);
 draw();
+
+document.querySelectorAll('.node').forEach(n=>{{
+  const nid = n.dataset.id;
+  n.addEventListener('mouseenter', ()=> applyNetworkHighlight(nid));
+  n.addEventListener('mouseleave', ()=>{{
+    if(pinnedNodeId){{ applyNetworkHighlight(pinnedNodeId); }} else {{ clearNetworkHighlight(); }}
+  }});
+}});
 
 let mode = null, dragEl=null, offX=0, offY=0, startX=0, startY=0, moved=false;
 let panStartX=0, panStartY=0, panOrigX=0, panOrigY=0;
@@ -393,6 +429,8 @@ window.addEventListener('mouseup', ()=>{{
       const note = dragEl.dataset.note;
       const t = dragEl.querySelector('.title');
       const label = t ? t.textContent : '{html.escape(title_name)}';
+      pinnedNodeId = dragEl.dataset.id;
+      applyNetworkHighlight(pinnedNodeId);
       if(note){{ openNote(note, label); }} else {{ openNote(null, label); }}
     }}
   }}
@@ -419,7 +457,7 @@ function openNote(noteStem, label){{
   else {{ frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">Todavia no hay nota para <b>'+label+'</b>.</body>'); }}
   panel.classList.add('open'); overlay.classList.add('open');
 }}
-function closeNote(){{ panel.classList.remove('open'); overlay.classList.remove('open'); }}
+function closeNote(){{ panel.classList.remove('open'); overlay.classList.remove('open'); pinnedNodeId = null; clearNetworkHighlight(); }}
 document.getElementById('note-close').addEventListener('click', closeNote);
 overlay.addEventListener('click', closeNote);
 </script>

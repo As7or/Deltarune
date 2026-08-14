@@ -6,11 +6,11 @@ familia: Holiday — esposo de Carol, padre de Dess y Noelle
 confianza: oficial
 ---
 
-| Mundo Claro                          | Talksprite                      |
-| ------------------------------------ | -------------------------------- |
-| ![[Rudy_Overworld_1.png]]<br>*Rudy.* | ![[Rudy_face.png]]<br>*Su retrato de diálogo.* |
+| Mundo Claro                          |
+| ------------------------------------ |
+| ![[Rudy_Overworld_1.png]]<br>*Rudy.* |
 
-*Nota de tabla: Rudy no tiene forma Darkner confirmada — solo aparece como Lightner, siempre en el hospital.*
+*Nota de tabla: Rudy no tiene forma Darkner ni talksprite propio confirmado — solo aparece como Lightner, siempre en el hospital.*
 
 > [!info]+ Datos rápidos
 > 🦌 Padre de Noelle y Dess, esposo de Carol; postrado en cama en el hospital de Hometown.
@@ -24,9 +24,6 @@ confianza: oficial
 
 > [!tip]- Ficha de personalidad
 > Extrovertido, honesto y con un sentido del humor que no decae ni encerrado en una cama de hospital — bromea sobre casi cualquier cosa, incluida su propia enfermedad ("estoy aburrido como el DEMONIO aquí"). Muy protector con Noelle, apoya abiertamente su interés por [[Susie]], y no puede con [[Berdly]], a quien llama "Nerdly" y amenaza en broma con tirarle algo por la ventana del hospital.
->
-> ![[Rudy_face.png]]
-> *Uno de los retratos de diálogo habituales de Rudy.*
 
 ## Historia por capítulos
 

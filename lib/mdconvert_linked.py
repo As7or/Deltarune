@@ -132,6 +132,10 @@ def inline_md(text, sprites_prefix, force_small=False):
         inner = m.group(1)
         target = inner.split("|")[0].strip()
         display = inner.split("|")[-1].strip()
+        submap_m = re.match(r"^Submapas/(.+?)\.canvas$", target)
+        if submap_m:
+            slug = slugify(submap_m.group(1))
+            return stash(f'<a class="wikilink submap-link" href="../submaps/{urllib.parse.quote(slug)}.html">{html.escape(display)}</a>')
         stem = resolve_note_stem(target)
         if stem:
             return stash(f'<a class="wikilink" href="{urllib.parse.quote(stem)}.html">{html.escape(display)}</a>')
@@ -225,27 +229,8 @@ def render_callout_block(lines, sprites_prefix, depth=0):
             while i < len(lines) and lines[i][0] > base_depth:
                 nested.append((lines[i][0]-base_depth, lines[i][1]))
                 i += 1
-            first_content = nested[0][1] if nested else ""
-            if re.match(r"\[!\w+\][+-]?\s*", first_content):
-                body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
-            else:
-                # Cita simple anidada (sin [!tipo]) - no es otro callout, es solo
-                # texto citado/enfatizado dentro del callout padre (p.ej. un
-                # fragmento textual del juego). Se renderiza como blockquote,
-                # no como otra caja de postit anidada.
-                quote_lines = [c for _, c in nested if c.strip()]
-                quote_html = "".join(f"<p>{inline_md(c, sprites_prefix, force_small=force_small_here)}</p>" for c in quote_lines)
-                body_parts.append(f'<blockquote class="nested-quote">{quote_html}</blockquote>')
+            body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
         else:
-            if content.strip().startswith("|"):
-                table_lines = []
-                while i < len(lines) and lines[i][0] == d and lines[i][1].strip().startswith("|"):
-                    table_lines.append(lines[i][1])
-                    i += 1
-                t = parse_table(table_lines, sprites_prefix)
-                if t:
-                    body_parts.append(t)
-                continue
             if content.strip():
                 body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
             i += 1
@@ -268,6 +253,7 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
     out = []
     i = 0
     n = len(lines)
+    last_heading = ""
     while i < n:
         line = lines[i]
         if line.strip().startswith("|"):
@@ -290,12 +276,43 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
                 block.append((dd, content)); i += 1; first = False
             out.append(render_callout_block(block, sprites_prefix))
             continue
+        if re.match(r"^\s*[-*]\s+", line):
+            bullet_lines = []
+            while i < n and re.match(r"^\s*[-*]\s+", lines[i]):
+                bullet_lines.append(re.sub(r"^\s*[-*]\s+", "", lines[i]))
+                i += 1
+            if last_heading == "relacionado":
+                tags = "".join(
+                    f'<span class="related-tag">🧷<span class="related-tag-label">{inline_md(b, sprites_prefix)}</span></span>'
+                    for b in bullet_lines
+                )
+                out.append(f'<div class="related-web">{tags}</div>')
+            else:
+                items = "".join(f"<li>{inline_md(b, sprites_prefix)}</li>" for b in bullet_lines)
+                out.append(f"<ul>{items}</ul>")
+            continue
         if line.startswith("### "):
             out.append(f"<h3>{inline_md(line[4:], sprites_prefix)}</h3>")
         elif line.startswith("## "):
-            out.append(f"<h2>{inline_md(line[3:], sprites_prefix)}</h2>")
+            heading_text = line[3:].strip()
+            last_heading = re.sub(r"[^a-záéíóúñ]", "", heading_text.lower())
+            out.append(f"<h2>{inline_md(heading_text, sprites_prefix)}</h2>")
         elif line.startswith("# "):
             out.append(f"<h1>{inline_md(line[2:], sprites_prefix)}</h1>")
+        elif last_heading == "submapa" and "Submapas/" in line and "[[" in line:
+            m = re.search(r"\[\[Submapas/(.+?)\.canvas(?:\|(.+?))?\]\]", line)
+            if m:
+                slug = slugify(m.group(1))
+                label = m.group(2) or "Abrir submapa gráfico"
+                out.append(
+                    '<a class="submap-cta" href="../submaps/' + urllib.parse.quote(slug) + '.html">'
+                    '<span class="submap-cta-icon">🗺️</span>'
+                    '<span class="submap-cta-text"><span class="submap-cta-title">' + html.escape(label) + '</span>'
+                    '<span class="submap-cta-sub">Explora sus conexiones en su propio corcho</span></span>'
+                    '</a>'
+                )
+            else:
+                out.append(f"<p>{inline_md(line, sprites_prefix)}</p>")
         elif line.strip().startswith("![["):
             m = re.match(r"!\[\[(.+?)\]\]", line.strip())
             name = m.group(1).split("|")[0].strip()
@@ -307,14 +324,6 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
                         (f"<figcaption>{html.escape(caption)}</figcaption>" if caption else "") + "</figure>")
         elif line.strip() == "":
             pass
-        elif re.match(r"^-\s+", line.strip()):
-            items = []
-            while i < n and re.match(r"^-\s+", lines[i].strip()):
-                items.append(re.sub(r"^-\s+", "", lines[i].strip()))
-                i += 1
-            out.append("<ul class=\"note-list\">" + "".join(
-                f"<li>{inline_md(it, sprites_prefix)}</li>" for it in items) + "</ul>")
-            continue
         else:
             out.append(f"<p>{inline_md(line, sprites_prefix)}</p>")
         i += 1
