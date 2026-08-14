@@ -230,10 +230,27 @@ def render_callout_block(lines, sprites_prefix, depth=0):
                 nested.append((lines[i][0]-base_depth, lines[i][1]))
                 i += 1
             body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
-        else:
-            if content.strip():
-                body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
-            i += 1
+            continue
+        if content.strip().startswith("|"):
+            table_block = []
+            while i < len(lines) and lines[i][0] == base_depth and lines[i][1].strip().startswith("|"):
+                table_block.append(lines[i][1])
+                i += 1
+            t = parse_table(table_block, sprites_prefix)
+            if t:
+                body_parts.append(t)
+            continue
+        if re.match(r"^\s*[-*]\s+", content):
+            bullet_lines = []
+            while i < len(lines) and lines[i][0] == base_depth and re.match(r"^\s*[-*]\s+", lines[i][1]):
+                bullet_lines.append(re.sub(r"^\s*[-*]\s+", "", lines[i][1]))
+                i += 1
+            items = "".join(f"<li>{inline_md(b, sprites_prefix, force_small=force_small_here)}</li>" for b in bullet_lines)
+            body_parts.append(f"<ul>{items}</ul>")
+            continue
+        if content.strip():
+            body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
+        i += 1
     body = "".join(body_parts)
     title_html = f'<div class="callout-title">{inline_md(title, sprites_prefix)}</div>' if title else ""
     import importlib

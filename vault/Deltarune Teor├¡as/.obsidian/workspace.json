@@ -15,9 +15,9 @@
               "state": {
                 "file": "00 Corcho Principal.canvas",
                 "viewState": {
-                  "x": -1855.7599296094902,
-                  "y": -1215.967111024921,
-                  "zoom": -2.9999999999999996
+                  "x": 610.5382639281602,
+                  "y": -1079.7046154343439,
+                  "zoom": -4
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,6 +190,8 @@
   },
   "active": "06f07da71b66f89e",
   "lastOpenFiles": [
+    "Notas/Conexi├│n Undertale.md",
+    "00 Corcho Principal.canvas",
     "Submapas/Toriel.canvas",
     "Notas/Toriel.md",
     "Notas/Undyne.md",
@@ -197,7 +199,6 @@
     "Notas/Gaster (W. D. Gaster).md",
     "Submapas/Fuentes Oscuras.canvas",
     "Notas/Fuentes Oscuras.md",
-    "00 Corcho Principal.canvas",
     "Submapas/Cristal Oscuro.canvas",
     "Notas/Cristal Oscuro.md",
     "Notas/Spamton.md",
@@ -214,7 +215,6 @@
     "Submapas/Clam Guy.canvas",
     "Submapas/Catti.canvas",
     "Submapas/Berdly.canvas",
-    "Submapas/Asriel.canvas",
     "Notas/Dess.md",
     "Shelter.md",
     "Gaster (W. D. Gaster).md",

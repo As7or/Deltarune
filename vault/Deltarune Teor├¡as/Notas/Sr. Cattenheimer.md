@@ -57,6 +57,12 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!quote]- Catti
+> Su hija menor, compañera de clase de Kris y Susie y novia de Jockington. [[Catti]]
+
+> [!quote]- Catty y Mom Cat
+> Su hija mayor, Catty, es un personaje que regresa de Undertale — no tiene nota propia en el vault (NPC menor), pero se la menciona aquí como parte de la familia. Su esposa, Mom Cat, tampoco tiene nota propia; ambas aparecen junto a él y Catti como la familia Cattenheimer al completo.
+
 > [!quote]- Asgore y Rudy
 > Amigos fuera del propio juego: un dibujo promocional de una newsletter oficial (no una escena jugable de Deltarune) los muestra a los tres juntos en una barbacoa, con Cattenheimer a la parrilla mientras Asgore y Rudy charlan sentados. No es contenido dentro del juego, pero sí material oficial que confirma la amistad entre los tres. [[Asgore]] [[Rudy]]
 >

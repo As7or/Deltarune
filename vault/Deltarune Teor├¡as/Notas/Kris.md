@@ -53,21 +53,6 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 ![[Kris_overworld_SOUL.png]]
 *El ALMA de Kris brillando — el objeto que el jugador controla directamente, no a Kris mismo.*
 
-## Teoría de la mano
-Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; el propio Cap.5 añadió la primera confirmación textual real de que hay un gato de por medio, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
-
-> [!question]+ La evidencia que se cita
-> - **Confirmado en el Cap.5:** el diálogo secreto de Pink (ver [[Mad Mew Mew (Pink)]]) reconoce en pantalla que Kris tiene una mordedura de gato en la mano, y advierte de una "manada de gatos de caza" tras la proteína — la nota de Pink conecta este aviso principalmente con [[FRIEND]] y los Huevos.
-> - La silueta del héroe en la Profecía completa parece mostrarse sin un brazo visible.
-> - En ciertos sprites del Mundo Claro —por ejemplo al usar Fragmentos Oscuros, o en la sala de la máquina tragaperras del Capítulo 3— el brazo de Kris no llega a dibujarse del todo.
-> - La lectura de que el propio Knight podría ser un cadáver o un cuerpo mutilado bajo la armadura alimenta el salto especulativo de que la mutilación no sería exclusiva del Knight.
-> - El puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) es otra de las escenas que el fandom cita como posible pista visual, aunque no hay ninguna línea de diálogo que la conecte directamente con la mano de Kris.
-> - 🎲 Pieza más nueva y más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
-> - Es, en conjunto, una de las teorías más "de fandom" de esta lista — ahora con una pieza de diálogo real detrás, pero todavía sin confirmación de que Kris vaya a perder la mano.
-
-![[Kriss_hand_acid_river_scene.webp]]
-*Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) — una de las escenas que el fandom cita como pista visual sobre la mano de Kris.*
-
 ## Historia por capítulos
 
 > [!example]+ Capítulo 1 — el inicio, y el primer aviso
@@ -251,6 +236,19 @@ Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítu
 
 > [!question]- ¿Es Kris el propio Knight?
 > Al final del Capítulo 2, Kris abre una Fuente Oscura por su cuenta usando su cuchillo y, aparentemente, su propia Determinación — el mismo tipo de voluntad que Queen sugiere que hace falta para ello. El juego no aclara si esto convierte a Kris en una especie de Knight por derecho propio, en paralelo (o en conflicto) con la teoría de que el Knight es Dess.
+
+> [!question]- Teoría de la mano
+> Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; el propio Cap.5 añadió la primera confirmación textual real de que hay un gato de por medio, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
+> - **Confirmado en el Cap.5:** el diálogo secreto de Pink (ver [[Mad Mew Mew (Pink)]]) reconoce en pantalla que Kris tiene una mordedura de gato en la mano, y advierte de una "manada de gatos de caza" tras la proteína — la nota de Pink conecta este aviso principalmente con [[FRIEND]] y los Huevos.
+> - La silueta del héroe en la Profecía completa parece mostrarse sin un brazo visible.
+> - En ciertos sprites del Mundo Claro —por ejemplo al usar Fragmentos Oscuros, o en la sala de la máquina tragaperras del Capítulo 3— el brazo de Kris no llega a dibujarse del todo.
+> - La lectura de que el propio Knight podría ser un cadáver o un cuerpo mutilado bajo la armadura alimenta el salto especulativo de que la mutilación no sería exclusiva del Knight.
+> - El puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) es otra de las escenas que el fandom cita como posible pista visual, aunque no hay ninguna línea de diálogo que la conecte directamente con la mano de Kris.
+> - 🎲 Pieza más nueva y más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
+> - Es, en conjunto, una de las teorías más "de fandom" de esta lista — ahora con una pieza de diálogo real detrás, pero todavía sin confirmación de que Kris vaya a perder la mano.
+>
+> ![[Kriss_hand_acid_river_scene.webp]]
+> *Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) — una de las escenas que el fandom cita como pista visual sobre la mano de Kris.*
 
 ## En combate
 Lleva el mando del grupo en el Mundo Oscuro (equipo, inventario, órdenes). Como humano, no puede lanzar hechizos — en su lugar usa ACTs, incluyendo algunos exclusivos: **Encourage** (sube la defensa del grupo, solo desbloqueable contra King), **Pirouette** (contra Jevil, con un efecto distinto cada turno), **HealDeal** (acepta un trato de Spamton para curarse), **Take House 2** (contra Rouxls Kaard), **X-Slash/FriedPipis** (contra Spamton NEO, solo Ruta Rara), y varios más específicos de cada jefe. Su ataque especial X-Slash golpea dos veces en un mismo turno y hace más daño que Luchar.

@@ -6,9 +6,9 @@ familia: teorizado como padre de Sans y Papyrus
 confianza: fuerte (dato de archivo) / débil (identidad real)
 ---
 
-| Mystery Man (Undertale)                                     | REDACTED (Deltarune)                                                        | Follower #3                                                    |
-| ------------------------------------------------------------ | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ![[gaster.png\|150]]<br>*Su posible forma, tras una puerta.* | ![[Gaster_redacted.webp\|150]]<br>*El equivalente censurado que aparece en Deltarune.* | ![[gaster-follower-3.png\|150]]<br>*Uno de sus tres seguidores grises.* |
+| Mystery Man (Undertale)                                     | REDACTED (Deltarune)                                                        |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------- |
+| ![[gaster.png\|150]]<br>*Su posible forma, tras una puerta.* | ![[Gaster_redacted.webp\|150]]<br>*El equivalente censurado que aparece en Deltarune.* |
 
 *Nota de tabla: Gaster no tiene ninguna forma oficial confirmada. Todo lo de arriba son sprites hallados en los archivos del juego, nunca mostrados en pantalla durante una partida normal.*
 
