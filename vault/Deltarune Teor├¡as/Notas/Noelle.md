@@ -183,6 +183,9 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 
 > [!question]+ ¿El Ángel de la Profecía?
 > Durante la Spamton Sweepstakes de 2022, uno de los premios reales fue un reloj de pulsera blanco grabado con el nombre "Noelle Holiday"; en su descripción, Spamton lo presenta como una joya que perteneció a alguien "rico y poderoso", y remata la broma con "si necesitas pruebas, ahí tienes el nombre del Ángel con las alas rasgadas". El reloj coincide en diseño con el Anillo de Plata que Noelle lleva equipado en el juego —el mismo objeto necesario para desbloquear los diálogos más oscuros del final de la Ruta Snowgrave—, lo que ha reforzado durante años la teoría de que Noelle es el "Ángel" mencionado en la Profecía. **Pista real de merchandising/ARG que apoya la teoría; el juego en sí nunca lo confirma de forma directa.** Ver el desarrollo completo en [[Ángel]].
+>
+> ![[The_Legend_screenshot_Angel%27s_Heaven.webp]]
+> *El Cielo del Ángel, tal como lo ilustra la Profecía — la figura que esta teoría conecta con Noelle.*
 
 > [!question]+ ¿El segundo héroe de la Profecía?
 > Puede equipar (vía modificación) el Black Shard y cintas — pistas de diseño no confirmadas en el juego normal.

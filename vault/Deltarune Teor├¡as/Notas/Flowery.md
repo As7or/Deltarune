@@ -139,12 +139,8 @@ confianza: fuerte
 > Junto a Flowery, forman las 7 Flores de Colores del ramo de bodas de Asgore y Toriel. A diferencia de él —que es el equivalente de Flowey de Undertale—, las otras seis representan directamente, una por una, a las seis ALMAs humanas de Undertale (Paciencia, Perseverancia, Integridad, Valentía, Bondad y Justicia), tanto en color como en el objeto que usan como arma en combate. Todas ellas ganan sapiencia al abrirse el Mundo Oscuro de Flower King en el Cap.5 y dedican su nueva vida a devolverle a Asgore, cada una a su manera, los años de cuidado que recibieron.
 >
 > Su trasfondo individual, el paralelismo con las ALMAs de Undertale, y su relación con Berdly, Kris y Pink están desarrollados en su propia nota — ver [[7 Flores de Colores]].
-
-> [!question]- ¿Quién es Pink?
-> Pink actúa como una flor más del grupo y Orange la llama "hermana mayor", pero no es una de las 7 Flores de Colores originales del ramo de Asgore y Toriel — es un caso aparte, cuyo origen exacto no se explica del todo, y que solo se integra "oficialmente" en el grupo tras ser derrotada y presentada por Orange al resto. **Dato ambiguo dentro del propio juego, más que teoría de fans.**
 >
-> ![[Mad_Mew_Mew_Pink.gif]]
-> *Pink, la flor de más que no pertenece al ramo original de Asgore y Toriel.*
+> Pink actúa como una flor más del grupo y Orange la llama "hermana mayor", pero no es una de las 7 Flores de Colores originales del ramo de Asgore y Toriel — solo se integra "oficialmente" en el grupo tras ser derrotada y presentada por Orange al resto. Su identidad real (un fantasma de la familia Blook poseyendo la figura de acción de Mew Mew) está confirmada y desarrollada en su propia nota — ver [[Mad Mew Mew (Pink)]].
 
 > [!question]- ¿Es su "podríamos haber sido amigos" a Ralsei una alusión a Undertale?
 > Muy probablemente sí, y no es casualidad. Ralsei está ampliamente confirmado como un espejo de Asriel —su nombre es un anagrama del suyo, y su diseño se revela casi idéntico al de Asriel al final del Cap.1—, mientras que Flowery es, según la propia wiki oficial, una alusión directa y deliberada a Flowey: ambos son flores doradas con alta sapiencia, conscientes de mecánicas del propio juego como el guardado, capaces de falsear sus estadísticas, con una forma "Omega" que usa el poder combinado de otros seis seres, y ligados de la misma manera a su respectivo padre (Asgore/Toriel). El propio tema musical de Flowery, "Your Dad's Best Friend", es un guiño directo a "Your Best Friend", el tema de combate de Flowey.

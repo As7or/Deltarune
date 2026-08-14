@@ -57,17 +57,10 @@ confianza: fuerte
 > [!quote]- Mad Mew Mew (Pink)
 > Le regaló a Asgore la figura de acción de Mew Mew que él guarda en su tienda como mascota — el mismo objeto que, ya en el Mundo Oscuro del Cap.5, se convierte en el jefe secreto Pink. [[Mad Mew Mew (Pink)]]
 
-## Teorías
-
-> [!question]- ¿Por qué no recuerda a Undyne?
-> A diferencia de Undertale, donde Alphys y Undyne llevan años siendo pareja, aquí no parecen conocerse en absoluto al empezar el juego — un cambio deliberado de circunstancias que el fandom interpreta como una señal más de que Deltarune reescribe activamente las relaciones heredadas, no solo los papeles narrativos de cada personaje.
->
-> ![[Alphys_face.png]]
-> *El retrato de diálogo de Alphys — sin ningún rastro visible de su relación con Undyne de Undertale.*
-
 ## Curiosidades
 - Presta a Kris su colección casera en DVD de "Los Symptons", la sitcom sobre una familia de monstruos de clase media.
 - Su regalo a Asgore —la figura de Mew Mew que da origen a Pink en el Cap.5— la convierte, sin saberlo, en el origen indirecto de uno de los jefes secretos más comentados de todo el juego.
+- A diferencia de Undertale, donde ella y Undyne llevan años siendo pareja, en Deltarune no parecen conocerse en absoluto al empezar el juego — Deltarune no continúa ni depende de las relaciones ya establecidas en Undertale, cada juego las plantea por su cuenta (ver [[Conexión Undertale]]).
 
 ## Relacionado
 - [[Undyne]]
