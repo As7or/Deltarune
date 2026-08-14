@@ -61,6 +61,9 @@ confianza: oficial
 
 > [!quote]- Ángel
 > Cree firmemente en la fe y la Profecía, y trata al Ángel con verdadero respeto religioso. En el Cap.5 llega a atribuirle los destrozos de la iglesia del capítulo anterior, describiéndolo como "vientos de gran cambio". [[Ángel]]
+>
+> ![[The_Legend_screenshot_Angel%27s_Heaven.webp]]
+> *El Cielo del Ángel, tal como lo ilustra la Profecía — la figura que Alvin venera.*
 
 ## Teorías
 

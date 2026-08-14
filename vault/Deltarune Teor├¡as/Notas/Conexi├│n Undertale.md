@@ -51,7 +51,7 @@ Repaso de los personajes de Undertale que reaparecen en Deltarune como Lightners
 > **Similitudes**: carácter fogoso y enérgico, dedicación total a su trabajo, relación cercana con Alphys.
 > **Diferencias**: ex-jefa de policía de Hometown en vez de Guardia Real; su relación con Alphys, aunque sigue siendo el centro de su vida, se desarrolla en un contexto mucho más doméstico y cotidiano.
 >
-> ![[Undyne_overworld_bench-press.webp]]
+> ![[Officer_Undyne_Overworld.webp]]
 > ![[undertale_undyne.png]]
 > *Undyne en Deltarune (izquierda/arriba) y en su diseño original de Undertale (derecha/abajo).*
 

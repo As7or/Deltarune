@@ -100,6 +100,9 @@ confianza: oficial
 
 > [!question]- ¿Rudy es el Caballero Rugiente?
 > Teoría de foro (Rudy Knight): su enfermedad, su ausencia física del resto del pueblo y ciertas líneas de diálogo ambiguas (posible tercera voz en una llamada entre Kris y Carol) alimentan la idea de que Rudy podría representar, de forma literal o simbólica, al Caballero Rugiente — leído como una fantasía de escape frente a la pérdida de Dess. Teoría débil, sin confirmación directa y bastante especulativa.
+>
+> ![[TheRoaringKnightDeltarune.webp]]
+> *La silueta oficial del Caballero Rugiente — la figura con la que esta teoría conecta a Rudy.*
 
 ## Curiosidades
 - Es descrito repetidamente como el "Sans" de la familia Holiday por su forma de aligerar el ambiente con humor pese a su situación.

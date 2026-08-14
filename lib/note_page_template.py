@@ -289,14 +289,17 @@ PAGE_CSS_WET = PAGE_CSS + '''
 
 PAGE_CSS_RUSTED = PAGE_CSS + '''
   body{
-    background-color:#3a2c22;
+    background-color:#332e2c;
     background-image:
-      repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 3px, transparent 3px 26px),
-      radial-gradient(ellipse 70% 40% at 15% 8%, rgba(180,90,40,.35) 0, transparent 55%),
-      radial-gradient(ellipse 60% 45% at 85% 92%, rgba(120,50,20,.4) 0, transparent 60%),
-      radial-gradient(ellipse 90% 60% at 50% 50%, rgba(90,60,40,.25) 0, transparent 70%),
-      linear-gradient(160deg, #4a382a 0%, #2e2119 100%);
+      repeating-linear-gradient(90deg, rgba(0,0,0,.25) 0 2px, transparent 2px 40px),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.16) 0 2px, transparent 2px 40px),
+      radial-gradient(ellipse 70% 40% at 15% 10%, rgba(200,100,40,.32) 0, transparent 55%),
+      radial-gradient(ellipse 55% 40% at 85% 90%, rgba(160,70,25,.38) 0, transparent 60%),
+      radial-gradient(ellipse 90% 60% at 50% 45%, rgba(90,85,78,.3) 0, transparent 70%),
+      linear-gradient(160deg, #4a4340 0%, #26221f 100%);
+    color:#e8dcc8;
   }
+  ul li{ color:#e6dcc8; }
   h1{ color:#e8c9a0; border-bottom-color:#8a5a2e; text-transform:uppercase; letter-spacing:.06em; }
   h2, h3{ color:#e8c9a0 !important; text-transform:uppercase; letter-spacing:.05em; text-shadow:1px 1px 0 rgba(0,0,0,.5); }
   h2{ border-bottom-color:#8a5a2e !important; }
@@ -362,7 +365,9 @@ PAGE_CSS_CRYSTAL = PAGE_CSS + '''
       radial-gradient(ellipse 80% 60% at 50% 50%, rgba(40,30,80,.5) 0, transparent 70%),
       repeating-conic-gradient(from 0deg at 50% 0%, rgba(255,255,255,.02) 0deg 8deg, transparent 8deg 16deg),
       linear-gradient(160deg, #17182c 0%, #0a0b14 100%);
+    color:#d8dcf0;
   }
+  ul li{ color:#d8dcf0; }
   h1{ color:#cfe0ff; border-bottom-color:#6b5fd8; }
   h2, h3{ color:#cfe0ff !important; text-shadow:0 0 8px rgba(120,140,255,.5); }
   h2{ border-bottom-color:#6b5fd8 !important; }

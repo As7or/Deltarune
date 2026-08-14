@@ -97,6 +97,9 @@ confianza: fuerte
 
 > [!question]- ¿Su maldad viene de la Fuente Oscura?
 > Se insinúa, sin pruebas concluyentes, que la propia Fuente Oscura pudo intensificar los rasgos negativos y agresivos de Queen — sin que quede claro si esto la disculpa de sus acciones o simplemente las agrava. El propio juego deja la pregunta abierta.
+>
+> ![[GIGA_Queen_battle.gif]]
+> *GIGA Queen, su forma de combate más agresiva — la versión de sí misma que esta teoría conecta con la Fuente Oscura.*
 
 ## Curiosidades
 - Su nombre completo, el número de serie Q5U4EX7YY2E9N, contiene en orden todas las letras necesarias para deletrear "Queen".

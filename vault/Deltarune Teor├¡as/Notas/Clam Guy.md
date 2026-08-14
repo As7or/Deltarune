@@ -49,6 +49,9 @@ confianza: fuerte
 
 > [!question]+ ¿Sabía Gaster de la existencia de Susie antes de que existiera Deltarune?
 > Si Clam Girl está realmente ligada a Gaster (por el sonido y el color compartidos), su mención de "Suzy" implicaría que, dentro de la propia ficción, alguna versión de Gaster ya era consciente de la existencia de Susie —y por extensión, de todo Deltarune— antes incluso de que el juego se anunciara. Es una de las pistas meta-narrativas más citadas de toda la saga. **Teoría de fans, con una base de pistas de archivo muy sólida; no confirmada con nombre y apellido dentro del juego.**
+>
+> ![[gaster_and_deltarune_clampgirl_goner_speech.webp]]
+> *El discurso final de Clam Girl en Undertale, con el mismo sonido de desaparición ligado a Gaster y al segundo Seguidor.*
 
 ## Curiosidades
 - Si Undyne está muerta en la partida de Undertale importada, Clam Guy no llega a aparecer en Hotland.

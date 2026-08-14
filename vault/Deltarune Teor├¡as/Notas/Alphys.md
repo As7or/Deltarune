@@ -61,6 +61,9 @@ confianza: fuerte
 
 > [!question]- ¿Por qué no recuerda a Undyne?
 > A diferencia de Undertale, donde Alphys y Undyne llevan años siendo pareja, aquí no parecen conocerse en absoluto al empezar el juego — un cambio deliberado de circunstancias que el fandom interpreta como una señal más de que Deltarune reescribe activamente las relaciones heredadas, no solo los papeles narrativos de cada personaje.
+>
+> ![[Alphys_face.png]]
+> *El retrato de diálogo de Alphys — sin ningún rastro visible de su relación con Undyne de Undertale.*
 
 ## Curiosidades
 - Presta a Kris su colección casera en DVD de "Los Symptons", la sitcom sobre una familia de monstruos de clase media.

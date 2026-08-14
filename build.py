@@ -54,7 +54,12 @@ def find_vault_root(path):
     else:
         root = path
 
-    fix_encoding(root)
+    renamed, dropped = fix_encoding(root)
+    if dropped:
+        print(f"Aviso: se encontraron {len(dropped)} archivo(s) duplicados por encoding roto (mismo archivo exportado dos veces con corrupciones distintas). Se conservó la versión más reciente de cada uno:")
+        for old_path, kept_path in dropped:
+            print(f"   - descartado: {old_path}")
+            print(f"     conservado: {kept_path}")
 
     # buscar la carpeta que tiene Notas/ dentro (puede estar anidada)
     for dirpath, dirnames, _ in os.walk(root):

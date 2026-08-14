@@ -11,17 +11,14 @@
             "id": "06f07da71b66f89e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00 Corcho Principal.canvas",
-                "viewState": {
-                  "x": 610.5382639281602,
-                  "y": -1079.7046154343439,
-                  "zoom": -4
-                }
+                "file": "Notas/Conexión Undertale.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "00 Corcho Principal"
+              "icon": "lucide-file",
+              "title": "Conexión Undertale"
             }
           }
         ]
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Lancer.md",
+                "file": "Notas/Conexión Undertale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Lancer"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -174,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +184,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "06f07da71b66f89e",
+  "active": "03b21412c8671c7b",
   "lastOpenFiles": [
+    "Sprites/Cards_item_rouxl.gif",
+    "Sprites/Sin confirmar 421647.crdownload",
     "Notas/Conexi├│n Undertale.md",
     "00 Corcho Principal.canvas",
     "Submapas/Toriel.canvas",
@@ -230,7 +228,6 @@
     "Notas/Mad Mew Mew (Pink).md",
     "Notas/Kris.md",
     "Notas/Kris .md",
-    "Notas/Kris (2).md",
     "Sprites/Shadow_Crystal_item_Castle_Town.png",
     "Sprites/Sin confirmar 276548.crdownload",
     "Sprites/Shadow_Crystal_item_Pink.png",
@@ -244,7 +241,6 @@
     "Sprites/Shadow_Crystal_item_Jevil.png",
     "Sprites/Sin confirmar 493412.crdownload",
     "Sprites/dark_crystal_Glass_item.png",
-    "Sprites/Sin confirmar 753500.crdownload",
-    "Sprites/Sin confirmar 997554.crdownload"
+    "Sprites/Sin confirmar 753500.crdownload"
   ]
 }

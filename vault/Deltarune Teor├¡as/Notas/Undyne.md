@@ -69,6 +69,9 @@ confianza: fuerte
 
 > [!question]+ ¿Por qué Asgore dejó la policía?
 > Nunca se explica por qué Asgore fue apartado del puesto que ahora ocupa Undyne — dado lo que se insinúa sobre su autoculpa y una tragedia pasada (ver [[Asgore]]), es una de las piezas sueltas más citadas para reconstruir qué pasó realmente antes del inicio del juego.
+>
+> ![[Asgore_screenshot_resolve.png]]
+> *Asgore, cargando con la autoculpa que el fandom conecta con su salida de la policía.*
 
 ## Curiosidades
 - La cinta policial que bloquea la carretera junto a la comisaría dice "¡NGAHHHHH!!!" — su grito de guerra de Undertale.
