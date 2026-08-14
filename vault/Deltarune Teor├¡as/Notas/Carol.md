@@ -10,7 +10,7 @@ confianza: oficial
 | ----------------------------------------------------------------------- |
 | ![[Carol_Holiday.webp\|234]]<br>*Carol Holiday, alcaldesa de Hometown.* |
 
-*Nota de tabla: Carol no tiene forma Darkner ni talksprite propio confirmado — aparece únicamente como Lightner en el pueblo.*
+*Nota de tabla: Carol no tiene forma Darkner confirmada — aparece únicamente como Lightner en el pueblo. Sí tiene talksprite propio (ver Ficha de personalidad, más abajo).*
 
 > [!info]+ Datos rápidos
 > 🏛️ Alcaldesa de Hometown, esposa de Rudy, madre de Dess y Noelle.
@@ -129,6 +129,10 @@ confianza: oficial
 - Antes de la desaparición de Dess, Carol y Rudy solían ir con frecuencia a casa de los Dreemurr por las fiestas — algo que dejaron de hacer poco después.
 - Tiene predilección por los objetos con forma de corazón, con una colección de cojines de esa forma según comenta Noelle.
 - Es capaz de partir en dos, de un solo tajo, el maletín de un vendedor puerta a puerta que se presenta en su casa — una demostración de fuerza y manejo de la katana nada desdeñable para alguien que, en apariencia, es solo una alcaldesa de pueblo.
+- Existe una variante sin usar de su retrato de diálogo, con una expresión bastante más siniestra que la que llega a usarse en el juego — contenido cortado que el fandom cita a menudo dado lo bien que encaja con las teorías sobre lo que Carol esconde.
+
+![[Carol_face_ominous_unused.png]]
+*Variante sin usar del retrato de Carol, con una expresión mucho más siniestra que la habitual.*
 
 ## Relacionado
 - [[Dess]]

@@ -6,11 +6,11 @@ familia: Dreemurr — ex-esposo de Toriel, padre de Kris y Asriel
 confianza: oficial
 ---
 
-| Mundo Claro                                  | Mundo Oscuro (Cap.5)             | Talksprite |
-| -------------------------------------------- | -------------------------------- | --- |
-| ![[Asgore_Dreemurr_overworld.webp\|238]]<br> | ![[Asgore_Dark_World.webp\|310]] | ![[Rudy_face.png]]<br>*Su retrato de diálogo.* |
+| Mundo Claro                                  | Mundo Oscuro (Cap.5)             |
+| -------------------------------------------- | -------------------------------- |
+| ![[Asgore_Dreemurr_overworld.webp\|238]]<br> | ![[Asgore_Dark_World.webp\|310]] |
 
-*Nota de tabla: no tiene forma Darkner propia confirmada más allá de la del Mundo Oscuro del Cap.5 (ver columna anterior).*
+*Nota de tabla: no tiene forma Darkner propia confirmada más allá de la del Mundo Oscuro del Cap.5 (ver columna anterior). Sí tiene talksprite propio (ver Ficha de personalidad, más abajo).*
 
 > [!info]+ Datos rápidos
 > 🌻 Padre de Kris y Asriel, ex-esposo de Toriel; dueño de la floristería "Flower King" en Hometown.
@@ -23,8 +23,8 @@ confianza: oficial
 > [!tip]- Ficha de personalidad
 > Descuidado con lo material pero cariñoso y culposo en lo emocional — carga con un peso enorme de autoculpa por una tragedia sin revelar del todo, que él cree que le costó el matrimonio con Toriel. Es sensiblero y nostálgico, lo que Flowery aprovecha activamente para mantenerlo distraído en el Cap.5.
 >
-> ![[Rudy_face.png]]
-> *Uno de los retratos de diálogo de Asgore — mal etiquetado durante un tiempo en el vault como si fuera de Rudy.*
+> ![[asgore_talksprite.webp]]
+> *Su retrato de diálogo — el anterior estaba mal etiquetado en el vault: en realidad era el de Rudy.*
 
 ## Historia por capítulos
 

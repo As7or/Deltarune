@@ -6,9 +6,11 @@ familia: N/A
 confianza: fuerte
 ---
 
-| Mundo Oscuro                                                                                                                                | Mundo Claro                                                                                                                           | Forma vengativa *(en vez de Talksprite — no tiene retrato de diálogo confirmado; se deja aquí su aspecto tras el combate final)*           |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![[Flowery_Overworld.gif\|196]]<br><br>*Flowery en el Mundo Oscuro: alto, humanoide, pelo rubio con raíces negras, chaleco verde y marrón.* | ![[goldenflower_realworld.webp]]<br><br>*La flor dorada real del ramo de bodas de Asgore y Toriel, cuidada en el ático durante años.* | ![[flowery_final_form.jpg]]<br><br>*Su forma final, ya mortalmente herido, tras el combate contra el Caballero Rugiente en Top of Castle.* |
+| Mundo Oscuro                                                                                                                                | Mundo Claro                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| ![[Flowery_Overworld.gif\|196]]<br><br>*Flowery en el Mundo Oscuro: alto, humanoide, pelo rubio con raíces negras, chaleco verde y marrón.* | ![[goldenflower_realworld.webp]]<br><br>*La flor dorada real del ramo de bodas de Asgore y Toriel, cuidada en el ático durante años.* |
+
+*Nota de tabla: no tiene talksprite propio confirmado. Su forma final tras el combate contra el Caballero Rugiente se muestra más abajo, en el relato del Cap.5.*
 
 > [!info]+ Datos rápidos
 > 🌼 Líder de las 7 Flores de Colores; antagonista principal y jefe final del Cap.5.
@@ -52,6 +54,9 @@ confianza: fuerte
 >
 > ![[Flowery_overworld_wounded.png]]
 > *Flowery, mortalmente herido, tras enfrentarse en solitario al Caballero Rugiente.*
+>
+> ![[flowery_final_form.jpg]]
+> *Su forma vengativa final, ya mortalmente herido, tras el combate contra el Caballero Rugiente en Top of Castle.*
 >
 > ![[Flowery_screenshot_goodbyes.png]]
 > *La despedida final de Flowery junto al resto de las Flores de Colores.*

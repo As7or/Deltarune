@@ -10,7 +10,7 @@ PAGE_CSS = '''
   h2{ font-size:17px; color:#5a4020; margin-top:22px; }
   h3{ font-size:15px; color:#5a4020; }
   p{ font-size:15.5px; line-height:1.6; margin:8px 0; }
-  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; image-rendering:pixelated; image-rendering:-moz-crisp-edges; image-rendering:crisp-edges; }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12.5px; font-style:italic; color:#6b5c46; margin-top:4px; }
   .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:3px; box-shadow:0 2px 6px rgba(0,0,0,0.25); }
@@ -132,7 +132,7 @@ PAGE_CSS_PARCHMENT = '''
   h2{ font-size:17px; color:#5a4020; margin-top:24px; font-variant:small-caps; letter-spacing:.04em; }
   h3{ font-size:15px; color:#5a4020; font-variant:small-caps; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; }
-  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; image-rendering:pixelated; image-rendering:-moz-crisp-edges; image-rendering:crisp-edges; }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12.5px; font-style:italic; color:#5a4520; margin-top:4px; }
   .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 2px 8px rgba(40,25,5,0.35); }
@@ -287,6 +287,123 @@ PAGE_CSS_WET = PAGE_CSS + '''
   h2{ border-bottom-color:rgba(60,40,15,.5) !important; }
 '''
 
+PAGE_CSS_RUSTED = PAGE_CSS + '''
+  body{
+    background-color:#3a2c22;
+    background-image:
+      repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 3px, transparent 3px 26px),
+      radial-gradient(ellipse 70% 40% at 15% 8%, rgba(180,90,40,.35) 0, transparent 55%),
+      radial-gradient(ellipse 60% 45% at 85% 92%, rgba(120,50,20,.4) 0, transparent 60%),
+      radial-gradient(ellipse 90% 60% at 50% 50%, rgba(90,60,40,.25) 0, transparent 70%),
+      linear-gradient(160deg, #4a382a 0%, #2e2119 100%);
+  }
+  h1{ color:#e8c9a0; border-bottom-color:#8a5a2e; text-transform:uppercase; letter-spacing:.06em; }
+  h2, h3{ color:#e8c9a0 !important; text-transform:uppercase; letter-spacing:.05em; text-shadow:1px 1px 0 rgba(0,0,0,.5); }
+  h2{ border-bottom-color:#8a5a2e !important; }
+  p{ color:#e6dcc8; }
+  figcaption{ color:#c9a878; }
+  .fm-badge{ background:#5a4130; border-color:#8a5a2e; color:#e8c9a0; }
+  .wikilink{ color:#e0a860; border-bottom-color:#e0a860; }
+  a.wikilink:hover{ background:rgba(224,168,96,.15); }
+
+  /* --- postits como placas de metal remachadas, oxidadas por los bordes --- */
+  .callout{
+    position:relative;
+    background:
+      radial-gradient(ellipse 140% 100% at 50% -10%, rgba(255,255,255,.05), transparent 40%),
+      repeating-linear-gradient(95deg, rgba(0,0,0,.08) 0 2px, transparent 2px 5px),
+      linear-gradient(155deg, #6b5540 0%, #4a3626 60%, #3a2c22 100%);
+    background-color:#584434;
+    border:1px solid #2a1e14;
+    border-radius:3px;
+    box-shadow:2px 5px 12px rgba(0,0,0,.5), inset 0 0 30px rgba(0,0,0,.3), inset 0 1px 0 rgba(255,255,255,.08);
+    padding:20px 24px 24px;
+  }
+  .callout::before{
+    content:none;
+  }
+  .callout::after{
+    content:""; position:absolute; inset:0; pointer-events:none; border-radius:3px;
+    background:
+      radial-gradient(circle 14px at 14px 14px, rgba(0,0,0,.55) 0 40%, transparent 42%),
+      radial-gradient(circle 14px at calc(100% - 14px) 14px, rgba(0,0,0,.55) 0 40%, transparent 42%),
+      radial-gradient(circle 14px at 14px calc(100% - 14px), rgba(0,0,0,.55) 0 40%, transparent 42%),
+      radial-gradient(circle 14px at calc(100% - 14px) calc(100% - 14px), rgba(0,0,0,.55) 0 40%, transparent 42%),
+      radial-gradient(circle 5px at 14px 14px, #c9a878 0 55%, #7a5230 60%, transparent 65%),
+      radial-gradient(circle 5px at calc(100% - 14px) 14px, #c9a878 0 55%, #7a5230 60%, transparent 65%),
+      radial-gradient(circle 5px at 14px calc(100% - 14px), #c9a878 0 55%, #7a5230 60%, transparent 65%),
+      radial-gradient(circle 5px at calc(100% - 14px) calc(100% - 14px), #c9a878 0 55%, #7a5230 60%, transparent 65%);
+  }
+  .callout-title{ color:#f3ead6; text-shadow:1px 1px 0 rgba(0,0,0,.5); }
+  .callout-body p{ color:#e6dcc8; }
+  .callout-info{ background-color:#3f5a5e; }
+  .callout-tip{ background-color:#3f5c40; }
+  .callout-example{ background-color:#6b5228; }
+  .callout-danger{ background-color:#6b332a; }
+  .callout-quote{ background-color:#4a3a5a; }
+  .callout-question{ background-color:#6b4f22; }
+  .callout .callout{ box-shadow:3px 7px 16px rgba(0,0,0,.55), inset 0 0 24px rgba(0,0,0,.35); }
+  table.note-table{ background:#4a3828; }
+  table.note-table th, table.note-table td{ border-color:#2a1e14; color:#e6dcc8; }
+  .related-web{ border-top-color:#8a5a2e; }
+  .related-tag{ background:#584434; border-color:#8a5a2e; color:#e6dcc8; }
+  .related-tag-label a.wikilink{ color:#e0a860; }
+  .submap-cta{ background:linear-gradient(135deg,#584434,#3a2c22); border-color:#8a5a2e; color:#e6dcc8; }
+  .submap-cta-title{ color:#f3ead6; }
+  .submap-cta-sub{ color:#c9a878; }
+'''
+
+PAGE_CSS_CRYSTAL = PAGE_CSS + '''
+  body{
+    background-color:#0d0e1a;
+    background-image:
+      radial-gradient(ellipse 60% 40% at 20% 10%, rgba(120,90,220,.25) 0, transparent 55%),
+      radial-gradient(ellipse 55% 45% at 85% 85%, rgba(60,180,220,.22) 0, transparent 60%),
+      radial-gradient(ellipse 80% 60% at 50% 50%, rgba(40,30,80,.5) 0, transparent 70%),
+      repeating-conic-gradient(from 0deg at 50% 0%, rgba(255,255,255,.02) 0deg 8deg, transparent 8deg 16deg),
+      linear-gradient(160deg, #17182c 0%, #0a0b14 100%);
+  }
+  h1{ color:#cfe0ff; border-bottom-color:#6b5fd8; }
+  h2, h3{ color:#cfe0ff !important; text-shadow:0 0 8px rgba(120,140,255,.5); }
+  h2{ border-bottom-color:#6b5fd8 !important; }
+  p{ color:#d8dcf0; }
+  figcaption{ color:#a8b0e0; }
+  .fm-badge{ background:#232544; border-color:#6b5fd8; color:#cfe0ff; }
+  .wikilink{ color:#8fd8ff; border-bottom-color:#8fd8ff; }
+  a.wikilink:hover{ background:rgba(143,216,255,.12); }
+
+  /* --- postits como esquirlas de cristal traslucidas, con brillo interno --- */
+  .callout{
+    position:relative;
+    background:
+      linear-gradient(135deg, rgba(120,110,220,.16), rgba(40,180,220,.10) 55%, rgba(20,20,40,.3));
+    background-color:#1a1c34;
+    border:1px solid rgba(140,150,255,.35);
+    clip-path:polygon(2% 0%, 96% 0%, 100% 8%, 100% 94%, 98% 100%, 4% 100%, 0% 92%, 0% 6%);
+    box-shadow:0 0 18px rgba(110,120,240,.25), 0 6px 16px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.08);
+    padding:22px 26px 26px;
+  }
+  .callout-title{ color:#e4ecff; text-shadow:0 0 6px rgba(140,160,255,.6); }
+  .callout-body p{ color:#d8dcf0; }
+  .callout-info{ background-color:#1e2f52; }
+  .callout-tip{ background-color:#1e4438; }
+  .callout-example{ background-color:#3a3350; }
+  .callout-danger{ background-color:#4a2438; }
+  .callout-quote{ background-color:#332a54; }
+  .callout-question{ background-color:#2a3a5c; }
+  .callout .callout{ clip-path:polygon(3% 0%, 95% 0%, 100% 10%, 100% 92%, 97% 100%, 5% 100%, 0% 90%, 0% 8%);
+    box-shadow:0 0 22px rgba(110,120,240,.3), 0 8px 20px rgba(0,0,0,.55); }
+  table.note-table{ background:#1a1c34; }
+  table.note-table th, table.note-table td{ border-color:rgba(140,150,255,.3); color:#d8dcf0; }
+  .related-web{ border-top-color:#6b5fd8; }
+  .related-tag{ background:#1e2044; border-color:#6b5fd8; color:#d8dcf0; box-shadow:0 0 8px rgba(110,120,240,.25); }
+  .related-tag-label a.wikilink{ color:#8fd8ff; }
+  .submap-cta{ background:linear-gradient(135deg,#232544,#141530); border-color:#6b5fd8; color:#d8dcf0;
+    box-shadow:0 0 16px rgba(110,120,240,.3), 2px 6px 12px rgba(0,0,0,.4); }
+  .submap-cta-title{ color:#e4ecff; }
+  .submap-cta-sub{ color:#a8b0e0; }
+'''
+
 DECKLE_DEFS_SVG = '''
 <svg width="0" height="0" style="position:absolute">
 <defs>
@@ -370,6 +487,14 @@ def render_page(title_escaped, body_html, theme="postit"):
         css = PAGE_CSS_WET
         defs = DECKLE_DEFS_SVG
         crumple = '<div id="page-crumple"></div><div id="page-creases"></div>'
+    elif theme == "rusted":
+        css = PAGE_CSS_RUSTED
+        defs = ""
+        crumple = ""
+    elif theme == "crystal":
+        css = PAGE_CSS_CRYSTAL
+        defs = ""
+        crumple = ""
     else:
         css = PAGE_CSS
         defs = ""

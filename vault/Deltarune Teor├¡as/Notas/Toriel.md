@@ -10,7 +10,7 @@ confianza: oficial
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![[Toriel_Overworld.webp]]<br>*Toriel en Hometown, profesora del colegio.* | ![[Toriel_darkworld.png\|286]]<br>*Toriel encerrada dentro de la cápsula de gachapón del Mundo Oscuro de Tenna, en el Cap.3 — sigue siendo un Lightner, no una forma Darkner propia.* |
 
-*Nota de tabla: no tiene talksprite propio confirmado — se ha dejado solo la comparación Mundo Claro/situación en el Mundo Oscuro.*
+*Nota de tabla: no tiene forma Darkner propia confirmada — la cápsula del Cap.3 la mantiene como Lightner encerrada, no la transforma. Sí tiene talksprite propio (ver Ficha de personalidad, más abajo).*
 
 > [!info]+ Datos rápidos
 > 🍎 Profesora del colegio de Hometown, madre de Kris y Asriel, ex-esposa de Asgore.
