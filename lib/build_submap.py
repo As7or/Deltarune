@@ -116,7 +116,7 @@ PAGE_CSS = '''
   #note-panel.mode-side{ top:0; right:-560px; width:540px; height:100%; transition:right .28s ease; }
   #note-panel.mode-side.open{ right:0; }
   #note-panel.mode-center{
-    top:50%; left:50%; right:auto; width:min(920px,88vw); height:86vh; border-radius:12px;
+    top:50%; left:50%; right:auto; width:min(760px,82vw); height:86vh; border-radius:12px;
     transform:translate(-50%,-50%) scale(0.94); opacity:0; pointer-events:none;
     box-shadow:0 24px 70px rgba(0,0,0,0.55); transition:opacity .2s ease, transform .2s ease;
   }

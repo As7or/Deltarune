@@ -8,7 +8,7 @@ confianza: fuerte
 
 | Mundo Oscuro (Card Kingdom)                                                            | Mundo Claro                                                                                                                |
 | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| ![[King_Battle (2).gif]]<br>*King, gobernante autoproclamado del Reino de las Cartas.* | ![[king-of-spades-lightworld.png]]<br>*La carta del rey de picas, su objeto real según la lista de identidades del Cap.1.* |
+| ![[King_Battle (2).gif]]<br>*King, gobernante autoproclamado del Reino de las Cartas.* | ![[Cards_item_Lancer.gif]]<br>*No hay imagen oficial guardada de la carta del rey de picas — se usa aquí la de Lancer (la jota de picas), de diseño muy similar, como referencia provisional.* |
 
 > [!info]+ Datos rápidos
 > 👑 Padre de Lancer y antagonista principal del Cap.1, guardián de la Fuente Oriental en lo alto de Card Castle.

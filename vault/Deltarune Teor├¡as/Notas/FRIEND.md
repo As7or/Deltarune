@@ -131,6 +131,7 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 - Un objeto llamado "SMILE", vendido por una máquina expendedora en el vestuario de rango S, podría estar relacionado con FRIEND por su asociación con sonreír — y desaparece al completar la Ruta Espada.
 - Sus nombres internos en los archivos del juego son DEVICE_FRIEND e IMAGE_FRIEND — el prefijo DEVICE_ se usa también para objetos relacionados con la introducción y la Voz, lo que alimenta la teoría de que ambos están conectados.
 - Puede aparecer como jumpscare al hacer clic repetidamente en una silla en deltarune.com/chair, y en el minijuego secreto Cat Petters (/rarecats/) al alcanzar 100 gatos sin recargar la página.
+- 🎲 Su silueta guarda un parecido visual bastante citado con una mano extendida — una de las piezas que se suman a la teoría de la mano de Kris, ver [[Kris]].
 
 ![[FRIEND_overworld_8bit_laugh.gif]]
 *Su risa característica, compartida con el Caballero Rugiente en los archivos de sonido del juego.*

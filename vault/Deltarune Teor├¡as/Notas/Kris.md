@@ -229,6 +229,9 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 >
 > Otra pista confirmada que se suma a esta teoría: en la Isla Olvidada (Cap.3), los Siete Ases Voladores —copias de cartas que el propio Kris fotocopió y coloreó a mano de niño— dicen textualmente que "las copias son monocromáticas, pero tú nos coloreaste a cada uno con cariño", y le preguntan por qué no "fotocopia a Kris" para jugar con ellos. El paralelismo con el Vessel —una copia de Kris sin color ni identidad propia— es de las conexiones más citadas del capítulo, aunque no está confirmado que sea una referencia deliberada al Vessel en concreto. Ver [[Forgotten Man]] para el desarrollo completo.
 >
+> ![[Mancountry_location_Forgotten_Island.png]]
+> *La Isla Olvidada, en Mancountry — donde Kris encuentra a los Siete Ases Voladores.*
+>
 > 🎲 Si el ALMA que controlamos no es la auténtica de Kris, queda abierta la pregunta de dónde está la real — una rama de esta teoría propone que es [[Ralsei]] quien la tiene, ver su nota para el desarrollo completo.
 
 > [!question]- ¿Quién es "tú" realmente?
@@ -238,17 +241,43 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > Al final del Capítulo 2, Kris abre una Fuente Oscura por su cuenta usando su cuchillo y, aparentemente, su propia Determinación — el mismo tipo de voluntad que Queen sugiere que hace falta para ello. El juego no aclara si esto convierte a Kris en una especie de Knight por derecho propio, en paralelo (o en conflicto) con la teoría de que el Knight es Dess.
 
 > [!question]- Teoría de la mano
-> Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; el propio Cap.5 añadió la primera confirmación textual real de que hay un gato de por medio, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
+> Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; desde entonces se han ido acumulando varias piezas de evidencia textual directa, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
+>
+> **Confirmaciones textuales directas:**
+> - En el Cap.3, dentro de la cápsula de gachapón del Mundo Oscuro de Tenna (el Room B, accesible con el código 1225), uno de los textos de examinar objetos dice literalmente *"No pudiste encontrar tu mano."*
+>
+> ![[kris_hand_roomb_cap3_snowball.png]]
+> *"You couldn't find your hand." — el Room B del Mundo Oscuro de Tenna, Cap.3.*
+>
+> - En el Cap.4, en el sótano de la casa Holiday mientras se controla el ALMA a solas, Noelle y Susie comentan un videojuego (apodado "DB3" por el fandom) cuyo protagonista "un día se despierta sin una mano".
+>
+> ![[kris_hand_conversation_of_noelle_susie_of_videogame.png]]
+> *"One day, the protagonist wakes up without a hand..." — la conversación de Noelle y Susie en el sótano de la casa Holiday, Cap.4.*
+>
 > - **Confirmado en el Cap.5:** el diálogo secreto de Pink (ver [[Mad Mew Mew (Pink)]]) reconoce en pantalla que Kris tiene una mordedura de gato en la mano, y advierte de una "manada de gatos de caza" tras la proteína — la nota de Pink conecta este aviso principalmente con [[FRIEND]] y los Huevos.
+>
+> **Pistas de diseño y juegos de palabras:**
+> - En el concurso de nombres de Tenna (Cap.3), el límite de caracteres solo permite escribir "KRS", no "KRIS" — un detalle menor a simple vista, pero que cobra sentido si se traduce cada nombre a la fuente Wingdings: "KRIS" incluye el símbolo de una mano (✋) que "KRS" no tiene, al perder la I.
+>
+> ![[kris_hand_contest_name_cap3_windings.png]]
+> *"KRIS" en Wingdings incluye una mano; "KRS", el único nombre que cabe en el concurso de Tenna, la pierde.*
+>
+> - 🎲 FRIEND, cuya silueta ya es motivo de teorías por sí sola (ver [[FRIEND]]), guarda un parecido de forma bastante llamativo con una mano extendida — comparación puramente visual, sin ninguna confirmación textual que la respalde.
+>
+> ![[friend_looks_like_a_hand.png]]
+> *La silueta de FRIEND junto a una mano, en la comparación que suele citar el fandom — y una línea de diálogo real, "espero que no sea la mano cortada...", en la misma imagen.*
+>
+> **Otras pistas visuales, ya citadas antes de esta ronda de hallazgos:**
 > - La silueta del héroe en la Profecía completa parece mostrarse sin un brazo visible.
 > - En ciertos sprites del Mundo Claro —por ejemplo al usar Fragmentos Oscuros, o en la sala de la máquina tragaperras del Capítulo 3— el brazo de Kris no llega a dibujarse del todo.
 > - La lectura de que el propio Knight podría ser un cadáver o un cuerpo mutilado bajo la armadura alimenta el salto especulativo de que la mutilación no sería exclusiva del Knight.
 > - El puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) es otra de las escenas que el fandom cita como posible pista visual, aunque no hay ninguna línea de diálogo que la conecte directamente con la mano de Kris.
-> - 🎲 Pieza más nueva y más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
-> - Es, en conjunto, una de las teorías más "de fandom" de esta lista — ahora con una pieza de diálogo real detrás, pero todavía sin confirmación de que Kris vaya a perder la mano.
 >
 > ![[Kriss_hand_acid_river_scene.webp]]
-> *Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2) — una de las escenas que el fandom cita como pista visual sobre la mano de Kris.*
+> *Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2).*
+>
+> - 🎲 Pieza más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
+> - En conjunto, ya no es solo especulación visual: hay al menos tres líneas de texto reales ("no pudiste encontrar tu mano", "se despierta sin una mano", la mordedura de gato de Pink) que apuntan en la misma dirección, además de una pista de diseño verificable (el juego de palabras Wingdings). Sigue sin haber, eso sí, ninguna confirmación de que le vaya a pasar a Kris específicamente dentro de la trama principal.
 
 ## En combate
 Lleva el mando del grupo en el Mundo Oscuro (equipo, inventario, órdenes). Como humano, no puede lanzar hechizos — en su lugar usa ACTs, incluyendo algunos exclusivos: **Encourage** (sube la defensa del grupo, solo desbloqueable contra King), **Pirouette** (contra Jevil, con un efecto distinto cada turno), **HealDeal** (acepta un trato de Spamton para curarse), **Take House 2** (contra Rouxls Kaard), **X-Slash/FriedPipis** (contra Spamton NEO, solo Ruta Rara), y varios más específicos de cada jefe. Su ataque especial X-Slash golpea dos veces en un mismo turno y hace más daño que Luchar.

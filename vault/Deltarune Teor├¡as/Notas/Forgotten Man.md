@@ -87,6 +87,9 @@ En ese mismo acantilado hay unos prismáticos que, al mirar hacia el sur, solo m
 
 > [!question]- ¿Es Papyrus?
 > La lectura más débil de las tres, sostenida sobre todo por coincidencias de merchandising real más que por pistas dentro del propio juego: existe un dibujo oficial de Fangamer que muestra a Papyrus escondido tras un árbol de hojas rojas casi idéntico al del Forgotten Man, y parte del fandom conecta la forma de huevo agrietado que recordaría la cabeza del propio Mystery Man (el sprite ligado a Gaster) con la afición de Papyrus por "esa avena con huevos de dinosaurio", mencionada de pasada por Flowey en un Q&A de Undertale de 2016. No hay ninguna pista dentro de Deltarune que sostenga esta lectura más allá de esas coincidencias externas al juego. **Teoría de fans muy especulativa, apoyada en merchandising y trivia externa al juego; no confirmada.**
+>
+> ![[papyrus_forgottenman.webp]]
+> *El dibujo oficial de merchandising de Fangamer: Papyrus junto a un árbol de tronco rayado y hojas rojas, muy similar al del Forgotten Man.*
 
 ## Curiosidades
 - Es uno de los pocos personajes de todo el juego cuya apariencia física nunca se muestra ni se describe en detalle, ni siquiera de forma parcial.
