@@ -11,17 +11,14 @@
             "id": "06f07da71b66f89e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "00 Corcho Principal.canvas",
-                "viewState": {
-                  "x": 2120,
-                  "y": -1360,
-                  "zoom": -4
-                }
+                "file": "Notas/Conexión Undertale.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "00 Corcho Principal"
+              "icon": "lucide-file",
+              "title": "Conexión Undertale"
             }
           }
         ]
@@ -99,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Corcho Principal.canvas",
+                "file": "Notas/Conexión Undertale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,11 +184,16 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "06f07da71b66f89e",
+  "active": "8db103e5d99d9252",
   "lastOpenFiles": [
+    "Notas/Dess.md",
+    "Notas/Conexión Undertale.md",
+    "Notas/Conexión Undertale.md",
+    "Submapas/Conexión Undertale.canvas",
+    "Submapas/Conexi├│n Undertale.canvas",
+    "00 Corcho Principal.canvas",
     "Notas/Spamton.md",
     "Submapas/Spamton.canvas",
-    "00 Corcho Principal.canvas",
     "Sprites/Submapas/Sr. Cattenheimer.canvas",
     "Sprites/Submapas/Spamton.canvas",
     "Sprites/Submapas/7 Flores de Colores.canvas",
@@ -224,14 +226,10 @@
     "Sprites/Sin confirmar 859945.crdownload",
     "Sprites/Submapas/Titan.canvas",
     "Sprites/Submapas/Rutas.canvas",
-    "Sprites/Submapas/Rouxls Kaard.canvas",
-    "Sprites/Submapas/Routes.canvas",
     "Sprites/Notas/Rutas.md",
     "00 Índice.md",
     "Objetos del Mundo Oscuro.md",
     "Conexiones del Corcho.md",
-    "Notas/Conexión Undertale.md",
-    "Notas/Conexi├│n Undertale.md",
     "Notas/Toriel.md",
     "Notas/Undyne.md",
     "Notas/Gaster (W. D. Gaster).md",

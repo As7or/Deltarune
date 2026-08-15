@@ -25,11 +25,16 @@ Repaso de los personajes de Undertale que reaparecen en Deltarune como Lightners
 > **Diferencias**: en Deltarune es profesora de instituto en Hometown en vez de guardiana de las Ruinas; sigue divorciada de Asgore, pero aquí ambos son padres biológicos de Asriel y Toriel además adoptó a Kris — una familia mucho más numerosa y "normal" que la de Undertale.
 >
 > ![[Toriel_Overworld.webp]]
-> *Hueco de imagen: falta la comparación directa con su sprite de Undertale.*
+> ![[undertale_toriel.webp]]
+> *Toriel en Deltarune (izquierda/arriba) y en su diseño original de Undertale (derecha/abajo).*
 
 > [!example]+ Asgore
 > **Similitudes**: sigue siendo florista de corazón (en Undertale cultivaba flores doradas en el trono; aquí regenta directamente Flower King), sigue divorciado de Toriel, carácter afable y algo torpe socialmente.
 > **Diferencias**: nunca fue rey ni gobernante de nada en Deltarune; es un ciudadano normal, ex-jefe de policía antes que Undyne, y padre de dos hijos en vez de solo Asriel.
+>
+> ![[Asgore_Dreemurr_overworld.webp]]
+> ![[undertale_asgore.webp]]
+> *Asgore en Deltarune (izquierda/arriba) y en su diseño original de Undertale, como rey (derecha/abajo).*
 
 > [!example]+ Sans
 > **Similitudes**: mismo diseño, misma personalidad perezosa y bromista, mismo gusto por los chistes malos, mismo puesto de comida ambulante.
@@ -44,11 +49,19 @@ Repaso de los personajes de Undertale que reaparecen en Deltarune como Lightners
 
 > [!example]+ Undyne
 > **Similitudes**: carácter fogoso y enérgico, dedicación total a su trabajo, relación cercana con Alphys.
-> **Diferencias**: ex-jefa de policía de Hometown en vez de Guardia Real; su relación con Alphys, aunque sigue siendo el centro de su vida, se desarrolla en un contexto mucho más doméstico y cotidiano. **Hueco de imagen.**
+> **Diferencias**: ex-jefa de policía de Hometown en vez de Guardia Real; su relación con Alphys, aunque sigue siendo el centro de su vida, se desarrolla en un contexto mucho más doméstico y cotidiano.
+>
+> ![[Officer_Undyne_Overworld.webp]]
+> ![[undertale_undyne.png]]
+> *Undyne en Deltarune (izquierda/arriba) y en su diseño original de Undertale (derecha/abajo).*
 
 > [!example]+ Alphys
 > **Similitudes**: personalidad ansiosa y nerd, pasión por la ciencia y (implícitamente) por el anime, vínculo estrecho con Undyne.
-> **Diferencias**: su rol social es mucho más discreto que el de la Royal Scientist de Undertale — en Deltarune parece dedicarse a la enseñanza, sin ningún laboratorio ni experimento conocido de por medio (por ahora). **Hueco de imagen.**
+> **Diferencias**: su rol social es mucho más discreto que el de la Royal Scientist de Undertale — en Deltarune parece dedicarse a la enseñanza, sin ningún laboratorio ni experimento conocido de por medio (por ahora).
+>
+> ![[alphys_sprite_transparent_v2.png]]
+> ![[undertale_alphys.webp]]
+> *Alphys en Deltarune (izquierda/arriba) y en su diseño original de Undertale (derecha/abajo).*
 
 > [!example]+ Asriel
 > **Similitudes**: es, literalmente, el mismo personaje — hermano mayor de Kris, hijo de Toriel y Asgore.
