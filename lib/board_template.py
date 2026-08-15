@@ -171,6 +171,44 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-wet .thumb{{ position:relative; z-index:2; filter:sepia(.3) saturate(.8) contrast(.94) brightness(.94); }}
   .node-wet .tag, .node-wet .title, .node-wet .summary{{ position:relative; z-index:2; }}
 
+  /* ---- Shelter: placa de metal oxidada ---- */
+  .node-rusted .rusted-card{{
+    position:relative; overflow:hidden; border-radius:3px;
+    background:
+      repeating-linear-gradient(90deg, rgba(0,0,0,.22) 0 2px, transparent 2px 26px),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0 2px, transparent 2px 26px),
+      radial-gradient(ellipse 70% 40% at 15% 10%, rgba(200,100,40,.32) 0, transparent 55%),
+      radial-gradient(ellipse 55% 40% at 85% 90%, rgba(160,70,25,.4) 0, transparent 60%),
+      linear-gradient(160deg, #6b6058 0%, #3a332e 100%);
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 18px rgba(0,0,0,.4);
+  }}
+  .node-rusted .rust-texture{{ position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:
+      radial-gradient(circle 18px at 30% 70%, rgba(140,70,20,.35) 0, transparent 70%),
+      radial-gradient(circle 24px at 75% 25%, rgba(120,55,15,.3) 0, transparent 70%); }}
+  .node-rusted .rivet{{ position:absolute; width:7px; height:7px; border-radius:50%; z-index:2;
+    background:radial-gradient(circle at 35% 30%, #d8c9a8, #7a6a50 65%); box-shadow:0 1px 2px rgba(0,0,0,.6); }}
+  .node-rusted .rivet-tl{{ top:6px; left:6px; }} .node-rusted .rivet-tr{{ top:6px; right:6px; }}
+  .node-rusted .rivet-bl{{ bottom:6px; left:6px; }} .node-rusted .rivet-br{{ bottom:6px; right:6px; }}
+  .node-rusted .tag{{ position:relative; z-index:2; color:#e8c9a0; }}
+  .node-rusted .title{{ position:relative; z-index:2; color:#f3ead6; }}
+  .node-rusted .summary{{ position:relative; z-index:2; color:#d8c9b0; }}
+
+  /* ---- Cristal Oscuro: esquirla traslucida con brillo ---- */
+  .node-crystal .crystal-card{{
+    position:relative; overflow:hidden;
+    background:
+      linear-gradient(135deg, rgba(120,110,220,.22), rgba(40,180,220,.14) 55%, rgba(20,20,40,.55));
+    background-color:#1a1c34;
+    clip-path:polygon(3% 0%, 97% 0%, 100% 10%, 100% 92%, 97% 100%, 3% 100%, 0% 90%, 0% 8%);
+    box-shadow:0 0 14px rgba(110,120,240,.35), 3px 6px 10px rgba(0,0,0,.5);
+  }}
+  .node-crystal .crystal-glow{{ position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:radial-gradient(ellipse 60% 40% at 25% 15%, rgba(180,180,255,.25) 0, transparent 60%); }}
+  .node-crystal .tag{{ position:relative; z-index:2; color:#a8b0e0; }}
+  .node-crystal .title{{ position:relative; z-index:2; color:#e4ecff; text-shadow:0 0 6px rgba(140,160,255,.5); }}
+  .node-crystal .summary{{ position:relative; z-index:2; color:#c8ccf0; }}
+
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }}
   .node-scroll .roll{{ position:relative; height:26px; width:100%;

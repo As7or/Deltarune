@@ -238,6 +238,15 @@
    "y": 407,
    "width": 190,
    "height": 170
+  },
+  {
+   "id": "s_islaolvidada-img",
+   "type": "file",
+   "file": "Sprites/Mancountry_location_Forgotten_Island.png",
+   "x": 1692,
+   "y": 199,
+   "width": 190,
+   "height": 170
   }
  ],
  "edges": [
@@ -432,6 +441,14 @@
    "toNode": "s_hand",
    "toSide": "right",
    "color": "1"
+  },
+  {
+   "id": "e_s_islaolvidada-img",
+   "fromNode": "s_islaolvidada-img",
+   "fromSide": "left",
+   "toNode": "s_islaolvidada",
+   "toSide": "right",
+   "color": "3"
   }
  ]
 }
