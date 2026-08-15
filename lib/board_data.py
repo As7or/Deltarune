@@ -206,6 +206,16 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
     inner_w = card_w - 12
     min_h, max_h = 60, 230
 
+    # Los nodos con tema visual especial (Shelter, Lago, Cristal Oscuro, etc.)
+    # usan una tarjeta mas ancha que el resto, para poder verse mas grandes
+    # sin que la imagen de fondo quede con bordes de letterbox feos al
+    # forzar solo la altura. El ancho interior se recalcula por nodo mas
+    # abajo, dentro del bucle principal.
+    BIG_CARD_WIDTHS = {
+        "Shelter": 230, "Lake": 230, "Cristal Oscuro": 230,
+        "Conexión Undertale": 230, "Profecía": 210, "Fuentes Oscuras": 220,
+    }
+
     news_html = ""
     hub = data.get("hub")
     index_cards = index_cards or []
@@ -261,7 +271,13 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         x, y = it["px"], it["py"]
 
         aspect = (it["h"] / it["w"]) if it.get("w") and it.get("h") else 0.8
-        thumb_h = max(min_h, min(max_h, inner_w * aspect))
+        this_card_w = BIG_CARD_WIDTHS.get(it["label"], card_w)
+        this_inner_w = this_card_w - 12
+        # para los nodos grandes no forzamos el tope de 230: dejamos que la
+        # altura seguida el aspecto real de la imagen de fondo (sin recorte
+        # artificial), para que no queden bordes de letterbox feos
+        this_max_h = 900 if it["label"] in BIG_CARD_WIDTHS else max_h
+        thumb_h = max(min_h, min(this_max_h, this_inner_w * aspect))
 
         if it["img"]:
             img_ref = it["img"]
@@ -287,7 +303,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
 
         if it["label"] == "Profecía":
             node_html.append(f'''
-  <div class="node node-scroll" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-scroll" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="scroll">
@@ -304,7 +320,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Lake":
             node_html.append(f'''
-  <div class="node node-wet" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-wet" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card wet-card" style="border-top:5px solid {it['color']};">
@@ -317,7 +333,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Shelter":
             node_html.append(f'''
-  <div class="node node-rusted" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-rusted" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card rusted-card" style="border-top:5px solid {it['color']};">
@@ -331,7 +347,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Cristal Oscuro":
             node_html.append(f'''
-  <div class="node node-crystal" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-crystal" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card crystal-card" style="border-top:5px solid {it['color']};">
@@ -344,7 +360,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Conexión Undertale":
             node_html.append(f'''
-  <div class="node node-undertale" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-undertale" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card undertale-card" style="border-top:5px solid {it['color']};">
@@ -356,7 +372,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Fuentes Oscuras":
             node_html.append(f'''
-  <div class="node node-fountain" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-fountain" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card fountain-card" style="border-top:5px solid {it['color']};">
@@ -369,7 +385,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         else:
             node_html.append(f'''
-  <div class="node" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card" style="border-top:5px solid {it['color']};">

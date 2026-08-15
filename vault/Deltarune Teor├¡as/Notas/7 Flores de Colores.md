@@ -145,6 +145,9 @@ En el Mundo Claro, las 7 Flores siguen siendo simples flores en macetas, guardad
 
 > [!question]+ ¿Por qué a Flowery le toca la Determinación, y no otra virtud como sus hermanas?
 > Las otras seis calcan de forma directa color, patrón de ataque y objeto equipable de seis de las siete ALMAs humanas de Undertale. Flowery, la séptima y la que hace de líder, representa la restante: la Determinación — la misma virtud que, en Undertale, define a Flowey precisamente por *no* tener ALMA propia ("ni fe, ni compasión, pero sí una cantidad terrible de determinación"). La lectura más extendida es que esta elección refuerza deliberadamente su naturaleza corrupta frente a sus "hermanas": mientras ellas son fieles a virtudes con connotación positiva, a Flowery le toca la única de las siete que, sin ALMA de por medio, puede volverse peligrosa.
+>
+> ![[flowery_BromideR_item.png]]
+> *El objeto coleccionable BromideR: Flowery sostiene un ramo con sus seis "hermanas" y, aparte, una flor propia — la Determinación separada del resto de virtudes.*
 
 > [!question]- ¿Es Noelle, en el fondo, una "llave" más — como la que reparte Yellow?
 > En el Cap.5, Yellow entrega al grupo una Llave Amarilla real en el ala oeste del Castillo de las Flores para poder avanzar — su ALMA es la Justicia. Muy por otro lado, en la Ruta de la Espada secreta del Cap.3 (vía la Llave de Hielo), el White Cloak —que representa literalmente a Noelle dentro de ese minijuego— acompaña al jugador y se consume justo en la misma puerta que la propia llave: el juego muestra los dos avisos seguidos, *"The ice key was used up. She was used up."* Es decir, Noelle es tratada, textualmente, como una segunda llave que se "gasta" igual que un objeto.

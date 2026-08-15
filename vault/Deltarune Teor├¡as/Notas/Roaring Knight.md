@@ -59,7 +59,7 @@ confianza: fuerte
 > Del combate se obtiene el tercer Cristal Oscuro y un fragmento negro de su espada, cuya descripción indica que golpea las debilidades de los enemigos del elemento oscuridad/estrella — el mismo tipo de daño contra el que protege el Shadow Mantle de [[ERAM]]. Existen además dos sprites descartados del propio Knight riéndose frente a una puerta del Mundo Claro; la única puerta del juego que encaja con esa pose es la del Refugio (Shelter) al final del capítulo — la misma puerta que, pese a estar cerrada con un código, parece abrirse para Kris después de lo que sea que viviera dentro.
 >
 > ![[Knight_overworld_reveal_crying.gif]]
-> *Una animación descartada del Knight que muestra un matiz emocional —entre risa y llanto— muy distinto a su frialdad habitual en pantalla.*
+> *Su animación de rugido justo al comienzo del combate — un matiz emocional, a medio camino entre la risa y el llanto, muy distinto a su frialdad habitual en pantalla. Pese a lo que se llegó a decir en una versión anterior de esta nota, sí se usa en el juego final, no es contenido descartado.*
 >
 > Ya al final del capítulo, tras la escena de Tenna, el Knight vuelve a la carga contra Toriel mientras duerme; Susie invoca lanzas y se agarra a su pierna para detenerlo, y en ese momento aparece Undyne, que intenta atraparlo. El Knight la esquiva sin esfuerzo y la agarra a ella en su lugar.
 >

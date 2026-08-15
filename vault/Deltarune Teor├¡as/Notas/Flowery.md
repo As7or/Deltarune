@@ -46,6 +46,11 @@ confianza: fuerte
 > ![[Flowery_overworld_vine.gif]]
 > *Ayudando al grupo con los puzles del Jardín usando sus propias enredaderas.*
 >
+> A mitad del capítulo, tras ayudar con parte de los puzles, Flowery llega a sugerirle al grupo que se vaya de la floristería antes de que las cosas se compliquen más.
+>
+> ![[Flowery_screenshot_goodbyes.png]]
+> *"Heh. Guess this is goodbyes for us." — Flowery sugiriéndole al grupo que se marche, a mitad del Cap.5, no en la despedida final.*
+>
 > Flowery sabe perfectamente que fue Kris quien creó el Mundo Oscuro de Flower King, y no duda en acusarlos de poner en peligro a Asgore por su doble lealtad — señalando además la hipocresía de que Ralsei encubra las Fuentes Oscuras que crea Kris mientras Susie mantiene abierta la de Castle Town.
 >
 > ![[Flowery_screenshot_Kris_good_kid.png]]
@@ -63,17 +68,11 @@ confianza: fuerte
 >
 > ![[flowery_final_form.jpg]]
 > *Su forma vengativa final, ya mortalmente herido, tras el combate contra el Caballero Rugiente en Top of Castle.*
->
-> ![[Flowery_screenshot_goodbyes.png]]
-> *La despedida final de Flowery junto al resto de las Flores de Colores.*
 
 ## Relaciones
 
 > [!quote]- Ralsei
 > Su archirrival declarado. Parte de la animadversión de Ralsei viene de los celos — Flowery resuelve puzles más rápido que él y hasta Floradinn le coge cariño. Pese al odio mutuo, ambos muestran cierto respeto de fondo: Ralsei intenta salvarlo con magia incluso sabiendo que no servirá de nada, y Flowery admite, ya herido, que en otras circunstancias podrían haber sido amigos. Comparten además algo que casi nadie más sabe: los dos son conscientes de que es Kris quien abre las Fuentes Oscuras, aunque cada uno reacciona de forma opuesta — Ralsei lo encubre por lealtad, Flowery lo señala abiertamente por desconfianza. [[Ralsei]]
->
-> ![[flowery_goodbye_scene_alusion_ralsei.jpg]]
-> *Un guiño visual a Ralsei en la escena de despedida final de Flowery — pese a su rivalidad, el paralelismo entre ambos se mantiene hasta el último momento.*
 >
 > ![[Flowery_screenshot_faith_in_Ralsei.png]]
 > *Uno de los pocos momentos en los que Flowery baja la guardia frente a Ralsei.*
@@ -130,9 +129,6 @@ confianza: fuerte
 > [!question]+ ¿Por qué Flowery juega con sus propias stats, o se burla de ellas?
 > Cuando se une brevemente al grupo, sus estadísticas son directamente absurdas: LV 99, 999 HP y 99 en Ataque, Defensa y Magia — muy por encima de cualquier otro personaje del juego. Tras el encuentro de Floradinn, Flowery llega a presumir de tener "estadísticas máximas", a lo que Ralsei responde, incrédulo, "¡N... no puedes simplemente darte 999 en todo!!" — dejando claro que Flowery se ha asignado esos números él mismo, sin que el juego se los haya dado de forma "legítima" por el camino normal (subir de nivel, equipo, etc.).
 >
-> ![[Equip_screenshot_Flowery.png]]
-> *La pantalla de equipo de Flowery, con sus estadísticas fuera de cualquier escala normal — accesible como easter egg fuera de combate.*
->
 > El paralelismo con Flowey de Undertale es directo: igual que Flowey podía manipular partidas guardadas y tratar el propio sistema de juego como algo a su alcance controlar desde fuera de las reglas normales, Flowery hace lo mismo pero con las estadísticas numéricas en vez de con el propio SAVE — no se las toma en serio como un sistema que lo limita, sino como un juguete que puede rellenar a su antojo. Es, en el fondo, la misma clase de burla hacia la "cuarta pared" del propio juego, solo que aplicada a las stats en lugar de al guardado. **Confirmado en el propio juego que se asignó los números él mismo; la lectura de que esto es un guiño deliberado al comportamiento de Flowey es interpretación, no una declaración directa de Toby Fox.**
 
 > [!question]- ¿Qué significa el código "0915199X"?
@@ -150,7 +146,7 @@ confianza: fuerte
 >
 > La clave está en que, en Undertale, Flowey y Asriel **son literalmente la misma persona** — un chico sin ALMA convertido en flor. Deltarune, en cambio, separa esa única idea en dos personajes distintos y enfrentados: Ralsei (el lado con corazón, con ALMA, protagonista) y Flowery (el lado sin ALMA, cínico, antagonista). Bajo esa lectura, cuando Flowery le dice a Ralsei que en otras circunstancias podrían haber sido amigos, no es solo una frase de cierre para su rivalidad — es casi un comentario metatextual: en el otro juego de la misma saga, técnicamente ya lo son, porque son la misma persona. **Lectura de fans muy bien fundamentada en paralelismos de diseño confirmados oficialmente, aunque la intención exacta del guion (que la frase sea un guiño consciente a esa dualidad) no está confirmada palabra por palabra por Toby Fox.**
 >
-> ![[flowery_ralsei_friends_another_universe.jpg]]
+> ![[flowery_goodbye_scene_alusion_ralsei.jpg]]
 > *"Maybe in another life, we could have... been friends..." — el momento que resume toda esta lectura.*
 
 ## Curiosidades
