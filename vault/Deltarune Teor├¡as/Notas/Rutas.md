@@ -24,7 +24,10 @@ confianza: fuerte
 > [!example]+ Ruta Espada (Sword Route) — exclusiva del Cap.3
 > Ruta secundaria opcional, contenida por completo dentro del Cap.3. Para acceder, hay que sacar rango S (o superior) en las tres tablas de TV Time durante la Ronda 1 — o comprarle a un Pipis un rango S falsificado por 1500 puntos si no se consigue de forma legítima. Con eso, Ramb da acceso secreto a la sala trasera del Green Room, donde deja jugar al "Juego Original" a espaldas de Tenna: tres tableros en los que Kris consigue una espada y debe matar a todos los enemigos para subir de LV y poder destruir obstáculos, saliendo de los límites normales del propio minijuego. El menú de Poder muestra durante todo este tramo un contador de bajas sin etiquetar (un asterisco) — desaparece automáticamente al pasar al Cap.4.
 >
-> Completar los tres tableros culmina en un combate contra el portador del Shadow Mantle (ver [[Ramb]] para su posible identidad) y otorga el propio Shadow Mantle — un objeto que hace mucho más llevadero el combate contra el Caballero Rugiente, cambia ligeramente los requisitos para conseguir el Cristal Oscuro del capítulo, y multiplica por 6 el daño de Kris contra Tenna respecto a no haberla completado.
+> Completar los tres tableros culmina en un combate contra el portador del Shadow Mantle (ver [[Ramb]] para su posible identidad) y otorga el propio Shadow Mantle — un objeto que hace mucho más llevadero el combate contra el Caballero Rugiente, cambia ligeramente los requisitos para conseguir el Cristal Oscuro del capítulo, y multiplica por 6 el daño de Kris contra Tenna respecto a no haberla completado. Si se lleva puesto el Shadow Mantle y se pierde después contra el Caballero Rugiente, el texto de derrota usa una variante especial del narrador ("Typer 667") que casi anima a Kris a seguir perdiendo a propósito. Ver [[ERAM]] para el desarrollo completo.
+>
+> ![[Weird_Route_Eram_talking.webp]]
+> *"The same part of you that enjoyed yesterday." — uno de los diálogos del Typer 667, al perder contra el Caballero llevando puesto el Shadow Mantle.*
 >
 > ![[Ramb_screenshot_original_game.png]]
 > *Ramb ofreciendo acceso al Juego Original — el punto de partida de la Ruta Espada.*
@@ -45,9 +48,18 @@ confianza: fuerte
 >
 > **Cap.3 — no continúa, pero deja huella**: la Ruta Rara no avanza en este capítulo, pero sí hay cambios de diálogo si se completó en el Cap.2 — el portador del Shadow Mantle hace referencia directa a lo ocurrido. La propia Ruta Espada de este capítulo actúa como anticipo/espejo mecánico de la Ruta Rara (mismos conceptos, efectos de sonido y trazado de niveles).
 >
-> **Cap.4 — la parte central**: los sucesos clave pasan en el Mundo Claro, en casa de Noelle. Ella pide hablar a solas con Kris, que mete el ALMA en una caja de regalo del cuarto de invitados antes de entrar en su habitación; desde ahí, el Jugador guía al ALMA sola por los conductos de ventilación (ver [[Jugador]] para el desarrollo completo de esta escena, incluida la paliza que Kris le da después al ALMA en el baño).
+> **Cap.4 — la parte central**: los sucesos clave pasan en el Mundo Claro, en casa de Noelle, cuando ella pide hablar a solas con Kris. Antes de esa conversación, una pantalla en negro con solo un corazón rojo se queda unos segundos en silencio —el mismo recurso visual que reaparece al principio del Cap.5— mientras Noelle "dice" GRACIAS muy despacio. Kris mete el ALMA en una caja de regalo del cuarto de invitados antes de entrar en su habitación; desde ahí, el Jugador guía al ALMA sola por los conductos de ventilación (ver [[Jugador]] para el desarrollo completo de esta escena, incluida la paliza que Kris le da después al ALMA en el baño). El punto sin retorno del capítulo es obligar a Kris a volver a ponerle a Noelle el Thorn Ring y clavárselo en la mano — a partir de ahí, la ruta queda fijada para el resto del capítulo, con cambios de diálogo y de final incluidos.
 >
-> **Cap.5 — el final del Lago**: culminación de la ruta, solo accesible si ya se completó en el Cap.4. Kris y Noelle terminan sumergiéndose juntos en el Lago (ver [[Lake]] para la escena completa). Si se persiste hasta el final, la pantalla corta a "Insertar Capítulo 7, Lado B", generando un archivo de guardado especial (con sufijo "_b") en vez de un FILE de finalización normal.
+> ![[weird_route_Blank_Dialogue.webp]]
+> *La pantalla en negro con un único corazón rojo, justo antes de que Noelle le pida a Kris hablar a solas.*
+>
+> ![[weird_route_carol_calling.webp]]
+> *Carol llamando a casa de Noelle — "Está deseando verte", en el tramo previo a la conversación a solas.*
+>
+> **Cap.5 — el final del Lago**: solo accesible si ya se completó la Ruta Rara en el Cap.4 — no se puede empezar de cero en este capítulo. Es, además, la única Ruta Rara que arranca literalmente desde el primer instante del capítulo: nada más hacerse visible el cuarto de Kris, hay que pulsar repetidamente las direcciones para que Kris se levante de la cama (se puede hacer antes, durante o después del diálogo de Toriel); esperar 10 segundos sin hacerlo, o pulsar cualquier botón que no sea una dirección, aborta la ruta para el resto del capítulo. Si se completa, el capítulo entero se acorta de forma drástica: Kris y Noelle terminan sumergiéndose juntos en el Lago (ver [[Lake]] para la escena completa) y el capítulo termina ahí mismo, **saltándose por completo el Mundo Oscuro** — no hay Reino de las Flores, ni Pink, ni el Huevo del capítulo, ni el jefe secreto. Al persistir hasta el final, la pantalla corta a "Insertar Capítulo 7, Lado B", generando un archivo de guardado especial (con sufijo "_b") en vez de un FILE de finalización normal.
+>
+> ![[Chapter_7_Side_B.webp]]
+> *"Insert Chapter 7 Side B" — la pantalla final de la Ruta Rara completa, tras el Cap.5.*
 
 ## Relaciones
 
@@ -73,14 +85,21 @@ confianza: fuerte
 
 > [!question]+ ¿Hacia dónde apunta todo esto?
 > La acumulación deliberada de estas elecciones, capítulo tras capítulo, sin premiar nunca al jugador con un final "bueno" alternativo, sugiere que Toby Fox está construyendo hacia una consecuencia mayor de cara al final de la serie — posiblemente ligada al propio "Capítulo 7, Lado B". No hay forma de confirmar esto todavía; es, de largo, una de las preguntas abiertas más comentadas del fandom.
+>
+> ![[kriss_Weird_Route_screenshot_Chapter_5.png]]
+> *Una de las escenas de Ruta Rara del Cap.5 — la acumulación de consecuencias que alimenta esta pregunta.*
 
 > [!question]- ¿Por qué la Ruta Rara "castiga" en vez de premiar?
 > A diferencia de otros juegos con rutas ocultas, la Ruta Rara de Deltarune nunca ofrece una recompensa mecánica ni un "final bueno" alternativo — solo una escalada de consecuencias cada vez más incómodas para Noelle y Kris. Parte del fandom lee esto como una decisión narrativa deliberada: el propio diseño de la ruta estaría "castigando" al Jugador por ceder a la tentación de manipular a los personajes, en vez de recompensar esa curiosidad como haría un juego más tradicional.
+>
+> ![[Weird_Route_Crack.webp]]
+> *La grieta roja que representa visualmente esta ruta en el material de fans — una fractura, no un camino con recompensa al final.*
 
 ## Curiosidades
 - Es uno de los pocos sistemas del juego que registra progreso de forma silenciosa e invisible para el jugador, sin ningún contador visible en pantalla — con la única excepción parcial del contador de bajas sin etiquetar de la Ruta Espada.
-- El nombre "Snowgrave Route", aunque sigue siendo el más popular entre la comunidad hispanohablante, ha quedado técnicamente desactualizado desde que se confirmó que el nombre oficial es "Weird Route" (Ruta Rara) y que la propia Snowgrave es solo el hechizo del Cap.2, no toda la ruta.
+- El nombre "Snowgrave Route", aunque sigue siendo el más popular entre la comunidad hispanohablante, ha quedado técnicamente desactualizado desde que se confirmó que el nombre oficial es "Weird Route" (Ruta Rara) y que la propia Snowgrave es solo el hechizo del Cap.2, no toda la ruta — el propio desarrollador Fred Wood se refiere a ella con ese nombre de forma consistente.
 - El Cap.3 llama a la Ruta Rara "el Camino Prohibido" en una de las pistas del minijuego de la Ruta Espada, antes incluso de que existiera confirmación oficial de su nombre real.
+- La página de estado de cada capítulo en los archivos internos del juego marca el Cap.1 como "No aplicable" (sin contenido de Ruta Rara) y el Cap.3 como "No aplicable" también — pero, curiosamente, la página del Cap.3 contiene el texto "But..." ("Pero...") renderizado fuera de la pantalla, invisible en una partida normal, posible guiño a que la ruta sí deja huella ese capítulo aunque no avance en él.
 
 ## Relacionado
 - [[Profecía]]

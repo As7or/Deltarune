@@ -86,6 +86,9 @@ confianza: fuerte
 
 > [!example]- Los diálogos del "Typer 667" al perder contra el Caballero (con Shadow Mantle)
 > Si Kris lleva el Shadow Mantle obtenido de ERAM y pierde contra el Caballero Rugiente, el texto que narra la derrota usa una variante especial del narrador identificada en los archivos como "Typer 667" (frente al "Typer 666" habitual del resto del juego). En sucesivas derrotas, el texto se vuelve casi alentador: llama "muy interesante" a la derrota, comenta que Kris está "tan determinado" a intentarlo de nuevo, y al perder una segunda vez con el Manto puesto dice sentir "brillar tu poder un poco más". El fandom lee este tono como si la entidad que narra —la misma ligada al 666 en el resto del juego— animase activamente a Kris a seguir intentándolo contra el Caballero, en vez de mostrarse neutral ante la derrota como en el resto de combates. **No confirmado quién narra exactamente estos textos ni si es la misma entidad que la Voz de la introducción.**
+>
+> ![[Weird_Route_Eram_talking.webp]]
+> *"The same part of you that enjoyed yesterday." — uno de los diálogos del Typer 667.*
 
 ![[Shadow_Mantle_holder_battle_unused.png]]
 *Un sprite de combate descartado, encontrado en los archivos del juego pero sin uso confirmado en la versión final.*

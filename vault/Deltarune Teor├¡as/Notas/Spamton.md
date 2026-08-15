@@ -47,7 +47,7 @@ Vendedor sin hogar, errático e inestable del Mundo Cíber; antagonista principa
 >
 > **La llamada.** Un día, contactó por teléfono con alguien que podía ayudarle — y de repente empezó a tener un éxito arrollador. A partir de ahí, Spamton estaba "todo el día al teléfono", ayudado por esa persona no identificada.
 >
-> ![[spamton_telephone.gif]]
+> ![[spamton_telephone.gif|200]]
 > *La llamada que lo cambió todo — el mismo teléfono que después reaparecerá, ya desconectado, en la Room Z del Mundo TV.*
 >
 > Vendió de todo: anuncios de TV, coches (el "Cungadero", de "Big Shot Autos"), y se hizo íntimo del mayordomo Swatch, lo que le consiguió una habitación en la Mansión de Queen — donde descubrió la poderosa máquina del sótano y empezó a rezarle.
@@ -80,8 +80,8 @@ Vendedor sin hogar, errático e inestable del Mundo Cíber; antagonista principa
 > ![[spamton_thornring.png]]
 > *El Thorn Ring, uno de los objetos que se pueden conseguir de Spamton NEO.*
 >
-> ![[Shadow_Crystal.png]]
-> *(espacio para una imagen del Cristal Oscuro / la transformación a NEO)*
+> ![[spamton_neo_weirdroute_fight.webp]]
+> *"THANKS TO YOUR [Total Jackass stunts] I HAVE [Becomed] NEO." — la transformación en la Ruta Rara del Cap.2.*
 >
 > > [!danger]- Ruta Rara del Cap.2
 > > La pintura de Spamton en Queen's Mansion tiene un significado adicional, y el enfrentamiento contra Spamton NEO se relaciona más directamente con el arco de Noelle. Además, Spamton predice el resultado de la Ruta Rara con una precisión inquietante: asegura que le dará a Kris "libertad" a costa de "llorar en un hogar roto" — y hay diálogo especial (Check) donde predice también la muerte de Tenna. Esto implica que conoce la Profecía de antemano, probablemente a través del mismo manhole que conecta su tienda con la sala de Tenna donde se guarda el Shadow Mantle.
@@ -139,12 +139,21 @@ Vendedor sin hogar, errático e inestable del Mundo Cíber; antagonista principa
 
 > [!question]- El elemento "Puppet/Cat"
 > Según la propia terminología que usa Spamton en un Q&A oficial, existe un elemento oculto llamado "Puppet/Cat" (Elemento 6). Varios de sus objetos —las gafas Dealmaker, el FrayedBowtie, el TrueTie (una corbata que se implica que él mismo llevaba antes)— reducen el daño recibido de ataques de este tipo. Es la prueba mecánica, no solo estética, de que Spamton se protege activamente de algo con forma de gato.
+>
+> ![[FRIEND.png|200]]
+> *FRIEND — el candidato más citado para el lado "gato" del elemento oculto del que Spamton se protege.*
 
 > [!question]- Más respuestas sueltas del Q&A de 2022
 > En ese mismo Q&A de la Spamton Sweepstakes, Spamton confirma o insinúa varias cosas más: que fue él quien le mandó a Noelle el email con el virus del que nacerían los Pipis (ver [[Pipis]]); que él y Jevil eran amigos antes de "engañarle"; que le robó a Lancer su swatch llamado "Lucas"; y, más intrigante, que él mismo no tiene ni idea de quién es el Caballero Rugiente —algo que contrasta con su diálogo dentro del propio juego, donde empieza a sufrir justo cuando está a punto de contarnos algo sobre él (ver [[Roaring Knight]]). Sobre Mike, responde con una pregunta —si quien pregunta es de la "Cat Crew"— y da a entender que Mike no pertenece a ese grupo, pidiendo que "le dejen en paz". También menciona, junto al elemento Puppet/Cat, otros posibles pares elementales sin aclarar a quién pertenecen: Darkness/Star y Death/Scythe, este último especulado como posible elemento de Jevil.
+>
+> ![[spamton_telephone.gif|200]]
+> *El teléfono, protagonista silencioso de buena parte de su historia — y del propio Q&A.*
 
 > [!question]- ¿Por qué tiene forma de marioneta y no de Addison normal?
 > Todos los Addisons miden lo mismo entre ellos, pero Spamton es notablemente más pequeño y tiene un diseño de maniquí/marioneta de ventrílocuo en vez del aspecto habitual de un Addison. Él mismo da a entender que los Swatchlings lo tiraron en algún momento al río de ácido que recorre la Mansión de Queen —Queen afirma que ese ácido encoge a quien se sumerge en él, y las cuerdas de Spamton NEO son de un verde casi idéntico al del propio ácido—, pero ni el juego ni el propio Spamton explican del todo por qué acabó con esta forma en concreto. Sigue siendo uno de los misterios de diseño sin resolver del personaje.
+>
+> ![[spamton_theory_acid_small.png]]
+> *Resumen visual de la comunidad: la línea de la tienda de Spamton sobre el ácido, y el comentario de Queen sobre que "encoge" en el propio túnel de ácido de su Mansión.*
 
 ## Curiosidades
 - Está inspirado visualmente en anuncios de coches usados de los 90 y en el propio merchandising real de Deltarune (Big Shot Autos existe como marca dentro y fuera del juego).

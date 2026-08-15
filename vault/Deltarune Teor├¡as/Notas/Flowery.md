@@ -115,7 +115,7 @@ confianza: fuerte
 
 > [!question]- Paralelismo con Flowey (Undertale)
 > ![[Flowery_face_eyes_open.png]]
-> *Su talksprite con los ojos abiertos, en un dorado oscuro sobre esclerótica blanca — visible solo tras derrotarlo, algo que ningún otro Lightner ni Darkner del juego comparte.*
+> *Su talksprite con los ojos abiertos, en un dorado oscuro sobre esclerótica blanca — visible solo tras derrotarlo. Flowery no es ni Lightner ni Darkner: es un ser vivo, una flor con sapiencia, y esta forma de ojos es exclusiva suya dentro del juego.*
 >
 > El propio nombre y concepto (una flor con sapiencia ligada a Asgore) invita a comparaciones con Flowey de Undertale, aunque narrativamente no hay ninguna conexión confirmada entre ambos — son personajes distintos en universos separados dentro de la misma franquicia.
 
@@ -129,6 +129,9 @@ confianza: fuerte
 
 > [!question]+ ¿Por qué Flowery juega con sus propias stats, o se burla de ellas?
 > Cuando se une brevemente al grupo, sus estadísticas son directamente absurdas: LV 99, 999 HP y 99 en Ataque, Defensa y Magia — muy por encima de cualquier otro personaje del juego. Tras el encuentro de Floradinn, Flowery llega a presumir de tener "estadísticas máximas", a lo que Ralsei responde, incrédulo, "¡N... no puedes simplemente darte 999 en todo!!" — dejando claro que Flowery se ha asignado esos números él mismo, sin que el juego se los haya dado de forma "legítima" por el camino normal (subir de nivel, equipo, etc.).
+>
+> ![[Equip_screenshot_Flowery.png]]
+> *La pantalla de equipo de Flowery, con sus estadísticas fuera de cualquier escala normal — accesible como easter egg fuera de combate.*
 >
 > El paralelismo con Flowey de Undertale es directo: igual que Flowey podía manipular partidas guardadas y tratar el propio sistema de juego como algo a su alcance controlar desde fuera de las reglas normales, Flowery hace lo mismo pero con las estadísticas numéricas en vez de con el propio SAVE — no se las toma en serio como un sistema que lo limita, sino como un juguete que puede rellenar a su antojo. Es, en el fondo, la misma clase de burla hacia la "cuarta pared" del propio juego, solo que aplicada a las stats en lugar de al guardado. **Confirmado en el propio juego que se asignó los números él mismo; la lectura de que esto es un guiño deliberado al comportamiento de Flowey es interpretación, no una declaración directa de Toby Fox.**
 
@@ -146,14 +149,14 @@ confianza: fuerte
 > Muy probablemente sí, y no es casualidad. Ralsei está ampliamente confirmado como un espejo de Asriel —su nombre es un anagrama del suyo, y su diseño se revela casi idéntico al de Asriel al final del Cap.1—, mientras que Flowery es, según la propia wiki oficial, una alusión directa y deliberada a Flowey: ambos son flores doradas con alta sapiencia, conscientes de mecánicas del propio juego como el guardado, capaces de falsear sus estadísticas, con una forma "Omega" que usa el poder combinado de otros seis seres, y ligados de la misma manera a su respectivo padre (Asgore/Toriel). El propio tema musical de Flowery, "Your Dad's Best Friend", es un guiño directo a "Your Best Friend", el tema de combate de Flowey.
 >
 > La clave está en que, en Undertale, Flowey y Asriel **son literalmente la misma persona** — un chico sin ALMA convertido en flor. Deltarune, en cambio, separa esa única idea en dos personajes distintos y enfrentados: Ralsei (el lado con corazón, con ALMA, protagonista) y Flowery (el lado sin ALMA, cínico, antagonista). Bajo esa lectura, cuando Flowery le dice a Ralsei que en otras circunstancias podrían haber sido amigos, no es solo una frase de cierre para su rivalidad — es casi un comentario metatextual: en el otro juego de la misma saga, técnicamente ya lo son, porque son la misma persona. **Lectura de fans muy bien fundamentada en paralelismos de diseño confirmados oficialmente, aunque la intención exacta del guion (que la frase sea un guiño consciente a esa dualidad) no está confirmada palabra por palabra por Toby Fox.**
+>
+> ![[flowery_ralsei_friends_another_universe.jpg]]
+> *"Maybe in another life, we could have... been friends..." — el momento que resume toda esta lectura.*
 
 ## Curiosidades
 - Toby Fox le pone voz, igual que a Jevil, Queen, Spamton y Tenna.
 - Superando cierto minijuego de escalada en el Cap.5, Ralsei aparece con un vestido — Flowery lo llama "princesa" varias veces solo para picarlo.
 - Es el único jefe final de todo Deltarune (hasta el Cap.5) que debe derrotarse de forma no violenta en vez de con daño.
-
-![[Equip_screenshot_Flowery.png]]
-*Pantalla de equipo mostrando a Flowery — easter egg accesible fuera de combate.*
 
 ![[flowery_BromideR_item.png]]
 *El objeto BromideR, un coleccionable con su imagen dentro del propio juego.*

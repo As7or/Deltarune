@@ -38,7 +38,8 @@ confianza: fuerte
 > ![[cat_house_3_ codes_password.webp]]
 > *La gatera de la casa de la familia Cattenheimer — según la narración, cerrada tras 3 códigos.*
 >
-> *(Hueco de imagen: escena del coro del Cap.4 con Toriel, Shyren, Noelle y el Sr. Cattenheimer cantando juntos — pendiente de captura propia.)*
+> ![[Toriel_sing_in_the_church.png]]
+> *El coro del Cap.4: Toriel, el Sr. Cattenheimer (a su lado), Shyren y Noelle cantando juntos en la iglesia.*
 
 ## Teorías
 

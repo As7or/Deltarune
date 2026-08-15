@@ -14,7 +14,7 @@ confianza: oficial
 > 💍 Asgore las mantuvo vivas mucho más allá de su vida natural de "un día sonriente" por puro cariño, sin saber lo que la Fuente Oscura de su floristería acabaría haciendo con ellas.
 > 👀 Llevan años observando en secreto cómo crecían Asriel y Kris — Kris incluso llegó a hablarles del mundo exterior y a hacer tratos con alguna de ellas (ver Seth, más abajo) mucho antes del Cap.5.
 > 🎭 En el Mundo Oscuro del Cap.5 (Reino de las Flores) cobran forma humanoide propia; en el Mundo Claro, las seis siguen pareciendo simples flores idénticas entre sí salvo por el color.
-> 🃏 Excepto Flowery, las seis representan directamente los siete ALMAs humanas de Undertale (Paciencia, Perseverancia, Valentía, Bondad, Justicia e Integridad) — con su color, su patrón de ataque y hasta su objeto equipable calcados del alma correspondiente. Flowery, en cambio, no representa una virtud humana: apunta directamente a Flowey.
+> 🃏 Las siete representan las siete ALMAs humanas de Undertale — las seis "hermanas" calcan directamente Paciencia, Perseverancia, Valentía, Bondad, Justicia e Integridad, con su color, su patrón de ataque y hasta su objeto equipable propios de cada alma. Flowery, la séptima y su líder, representa la Determinación — la misma virtud sin ALMA asociada a Flowey en Undertale.
 > 💐 Pink no es una de las 7 originales pese a actuar como una más del grupo — es un caso aparte (ver [[Mad Mew Mew (Pink)]]).
 > 🎬 En el combate final contra Flowery, las seis reaparecen para empoderarlo, en un claro espejo de la secuencia inicial del combate contra Omega Flowey en Undertale, donde las siete ALMAs rodeaban a Flowey.
 
@@ -118,7 +118,7 @@ En el Mundo Claro, las 7 Flores siguen siendo simples flores en macetas, guardad
 ## Relaciones
 
 > [!quote]- Flowery
-> Su "hermano" y líder — el único de las siete flores sin una virtud humana asociada, y quien las convoca a todas para empoderarse en el combate final del Cap.5, en un espejo directo de Omega Flowey. [[Flowery]]
+> Su "hermano" y líder — la séptima flor, la que representa la Determinación en vez de una de las otras seis virtudes, y quien las convoca a todas para empoderarse en el combate final del Cap.5, en un espejo directo de Omega Flowey. [[Flowery]]
 
 > [!quote]- Asgore
 > Las cuidó durante años muchísimo más allá de su vida natural de un solo día, por puro cariño hacia el ramo de su boda con Toriel — sin saber nunca lo que la Fuente Oscura de su propia floristería acabaría haciendo con ellas. [[Asgore]]
@@ -143,8 +143,8 @@ En el Mundo Claro, las 7 Flores siguen siendo simples flores en macetas, guardad
 
 ## Teorías
 
-> [!question]+ ¿Por qué Flowery no representa ninguna virtud humana?
-> Las otras seis calcan de forma directa color, patrón de ataque y objeto equipable de las seis ALMAs humanas de Undertale (menos la Determinación) — pero Flowery, la séptima y la que hace de líder, no representa ninguna virtud: apunta en cambio directamente a Flowey. La lectura más extendida es que esto refuerza deliberadamente su naturaleza corrupta frente a sus "hermanas", que sí son fieles a lo que deberían representar.
+> [!question]+ ¿Por qué a Flowery le toca la Determinación, y no otra virtud como sus hermanas?
+> Las otras seis calcan de forma directa color, patrón de ataque y objeto equipable de seis de las siete ALMAs humanas de Undertale. Flowery, la séptima y la que hace de líder, representa la restante: la Determinación — la misma virtud que, en Undertale, define a Flowey precisamente por *no* tener ALMA propia ("ni fe, ni compasión, pero sí una cantidad terrible de determinación"). La lectura más extendida es que esta elección refuerza deliberadamente su naturaleza corrupta frente a sus "hermanas": mientras ellas son fieles a virtudes con connotación positiva, a Flowery le toca la única de las siete que, sin ALMA de por medio, puede volverse peligrosa.
 
 > [!question]- ¿Es Noelle, en el fondo, una "llave" más — como la que reparte Yellow?
 > En el Cap.5, Yellow entrega al grupo una Llave Amarilla real en el ala oeste del Castillo de las Flores para poder avanzar — su ALMA es la Justicia. Muy por otro lado, en la Ruta de la Espada secreta del Cap.3 (vía la Llave de Hielo), el White Cloak —que representa literalmente a Noelle dentro de ese minijuego— acompaña al jugador y se consume justo en la misma puerta que la propia llave: el juego muestra los dos avisos seguidos, *"The ice key was used up. She was used up."* Es decir, Noelle es tratada, textualmente, como una segunda llave que se "gasta" igual que un objeto.
