@@ -209,6 +209,30 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-crystal .title{{ position:relative; z-index:2; color:#e4ecff; text-shadow:0 0 6px rgba(140,160,255,.5); }}
   .node-crystal .summary{{ position:relative; z-index:2; color:#c8ccf0; }}
 
+  /* ---- Conexion Undertale: caja de dialogo clasica ---- */
+  .node-undertale .undertale-card{{
+    background:#000; border-radius:0; box-shadow:3px 6px 10px var(--cork-shadow);
+    border:3px solid #fff; padding-bottom:8px;
+  }}
+  .node-undertale .tag{{ color:#fff; font-family:'Courier New', monospace; }}
+  .node-undertale .title{{ color:#fff; font-family:'Courier New', monospace; }}
+  .node-undertale .summary{{ color:#e0e0e0; font-family:'Courier New', monospace; }}
+
+  /* ---- Fuentes Oscuras: agua ondulante ---- */
+  .node-fountain .fountain-card{{
+    position:relative; overflow:hidden;
+    background:
+      radial-gradient(ellipse 90% 60% at 50% 0%, rgba(180,220,255,.2) 0, transparent 55%),
+      linear-gradient(160deg, rgba(50,120,180,.4), rgba(10,30,55,.6)), #173a5e;
+    border-radius:20px 20px 26px 26px/16px 16px 30px 30px;
+    box-shadow:0 0 14px rgba(100,180,255,.4), 3px 6px 10px var(--cork-shadow);
+  }}
+  .node-fountain .fountain-glow{{ position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:radial-gradient(ellipse 60% 40% at 50% 20%, rgba(200,230,255,.3) 0, transparent 60%); }}
+  .node-fountain .tag{{ position:relative; z-index:2; color:#a8d4ec; }}
+  .node-fountain .title{{ position:relative; z-index:2; color:#eaf7ff; text-shadow:0 0 6px rgba(150,210,255,.6); }}
+  .node-fountain .summary{{ position:relative; z-index:2; color:#d5ecfb; }}
+
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }}
   .node-scroll .roll{{ position:relative; height:26px; width:100%;

@@ -342,6 +342,31 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
       <div class="summary">{summary}</div>
     </div>
   </div>''')
+        elif it["label"] == "Conexión Undertale":
+            node_html.append(f'''
+  <div class="node node-undertale" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+    <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
+    {submap_badge}
+    <div class="card undertale-card" style="border-top:5px solid {it['color']};">
+      <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
+      <div class="tag">{tag}</div>
+      <div class="title">{title}</div>
+      <div class="summary">{summary}</div>
+    </div>
+  </div>''')
+        elif it["label"] == "Fuentes Oscuras":
+            node_html.append(f'''
+  <div class="node node-fountain" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">
+    <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
+    {submap_badge}
+    <div class="card fountain-card" style="border-top:5px solid {it['color']};">
+      <div class="fountain-glow"></div>
+      <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
+      <div class="tag">{tag}</div>
+      <div class="title">{title}</div>
+      <div class="summary">{summary}</div>
+    </div>
+  </div>''')
         else:
             node_html.append(f'''
   <div class="node" data-id="{nid}" data-note="{note_attr}" style="left:{x-card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{card_w}px; transform:rotate({rot:.1f}deg);">

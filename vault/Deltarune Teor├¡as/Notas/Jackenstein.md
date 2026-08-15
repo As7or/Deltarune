@@ -30,8 +30,8 @@ confianza: fuerte
 > [!tip]- Ficha de personalidad
 > Formal y cortés a su manera ("NO MÁS SEÑOR SIMPÁTICO... EN SU LUGAR, SEÑOR MUY SIMPÁTICO", según su localización), habla de sí mismo en tercera persona a través de "la calabaza de Jack" en el texto en inglés, aunque la versión japonesa aclara que se refiere a sí mismo. Pese al tono amenazante de sus ataques, se comporta con cierta cortesía incluso en combate. Le gusta que le llamen "mono" o "adorable" y formar parte del grupo; le disgusta que le llamen feo, que se burlen de él y estar aislado en la oscuridad.
 >
-> ![[Jackenstein_overworld_talk.gif]]
-> *Jackenstein conversando con el grupo — su tono formal se nota incluso en el overworld.*
+> ![[Jackenstein_battle_idle.gif]]
+> *Jackenstein en pleno combate.*
 >
 > Habla siempre en mayúsculas y con una ortografía deformada muy característica, aunque casi siempre reconocible fonéticamente: "LAIGHT" (luz), "¿QUIÉN SE ATREVE A TRAER LAIGHT AQUÍ?", "ESTA ZOAN ESTÁ FORBIDEN", "PUEDES ACABAR SPOOCKEADO EN LA OSCURIDAD". Ralsei y Susie lo llaman simplemente "Jack" o "Mr. Jack"; Gerson, con cariño, "el Tipo de la Calabaza".
 

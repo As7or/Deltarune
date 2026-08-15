@@ -58,6 +58,8 @@ PAGE_CSS = '''
   }
 
   .wikilink{ color:#8a3a30; border-bottom:1px dotted #8a3a30; text-decoration:none; cursor:pointer; }
+  .quoted-line{ margin:10px 6px; padding:4px 14px; border-left:3px solid #8a7a5c; background:rgba(0,0,0,0.03); }
+  .quoted-line p{ font-style:italic; font-size:14px; margin:4px 0; }
   a.wikilink:hover{ background:#f3ead6; }
   .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
   .fm-badge{
@@ -409,6 +411,91 @@ PAGE_CSS_CRYSTAL = PAGE_CSS + '''
   .submap-cta-sub{ color:#a8b0e0; }
 '''
 
+PAGE_CSS_UNDERTALE = PAGE_CSS + '''
+  body{
+    background-color:#000000; background-image:none;
+    font-family:'Courier New', 'Consolas', monospace;
+    color:#ffffff;
+  }
+  h1{ color:#ffffff; border-bottom-color:#ffffff; font-family:'Courier New', monospace; letter-spacing:.03em; }
+  h2, h3{ color:#ffffff !important; font-family:'Courier New', monospace; }
+  h2{ border-bottom-color:#ffffff !important; }
+  p{ color:#ffffff; }
+  figcaption{ color:#cfcfcf; font-family:'Courier New', monospace; }
+  .fm-badge{ background:#000000; border:2px solid #ffffff; color:#ffffff; border-radius:0; }
+  .wikilink{ color:#ffb3f5; border-bottom-color:#ffb3f5; }
+  a.wikilink:hover{ background:rgba(255,255,255,.15); }
+  ul li{ color:#ffffff; }
+
+  /* --- postits como cajas de dialogo clasicas de Undertale --- */
+  .callout{
+    position:relative; background:#000000; border:3px solid #ffffff; border-radius:0;
+    box-shadow:none; padding:20px 22px 22px;
+  }
+  .callout::before{ content:"✦"; position:absolute; top:-13px; left:-11px; color:#fff; font-size:16px; background:#000; }
+  .callout::after{ content:"✦"; position:absolute; bottom:-13px; right:-11px; color:#fff; font-size:16px; background:#000; }
+  .callout-title{ color:#ffffff; font-family:'Courier New', monospace; text-transform:uppercase; }
+  .callout-body p{ color:#ffffff; font-family:'Courier New', monospace; font-size:15px; }
+  .callout-info, .callout-tip, .callout-example, .callout-danger, .callout-quote, .callout-question{ background:#000000; }
+  .callout .callout{ box-shadow:none; }
+  table.note-table{ background:#000000; }
+  table.note-table th, table.note-table td{ border:2px solid #ffffff; color:#ffffff; }
+  .related-web{ border-top-color:#ffffff; }
+  .related-tag{ background:#000000; border:2px solid #ffffff; border-radius:0; color:#ffffff; }
+  .related-tag-label a.wikilink{ color:#ffb3f5; }
+  .submap-cta{ background:#000000; border:2px solid #ffffff; border-radius:0; color:#ffffff; box-shadow:none; }
+  .submap-cta-title{ color:#ffffff; }
+  .submap-cta-sub{ color:#cfcfcf; }
+  .submap-cta::before{ background:#ffffff; }
+'''
+
+PAGE_CSS_FOUNTAIN = PAGE_CSS + '''
+  body{
+    background-color:#0a1a2e;
+    background-image:
+      radial-gradient(ellipse 70% 50% at 50% 0%, rgba(120,200,255,.28) 0, transparent 60%),
+      radial-gradient(ellipse 60% 45% at 20% 80%, rgba(80,160,240,.2) 0, transparent 60%),
+      radial-gradient(ellipse 60% 45% at 85% 70%, rgba(80,160,240,.18) 0, transparent 60%),
+      repeating-radial-gradient(circle at 50% 30%, rgba(180,220,255,.05) 0 3px, transparent 3px 9px),
+      linear-gradient(180deg, #123354 0%, #061423 100%);
+  }
+  h1{ color:#dff3ff; border-bottom-color:#5fb8e8; }
+  h2, h3{ color:#dff3ff !important; text-shadow:0 0 8px rgba(120,200,255,.5); }
+  h2{ border-bottom-color:#5fb8e8 !important; }
+  p{ color:#d5ecfb; }
+  figcaption{ color:#a8d4ec; }
+  .fm-badge{ background:#123a5c; border-color:#5fb8e8; color:#dff3ff; }
+  .wikilink{ color:#8fe0ff; border-bottom-color:#8fe0ff; }
+  a.wikilink:hover{ background:rgba(143,224,255,.15); }
+  ul li{ color:#d5ecfb; }
+
+  /* --- postits como agua ondulante de una Fuente Oscura --- */
+  .callout{
+    position:relative; overflow:hidden;
+    background:
+      radial-gradient(ellipse 90% 60% at 50% 0%, rgba(180,220,255,.14) 0, transparent 55%),
+      linear-gradient(160deg, rgba(50,120,180,.35), rgba(10,30,55,.55));
+    background-color:#173a5e;
+    border:1px solid rgba(150,210,255,.4);
+    border-radius:26px 26px 34px 34px/22px 22px 40px 40px;
+    box-shadow:0 0 18px rgba(100,180,255,.25), 0 6px 16px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.1);
+    padding:22px 26px 26px;
+  }
+  .callout-title{ color:#eaf7ff; text-shadow:0 0 6px rgba(150,210,255,.6); }
+  .callout-body p{ color:#d5ecfb; }
+  .callout-info, .callout-tip, .callout-example, .callout-danger, .callout-quote, .callout-question{ background:transparent; }
+  .callout .callout{ box-shadow:0 0 22px rgba(100,180,255,.3), 0 8px 20px rgba(0,0,0,.55); }
+  table.note-table{ background:#123a5c; }
+  table.note-table th, table.note-table td{ border-color:rgba(150,210,255,.3); color:#d5ecfb; }
+  .related-web{ border-top-color:#5fb8e8; }
+  .related-tag{ background:#123a5c; border-color:#5fb8e8; color:#d5ecfb; box-shadow:0 0 8px rgba(100,180,255,.25); }
+  .related-tag-label a.wikilink{ color:#8fe0ff; }
+  .submap-cta{ background:linear-gradient(135deg,#173a5e,#0a2340); border-color:#5fb8e8; color:#d5ecfb;
+    box-shadow:0 0 16px rgba(100,180,255,.3), 2px 6px 12px rgba(0,0,0,.4); }
+  .submap-cta-title{ color:#eaf7ff; }
+  .submap-cta-sub{ color:#a8d4ec; }
+'''
+
 DECKLE_DEFS_SVG = '''
 <svg width="0" height="0" style="position:absolute">
 <defs>
@@ -498,6 +585,14 @@ def render_page(title_escaped, body_html, theme="postit"):
         crumple = ""
     elif theme == "crystal":
         css = PAGE_CSS_CRYSTAL
+        defs = ""
+        crumple = ""
+    elif theme == "undertale":
+        css = PAGE_CSS_UNDERTALE
+        defs = ""
+        crumple = ""
+    elif theme == "fountain":
+        css = PAGE_CSS_FOUNTAIN
         defs = ""
         crumple = ""
     else:

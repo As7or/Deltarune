@@ -107,12 +107,6 @@ A diferencia de Clam Girl, que nunca aparece en Deltarune, su equivalente mascul
 ## "¿Qué opináis vosotros dos?" — quiénes son esos dos
 La pregunta final de la Entrada 17 nunca se responde en el propio juego. La lectura más extendida y con más pistas de fondo es que Gaster se dirige a **Sans y Papyrus**: Sans tiene acceso a un "Gaster Blaster" como ataque propio, hay planos y una máquina cubierta en su casa de Snowdin, y la canción del teléfono equivocado de Sans busca a alguien cuyo nombre empieza por "G". Otra lectura, más minoritaria, defiende que Gaster, Sans y Papyrus serían en realidad forasteros de otro mundo —apoyándose en que la tendera de Waterfall comenta que los hermanos "simplemente aparecieron un día" en la ciudad, sin más explicación—, lo que encajaría con la propia naturaleza de "estar fuera del tiempo y el espacio" que sufre Gaster.
 
-## 666 y el color gris en Deltarune
-Todo este hilo —el gris, el 666, el sonido de estática, la etiqueta "Goner"— reaparece también en Deltarune: en Mancountry, ciertas zonas ocultas usan un suelo y una estética completamente monocroma, la misma paleta "sin color" ligada a Gaster en Undertale.
-
-![[gaster_mancountry_binoculars_grey_floor.webp]]
-*El suelo gris de una de las zonas ocultas de Mancountry.*
-
 ## Clam Girl y Susie — la pista que nadie esperaba
 En la versión de Switch de Undertale (lanzada un mes antes del Cap.1 de Deltarune), Clam Girl —un NPC opcional de Waterfall— menciona a la hija de su vecina, "Suzy", y anima al jugador a hacerse su amigo, aunque nunca llega a aparecer en pantalla. Con un valor de diversión exacto de 81, en el epílogo cambia su diálogo: dice que el momento de conocer a Suzy "se acerca rápidamente", mientras su sprite se vuelve gris — y al terminar la conversación desaparece con el mismo sonido que usan Mystery Man y el segundo Seguidor de Gaster. Su nuevo sprite se llama internamente `spr_clam_goner`.
 
@@ -130,30 +124,62 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 ![[gaster_toby_fox_tweets_as_gaster.webp]]
 *Captura de los tuits en clave de la cuenta de Undertale, la noche antes del lanzamiento del Cap.1.*
 
+## Teorías
+
 > [!question]+ ¿Es la Voz de la introducción el propio Gaster?
 > Es, con diferencia, la teoría más sólida de todas las relacionadas con él. A favor: el tono y formato de los tuits de Twitter coincide punto por punto con el de la Voz dentro del juego; ambos citan casi textualmente la Entrada 17 ("muy, muy interesante"); el "Vessel" que se crea en la introducción se etiqueta internamente como "Goner", el mismo término usado para el resto de personajes grises ligados a Gaster; y el valor de tipografía de la Voz es 666. En contra: nunca se confirma de forma directa dentro del propio juego, ni siquiera de forma indirecta con nombre y apellido. **Teoría de fans extremadamente bien fundamentada; no confirmada al 100% por el guion.**
+
+> [!question]- ¿Cuál es su verdadera apariencia?
+> Ninguna de sus formas "visibles" está confirmada como su aspecto real: Mystery Man es un sprite deforme y agrietado sin colisión, más una silueta rota que un diseño terminado; REDACTED, su equivalente en Deltarune, está directamente censurado en pantalla; y ni uno ni otro llegan a mostrarse en una partida normal sin trucos. La lectura más extendida es que sería un esqueleto, a juego con Sans y Papyrus si estos son sus hijos, pero es una inferencia por parentesco, no un diseño confirmado en ningún archivo del juego. **Sin confirmación; su apariencia real, si es que la tiene, sigue siendo un misterio deliberado por parte del propio juego.**
+
+> [!question]- ¿Es el Forgotten Man?
+> Es la lectura más popular sobre la identidad del [[Forgotten Man]]: se mueve libremente entre el Mundo Claro y el Oscuro, habla en términos atemporales sobre el origen del mundo, encaja con la descripción de alguien "hecho añicos a través del espacio y el tiempo", y la sala en la que aparece en el Cap.1 comparte estructura con la sala de Mystery Man en Undertale. En contra: su forma de hablar en el Cap.3 es notablemente distinta a la de la Voz, lo que hace dudar a parte del fandom de que compartan identidad. Ver [[Forgotten Man]] para el desarrollo completo, incluidas las otras dos lecturas alternativas de quién es. **Teoría de fans, la más popular sobre la identidad del Forgotten Man; no confirmada.**
 
 > [!question]- ¿Es Deltarune el "experimento" de Gaster, y Undertale el resultado de una Ruta Rara?
 > Uniendo varias piezas —que Toby Fox llamó "experimento" a Deltarune antes de su lanzamiento, que la Voz/Gaster habla de "mostrar algo" al jugador, y que toda la premisa de Deltarune gira en torno a un "Ángel" que controla a Kris desde fuera— parte del fandom especula con una lectura meta: que Deltarune sería, dentro de su propia ficción, un experimento del propio Gaster para observar cómo se comporta "el jugador" bajo distintas condiciones, y que Undertale podría leerse retroactivamente como una simulación previa, o incluso como el resultado de una de sus "rutas raras". Es una teoría de las más especulativas de todas las que existen sobre él — bonita como lectura meta-narrativa, pero sin ningún apoyo textual directo dentro de ninguno de los dos juegos. **Teoría de fans muy especulativa; no confirmada.**
 
-## Pistas nuevas del Capítulo 3 (recopilación de un vídeo de análisis, verificadas contra la wiki donde ha sido posible)
-- **La G que falta**: al elegir las siglas del jugador en el show de Tenna, la letra G es la única excluida de la selección para el tercer hueco — casualmente la posición exacta que ocuparía en "WDG" (W. D. Gaster).
-- **Ausencia de sonidos G/A**: en el Cap.1 y 2 existían efectos de sonido internos llamados simplemente "W" y "D"; en los Caps. 3 y 4 no se ha encontrado ningún archivo de sonido llamado "G" ni "A" — si esta ausencia es intencionada (dejando la "G" para otro sitio, como la selección de siglas) sigue sin confirmarse.
-- **El gris con valor 666**: cuando Tenna cree que el grupo no quiere participar en el concurso, el rótulo del programa se pone gris — un gris cuyo valor decimal de color es exactamente 666.
-- **Sonido "crowd/love"**: el efecto de sonido del susto de FRIEND en la cinemática de Ralsei explicando los Mundos Oscuros se llama internamente "crowd/love" y suena hasta cuatro veces en esa misma escena, en distintos tonos y velocidades — pese a que las risas de "público" que se oyen después en otras escenas usan un nombre de archivo distinto.
-- **Northern Light al 66% y Glacier al 1332%**: dentro del Palacio de Hielo (Ruta Espada), la música "Northern Light" suena ralentizada al 66%, y más adelante, dentro del propio Refugio en su recreación de 8 bits, suena "Glacier" (la música del propio Palacio de Hielo) ralentizada a un 1332% — exactamente el doble de 666.
-- **La máquina "sonreír"**: en una máquina expendedora del backstage se puede comprar un objeto llamado "sonreír" (smile), y el juego responde "a su humilde servicio" — puede que aluda al propio sonido `smile` de la Entrada 17, y la frase de "humilde servicio" recuerda a un diálogo descartado de un demonio en el código de Undertale ("Yo, tu humilde siervo, te seguiré hasta el final").
-- **Mercancía real con nomenclatura interna de Gaster**: las tres figuras Mini oficiales de Susie, Ralsei y Kris usan como nombre de producto el mismo formato interno de archivo que usan las armas ligadas a la Voz/Gaster en el código del juego: "Hero/Scarf", "Hero/Sword" y "Hero/Axe".
-- **Ramb y Mystery Man**: según listas de diseño filtradas, Ramb comparte una cara moderadamente similar a la de Mystery Man (el sprite ligado a Gaster en Undertale), junto con Jevil y Rouxls Kaard.
+## Referencias y pistas por capítulo (Deltarune)
+Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Deltarune se ha ido conectando con Gaster — para separarlo claramente de las pistas que vienen de Undertale (Seguidores, Mystery Man, Entrada 17, Clam Girl), recogidas más arriba.
 
+> [!example]+ Capítulo 1
+> - La versión del instalador del capítulo es **0.6.6.6** — la primera aparición del 666 ligado a él dentro de Deltarune.
+> - Everyman aparece por primera vez escondido en el ataque carrusel de Jevil (1 entre 50 probabilidades) — comparte con Gaster un patrón de nomenclatura interna: de los pocos nombres que en los archivos de Undertale terminan en "-man", el suyo es *mysteryman* y el de Everyman es *strangeman*, ambos ligados al True Lab. Ver [[Everyman]].
+
+> [!example]+ Capítulo 2
+> - El Ficus Licker —la base "normal" del Seguidor 1 de Undertale— reaparece ya en color, sentado en un reservado de la cafetería de QC.
+> - Everyman vuelve a aparecer: en el ataque de ventanas emergentes de Poppup, y en el ataque "Social Media" de Queen, reutilizando el mismo sprite que después se usaría en la Spamton Sweepstakes.
+
+> [!example]+ Capítulo 3 (recopilación de un vídeo de análisis, verificada contra la wiki donde ha sido posible)
+> - **La G que falta**: al elegir las siglas del jugador en el show de Tenna, la letra G es la única excluida de la selección para el tercer hueco — casualmente la posición exacta que ocuparía en "WDG" (W. D. Gaster).
+> - **Ausencia de sonidos G/A**: en el Cap.1 y 2 existían efectos de sonido internos llamados simplemente "W" y "D"; en los Caps. 3 y 4 no se ha encontrado ningún archivo de sonido llamado "G" ni "A" — si esta ausencia es intencionada (dejando la "G" para otro sitio, como la selección de siglas) sigue sin confirmarse.
+> - **El gris con valor 666**: cuando Tenna cree que el grupo no quiere participar en el concurso, el rótulo del programa se pone gris — un gris cuyo valor decimal de color es exactamente 666.
+> - **Sonido "crowd/love"**: el efecto de sonido del susto de FRIEND en la cinemática de Ralsei explicando los Mundos Oscuros se llama internamente "crowd/love" y suena hasta cuatro veces en esa misma escena, en distintos tonos y velocidades — pese a que las risas de "público" que se oyen después en otras escenas usan un nombre de archivo distinto.
+> - **Northern Light al 66% y Glacier al 1332%**: dentro del Palacio de Hielo (Ruta Espada), la música "Northern Light" suena ralentizada al 66%, y más adelante, dentro del propio Refugio en su recreación de 8 bits, suena "Glacier" (la música del propio Palacio de Hielo) ralentizada a un 1332% — exactamente el doble de 666.
+> - **La máquina "sonreír"**: en una máquina expendedora del backstage se puede comprar un objeto llamado "sonreír" (smile), y el juego responde "a su humilde servicio" — puede que aluda al propio sonido `smile` de la Entrada 17, y la frase de "humilde servicio" recuerda a un diálogo descartado de un demonio en el código de Undertale ("Yo, tu humilde siervo, te seguiré hasta el final").
+> - **Mercancía real con nomenclatura interna de Gaster**: las tres figuras Mini oficiales de Susie, Ralsei y Kris usan como nombre de producto el mismo formato interno de archivo que usan las armas ligadas a la Voz/Gaster en el código del juego: "Hero/Scarf", "Hero/Sword" y "Hero/Axe".
+> - **Ramb y Mystery Man**: según listas de diseño filtradas, Ramb comparte una cara moderadamente similar a la de Mystery Man, junto con Jevil y Rouxls Kaard.
+> - Las zonas ocultas de Mancountry (Isla Olvidada) usan un suelo y una estética completamente monocroma, la misma paleta "sin color" ligada a él en Undertale.
+> - El "ruido de sonrisa" (`mus_smile`), ralentizado al 15%, suena junto a la puerta del Refugio — confirmado como Mundo Oscuro este mismo capítulo. Ver [[Shelter]].
+>
+> ![[gaster_mancountry_binoculars_grey_floor.webp]]
+> *El suelo gris de una de las zonas ocultas de Mancountry, Cap.3.*
+>
 > *Nota de rigor: gran parte de esta lista son coincidencias numéricas y de nomenclatura de archivos, no diálogo ni confirmación directa del juego — encajan con el patrón ya establecido en esta nota (666, gris, "olvido"), pero cada dato aislado es débil por sí solo. Se incluyen porque encajan con un patrón ya extensamente documentado, no como pruebas nuevas independientes.*
+
+> [!example]+ Capítulo 4
+> - Existe una variable interna sin usar asociada a Everyman específica de este capítulo, sin función conocida — ver [[Everyman]] para el detalle.
+> - FRIEND aparece por primera vez, apenas visible entre las ondas de agua del pasillo inundado del Segundo Santuario. Sus nombres internos, `DEVICE_FRIEND` e `IMAGE_FRIEND`, comparten el mismo prefijo `DEVICE_` y la misma convención en mayúsculas que los recursos ligados a la Voz/Gaster.
+
+> [!example]+ Capítulo 5
+> - FRIEND reaparece, acechando en el Jardín — el encuentro que desbloquea después el diálogo secreto de Pink sobre los gatos de caza.
+> - Aunque no es una pista de Gaster en sí, la escena de Pink en este capítulo es la primera confirmación textual de la teoría de la mano de Kris — ver [[Kris]].
 
 ## Relaciones
 
 > [!quote]- Sans y Papyrus
 > La teoría más popular los sitúa como sus hijos, apoyándose en la pregunta final de la Entrada 17 ("vosotros dos"), en que Sans usa "Gaster Blasters" como ataque propio, y en unos planos y una máquina cubierta que aparecen en su casa de Snowdin. Nunca se confirma directamente. [[Sans]] [[Papyrus]]
 >
-> ![[Sans_attack_Gaster_Blaster.png]]
+> ![[Sans_attack_Gaster_Blaster.png|260]]
 > *El "Gaster Blaster", el ataque de Sans que lleva su nombre — una de las pistas más citadas de este vínculo.*
 
 > [!quote]- River Person

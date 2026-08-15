@@ -120,12 +120,17 @@ def inline_md(text, sprites_prefix, force_small=False):
 
     def img_sub(m):
         inner = m.group(1)
-        name = inner.split("|")[0].strip()
+        parts = inner.split("|")
+        name = parts[0].strip()
+        explicit_w = None
+        if len(parts) > 1 and parts[-1].strip().isdigit():
+            explicit_w = int(parts[-1].strip())
         if force_small:
             cls = "inline-img-small"
         else:
             cls = "inline-img inline-img-alpha" if has_real_transparency(name) else "inline-img"
-        return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt="" loading="lazy">')
+        style_attr = f' style="width:{explicit_w}px;max-width:100%;"' if explicit_w else ""
+        return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt="" loading="lazy"{style_attr}>')
     text = re.sub(r"!\[\[(.+?)\]\]", img_sub, text)
 
     def wikilink_sub(m):
@@ -229,7 +234,18 @@ def render_callout_block(lines, sprites_prefix, depth=0):
             while i < len(lines) and lines[i][0] > base_depth:
                 nested.append((lines[i][0]-base_depth, lines[i][1]))
                 i += 1
-            body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
+            # un bloque anidado solo se trata como callout de verdad si su
+            # primera linea tiene cabecera [!tipo]; si no, es una cita simple
+            # (p.ej. una linea de dialogo citada dentro de otro callout) y se
+            # renderiza como blockquote llano, no como un postit azul vacio.
+            if nested and re.match(r"\[!\w+\][+-]?\s*", nested[0][1]):
+                body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
+            else:
+                inner = "".join(
+                    f"<p>{inline_md(c, sprites_prefix, force_small=force_small_here)}</p>"
+                    for _, c in nested if c.strip()
+                )
+                body_parts.append(f'<blockquote class="quoted-line">{inner}</blockquote>')
             continue
         if content.strip().startswith("|"):
             table_block = []
@@ -291,7 +307,11 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
                 if not first and dd == base_depth and re.match(r"\[!\w+\][+-]?\s*", content):
                     break
                 block.append((dd, content)); i += 1; first = False
-            out.append(render_callout_block(block, sprites_prefix))
+            if block and re.match(r"\[!\w+\][+-]?\s*", block[0][1]):
+                out.append(render_callout_block(block, sprites_prefix))
+            else:
+                inner = "".join(f"<p>{inline_md(c, sprites_prefix)}</p>" for _, c in block if c.strip())
+                out.append(f'<blockquote class="quoted-line">{inner}</blockquote>')
             continue
         if re.match(r"^\s*[-*]\s+", line):
             bullet_lines = []

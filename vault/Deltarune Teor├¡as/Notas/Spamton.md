@@ -14,6 +14,7 @@ confianza: fuerte
 *Nota: Spamton no tiene una versión "Mundo Claro / Mundo Oscuro" como Kris o Noelle — es un Darkner nativo. Spamton NEO cumple aquí el mismo papel visual que un "estado alternativo".*
 
 > [!info]+ Datos rápidos
+> 🪪 Nombre completo: **Spamton G. Spamton** — la "G" no se explica dentro del juego. Su apodo de usuario, visible en materiales relacionados, es **salesman1997**.
 > 📠 Vendedor sin hogar del Mundo Cíber, antagonista principal del Cap.2 y jefe secreto como Spamton NEO.
 > 🥚 Antes fue el "White Addison", el más pequeño de los Addisons — vendedores de spam sin ningún éxito.
 > ☎️ Su ascenso y su caída están ligados a llamadas de una persona misteriosa por teléfono.

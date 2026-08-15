@@ -1,0 +1,235 @@
+{
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Rouxls Kaard\n🃏 Darkner del Reino de las Cartas; se autoproclama \"Duque de los Puzles\" y sirve al Rey en el Cap.1.",
+   "x": -190,
+   "y": -105,
+   "width": 420,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/Rouxls_Kaard_face.png",
+   "x": -640,
+   "y": -105,
+   "width": 181,
+   "height": 190
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Lancer**\nPese a la indiferencia del Rey, es Rouxls quien realmente cuida y alimenta a Lancer — su \"padre menor\".",
+   "x": -130,
+   "y": -640,
+   "width": 280,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**King**\nSu antiguo señor en el Cap.1, a quien sirve con lealtad aparente mientras le convenga.",
+   "x": 420,
+   "y": -260,
+   "width": 280,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Queen**\nIntenta convertirse en su mano derecha en el Cap.2 — y en el Cap.4 sigue persiguiéndola en un cutscene secreto que termina con él convertido en lámpara.",
+   "x": 420,
+   "y": 220,
+   "width": 280,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/Rouxls_Kaard_overworld_weather_hug.gif",
+   "x": 420,
+   "y": 440,
+   "width": 202,
+   "height": 170
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Tenna**\nIntenta ser su segundo al mando en el Cap.3 formando un trío con Lanino y Elnina — Tenna, por su parte, se burla constantemente de él en público, llamándolo \"lámpara estúpida\".",
+   "x": -130,
+   "y": 480,
+   "width": 280,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/Rouxls_Kaard_screenshot_Cooking_Show.png",
+   "x": -130,
+   "y": 710,
+   "width": 200,
+   "height": 150
+  },
+  {
+   "id": "s4",
+   "type": "text",
+   "text": "**¿Por qué persigue siempre el poder de otro?**\nUna lectura extendida (headcanon muy popular del fandom, sin confirmación oficial) es que su necesidad constante de ser la \"mano derecha\" de quien gobierne responde a una crisis de propósito más profunda como Darkner.",
+   "x": -680,
+   "y": 220,
+   "width": 280,
+   "height": 240,
+   "color": "3"
+  },
+  {
+   "id": "s5",
+   "type": "text",
+   "text": "**\"Rouxls Lampeth\"**\nEl cutscene secreto del Cap.4 en el que un accidente eléctrico lo convierte en lámpara — dando la razón, sin querer, a la burla de Tenna del Cap.3.",
+   "x": -680,
+   "y": -450,
+   "width": 280,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s5-img",
+   "type": "file",
+   "file": "Sprites/Rouxls_Kaard_overworld_petrified.png",
+   "x": -680,
+   "y": -670,
+   "width": 144,
+   "height": 190
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/Lancer_Overworld.webp",
+   "x": -130,
+   "y": -850,
+   "width": 148,
+   "height": 180
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/King_face.png",
+   "x": 420,
+   "y": -470,
+   "width": 149,
+   "height": 180
+  },
+  {
+   "id": "s4-img",
+   "type": "file",
+   "file": "Sprites/Rouxls_Kaard_screenshot_Davith_Jones.png",
+   "x": -935,
+   "y": 435,
+   "width": 190,
+   "height": 170
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s1",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e2-img",
+   "fromNode": "s2",
+   "fromSide": "bottom",
+   "toNode": "s2-img",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e3",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s3",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "e3-img",
+   "fromNode": "s3",
+   "fromSide": "bottom",
+   "toNode": "s3-img",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e4",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s4",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e5",
+   "fromNode": "s0",
+   "fromSide": "left",
+   "toNode": "s5",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e5-img",
+   "fromNode": "s5-img",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s0-img",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e_s1-img",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e_s4-img",
+   "fromNode": "s4-img",
+   "fromSide": "right",
+   "toNode": "s4",
+   "toSide": "left",
+   "color": "3"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+---
+tipo: tema
+mundo: na
+especie: na
+familia: na
+confianza: fuerte
+---
+
+![[routes.png]]
+
+> [!info]+ Datos rápidos
+> 🛤️ Deltarune tiene varias capas de rutas alternativas superpuestas: la elección estándar Pacifista/Violenta de cada capítulo, la Ruta Espada (exclusiva del Cap.3) y la Ruta Rara (acumulativa entre los Caps.2, 4 y 5).
+> 🧮 La Ruta Rara es la única que se registra de forma silenciosa entre capítulos distintos a través de los archivos de FILE de finalización — ningún personaje la percibe, pero el juego "recuerda" las decisiones.
+> ❄️ Snowgrave, en el Cap.2, es el origen del apodo con el que la comunidad conoció a la Ruta Rara antes de que se confirmara su nombre oficial.
+> 🗡️ La Ruta Espada del Cap.3 funciona como un anticipo/espejo de la propia Ruta Rara, con mecánicas y sonidos que se repiten casi calcados entre ambas.
+> 🌊 El final del Lago en el Cap.5 es, de momento, la culminación de la Ruta Rara: si se completa, genera un archivo de guardado especial con sufijo "_b" en vez de un FILE normal, y corta a la pantalla "Insertar Capítulo 7, Lado B".
+> 🚫 Todas las rutas alternativas comparten una misma regla: si en algún momento se falla una condición necesaria, la ruta se aborta de forma permanente para esa partida — no hay vuelta atrás dentro del mismo archivo.
+
+## Tipos de ruta
+
+> [!example]+ Ruta estándar — Pacifista vs. Violenta
+> La capa base de todos los capítulos: cada uno tiene su propia ruta Pacifista (sin derrotar violentamente a ningún Darkner, usando ACT/PIEDAD/APACIGUAR) y su ruta Violenta (matando enemigos en combate). Son independientes entre sí — una misma partida puede tener, por ejemplo, el Cap.1 en Pacifista y el Cap.3 en Violenta, sin ningún conflicto. Desde el Cap.2 en adelante, completar un combate de forma pacífica permite además reclutar a ese Darkner para Ciudad Castillo, desbloqueando beneficios adicionales. En el Cap.1, la ruta Pacifista lleva a que el propio Card Kingdom derroque a King por su cuenta. *(Hueco de imagen: aún no hay ninguna captura de la ruta Violenta ni de un reclutamiento en Ciudad Castillo guardada en el vault.)*
+
+> [!example]+ Ruta Espada (Sword Route) — exclusiva del Cap.3
+> Ruta secundaria opcional, contenida por completo dentro del Cap.3. Para acceder, hay que sacar rango S (o superior) en las tres tablas de TV Time durante la Ronda 1 — o comprarle a un Pipis un rango S falsificado por 1500 puntos si no se consigue de forma legítima. Con eso, Ramb da acceso secreto a la sala trasera del Green Room, donde deja jugar al "Juego Original" a espaldas de Tenna: tres tableros en los que Kris consigue una espada y debe matar a todos los enemigos para subir de LV y poder destruir obstáculos, saliendo de los límites normales del propio minijuego. El menú de Poder muestra durante todo este tramo un contador de bajas sin etiquetar (un asterisco) — desaparece automáticamente al pasar al Cap.4.
+>
+> Completar los tres tableros culmina en un combate contra el portador del Shadow Mantle (ver [[Ramb]] para su posible identidad) y otorga el propio Shadow Mantle — un objeto que hace mucho más llevadero el combate contra el Caballero Rugiente, cambia ligeramente los requisitos para conseguir el Cristal Oscuro del capítulo, y multiplica por 6 el daño de Kris contra Tenna respecto a no haberla completado.
+>
+> ![[Ramb_screenshot_original_game.png]]
+> *Ramb ofreciendo acceso al Juego Original — el punto de partida de la Ruta Espada.*
+>
+> ![[Shadow_Mantle_holder_battle_idle.gif]]
+> *El combate contra el portador del Shadow Mantle, recompensa final de la ruta.*
+>
+> ![[shadow_mantle.gif]]
+> *El propio Shadow Mantle.*
+
+> [!example]+ Ruta Rara (Weird Route) — Cap.2, 4 y 5
+> La ruta acumulativa más larga y con más consecuencias de todo el juego — conocida durante años por la comunidad como "Snowgrave Route" antes de que se confirmara su nombre oficial (el propio juego la llama "el Camino Prohibido" en el Cap.3, y "Lado B" al final del Cap.5).
+>
+> **Cap.2 — el origen**: arranca nada más unirse Noelle al grupo en Ciudad Cíber. Hay que retroceder y congelar con IceShock a todos los enemigos de cada sala — un enemigo derrotado así se queda congelado en el escenario en vez de desaparecer, y es obligatorio congelarlos todos para poder avanzar; Mauswheel, normalmente un combate guionizado, pasa a ser opcional. Al llegar al combate contra Spamton NEO, tras aguantar a la defensiva hasta llenar la barra, aparece en el menú de magia de Noelle un hechizo nuevo: Snowgrave.
+>
+> ![[Noelle_battle_SnowGrave.gif]]
+> *El hechizo Snowgrave, el que le da nombre al apodo original de toda la ruta.*
+>
+> **Cap.3 — no continúa, pero deja huella**: la Ruta Rara no avanza en este capítulo, pero sí hay cambios de diálogo si se completó en el Cap.2 — el portador del Shadow Mantle hace referencia directa a lo ocurrido. La propia Ruta Espada de este capítulo actúa como anticipo/espejo mecánico de la Ruta Rara (mismos conceptos, efectos de sonido y trazado de niveles).
+>
+> **Cap.4 — la parte central**: los sucesos clave pasan en el Mundo Claro, en casa de Noelle. Ella pide hablar a solas con Kris, que mete el ALMA en una caja de regalo del cuarto de invitados antes de entrar en su habitación; desde ahí, el Jugador guía al ALMA sola por los conductos de ventilación (ver [[Jugador]] para el desarrollo completo de esta escena, incluida la paliza que Kris le da después al ALMA en el baño).
+>
+> **Cap.5 — el final del Lago**: culminación de la ruta, solo accesible si ya se completó en el Cap.4. Kris y Noelle terminan sumergiéndose juntos en el Lago (ver [[Lake]] para la escena completa). Si se persiste hasta el final, la pantalla corta a "Insertar Capítulo 7, Lado B", generando un archivo de guardado especial (con sufijo "_b") en vez de un FILE de finalización normal.
+
+## Relaciones
+
+> [!quote]- Profecía
+> Cada ruta reinterpreta de forma distinta el sacrificio final que anuncia la Profecía — la Ruta Rara en particular sugiere que ese "guion" puede torcerse de formas que el texto profético no contempla. [[Profecía]]
+
+> [!quote]- Lake
+> El final exclusivo de la Ruta Rara del Cap.5 tiene lugar aquí, y es de momento la culminación más extrema del patrón acumulativo de decisiones. [[Lake]]
+
+> [!quote]- Jugador
+> El propio sistema de rutas ocultas, invisible para los personajes pero registrado por el juego, es una de las pruebas más directas de la tensión entre las decisiones del Jugador y el control real de la historia. [[Jugador]]
+
+> [!quote]- Noelle
+> Es, con diferencia, el personaje más afectado por el patrón acumulativo de la Ruta Rara a lo largo de los capítulos — desde Snowgrave en el Cap.2 hasta la escena de su casa en el Cap.4 y el final del Lago en el Cap.5. Ningún otro personaje encadena tantas consecuencias entre capítulos distintos como ella. [[Noelle]]
+
+> [!quote]- Ramb
+> Es quien da acceso a la Ruta Espada del Cap.3, dejando jugar al Juego Original a espaldas de Tenna — y quien, al completarla, aparece medio petrificado justo antes de desaparecer de forma ambigua. [[Ramb]]
+
+> [!quote]- FRIEND
+> Aparece como el portador del Shadow Mantle en el combate que cierra la Ruta Espada del Cap.3, aunque su identidad exacta en ese punto sigue sin confirmarse del todo. [[FRIEND]]
+
+## Teorías
+
+> [!question]+ ¿Hacia dónde apunta todo esto?
+> La acumulación deliberada de estas elecciones, capítulo tras capítulo, sin premiar nunca al jugador con un final "bueno" alternativo, sugiere que Toby Fox está construyendo hacia una consecuencia mayor de cara al final de la serie — posiblemente ligada al propio "Capítulo 7, Lado B". No hay forma de confirmar esto todavía; es, de largo, una de las preguntas abiertas más comentadas del fandom.
+>
+> ![[kriss_Weird_Route_screenshot_Chapter_5.png]]
+> *Una de las escenas de Ruta Rara del Cap.5 — la acumulación de consecuencias que alimenta esta pregunta.*
+
+> [!question]- ¿Por qué la Ruta Rara "castiga" en vez de premiar?
+> A diferencia de otros juegos con rutas ocultas, la Ruta Rara de Deltarune nunca ofrece una recompensa mecánica ni un "final bueno" alternativo — solo una escalada de consecuencias cada vez más incómodas para Noelle y Kris. Parte del fandom lee esto como una decisión narrativa deliberada: el propio diseño de la ruta estaría "castigando" al Jugador por ceder a la tentación de manipular a los personajes, en vez de recompensar esa curiosidad como haría un juego más tradicional.
+
+## Curiosidades
+- Es uno de los pocos sistemas del juego que registra progreso de forma silenciosa e invisible para el jugador, sin ningún contador visible en pantalla — con la única excepción parcial del contador de bajas sin etiquetar de la Ruta Espada.
+- El nombre "Snowgrave Route", aunque sigue siendo el más popular entre la comunidad hispanohablante, ha quedado técnicamente desactualizado desde que se confirmó que el nombre oficial es "Weird Route" (Ruta Rara) y que la propia Snowgrave es solo el hechizo del Cap.2, no toda la ruta.
+- El Cap.3 llama a la Ruta Rara "el Camino Prohibido" en una de las pistas del minijuego de la Ruta Espada, antes incluso de que existiera confirmación oficial de su nombre real.
+
+## Relacionado
+- [[Profecía]]
+- [[Lake]]
+- [[Jugador]]
+- [[Noelle]]
+- [[Ramb]]
+- [[FRIEND]]
+
+## Submapa
+[[Submapas/Rutas.canvas|Abrir submapa gráfico]]
