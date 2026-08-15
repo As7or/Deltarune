@@ -80,14 +80,13 @@ Vendedor sin hogar, errático e inestable del Mundo Cíber; antagonista principa
 > ![[spamton_thornring.png]]
 > *El Thorn Ring, uno de los objetos que se pueden conseguir de Spamton NEO.*
 >
-> ![[spamton_neo_weirdroute_fight.webp]]
-> *"THANKS TO YOUR [Total Jackass stunts] I HAVE [Becomed] NEO." — la transformación en la Ruta Rara del Cap.2.*
 >
 > > [!danger]- Ruta Rara del Cap.2
 > > La pintura de Spamton en Queen's Mansion tiene un significado adicional, y el enfrentamiento contra Spamton NEO se relaciona más directamente con el arco de Noelle. Además, Spamton predice el resultado de la Ruta Rara con una precisión inquietante: asegura que le dará a Kris "libertad" a costa de "llorar en un hogar roto" — y hay diálogo especial (Check) donde predice también la muerte de Tenna. Esto implica que conoce la Profecía de antemano, probablemente a través del mismo manhole que conecta su tienda con la sala de Tenna donde se guarda el Shadow Mantle.
-> >
-> > ![[so-uh-what-the-hell-is-up-with-spamton-and-the-weird-route-v0-9cjyr35kihcf1.webp]]
-> > *Resumen visual (de la comunidad) de hasta qué punto Spamton parece saber de antemano cómo va a desarrollarse la Ruta Rara.*
+> > 
+> >![[spamton_neo_weirdroute_fight.webp]]
+> > *"THANKS TO YOUR [Total Jackass stunts] I HAVE [Becomed] NEO." — la transformación en la Ruta Rara del Cap.2.*
+> > 
 
 > [!example]+ Capítulo 5 — Festival Day
 > Spamton no aparece como personaje jugable, pero su sombra se nota en todas partes: **Tenna admite ante Battat** (a quien confunde con el "verdadero" Mike) que sabía que el contrato "no debía firmarse" y que aun así lo presionó para hacerlo, preguntándose cómo puede ser "su culpa" que Spamton huyera.
