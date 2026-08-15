@@ -24,6 +24,9 @@ confianza: fuerte
 
 > [!tip]- Ficha de personalidad
 > Flamboyante, coqueto y algo cansado del mundo — se declara aburrido de sus propias fotos ("normalmente, todas mis fotos son grises...") hasta que el color que aporta el grupo protagonista le devuelve la ilusión. Es amable pese a lo extraño de su combate, y no muestra ninguna hostilidad real hacia Kris, Susie o Ralsei.
+>
+> ![[Green_Room_location_Ramb's_bar.png]]
+> *El Green Room del Mundo TV, la sala junto a la que aparece antes de convertirse en enemigo común.*
 
 ## Historia por capítulos
 

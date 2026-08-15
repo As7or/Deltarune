@@ -124,9 +124,12 @@ confianza: oficial
 
 > [!question]- ¿Por qué Tenna la eligió a ella?
 > Tenna la describe como quien más lo apreciaba, lo que sugiere una relación previa (¿real o solo percibida por Tenna?) entre ambos anterior al Cap.3 — no se explica del todo por qué la elige a ella específicamente como "carta bajo la manga" en vez de a cualquier otro Lightner.
+>
+> ![[tenna_with_dreemur_and_holiday.webp]]
+> *Tenna junto a miembros de las familias Dreemurr y Holiday — el tipo de vínculo previo que esta teoría intenta explicar.*
 
 ## Curiosidades
-- Toriel también es un personaje compartido con Undertale, reforzando que ambos juegos ocurren en el mismo universo.
+- Toriel también es un personaje compartido con Undertale, aunque —como con el resto del elenco recurrente— Deltarune no confirma que ambos juegos compartan una única continuidad temporal; ver [[Conexión Undertale]].
 - El contraste entre su personalidad actual y la que describe Rudy de joven (mucho más energética) es uno de los detalles de caracterización más citados del elenco adulto.
 - La escena del jitterbug con Sans en el Cap.4 dividió bastante a la comunidad: para algunos es solo un chiste más de Toby Fox, para otros resulta incómoda por mostrar a la madre de Kris achispada justo cuando su hijo más la necesitaba.
 

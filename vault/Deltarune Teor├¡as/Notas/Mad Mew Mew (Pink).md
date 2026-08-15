@@ -105,6 +105,9 @@ confianza: fuerte
 
 > [!question]- El espejo estructural con Gerson Boom
 > El fandom señala que Pink funciona como el reverso exacto de Gerson Boom, la jefa/jefe secreto del Cap.4: en Undertale, Gerson es un tendero al que nunca se combate, mientras que Pink es un miniboss obligatorio como Mad Dummy y un boss opcional en la versión de consola como Mad Mew Mew; Gerson usa el modo de ALMA verde (con escudo), Pink el morado (restringido a líneas); Gerson es clave en la trama de los Santuarios Oscuros, mientras que Pink es irrelevante para la trama principal del Reino de las Flores fuera de su propia secundaria; Gerson anima a Susie a confiar en su magia curativa, mientras que el combate de Pink anima al grupo a que ella misma acepte su cuerpo Darkner como un igual; y Gerson desaparece al sellarse la última Fuente, mientras que Pink es invitada a vivir en Castle Town.
+>
+> ![[old-man-gerson.png]]
+> *Gerson Boom, el reverso estructural que el fandom compara con Pink.*
 
 > [!question]- ¿Iba a ser la miniboss de Hotland en Undertale?
 > Dada la cantidad de menciones a Mew Mew Kissy Cutie que hace Alphys en Hotland, se teoriza que Mad Mew Mew estaba pensada originalmente como la miniboss de esa zona antes de ser sustituida por Muffet — y que el combate de Pink podría ser, de rebote, una especie de resurrección de ese concepto descartado, de forma parecida a como el combate contra el Martillo de la Justicia recupera la idea de un enfrentamiento contra Gerson.
