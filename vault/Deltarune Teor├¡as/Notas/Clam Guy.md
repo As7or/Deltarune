@@ -35,6 +35,9 @@ confianza: fuerte
 
 > [!quote]- Susie
 > La conexión no es con Clam Guy en sí, sino con Clam Girl, el NPC de Undertale con el que comparte diseño: la lectura casi unánime del fandom es que la "Suzy" que menciona Clam Girl es la propia Susie de Deltarune — el parecido de nombres, sumado a que ese diálogo se añadió justo un mes antes del anuncio del Cap.1, hace muy difícil pensar que sea casualidad. [[Susie]]
+>
+> ![[gaster_gonerclampgirl.webp]]
+> *Clam Girl transformándose en su versión gris, "Clam Goner", justo antes de mencionar a "Suzy" y desaparecer.*
 
 > [!quote]- Gaster (W. D. Gaster)
 > De nuevo por vía de Clam Girl: comparte el mismo sonido de desaparición que Mystery Man y sus Seguidores, y su sprite gris ("Clam Goner") la vincula directamente a la misma estética "Goner" de todo lo relacionado con él. [[Gaster (W. D. Gaster)]]

@@ -104,9 +104,6 @@ A diferencia de Clam Girl, que nunca aparece en Deltarune, su equivalente mascul
 >
 > Existe además una Entrada 17 "alternativa", escrita por Alphys, que sustituyó a la de Gaster en el juego final; ambas son inaccesibles en una partida normal.
 
-## "¿Qué opináis vosotros dos?" — quiénes son esos dos
-La pregunta final de la Entrada 17 nunca se responde en el propio juego. La lectura más extendida y con más pistas de fondo es que Gaster se dirige a **Sans y Papyrus**: Sans tiene acceso a un "Gaster Blaster" como ataque propio, hay planos y una máquina cubierta en su casa de Snowdin, y la canción del teléfono equivocado de Sans busca a alguien cuyo nombre empieza por "G". Otra lectura, más minoritaria, defiende que Gaster, Sans y Papyrus serían en realidad forasteros de otro mundo —apoyándose en que la tendera de Waterfall comenta que los hermanos "simplemente aparecieron un día" en la ciudad, sin más explicación—, lo que encajaría con la propia naturaleza de "estar fuera del tiempo y el espacio" que sufre Gaster.
-
 ## Clam Girl y Susie — la pista que nadie esperaba
 En la versión de Switch de Undertale (lanzada un mes antes del Cap.1 de Deltarune), Clam Girl —un NPC opcional de Waterfall— menciona a la hija de su vecina, "Suzy", y anima al jugador a hacerse su amigo, aunque nunca llega a aparecer en pantalla. Con un valor de diversión exacto de 81, en el epílogo cambia su diálogo: dice que el momento de conocer a Suzy "se acerca rápidamente", mientras su sprite se vuelve gris — y al terminar la conversación desaparece con el mismo sonido que usan Mystery Man y el segundo Seguidor de Gaster. Su nuevo sprite se llama internamente `spr_clam_goner`.
 
@@ -125,6 +122,9 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 *Captura de los tuits en clave de la cuenta de Undertale, la noche antes del lanzamiento del Cap.1.*
 
 ## Teorías
+
+> [!question]+ ¿Quiénes son "vosotros dos", en la pregunta final de la Entrada 17?
+> Esa pregunta nunca se responde en el propio juego. La lectura más extendida y con más pistas de fondo es que Gaster se dirige a **Sans y Papyrus**: Sans tiene acceso a un "Gaster Blaster" como ataque propio, hay planos y una máquina cubierta en su casa de Snowdin, y la canción del teléfono equivocado de Sans busca a alguien cuyo nombre empieza por "G". Otra lectura, más minoritaria, defiende que Gaster, Sans y Papyrus serían en realidad forasteros de otro mundo —apoyándose en que la tendera de Waterfall comenta que los hermanos "simplemente aparecieron un día" en la ciudad, sin más explicación—, lo que encajaría con la propia naturaleza de "estar fuera del tiempo y el espacio" que sufre Gaster.
 
 > [!question]+ ¿Es la Voz de la introducción el propio Gaster?
 > Es, con diferencia, la teoría más sólida de todas las relacionadas con él. A favor: el tono y formato de los tuits de Twitter coincide punto por punto con el de la Voz dentro del juego; ambos citan casi textualmente la Entrada 17 ("muy, muy interesante"); el "Vessel" que se crea en la introducción se etiqueta internamente como "Goner", el mismo término usado para el resto de personajes grises ligados a Gaster; y el valor de tipografía de la Voz es 666. En contra: nunca se confirma de forma directa dentro del propio juego, ni siquiera de forma indirecta con nombre y apellido. **Teoría de fans extremadamente bien fundamentada; no confirmada al 100% por el guion.**

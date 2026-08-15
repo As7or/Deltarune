@@ -94,6 +94,15 @@
    "y": -97,
    "width": 190,
    "height": 170
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/gaster_gonerclampgirl.webp",
+   "x": -638,
+   "y": -812,
+   "width": 190,
+   "height": 170
   }
  ],
  "edges": [
@@ -160,6 +169,14 @@
    "toNode": "s2",
    "toSide": "left",
    "color": "1"
+  },
+  {
+   "id": "e_s0-img",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "3"
   }
  ]
 }

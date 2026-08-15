@@ -170,6 +170,9 @@ Gerson es, junto con Ralsei, la voz más insistente del juego en contra de segui
 
 > [!question]- ¿Por qué "Ms. Boom"?
 > Se menciona una pariente llamada "Ms. Boom", pero el juego no aclara su relación exacta con Gerson (¿esposa? ¿hermana?) — terreno abierto para teorías de fans, sin pistas sólidas todavía.
+>
+> ![[gerson_ms.boom.webp]]
+> *Ms. Boom, la pariente de Gerson mencionada en el juego sin que se aclare su relación exacta con él.*
 
 ## Etimología y desarrollo
 

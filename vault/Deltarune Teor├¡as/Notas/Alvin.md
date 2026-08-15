@@ -69,6 +69,9 @@ confianza: oficial
 
 > [!question]- ¿Abrió Alvin la Fuente de la iglesia sin saberlo?
 > La Fuente Oscura del Primer Santuario en la iglesia es notablemente más pequeña de lo habitual, lo que sugiere poca determinación al abrirla — y el propio juego establece que quien la abre suele hacerlo pensando en un ser querido. Parte del fandom especula que fue el propio Alvin, bajo alguna influencia del Caballero Rugiente, quien la abrió sin ser consciente de que eso revivía a su padre como Darkner. **Teoría de fans, sin confirmar.**
+>
+> ![[alvin_church_at_night_dark_fountain.png]]
+> *La entrada de la iglesia de noche — el escenario de esta teoría sobre cómo se abrió la Fuente del Primer Santuario.*
 
 ## Curiosidades
 - Su nombre y diseño de tortuga religiosa, junto con el legado de su padre, funcionan como un espejo temático de la relación de Susie con Ralsei y de Kris con la Profecía: hijos que cargan con historias que no escribieron ellos mismos.

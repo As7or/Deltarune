@@ -8,12 +8,12 @@ confianza: fuerte
 
 # Jackenstein
 
-| En combate | Pumpkin (su mascota) | Decoración (Cap.4) |
-|---|---|---|
-| ![[Jackenstein_battle_idle.gif]] | ![[Jackenstein_battle_dancing_jack-o'-lantern.gif]] | ![[Jackenstein_overworld_Halloween_decoration.png]] |
-| *(pose de batalla en la biblioteca del Santuario Oscuro)* | *(la calabaza que lo acompaña como NPC/arma separada)* | *(su forma normal, antes del combate a oscuras)* |
+| En combate | Decoración (Cap.4) |
+|---|---|
+| ![[Jackenstein_battle_idle.gif]] | ![[Jackenstein_overworld_Halloween_decoration.png]] |
+| *(pose de batalla en la biblioteca del Santuario Oscuro)* | *(su forma normal, antes del combate a oscuras)* |
 
-*Nota de tabla: Jackenstein es un Darkner nativo de los Santuarios Oscuros, sin forma de Mundo Claro.*
+*Nota de tabla: Jackenstein es un Darkner nativo de los Santuarios Oscuros, sin forma de Mundo Claro. Su mascota Pumpkin tiene su propia imagen más abajo, en la sección dedicada a ella.*
 
 > [!info]+ Datos rápidos
 > 🎃 Encontrado en la biblioteca del Santuario Oscuro (Cap.4); su combate se libra en completa oscuridad.
@@ -76,6 +76,9 @@ confianza: fuerte
 
 ## Jackenstein's Pumpkin — su propia "mascota"
 Además del propio Jackenstein, existe un NPC separado llamado oficialmente "Jackenstein's Pumpkin": una calabaza antropomórfica negra de contorno rojo, propiedad suya, que aparece durante y después de su combate como parte de sus ataques ("YOU'RE TAKING TOO LONG" mientras persigue al ALMA). Cambia de color según su expresión —amarillo si está aturdida o llorando—, y su cuerpo puede alargarse a voluntad. Comparte el mismo patrón de habla deformado que Jackenstein, pero renderizado palabra a palabra en vez de letra a letra, para sincronizarse con sus líneas de voz. Existen además calabazas similares pero distintas —un enjambre de calabazas rojas pequeñas y una calabaza "educada" de expresión más simple— que no deben confundirse con la mascota personal de Jackenstein.
+
+![[Jackenstein_battle_dancing_jack-o'-lantern.gif]]
+*Pumpkin, la mascota/arma separada de Jackenstein, persiguiendo al ALMA durante el combate.*
 
 ## Relaciones
 

@@ -79,9 +79,20 @@ confianza: fuerte
 > *Comparativa visual usada por el fandom para sostener la teoría Dess = Caballero Rugiente: silueta, complexión y detalles de diseño que coinciden entre ambos.*
 
 > [!question]+ El texto oculto "UNUSED" — ¿Dess hablando desde la oscuridad?
-> Desde el Cap.1, los archivos del juego esconden un bloque de diálogo nunca usado en la partida real, guardado literalmente bajo el nombre en código "UNUSED" (o "UNUSED_SLASH_UNUSED"). Describe a alguien atrapado en una oscuridad total, desorientado, llamando a gritos sin saber si alguien puede oírle — muy similar a lo que dice Flowey en la flor de los recuerdos de Waterfall, en Undertale.
+> Desde el Cap.1, los archivos del juego esconden un bloque de diálogo nunca usado en la partida real, guardado literalmente bajo el nombre en código "UNUSED" (o "UNUSED_SLASH_UNUSED"). Describe a alguien atrapado en una oscuridad total, desorientado, que no sabe cómo llegó ahí ni si alguien puede oírle — muy similar a lo que dice Flowey en la flor de los recuerdos de Waterfall, en Undertale.
 >
-> El bloque se amplía en cada capítulo. En el Cap.5, la voz continúa: dice que ya solo le quedan sus recuerdos, que quizá eso es todo lo que es a estas alturas — "una colección de memoria" — y que lo único que puede hacer es no olvidar, repitiéndose a sí misma la frase "No lo olvides" una y otra vez para no perderse del todo. También pierde la noción del tiempo, sin saber si han pasado días u horas desde que quedó atrapada.
+> ![[dess_unused_text_code_cap1and2.webp]]
+> *El texto UNUSED del Cap.1-2: la voz no sabe cómo llegó a ese lugar, y describe una pesadilla recurrente en la que camina hacia la oscuridad hasta que "todo se vuelve negro".*
+>
+> El bloque se amplía en cada capítulo. En el del Cap.3-4, la voz dice estar perdiendo la noción del tiempo, sin poder comer ni beber, incapaz de saber si está despierta, soñando, viva o muerta — solo silencio total, salvo por un ruido de arañazos que a veces oye y que le hace sentir que alguien la escucha.
+>
+> ![[dess_unused_text_code_cap3and4.webp]]
+> *El texto UNUSED del Cap.3-4, con la voz perdiendo la noción del tiempo y de su propio estado.*
+>
+> En el del Cap.5, la voz continúa: dice que ya solo le quedan sus recuerdos, que quizá eso es todo lo que es a estas alturas, y que lo único que puede hacer es repetirse a sí misma "no lo olvides" una y otra vez para no perderse del todo.
+>
+> ![[dess_unused_text_code_cap5.webp]]
+> *El texto UNUSED del Cap.5, visto en las herramientas de extracción del juego — la voz aferrándose a sus propios recuerdos para no desaparecer.*
 >
 > Esa frase, "no lo olvides", no es casualidad: es el título de la canción de los créditos del Cap.1 (cantada por Laura Shigihara, también llamada "I'm With You in the Dark"), y comparte letra con "Raise Up Your Bat", el tema asociado a Dess y su guitarra — ambas canciones repiten la idea de "estoy contigo en la oscuridad". Es también, literalmente, la canción que se oye salir del Lago.
 >
@@ -97,6 +108,12 @@ confianza: fuerte
 
 > [!question]- El avistamiento de críptidos junto a Asriel
 > En una entrada del blog de Noelle presentada como "reporte de avistamiento de críptidos" (Spamton Sweepstakes, 2022), ella cuenta que de niña vio a "ICEE" (un críptido apodado así) guiñándole un ojo desde una caja a oscuras; solo su hermana la creyó. La actualización posterior del post añade que su hermana quemó la caja para "matarlo", y que fue entonces cuando "Asi" —apodo confirmado de Asriel— identificó al ser y dijo que debían enterrar la caja, cavando un agujero en el cementerio; Dess, al ver que Noelle tenía miedo de que saliera un zombi, golpeó la caja y la tiró. Es la pista más directa que existe de que Dess y Asriel pasaban tiempo juntos de niños, mucho antes de cualquier teoría sobre su posible relación romántica (ver [[Asriel]]).
+>
+> ![[dess_theory_icee_blog_noelle.png]]
+> *La entrada del blog de Noelle sobre el avistamiento de "Icee" — con Dess presente en el relato, golpeando y tirando la caja.*
+
+> [!question]- 🎲 ¿Se perdió Dess en el bosque siguiendo "la cola"?
+> La sala ROOTS (Cap.4) contiene una frase deliberadamente desordenada, pronunciada por un filósofo Organikk, que se puede reordenar como "perdidos donde crecería el bosque, los niños siguieron la cola señalada" — y tanto un panel profético ("la cola del infierno se arrastrará") como una línea de combate de los propios Organikks ("la cola que no debe seguirse") repiten la misma imagen de una "cola" peligrosa. FRIEND es el candidato más citado para esa "cola del infierno", en parte por su diseño de cuerpo articulado en bolas, coherente con el estilo visual descrito en esos textos. Bajo esta lectura, Dess (y posiblemente un Kris más joven) podrían haberse perdido de niños en un bosque real siguiendo a FRIEND, de forma parecida a como los niños de la sala ROOTS siguen "la cola" — lo que conectaría directamente su desaparición con el propio Shelter, ya que FRIEND aparece también en la Ruta Espada del Cap.3 dentro de esa misma zona. **Teoría de fans, con buena base textual en la sala ROOTS y los paneles proféticos, pero sin ninguna confirmación directa de que Dess sea uno de esos niños.**
 
 ## Curiosidades
 - La respuesta oculta a introducir "1225" como respuesta en una página promocional real de 2025 fue una paráfrasis de la "ley del instrumento" de Maslow ("cuando lo único que tienes es un martillo, todo parece un clavo") — un guiño textual directo a Dess relacionado con ese mismo número.
@@ -112,6 +129,7 @@ confianza: fuerte
 - [[Rudy]]
 - [[Carol]]
 - [[Susie]]
+- [[FRIEND]]
 
 ## Submapa
 [[Submapas/Dess.canvas|Abrir submapa gráfico]]

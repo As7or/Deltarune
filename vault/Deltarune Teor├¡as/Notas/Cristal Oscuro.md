@@ -125,9 +125,17 @@ El Shadow Mantle es un objeto **distinto** a los Cristales Oscuros, pero pertene
 
 > [!question]- El "Pure Crystal"
 > Existe un objeto sin usar en los archivos del juego llamado "Pure Crystal", cuya descripción interna alude a "la sombra purificada por el gato" — una frase que encaja de forma llamativa con Seam (literalmente un gato de peluche) y con su promesa de poder hacer algo "muy, muy interesante" con el conjunto completo de los 5 Cristales. 🎲 Es contenido cortado que nunca llegó a implementarse (de momento), así que se trata de una lectura especulativa y no de una confirmación de qué haría exactamente ese objeto.
+>
+> ![[ShadowCrystals.png]]
+> *Los cinco Cristales Oscuros reunidos — el conjunto completo que, según esta teoría, permitiría crear el Pure Crystal.*
 
 > [!question]- 🎲 La estrella caída y las lágrimas de cristal
 > Un libro del 2º Santuario Oscuro (Cap.4) describe a una estrella caída cuyas lágrimas, hechas de un agua amarga, formaron algo "parecido al cristal". Es un posible origen simbólico para el material del que están hechos tanto los Cristales Oscuros como los propios tapices/vidrieras que narran la Profecía (ver [[Profecía]]) — pero el juego no llega a decir explícitamente que ambas cosas sean el mismo material, así que es una lectura especulativa basada en una coincidencia de vocabulario ("como cristal"), no una confirmación.
+>
+> ![[shadow_crystal_lagrimas_cristal_teoria.webp]]
+> *El texto exacto del libro del 2º Santuario: "Y así lloró la estrella caída, formando ríos con sus lágrimas. Entonces, lentamente, del agua amarga, algo creció. Parecía cristal."*
+>
+> Varias pistas adicionales, citadas por la comunidad, refuerzan la lectura de que este verso podría referirse a los propios Cristales Oscuros y no solo a los tapices: al examinar el objeto Cristal Oscuro, su descripción dice que "una sombra afilada se mueve como el agua en la mano" —la misma imagen líquida del libro—, y su forma en el Mundo Claro se llama, precisamente, "Glass" (cristal). En un diálogo cortado del Cap.5, filtrado antes del lanzamiento por el propio Toby Fox en Twitter, Seam llega a decir que los Cristales contienen "cierto poder... podría llamarse el poder de la 'voluntad'... no, quizá 'voluntad' no es la palabra correcta. El poder que contienen es…" — frase que se interrumpe ahí. Muchos asumieron que esto confirmaría que los Cristales guardan el poder de la Determinación, pero al salir el Cap.5 se reveló que era una pista falsa: el diálogo final habla de "sueños perdidos", no de determinación (ver Datos rápidos, arriba). 🎲 Una rama más especulativa todavía apunta al propio Caballero Rugiente como la "estrella caída": llora en la animación de su primera aparición, y al ser derrotado suelta un Cristal Oscuro que se da a entender que formaba parte de él mismo o de su espada — si el Caballero es Dess (la teoría dominante sobre su identidad, ver [[Roaring Knight]]), esto conectaría además con que su cuarto está decorado con motivos de estrellas y que Rudy la describe como una "prodigio musical", es decir, una estrella por derecho propio. Ninguna de estas dos últimas lecturas está confirmada; son honestamente de las más especulativas de toda esta nota.
 
 ## Curiosidades
 - La frase "El aire cruje con libertad" ha aparecido en la rotación de texto descriptivo de varios de estos jefes.
