@@ -235,25 +235,27 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }}
-  .node-scroll .roll{{ position:relative; height:26px; width:100%;
-    background:linear-gradient(180deg, #8a744c 0%, #d0b47c 32%, #f2e4bc 50%, #d0b47c 68%, #8a744c 100%); }}
-  .node-scroll .roll-top{{ clip-path: path("M0,13 C9,4 20,1 31,5 C41,9 50,2 61,6 C73,11 83,3 95,7 C107,11 118,4 129,8 C138,11 146,6 150,12 L150,21 C141,25 131,20 121,24 C111,28 101,22 91,25 C81,28 71,23 61,26 C51,29 41,24 31,27 C21,29 11,25 4,21 L0,13 Z"); }}
-  .node-scroll .roll-bottom{{ clip-path: path("M0,15 C9,24 20,27 31,23 C41,19 50,26 61,22 C73,17 83,25 95,21 C107,17 118,24 129,20 C138,17 146,22 150,16 L150,7 C141,3 131,8 121,4 C111,0 101,7 91,3 C81,0 71,5 61,2 C51,-1 41,4 31,1 C21,-1 11,3 4,7 L0,15 Z"); }}
-  .node-scroll .roll::after{{ content:""; position:absolute; inset:0;
-    background:radial-gradient(ellipse 90% 100% at 50% 50%, transparent 45%, rgba(150,105,30,.5) 100%); mix-blend-mode:multiply; }}
-  .node-scroll .frizz{{ position:absolute; width:9px; height:7px; background:linear-gradient(160deg,#d0b47c,#8a744c);
-    border-radius:58% 42% 61% 39% / 55% 60% 40% 45%; box-shadow:0 1px 2px rgba(0,0,0,.35); }}
-  .node-scroll .roll-top .frizz{{ bottom:-3px; }} .node-scroll .roll-bottom .frizz{{ top:-3px; }}
-  .node-scroll .f1{{ left:14px; transform:rotate(-12deg); }} .node-scroll .f2{{ left:64px; transform:rotate(8deg); }} .node-scroll .f3{{ left:112px; transform:rotate(-6deg); }}
-  .node-scroll .sheet{{ position:relative; overflow:hidden; background:linear-gradient(170deg,#ecdcae,#d0b47c 60%,#c2a877);
-    margin:-3px 5px; padding:8px 6px 10px; text-align:center; }}
+  .node-scroll .roll{{ position:relative; height:22px; width:100%; z-index:2;
+    background:linear-gradient(180deg,#e8cf9a 0%,#c2a066 30%,#9c7c46 55%,#c2a066 80%,#8a6a3a 100%);
+    border-radius:11px; box-shadow:inset 0 -2px 3px rgba(0,0,0,.35), inset 0 2px 2px rgba(255,255,255,.35); }}
+  .node-scroll .roll::before, .node-scroll .roll::after{{
+    content:""; position:absolute; top:50%; width:16px; height:16px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #ecdba8, #7a5c30 75%);
+    box-shadow:0 2px 3px rgba(0,0,0,.5); transform:translateY(-50%); }}
+  .node-scroll .roll::before{{ left:-8px; }}
+  .node-scroll .roll::after{{ right:-8px; }}
+  .node-scroll .frizz{{ display:none; }}
+  .node-scroll .sheet{{ position:relative; overflow:hidden;
+    background:linear-gradient(170deg,#f1e2b8,#dcc38c 55%,#c9ac78);
+    margin:-2px 3px; padding:12px 10px 12px; text-align:center; border-radius:2px; }}
   .node-scroll .sheet::before{{ content:""; position:absolute; inset:0; pointer-events:none;
-    background:radial-gradient(ellipse 130% 90% at 50% 50%, transparent 38%, rgba(150,108,32,.55) 100%); }}
-  .node-scroll .tear{{ position:absolute; width:8px; height:12px; background:var(--cork-base); z-index:3; }}
-  .node-scroll .tear.left{{ left:-1px; clip-path:polygon(100% 0%, 0% 35%, 100% 55%, 20% 75%, 100% 100%); }}
-  .node-scroll .tear.right{{ right:-1px; clip-path:polygon(0% 0%, 100% 30%, 10% 50%, 100% 70%, 0% 100%); }}
-  .node-scroll .tear.t1{{ top:7px; }} .node-scroll .tear.t2{{ bottom:5px; }}
-  .node-scroll .sheet .thumb{{ position:relative; z-index:2; margin:0 auto 4px; filter:sepia(.2); background:transparent !important; }}
+    background:
+      radial-gradient(ellipse 130% 90% at 50% 50%, transparent 45%, rgba(120,88,32,.4) 100%),
+      repeating-linear-gradient(90deg, rgba(120,88,32,.05) 0 1px, transparent 1px 7px); }}
+  .node-scroll .sheet::after{{ content:""; position:absolute; inset:0; pointer-events:none;
+    box-shadow:inset 0 0 0 1px rgba(120,88,32,.3); }}
+  .node-scroll .tear{{ display:none; }}
+  .node-scroll .sheet .thumb{{ position:relative; z-index:2; margin:0 auto 6px; filter:sepia(.2); background:transparent !important; }}
   .node-scroll .sheet .title, .node-scroll .sheet .summary{{ position:relative; z-index:2; }}
   #wood-frame{{
     position:fixed; z-index:80; pointer-events:none;

@@ -37,56 +37,66 @@ Vendedor sin hogar, errático e inestable del Mundo Cíber; antagonista principa
 ![[spamton_home.webp]]
 *El callejón y el contenedor de basura donde Kris lo encuentra por primera vez — todo lo que le queda tras su caída.*
 
+## Antes de los capítulos — origen y ascenso
+Todo esto se reconstruye a partir de diálogos y objetos encontrados en el Cap.2; no se ve en pantalla en tiempo real, sino que se recompone como un flashback disperso por el propio callejón y la Mansión de Queen.
+
+**Origen: un Addison fracasado.** Antes de todo esto, Spamton era el "White Addison", el más pequeño de un grupo de vendedores llamados los Addisons — creadores de spam por correo que nadie miraba nunca. Pese a no tener ningún éxito, siempre proclamaba a sus compañeros Addisons que algún día sería un "big shot" (un peso pesado). Desesperado, empezó a buscar cualquier forma de hacerse popular.
+
+![[spamton_adison.png]]
+*Spamton como "White Addison", antes de su ascenso — el más pequeño e insignificante del grupo.*
+
+**La llamada.** Un día, contactó por teléfono con alguien que podía ayudarle — y de repente empezó a tener un éxito arrollador. A partir de ahí, Spamton estaba "todo el día al teléfono", ayudado por esa persona no identificada.
+
+![[spamton_telephone.gif|200]]
+*La llamada que lo cambió todo — el mismo teléfono que después reaparecerá, ya desconectado, en la Room Z del Mundo TV.*
+
+Vendió de todo: anuncios de TV, coches (el "Cungadero", de "Big Shot Autos"), y se hizo íntimo del mayordomo Swatch, lo que le consiguió una habitación en la Mansión de Queen — donde descubrió la poderosa máquina del sótano y empezó a rezarle.
+
+![[spamton_oldposter.jpg]]
+*Un cartel publicitario de "Big Shot Autos" de su época de éxito, encontrado roto en su propio callejón.*
+
+![[spamton_room_mansion.webp]]
+*Su antigua habitación en la Mansión de Queen, conseguida gracias a su amistad con el mayordomo Swatch.*
+
+![[spamton_swatch.png]]
+*Spamton usando un disfraz que imita a Swatch — según cierta teoría, un intento posterior de colarse de nuevo en la Mansión sin ser reconocido.*
+
+Sus antiguos compañeros Addisons, envidiosos de su repentino éxito, dejaron de juntarse con él — algo que Spamton interpretó como la prueba de que nunca les importó de verdad.
+
+**Mailman, Tenna y la colaboración rota.** Durante su época de gloria, se hizo amigo del presentador de televisión Tenna y de su empleado Mike, ayudándose mutuamente a ganar popularidad (llegó a prestarle a Tenna un "Pipis" de peluche — el mismo que Spamton reconocerá en el Cap.3, ver más abajo). Tenna se refiere a él despectivamente como su "pequeño MAILMAN" ("cartero"), y planeaban un contrato que iba a convertir a Spamton en toda una estrella de televisión.
+
+![[spamton_tvworld_look.png]]
+*El aspecto que se implica que tenía en su punto álgido de popularidad: traje rojo y corbata amarilla, un guiño directo al propio Tenna.*
+
+El día en que Spamton tenía que firmar ese contrato que cambiaría su vida, recibió una llamada angustiosa de la misma persona misteriosa que lo había ayudado siempre — pidiéndole que se fuera del Mundo de la Tele. Spamton salió corriendo, abandonando tanto su sitio en la Mansión de Queen como la confianza de Tenna, sin explicación alguna. Mike llegó a salir del Mundo de la Tele para intentar encontrarlo.
+
+**El ruido de basura.** A partir de ese momento, su éxito se desplomó tan rápido como había llegado. Se quedó sin techo, sin dinero y, según él mismo y los demás Addisons, perdió la cabeza — ya fuera por la ruina en sí o por su relación con la misteriosa voz del teléfono. Su forma de hablar se volvió errática, plagada de corchetes y palabras sustituidas, casi como un email de spam mal traducido. Tras su desaparición del Mundo de la Tele, perdió también su habitación en la Mansión de Queen — quedándose sin ninguno de los lugares que antes lo acogían, y terminando en el callejón donde Kris lo encuentra.
+
 ## Historia por capítulos
 
 > [!example]+ Capítulo 2 — Ascenso, caída y Spamton NEO
-> **Origen: un Addison fracasado.** Antes de todo esto, Spamton era el "White Addison", el más pequeño de un grupo de vendedores llamados los Addisons — creadores de spam por correo que nadie miraba nunca. Pese a no tener ningún éxito, siempre proclamaba a sus compañeros Addisons que algún día sería un "big shot" (un peso pesado). Desesperado, empezó a buscar cualquier forma de hacerse popular.
->
-> ![[spamton_adison.png]]
-> *Spamton como "White Addison", antes de su ascenso — el más pequeño e insignificante del grupo.*
->
-> **La llamada.** Un día, contactó por teléfono con alguien que podía ayudarle — y de repente empezó a tener un éxito arrollador. A partir de ahí, Spamton estaba "todo el día al teléfono", ayudado por esa persona no identificada.
->
-> ![[spamton_telephone.gif|200]]
-> *La llamada que lo cambió todo — el mismo teléfono que después reaparecerá, ya desconectado, en la Room Z del Mundo TV.*
->
-> Vendió de todo: anuncios de TV, coches (el "Cungadero", de "Big Shot Autos"), y se hizo íntimo del mayordomo Swatch, lo que le consiguió una habitación en la Mansión de Queen — donde descubrió la poderosa máquina del sótano y empezó a rezarle.
->
-> ![[spamton_oldposter.jpg]]
-> *Un cartel publicitario de "Big Shot Autos" de su época de éxito, encontrado roto en su propio callejón.*
->
-> ![[spamton_room_mansion.webp]]
-> *Su antigua habitación en la Mansión de Queen, conseguida gracias a su amistad con el mayordomo Swatch.*
->
-> ![[spamton_swatch.png]]
-> *Spamton usando un disfraz que imita a Swatch — según cierta teoría, un intento posterior de colarse de nuevo en la Mansión sin ser reconocido.*
->
-> Sus antiguos compañeros Addisons, envidiosos de su repentino éxito, dejaron de juntarse con él — algo que Spamton interpretó como la prueba de que nunca les importó de verdad.
->
-> **Mailman, Tenna y la colaboración rota.** Durante su época de gloria, se hizo amigo del presentador de televisión Tenna y de su empleado Mike, ayudándose mutuamente a ganar popularidad (llegó a prestarle a Tenna un "Pipis"). Tenna se refiere a él despectivamente como su "pequeño MAILMAN" ("cartero"), y planeaban un contrato que iba a convertir a Spamton en toda una estrella de televisión.
->
-> ![[spamton_tenna.png]]
-> *Spamton y Tenna en su época de colaboración, antes de la ruptura.*
->
-> ![[spamton_tvworld_look.png]]
-> *El aspecto que se implica que tenía en su punto álgido de popularidad: traje rojo y corbata amarilla, un guiño directo al propio Tenna.*
->
-> El día en que Spamton tenía que firmar ese contrato que cambiaría su vida, recibió una llamada angustiosa de la misma persona misteriosa que lo había ayudado siempre — pidiéndole que se fuera del Mundo de la Tele. Spamton salió corriendo, abandonando tanto su sitio en la Mansión de Queen como la confianza de Tenna, sin explicación alguna. Mike llegó a salir del Mundo de la Tele para intentar encontrarlo.
->
-> **El ruido de basura.** A partir de ese momento, su éxito se desplomó tan rápido como había llegado. Se quedó sin techo, sin dinero y, según él mismo y los demás Addisons, perdió la cabeza — ya fuera por la ruina en sí o por su relación con la misteriosa voz del teléfono. Su forma de hablar se volvió errática, plagada de corchetes y palabras sustituidas, casi como un email de spam mal traducido. Tras su desaparición del Mundo de la Tele, perdió también su habitación en la Mansión de Queen — quedándose sin ninguno de los lugares que antes lo acogían, y terminando en el callejón donde Kris lo encuentra.
+> Kris lo encuentra en persona por primera vez durmiendo en su callejón, e interactúa con él tanto en su forma de vendedor callejero como, más adelante, en su propia tienda del Mundo Cíber.
 >
 > **Uno de los Portadores del Cristal Oscuro.** Igual que Jevil, fue "despertado" por Strange Someone mediante el Cristal Oscuro — el conocimiento de ser parte de una historia con reglas fijas es lo que lo empuja a la desesperación y, en última instancia, a intentar "liberarse" tomando el ALMA de Kris como Spamton NEO. Al ser derrotado (o perdonado), deja caer parte de su antiguo equipo — entre otras cosas, el Thorn Ring.
 >
 > ![[spamton_thornring.png]]
 > *El Thorn Ring, uno de los objetos que se pueden conseguir de Spamton NEO.*
 >
->
 > > [!danger]- Ruta Rara del Cap.2
 > > La pintura de Spamton en Queen's Mansion tiene un significado adicional, y el enfrentamiento contra Spamton NEO se relaciona más directamente con el arco de Noelle. Además, Spamton predice el resultado de la Ruta Rara con una precisión inquietante: asegura que le dará a Kris "libertad" a costa de "llorar en un hogar roto" — y hay diálogo especial (Check) donde predice también la muerte de Tenna. Esto implica que conoce la Profecía de antemano, probablemente a través del mismo manhole que conecta su tienda con la sala de Tenna donde se guarda el Shadow Mantle.
-> > 
-> >![[spamton_neo_weirdroute_fight.webp]]
+> >
+> > ![[spamton_neo_weirdroute_fight.webp]]
 > > *"THANKS TO YOUR [Total Jackass stunts] I HAVE [Becomed] NEO." — la transformación en la Ruta Rara del Cap.2.*
-> > 
+
+> [!example]+ Capítulo 3 — El reencuentro secreto con Tenna
+> Escondido en la Sala de Bonus del Mundo TV de Tenna (se accede interactuando con una pantalla verde con una carita sonriente estática, en la parte baja del laberinto situado dos pantallas más allá del punto de guardado del concierto de los Darkners), hay un cajón azul sospechoso. Antes de eso, si se explora la zona de bonus, Tenna —furioso porque varios Pipis le están robando puntos— acaba yéndose a una sala contigua donde guarda una caja fuerte con un Pipis de peluche dentro; es el mismo que le prestó a Spamton en su día.
+>
+> Para que ocurra lo que sigue hace falta llevar puesto el Dealmaker o el Puppet Scarf (ambos objetos de Spamton NEO, conseguidos en el Cap.2). Al abrir el cajón, Tenna descubre que el Pipis ha desaparecido y, desesperado, admite que aceptaría hasta la ayuda de "ese pequeño cartero" — el propio Dealmaker o Puppet Scarf equipado reacciona a esa frase y se transforma en Spamton, saliendo literalmente del inventario de Kris. Tenna, sin reconocerlo al principio, se asusta; Spamton intenta explicarse, pero antes de que le dé tiempo, Tenna —al ver que ha guardado el peluche que le prestó durante todo este tiempo— suelta, genuinamente conmovido, que "de verdad le importaba". El momento dura poco: Tenna, todavía sin reconocerlo del todo, acaba rociándolo con espuma (como si fuera un insecticida) y se lleva el Pipis.
+>
+> ![[spamton_tenna.png]]
+> *"[Trash heap]!!! YOU KEPT IT!!! YOU REALLY DO CARE!!!" — el momento en que Spamton descubre que Tenna guardó el Pipis que le prestó, justo antes de que este lo rocíe con espuma sin reconocerlo.*
+>
+> Esta escena solo aparece si se completó normalmente el Cap.2 (con Spamton NEO derrotado o perdonado con normalidad); en la Ruta Rara del Cap.2, como Spamton nunca llega a tener su gran momento en esa vía, tampoco aparece aquí — el cajón se abre igualmente, pero la escena queda muda, con Tenna comportándose de forma extraña sin que se llegue a explicar del todo por qué.
 
 > [!example]+ Capítulo 5 — Festival Day
 > Spamton no aparece como personaje jugable, pero su sombra se nota en todas partes: **Tenna admite ante Battat** (a quien confunde con el "verdadero" Mike) que sabía que el contrato "no debía firmarse" y que aun así lo presionó para hacerlo, preguntándose cómo puede ser "su culpa" que Spamton huyera.
