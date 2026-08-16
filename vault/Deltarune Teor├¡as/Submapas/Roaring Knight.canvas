@@ -70,7 +70,7 @@
   {
    "id": "s5",
    "type": "text",
-   "text": "**¿Ciervo negro o monstruo negro?** Podrían ser dos pistas distintas: el ciervo negro = Dess 'atrapada en los archivos'; el monstruo negro de la Ruta Rara (misma silueta que Toriel/Asgore jefe) = el propio Caballero. Sin confirmar.",
+   "text": "**El ciervo negro del minijuego retro (Cap.3)**\nUn enemigo del Juego Original de la Ruta Espada esconde, tras una variable llamada toriel, un sprite sin usar de un ciervo negro — casi unanime que representa a Dess.",
    "x": -772,
    "y": 758,
    "width": 270,
@@ -180,6 +180,15 @@
    "y": 1261,
    "width": 190,
    "height": 170
+  },
+  {
+   "id": "s5-img",
+   "type": "file",
+   "file": "Sprites/black_deer.png",
+   "x": -908,
+   "y": 1063,
+   "width": 110,
+   "height": 130
   }
  ],
  "edges": [
@@ -334,6 +343,14 @@
    "toNode": "s_patron_deliberado",
    "toSide": "left",
    "color": "3"
+  },
+  {
+   "id": "e_s5-img",
+   "fromNode": "s5-img",
+   "fromSide": "top",
+   "toNode": "s5",
+   "toSide": "bottom",
+   "color": "1"
   }
  ]
 }

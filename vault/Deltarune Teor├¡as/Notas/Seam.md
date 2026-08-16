@@ -55,6 +55,9 @@ confianza: fuerte
 
 > [!question]+ ¿Qué es lo "muy, muy interesante"?
 > En el Cap.5, Seam insinúa saber algo que podría hacer con los cinco Cristales Oscuros reunidos, sin llegar a decir qué es. Es una de las mayores incógnitas pendientes de cara a los últimos capítulos — algunos apuntan al objeto sin usar "Pure Crystal" (ver [[Cristal Oscuro]]) como la pista más probable.
+>
+> ![[seam_very_very_interesting.png]]
+> *"Something very, very, interesting." — el momento exacto de la insinuación, con un objeto de fondo señalado por la comunidad como posible pista.*
 
 ## Curiosidades
 - En el aula abandonada del colegio hay un peluche morado maltrecho con un ojo amarillo que se parece mucho a Seam.

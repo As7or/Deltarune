@@ -69,6 +69,9 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 > [!quote]- Gaster (W. D. Gaster)
 > El sonido `mus_smile`, ralentizado al 15%, suena junto a la puerta del Refugio — el mismo sonido asociado a él en Undertale (Entrada 17, teléfono en el Mundo Oscuro). Es una pista musical real y verificable, aunque el juego nunca confirma directamente que Gaster tenga algo que ver con el lugar. [[Gaster (W. D. Gaster)]]
+>
+> ![[gaster.png]]
+> *Gaster, tal como se le imagina tras la puerta — la fuente de la pista musical que lo conecta con el Refugio.*
 
 > [!quote]- Forgotten Man
 > Reparte varios de los Huevos ocultos muy cerca de esta zona, justo donde se cree que ocurrió el incidente ligado tanto a Gaster como a la desaparición de Dess. La cercanía repetida entre sus apariciones y el Refugio es una de las pistas ambientales que más alimentan las teorías sobre quién es realmente y qué sabe. [[Forgotten Man]]
@@ -84,9 +87,13 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 > [!quote]- Alphys
 > Es quien confirma en diálogo quién tiene acceso real al Refugio — solo ha visto ir hacia allí a Undyne y a la alcaldesa — dando pie a que el grupo decida investigar a Carol de cerca. [[Alphys]]
+>
+> ![[Alphys_face.png]]
 
 > [!quote]- Alvin
 > Preguntado por el Refugio tras el sermón del Cap.4, le pide a Kris que deje el tema y se mantenga alejado — una reacción que destaca por lo directa que es, viniendo de un personaje que normalmente no oculta información. [[Alvin]]
+>
+> ![[Alvin_overwolrd.webp]]
 
 > [!quote]- Roaring Knight
 > Es, hasta la fecha, el único personaje (junto a Kris) que ha entrado y salido del Refugio con total libertad, sin necesidad de código — y el responsable de las dos únicas capturas confirmadas ligadas al lugar: Undyne en el Cap.3 y, presumiblemente, Asgore en el Cap.5. [[Roaring Knight]]
@@ -101,6 +108,9 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 > [!question]- 🎲 "Depths" y "Hell": el guiño de la encuesta de agradecimiento
 > En la tercera ronda de la encuesta "Thank You" del propio desarrollo del juego, las respuestas de los participantes relacionadas con "Shelter", "Depths" o "Hell" recibieron exactamente la misma respuesta oculta por parte del equipo — sugiriendo que los tres conceptos están conectados de algún modo en la mente del propio desarrollo. "Depths" y "Hell" ya se habían conectado antes a través de la frase de Jevil "el Rugido burbujea desde las profundidades" (ver [[Cristal Oscuro]]), y "Depth" también aparece en el nombre interno del archivo recurrente IMAGE_DEPTH. Es un dato de datamine/desarrollo, no una confirmación dentro del propio juego, así que se trata de una lectura especulativa.
+>
+> ![[shelter_depths_hell.png]]
+> *La lista real, recopilada por la comunidad, de variantes de respuesta que activan el mismo texto oculto: "Shelter", "The Depths", "Over the cauldron of hell", "Bunker"...*
 
 > [!question]- 🎲 El número 1225 y la familia Holiday
 > El código parcial hallado en la guitarra de Dess, "122", se interpreta casi universalmente como el inicio de "1225" — y ese mismo número reaparece repetidas veces a lo largo del juego en contextos ligados a Noelle y al Mundo Cíber, además de usarse para abrir una sala secreta en la máquina de peluches del Mundo Oscuro del Cap.3 y el camino hasta el árbol de Navidad donde Tenna escondía a Toriel. El apellido de la familia, "Holiday" ("fiesta/festivo"), y el propio significado navideño de 1225 (25 de diciembre) hacen que el fandom lo lea como un motivo numérico deliberado ligado a esta familia — pero el juego nunca explica por qué ese número concreto abre precisamente el Refugio.

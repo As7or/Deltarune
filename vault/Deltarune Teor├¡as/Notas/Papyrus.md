@@ -58,7 +58,10 @@ confianza: fuerte
 > La pregunta abierta más citada sobre Papyrus. Las lecturas más comunes van desde lo puramente cómico (Toby Fox alargando el chiste hasta el epílogo de la saga) hasta lecturas más oscuras que lo conectan con otros misterios sin resolver del juego — por ejemplo, la broma recurrente de "ya lo conocimos: es el Caballero Rugiente", que ningún fan defiende en serio pero que se repite constantemente como chiste del fandom.
 
 > [!question]- ¿Confunde a Flowey con [[Flowery]]?
-> Idea especulativa (no documentada en el juego, pura hipótesis de fan encajando con su personaje de Undertale): dado que en Undertale Papyrus mostraba cierto interés distraído por Flowey sin darle mayor importancia, resultaría muy propio de su personaje que, si alguna vez apareciera en el Cap.5, confundiera al antagonista floral Flowery con aquel viejo conocido — un malentendido inocente y muy en su línea, aunque de momento no hay ninguna base textual para ello.
+> En Undertale, Papyrus llama repetida y consistentemente a Flowey "Flowery" —confundiendo o recordando mal su nombre— algo que el propio Flowey corrige ("Es FlowEY. Sin R."). Es un chiste real y confirmado, no una hipótesis de fans. La coincidencia con que Deltarune tenga ahora un antagonista floral llamado literalmente "Flowery" ha alimentado la broma —esta sí especulativa— de que, si Papyrus llegara a aparecer alguna vez en Deltarune, podría confundirlo con su viejo "amigo" de Undertale por el mismo motivo de siempre.
+>
+> ![[Papyrus_flowery.png]]
+> *El chiste original de Undertale: Papyrus llama "Flowery" a Flowey, que le corrige el nombre.*
 
 ## Curiosidades
 - Es, junto a Gaster, uno de los dos personajes de Undertale con mayor presencia "fantasma" en Deltarune: mencionado constantemente, visto jamás.

@@ -128,7 +128,10 @@ confianza: fuerte
 ## Teorías
 
 > [!question]- ¿Por qué Queen es su madre?
-> La propia Queen deja la relación deliberadamente ambigua ("arbitrariamente decidida"), sin aclarar si hay parentesco real o es solo un vínculo simbólico/adoptivo. El juego nunca lo resuelve del todo.
+> La propia Queen deja la relación deliberadamente ambigua — Lancer llega a describirla como "un girldad, si se quiere" cuando le preguntan si Queen es su madre, sin aclarar del todo si hay parentesco real o es solo un vínculo simbólico/adoptivo. El juego nunca lo resuelve del todo.
+>
+> ![[Lancr_queen_mum.png]]
+> *"A girldad, if you will..." — la propia descripción de Lancer sobre su relación con Queen.*
 
 ## Curiosidades
 - Es incompatible con la Fuente Oscura del Mundo Cíber por proceder de una Fuente distinta (Card Kingdom), lo que lo convierte lentamente en piedra si pasa demasiado tiempo allí.

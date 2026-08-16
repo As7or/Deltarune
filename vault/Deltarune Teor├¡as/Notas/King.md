@@ -85,6 +85,9 @@ confianza: fuerte
 
 > [!question]- ¿Qué fue del resto de los reyes?
 > King encerró a los otros tres reyes de la baraja (corazones, diamantes, tréboles) para hacerse con el poder absoluto junto a Lancer — el juego no profundiza demasiado en qué fue de ellos más allá de su encierro en el castillo.
+>
+> ![[Three_Kings_overworld.webp]]
+> *Los tres reyes encerrados, transportados en una jaula tras el golpe de King.*
 
 ## Curiosidades
 - Jevil, su antiguo bufón de la corte, fue quien le contó sobre la gloria del Caballero Rugiente y la Fuente — la chispa que encendió su ambición y villanía, pese a que King nunca ha llegado a conocer al Caballero en persona.

@@ -110,6 +110,9 @@ confianza: fuerte
 
 > [!question]+ "Cada vez más lejos, más gris" — el color como medidor de peligro
 > Durante la sumersión de la Ruta Rara del Cap.5, la pantalla se va saturando/oscureciendo progresivamente cuanto más se avanza hacia el centro del Lago, con cada pulsación de "Continuar" reseteando brevemente los colores a la normalidad antes de que vuelvan a intensificarse. El efecto visual funciona casi como un medidor de "cuánto queda para el punto de no retorno" — cuanto más lejos de la orilla, más se pierde el color real de la escena. **Descripción de un efecto visual confirmado en el propio juego; la lectura de que representa un "medidor" simbólico es interpretación.**
+>
+> ![[Lake_more_grey.png]]
+> *El efecto de desaturación progresiva durante la sumersión — la escena pierde color cuanto más lejos de la orilla.*
 
 > [!question]- ¿Qué hay al otro lado / bajo la superficie?
 > El mayor cabo suelto de la serie hasta la fecha. El propio nombre oficial del tema de la escena, "The Other Side of the Lake", confirma que existe narrativamente un destino al otro lado — coincidiendo con la teoría de que el "Lado B" del Cap.7 tiene lugar precisamente ahí. No se sabe si hay una Fuente Oscura escondida bajo el agua, ni cómo se conecta esto con la desaparición de Dess. La comunidad especula con todo tipo de teorías, ninguna confirmada.

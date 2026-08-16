@@ -10,7 +10,7 @@ confianza: fuerte
 | -------------------------------------------------------------- | ------------------------ |
 | ![[86374-and-sans-undertale-black-line-white-sprite.png\|233]] | ![[sans-fight.gif\|144]] |
 
-*Nota de tabla: Sans no tiene forma Darkner ni talksprite propio confirmado — solo aparece como Lightner, siempre en el Mundo Claro.*
+*Nota de tabla: Sans no tiene forma Darkner confirmada — solo aparece como Lightner, siempre en el Mundo Claro. Sí tiene talksprite propio (ver Ficha de personalidad, más abajo).*
 
 > [!info]+ Datos rápidos
 > 🦴 Personaje que regresa de Undertale; se instala en Hometown junto a su hermano menor Papyrus justo antes de que arranque el juego.
@@ -88,6 +88,15 @@ confianza: fuerte
 
 > [!question]+ ¿Llegó a Hometown desde otra dimensión?
 > La teoría más fuerte sobre Sans: su llegada "abrupta y antinatural" a Hometown —que ni Kris ni Susie recuerdan haber presenciado— encajaría con la implicación de que Sans usó su antiguo laboratorio (de Undertale) para viajar entre dimensiones o líneas temporales durante la guerra entre humanos y monstruos, terminando así en el mundo de Deltarune. Esto explicaría también por qué parece capaz de usar magia (o de teletransportarse) sin que ningún otro monstruo del pueblo lo cuestione — algo que, en el contexto de Undertale, ya se asociaba a su personaje.
+>
+> ![[sans_lab_machine_another_universe.png]]
+> *"Hay una máquina extraña tras la cortina... parece rota." — el laboratorio de Undertale, la pieza central de esta teoría.*
+>
+> ![[sans_lab_draw_of_three_people.png]]
+> *Un dibujo mal hecho de tres personas sonriendo, encontrado en ese mismo laboratorio.*
+>
+> ![[Sans's_house_screenshot_knocking.png]]
+> *Al llamar a la puerta de su casa en Hometown, sin respuesta — solo "el distante traqueteo de huesos" de fondo.*
 
 > [!question]+ ¿Es la Ruta Rara/Espada lo que "produce" o desbloquea Undertale?
 > Una de las teorías más extendidas del fandom (documentada incluso en cobertura de prensa del Cap.5): llevar la Ruta Rara/Espada hasta el final —incluida la Espada Retorcida, el arma más fuerte del juego hasta la fecha, solo obtenible si NO se sigue a Noelle al Lago— podría ser justo lo necesario para que el jugador llegue por fin a encontrarse con W.D. Gaster, el científico de Undertale nunca visto en persona en Deltarune. Una variante más extrema, también citada en foros y wikis de teorías, plantea que Deltarune transcurre *antes* de Undertale pero solo existe *porque* Sans, en algún punto posterior, arregla su máquina del tiempo y viaja atrás para evitar la guerra entre humanos y monstruos — es decir, que la propia existencia de Deltarune sería una consecuencia posterior a los hechos de Undertale, no un simple "antes" cronológico. Ninguna de las dos variantes está confirmada por Toby Fox; son lecturas especulativas que se apoyan en la ambigüedad deliberada sobre en qué orden ocurren realmente ambos juegos.
@@ -107,6 +116,24 @@ confianza: fuerte
 
 > [!question]- ¿Por qué no aparece Papyrus?
 > Un misterio aparte pero relacionado: Sans menciona a su hermano pequeño desde el Cap.1, pero Papyrus nunca ha llegado a aparecer en persona en ningún capítulo hasta la fecha — solo se le escucha "de lejos" tras la puerta de su casa. Si la teoría del taller y el laboratorio tiene algo de cierto, cabe preguntarse si la ausencia de Papyrus está relacionada de algún modo con esa misma investigación heredada. Ver [[Papyrus]] para el desarrollo completo de este misterio.
+>
+> ![[sans_knows_something_take_it_easy.png]]
+> *"...take it easy, ok, kid?" — Sans, esquivo como siempre, cada vez que el tema roza a su hermano.*
+
+> [!question]- 🎲 Las puertas Goner y el atajo de Sans
+> Una lectura de la comunidad conecta tres cosas: la máquina en la que cae Gaster en Undertale ("dicen que quedó esparcido a través del tiempo y el espacio"), las puertas de teletransporte ("Goner") que aparecen dentro de los Mundos Oscuros de Deltarune, y la puerta gris de la sala "Fun 66" de Undertale, que funciona exactamente igual que una Goner. La hipótesis es que la máquina de Gaster sería, en el fondo, una puerta Goner más — y que los atajos de Sans (su capacidad de aparecer y desaparecer sin explicación, tanto en Undertale como en Deltarune) podrían depender del mismo mecanismo, en vez de ser magia sin más. **Teoría de fans que conecta varias pistas de diseño reales; ninguna confirmación directa de que las tres cosas sean, en efecto, la misma tecnología.**
+>
+> ![[sans_door_theory.webp]]
+> *La comparativa de la comunidad: la puerta de Sans, una puerta Goner de un Mundo Oscuro, y la puerta gris de Fun 66 — con diseños casi idénticos.*
+
+> [!question]- 🎲 El pan y el glitch de las migas de Mother
+> Sans vende un objeto llamado simplemente "Bread" (Pan) en su tienda de Hometown. La referencia no es casual: Undertale y Deltarune están llenos de guiños a la saga *Mother/EarthBound* (de donde Toby Fox toma buena parte de su estilo), y en el propio *Mother* original existe un glitch real y documentado conocido como el "Bread Crumbs Glitch" — usar (o dejar de usar) migas de pan de una forma muy concreta permite alcanzar zonas del mapa fuera de los límites normales del juego. La lectura del fandom es que el "Pan" de Sans podría ser un guiño deliberado a ese glitch, y no solo un chiste de merchandising sin más peso. **Conexión temática y de diseño verificable con la saga Mother; sin ninguna confirmación de que tenga una función oculta dentro de Deltarune.**
+>
+> ![[sans_bread.png]]
+> *"Has conseguido el Pan." — el objeto que vende Sans en su tienda de Hometown.*
+>
+> ![[sans_bread_mother.png]]
+> *El "Bread Crumbs Glitch" real de Mother, la referencia que el fandom conecta con este objeto.*
 
 ## Curiosidades
 - Su tienda se llama simplemente "Sans", y en ella se autodenomina "conserje" pese a no haber nadie más trabajando allí.

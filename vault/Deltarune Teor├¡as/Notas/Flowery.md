@@ -112,6 +112,12 @@ confianza: fuerte
 ## Teorías
 
 
+> [!question]- Determinación frente a sus seis "hermanas"
+> De las 7 Flores de Colores, las otras seis calcan directamente una de las seis ALMAs humanas de Undertale (Paciencia, Perseverancia, Valentía, Bondad, Justicia e Integridad); a Flowery, como líder, le toca la séptima: la Determinación — la misma virtud que en Undertale define a Flowey precisamente por no tener ALMA propia. Es una elección de diseño que refuerza su naturaleza corrupta frente a sus hermanas: mientras ellas son fieles a virtudes de connotación positiva, a él le toca la única capaz de volverse peligrosa sin un ALMA que la temple. Ver [[7 Flores de Colores]] para el desarrollo completo de las siete.
+>
+> ![[Flowery_screenshot_end_the_dream.png]]
+> *Flowery y sus seis hermanas, todas juntas frente al grupo en el combate final de Top of Castle — la Determinación al frente del resto de virtudes.*
+
 > [!question]- Paralelismo con Flowey (Undertale)
 > ![[Flowery_face_eyes_open.png]]
 > *Su talksprite con los ojos abiertos, en un dorado oscuro sobre esclerótica blanca — visible solo tras derrotarlo. Flowery no es ni Lightner ni Darkner: es un ser vivo, una flor con sapiencia, y esta forma de ojos es exclusiva suya dentro del juego.*
@@ -156,9 +162,6 @@ confianza: fuerte
 
 ![[flowery_BromideR_item.png]]
 *El objeto BromideR, un coleccionable con su imagen dentro del propio juego.*
-
-![[Flowery_screenshot_end_the_dream.png]]
-*"End the dream" — el texto que acompaña una de las opciones de combate contra él, central en su mecánica de derrota no violenta.**
 
 ## Relacionado
 - [[Ralsei]]
