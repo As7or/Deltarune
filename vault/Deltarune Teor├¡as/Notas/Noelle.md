@@ -23,22 +23,22 @@ confianza: fuerte
 > - 💌 **Enamorada en secreto** de Susie, sin decírselo a nadie salvo, veladamente, a su padre
 
 ## Quién es
-Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, amable y con tendencia a disculparse constantemente.
+Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, amable y con tendencia a disculparse constantemente — su timidez y su necesidad constante de aprobación reflejan, en buena parte, la presión que recibe en casa, sobre todo de Carol.
 
 > [!tip]- Ficha de personalidad
 > - Le teme a los humanos escondidos bajo su cama (por las bromas de Kris de pequeño) — su padre la describe como alguien a quien "todo le asusta" y directamente "indefensa".
 > - Puede tener rasgos ligeramente masoquistas: fantasea con que Susie la "regañe" y dice que el arma Ragger "se siente bien".
 > - Le encantan las películas de terror pese a que la asustan.
-> - Tiene un blog personal ("holidaygirl1225") dedicado a "secretos de videojuegos, glitches y teorías".
+> - Tiene un blog personal ("holidaygirl1225") dedicado a "secretos de videojuegos, glitches y teorías" — su existencia se confirma dentro del propio Cap.5, no solo en el ARG.
 > - Es zurda, como Dess y, aparentemente, Carol.
 > - Antes de Kris, [[Berdly]] copiaba sus apuntes en secreto para parecer el más listo de la clase.
 > - De pequeña, Kris le hizo creer que ICE-E era real y se comía a los niños, hasta que Dess le golpeó con un bate de wiffle ball para que dejara de mentirle — el mismo tipo de arma que empuña el Caballero Rugiente (ver más abajo).
 >
-> ![[Noelle_screenshot_ICE-E_prank.png]]
-> *Noelle recordando la broma de ICE-E — y el bate de wiffle ball con el que Dess castigó a Kris por ella.*
->
 > ![[Noelle_talksprite.png]]
 > *Su talksprite, el retrato usado en los diálogos.*
+
+![[Noelle_screenshot_ICE-E_prank.png]]
+*Noelle recordando la broma de ICE-E — "L-like when you told me ICE-E was real and eats kids..." — y el bate de wiffle ball con el que Dess castigó a Kris por mentirle.*
 
 ## Historia por capítulos
 
@@ -86,10 +86,7 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > *Noelle en la iglesia, poco antes de la visita a su casa.*
 >
 > ![[kriss_screenshot_Dess's_closet.png]]
-> *El armario de la habitación de Dess, donde el ALMA de Kris queda atrapada junto a la guitarra.*
->
-> ![[asriel_clothes_in_dess_room.png]]
-> *Ropa de Asriel guardada entre las cosas de Dess — otro indicio de lo unidos que estaban ambos hermanos mayores.*
+> *El armario de la habitación de Dess, donde el ALMA de Kris queda atrapada junto a la guitarra. Entre las cosas guardadas ahí dentro hay una camiseta a rayas verdes y amarillas y, en una caja, el retenedor dental de Asriel — objetos suyos que llevaban años acumulados en el cuarto de Dess, otro indicio de lo unidos que estaban ambos hermanos mayores.*
 >
 > > [!danger]- Ruta Rara del Cap.4
 > > Ya en su casa, Noelle pide hablar a solas con Kris; este se arranca el ALMA y la esconde en una caja de regalo del cuarto de invitados antes de entrar en la habitación de Noelle. El jugador guía entonces al ALMA —ya liberada del cuerpo de Kris— por los conductos de ventilación hasta esa misma habitación; si no se la devuelve a tiempo al cuerpo, la escena se corta y la ruta se aborta directamente.
@@ -124,6 +121,9 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 
 > [!quote]- Kris
 > Amigos de la infancia; Kris solía gastarle bromas de las que Dess siempre la rescataba. Tras su desaparición, Kris se distanció. En el Cap.2 hacen una tregua genuina; en la Ruta Rara, esa relación se tensa hasta el terror.
+>
+> ![[kris_hand_conversation_of_noelle_susie_of_videogame.png]]
+> *El ALMA de Kris, separada de su cuerpo, escuchando a escondidas a Noelle y Susie hablar de un videojuego en el cuarto de Dess — "One day, the protagonist wakes up without a hand..."*
 
 > [!quote]- Dess (su hermana mayor)
 > Antes de que empezara el juego, Noelle y Dess eran muy cercanas: veían películas de miedo juntas y Dess la consolaba cuando algo la asustaba, además de castigar a Kris cuando le gastaba bromas pesadas. De pequeñas exploraban el bosque del cementerio junto a Kris y Asriel; ambas parejas de hermanos también iban juntas a la iglesia y construyeron juntos un muñeco de ángel para el árbol de Navidad. La desaparición de Dess la marcó profundamente — de niña, se quedó completamente en blanco al tener que deletrear la palabra "December" en un concurso de ortografía (el nombre real de su hermana), perdiendo la competición por el bloqueo emocional. Todavía conserva varios salvapantallas con fotos suyas, y evita entrar en su habitación o tocar sus cosas por respeto o tristeza, aunque Susie termina convenciéndola de soltar un poco esos principios. Dess tocaba la guitarra y cantaba en un grupo, "Blood Crushers The Band", muy probablemente junto a Asriel. Ver [[Dess]] para su ficha completa.
@@ -162,7 +162,7 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > *Noelle visitando a Rudy en el hospital, en el Cap.1.*
 >
 > ![[Noelle_overworld_gaming_db2.gif]]
-> *Padre e hija jugando juntos a Dragon Blazers III durante esa misma visita.*
+> *Noelle enfrascada en Dragon Blazers III durante esa misma visita — el sprite del juego solo la muestra a ella, aunque el diálogo confirma que juegan juntos desde la cama de Rudy.*
 
 > [!quote]- Carol (su madre)
 > Mucho más distante que con su padre — el propio Rudy la describe como "dura" con Noelle, y Carol le exige un nivel de perfección y apariencia poco razonable para una adolescente. La tensión llega a un punto de ruptura visible en el Cap.4, cuando Susie se planta directamente ante Carol para proteger a Noelle en su propia casa.
@@ -189,12 +189,18 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 
 > [!question]+ ¿El segundo héroe de la Profecía?
 > La silueta del segundo héroe en la Profecía completa empuña una espada — y aunque en una partida normal es imposible, editando el archivo de guardado se puede forzar a Noelle a unirse al grupo en los Caps. 3 y 4, revelando que sí tiene interacciones propias con el equipo pensadas de antemano: puede equipar el Black Shard (la espada más fuerte del juego, normalmente exclusiva de Kris) y también el Jingle Blade, otra espada. Ralsei da a entender además que poder equiparse cintas es una habilidad compartida específicamente por los tres héroes de la Profecía, y Noelle puede equiparse la PrincessRibbon sin problema. Curiosamente, si se le prueba el Shadow Mantle, lo rechaza con la frase "esto es para alguien... más alto", y el texto descriptivo de equiparle el Black Shard está directamente en blanco — una marca típica de contenido sin terminar en los archivos del juego, no de un rechazo narrativo. Nada de esto es accesible en una partida normal, así que se trata de datos de diseño encontrados por la comunidad, no de una confirmación dentro de la historia jugable.
+>
+> ![[12_the_second_hero_the_girl_with_hope_crossed_on_her_heart.gif]]
+> *La vidriera de la Profecía sobre "el segundo héroe": "The second hero. The girl, with hope crossed on her heart." — de las tres siluetas, es la única que el propio texto identifica explícitamente como mujer.*
 
 > [!question]- ¿Cuánto sabe realmente sobre "ti"?
 > En la Ruta Rara, Noelle es uno de los pocos personajes de todo Deltarune que llega a ser consciente de la influencia del Jugador sobre Kris — una percepción que solo comparten, en mayor o menor medida, la Voz de la introducción y Ralsei. Incluso en la ruta normal, deja entrever que nota a Kris comportándose "distinto a como es él mismo" en ciertos momentos, sin llegar a verbalizarlo del todo. Es, junto con Ralsei, de los personajes que más cerca están de "romper" esa cuarta pared sin hacerlo abiertamente.
 
 > [!question]- ¿Es ella misma una "llave" más, en paralelo con Yellow?
 > En la Ruta de la Espada secreta del Cap.3, el White Cloak (que la representa a ella dentro de ese minijuego) se consume en una puerta exactamente igual que la Llave de Hielo, con los dos avisos seguidos en pantalla: "The ice key was used up. She was used up." — tratándola, textualmente, como una llave más que se agota. Ver el desarrollo completo de esta comparación, incluido el juego de palabras "Just-Ice" con la Llave Amarilla de Yellow, en [[7 Flores de Colores]]. **Teoría de fans muy especulativa, sin confirmación directa.**
+>
+> ![[noelle_she_was_used_up.png]]
+> *El aviso literal que acompaña al White Cloak al consumirse en la puerta — tratándola como una llave más.*
 
 > [!question]- 🎲 Si el Caballero abrió la Fuente, ¿por qué gira todo en torno a ella?
 > Dato que corrige una idea muy extendida en el fandom: la Fuente del Cap.2 (la del laboratorio de la biblioteca, origen del Mundo Cíber) **no la abre Noelle** — la wiki confirma que la abre el Caballero Rugiente, en algún momento después del Cap.1. Antes de esa confirmación circulaba una teoría de vídeo de análisis que discutía si había sido ella o, alternativamente, Asriel —el argumento era que buena parte del Mundo Cíber gira en torno al concurso de deletreo donde Noelle se bloqueó al tener que deletrear "December" (el nombre real de Dess) tras su desaparición, algo que Asriel sí podría haber presenciado y ella no—. Con el Caballero confirmado como quien abre la Fuente, la pregunta cambia de sitio: ¿por qué un mundo que abre él está tan centrado en un trauma tan personal y específico de Noelle? Sigue sin haber respuesta textual — la mecánica exacta de "de quién es la voluntad" que da forma a un Mundo Oscuro no está del todo clara. Ver [[Fuentes Oscuras]].
@@ -203,7 +209,7 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > *El concurso de deletreo: Noelle se bloquea al tener que deletrear "December", el nombre real de Dess.*
 
 > [!question]- ¿Quién es "ella" en "¿Cuánto tardó en sonreír?"
-> Desde la Spamton Sweepstakes de mayo de 2025 existe una página real (deltarune.com/chapter4/thankyou/) que pide un email y la respuesta a esa pregunta exacta; toda respuesta válida genera un correo de confirmación, pero nadie ha logrado identificar todavía la respuesta "correcta" ni a quién se refiere "ella" —hay quien apunta a Noelle, quien a Dess, sin ninguna base firme por ahora—. Toby Fox reabrió el propio formulario en diciembre de 2025 dando "otra oportunidad" a quienes ya habían respondido, así que sigue siendo un misterio abierto y sin resolver por la comunidad a día de hoy. **Sin ninguna confirmación de a qué personaje se refiere ni de cuál es la respuesta correcta.**
+> Desde la Spamton Sweepstakes de mayo de 2025 existe una página real (deltarune.com/chapter4/thankyou/) con la pregunta exacta "How long did it take her to smile?", que pide un email y una respuesta numérica; toda respuesta válida generaba un correo de confirmación en blanco, seguido de meses de silencio. En noviembre de 2025 la página reabrió con la misma pregunta — esta vez, quien mandaba algo parecido a una respuesta razonable recibía un correo con una pista críptica del estilo "so, she never stopped smiling" o "so, before the sun went down", junto a la frase "Move forward with this answer". Tras el anuncio del Cap.5, el sitio volvió a abrirse una tercera vez con una pregunta distinta ("¿Dónde tendrá lugar?"), aparentemente accesible solo para quien ya hubiera recibido esa frase antes — durante esa ventana el propio sitio llegó a mostrar el contador "1.571 participantes disponibles, 1.229 respuestas recibidas". La comunidad interpreta mayoritariamente que "ella" es Noelle, ligada a su Ruta Rara, aunque también hay quien apunta a Dess — sin ninguna confirmación oficial de a qué personaje se refiere ni de cuál es la respuesta "correcta". **Puzzle ARG real y verificable en su mecánica; la identidad de "ella" y el significado de las pistas siguen sin confirmación oficial.**
 
 ## Curiosidades
 - Su mote de blog "holidaygirl1225" confirma el tema navideño hasta en los detalles.

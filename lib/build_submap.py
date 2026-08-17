@@ -29,6 +29,32 @@ NODE_COLOR_MAP = {
     "#6b7280": "#6b7280", "6b7280": "#6b7280", None: "#8a7a5c",
 }
 
+_sprite_index = None
+def _build_sprite_index():
+    global _sprite_index
+    _sprite_index = {}
+    if not SPRITES_DIR:
+        return
+    for dirpath, _, filenames in os.walk(SPRITES_DIR):
+        rel_dir = os.path.relpath(dirpath, SPRITES_DIR)
+        for fname in filenames:
+            rel_path = fname if rel_dir == "." else f"{rel_dir}/{fname}"
+            _sprite_index.setdefault(fname, rel_path)
+
+def resolve_sprite_rel(file_field):
+    """Los nodos 'file' del canvas guardan la ruta tal cual la escribio Obsidian
+    (p.ej. 'Sprites/subcarpeta/archivo.gif'). Si esa ruta relativa a Sprites/
+    existe tal cual, se usa; si no, se busca recursivamente por nombre de
+    archivo (igual que el resolver de notas), para no perder subcarpetas."""
+    rel = file_field.split("Sprites/", 1)[-1] if "Sprites/" in file_field else file_field.split("/")[-1]
+    if SPRITES_DIR and os.path.exists(os.path.join(SPRITES_DIR, rel)):
+        return rel
+    global _sprite_index
+    if _sprite_index is None:
+        _build_sprite_index()
+    basename = file_field.split("/")[-1]
+    return _sprite_index.get(basename, basename)
+
 def note_for_title(title, fallback_stem):
     if title in NOTE_STEMS:
         return slugify(title)
@@ -93,8 +119,6 @@ PAGE_CSS = '''
   .node{ position:absolute; text-align:center; cursor:pointer; user-select:none; transition:transform .15s ease; z-index:2; }
   .node:hover{ transform:rotate(0deg) scale(1.06) !important; z-index:10; }
   .node.node-center:hover{ transform:rotate(0deg) scale(1.04) !important; }
-  .node.dimmed{ opacity:.22; filter:saturate(.5); }
-  .string-group{ cursor:default; transition:opacity .2s ease; }
   .card{ background:#fdfaf3; padding:8px 8px 12px 8px; border-radius:2px; box-shadow:3px 6px 10px var(--cork-shadow); }
   .center-card{ padding:10px 10px 14px 10px; }
   .thumb{ width:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; background-color:#3a3a3a; }
@@ -116,7 +140,7 @@ PAGE_CSS = '''
   #note-panel.mode-side{ top:0; right:-560px; width:540px; height:100%; transition:right .28s ease; }
   #note-panel.mode-side.open{ right:0; }
   #note-panel.mode-center{
-    top:50%; left:50%; right:auto; width:min(760px,82vw); height:86vh; border-radius:12px;
+    top:50%; left:50%; right:auto; width:min(920px,88vw); height:86vh; border-radius:12px;
     transform:translate(-50%,-50%) scale(0.94); opacity:0; pointer-events:none;
     box-shadow:0 24px 70px rgba(0,0,0,0.55); transition:opacity .2s ease, transform .2s ease;
   }
@@ -147,7 +171,7 @@ def build_submap(canvas_path, title_name):
         img_node = file_nodes.get(nid + "-img")
         img_name = None
         if img_node:
-            img_name = img_node["file"].split("/")[-1]
+            img_name = resolve_sprite_rel(img_node["file"])
             used_file_ids.add(nid + "-img")
         node_color = NODE_COLOR_MAP.get(n.get("color"), "#8a7a5c")
         note_stem = note_for_title(title, title_name)
@@ -165,7 +189,7 @@ def build_submap(canvas_path, title_name):
         items.append({
             "id": nid, "title": "", "body": "", "cx": cx, "cy": cy,
             "w": n["width"], "h": n["height"], "color": "#8a7a5c",
-            "img": n["file"].split("/")[-1], "note": None, "is_center": False,
+            "img": resolve_sprite_rel(n["file"]), "note": None, "is_center": False,
         })
 
     item_ids = {it["id"] for it in items}
@@ -228,10 +252,7 @@ def build_submap(canvas_path, title_name):
   </div>''')
 
     nodes_str = "\n".join(node_html)
-    links_js = ",\n  ".join([
-        "[" + ",".join(json.dumps(v, ensure_ascii=False) for v in (l['from'], l['to'], l['color'], l['label'])) + "]"
-        for l in links
-    ])
+    links_js = ",\n  ".join([f"['{l['from']}','{l['to']}','{l['color']}','{html.escape(l['label'])}']" for l in links])
 
     page = f'''<!DOCTYPE html>
 <html lang="es">
@@ -284,7 +305,7 @@ viewport.addEventListener('wheel', (e) => {{
   const delta = -e.deltaY * 0.0015;
   const newZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoom + delta * zoom));
   panX = px - boardX * newZoom; panY = py - boardY * newZoom; zoom = newZoom;
-  applyTransform();
+  applyTransform(); draw();
 }}, {{ passive:false }});
 
 function center(el){{
@@ -327,31 +348,9 @@ function showHighlight(p1,p2,mx,my,color,label){{
 }}
 function hideHighlight(){{ highlightSvg.innerHTML=''; }}
 
-const nodeGroups = {{}};
-let pinnedNodeId = null;
-
-function applyNetworkHighlight(nid){{
-  const mine = nodeGroups[nid] || [];
-  if(!mine.length) return;
-  document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '0.12');
-  document.querySelectorAll('.node').forEach(other=> other.classList.add('dimmed'));
-  const selfEl = document.querySelector(`[data-id="${{nid}}"]`);
-  if(selfEl) selfEl.classList.remove('dimmed');
-  mine.forEach(({{g,other}})=>{{
-    g.style.opacity = '1';
-    const otherEl = document.querySelector(`[data-id="${{other}}"]`);
-    if(otherEl) otherEl.classList.remove('dimmed');
-  }});
-}}
-function clearNetworkHighlight(){{
-  document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
-  document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
-}}
-
 function draw(){{
   svg.innerHTML = '';
   highlightSvg.innerHTML = '';
-  for(const k in nodeGroups) delete nodeGroups[k];
   links.forEach(([a,b,color,label])=>{{
     const elA = document.querySelector(`[data-id="${{a}}"]`);
     const elB = document.querySelector(`[data-id="${{b}}"]`);
@@ -361,7 +360,6 @@ function draw(){{
     const sag = Math.min(50, dist*0.12);
     const mx = (p1.x+p2.x)/2, my = (p1.y+p2.y)/2 + sag;
     const g = document.createElementNS(NS,'g');
-    g.setAttribute('class','string-group');
     const shadow = document.createElementNS(NS,'path');
     shadow.setAttribute('class','string-shadow');
     shadow.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my+5}} ${{p2.x}} ${{p2.y}}`);
@@ -376,23 +374,12 @@ function draw(){{
     hit.setAttribute('d', `M ${{p1.x}} ${{p1.y}} Q ${{mx}} ${{my}} ${{p2.x}} ${{p2.y}}`);
     g.appendChild(hit);
     svg.appendChild(g);
-    (nodeGroups[a] = nodeGroups[a]||[]).push({{g, other:b}});
-    (nodeGroups[b] = nodeGroups[b]||[]).push({{g, other:a}});
     hit.addEventListener('mouseenter', ()=> showHighlight(p1,p2,mx,my,color,label));
     hit.addEventListener('mouseleave', hideHighlight);
   }});
-  if(pinnedNodeId) applyNetworkHighlight(pinnedNodeId);
 }}
 window.addEventListener('resize', draw);
 draw();
-
-document.querySelectorAll('.node').forEach(n=>{{
-  const nid = n.dataset.id;
-  n.addEventListener('mouseenter', ()=> applyNetworkHighlight(nid));
-  n.addEventListener('mouseleave', ()=>{{
-    if(pinnedNodeId){{ applyNetworkHighlight(pinnedNodeId); }} else {{ clearNetworkHighlight(); }}
-  }});
-}});
 
 let mode = null, dragEl=null, offX=0, offY=0, startX=0, startY=0, moved=false;
 let panStartX=0, panStartY=0, panOrigX=0, panOrigY=0;
@@ -429,8 +416,6 @@ window.addEventListener('mouseup', ()=>{{
       const note = dragEl.dataset.note;
       const t = dragEl.querySelector('.title');
       const label = t ? t.textContent : '{html.escape(title_name)}';
-      pinnedNodeId = dragEl.dataset.id;
-      applyNetworkHighlight(pinnedNodeId);
       if(note){{ openNote(note, label); }} else {{ openNote(null, label); }}
     }}
   }}
@@ -457,7 +442,7 @@ function openNote(noteStem, label){{
   else {{ frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">Todavia no hay nota para <b>'+label+'</b>.</body>'); }}
   panel.classList.add('open'); overlay.classList.add('open');
 }}
-function closeNote(){{ panel.classList.remove('open'); overlay.classList.remove('open'); pinnedNodeId = null; clearNetworkHighlight(); }}
+function closeNote(){{ panel.classList.remove('open'); overlay.classList.remove('open'); }}
 document.getElementById('note-close').addEventListener('click', closeNote);
 overlay.addEventListener('click', closeNote);
 </script>
