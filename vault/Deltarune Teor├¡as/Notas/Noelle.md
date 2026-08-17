@@ -108,6 +108,9 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > >
 > > **Si se aborta la ruta** —eligiendo "Parar" lo suficiente, o simplemente no siendo lo bastante rápido con "Proceder" antes de que expire el temporizador—, la escena no vuelve sin más a la ruta normal: Noelle dice que se equivocó, y el capítulo continúa desde ahí en un estado alterado, distinto tanto de la Ruta Rara completa como de una partida normal limpia. Más adelante en ese mismo capítulo aparece la "Rosa Resquebrajada" (Shattered Rose) como eco visual de lo ocurrido.
 > >
+> > ![[noelle_weird_route_wathing_her_life.png]]
+> > *"Watching someone else move me through my life." — el Mundo Claro y el Oscuro partidos en la misma imagen, resumiendo en una sola línea de qué va toda la Ruta Rara.*
+> >
 > > ![[Weird_Route_Noelle_Face2.webp]]
 > > *El rostro de Noelle ya con la sonrisa desquiciada e iris encogidos — el punto de no retorno de la Ruta Rara.*
 > >
@@ -195,12 +198,18 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 
 > [!question]- ¿Cuánto sabe realmente sobre "ti"?
 > En la Ruta Rara, Noelle es uno de los pocos personajes de todo Deltarune que llega a ser consciente de la influencia del Jugador sobre Kris — una percepción que solo comparten, en mayor o menor medida, la Voz de la introducción y Ralsei. Incluso en la ruta normal, deja entrever que nota a Kris comportándose "distinto a como es él mismo" en ciertos momentos, sin llegar a verbalizarlo del todo. Es, junto con Ralsei, de los personajes que más cerca están de "romper" esa cuarta pared sin hacerlo abiertamente.
+>
+> ![[noelle_kris_you_changed.png]]
+> *"Kris, YOU actually changed!" — junto al lago, en la Ruta Rara del Cap.5, verbalizando directamente lo que el resto de la ruta solo insinúa.*
 
 > [!question]- ¿Es ella misma una "llave" más, en paralelo con Yellow?
 > En la Ruta de la Espada secreta del Cap.3, el White Cloak (que la representa a ella dentro de ese minijuego) se consume en una puerta exactamente igual que la Llave de Hielo, con los dos avisos seguidos en pantalla: "The ice key was used up. She was used up." — tratándola, textualmente, como una llave más que se agota. Ver el desarrollo completo de esta comparación, incluido el juego de palabras "Just-Ice" con la Llave Amarilla de Yellow, en [[7 Flores de Colores]]. **Teoría de fans muy especulativa, sin confirmación directa.**
 >
 > ![[noelle_she_was_used_up.png]]
 > *El aviso literal que acompaña al White Cloak al consumirse en la puerta — tratándola como una llave más.*
+>
+> ![[noelle_key_theory_yellow_key.webp]]
+> *El mismo tipo de aviso —"(The Yellow Key got used up.)"— aparece con la Llave Amarilla de Yellow, la base directa del paralelismo "Just-Ice" entre ambas.*
 
 > [!question]- 🎲 Si el Caballero abrió la Fuente, ¿por qué gira todo en torno a ella?
 > Dato que corrige una idea muy extendida en el fandom: la Fuente del Cap.2 (la del laboratorio de la biblioteca, origen del Mundo Cíber) **no la abre Noelle** — la wiki confirma que la abre el Caballero Rugiente, en algún momento después del Cap.1. Antes de esa confirmación circulaba una teoría de vídeo de análisis que discutía si había sido ella o, alternativamente, Asriel —el argumento era que buena parte del Mundo Cíber gira en torno al concurso de deletreo donde Noelle se bloqueó al tener que deletrear "December" (el nombre real de Dess) tras su desaparición, algo que Asriel sí podría haber presenciado y ella no—. Con el Caballero confirmado como quien abre la Fuente, la pregunta cambia de sitio: ¿por qué un mundo que abre él está tan centrado en un trauma tan personal y específico de Noelle? Sigue sin haber respuesta textual — la mecánica exacta de "de quién es la voluntad" que da forma a un Mundo Oscuro no está del todo clara. Ver [[Fuentes Oscuras]].
