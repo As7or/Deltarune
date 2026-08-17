@@ -264,7 +264,7 @@
    "fromSide": "right",
    "toNode": "s1",
    "toSide": "left",
-   "color": "1"
+   "color": "3"
   },
   {
    "id": "e2",
@@ -400,7 +400,7 @@
    "fromSide": "right",
    "toNode": "s_jackenstein",
    "toSide": "left",
-   "color": "3"
+   "color": "4"
   },
   {
    "id": "e_islaolvidada",
@@ -448,6 +448,62 @@
    "fromSide": "left",
    "toNode": "s_islaolvidada",
    "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_s3_squientu",
+   "fromNode": "s3",
+   "fromSide": "right",
+   "toNode": "s_quien_es_tu",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_s2_s4",
+   "fromNode": "s2",
+   "fromSide": "left",
+   "toNode": "s4",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_s1_jackenstein",
+   "fromNode": "s1",
+   "fromSide": "bottom",
+   "toNode": "s_jackenstein",
+   "toSide": "top",
+   "color": "4"
+  },
+  {
+   "id": "cross_s0_s1",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_shand_sch5",
+   "fromNode": "s_hand",
+   "fromSide": "left",
+   "toNode": "s_ch5",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_verde_ralsei",
+   "fromNode": "s_verde_envidia",
+   "fromSide": "left",
+   "toNode": "s5",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_verde_isla",
+   "fromNode": "s_verde_envidia",
+   "fromSide": "bottom",
+   "toNode": "s_islaolvidada",
+   "toSide": "top",
    "color": "3"
   }
  ]
