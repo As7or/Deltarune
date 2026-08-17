@@ -152,6 +152,12 @@ En el Mundo Claro, las 7 Flores siguen siendo simples flores en macetas, guardad
 > [!question]- ¿Es Noelle, en el fondo, una "llave" más — como la que reparte Yellow?
 > En el Cap.5, Yellow entrega al grupo una Llave Amarilla real en el ala oeste del Castillo de las Flores para poder avanzar — su ALMA es la Justicia. Muy por otro lado, en la Ruta de la Espada secreta del Cap.3 (vía la Llave de Hielo), el White Cloak —que representa literalmente a Noelle dentro de ese minijuego— acompaña al jugador y se consume justo en la misma puerta que la propia llave: el juego muestra los dos avisos seguidos, *"The ice key was used up. She was used up."* Es decir, Noelle es tratada, textualmente, como una segunda llave que se "gasta" igual que un objeto.
 >
+> ![[noelle_she_was_used_up.png]]
+> *El aviso literal que acompaña al White Cloak al consumirse en la puerta — tratándola como una llave más.*
+>
+> ![[noelle_key_theory_yellow_key.webp]]
+> *El mismo tipo de aviso —"(The Yellow Key got used up.)"— aparece con la propia Llave Amarilla de Yellow, la base directa del paralelismo.*
+>
 > La coincidencia que alimenta la teoría es el propio juego de palabras "JUST-ICE" (Justicia = JUST + ICE) que ya usaba Undertale para el ALMA de la Integridad — combinando exactamente los dos elementos de este paralelismo: la Justicia de Yellow y el Hielo asociado a Noelle (el White Cloak, el IceShock, la propia Ruta Rara Snowgrave). Bajo esa lectura, el patrón "algo/alguien se usa como llave y se agota" se repetiría a propósito entre el Cap.3 (Noelle-como-llave) y el Cap.5 (la Llave Amarilla de Yellow), unidos por el mismo chiste fonético que Undertale ya había sembrado años antes. **Teoría de fans muy especulativa, apoyada en un patrón de texto y un juego de palabras curioso — no hay ninguna confirmación directa de Toby Fox de que ambas cosas estén conectadas a propósito.**
 
 > [!question]- ¿A quién refleja cada Flor, más allá del ALMA que representa?

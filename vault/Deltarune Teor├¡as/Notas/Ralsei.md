@@ -7,10 +7,10 @@ familia: ninguna consanguínea confirmada — se autoproclama príncipe sin súb
 confianza: fuerte
 ---
 
-| Sin gorro                                                                                                            | Con gorro (Cap.1-3, parte del Cap.5)                                                                                                                   | Sin gafas                                                                                                        |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| ![[Ralsei_overworld_hatless.png\|289]]                                                                               | ![[Ralsei_con_gorro.gif\|282]]                                                                                                                         | ![[Ralsei_face_no_glasses.png]]                                                                                  |
-| *Sin el gorro, su parecido con Asriel y Toriel es mucho más evidente — pelaje blanco, orejas caídas, cuernos rosas.* | *El gorro puntiagudo le tapa los cuernos y ensombrece la cara. La captura de abajo es del Cap.1, cuando se presenta como "el Príncipe de este Reino".* | *Sin gafas revela iris rosas y una sombra de ojos marcada, con pestañas largas — un detalle que rara vez se ve.* |
+| Sin gorro                                                                                                            | Con gorro (Cap.1-3, parte del Cap.5)                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![[Ralsei_overworld_hatless.png\|289]]                                                                               | ![[Ralsei_con_gorro.gif\|282]]                                                                                                                         |
+| *Sin el gorro, su parecido con Asriel y Toriel es mucho más evidente — pelaje blanco, orejas caídas, cuernos rosas.* | *El gorro puntiagudo le tapa los cuernos y ensombrece la cara. La captura de abajo es del Cap.1, cuando se presenta como "el Príncipe de este Reino".* |
 
 *Nota de tabla: Ralsei no tiene forma "Mundo Claro" propia (es un Darkner nativo) — la comparación aquí es entre sus dos looks dentro del propio Mundo Oscuro, ya que el gorro es la base visual de toda la teoría "Ralsei es Asriel".*
 
@@ -46,9 +46,6 @@ confianza: fuerte
 > ![[Ralsei_screenshot_elevator.png]]
 > *Ralsei junto al grupo en uno de los ascensores del Castillo de Cartas, pidiéndole a Susie que use ACT en vez de pelear.*
 >
-> ![[Ralsei_screenshot_room.png]]
-> *Otro momento del mismo pasaje, con Ralsei insistiendo en su filosofía de la piedad: "Susie... Seríamos felices si ACTuaras con nosotros."*
->
 > Su ingenuidad casi le cuesta la vida en el enfrentamiento final contra el Rey: acepta su falsa rendición y lo cura sin dudarlo, lo que el Rey aprovecha para traicionarles y derrotarles en el acto — una lección de la que Ralsei sale escarmentado, sin dejar de creer del todo en la piedad como método. Fuera de combate, disfruta horneando tartas, sobre todo para sus amigos.
 
 > [!example]+ Capítulo 2 — El mayordomo de Queen
@@ -70,6 +67,9 @@ confianza: fuerte
 
 > [!example]+ Capítulo 4 — Empezar a tener una habitación propia
 > Si se visita su habitación en Castle Town, se desencadena una escena en la que Susie le insiste en que busquen muebles y decoración para ella — el primer paso de Ralsei hacia reconocer que puede querer algo "solo para él". Los objetos reunidos en los Santuarios Oscuros de este capítulo aparecerán después en esa misma habitación.
+>
+> ![[Ralsei_screenshot_room.png]]
+> *"My own room? ... I... I don't need a room!" — la reacción inicial de Ralsei ante la idea de tener algo solo para él, antes de que Susie insista.*
 >
 > En algún punto del capítulo, Ralsei protesta abiertamente ante la idea de crear una fuente más: "¡NO CREÉIS OTRA FUENTE!!!"
 >

@@ -126,6 +126,22 @@ confianza: fuerte
 > ![[tenna_profecy.webp]]
 > *El fragmento de la Profecía que se refiere a Tenna como "Señor de las Pantallas".*
 
+> [!question]- Todo lo escondido en el VHS de presentación
+> El vídeo VHS con el que se presenta Tenna ("Mr. (Ant) Tenna's TV Time!") no es una simple cortinilla — es un archivo de vídeo real dentro del juego, y varios detalles sueltos de ahí dentro han generado teorías propias.
+>
+> ![[tenna_introduction.webp]]
+> *El fotograma más repetido del VHS de presentación.*
+>
+> **El huevo y el Pipis.** En un momento del vídeo aparece un Pipis (la misma criatura azul que Tenna guarda desde su ruptura con Spamton) recibiendo disparos repetidos, acompañado del eslogan "You can't get this from an EGG!" ("¡Esto no lo consigues de un HUEVO!"). Es la primera aparición del Pipis en todo el capítulo, antes incluso de que el propio Tenna lo mencione en persona — y llega envuelto en un chiste publicitario de anuncio de televisión ochentero, no como un dato serio.
+>
+> **La silueta azul en "modo reparación".** Una lectura de la comunidad (recogida por primera vez por la usuaria de Tumblr katy-133) se fija en que, junto a la silueta roja de Tenna que se mueve con fluidez durante el VHS, hay un segundo Tenna en silueta azul que se mueve de forma rígida, casi como un cartón recortado — un simple "placeholder" en vez de una animación completa. La teoría propone que el vídeo se grabó originalmente para presentar a Tenna **y** a Spamton juntos (de ahí el huevo azul justo antes, ya asociado al color de Spamton), y que tras la ruptura entre ambos, Tenna regrabó su propia silueta encima sin sustituir del todo la de su antiguo socio, dejando ese "hueco" a medio arreglar. La cuenta de sílabas del propio eslogan encajaría con la teoría: "Mr.-Ant-Ten-na's" tiene las mismas sílabas que "Spam-ton-and-Ten-na's".
+>
+> **La pantalla partida.** En un instante muy breve del mismo VHS, el logo de la tele se muestra partido en dos ("cleaved") — una imagen que no debería tener ningún motivo narrativo para Tenna, ya que él no parece saber nada de la Profecía ni de su propio papel en ella. La misma lectura de fandom apunta a que, si fue Spamton quien intervino en el montaje original del vídeo, y Spamton sí conoce (al menos en parte) su papel en la Profecía, ese detalle podría ser un resto suyo colado en el montaje sin que el propio Tenna lo entienda.
+>
+> **Guiños directos a Spamton en el diálogo posterior.** Ya fuera del VHS, Tenna suelta frases como "COWABUNGA-DERO! THAT'S THE SMOOTH TASTE OF TV TIME!" y "Fresh from the Juice, Fresh from the Juice! Make sure you don't get it on your shoese!" — ecos directos del vocabulario de Spamton ("cungadero", "fresh"). Si además se lleva la PuppetScarf o el Dealmaker en el inventario y no se ha completado la Ruta Rara del Cap.2, una interacción secreta en el Cold Place revela que Tenna sigue guardando el Pipis en un armario por su antiguo socio — y si Spamton aparece un instante, Tenna reacciona con auténtico pánico, asegura no reconocerlo, lo cubre de espuma y sale corriendo de la sala. **Todo lo anterior son pistas de texto y diseño reales; la lectura de que el VHS fue literalmente editado por o para Spamton es interpretación de fandom, sin confirmación textual directa de Toby Fox.**
+>
+> {{youtube:wd9hnjTQayk}}
+
 ## Curiosidades
 - Toby Fox pone la voz tanto a Tenna como a Spamton, Jevil, Queen y [[Flowery]].
 - Es uno de los pocos Darkners cuyo diseño está basado directamente en un objeto del propio salón de los Dreemurr (la televisión) en vez de en un objeto del armario o la escuela.

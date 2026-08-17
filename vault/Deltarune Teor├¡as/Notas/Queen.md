@@ -29,10 +29,16 @@ confianza: fuerte
 > [!example]+ Capítulo 2 — La tirana del Mundo Cíber
 > Tras presenciar al Caballero Rugiente crear una Fuente Oscura, Queen se obsesiona con crear la suya propia. Secuestra a Noelle en cuanto esta entra al Mundo Cíber junto a Berdly, intentando convertirla en una "peona voluntaria" que le permita expandir su poder — y repite varias veces su deseo de convertir el rostro de Noelle en uno robótico.
 >
+> ![[Queen_soundtrack.png]]
+> *"Also maybe I will make her face into a robot one?" — Queen amenazando con el rostro de Noelle nada más capturarla.*
+>
 > Traiciona tanto a Kris como a Berdly una vez consigue a Noelle, encerrando a todos los Lightners salvo a Ralsei, a quien recluta como mayordomo. Berdly se une a los héroes para intentar rescatarla, pero su plan fracasa y ambos son recapturados; Queen le conecta un cable a la cara para controlarlo del todo y lo envía a atacar al grupo.
 >
 > ![[Queen_battle.gif]]
 > *Queen en su combate a distancia, antes de retirarse a pilotar GIGA Queen.*
+>
+> ![[Attack_of_the_Killer_Queen_soundtrack.png]]
+> *"Queen blocks the way!" — el arranque de ese primer combate, con Kris, Susie y Ralsei ya enfrentados a ella.*
 >
 > ![[Berdly_joining_queen.png]]
 > *Berdly, ya sometido por Queen, antes de ser enviado a atacar al grupo.*
@@ -46,6 +52,9 @@ confianza: fuerte
 > *Uno de los muchos cuadros de la Mansión que Queen activa a distancia para disparar fuego.*
 >
 > Tras el combate, Queen se retira a su mecha GIGA Queen, dando un monólogo sobre el Caballero y su deseo de usar el poder de los Lightners para expandir el Mundo Cíber con más fuentes oscuras. El combate final contra el Thrash Robot (la fusión de Berdly, Susie, Kris y varios Darkners reclutados) termina con Queen casi noqueada por su propio ataque fallido, aunque logra atrapar a Susie, Kris y Ralsei con las manos desmontables del mecha in extremis.
+>
+> ![[Giga_Size_soundtrack.png]]
+> *El grupo, ya reunido, frente al mecha GIGA Queen a tamaño completo.*
 >
 > ![[GIGA_Queen_battle_punch.gif]]
 > *Uno de los puñetazos de GIGA Queen durante el combate final del Cap.2.*
@@ -105,11 +114,6 @@ confianza: fuerte
 - Su nombre completo, el número de serie Q5U4EX7YY2E9N, contiene en orden todas las letras necesarias para deletrear "Queen".
 - El tema de combate de GIGA Queen, "Knock You Down!!", está inspirado en el tema del jefe final de Mighty Morphin Power Rangers para SNES.
 - Todo el combate contra GIGA Queen, así como el minijuego de recreativa al inicio del Cap.2, es una referencia directa a Punch-Out!!.
-
-![[Queen_soundtrack.png]]
-![[Attack_of_the_Killer_Queen_soundtrack.png]]
-![[Giga_Size_soundtrack.png]]
-*Las portadas de sus tres temas principales: el de exploración, el de la persecución en coche por Cyber City, y el del combate contra GIGA Queen.*
 
 ## Relacionado
 - [[Berdly]]

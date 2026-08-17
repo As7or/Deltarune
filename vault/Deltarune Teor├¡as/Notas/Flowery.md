@@ -57,10 +57,6 @@ confianza: fuerte
 > *Flowery cuestionando a Kris sobre sus verdaderas intenciones al crear la Fuente.*
 >
 > En la batalla final en Top of Castle, Flowery se enfrenta al grupo junto a las otras seis flores usando el nuevo modo de ALMA Naranja, falseando sus propias estadísticas para parecer mucho más fuerte de lo que realmente es.
->
-> ![[Flowery_screenshot_POWER_menu.png]]
-> *El menú de estadísticas falseadas de Flowery, mostrando un poder muy superior al real.*
->
 > Su imprudencia acaba siendo su perdición: al enfrentarse directamente al Caballero Rugiente para intentar proteger a Asgore, resulta mortalmente herido — el Caballero lo parte en dos ante la mirada horrorizada de Ralsei.
 >
 > ![[Flowery_overworld_wounded.png]]
@@ -134,6 +130,9 @@ confianza: fuerte
 
 > [!question]+ ¿Por qué Flowery juega con sus propias stats, o se burla de ellas?
 > Cuando se une brevemente al grupo, sus estadísticas son directamente absurdas: LV 99, 999 HP y 99 en Ataque, Defensa y Magia — muy por encima de cualquier otro personaje del juego. Tras el encuentro de Floradinn, Flowery llega a presumir de tener "estadísticas máximas", a lo que Ralsei responde, incrédulo, "¡N... no puedes simplemente darte 999 en todo!!" — dejando claro que Flowery se ha asignado esos números él mismo, sin que el juego se los haya dado de forma "legítima" por el camino normal (subir de nivel, equipo, etc.).
+>
+> ![[Flowery_screenshot_POWER_menu.png]]
+> *La pantalla de estadísticas de Flowery: LV99, 99 en todo, y hasta un "Guts: 🍩🍩🍩🍩🍩" que no encaja con ninguna otra stat del juego.*
 >
 > El paralelismo con Flowey de Undertale es directo: igual que Flowey podía manipular partidas guardadas y tratar el propio sistema de juego como algo a su alcance controlar desde fuera de las reglas normales, Flowery hace lo mismo pero con las estadísticas numéricas en vez de con el propio SAVE — no se las toma en serio como un sistema que lo limita, sino como un juguete que puede rellenar a su antojo. Es, en el fondo, la misma clase de burla hacia la "cuarta pared" del propio juego, solo que aplicada a las stats en lugar de al guardado. **Confirmado en el propio juego que se asignó los números él mismo; la lectura de que esto es un guiño deliberado al comportamiento de Flowey es interpretación, no una declaración directa de Toby Fox.**
 

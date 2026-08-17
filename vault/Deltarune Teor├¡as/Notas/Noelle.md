@@ -108,7 +108,7 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > > ![[noelle_weird_route_wathing_her_life.png]]
 > > *"Watching someone else move me through my life." — el Mundo Claro y el Oscuro partidos en la misma imagen, resumiendo en una sola línea de qué va toda la Ruta Rara.*
 > >
-> > ![[Weird_Route_Noelle_Face2.webp]]
+> > ![[Weird_Route_Noelle_Face2_transparent.png]]
 > > *El rostro de Noelle ya con la sonrisa desquiciada e iris encogidos — el punto de no retorno de la Ruta Rara.*
 > >
 > > ![[Noelle_overworld_weird_route_wind_sprite_cap4.gif]]

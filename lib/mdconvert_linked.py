@@ -108,7 +108,7 @@ def resolve_note_stem(target):
 def img_url(name, sprites_prefix):
     return sprites_prefix + urllib.parse.quote(resolve_sprite_path(name))
 
-def inline_md(text, sprites_prefix, force_small=False, in_table=False):
+def inline_md(text, sprites_prefix, force_small=False):
     # Las imagenes y wikilinks se resuelven ANTES de escapar el texto (para que
     # nombres de archivo con apostrofes, & u otros caracteres no se corrompan al
     # pasar por html.escape). Se guardan como placeholders y se reinsertan al final.
@@ -120,34 +120,27 @@ def inline_md(text, sprites_prefix, force_small=False, in_table=False):
 
     def img_sub(m):
         inner = m.group(1)
-        parts = inner.split("|")
-        name = parts[0].strip()
-        explicit_w = None
-        if len(parts) > 1 and parts[-1].strip().isdigit():
-            explicit_w = int(parts[-1].strip())
+        name = inner.split("|")[0].strip()
         if force_small:
             cls = "inline-img-small"
         else:
             cls = "inline-img inline-img-alpha" if has_real_transparency(name) else "inline-img"
-        # dentro de una tabla, la altura ya la fija el CSS (table.note-table
-        # .inline-img{height:230px}) para que toda la fila quede a la misma
-        # escala visual — si ademas forzamos aqui un ancho explicito en
-        # pixeles, el navegador estira la imagen a esas dos medidas exactas
-        # a la vez (ancho fijo + alto fijo) sin respetar su proporcion real,
-        # deformandola. Por eso el ancho de "|numero" solo se aplica fuera
-        # de tablas.
-        style_attr = f' style="width:{explicit_w}px;max-width:100%;"' if (explicit_w and not in_table) else ""
-        return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt="" loading="lazy"{style_attr}>')
+        return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt="" loading="lazy">')
     text = re.sub(r"!\[\[(.+?)\]\]", img_sub, text)
+
+    def youtube_sub(m):
+        vid = m.group(1).strip()
+        embed = (f'<div class="yt-embed"><iframe src="https://www.youtube.com/embed/{vid}" '
+                 f'title="YouTube video" frameborder="0" '
+                 f'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+                 f'allowfullscreen loading="lazy"></iframe></div>')
+        return stash(embed)
+    text = re.sub(r"\{\{youtube:\s*([A-Za-z0-9_-]+)\s*\}\}", youtube_sub, text)
 
     def wikilink_sub(m):
         inner = m.group(1)
         target = inner.split("|")[0].strip()
         display = inner.split("|")[-1].strip()
-        submap_m = re.match(r"^Submapas/(.+?)\.canvas$", target)
-        if submap_m:
-            slug = slugify(submap_m.group(1))
-            return stash(f'<a class="wikilink submap-link" href="../submaps/{urllib.parse.quote(slug)}.html">{html.escape(display)}</a>')
         stem = resolve_note_stem(target)
         if stem:
             return stash(f'<a class="wikilink" href="{urllib.parse.quote(stem)}.html">{html.escape(display)}</a>')
@@ -203,7 +196,7 @@ def parse_table(block_lines, sprites_prefix):
         cells = split_row(r)
         out.append("<tr>")
         for idx, c in enumerate(cells):
-            out.append(f"<td>{inline_md(c, sprites_prefix, force_small=(idx in small_cols), in_table=True)}</td>")
+            out.append(f"<td>{inline_md(c, sprites_prefix, force_small=(idx in small_cols))}</td>")
         out.append("</tr>")
     out.append("</table>")
     return "\n".join(out)
@@ -241,39 +234,11 @@ def render_callout_block(lines, sprites_prefix, depth=0):
             while i < len(lines) and lines[i][0] > base_depth:
                 nested.append((lines[i][0]-base_depth, lines[i][1]))
                 i += 1
-            # un bloque anidado solo se trata como callout de verdad si su
-            # primera linea tiene cabecera [!tipo]; si no, es una cita simple
-            # (p.ej. una linea de dialogo citada dentro de otro callout) y se
-            # renderiza como blockquote llano, no como un postit azul vacio.
-            if nested and re.match(r"\[!\w+\][+-]?\s*", nested[0][1]):
-                body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
-            else:
-                inner = "".join(
-                    f"<p>{inline_md(c, sprites_prefix, force_small=force_small_here)}</p>"
-                    for _, c in nested if c.strip()
-                )
-                body_parts.append(f'<blockquote class="quoted-line">{inner}</blockquote>')
-            continue
-        if content.strip().startswith("|"):
-            table_block = []
-            while i < len(lines) and lines[i][0] == base_depth and lines[i][1].strip().startswith("|"):
-                table_block.append(lines[i][1])
-                i += 1
-            t = parse_table(table_block, sprites_prefix)
-            if t:
-                body_parts.append(t)
-            continue
-        if re.match(r"^\s*[-*]\s+", content):
-            bullet_lines = []
-            while i < len(lines) and lines[i][0] == base_depth and re.match(r"^\s*[-*]\s+", lines[i][1]):
-                bullet_lines.append(re.sub(r"^\s*[-*]\s+", "", lines[i][1]))
-                i += 1
-            items = "".join(f"<li>{inline_md(b, sprites_prefix, force_small=force_small_here)}</li>" for b in bullet_lines)
-            body_parts.append(f"<ul>{items}</ul>")
-            continue
-        if content.strip():
-            body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
-        i += 1
+            body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
+        else:
+            if content.strip():
+                body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
+            i += 1
     body = "".join(body_parts)
     title_html = f'<div class="callout-title">{inline_md(title, sprites_prefix)}</div>' if title else ""
     import importlib
@@ -293,7 +258,6 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
     out = []
     i = 0
     n = len(lines)
-    last_heading = ""
     while i < n:
         line = lines[i]
         if line.strip().startswith("|"):
@@ -314,49 +278,14 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
                 if not first and dd == base_depth and re.match(r"\[!\w+\][+-]?\s*", content):
                     break
                 block.append((dd, content)); i += 1; first = False
-            if block and re.match(r"\[!\w+\][+-]?\s*", block[0][1]):
-                out.append(render_callout_block(block, sprites_prefix))
-            else:
-                inner = "".join(f"<p>{inline_md(c, sprites_prefix)}</p>" for _, c in block if c.strip())
-                out.append(f'<blockquote class="quoted-line">{inner}</blockquote>')
-            continue
-        if re.match(r"^\s*[-*]\s+", line):
-            bullet_lines = []
-            while i < n and re.match(r"^\s*[-*]\s+", lines[i]):
-                bullet_lines.append(re.sub(r"^\s*[-*]\s+", "", lines[i]))
-                i += 1
-            if last_heading == "relacionado":
-                tags = "".join(
-                    f'<span class="related-tag">🧷<span class="related-tag-label">{inline_md(b, sprites_prefix)}</span></span>'
-                    for b in bullet_lines
-                )
-                out.append(f'<div class="related-web">{tags}</div>')
-            else:
-                items = "".join(f"<li>{inline_md(b, sprites_prefix)}</li>" for b in bullet_lines)
-                out.append(f"<ul>{items}</ul>")
+            out.append(render_callout_block(block, sprites_prefix))
             continue
         if line.startswith("### "):
             out.append(f"<h3>{inline_md(line[4:], sprites_prefix)}</h3>")
         elif line.startswith("## "):
-            heading_text = line[3:].strip()
-            last_heading = re.sub(r"[^a-záéíóúñ]", "", heading_text.lower())
-            out.append(f"<h2>{inline_md(heading_text, sprites_prefix)}</h2>")
+            out.append(f"<h2>{inline_md(line[3:], sprites_prefix)}</h2>")
         elif line.startswith("# "):
             out.append(f"<h1>{inline_md(line[2:], sprites_prefix)}</h1>")
-        elif last_heading == "submapa" and "Submapas/" in line and "[[" in line:
-            m = re.search(r"\[\[Submapas/(.+?)\.canvas(?:\|(.+?))?\]\]", line)
-            if m:
-                slug = slugify(m.group(1))
-                label = m.group(2) or "Abrir submapa gráfico"
-                out.append(
-                    '<a class="submap-cta" href="../submaps/' + urllib.parse.quote(slug) + '.html">'
-                    '<span class="submap-cta-icon">🗺️</span>'
-                    '<span class="submap-cta-text"><span class="submap-cta-title">' + html.escape(label) + '</span>'
-                    '<span class="submap-cta-sub">Explora sus conexiones en su propio corcho</span></span>'
-                    '</a>'
-                )
-            else:
-                out.append(f"<p>{inline_md(line, sprites_prefix)}</p>")
         elif line.strip().startswith("![["):
             m = re.match(r"!\[\[(.+?)\]\]", line.strip())
             name = m.group(1).split("|")[0].strip()
@@ -373,35 +302,7 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
         i += 1
     fm_html = ""
     if fm:
-        FM_ICONS = {"tipo": "🎭", "mundo": "🌍", "especie": "🧬", "familia": "👪",
-                    "confianza": "🔍", "pronombres": "🏷️"}
-
-        def _badge(k, v):
-            icon = FM_ICONS.get(k.lower(), "📌")
-            cls = "fm-badge"
-            vlow = v.lower()
-            if k.lower() == "mundo":
-                if "ambos" in vlow:
-                    cls += " w-ambos"
-                elif "lightner" in vlow:
-                    cls += " w-lightner"
-                elif "darkner" in vlow:
-                    cls += " w-darkner"
-                else:
-                    cls += " w-na"
-            elif k.lower() == "confianza":
-                if "oficial" in vlow:
-                    cls += " c-oficial"
-                elif "fuerte" in vlow:
-                    cls += " c-fuerte"
-                elif "mixta" in vlow:
-                    cls += " c-mixta"
-                elif "bil" in vlow:
-                    cls += " c-debil"
-            return (f'<span class="{cls}"><i>{icon}</i>'
-                    f'<b>{html.escape(k)}</b>{html.escape(v[:60])}</span>')
-
-        badges = "".join(_badge(k, v) for k, v in fm.items())
+        badges = "".join(f'<span class="fm-badge">{html.escape(k)}: {html.escape(v[:60])}</span>' for k, v in fm.items())
         fm_html = f'<div class="fm-bar">{badges}</div>'
     return fm_html + "\n".join(out)
 

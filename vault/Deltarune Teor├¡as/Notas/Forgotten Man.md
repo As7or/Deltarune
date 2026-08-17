@@ -51,6 +51,9 @@ confianza: fuerte
 ## La carta de San Valentín de 2024 — su primera aparición real
 Antes incluso de que existiera diálogo suyo dentro del juego, el Forgotten Man ya se había presentado fuera de él. En la newsletter de invierno de 2024 de Toby Fox (13 de febrero), entre varias postales de San Valentín aleatorias de otros personajes, apareció una extremadamente rara, de remitente desconocido: felicitaba el año nuevo, preguntaba "¿Cómo está Deltarune?", hablaba de que el tiempo sigue pasando mientras se espera, y confesaba querer ayudar a alguien cuyo nombre había olvidado — cerrando con instrucciones de "lavarte la cara y vestirte". Esa misma postal fue sustituida poco después por una versión en blanco, sin texto.
 
+![[man_valentines_card.webp]]
+*La postal de San Valentín de 2024, de remitente desconocido — antes de que el Forgotten Man tuviera una sola línea de diálogo dentro del juego.*
+
 La conexión con el Forgotten Man del Cap.3 es prácticamente oficial por repetición textual: su diálogo en Mancountry repite casi palabra por palabra ese cierre ("lávate la cara y vístete"), y ambos comparten el mismo tono de quien habla sabiendo que será olvidado. Es, de largo, la prueba más sólida y más temprana (más de un año antes del Cap.3) de que el Forgotten Man es un personaje planeado desde antes de su aparición jugable.
 
 > [!question]- ¿Escribió Gaster esa carta, o fue el propio Forgotten Man?
