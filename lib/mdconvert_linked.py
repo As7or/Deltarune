@@ -108,7 +108,7 @@ def resolve_note_stem(target):
 def img_url(name, sprites_prefix):
     return sprites_prefix + urllib.parse.quote(resolve_sprite_path(name))
 
-def inline_md(text, sprites_prefix, force_small=False):
+def inline_md(text, sprites_prefix, force_small=False, in_table=False):
     # Las imagenes y wikilinks se resuelven ANTES de escapar el texto (para que
     # nombres de archivo con apostrofes, & u otros caracteres no se corrompan al
     # pasar por html.escape). Se guardan como placeholders y se reinsertan al final.
@@ -129,7 +129,14 @@ def inline_md(text, sprites_prefix, force_small=False):
             cls = "inline-img-small"
         else:
             cls = "inline-img inline-img-alpha" if has_real_transparency(name) else "inline-img"
-        style_attr = f' style="width:{explicit_w}px;max-width:100%;"' if explicit_w else ""
+        # dentro de una tabla, la altura ya la fija el CSS (table.note-table
+        # .inline-img{height:230px}) para que toda la fila quede a la misma
+        # escala visual — si ademas forzamos aqui un ancho explicito en
+        # pixeles, el navegador estira la imagen a esas dos medidas exactas
+        # a la vez (ancho fijo + alto fijo) sin respetar su proporcion real,
+        # deformandola. Por eso el ancho de "|numero" solo se aplica fuera
+        # de tablas.
+        style_attr = f' style="width:{explicit_w}px;max-width:100%;"' if (explicit_w and not in_table) else ""
         return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt="" loading="lazy"{style_attr}>')
     text = re.sub(r"!\[\[(.+?)\]\]", img_sub, text)
 
@@ -196,7 +203,7 @@ def parse_table(block_lines, sprites_prefix):
         cells = split_row(r)
         out.append("<tr>")
         for idx, c in enumerate(cells):
-            out.append(f"<td>{inline_md(c, sprites_prefix, force_small=(idx in small_cols))}</td>")
+            out.append(f"<td>{inline_md(c, sprites_prefix, force_small=(idx in small_cols), in_table=True)}</td>")
         out.append("</tr>")
     out.append("</table>")
     return "\n".join(out)

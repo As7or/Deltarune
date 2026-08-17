@@ -82,7 +82,7 @@ confianza: oficial
 ## Teorías
 
 > [!question]+ ¿Es Carol el Roaring Knight?
-> ![[Carol_face_ominous_unused.png]]
+> ![[Carol_face_ominous_unused.png|160]]
 > *Un retrato descartado de Carol con una expresión mucho más inquietante que la habitual — parte del fandom lo señala como posible pista de diseño detrás de la teoría.*
 >
 > La llamada "Carol-Knight" o "Mayor Knight" es una de las teorías más veteranas del fandom. A favor: la cornamenta del Knight se parece más a la de Carol que a la de Dess (más puntiaguda, no redondeada); tiene acceso directo al refugio por su cargo; posee dos katanas, una de ellas negra, muy parecida al Cuchillo Negro del Knight; y el vendedor del maletín menciona que ella "mató" su maletín con una katana gigante, un verbo que casa con el arma del Knight.
@@ -95,10 +95,19 @@ confianza: oficial
 > Si la teoría anterior no cuadra del todo, una lectura alternativa —y más extendida entre quienes rechazan que Carol sea literalmente el Knight— es que colabora con él o lo encubre conscientemente: oculta pistas, protege información sobre el refugio y actúa con una familiaridad con el fenómeno que no tendría una alcaldesa cualquiera. Bajo esta lectura, sus acciones sospechosas seguirían apuntando a complicidad sin necesidad de que ella sea la entidad física del Knight. **Teoría de fans, no confirmada.**
 
 > [!question]- ¿Colabora con Kris? ¿Es ella la llamada misteriosa?
-> En el Cap.4, justo después de que Kris haga una llamada en secreto pidiendo ayuda para evitar que Susie encuentre la guitarra de Dess, Carol aparece en la puerta segundos después — una coincidencia que muchos leen como prueba de que ella es quien está al otro lado del teléfono. Sin embargo, hay un problema serio con esta lectura: en la Ruta Rara del Cap.4, el mensaje de voz que deja Carol al final suena completamente normal y reconocible como ella, mientras que la llamada misteriosa de la ruta normal usa una voz distorsionada (un sample ralentizado de "Giygas Static", tomado de EarthBound) muy distinta a la suya. Esto sugiere que, aunque la persona que llega a la puerta sí sea Carol, la voz de la llamada podría no ser suya — o que hay más de un interlocutor implicado. La propia llamada, además, sabe cosas muy específicas: que la Fuente de la iglesia se abrirá esa noche, que "la policía" (casi con toda seguridad Undyne) será sacrificada la semana siguiente, y pide expresamente que Susie no llegue a ver el código del refugio — motivaciones que encajan tanto con el Knight como con la propia Carol. **Teoría de fans, con una pista textual en contra (la voz); no confirmada.**
+> Hay que distinguir **dos llamadas distintas** en el Cap.4, que el fandom mezcla a menudo:
+> 1. **La llamada de los conductos**: mientras el ALMA de Kris recorre los conductos de ventilación de casa de Noelle, encuentra a Kris ya al teléfono con alguien no identificado, que le está pidiendo evitar que Susie encuentre la guitarra de Dess. Carol llega a la puerta segundos después de que esa llamada termine — la coincidencia de tiempos es lo que más alimenta la sospecha de que sea ella. Esta llamada, eso sí, sabe cosas muy específicas: que la Fuente de la iglesia se abrirá esa noche, que "la policía" (casi con toda seguridad Undyne) será sacrificada la semana siguiente, y pide expresamente que Susie no vea el código del refugio — motivaciones que encajan tanto con el Knight como con la propia Carol.
+> 2. **La llamada de la ventana**: ya de noche, al final del capítulo, Kris recibe una segunda llamada distinta que solo le recuerda una promesa ("Kris... no lo olvides... lo prometiste"). Esta es la más citada como posible pista del propio Knight, y es la que se mezcla por error con la primera.
+>
+> Existe además una **tercera llamada, esta sí prácticamente confirmada como suya**: tras sellarse las Fuentes del capítulo, Kris recibe un mensaje de voz que usa literalmente el sample de sonido de Carol (aunque sin su retrato en el cuadro de diálogo), confirmando que Noelle está deseando verle en el Festival al día siguiente — la misma frase de bienvenida que dice en persona más abajo, en la teoría del Ángel. Esta sí está prácticamente confirmada como ella por el propio sonido usado, a diferencia de las otras dos. **En conjunto: la llamada de los conductos y la de la ventana siguen sin confirmarse; la del Festival, por el contrario, sí usa el sonido real de Carol.**
 
 > [!question]- ¿Sabe del Ángel (el jugador)?
-> En su diálogo, la llamada misteriosa se dirige a Kris remarcando la palabra "TÚ" en rojo y en mayúsculas — un detalle que buena parte del fandom interpreta como prueba de que quien llama es consciente de que hay alguien controlando a Kris desde fuera, es decir, el propio Ángel/jugador. Si esa llamada es Carol (ver teoría anterior), esto implicaría que ella también sabe, o sospecha, de la existencia del jugador como entidad separada de Kris. Es, eso sí, una inferencia de un solo detalle tipográfico, no una confirmación textual directa. **Teoría de fans, débil por sí sola pero citada con frecuencia como apoyo indirecto a las anteriores.**
+> La pieza más sólida no viene de ninguna llamada, sino de una escena en persona, sin ambigüedad sobre quién habla: en su propia casa, junto a la vitrina/altar familiar, Carol le dice a Kris "Como ya sabes, TÚ eres bienvenido/a aquí siempre" — con la palabra "TÚ" en rojo y mayúsculas, exactamente el mismo estilo tipográfico que usa la llamada misteriosa del Cap.4 para remarcar cuándo se dirige al Jugador y no a Kris. A diferencia de la llamada (ver teoría anterior, con dos interlocutores distintos y ninguno confirmado), esta frase sí es indiscutiblemente suya. Si esa lectura es correcta, Carol sería de los pocos personajes —junto a la Voz, Ralsei y, bajo ciertas lecturas, Sans— con algún grado de conciencia de que hay alguien controlando a Kris desde fuera.
+>
+> ![[Carol_you_are_welcome.png]]
+> *"As you know, YOU are welcome here any time." — Carol, en persona, con el mismo estilo tipográfico que usa la llamada misteriosa para dirigirse al Jugador.*
+>
+> Esto, combinado con la llamada misteriosa que también usa esa misma marca tipográfica, es lo que alimenta que —sea o no ella quien llama por teléfono— Carol sí parece, como mínimo, sospechar de la existencia del Jugador como entidad separada de Kris. **Teoría de fans; la escena en persona con "TÚ" es un hecho confirmado, la interpretación de que implica conciencia del Jugador sigue siendo interpretación.**
 
 > [!question]- La katana negra de su habitación
 > Además de la katana de la cocina (con la que corta el maletín del vendedor), Carol guarda una segunda katana, esta negra, en su propio dormitorio — muy similar en apariencia al Cuchillo Negro que empuña el Knight. Es, junto con los fragmentos de cristal oscuro que Asgore menciona guardar "para mejorar su vida", una de las pistas ambientales más citadas para conectar a la familia Holiday (o a Asgore) con el arma del Knight. **Teoría de fans, sin confirmación directa sobre qué es realmente ese objeto.**
@@ -108,8 +117,8 @@ confianza: oficial
 
 > [!question]- ¿Por qué investiga la zona sur y oculta los códigos del refugio?
 > Carol investiga personalmente la zona sur del pueblo, bloqueada por cajas de flores — casi con toda seguridad el Shelter. Como alcaldesa, tendría acceso legítimo tanto al código de la policía como al de la iglesia, incluso sin necesidad de ninguna complicidad con el Knight; ella misma es quien controla el código del pino navideño del pueblo, por ejemplo. La llamada misteriosa del Cap.4 pide expresamente que Susie no llegue a ver el código guardado en la guitarra de Dess — si esa llamada es Carol, ocultar el código dejaría de ser solo cautela administrativa y pasaría a ser un intento activo de que el grupo no acceda al refugio. La lectura más sencilla es que, sepa o no lo que hay exactamente dentro, Carol sospecha que el refugio está relacionado con la desaparición de Dess y prefiere investigarlo ella sola antes que dejar que Susie o Kris se metan en algo peligroso. **Combinación de hecho confirmado (investiga la zona) y teoría de fans (el motivo exacto de por qué oculta el código).**
->  
-![[carol_investigation_shelter.webp]]
+>
+> ![[carol_investigation_shelter.webp]]
 
 > [!question]- ¿Trabaja con Asgore por algo más que el alquiler de la floristería?
 > ![[Asgore_y_Carol_corcho.webp]]
