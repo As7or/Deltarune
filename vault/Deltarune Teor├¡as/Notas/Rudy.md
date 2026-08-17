@@ -97,6 +97,9 @@ confianza: oficial
 
 > [!question]+ El quinto en "desaparecer" — una escena, no una desaparición real
 > En el flashback que Tenna muestra antes de su combate (Cap.3), donde se ve a las familias Holiday y Dreemurr reunidas viendo la televisión juntas, cada miembro de la familia va desapareciendo uno detrás de otro **de esa escena concreta**: primero Dess, luego Carol, Asgore y Noelle, y Rudy el quinto y último — coincidiendo con la frase de Carol de que Rudy "ha caído" ("fallen down"), el mismo eufemismo que se usa para su hospitalización. A diferencia de Dess, Rudy no desaparece de verdad ni deja de aparecer en el resto del juego — sigue presente en el Cap.4 y el Cap.5, ingresado mientras se recupera. El orden de esa lista (que incluye a Asgore, no solo a los Holiday) sugiere una conexión entre ambas familias más profunda de lo que parece a simple vista, pero no implica en ningún caso que Rudy también esté desaparecido.
+>
+> ![[The_Dreemurrs_and_Holiday_Families.webp]]
+> *El flashback de Tenna: las familias Holiday y Dreemurr reunidas frente al televisor — la escena de la que cada uno va desapareciendo, uno a uno.*
 
 > [!question]- ¿Rudy es el Caballero Rugiente?
 > Teoría de foro (Rudy Knight): su enfermedad, su ausencia física del resto del pueblo y ciertas líneas de diálogo ambiguas (posible tercera voz en una llamada entre Kris y Carol) alimentan la idea de que Rudy podría representar, de forma literal o simbólica, al Caballero Rugiente — leído como una fantasía de escape frente a la pérdida de Dess. Teoría débil, sin confirmación directa y bastante especulativa.

@@ -54,16 +54,21 @@ confianza: oficial
 ## Relaciones
 
 > [!quote]- Rudy
-> Su esposo. Se conocieron cuando él le soltó que era *"a HOT piece of work"* — ella lo dejó inconsciente de una bofetada, y aun así se casaron y tuvieron a Dess y Noelle. La anécdota no se ve en pantalla: Kris la escucha de refilón en el Hospital, cuando Rudy se la cuenta a Noelle mientras ella está de visita (accesible ya desde el Cap.1-2). [[Rudy]]
+> Su esposo. Se conocieron cuando él le soltó que era *"a HOT piece of work"* — ella lo dejó inconsciente de una bofetada, y aun así se casaron y tuvieron a Dess y Noelle. La anécdota no se ve en pantalla: Kris la escucha de refilón en el Hospital, cuando Rudy se la cuenta a Noelle mientras ella está de visita (accesible ya desde el Cap.1-2). Pese a lo abrupto de cómo se conocieron, forman una pareja que parece sólida y afectuosa en el día a día, aunque el juego apenas los muestra juntos en pantalla. Antes de la desaparición de Dess, ambos solían frecuentar la casa de los Dreemurr en fechas señaladas —algo que dejaron de hacer después—, lo que sugiere que la pérdida de su hija golpeó también su vida social como pareja, no solo su relación con Noelle. [[Rudy]]
+>
+> ![[rudy_talks_about_carol.png]]
 
 > [!quote]- Toriel
 > Familias amigas desde hace años, pero la única relación de las dos familias que no se ha reconciliado con el tiempo — en el Cap.4, Toriel corrige a Rudy con frialdad cuando este llama a Carol "su mujer" delante de ella, y solo admite estar "agradecida" por su ayuda económica a Asgore sin ningún entusiasmo real. [[Toriel]]
 
 > [!quote]- Dess
-> Su hija mayor, desaparecida antes del juego. Mantiene su habitación intacta, y su insistencia en preservar las cosas importantes se lee como una forma de no soltarla del todo. [[Dess]]
+> Su hija mayor, desaparecida antes del juego. Mantiene su habitación intacta, y su insistencia en preservar las cosas importantes se lee como una forma de no soltarla del todo — reacciona con una dureza desproporcionada cuando ve a Susie tocando la guitarra de Dess, como si cualquier contacto con sus objetos fuera una amenaza a lo poco que le queda de ella. [[Dess]]
+>
+> ![[The_Dreemurrs_and_Holiday_Families.webp]]
+> *El flashback de las familias Holiday y Dreemurr reunidas — Dess, entre ellas.*
 
 > [!quote]- Noelle
-> Su otra hija. La relación entre ambas está marcada por la presión de mantener las apariencias tras la desaparición de Dess — Carol es estricta y controladora con ella hasta un punto que Noelle vive con ansiedad constante. [[Noelle]]
+> Su otra hija. La relación entre ambas está marcada por la presión de mantener las apariencias tras la desaparición de Dess — Carol canaliza en Noelle el mismo miedo que la ausencia de Dess le dejó, exigiéndole un rendimiento y una conducta ejemplares hasta el punto de que Noelle vive con una ansiedad constante por decepcionarla. Ambas relaciones —la ausencia idealizada de Dess y la presión asfixiante sobre Noelle— parecen ser dos caras de la misma pérdida no resuelta. [[Noelle]]
 
 > [!quote]- Asgore
 > Es su casera: Asgore le debe alquiler de la floristería Flower King, que ella le permite con generosidad. Comparten además un corcho de documentos casi idéntico, lo que sugiere que ambos investigan algo en paralelo. [[Asgore]]
@@ -111,17 +116,6 @@ confianza: oficial
 > *Carol y Asgore*
 >
 > Carol es la casera de Asgore —le alquila el local de Flower King con más generosidad de la que cabría esperar de alguien tan poco carismático—, pero además ambos comparten un corcho de investigación casi idéntico, visible en sus respectivas casas. Asgore, por su parte, menciona en un momento a solas que planea "mejorar su vida" con un fragmento de cristal oscuro, lo que implica que necesita que alguien le enseñe a usarlo. Sumado a esto, ambos perdieron a alguien cercano ligado a los Mundos Oscuros —Carol a Dess, Asgore posiblemente a su propio hijo Asriel, que se marchó poco después de todo esto— lo que da pie a la lectura de que su colaboración va más allá de lo inmobiliario: podrían estar investigando juntos, en paralelo o directamente coordinados, el fenómeno de las Fuentes Oscuras. **Teoría de fans, apoyada en varias pistas ambientales convergentes; no confirmada.**
-
-> [!question]- Su hija Dess y su hija Noelle
-> Con Dess, su hija mayor y desaparecida, Carol muestra un duelo que nunca verbaliza abiertamente: conserva su habitación intacta y reacciona con una dureza desproporcionada cuando ve a Susie tocando su guitarra, como si cualquier contacto con sus objetos fuera una amenaza a lo poco que le queda de ella. Con Noelle, la hija que sí tiene presente, canaliza ese mismo miedo en forma de control: exige un rendimiento y una conducta ejemplares, hasta el punto de que Noelle vive con una ansiedad constante por decepcionarla. Ambas relaciones —la ausencia idealizada de Dess y la presión asfixiante sobre Noelle— parecen ser dos caras de la misma pérdida no resuelta.
->
->  ![[The_Dreemurrs_and_Holiday_Families.webp]]
-
-> [!question]- Su marido Rudy
-> Con Rudy forma una pareja que, pese a lo abrupto de cómo se conocieron (él la llamó *"a HOT piece of work"* nada más verla; ella respondió noqueándolo de una bofetada — anécdota que Kris escucha de refilón en el Hospital, contada por el propio Rudy a Noelle), parece sólida y afectuosa en el día a día, aunque el juego apenas la muestra en pantalla junto a él. Antes de la desaparición de Dess, ambos solían frecuentar la casa de los Dreemurr en fechas señaladas —algo que dejaron de hacer después—, lo que sugiere que la pérdida de su hija golpeó también su vida social como pareja, no solo su relación con Noelle.
->
-> ![[rudy_talks_about_carol.png]]
-
 
 ## Curiosidades
 

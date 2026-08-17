@@ -85,40 +85,46 @@ confianza: fuerte
 > Confirmado por el propio juego: la narración dice explícitamente "*la noria solo subió hasta la mitad*", y quien haya ido —Susie o Noelle, según a quién se envíe a montar— comenta después "*ojalá hubieras podido ver el lago... es precioso*", dejando claro que desde la cima sí se ve el Lago, pero la noria nunca llega hasta ahí. Sans es quien opera la atracción durante todo el Festival.
 >
 > No hay ninguna línea de Sans explicando por qué se detiene justo a la mitad —bien podría ser una simple avería o una decisión de seguridad sin más trasfondo—, pero la coincidencia con el hecho de que el Lago sea, con diferencia, el escenario más cargado de misterio de todo el Cap.5 (el final de "Insertar Capítulo 7, Lado B" ocurre precisamente ahí) hace que sea tentador leerlo como algo deliberado. Dicho esto, es una teoría construida sobre una ausencia de explicación, no sobre una confirmación directa de que Sans concretamente esté ocultando algo.
+>
+> ![[sans_wheel_noelle_dialogue_lake.png]]
+> *"Ojalá hubieras podido ver el lago... es precioso." — la noria de Sans, y la confirmación de que desde arriba sí se ve el Lago.*
 
 > [!question]+ ¿Llegó a Hometown desde otra dimensión?
 > La teoría más fuerte sobre Sans: su llegada "abrupta y antinatural" a Hometown —que ni Kris ni Susie recuerdan haber presenciado— encajaría con la implicación de que Sans usó su antiguo laboratorio (de Undertale) para viajar entre dimensiones o líneas temporales durante la guerra entre humanos y monstruos, terminando así en el mundo de Deltarune. Esto explicaría también por qué parece capaz de usar magia (o de teletransportarse) sin que ningún otro monstruo del pueblo lo cuestione — algo que, en el contexto de Undertale, ya se asociaba a su personaje.
 >
 > ![[sans_lab_machine_another_universe.png]]
 > *"Hay una máquina extraña tras la cortina... parece rota." — el laboratorio de Undertale, la pieza central de esta teoría.*
->
-> ![[sans_lab_draw_of_three_people.png]]
-> *Un dibujo mal hecho de tres personas sonriendo, encontrado en ese mismo laboratorio.*
->
-> ![[Sans's_house_screenshot_knocking.png]]
-> *Al llamar a la puerta de su casa en Hometown, sin respuesta — solo "el distante traqueteo de huesos" de fondo.*
 
 > [!question]+ ¿Es la Ruta Rara/Espada lo que "produce" o desbloquea Undertale?
 > Una de las teorías más extendidas del fandom (documentada incluso en cobertura de prensa del Cap.5): llevar la Ruta Rara/Espada hasta el final —incluida la Espada Retorcida, el arma más fuerte del juego hasta la fecha, solo obtenible si NO se sigue a Noelle al Lago— podría ser justo lo necesario para que el jugador llegue por fin a encontrarse con W.D. Gaster, el científico de Undertale nunca visto en persona en Deltarune. Una variante más extrema, también citada en foros y wikis de teorías, plantea que Deltarune transcurre *antes* de Undertale pero solo existe *porque* Sans, en algún punto posterior, arregla su máquina del tiempo y viaja atrás para evitar la guerra entre humanos y monstruos — es decir, que la propia existencia de Deltarune sería una consecuencia posterior a los hechos de Undertale, no un simple "antes" cronológico. Ninguna de las dos variantes está confirmada por Toby Fox; son lecturas especulativas que se apoyan en la ambigüedad deliberada sobre en qué orden ocurren realmente ambos juegos.
 
 > [!question]- ¿Sabe más de lo que aparenta sobre Kris?
 > En Undertale, Sans es célebre por ser consciente de los resets y las líneas temporales del jugador. Trasladar esa misma sensibilidad a Deltarune alimenta la teoría de que Sans podría percibir, aunque sea parcialmente, la influencia del Jugador/Ángel sobre Kris — su comentario "tómatelo con calma, ¿vale?" en la Ruta Rara del Cap.5 se lee, bajo esta lectura, como una advertencia consciente más que una frase amable al azar.
+>
+> ![[sans_knows_something_take_it_easy.png]]
+> *"...take it easy, ok, kid?" — la frase que alimenta esta lectura.*
 
 > [!question]+ "The place where it rained": ¿es Hometown el "otro sitio" de Undertale?
 > Dato confirmado, no solo teoría: "The place where it rained" —el tema que suena al final del Cap.4, cuando Kris y Susie recorren Hometown tras sellar las Fuentes de la iglesia— es oficialmente una versión de "It's Raining Somewhere Else" de Undertale, la canción que sonaba durante la cena de Sans en el Hotel MTT. La diferencia principal entre ambas es que la versión de Deltarune elimina toda referencia al leitmotiv de Sans, conservando el resto de la melodía intacta.
 >
 > La lectura que hace el propio fandom (apoyada en los títulos de ambos temas) es que el "en otro sitio" ("somewhere else") de la canción original de Undertale podría referirse, ya entonces, al propio mundo de Deltarune — es decir, que Toby Fox llevaba insinuando la existencia de este mundo desde años antes de anunciarlo. Como pista adicional, la descripción del logro "Rain" de Undertale llama a la zona del paraguas en Waterfall "el sitio donde llueve", reforzando el juego de palabras entre ambos títulos. Sigue sin haber ninguna confirmación textual directa de Toby Fox sobre esta lectura — lo único oficial es el propio parentesco musical entre ambos temas.
+>
+> ![[sans_it_rained_somewhere_else.png]]
+> *Las portadas reales de ambas bandas sonoras — el "otro sitio" que esta teoría conecta con Hometown.*
 
 > [!question]+ El dibujo de "no lo olvides" y el laboratorio
 > La conexión más fuerte y mejor documentada entre Sans y Gaster no es de parentesco, sino de objeto compartido: en Undertale, tras una puerta cerrada en el taller escondido de Sans (una prolongación de la antigua investigación de Gaster sobre física cuántica y líneas temporales paralelas), hay una fotografía de "tres personas sonriendo, mal dibujadas" con la frase "no lo olvides" escrita al lado. En el Cap.5 de Deltarune, Sans le pide a Susie que dibuje a sus amigos en una tarjeta de sellos "para no olvidarla" — y en la Ruta Rara, esa tarjeta muestra exactamente tres personas (Susie, Kris y Ralsei, dejando fuera a Noelle), mientras que fuera de esa ruta el número de personas puede variar y llegar a cuatro. Que el propio juego reproduzca ese objeto casi al pie de la letra —mismo motivo, misma frase, mismo número "tres" en la versión que más se le parece— sugiere que Sans sigue preservando deliberadamente algo heredado de aquella investigación, y que la Ruta Rara podría ser la que más se acerca a conectar Deltarune con los eventos de Undertale. No hay confirmación textual de por qué precisamente tres personas y no cuatro, lo que mantiene viva la teoría.
+>
+> ![[sans_lab_draw_of_three_people.png]]
+> *"Es un dibujo mal hecho de tres personas sonriendo." — el objeto original de Undertale, la pieza que esta teoría compara directamente con la tarjeta de sellos de tres personas que Susie dibuja en la Ruta Rara.*
 >
 > Una lectura más extendida todavía va un paso más allá: que Sans no solo heredó el taller, sino que fue una especie de **aprendiz de Gaster** antes de que este desapareciera — el llamado "wrong number song" (una pista musical asociada a un número de teléfono que empieza por "G"), las referencias cruzadas entre los Gaster Blasters de Sans y el propio Gaster, y la frase "¿qué pensáis vosotros dos?" de la Entry 17 (dirigida a dos personas, nunca identificadas del todo) son las pruebas que más se citan. Sigue siendo, eso sí, una teoría de Undertale trasladada a Deltarune por asociación, no algo que el propio Deltarune confirme de forma directa.
 
 > [!question]- ¿Por qué no aparece Papyrus?
 > Un misterio aparte pero relacionado: Sans menciona a su hermano pequeño desde el Cap.1, pero Papyrus nunca ha llegado a aparecer en persona en ningún capítulo hasta la fecha — solo se le escucha "de lejos" tras la puerta de su casa. Si la teoría del taller y el laboratorio tiene algo de cierto, cabe preguntarse si la ausencia de Papyrus está relacionada de algún modo con esa misma investigación heredada. Ver [[Papyrus]] para el desarrollo completo de este misterio.
 >
-> ![[sans_knows_something_take_it_easy.png]]
-> *"...take it easy, ok, kid?" — Sans, esquivo como siempre, cada vez que el tema roza a su hermano.*
+> ![[Sans's_house_screenshot_knocking.png]]
+> *Al llamar a la puerta de su casa en Hometown, sin respuesta — solo "el distante traqueteo de huesos" de fondo.*
 
 > [!question]- 🎲 Las puertas Goner y el atajo de Sans
 > Una lectura de la comunidad conecta tres cosas: la máquina en la que cae Gaster en Undertale ("dicen que quedó esparcido a través del tiempo y el espacio"), las puertas de teletransporte ("Goner") que aparecen dentro de los Mundos Oscuros de Deltarune, y la puerta gris de la sala "Fun 66" de Undertale, que funciona exactamente igual que una Goner. La hipótesis es que la máquina de Gaster sería, en el fondo, una puerta Goner más — y que los atajos de Sans (su capacidad de aparecer y desaparecer sin explicación, tanto en Undertale como en Deltarune) podrían depender del mismo mecanismo, en vez de ser magia sin más. **Teoría de fans que conecta varias pistas de diseño reales; ninguna confirmación directa de que las tres cosas sean, en efecto, la misma tecnología.**
