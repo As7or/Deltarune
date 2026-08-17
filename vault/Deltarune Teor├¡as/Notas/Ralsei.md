@@ -28,6 +28,12 @@ confianza: fuerte
 >
 > ![[Ralsei_face.png]]
 > *Uno de los retratos de diálogo habituales de Ralsei.*
+>
+> ![[Ralsei_face_no_glasses.png]]
+> *Sin gafas revela iris rosas y una sombra de ojos marcada, con pestañas largas — un detalle que rara vez se ve.*
+>
+> ![[Ralsei_face_hatless.png]]
+> *Sin gorro, ya con el parecido a Asriel y Toriel a plena vista.*
 
 ## Historia por capítulos
 
@@ -42,9 +48,13 @@ confianza: fuerte
 >
 > ![[Ralsei_screenshot_room.png]]
 > *Otro momento del mismo pasaje, con Ralsei insistiendo en su filosofía de la piedad: "Susie... Seríamos felices si ACTuaras con nosotros."*
+>
+> Su ingenuidad casi le cuesta la vida en el enfrentamiento final contra el Rey: acepta su falsa rendición y lo cura sin dudarlo, lo que el Rey aprovecha para traicionarles y derrotarles en el acto — una lección de la que Ralsei sale escarmentado, sin dejar de creer del todo en la piedad como método. Fuera de combate, disfruta horneando tartas, sobre todo para sus amigos.
 
 > [!example]+ Capítulo 2 — El mayordomo de Queen
 > Cuando Queen encierra a todos los Lightners tras traicionar al grupo, Ralsei es el único al que recluta en vez de aprisionar, obligándolo a servirla como mayordomo dentro de su propia Mansión.
+>
+> Antes de eso, en su propio castillo, Ralsei ha ido preparando habitaciones para Kris, Susie y hasta para Jaden y Clover (los protagonistas alternativos de otras partidas) — un gesto de anfitrión que contrasta con lo poco que hace por decorar la suya propia. En su cuarto puede verse orgulloso de su propio muñeco del Cap.2, y comenta que recortó el cubo de ICE-E para hacer sitio a objetos que le importan más.
 >
 > > [!danger]- Ruta Rara del Cap.2
 > > Ralsei es quien detiene a Queen antes de que pilote su mecha, explicándole lo que implica de verdad el Roaring — evitando así el combate contra GIGA Queen en esta ruta.
@@ -88,6 +98,8 @@ confianza: fuerte
 > *Ralsei atacando a Flowery con fuego en el clímax del capítulo.*
 >
 > Pese a todo, cuando el Caballero Rugiente parte a Flowery en dos ante sus ojos, Ralsei intenta salvarlo aun sabiendo que no puede, y le asegura que no fue inútil por haber intentado hacer feliz a Asgore. Flowery se despide del grupo pidiéndoles que se olviden de él y hagan "amigos de verdad".
+>
+> Antes de ese desenlace, cuando Flowery le asegura que puede proteger a Asgore del Caballero, Ralsei le advierte con total seriedad que eso lo matará si llega a pasar — y cuando ocurre de todos modos, no deja de mostrarle compasión y duelo genuinos, intentando revivirlo con magia varias veces aunque sabe que no servirá de nada. Es también en este capítulo cuando desbloquea Revive Song, un hechizo nuevo capaz de reanimar a un aliado caído casi al completo.
 >
 > ![[flowery_goodbye_scene_alusion_ralsei.jpg]]
 > *La escena de despedida de Flowery: "Olvidaos de nosotros y haced algunos amigos de verdad, ¿vale?" — con Ralsei como testigo directo.*
@@ -146,6 +158,9 @@ confianza: fuerte
 
 > [!quote]- Profecía
 > Es quien se la resume por primera vez a Kris y Susie en el Cap.1, y el único Darkner conocido que la conoce entera, incluido su final trágico — a diferencia del resto, que solo la conocen a través de fragmentos sueltos (vidrieras, corchos de investigación, rumores). También es el único capaz de sentir la "presencia oscura" de las Fuentes Oscuras y del propio Caballero antes de que aparezcan en pantalla, un sexto sentido que ningún otro personaje demuestra tener. [[Profecía]]
+>
+> ![[07_el_tercer_heroe_el_principe.gif]]
+> *La vidriera de la Profecía que lo nombra directamente: "The third hero. The prince, alone in deepest dark."*
 
 ## Teorías
 
@@ -160,9 +175,15 @@ confianza: fuerte
 
 > [!question]- El verde como color de Ralsei, no solo de Asriel
 > Dato confirmado: en la alfombra del cuarto de Kris en el Castillo (Runa Delta con triángulos de colores), el triángulo verde representa a Ralsei, no a Asriel. Una lectura de fandom conecta este dato con la teoría de la envidia de Kris hacia su hermano (ver [[Kris]]): si el verde "pertenece" a Asriel en la vida real y a Ralsei en el Mundo Oscuro, tendría sentido narrativo que Kris coloreara a Ralsei de verde al "crearlo" —de ahí también parte la teoría de que Ralsei sería una copia idealizada de Asriel—, aunque sigue siendo una lectura simbólica sin confirmación textual.
+>
+> ![[ralsei_green_deltarune.webp]]
+> *Otro emblema de la Runa Delta con triángulos de colores, del mismo tipo que la alfombra que da pie a esta teoría.*
 
 > [!question]- ¿Ralsei es Asriel?
 > Además del parecido físico, tras quitarse el gorro Susie y Noelle comentan por separado que se parece a Asriel — y su nombre es un anagrama de "Asriel", además de venir de "Ralse", protagonista de un juego del hermano mayor de Toby Fox. El Cap.4 complicó la lectura literal al mostrar a Asriel como personaje independiente y activo, pero la pregunta de qué relación hay realmente entre ambos sigue sin cerrarse del todo.
+>
+> ![[asriel_shadow.png]]
+> *La silueta de Asriel — la comparación de siluetas es una de las bases visuales más citadas de esta teoría.*
 
 > [!question]- 🎲 ¿Es Ralsei el ALMA original de Kris?
 > Teoría de fandom activa desde 2021, y que sigue circulando sin que ningún capítulo la haya descartado del todo. Parte de una pregunta que el propio juego deja abierta: el ALMA roja que controla el jugador **nunca se confirma como el alma real de Kris** — varias pistas (que Kris pueda actuar por su cuenta sin ALMA, que el propio diseño de las ALMAS en Undertale/Deltarune las trate como algo que se puede extraer, guardar o sustituir) sugieren que esa ALMA les fue puesta desde fuera en algún momento. Si no es la suya... ¿dónde está el alma real de Kris?
@@ -170,6 +191,9 @@ confianza: fuerte
 > - Referencia visual que se cita a menudo: el corazón verde del pecho de la capa de Ralsei (antes del Cap.2) coincide con el color de la virtud Kindness/Bondad del sistema de ALMAS — y ese mismo verde, según la alfombra del Castillo (ver teoría de arriba), está asociado a Ralsei y no a Asriel dentro del Mundo Oscuro.
 > - Bajo esta lectura, Ralsei no sería una copia de Asriel ni un personaje "creado" por Kris desde cero, sino la propia alma de Kris con forma de Darkner — lo que además explicaría su devoción incondicional hacia Kris y Susie y su conocimiento imposible de la Profecía, si esta también está ligada al propio Kris de algún modo.
 > - **Teoría muy especulativa, sin ninguna confirmación textual directa** — el juego nunca ha dicho ni insinuado abiertamente que las ALMAS de Kris y Ralsei estén conectadas. Es, eso sí, una de las respuestas más citadas a la pregunta abierta de "qué pasó con el alma real de Kris", una incógnita que el propio juego sí deja planteada.
+>
+> ![[Kris_overworld_SOUL.png]]
+> *El ALMA roja que controla el jugador — nunca confirmada como el alma real de Kris, el punto de partida de toda esta teoría.*
 
 ## Curiosidades
 - Desde el Cap.2, su túnica cambia de detalles: los brazos dejan de estar ocultos bajo la tela, y el emblema del pecho pasa de un corazón a una pica invertida en parte de sus sprites (más fiel al concepto original de Temmie Chang), aunque la mayoría de sus sprites de combate y overworld siguen usando el corazón.
@@ -188,9 +212,8 @@ confianza: fuerte
 ![[Ralsei_overworld_group_hug.gif]]
 *Un abrazo de grupo con Kris y Susie — uno de los gestos más repetidos de todo el trío protagonista.*
 
-![[Ralsei_face_hatless.png]]
 ![[Ralsei_face_battlemenu.png]]
-*Dos retratos más: sin gorro, y el icono usado en el menú de combate.*
+*El icono usado en el menú de combate.*
 
 ## Relacionado
 - [[Asriel]]

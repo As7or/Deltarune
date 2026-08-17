@@ -37,9 +37,6 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > ![[Noelle_talksprite.png]]
 > *Su talksprite, el retrato usado en los diálogos.*
 
-![[Noelle_screenshot_ICE-E_prank.png]]
-*Noelle recordando la broma de ICE-E — "L-like when you told me ICE-E was real and eats kids..." — y el bate de wiffle ball con el que Dess castigó a Kris por mentirle.*
-
 ## Historia por capítulos
 
 > [!example]+ Capítulo 1 — un papel menor, pero clave
@@ -124,6 +121,9 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 
 > [!quote]- Kris
 > Amigos de la infancia; Kris solía gastarle bromas de las que Dess siempre la rescataba. Tras su desaparición, Kris se distanció. En el Cap.2 hacen una tregua genuina; en la Ruta Rara, esa relación se tensa hasta el terror.
+>
+> ![[Noelle_screenshot_ICE-E_prank.png]]
+> *"L-like when you told me ICE-E was real and eats kids..." — una de las bromas de infancia de Kris que Dess tuvo que enmendar a base de bate de wiffle ball.*
 >
 > ![[kris_hand_conversation_of_noelle_susie_of_videogame.png]]
 > *El ALMA de Kris, separada de su cuerpo, escuchando a escondidas a Noelle y Susie hablar de un videojuego en el cuarto de Dess — "One day, the protagonist wakes up without a hand..."*
