@@ -541,7 +541,11 @@ def build_submap(canvas_path, title_name):
     }
     # Si el propio centro del submapa es una de esas 6 notas especiales, todo
     # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).
-    center_title = next((it["title"] for it in items if it["is_center"]), "")
+    center_title_raw = next((it["title"] for it in items if it["is_center"]), "")
+    # El titulo del centro suele venir como "Nombre — subtitulo poetico"; para
+    # detectar el tema especial hace falta comparar solo la parte "Nombre",
+    # sin tocar el titulo completo que se sigue mostrando tal cual en la tarjeta.
+    center_title = re.split(r"\s+[—–-]\s+", center_title_raw)[0].strip()
     viewport_extra_class = THEME_VIEWPORT_CLASS.get(center_title, "")
 
     node_html = []
@@ -569,7 +573,8 @@ def build_submap(canvas_path, title_name):
         body_html = html.escape(it["body"]) if it["body"] else ""
         note_attr = it["note"] or ""
         thumb_h = 150 if is_center else 100
-        theme = it["title"] if it["title"] in SPECIAL_THEMES else None
+        title_base = re.split(r"\s+[—–-]\s+", it["title"])[0].strip() if it["title"] else ""
+        theme = title_base if title_base in SPECIAL_THEMES else None
 
         # Burbuja de CONEXION (su titulo coincide con una nota real, p.ej.
         # "Susie" dentro del submapa de Noelle) -> se comporta igual que el

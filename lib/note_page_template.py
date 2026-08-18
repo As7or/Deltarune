@@ -232,6 +232,8 @@ PAGE_CSS_RUSTED = '''
       radial-gradient(ellipse at 45% 92%, rgba(200,100,35,0.2) 0, transparent 38%),
       repeating-linear-gradient(90deg, rgba(0,0,0,0.08) 0px, transparent 2px, transparent 5px),
       repeating-linear-gradient(4deg, rgba(0,0,0,0.06) 0px, transparent 3px, transparent 8px);
+      background-repeat: repeat;
+    background-size: 560px 700px;
   }
   h1{ font-size:21px; color:#f0dcc0; border-bottom:3px solid #b5622e; padding-bottom:8px; letter-spacing:.02em; text-transform:uppercase; text-shadow:0 0 10px rgba(200,100,40,0.3); }
   h2{ font-size:16px; color:#e0975a; margin-top:24px; text-transform:uppercase; letter-spacing:.05em; }
@@ -324,6 +326,8 @@ PAGE_CSS_WET = '''
       radial-gradient(circle at 55% 40%, rgba(255,255,255,0.55) 0%, transparent 38%),
       radial-gradient(circle at 35% 92%, rgba(255,255,255,0.5) 0%, transparent 36%),
       radial-gradient(circle at 92% 82%, rgba(255,255,255,0.45) 0%, transparent 34%);
+      background-repeat: repeat;
+    background-size: 620px 800px;
   }
   h1{ font-size:22px; color:#4a3d18; border-bottom:2px solid #a08840; padding-bottom:8px; }
   h2{ font-size:17px; color:#6b5828; margin-top:22px; }
@@ -395,6 +399,8 @@ PAGE_CSS_CRYSTAL = '''
       radial-gradient(ellipse at 15% 15%, rgba(120,90,220,0.25) 0, transparent 42%),
       radial-gradient(ellipse at 85% 25%, rgba(70,180,220,0.22) 0, transparent 40%),
       radial-gradient(ellipse at 50% 90%, rgba(120,90,220,0.2) 0, transparent 45%);
+      background-repeat: repeat;
+    background-size: 600px 750px;
   }
   h1{ font-size:22px; color:#eaf6ff; border-bottom:2px solid #7de8ff; padding-bottom:8px; text-shadow:0 0 8px rgba(125,232,255,0.4); }
   h2{ font-size:17px; color:#a8d8ff; margin-top:22px; }
@@ -521,6 +527,8 @@ PAGE_CSS_FOUNTAIN = '''
       radial-gradient(ellipse at 75% 65%, rgba(50,100,140,0.3) 0, transparent 40%),
       radial-gradient(ellipse at 45% 90%, rgba(80,140,180,0.26) 0, transparent 42%),
       repeating-linear-gradient(95deg, rgba(255,255,255,0.02) 0px, transparent 3px, transparent 7px);
+      background-repeat: repeat;
+    background-size: 600px 750px;
   }
   h1{ font-size:22px; color:#eaf6fc; border-bottom:2px solid #6fb8dc; padding-bottom:8px; text-shadow:0 0 10px rgba(111,184,220,0.4); }
   h2{ font-size:17px; color:#a8d4ec; margin-top:22px; }
