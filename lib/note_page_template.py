@@ -311,31 +311,26 @@ PAGE_CSS_WET = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- tarjeta ondulada tipo "Lago" del corcho, con textura de agua --- */
+  /* --- papel humedo, manchado --- */
   .callout{
     position:relative;
     background:
-      radial-gradient(ellipse at 30% 25%, rgba(180,210,225,0.35) 0%, transparent 45%),
-      radial-gradient(ellipse at 70% 70%, rgba(60,100,120,0.2) 0%, transparent 50%),
-      linear-gradient(160deg, #dbe9ec 0%, #c3d8dc 100%);
-    padding:22px 20px 24px; margin:26px 8px 30px;
-    box-shadow:2px 6px 16px rgba(15,35,40,0.32), inset 0 -14px 22px -16px rgba(15,35,40,0.18);
-    clip-path: polygon(
-      2% 4%, 8% 0%, 16% 3%, 24% 0%, 32% 3%, 40% 0%, 48% 3%, 56% 0%, 64% 3%, 72% 0%, 80% 3%, 88% 0%, 96% 3%, 100% 6%,
-      98% 20%, 100% 34%, 98% 48%, 100% 62%, 98% 76%, 100% 90%, 97% 96%,
-      92% 100%, 84% 97%, 76% 100%, 68% 97%, 60% 100%, 52% 97%, 44% 100%, 36% 97%, 28% 100%, 20% 97%, 12% 100%, 4% 97%, 0% 94%,
-      2% 80%, 0% 66%, 2% 52%, 0% 38%, 2% 24%, 0% 10%
-    );
+      radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.2) 0, transparent 40%),
+      radial-gradient(ellipse at 75% 80%, rgba(60,90,95,0.14) 0, transparent 45%),
+      linear-gradient(160deg, #dbe9ec 0%, #c9dadd 100%);
+    padding:16px 18px 18px; margin:22px 10px 26px;
+    box-shadow:2px 6px 14px rgba(20,40,42,0.28), inset 0 -10px 20px -14px rgba(20,40,42,0.15);
+    border-radius:3px 12px 3px 14px/10px 3px 14px 3px;
   }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:#1f3538; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#2c3a3d; }
-  .callout-info{ background:linear-gradient(160deg,#c9dcec,#a9c4d8); }
-  .callout-tip{ background:linear-gradient(160deg,#c8e2d4,#a8ccbc); }
-  .callout-example{ background:linear-gradient(160deg,#dbe9ec,#c3d8dc); }
-  .callout-danger{ background:linear-gradient(160deg,#e0cccb,#c8a8a6); }
-  .callout-quote{ background:linear-gradient(160deg,#d3d3e6,#b3b3cc); }
-  .callout-question{ background:linear-gradient(160deg,#dce0c3,#c0c8a0); }
-  .callout .callout{ margin:16px 6px 8px; box-shadow:3px 6px 16px rgba(15,35,40,0.4); }
+  .callout-info{ background:#c3dce8; }
+  .callout-tip{ background:#c8e2d4; }
+  .callout-example{ background:#dbe6e7; }
+  .callout-danger{ background:#e0cccb; }
+  .callout-quote{ background:#d3d3e6; }
+  .callout-question{ background:#dce0c3; }
+  .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(20,40,42,0.35); }
 
   .wikilink{ color:#1f5258; border-bottom:1px dotted #1f5258; text-decoration:none; cursor:pointer; }
   a.wikilink:hover{ background:rgba(31,82,88,0.12); }
@@ -485,24 +480,31 @@ PAGE_CSS_FOUNTAIN = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- panel de agua oscura con brillo turquesa --- */
+  /* --- columna de agua ondulada, como la textura real de la Fuente Oscura --- */
   .callout{
     position:relative;
-    background: linear-gradient(170deg, rgba(20,60,55,0.6) 0%, rgba(10,30,28,0.8) 100%);
-    padding:16px 18px 18px; margin:22px 8px 26px;
-    border:1px solid rgba(61,212,191,0.35);
-    box-shadow:0 0 20px rgba(45,180,160,0.18), inset 0 1px 0 rgba(200,240,232,0.08);
-    border-radius:16px 4px 16px 4px;
+    background:
+      radial-gradient(ellipse at 35% 20%, rgba(140,190,220,0.4) 0%, transparent 45%),
+      radial-gradient(ellipse at 65% 75%, rgba(20,70,90,0.5) 0%, transparent 50%),
+      linear-gradient(180deg, #3d6a80 0%, #1e3d4d 55%, #0f2530 100%);
+    padding:22px 20px 24px; margin:26px 10px 30px;
+    box-shadow:0 0 22px rgba(45,140,180,0.3), inset 0 0 30px rgba(10,30,40,0.4);
+    clip-path: polygon(
+      3% 6%, 9% 2%, 15% 6%, 21% 2%, 27% 6%, 33% 2%, 39% 6%, 45% 2%, 51% 6%, 57% 2%, 63% 6%, 69% 2%, 75% 6%, 81% 2%, 87% 6%, 93% 2%, 97% 6%,
+      94% 18%, 98% 30%, 94% 42%, 98% 54%, 94% 66%, 98% 78%, 92% 88%,
+      88% 96%, 80% 100%, 20% 100%, 12% 96%,
+      8% 88%, 2% 78%, 6% 66%, 2% 54%, 6% 42%, 2% 30%, 6% 18%
+    );
   }
-  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#3dd4bf; }
-  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#c8f0e8; }
-  .callout-info{ background:linear-gradient(170deg, rgba(25,70,110,0.55), rgba(12,32,45,0.75)); }
-  .callout-tip{ background:linear-gradient(170deg, rgba(25,100,80,0.55), rgba(10,40,32,0.75)); }
-  .callout-example{ background:linear-gradient(170deg, rgba(90,75,25,0.5), rgba(45,35,10,0.75)); }
-  .callout-danger{ background:linear-gradient(170deg, rgba(120,35,45,0.5), rgba(50,15,20,0.75)); }
-  .callout-quote{ background:linear-gradient(170deg, rgba(70,50,110,0.5), rgba(30,20,50,0.75)); }
-  .callout-question{ background:linear-gradient(170deg, rgba(100,80,25,0.5), rgba(45,35,10,0.75)); }
-  .callout .callout{ margin:14px 4px 6px; box-shadow:0 0 22px rgba(45,180,160,0.25); }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#a8dcf0; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#dceef5; }
+  .callout-info{ background:linear-gradient(180deg,#3d5a80,#1e2d4d 55%,#0f1830); }
+  .callout-tip{ background:linear-gradient(180deg,#3d8070,#1e4d40 55%,#0f3028); }
+  .callout-example{ background:linear-gradient(180deg,#807a3d,#4d4a1e 55%,#302d0f); }
+  .callout-danger{ background:linear-gradient(180deg,#803d45,#4d1e22 55%,#300f12); }
+  .callout-quote{ background:linear-gradient(180deg,#5a3d80,#2d1e4d 55%,#180f30); }
+  .callout-question{ background:linear-gradient(180deg,#807a3d,#4d4a1e 55%,#302d0f); }
+  .callout .callout{ margin:16px 6px 8px; box-shadow:0 0 24px rgba(45,140,180,0.35); }
 
   .wikilink{ color:#3dd4bf; border-bottom:1px dotted #3dd4bf; text-decoration:none; cursor:pointer; }
   a.wikilink:hover{ background:rgba(61,212,191,0.12); }
