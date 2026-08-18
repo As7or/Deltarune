@@ -31,9 +31,11 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias (Pillow + ffmpeg)
-        run: |
-          sudo apt-get update && sudo apt-get install -y ffmpeg
-          pip install -r requirements.txt
+  	run: |
+    sudo apt-get update
+    export DEBIAN_FRONTEND=noninteractive
+    sudo apt-get install -y ffmpeg
+    pip install -r requirements.txt
 
       # La carpeta "vault/" del repo debe contener tu vault de Obsidian
       # (Notas/, Submapas/, Sprites/ y el .canvas principal) tal cual lo
