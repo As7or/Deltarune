@@ -33,14 +33,23 @@ confianza: fuerte
 > En casa de Noelle, revisar su armario por segunda vez revela un par de alitas de ángel gastadas — ella explica que las tiene desde pequeña, de cuando hizo de ángel en la función navideña del pueblo, y que le gustaron tanto que se las quedó puestas.
 >
 > Catty, además, ofrece una "lectura" (Watch Service) en la iglesia describiendo al Ángel con un entusiasmo casi adolescente: "Dios mío, o sea, ¿el Ángel que nos vigila a todos? Tiene, o sea, esta profecía SUPER guay, predicha por el tiempo y el espacio..." — un contraste tonal deliberado con la solemnidad del resto del texto profético.
+>
+> ![[Catty_overworld.png]]
+> *Catty, cuyo entusiasmo hablando del Ángel contrasta con la solemnidad del resto del texto profético.*
 
 ## Relaciones
 
 > [!quote]- Alvin
 > Cree firmemente en la fe y en la Profecía, y trata al Ángel con verdadero respeto religioso — reza por su guía para el resto del pueblo. En el Cap.5 llega a atribuirle los destrozos de la iglesia del capítulo anterior, describiéndolos como "vientos de gran cambio". [[Alvin]]
+>
+> ![[Alvin_overwolrd.webp]]
+> *Alvin, el párroco de Hometown, el creyente más devoto del Ángel de toda la nota.*
 
 > [!quote]- Noelle
 > Conserva desde niña unas alitas de ángel gastadas, de cuando interpretó ese papel en la función navideña del pueblo — el vínculo más literal y menos discutido de toda la nota, sin ninguna carga metafórica de por medio. [[Noelle]]
+>
+> ![[Angel_doll_overworld.png]]
+> *Un muñeco de ángel, del mismo tipo de imaginería navideña con la que Noelle interpretó ese papel de pequeña.*
 
 > [!quote]- Profecía
 > El propio texto profético es la fuente principal de todo lo que se sabe del Ángel — su "Cielo" es, literalmente, lo que los tres héroes deben desterrar para salvar ambos mundos. [[Profecía]]
@@ -55,6 +64,9 @@ confianza: fuerte
 
 > [!question]+ ¿Es el Ángel el propio Jugador?
 > La lectura más extendida de todo el fandom: el Ángel de la Profecía no sería un personaje del elenco, sino una personificación narrativa de quien controla a Kris desde fuera de la ficción. Se apoya en que la Profecía describe al Ángel como alguien con "un deseo que finalmente alcanzará una vez desterrado" — y parte de la comunidad lee ese deseo como "saber cómo termina la historia", algo que encajaría con la propia curiosidad del jugador real. Si esta lectura fuera cierta, "desterrar" al Ángel podría equivaler, de alguna forma, a que el jugador pierda el control sobre Kris al final de la serie. **Teoría muy extendida y bien razonada, pero el juego nunca iguala explícitamente ambos conceptos — ver la nota de [[Jugador]] para el desarrollo completo de esta comparación.**
+>
+> ![[3rd_Sanctuary_location_angel_prophecy.png]]
+> *"The Angel, banished, will finally meet with its desire." — la línea exacta de la Profecía que sostiene toda esta lectura.*
 
 > [!question]- ¿Es benevolente de verdad?
 > No está claro si "liberar" —o desterrar— el Mundo Oscuro es necesariamente bueno para quienes viven en él: varios Darkners parecen felices dentro de su propio mundo (el propio Ralsei, o Flowery antes de corromperse), lo que abre la duda de si el papel del Ángel es tan heroico como la Profecía lo presenta o si es, en realidad, una imposición externa más — casi calcada de la doble lectura que ya tenía el mismo concepto en Undertale (un liberador benevolente frente a un "Ángel de la Muerte" que vacía el Subsuelo).

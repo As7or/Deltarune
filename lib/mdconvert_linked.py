@@ -360,6 +360,19 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
             fig_cls = "fig-alpha" if has_real_transparency(name) else ""
             out.append(f'<figure class="{fig_cls}"><img src="{img_url(name, sprites_prefix)}" alt="" loading="lazy">' +
                         (f"<figcaption>{html.escape(caption)}</figcaption>" if caption else "") + "</figure>")
+        elif line.strip().startswith("- ") or line.strip().startswith("* "):
+            items = []
+            while i < n and (lines[i].strip().startswith("- ") or lines[i].strip().startswith("* ")):
+                items.append(lines[i].strip()[2:])
+                i += 1
+            only_links = all(re.fullmatch(r"\[\[.+?\]\]", it.strip()) for it in items) and len(items) > 0
+            if only_links:
+                chips = "".join(f'<span class="link-chip">{inline_md(it, sprites_prefix)}</span>' for it in items)
+                out.append(f'<div class="link-row">{chips}</div>')
+            else:
+                lis = "".join(f"<li>{inline_md(it, sprites_prefix)}</li>" for it in items)
+                out.append(f'<ul class="note-list">{lis}</ul>')
+            continue
         elif line.strip() == "":
             pass
         else:
@@ -367,7 +380,7 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
         i += 1
     fm_html = ""
     if fm:
-        badges = "".join(f'<span class="fm-badge">{html.escape(k)}: {html.escape(v[:60])}</span>' for k, v in fm.items())
+        badges = "".join(f'<span class="fm-badge"><b>{html.escape(k)}</b><em>{html.escape(v[:60])}</em></span>' for k, v in fm.items())
         fm_html = f'<div class="fm-bar">{badges}</div>'
     return fm_html + "\n".join(out)
 
