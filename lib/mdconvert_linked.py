@@ -209,7 +209,7 @@ def extract_callout_by_title(md_text, target_title, sprites_prefix="../Sprites/"
                     overlap = len(tset & bset)
                     score = 1 if overlap >= max(1, min(len(tset), len(bset)) - 1) and overlap > 0 else 0
                 if score > 0:
-                    candidates.append((score, render_callout_block(block, sprites_prefix)))
+                    candidates.append((score, render_callout_block(block, sprites_prefix, body_only=True)))
             continue
         i += 1
 
@@ -273,7 +273,7 @@ def depth_of(line):
             break
     return d, line[i:]
 
-def render_callout_block(lines, sprites_prefix, depth=0):
+def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
     header = lines[0][1]
     m = re.match(r"\[!(\w+)\]([+-]?)\s*(.*)", header)
     ctype = m.group(1) if m else "info"
@@ -299,6 +299,12 @@ def render_callout_block(lines, sprites_prefix, depth=0):
                 body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
             i += 1
     body = "".join(body_parts)
+    if body_only:
+        # Sin el div .callout envolvente: se usa cuando el contenedor que lo
+        # recibe (p.ej. el popup tipo postit de un submapa) ya aporta su
+        # propio marco visual, para no anidar una tarjeta postit dentro de
+        # otra y generar margenes/huecos horizontales raros.
+        return body
     title_html = f'<div class="callout-title">{inline_md(title, sprites_prefix)}</div>' if title else ""
     import importlib
     try:

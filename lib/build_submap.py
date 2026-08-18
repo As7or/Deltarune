@@ -229,10 +229,33 @@ PAGE_CSS = '''
   #note-panel .note-header button{ background:none; border:1px solid #f3ead6; color:#f3ead6; border-radius:4px; padding:4px 10px; cursor:pointer; font-size:13px; white-space:nowrap; }
   #note-panel .note-header button.active{ background:#f3ead6; color:#3a2f22; }
   #note-panel iframe{ width:100%; height:calc(100% - 49px); border:none; }
-  #note-panel .postit-body{ width:100%; height:calc(100% - 49px); overflow-y:auto; padding:24px 28px; box-sizing:border-box;
-    background:#fbf6e9; font-family:'Segoe UI', Tahoma, sans-serif; }
-  #note-panel .postit-body p{ font-size:15px; line-height:1.6; color:#3a2f22; margin:0 0 12px; }
-  #note-panel .postit-body .postit-note-link{ display:inline-block; margin-top:10px; font-size:13px; color:#8a3a30; border-bottom:1px dotted #8a3a30; text-decoration:none; }
+  #note-panel .postit-body{
+    width:100%; height:calc(100% - 49px); overflow-y:auto; overflow-x:hidden; box-sizing:border-box;
+    padding:26px 28px 30px; background:#fdf1b8; font-family:'Segoe UI', Tahoma, sans-serif;
+  }
+  #note-panel .postit-body p{ font-size:15px; line-height:1.6; color:#3a2f22; margin:0 0 14px; max-width:100%; }
+  #note-panel .postit-body strong{ color:#2c2416; }
+  #note-panel .postit-body .postit-note-link{
+    display:inline-block; margin-top:6px; font-size:13px; color:#8a3a30;
+    border-bottom:1px dotted #8a3a30; text-decoration:none;
+  }
+  /* Callouts anidados (p.ej. Ruta Rara dentro de una teoria) dentro del
+     popup: una caja mas suave, sin repetir el marco postit completo. */
+  #note-panel .postit-body .callout{
+    background:rgba(255,255,255,0.45); border-radius:4px; padding:12px 14px; margin:10px 0 16px;
+    box-shadow:none; transform:none !important;
+  }
+  #note-panel .postit-body .callout-title{ font-weight:bold; margin-bottom:6px; font-size:13px; text-transform:uppercase; letter-spacing:.03em; }
+  /* Imagenes dentro del texto de teoria/conexion -- mismas reglas que las
+     paginas de nota normales, para que no rompan el ancho del panel. */
+  #note-panel .postit-body figure{ margin:12px 0; text-align:center; max-width:100%; }
+  #note-panel .postit-body figcaption{ font-size:12px; font-style:italic; color:#6b5c38; margin-top:4px; }
+  #note-panel .postit-body img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
+  #note-panel .postit-body .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:3px; box-shadow:0 2px 6px rgba(0,0,0,0.2); }
+  #note-panel .postit-body .inline-img-alpha{ width:auto; max-width:210px; max-height:250px; margin:8px auto; box-shadow:none; background:none; }
+  #note-panel .postit-body .inline-img-small{ width:auto; height:100px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  #note-panel .postit-body table.note-table{ width:100%; border-collapse:collapse; margin:10px 0; font-size:12.5px; }
+  #note-panel .postit-body table.note-table th, #note-panel .postit-body table.note-table td{ border:1px solid #d8c078; padding:4px; text-align:center; }
   #overlay{ position:fixed; inset:0; background:rgba(0,0,0,0.35); opacity:0; pointer-events:none; transition:opacity .28s ease; z-index:90; }
   #overlay.open{ opacity:1; pointer-events:auto; }
 
