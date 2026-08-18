@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas/Asriel.md",
+                "file": "Notas/├üngel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asriel"
+              "title": "├üngel"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/Asriel.md",
+                "file": "Notas/├üngel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,6 +186,8 @@
   },
   "active": "06f07da71b66f89e",
   "lastOpenFiles": [
+    "Notas/Ángel.md",
+    "Notas/Asriel.md",
     "Notas/Flowery.md",
     "Notas/Cristal Oscuro.md",
     "Notas/Conexión Undertale.md",
@@ -239,8 +241,6 @@
     "Notas/Shelter.md",
     "Notas/Roaring Knight.md",
     "Notas/Rudy.md",
-    "Notas/Rutas.md",
-    "Notas/Sans.md",
-    "Notas/Seam.md"
+    "Notas/Rutas.md"
   ]
 }

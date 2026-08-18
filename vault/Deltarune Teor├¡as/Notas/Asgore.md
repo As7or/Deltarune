@@ -67,7 +67,7 @@ confianza: oficial
 
 > [!quote]- Flowery
 > Su antigua flor dorada, cuidada durante años en la floristería antes de que Flowery decidiera abandonarla; en el Cap.5 vuelve a acercarse a él y dedica buena parte del capítulo a mantenerlo feliz y distraído, apoyándose en la nostalgia genuina que Asgore siente por él. La relación tiene un fondo agridulce: Asgore lo quiere sin reservas, sin saber lo que Flowery de verdad es ni de lo que es capaz. [[Flowery]]
-> ![[Flowery_y_Asgore.webp]]
+> ![[Flowery_y_Asgore_hq.png]]
 
 > [!quote]- Carol Holiday
 > Su casera — Asgore le debe alquiler de la floristería, que ella le permite con generosidad. Comparten además un corcho de documentos casi idéntico, lo que sugiere que ambos investigan algo juntos o en paralelo. En el Cap.5 confiesa que espera recuperar su antiguo puesto de policía por mediación de ella. [[Carol]]

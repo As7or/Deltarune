@@ -154,12 +154,12 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 > > ![[susie_weird_route_distant.png]]
 > > *"Noelle's waiting for you." — Susie esperando a distancia en la puerta de casa de Kris, ya en un segundo plano frente a Noelle en esta ruta.*
 > >
-> > ![[Weird_Route_screenshot_inbetween.png]]
-> > *"Susie never gets in the way — Don't get inbetween me and Noelle." — el tono posesivo que Noelle adopta hacia Susie a lo largo de esta ruta.*
-> >
 > > Al reencontrarse, le dice a Kris que ya iba siendo hora, y que quiere ver el Festival con ellos aunque ella ya lo haya visto todo. Van al puesto de helados de Sans, que no tiene helado y les da pan mientras esperan. Durante todo el Festival, Susie parece notar el estado de ánimo raro de Kris e intenta animarlo — si suben juntos a la noria, finge que hay un terremoto para hacerlo reír. Al llegar al lago, decide dejarles su momento a solas con Noelle y se despide con un "anímate" antes de ir a esperar los helados.
 > >
 > > Si la Ruta Rara del Cap.5 fracasa, Susie le confiesa a Kris lo preocupada que estuvo por él y por Noelle. En la escena en la que le pregunta si le gusta alguien, elegir "..." hace que admita que temía que Noelle y Kris estuvieran juntos, que algo malo pasó entre ellos, y que no entiende por qué ninguno de los dos habla del tema — llega a preguntar por qué Kris tenía el pelo mojado. Pregunta si se está interponiendo entre Kris y Noelle; sea cual sea la respuesta del jugador, Susie termina diciendo que solo está feliz de que todo haya terminado y de que Kris esté de vuelta.
+> >
+> > ![[Weird_Route_screenshot_inbetween.png]]
+> > *"Susie never gets in the way — Don't get inbetween me and Noelle." — Kris y Susie de vuelta en el castillo tras abortar la ruta, el eco posesivo de Noelle todavía flotando entre ambos en esa conversación.*
 
 ## Relaciones clave
 

@@ -1,6 +1,8 @@
 import json, os, re, html, random, urllib.parse, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from image_prep import prepare_image
+import mdconvert_linked
+from mdconvert_linked import extract_callout_by_title
 
 def slugify(name):
     nfkd = unicodedata.normalize('NFKD', name)
@@ -55,13 +57,20 @@ def resolve_sprite_rel(file_field):
     basename = file_field.split("/")[-1]
     return _sprite_index.get(basename, basename)
 
-def note_for_title(title, fallback_stem):
+def note_for_title(title, fallback_stem, is_center=False):
     if title in NOTE_STEMS:
         return slugify(title)
     base = re.sub(r"\s*\(.*?\)\s*", "", title).strip()
     if base in NOTE_STEMS:
         return slugify(base)
-    return slugify(fallback_stem) if fallback_stem in NOTE_STEMS else None
+    # El fallback a la nota del propio personaje SOLO aplica al nodo centro
+    # (por si su titulo no calca el nombre exacto de la nota) -- aplicarlo a
+    # cualquier burbuja sin match convertiria cualquier teoria/relacion sin
+    # nota propia en una falsa "conexion", abriendo la nota del personaje en
+    # vez de mostrar el texto real de esa teoria.
+    if is_center:
+        return slugify(fallback_stem) if fallback_stem in NOTE_STEMS else None
+    return None
 
 def clean_text(t):
     t = t.replace("\\n", "\n")
@@ -341,6 +350,11 @@ def build_submap(canvas_path, title_name):
     nodes = {n["id"]: n for n in d["nodes"]}
     edges = d["edges"]
 
+    parent_note_text = None
+    parent_note_path = os.path.join(NOTES_DIR, title_name + ".md")
+    if os.path.exists(parent_note_path):
+        parent_note_text = open(parent_note_path, encoding="utf-8").read()
+
     text_nodes = {nid: n for nid, n in nodes.items() if n.get("type") == "text"}
     file_nodes = {nid: n for nid, n in nodes.items() if n.get("type") == "file"}
     used_file_ids = set()
@@ -357,7 +371,7 @@ def build_submap(canvas_path, title_name):
             img_name = resolve_sprite_rel(img_node["file"])
             used_file_ids.add(nid + "-img")
         node_color = NODE_COLOR_MAP.get(n.get("color"), "#8a7a5c")
-        note_stem = note_for_title(title, title_name)
+        note_stem = note_for_title(title, title_name, is_center=(nid == "center"))
         items.append({
             "id": nid, "title": title, "body": body, "full_html": full_html,
             "cx": cx, "cy": cy,
@@ -460,13 +474,27 @@ def build_submap(canvas_path, title_name):
         thumb_h = 150 if is_center else 100
         theme = it["title"] if it["title"] in SPECIAL_THEMES else None
 
-        if it["title"] and not is_center:
-            content_map[nid] = {"title": it["title"], "html": it["full_html"] or f"<p>{body_html}</p>",
+        # Burbuja de CONEXION (su titulo coincide con una nota real, p.ej.
+        # "Susie" dentro del submapa de Noelle) -> se comporta igual que el
+        # centro: abre la nota completa real, nunca un resumen.
+        # Burbuja de TEORIA (sin nota propia) -> se busca su callout exacto
+        # dentro de la nota del propio personaje y se muestra COMPLETO (con
+        # imagenes incluidas), no el texto abreviado que vive en el .canvas.
+        opens_full_note = is_center or bool(it["note"])
+        if it["title"] and not opens_full_note:
+            extracted = None
+            if parent_note_text:
+                try:
+                    extracted = extract_callout_by_title(parent_note_text, it["title"], sprites_prefix="../Sprites/")
+                except Exception:
+                    extracted = None
+            content_map[nid] = {"title": it["title"],
+                                 "html": extracted or it["full_html"] or f"<p>{body_html}</p>",
                                  "note": note_attr}
 
-        center_flag = "1" if is_center else "0"
+        opennote_flag = "1" if opens_full_note else "0"
         pin = '<div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>'
-        base_attrs = f'data-id="{nid}" data-note="{note_attr}" data-center="{center_flag}"'
+        base_attrs = f'data-id="{nid}" data-note="{note_attr}" data-center="{opennote_flag}"'
         pos_style = f'left:{x-width/2:.0f}px; top:{y-(160 if is_center else 105):.0f}px; width:{width}px; transform:rotate({rot:.1f}deg);'
 
         if theme == "Profecía":

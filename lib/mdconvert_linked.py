@@ -159,6 +159,65 @@ def inline_md(text, sprites_prefix, force_small=False):
         text = text.replace(key, val)
     return text
 
+def extract_callout_by_title(md_text, target_title, sprites_prefix="../Sprites/"):
+    """Busca, dentro de una nota completa, el callout (teoria/relacion) cuyo
+    titulo coincide con target_title, y lo devuelve ya renderizado a HTML
+    completo (con imagenes, wikilinks, etc.) usando el mismo pipeline que la
+    pagina de nota normal. Se usa para que, al pulsar una burbuja de teoria
+    en un submapa, se muestre el texto REAL y completo de la nota en vez del
+    resumen abreviado que vive dentro del propio .canvas."""
+    def norm(s):
+        s = s.lower().strip()
+        s = re.sub(r'["\'¿?¡!.,:;]', '', s)
+        s = re.sub(r'\s+', ' ', s)
+        return s
+
+    target_norm = norm(target_title)
+    if not target_norm:
+        return None
+
+    lines = md_text.split("\n")
+    _, lines = parse_frontmatter(lines)
+    n = len(lines)
+    i = 0
+    candidates = []  # (score, html)
+    while i < n:
+        line = lines[i]
+        d, _ = depth_of(line)
+        if d > 0:
+            base_depth = d
+            block = []
+            first = True
+            while i < n:
+                dd, content = depth_of(lines[i])
+                if dd == 0: break
+                if not first and dd == base_depth and re.match(r"\[!\w+\][+-]?\s*", content):
+                    break
+                block.append((dd, content)); i += 1; first = False
+            header = block[0][1]
+            m = re.match(r"\[!(\w+)\][+-]?\s*(.*)", header)
+            block_title = m.group(2).strip() if m else ""
+            bt_norm = norm(block_title)
+            if bt_norm:
+                if bt_norm == target_norm:
+                    score = 3
+                elif target_norm in bt_norm or bt_norm in target_norm:
+                    score = 2
+                else:
+                    # solapamiento de palabras como ultimo recurso
+                    tset, bset = set(target_norm.split()), set(bt_norm.split())
+                    overlap = len(tset & bset)
+                    score = 1 if overlap >= max(1, min(len(tset), len(bset)) - 1) and overlap > 0 else 0
+                if score > 0:
+                    candidates.append((score, render_callout_block(block, sprites_prefix)))
+            continue
+        i += 1
+
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: -x[0])
+    return candidates[0][1]
+
 def parse_frontmatter(lines):
     if lines and lines[0].strip() == "---":
         for i in range(1, len(lines)):

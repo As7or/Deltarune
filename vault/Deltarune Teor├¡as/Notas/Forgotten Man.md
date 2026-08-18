@@ -27,6 +27,9 @@ confianza: fuerte
 
 > [!example]+ Capítulos 1 y 2 — solo narración
 > Se le encuentra por casualidad yendo y viniendo entre dos salas del Bosque (1 entre 50 posibilidades), tras un árbol idéntico a los del resto de la zona. Toda la escena se describe por narración, sin diálogo directo: ofrece algo, y si se acepta, resulta ser un Huevo. En el Cap.2 se le ve saludando "felizmente" a Kris desde el Mundo Claro.
+>
+> ![[man_Egg_item_Chapter_1.png]]
+> *El Huevo del Cap.1, la primera vez que se acepta lo que ofrece — toda la escena descrita solo por narración, sin diálogo directo.*
 
 > [!example]+ Capítulo 3 — Mancountry
 > Se accede a Mancountry tras conseguir el TripTicket, usándolo durante un encuentro con Ribbick. Es la primera vez que Kris entra en un Mundo Oscuro con su forma de Mundo Claro puesta, y todo el área tiene una estética retro monocroma en verde.
@@ -46,7 +49,9 @@ confianza: fuerte
 
 > [!example]+ Capítulo 5 — el trigal
 > El Huevo del Cap.5 se encuentra entre dos torii, en un campo de trigo que hay que "cosechar" corriendo entre las espigas repetidamente hasta que solo quede un manojo, que no se puede cortar por más que se intente.
-> 
+>
+> ![[man_Cliffs_screenshot_harvesting.png]]
+> *Corriendo entre las espigas del trigal al atardecer, en busca del último manojo que no se puede cortar.*
 
 ## La carta de San Valentín de 2024 — su primera aparición real
 Antes incluso de que existiera diálogo suyo dentro del juego, el Forgotten Man ya se había presentado fuera de él. En la newsletter de invierno de 2024 de Toby Fox (13 de febrero), entre varias postales de San Valentín aleatorias de otros personajes, apareció una extremadamente rara, de remitente desconocido: felicitaba el año nuevo, preguntaba "¿Cómo está Deltarune?", hablaba de que el tiempo sigue pasando mientras se espera, y confesaba querer ayudar a alguien cuyo nombre había olvidado — cerrando con instrucciones de "lavarte la cara y vestirte". Esa misma postal fue sustituida poco después por una versión en blanco, sin texto.
