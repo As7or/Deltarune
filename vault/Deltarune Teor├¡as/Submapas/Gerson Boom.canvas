@@ -249,6 +249,46 @@
    "toNode": "s4",
    "toSide": "left",
    "color": "1"
+  },
+  {
+   "id": "cross_knight_gaster",
+   "fromNode": "s2",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_susie_alvin",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_noelle_susie",
+   "fromNode": "s3",
+   "fromSide": "top",
+   "toNode": "s0",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_tolkien_gaster",
+   "fromNode": "s6",
+   "fromSide": "left",
+   "toNode": "s5",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_msboom_alvin",
+   "fromNode": "s4",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "1"
   }
  ]
 }

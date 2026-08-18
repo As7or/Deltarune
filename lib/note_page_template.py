@@ -251,7 +251,7 @@ PAGE_CSS_RUSTED = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- placas metalicas remachadas, con manchas de oxido visibles --- */
+  /* --- placas metalicas remachadas, con manchas de oxido y borde rasgado --- */
   .callout{
     position:relative;
     background:
@@ -259,9 +259,15 @@ PAGE_CSS_RUSTED = '''
       radial-gradient(ellipse at 85% 75%, rgba(160,60,15,0.3) 0%, transparent 32%),
       radial-gradient(ellipse at 60% 10%, rgba(140,50,10,0.25) 0%, transparent 28%),
       linear-gradient(160deg, #4a3d30 0%, #3a2f26 40%, #2e2620 100%);
-    padding:18px 20px; margin:22px 6px 26px;
+    padding:20px 22px; margin:24px 6px 28px;
     border:1px solid #6b5842;
     box-shadow:2px 5px 14px rgba(0,0,0,0.5), inset 0 0 30px rgba(0,0,0,0.35), inset 0 0 50px rgba(150,60,20,0.12);
+    clip-path: polygon(
+      0% 3%, 3% 0%, 10% 2%, 16% 0%, 24% 2%, 31% 0%, 39% 2%, 46% 0%, 54% 2%, 61% 0%, 69% 2%, 76% 0%, 84% 2%, 91% 0%, 97% 2%, 100% 0%,
+      98% 14%, 100% 24%, 97% 33%, 100% 46%, 98% 55%, 100% 67%, 96% 78%, 100% 88%, 96% 100%,
+      88% 97%, 78% 100%, 68% 97%, 58% 100%, 47% 97%, 37% 100%, 27% 97%, 17% 100%, 8% 97%, 0% 100%,
+      3% 87%, 0% 76%, 4% 64%, 0% 53%, 3% 40%, 0% 28%, 3% 16%
+    );
   }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:#e0975a; }
   .callout-body p{ margin:5px 0; font-size:14px; line-height:1.55; color:#d9cdb2; }
@@ -399,8 +405,6 @@ PAGE_CSS_CRYSTAL = '''
       radial-gradient(ellipse at 15% 15%, rgba(120,90,220,0.25) 0, transparent 42%),
       radial-gradient(ellipse at 85% 25%, rgba(70,180,220,0.22) 0, transparent 40%),
       radial-gradient(ellipse at 50% 90%, rgba(120,90,220,0.2) 0, transparent 45%);
-      background-repeat: repeat;
-    background-size: 600px 750px;
   }
   h1{ font-size:22px; color:#eaf6ff; border-bottom:2px solid #7de8ff; padding-bottom:8px; text-shadow:0 0 8px rgba(125,232,255,0.4); }
   h2{ font-size:17px; color:#a8d8ff; margin-top:22px; }
@@ -527,8 +531,6 @@ PAGE_CSS_FOUNTAIN = '''
       radial-gradient(ellipse at 75% 65%, rgba(50,100,140,0.3) 0, transparent 40%),
       radial-gradient(ellipse at 45% 90%, rgba(80,140,180,0.26) 0, transparent 42%),
       repeating-linear-gradient(95deg, rgba(255,255,255,0.02) 0px, transparent 3px, transparent 7px);
-      background-repeat: repeat;
-    background-size: 600px 750px;
   }
   h1{ font-size:22px; color:#eaf6fc; border-bottom:2px solid #6fb8dc; padding-bottom:8px; text-shadow:0 0 10px rgba(111,184,220,0.4); }
   h2{ font-size:17px; color:#a8d4ec; margin-top:22px; }

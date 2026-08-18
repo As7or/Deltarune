@@ -195,6 +195,30 @@
    "toNode": "s3",
    "toSide": "bottom",
    "color": "1"
+  },
+  {
+   "id": "cross_gerson_susie",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s2",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_fuente_angel",
+   "fromNode": "s3",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_asriel_fuente",
+   "fromNode": "s1",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "1"
   }
  ]
 }

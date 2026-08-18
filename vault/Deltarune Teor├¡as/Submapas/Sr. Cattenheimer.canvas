@@ -168,6 +168,22 @@
    "toNode": "s3",
    "toSide": "left",
    "color": "3"
+  },
+  {
+   "id": "cross_codigos_mano",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_codigos_coro",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "1"
   }
  ]
 }

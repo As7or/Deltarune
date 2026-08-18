@@ -1,173 +1,197 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"text": "# Mike\n\n☎️ Ayudante y socio de Tenna, amigo mutuo de Spamton — nunca visto en persona, pero el Cap.5 confirma que existió de verdad.",
-			"x": -190,
-			"y": -80,
-			"width": 400,
-			"height": 220,
-			"color": "6"
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"file": "Sprites/spamton_mike.webp",
-			"x": -570,
-			"y": -90,
-			"width": 258,
-			"height": 190
-		},
-		{
-			"id": "s3",
-			"type": "text",
-			"text": "**Los tres impostores**\nBattat, Pluey y Jongler — cada uno parodia una teoría distinta del fandom sobre quién es Mike.",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 200,
-			"color": "1"
-		},
-		{
-			"id": "s3-img",
-			"type": "file",
-			"file": "Sprites/Mikeimpersonators.webp",
-			"x": 420,
-			"y": -480,
-			"width": 220,
-			"height": 143
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"text": "**FRIEND**\nCat Mike, el impostor favorito de Tenna, se le parece mucho — base de la teoría de que Mike podría ser FRIEND disfrazado.",
-			"x": -760,
-			"y": -588,
-			"width": 270,
-			"height": 180,
-			"color": "3"
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"file": "Sprites/FRIEND.png",
-			"x": -695,
-			"y": -1005,
-			"width": 205,
-			"height": 190
-		},
-		{
-			"id": "s2",
-			"type": "text",
-			"text": "**Tenna**\nSu jefe y amigo íntimo — le advirtió que no forzara a Spamton a firmar. Desapareció cuando Tenna lo ignoró.",
-			"x": -125,
-			"y": -575,
-			"width": 270,
-			"height": 190,
-			"color": "1"
-		},
-		{
-			"id": "s2-img",
-			"type": "file",
-			"file": "Sprites/Mike_screenshot_spotlight.png",
-			"x": -103,
-			"y": -890,
-			"width": 200,
-			"height": 150
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"text": "**Everyman**\nFunciona más como guiño que como pieza argumental.",
-			"x": -490,
-			"y": 448,
-			"width": 270,
-			"height": 150,
-			"color": "1"
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"file": "Sprites/everyman.png",
-			"x": -960,
-			"y": 408,
-			"width": 251,
-			"height": 190
-		}
-	],
-	"edges": [
-		{
-			"id": "e2",
-			"fromNode": "center",
-			"fromSide": "top",
-			"toNode": "s2",
-			"toSide": "bottom",
-			"color": "1"
-		},
-		{
-			"id": "e2-img",
-			"fromNode": "s2-img",
-			"fromSide": "bottom",
-			"toNode": "s2",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s0",
-			"toSide": "right",
-			"color": "3"
-		},
-		{
-			"id": "e3",
-			"fromNode": "center",
-			"fromSide": "right",
-			"toNode": "s3",
-			"toSide": "left",
-			"color": "1"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "center-img-e",
-			"fromNode": "center-img",
-			"fromSide": "right",
-			"toNode": "center",
-			"toSide": "left",
-			"color": "6"
-		},
-		{
-			"id": "s0-img-e",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s1-img-e",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "s3-img-e",
-			"fromNode": "s3-img",
-			"fromSide": "bottom",
-			"toNode": "s3",
-			"toSide": "top",
-			"color": "6"
-		}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Mike\n\n☎️ Ayudante y socio de Tenna, amigo mutuo de Spamton — nunca visto en persona, pero el Cap.5 confirma que existió de verdad.",
+   "x": -190,
+   "y": -80,
+   "width": 400,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/spamton_mike.webp",
+   "x": -570,
+   "y": -90,
+   "width": 258,
+   "height": 190
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Los tres impostores**\nBattat, Pluey y Jongler — cada uno parodia una teoría distinta del fandom sobre quién es Mike.",
+   "x": 420,
+   "y": -260,
+   "width": 280,
+   "height": 200,
+   "color": "1"
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/Mikeimpersonators.webp",
+   "x": 420,
+   "y": -480,
+   "width": 220,
+   "height": 143
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**FRIEND**\nCat Mike, el impostor favorito de Tenna, se le parece mucho — base de la teoría de que Mike podría ser FRIEND disfrazado.",
+   "x": -760,
+   "y": -588,
+   "width": 270,
+   "height": 180,
+   "color": "3"
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/FRIEND.png",
+   "x": -695,
+   "y": -1005,
+   "width": 205,
+   "height": 190
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Tenna**\nSu jefe y amigo íntimo — le advirtió que no forzara a Spamton a firmar. Desapareció cuando Tenna lo ignoró.",
+   "x": -125,
+   "y": -575,
+   "width": 270,
+   "height": 190,
+   "color": "1"
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/Mike_screenshot_spotlight.png",
+   "x": -103,
+   "y": -890,
+   "width": 200,
+   "height": 150
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Everyman**\nFunciona más como guiño que como pieza argumental.",
+   "x": -490,
+   "y": 448,
+   "width": 270,
+   "height": 150,
+   "color": "1"
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/everyman.png",
+   "x": -960,
+   "y": 408,
+   "width": 251,
+   "height": 190
+  }
+ ],
+ "edges": [
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s2",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "e2-img",
+   "fromNode": "s2-img",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e3",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s1",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "center-img-e",
+   "fromNode": "center-img",
+   "fromSide": "right",
+   "toNode": "center",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "s0-img-e",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s1-img-e",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s3-img-e",
+   "fromNode": "s3-img",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "cross_friend_impostores",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_tenna_friend",
+   "fromNode": "s2",
+   "fromSide": "right",
+   "toNode": "s0",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_everyman_impostores",
+   "fromNode": "s1",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "1"
+  }
+ ]
 }

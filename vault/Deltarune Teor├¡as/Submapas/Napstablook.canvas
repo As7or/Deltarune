@@ -1,103 +1,181 @@
 {
-	"nodes": [
-		{
-			"id": "center",
-			"type": "text",
-			"x": -190,
-			"y": -105,
-			"width": 420,
-			"height": 220,
-			"color": "6",
-			"text": "# Napstablook\n👮 Agente de policía de Hometown junto a Undyne — un puesto que consiguió \"por accidente\" y del que no se atreve a dimitir porque sus primos dependen de él."
-		},
-		{
-			"id": "center-img",
-			"type": "file",
-			"x": -640,
-			"y": -105,
-			"width": 220,
-			"height": 190,
-			"file": "Sprites/Napstablook.webp"
-		},
-		{
-			"id": "s0",
-			"type": "text",
-			"x": -130,
-			"y": -640,
-			"width": 280,
-			"height": 210,
-			"color": "1",
-			"text": "**Undyne**\nSu compañera de trabajo en la comisaría. Se preocupa genuinamente por ella cuando desaparece."
-		},
-		{
-			"id": "s0-img",
-			"type": "file",
-			"x": -130,
-			"y": -870,
-			"width": 220,
-			"height": 190,
-			"file": "Sprites/Napstablook_overworld_ground.png"
-		},
-		{
-			"id": "s1",
-			"type": "text",
-			"x": 420,
-			"y": -260,
-			"width": 280,
-			"height": 210,
-			"color": "1",
-			"text": "**Mad Mew Mew (Pink)**\nSu prima, con quien convive en la Casa Blook junto a Nobody."
-		},
-		{
-			"id": "s1-img",
-			"type": "file",
-			"x": 420,
-			"y": -480,
-			"width": 220,
-			"height": 150,
-			"file": "Sprites/Napstablook_screenshot_strength_tester.png"
-		}
-	],
-	"edges": [
-		{
-			"id": "e0",
-			"fromNode": "center",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "1"
-		},
-		{
-			"id": "e0-img",
-			"fromNode": "s0-img",
-			"fromSide": "bottom",
-			"toNode": "s0",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "e1",
-			"fromNode": "center",
-			"fromSide": "left",
-			"toNode": "s1",
-			"toSide": "right",
-			"color": "1"
-		},
-		{
-			"id": "e1-img",
-			"fromNode": "s1-img",
-			"fromSide": "bottom",
-			"toNode": "s1",
-			"toSide": "top",
-			"color": "6"
-		},
-		{
-			"id": "center-img-e",
-			"fromNode": "center-img",
-			"fromSide": "right",
-			"toNode": "center",
-			"toSide": "left",
-			"color": "6"
-		}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "x": -190,
+   "y": -105,
+   "width": 420,
+   "height": 220,
+   "color": "6",
+   "text": "# Napstablook\n👮 Agente de policía de Hometown junto a Undyne — un puesto que consiguió \"por accidente\" y del que no se atreve a dimitir porque sus primos dependen de él."
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "x": -640,
+   "y": -105,
+   "width": 220,
+   "height": 190,
+   "file": "Sprites/Napstablook.webp"
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "x": -130,
+   "y": -640,
+   "width": 280,
+   "height": 210,
+   "color": "1",
+   "text": "**Undyne**\nSu compañera de trabajo en la comisaría. Se preocupa genuinamente por ella cuando desaparece."
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "x": -130,
+   "y": -870,
+   "width": 220,
+   "height": 190,
+   "file": "Sprites/Napstablook_overworld_ground.png"
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "x": 420,
+   "y": -260,
+   "width": 280,
+   "height": 210,
+   "color": "1",
+   "text": "**Mad Mew Mew (Pink)**\nSu prima, con quien convive en la Casa Blook junto a Nobody."
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "x": 420,
+   "y": -480,
+   "width": 220,
+   "height": 150,
+   "file": "Sprites/Napstablook_screenshot_strength_tester.png"
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "x": -580,
+   "y": 164,
+   "width": 270,
+   "height": 160,
+   "color": "3",
+   "text": "**El Caracol (Cap.4)**\nAparece siendo atropellado sin daño una y otra vez mientras intenta dirigir el tráfico solo — el propio Caracol admite que, sin policía vigilando, por fin puede ir \"todo lo lento que quiera\"."
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "x": -880,
+   "y": 194,
+   "width": 190,
+   "height": 143,
+   "file": "Sprites/Napstablook_overworld_ground.png"
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "x": 320,
+   "y": 380,
+   "width": 270,
+   "height": 160,
+   "color": "3",
+   "text": "**El remix de la alarma de fuga**\nLa alarma que suena tras la huida de los Wet-Nose Bandits es, de hecho, un remix hecho por el propio Napstablook de su propia cinta — coherente con su gusto ya conocido en Undertale por remezclar sus propias canciones."
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "x": 640,
+   "y": 410,
+   "width": 190,
+   "height": 190,
+   "file": "Sprites/napstabloock_Chill_Jailbreak_Alarm_To_Study_And_Relax_To_soundtrack.png"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e0-img",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s1",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e1-img",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "center-img-e",
+   "fromNode": "center-img",
+   "fromSide": "right",
+   "toNode": "center",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "e_s2",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s2img",
+   "fromNode": "s2-img",
+   "fromSide": "right",
+   "toNode": "s2",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "e_s3",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s3img",
+   "fromNode": "s3-img",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "6"
+  },
+  {
+   "id": "cross_caracol_undyne",
+   "fromNode": "s2",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "1"
+  }
+ ]
 }

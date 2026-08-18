@@ -168,6 +168,30 @@
    "toNode": "s3",
    "toSide": "left",
    "color": "3"
+  },
+  {
+   "id": "cross_gaster_envidia",
+   "fromNode": "s1",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_kris_greenroom",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_envidia_greenroom",
+   "fromNode": "s2",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "3"
   }
  ]
 }

@@ -1,33 +1,283 @@
 {
-	"nodes":[
-		{"id":"center","type":"text","text":"# Asriel — de vuelta desde el Cap.4\n\nHijo de Toriel y Asgore, hermano de Kris. El mismo Asriel de Undertale.","x":-190,"y":-80,"width":400,"height":220,"color":"6"},
-		{"id":"s0","type":"text","text":"**Conexión Undertale**\nPersonaje compartido entre ambos juegos.","x":-130,"y":-538,"width":270,"height":150,"color":"4"},
-		{"id":"s1","type":"text","text":"**Ralsei**\nSu parecido disparó la teoría 'Ralsei es Asriel'.","x":320,"y":164,"width":270,"height":150,"color":"1"},
-		{"id":"s2","type":"text","text":"**¿Cuánto recuerda?**\nLíneas que suenan a comentario extradiegético sobre UT.","x":-580,"y":164,"width":270,"height":150,"color":"3"},
-		{"id":"s0-img","type":"file","file":"Sprites/Undertale.png","x":-129,"y":-938,"width":190,"height":190},
-		{"id":"s1-img","type":"file","file":"Sprites/Ralsei_overworld_hatless.png","x":669,"y":306,"width":100,"height":190},
-		{"id":"s_knight","type":"text","text":"**¿Es el Caballero Rugiente?** Teoría alternativa real: bate = \"Asriel's Bat\" (confirmado en el 10º aniversario de UT), gestos compartidos con Kris, favorito de Tenna cambia a \"Sword Magician\".","x":700,"y":-209,"width":280,"height":170,"color":"1"},
-		{"id":"s_bratty","type":"text","text":"**Bratty y el tablero de Tenna** Su primer beso, confirmado en el juego; cambió su personaje favorito del Lagarto Verde a la Maga Espada por vergüenza.","x":0,"y":600,"width":280,"height":170,"color":"3"},
-		{"id":"s_knight-img","type":"file","file":"Sprites/asriel_roaringknight.webp","x":700,"y":-419,"width":143,"height":180},
-		{"id":"s_bratty-img","type":"file","file":"Sprites/asriel_tenna_mention.png","x":0,"y":390,"width":220,"height":124},
-		{"id":"s2-img","type":"file","file":"Sprites/asriel_shadow.png","x":-95,"y":-270,"width":190,"height":190},
-		{"id":"center-img","type":"file","file":"Sprites/asriel.png","x":-494,"y":-39,"width":99,"height":190},
-		{"id":"s_dess_desaparicion","type":"text","text":"**¿Estuvo presente el día de la desaparición de Dess?**\nSin confirmar — el juego no lo vincula directamente; en el flashback familiar, Asriel desaparece de la escena justo después de ella, no antes ni durante.","x":-555,"y":628,"width":320,"height":200,"color":"1"},
-		{"id":"s_dess_desaparicion-img","type":"file","file":"Sprites/asriel_clothes_in_dess_room.png","x":-555,"y":418,"width":219,"height":157}
-	],
-	"edges":[
-		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"4"},
-		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"1"},
-		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"3"},
-		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
-		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
-		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
-		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
-		{"id":"e_knight","fromNode":"center","fromSide":"right","toNode":"s_knight","toSide":"left","color":"1"},
-		{"id":"e_bratty","fromNode":"center","fromSide":"bottom","toNode":"s_bratty","toSide":"top","color":"3"},
-		{"id":"e_s_dess_desaparicion","fromNode":"center","fromSide":"bottom","toNode":"s_dess_desaparicion","toSide":"top","color":"1"},
-		{"id":"e_s_knight-img","fromNode":"s_knight-img","fromSide":"bottom","toNode":"s_knight","toSide":"top","color":"3"},
-		{"id":"e_s_bratty-img","fromNode":"s_bratty-img","fromSide":"bottom","toNode":"s_bratty","toSide":"top","color":"3"},
-		{"id":"e_s_dess_desaparicion-img","fromNode":"s_dess_desaparicion-img","fromSide":"bottom","toNode":"s_dess_desaparicion","toSide":"top","color":"1"}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Asriel — de vuelta desde el Cap.4\n\nHijo de Toriel y Asgore, hermano de Kris. El mismo Asriel de Undertale.",
+   "x": -190,
+   "y": -80,
+   "width": 400,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Conexión Undertale**\nPersonaje compartido entre ambos juegos.",
+   "x": -130,
+   "y": -538,
+   "width": 270,
+   "height": 150,
+   "color": "4"
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Ralsei**\nSu parecido disparó la teoría 'Ralsei es Asriel'.",
+   "x": 320,
+   "y": 164,
+   "width": 270,
+   "height": 150,
+   "color": "1"
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**¿Cuánto recuerda?**\nLíneas que suenan a comentario extradiegético sobre UT.",
+   "x": -580,
+   "y": 164,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/Undertale.png",
+   "x": -129,
+   "y": -938,
+   "width": 190,
+   "height": 190
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/Ralsei_overworld_hatless.png",
+   "x": 669,
+   "y": 306,
+   "width": 100,
+   "height": 190
+  },
+  {
+   "id": "s_knight",
+   "type": "text",
+   "text": "**¿Es el Caballero Rugiente?** Teoría alternativa real: bate = \"Asriel's Bat\" (confirmado en el 10º aniversario de UT), gestos compartidos con Kris, favorito de Tenna cambia a \"Sword Magician\".",
+   "x": 700,
+   "y": -209,
+   "width": 280,
+   "height": 170,
+   "color": "1"
+  },
+  {
+   "id": "s_bratty",
+   "type": "text",
+   "text": "**Bratty y el tablero de Tenna** Su primer beso, confirmado en el juego; cambió su personaje favorito del Lagarto Verde a la Maga Espada por vergüenza.",
+   "x": 0,
+   "y": 600,
+   "width": 280,
+   "height": 170,
+   "color": "3"
+  },
+  {
+   "id": "s_knight-img",
+   "type": "file",
+   "file": "Sprites/asriel_roaringknight.webp",
+   "x": 700,
+   "y": -419,
+   "width": 143,
+   "height": 180
+  },
+  {
+   "id": "s_bratty-img",
+   "type": "file",
+   "file": "Sprites/asriel_tenna_mention.png",
+   "x": 0,
+   "y": 390,
+   "width": 220,
+   "height": 124
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/asriel_shadow.png",
+   "x": -95,
+   "y": -270,
+   "width": 190,
+   "height": 190
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/asriel.png",
+   "x": -494,
+   "y": -39,
+   "width": 99,
+   "height": 190
+  },
+  {
+   "id": "s_dess_desaparicion",
+   "type": "text",
+   "text": "**¿Estuvo presente el día de la desaparición de Dess?**\nSin confirmar — el juego no lo vincula directamente; en el flashback familiar, Asriel desaparece de la escena justo después de ella, no antes ni durante.",
+   "x": -555,
+   "y": 628,
+   "width": 320,
+   "height": 200,
+   "color": "1"
+  },
+  {
+   "id": "s_dess_desaparicion-img",
+   "type": "file",
+   "file": "Sprites/asriel_clothes_in_dess_room.png",
+   "x": -555,
+   "y": 418,
+   "width": 219,
+   "height": 157
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "4"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "center-img-e",
+   "fromNode": "center-img",
+   "fromSide": "right",
+   "toNode": "center",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "s0-img-e",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s1-img-e",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s2-img-e",
+   "fromNode": "s2-img",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_knight",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s_knight",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_bratty",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s_bratty",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s_dess_desaparicion",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s_dess_desaparicion",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e_s_knight-img",
+   "fromNode": "s_knight-img",
+   "fromSide": "bottom",
+   "toNode": "s_knight",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s_bratty-img",
+   "fromNode": "s_bratty-img",
+   "fromSide": "bottom",
+   "toNode": "s_bratty",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s_dess_desaparicion-img",
+   "fromNode": "s_dess_desaparicion-img",
+   "fromSide": "bottom",
+   "toNode": "s_dess_desaparicion",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_undertale_ralsei",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_knight_ralsei",
+   "fromNode": "s_knight",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_bratty_recuerda",
+   "fromNode": "s_bratty",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_dess_knight",
+   "fromNode": "s_dess_desaparicion",
+   "fromSide": "top",
+   "toNode": "s_knight",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_recuerda_undertale",
+   "fromNode": "s2",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "1"
+  }
+ ]
 }

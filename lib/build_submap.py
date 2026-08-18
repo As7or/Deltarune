@@ -345,9 +345,9 @@ PAGE_CSS = '''
   .node-wet .thumb{ position:relative; z-index:2; filter:sepia(.3) saturate(.8) contrast(.94) brightness(.94); }
   .node-wet .tag, .node-wet .title, .node-wet .summary{ position:relative; z-index:2; }
 
-  /* ---- Shelter: placa de metal oxidada ---- */
+  /* ---- Shelter: placa de metal oxidada y rasgada ---- */
   .node-rusted .rusted-card{
-    position:relative; overflow:hidden; border-radius:3px;
+    position:relative; overflow:hidden; border-radius:2px;
     background:
       repeating-linear-gradient(90deg, rgba(0,0,0,.22) 0 2px, transparent 2px 26px),
       repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0 2px, transparent 2px 26px),
@@ -355,6 +355,12 @@ PAGE_CSS = '''
       radial-gradient(ellipse 55% 40% at 85% 90%, rgba(160,70,25,.4) 0, transparent 60%),
       linear-gradient(160deg, #6b6058 0%, #3a332e 100%);
     box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 18px rgba(0,0,0,.4);
+    clip-path: polygon(
+      0% 3%, 4% 0%, 12% 2%, 18% 0%, 27% 3%, 35% 0%, 44% 2%, 52% 0%, 61% 3%, 69% 0%, 78% 2%, 86% 0%, 94% 3%, 100% 0%,
+      98% 15%, 100% 25%, 97% 35%, 100% 48%, 98% 58%, 100% 70%, 96% 82%, 100% 92%, 95% 100%,
+      85% 97%, 73% 100%, 62% 97%, 50% 100%, 38% 97%, 27% 100%, 15% 97%, 5% 100%, 0% 95%,
+      3% 82%, 0% 70%, 4% 58%, 0% 45%, 3% 32%, 0% 20%, 4% 10%
+    );
   }
   .node-rusted .rust-texture{ position:absolute; inset:0; z-index:1; pointer-events:none;
     background:
@@ -368,13 +374,12 @@ PAGE_CSS = '''
   .node-rusted .title{ position:relative; z-index:2; color:#f3ead6; }
   .node-rusted .summary{ position:relative; z-index:2; color:#d8c9b0; }
 
-  /* ---- Cristal Oscuro: esquirla traslucida con brillo ---- */
+  /* ---- Cristal Oscuro: esquirla traslucida con brillo, imagen completa sin recortes ---- */
   .node-crystal .crystal-card{
     position:relative; overflow:hidden;
     background:
       linear-gradient(135deg, rgba(120,110,220,.22), rgba(40,180,220,.14) 55%, rgba(20,20,40,.55));
     background-color:#1a1c34;
-    clip-path:polygon(3% 0%, 97% 0%, 100% 10%, 100% 92%, 97% 100%, 3% 100%, 0% 90%, 0% 8%);
     box-shadow:0 0 14px rgba(110,120,240,.35), 3px 6px 10px rgba(0,0,0,.5);
   }
   .node-crystal .crystal-glow{ position:absolute; inset:0; z-index:1; pointer-events:none;

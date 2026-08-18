@@ -361,6 +361,62 @@
    "toNode": "s9",
    "toSide": "top",
    "color": "1"
+  },
+  {
+   "id": "cross_seam_purecrystal",
+   "fromNode": "s0",
+   "fromSide": "left",
+   "toNode": "s8",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_jevil_extrano",
+   "fromNode": "s1",
+   "fromSide": "bottom",
+   "toNode": "s7",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_spamton_extrano",
+   "fromNode": "s2",
+   "fromSide": "bottom",
+   "toNode": "s7",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_seam_estrella",
+   "fromNode": "s0",
+   "fromSide": "top",
+   "toNode": "s9",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_seam_mantle",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s6",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_seam_gerson",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_pink_estrella",
+   "fromNode": "s5",
+   "fromSide": "top",
+   "toNode": "s9",
+   "toSide": "bottom",
+   "color": "1"
   }
  ]
 }

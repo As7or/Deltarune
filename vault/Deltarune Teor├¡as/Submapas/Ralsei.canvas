@@ -1,33 +1,275 @@
 {
-	"nodes":[
-		{"id":"center","type":"text","text":"# Ralsei — el príncipe sin súbditos\n\nTercer héroe de la Profecía. Gentil hasta la autonegación — pasa buena parte del juego sin creerse merecedor de nada propio.","x":-180,"y":-70,"width":380,"height":210,"color":"6"},
-		{"id":"s0","type":"text","text":"**Parecido físico con Asriel**\nBase visual de la teoría 'Ralsei es Asriel'.","x":-130,"y":-520,"width":270,"height":150,"color":"3"},
-		{"id":"s1","type":"text","text":"**Conoce el final de la Profecía**\nOculta la parte final para proteger a Susie y Kris — casi rompe su amistad.","x":346,"y":-209,"width":270,"height":150,"color":"3"},
-		{"id":"s2","type":"text","text":"**Susie**\nLe empuja a reconocerse como algo más que un objeto al servicio de los Lightners.","x":164,"y":294,"width":270,"height":150,"color":"4"},
-		{"id":"s3","type":"text","text":"**Etimología de su nombre**\nAnagrama de 'Asriel' + referencia a 'Ralse' de un juego del hermano de Toby Fox.","x":-424,"y":294,"width":270,"height":150,"color":"1"},
-		{"id":"s4","type":"text","text":"**Flowery**\nSu relación más tensa: antiguos conocidos por Asgore, ahora rivales.","x":-606,"y":-209,"width":270,"height":150,"color":"1"},
-		{"id":"s5","type":"text","text":"**¿Qué es Ralsei realmente?**\nFlowery lo llama 'una imposibilidad': aparece en más de un Mundo Oscuro, no tiene forma Mundo Claro conocida, y sabe demasiado de la Profecía. Sin explicación textual cerrada.","x":800,"y":300,"width":300,"height":220,"color":"3"},
-		{"id":"center-img","type":"file","file":"Sprites/Ralsei_overworld_hatless.png","x":-986,"y":-133,"width":100,"height":190},
-		{"id":"s0-img","type":"file","file":"Sprites/asriel.png","x":-129,"y":-920,"width":99,"height":190},
-		{"id":"s1-img","type":"file","file":"Sprites/Profecy.gif","x":709,"y":-357,"width":190,"height":190},
-		{"id":"s2-img","type":"file","file":"Sprites/Susie_overworld_eyes.png","x":418,"y":561,"width":108,"height":190},
-		{"id":"s3-img","type":"file","file":"Sprites/Ralsei_con_gorro.gif","x":-672,"y":557,"width":109,"height":190},
-		{"id":"s4-img","type":"file","file":"Sprites/Flowery_face.webp","x":-860,"y":-560,"width":115,"height":190},
-		{"id":"s5-img","type":"file","file":"Sprites/Ralsei_screenshot_overwhelmed_with_knowledge.png","x":800,"y":80,"width":200,"height":150}
-	],
-	"edges":[
-		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"3"},
-		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"3"},
-		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"4"},
-		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"1"},
-		{"id":"e4","fromNode":"center","fromSide":"left","toNode":"s4","toSide":"right","color":"1"},
-		{"id":"e5","fromNode":"center","fromSide":"right","toNode":"s5","toSide":"left","color":"3"},
-		{"id":"s5-img-e","fromNode":"s5-img","fromSide":"bottom","toNode":"s5","toSide":"top","color":"6"},
-		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
-		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
-		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
-		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
-		{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
-		{"id":"s4-img-e","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"6"}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Ralsei — el príncipe sin súbditos\n\nTercer héroe de la Profecía. Gentil hasta la autonegación — pasa buena parte del juego sin creerse merecedor de nada propio.",
+   "x": -180,
+   "y": -70,
+   "width": 380,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Parecido físico con Asriel**\nBase visual de la teoría 'Ralsei es Asriel'.",
+   "x": -130,
+   "y": -520,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Conoce el final de la Profecía**\nOculta la parte final para proteger a Susie y Kris — casi rompe su amistad.",
+   "x": 346,
+   "y": -209,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Susie**\nLe empuja a reconocerse como algo más que un objeto al servicio de los Lightners.",
+   "x": 164,
+   "y": 294,
+   "width": 270,
+   "height": 150,
+   "color": "4"
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Etimología de su nombre**\nAnagrama de 'Asriel' + referencia a 'Ralse' de un juego del hermano de Toby Fox.",
+   "x": -424,
+   "y": 294,
+   "width": 270,
+   "height": 150,
+   "color": "1"
+  },
+  {
+   "id": "s4",
+   "type": "text",
+   "text": "**Flowery**\nSu relación más tensa: antiguos conocidos por Asgore, ahora rivales.",
+   "x": -606,
+   "y": -209,
+   "width": 270,
+   "height": 150,
+   "color": "1"
+  },
+  {
+   "id": "s5",
+   "type": "text",
+   "text": "**¿Qué es Ralsei realmente?**\nFlowery lo llama 'una imposibilidad': aparece en más de un Mundo Oscuro, no tiene forma Mundo Claro conocida, y sabe demasiado de la Profecía. Sin explicación textual cerrada.",
+   "x": 800,
+   "y": 300,
+   "width": 300,
+   "height": 220,
+   "color": "3"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/Ralsei_overworld_hatless.png",
+   "x": -986,
+   "y": -133,
+   "width": 100,
+   "height": 190
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/asriel.png",
+   "x": -129,
+   "y": -920,
+   "width": 99,
+   "height": 190
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/Profecy.gif",
+   "x": 709,
+   "y": -357,
+   "width": 190,
+   "height": 190
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/Susie_overworld_eyes.png",
+   "x": 418,
+   "y": 561,
+   "width": 108,
+   "height": 190
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/Ralsei_con_gorro.gif",
+   "x": -672,
+   "y": 557,
+   "width": 109,
+   "height": 190
+  },
+  {
+   "id": "s4-img",
+   "type": "file",
+   "file": "Sprites/Flowery_face.webp",
+   "x": -860,
+   "y": -560,
+   "width": 115,
+   "height": 190
+  },
+  {
+   "id": "s5-img",
+   "type": "file",
+   "file": "Sprites/Ralsei_screenshot_overwhelmed_with_knowledge.png",
+   "x": 800,
+   "y": 80,
+   "width": 200,
+   "height": 150
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s2",
+   "toSide": "left",
+   "color": "4"
+  },
+  {
+   "id": "e3",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e4",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s4",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e5",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s5",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "s5-img-e",
+   "fromNode": "s5-img",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "center-img-e",
+   "fromNode": "center-img",
+   "fromSide": "right",
+   "toNode": "center",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "s0-img-e",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s1-img-e",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s2-img-e",
+   "fromNode": "s2-img",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s3-img-e",
+   "fromNode": "s3-img",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s4-img-e",
+   "fromNode": "s4-img",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "cross_asriel_impossible",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_flowery_impossible",
+   "fromNode": "s4",
+   "fromSide": "right",
+   "toNode": "s5",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_prophecy_susie",
+   "fromNode": "s1",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_etymology_asriel",
+   "fromNode": "s3",
+   "fromSide": "top",
+   "toNode": "s0",
+   "toSide": "bottom",
+   "color": "3"
+  }
+ ]
 }

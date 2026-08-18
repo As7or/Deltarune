@@ -344,6 +344,62 @@
    "toNode": "s_pan",
    "toSide": "bottom",
    "color": "1"
+  },
+  {
+   "id": "cross_papyrus_whynoappear",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s7",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_ferris_dimension",
+   "fromNode": "s4",
+   "fromSide": "right",
+   "toNode": "s5",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_dimension_ruta",
+   "fromNode": "s5",
+   "fromSide": "bottom",
+   "toNode": "s6",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_undertale_dimension",
+   "fromNode": "s3",
+   "fromSide": "left",
+   "toNode": "s5",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_puertas_dimension",
+   "fromNode": "s_puertas",
+   "fromSide": "top",
+   "toNode": "s5",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_pan_undertale",
+   "fromNode": "s_pan",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_ruta_undertale",
+   "fromNode": "s6",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "3"
   }
  ]
 }

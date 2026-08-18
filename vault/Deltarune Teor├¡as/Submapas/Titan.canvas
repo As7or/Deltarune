@@ -1,35 +1,301 @@
 {
-	"nodes":[
-		{"id":"center","type":"text","text":"# Titan\n🌑 Entidad primordial de oscuridad que emerge de una Fuente Oscura cuando su poder crece demasiado — jefe final del Cap.4.","x":0,"y":0,"width":360,"height":170,"color":"6"},
-		{"id":"center-img","type":"file","file":"Sprites/Titan_screenshot_creation.png","x":0,"y":-220,"width":260,"height":195},
-		{"id":"s0","type":"text","text":"**Roaring Knight**\nLo crea deliberadamente al final del Cap.4, abriendo una Fuente Oscura mucho más potente de lo normal dentro del 3er Santuario.","x":-650,"y":300,"width":300,"height":210,"color":"6"},
-		{"id":"s0-img","type":"file","file":"Sprites/TheRoaringKnightDeltarune.webp","x":-650,"y":90,"width":158,"height":180},
-		{"id":"s1","type":"text","text":"**Gerson Boom**\nAparece en el momento más desesperado del combate para ayudar a romper su escudo con el Dual Buster, permitiendo el golpe final.","x":-300,"y":300,"width":300,"height":210,"color":"6"},
-		{"id":"s1-img","type":"file","file":"Sprites/gerson-grave.png","x":-300,"y":90,"width":166,"height":180},
-		{"id":"s2","type":"text","text":"**Ralsei**\nEs quien explica por primera vez, ya en el Cap.2, el concepto del Rugido y de los Titanes como su causa.","x":60,"y":300,"width":300,"height":190,"color":"6"},
-		{"id":"s2-img","type":"file","file":"Sprites/Ralsei_overworld_hatless.png","x":60,"y":90,"width":95,"height":180},
-		{"id":"s3","type":"text","text":"**Susie y Kris**\nLo derrotan entre los dos: Susie lanza a Kris dentro del Titán, y es el ALMA de Kris, brillando desde dentro, la que finalmente lo destruye.","x":420,"y":300,"width":300,"height":210,"color":"6"},
-		{"id":"s3-img","type":"file","file":"Sprites/Susie_overworld_eyes.png","x":420,"y":90,"width":102,"height":180},
-		{"id":"s4","type":"text","text":"**Profecía**\nEl Rugido que los Titanes anuncian es uno de los grandes eventos catastróficos recogidos en la Última Profecía — el del Cap.4 es, de momento, el único materializado.","x":780,"y":300,"width":300,"height":210,"color":"3"},
-		{"id":"s4-img","type":"file","file":"Sprites/Profecy.gif","x":780,"y":90,"width":180,"height":180},
-		{"id":"s5","type":"text","text":"**Titan Spawn**\nSus crías: criaturas embrionarias que aparecen primero como obstáculos y luego como miniboss por parejas. El Titán los absorbe para regenerarse cuando su escudo se rompe.","x":-650,"y":620,"width":300,"height":220,"color":"6"},
-		{"id":"s5-img","type":"file","file":"Sprites/Titan_Spawn_battle_idle.gif","x":-650,"y":850,"width":157,"height":180},
-		{"id":"s6","type":"text","text":"**¿Cada Mundo Oscuro tendría su propio Titán distinto?**\nLa wiki oficial apunta a que la forma del Titán del Cap.4 podría ser única de ese Santuario — sin confirmar, ya que de momento solo se ha visto uno.","x":-300,"y":620,"width":300,"height":220,"color":"3"}
-	],
-	"edges":[
-		{"id":"e_centerimg","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"6"},
-		{"id":"e0","fromNode":"center","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
-		{"id":"e_s0img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
-		{"id":"e1","fromNode":"center","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
-		{"id":"e_s1img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
-		{"id":"e2","fromNode":"center","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
-		{"id":"e_s2img","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
-		{"id":"e3","fromNode":"center","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
-		{"id":"e_s3img","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
-		{"id":"e4","fromNode":"center","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
-		{"id":"e_s4img","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
-		{"id":"e5","fromNode":"center","fromSide":"bottom","toNode":"s5","toSide":"top","color":"6"},
-		{"id":"e_s5img","fromNode":"s5-img","fromSide":"bottom","toNode":"s5","toSide":"top","color":"6"},
-		{"id":"e6","fromNode":"center","fromSide":"bottom","toNode":"s6","toSide":"top","color":"3"}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Titan\n🌑 Entidad primordial de oscuridad que emerge de una Fuente Oscura cuando su poder crece demasiado — jefe final del Cap.4.",
+   "x": 0,
+   "y": 0,
+   "width": 360,
+   "height": 170,
+   "color": "6"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/Titan_screenshot_creation.png",
+   "x": 0,
+   "y": -220,
+   "width": 260,
+   "height": 195
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Roaring Knight**\nLo crea deliberadamente al final del Cap.4, abriendo una Fuente Oscura mucho más potente de lo normal dentro del 3er Santuario.",
+   "x": -650,
+   "y": 300,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/TheRoaringKnightDeltarune.webp",
+   "x": -650,
+   "y": 90,
+   "width": 158,
+   "height": 180
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Gerson Boom**\nAparece en el momento más desesperado del combate para ayudar a romper su escudo con el Dual Buster, permitiendo el golpe final.",
+   "x": -300,
+   "y": 300,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/gerson-grave.png",
+   "x": -300,
+   "y": 90,
+   "width": 166,
+   "height": 180
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Ralsei**\nEs quien explica por primera vez, ya en el Cap.2, el concepto del Rugido y de los Titanes como su causa.",
+   "x": 60,
+   "y": 300,
+   "width": 300,
+   "height": 190,
+   "color": "6"
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/Ralsei_overworld_hatless.png",
+   "x": 60,
+   "y": 90,
+   "width": 95,
+   "height": 180
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Susie y Kris**\nLo derrotan entre los dos: Susie lanza a Kris dentro del Titán, y es el ALMA de Kris, brillando desde dentro, la que finalmente lo destruye.",
+   "x": 420,
+   "y": 300,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/Susie_overworld_eyes.png",
+   "x": 420,
+   "y": 90,
+   "width": 102,
+   "height": 180
+  },
+  {
+   "id": "s4",
+   "type": "text",
+   "text": "**Profecía**\nEl Rugido que los Titanes anuncian es uno de los grandes eventos catastróficos recogidos en la Última Profecía — el del Cap.4 es, de momento, el único materializado.",
+   "x": 780,
+   "y": 300,
+   "width": 300,
+   "height": 210,
+   "color": "3"
+  },
+  {
+   "id": "s4-img",
+   "type": "file",
+   "file": "Sprites/Profecy.gif",
+   "x": 780,
+   "y": 90,
+   "width": 180,
+   "height": 180
+  },
+  {
+   "id": "s5",
+   "type": "text",
+   "text": "**Titan Spawn**\nSus crías: criaturas embrionarias que aparecen primero como obstáculos y luego como miniboss por parejas. El Titán los absorbe para regenerarse cuando su escudo se rompe.",
+   "x": -650,
+   "y": 620,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s5-img",
+   "type": "file",
+   "file": "Sprites/Titan_Spawn_battle_idle.gif",
+   "x": -650,
+   "y": 850,
+   "width": 157,
+   "height": 180
+  },
+  {
+   "id": "s6",
+   "type": "text",
+   "text": "**¿Cada Mundo Oscuro tendría su propio Titán distinto?**\nLa wiki oficial apunta a que la forma del Titán del Cap.4 podría ser única de ese Santuario — sin confirmar, ya que de momento solo se ha visto uno.",
+   "x": -300,
+   "y": 620,
+   "width": 300,
+   "height": 220,
+   "color": "3"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e_centerimg",
+   "fromNode": "center-img",
+   "fromSide": "bottom",
+   "toNode": "center",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s0img",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s1img",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s2img",
+   "fromNode": "s2-img",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e3",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s3img",
+   "fromNode": "s3-img",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e4",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s4img",
+   "fromNode": "s4-img",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e5",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s5img",
+   "fromNode": "s5-img",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e6",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s6",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_knight_prophecy",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_ralsei_prophecy",
+   "fromNode": "s2",
+   "fromSide": "right",
+   "toNode": "s4",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_gerson_susiekris",
+   "fromNode": "s1",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_spawn_knight",
+   "fromNode": "s5",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_eachtitan_prophecy",
+   "fromNode": "s6",
+   "fromSide": "top",
+   "toNode": "s4",
+   "toSide": "bottom",
+   "color": "1"
+  }
+ ]
 }

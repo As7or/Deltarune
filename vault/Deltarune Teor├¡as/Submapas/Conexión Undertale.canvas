@@ -1,0 +1,337 @@
+{
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Conexión Undertale\n\nUniverso paralelo confirmado por Toby Fox. Comparte personajes y varios hilos de lore.",
+   "x": -190,
+   "y": -80,
+   "width": 400,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Gaster**\nPersonaje original de UT, desaparecido en ambos juegos.",
+   "x": -130,
+   "y": -538,
+   "width": 270,
+   "height": 150,
+   "color": "4"
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Asriel**\nMismo personaje, otra historia.",
+   "x": 320,
+   "y": 164,
+   "width": 270,
+   "height": 150,
+   "color": "4"
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Kris**\nSOULs y la teoría del Vessel comparten mecánica con UT.",
+   "x": -580,
+   "y": 164,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/Undertale.png",
+   "x": -960,
+   "y": -207,
+   "width": 190,
+   "height": 190
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/gaster.png",
+   "x": -129,
+   "y": -938,
+   "width": 74,
+   "height": 190
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/asriel.png",
+   "x": 669,
+   "y": 306,
+   "width": 99,
+   "height": 190
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/Kris_overworld_static.png",
+   "x": -920,
+   "y": 303,
+   "width": 81,
+   "height": 158
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "x": 320,
+   "y": -390,
+   "width": 300,
+   "height": 190,
+   "color": "4",
+   "text": "**¿Es Sans un viajero venido de Deltarune?**\nLa teoría más sólida de la nota: la tarjeta perforada del Cap.5 (\"Don't Forget\") es prácticamente idéntica a la que ya existía escondida en su taller secreto de Undertale desde 2015 — el mismo objeto en los dos juegos. Además, es el único Lightner cuyo diseño no cambia nada respecto a Undertale, y el único que usa magia libremente fuera de los Mundos Oscuros."
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "x": 700,
+   "y": -420,
+   "width": 190,
+   "height": 152,
+   "file": "Sprites/sans_dont_forget.png"
+  },
+  {
+   "id": "s3b-img",
+   "type": "file",
+   "x": 700,
+   "y": -220,
+   "width": 190,
+   "height": 152,
+   "file": "Sprites/sans_lab_dont_forget.png"
+  },
+  {
+   "id": "s4",
+   "type": "text",
+   "x": -580,
+   "y": -390,
+   "width": 260,
+   "height": 160,
+   "color": "3",
+   "text": "**Papyrus**\nNunca aparece en pantalla en ninguno de los dos juegos — su ausencia total en Deltarune (frente a la fuerte presencia de Sans aquí) alimenta buena parte de las teorías sobre a dónde fue realmente. [[Papyrus]]"
+  },
+  {
+   "id": "s4-img",
+   "type": "file",
+   "x": -880,
+   "y": -420,
+   "width": 150,
+   "height": 200,
+   "file": "Sprites/papyrus_shadow.png"
+  },
+  {
+   "id": "s5",
+   "type": "text",
+   "x": -580,
+   "y": -130,
+   "width": 260,
+   "height": 170,
+   "color": "1",
+   "text": "**¿Undertale es el resultado de una Ruta Rara?**\nLectura muy especulativa: el propio mundo sellado de Undertale sería la consecuencia de una Ruta Rara de Deltarune llevada hasta el final — el \"Cielo del Ángel\" de la Profecía y la guerra humano-monstruo podrían ser la misma catástrofe vista desde dos ángulos."
+  },
+  {
+   "id": "s6",
+   "type": "text",
+   "x": -580,
+   "y": 70,
+   "width": 260,
+   "height": 170,
+   "color": "1",
+   "text": "**¿Precuela encubierta, no universo paralelo?**\nLectura minoritaria: Hometown \"lleva la cara\" de Undertale pero sin guerra ni Subsuelo — el mismo mundo antes de esos sucesos, no una línea paralela. Choca con que Toby Fox ya describió la relación como universos paralelos."
+  },
+  {
+   "id": "s7",
+   "type": "text",
+   "x": 320,
+   "y": 380,
+   "width": 260,
+   "height": 160,
+   "color": "3",
+   "text": "**Jugador**\nLa secuencia de creación del Vessel en la introducción reutiliza directamente terminología, estética y música asociadas a Gaster en Undertale. [[Jugador]]"
+  },
+  {
+   "id": "s8",
+   "type": "text",
+   "x": -900,
+   "y": 70,
+   "width": 260,
+   "height": 160,
+   "color": "1",
+   "text": "**Ángel**\nEl \"Cielo del Ángel\" que hay que desterrar según la Profecía podría ser la misma catástrofe que la guerra humano-monstruo de Undertale, leída desde el otro lado. [[Ángel]]"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "4"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "4"
+  },
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "center-img-e",
+   "fromNode": "center-img",
+   "fromSide": "right",
+   "toNode": "center",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "s0-img-e",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s1-img-e",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s2-img-e",
+   "fromNode": "s2-img",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_s3",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "4"
+  },
+  {
+   "id": "e_s3img",
+   "fromNode": "s3-img",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "6"
+  },
+  {
+   "id": "e_s3bimg",
+   "fromNode": "s3b-img",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "6"
+  },
+  {
+   "id": "e_s4",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s4",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s4img",
+   "fromNode": "s4-img",
+   "fromSide": "right",
+   "toNode": "s4",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "e_s5",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s5",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_s6",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s6",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_s7",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s7",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s8",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s8",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "cross_sans_card",
+   "fromNode": "s3",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "4"
+  },
+  {
+   "id": "cross_papyrus_sans",
+   "fromNode": "s4",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_rutarara_angel",
+   "fromNode": "s5",
+   "fromSide": "bottom",
+   "toNode": "s8",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_jugador_gaster",
+   "fromNode": "s7",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_precuela_rutarara",
+   "fromNode": "s6",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "1"
+  }
+ ]
+}

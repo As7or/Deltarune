@@ -1,63 +1,562 @@
 {
-	"nodes":[
-		{"id":"center","type":"text","text":"# Spamton — el vendedor que predice el futuro\n\nAntagonista del Cap.2, jefe secreto como Spamton NEO. Ex-socio y ahora rival de Tenna.","x":-190,"y":-80,"width":400,"height":220,"color":"6"},
-		{"id":"s0","type":"text","text":"**Predice la Ruta Rara**\n'Libertad a cambio de llorar en un hogar roto' — y la muerte de Tenna.","x":-130,"y":-538,"width":270,"height":150,"color":"3"},
-		{"id":"s1","type":"text","text":"**Strange Someone**\nDespertado junto a Jevil mediante el Shadow Crystal.","x":390,"y":-70,"width":270,"height":150,"color":"3"},
-		{"id":"s2","type":"text","text":"**Tenna**\nConoce el Shadow Mantle por el manhole que conecta ambas salas.","x":-130,"y":398,"width":270,"height":150,"color":"1"},
-		{"id":"s3","type":"text","text":"**Dark Crystal**\nUno de sus Portadores; tema de la libertad.","x":-650,"y":-70,"width":270,"height":150,"color":"3"},
-		{"id":"s_ch5","type":"text","text":"**Pink hereda sus cuerdas (Cap.5)**\nEl jefe del Shadow Crystal del Cap.5 manifiesta las mismas cuerdas verdes que ataban a Spamton.","x":-900,"y":300,"width":280,"height":160,"color":"1"},
-		{"id":"s_addison","type":"text","text":"**El White Addison**\nVendedor de spam sin éxito; soñaba con ser un 'big shot'.","x":900,"y":-700,"width":290,"height":165,"color":"1"},
-		{"id":"s_call","type":"text","text":"**La llamada misteriosa**\nAlguien no identificado lo ayuda a triunfar — luego lo abandona justo antes de firmar con Tenna.","x":900,"y":-350,"width":290,"height":165,"color":"1"},
-		{"id":"s_friendcat","type":"text","text":"**Conexión con FRIEND**\nSus gafas comparten colores con FRIEND; equipa objetos con defensa anti-gato para protegerse de él.","x":900,"y":650,"width":290,"height":165,"color":"1"},
-		{"id":"s0-img","type":"file","file":"Sprites/spamton_thornring.png","x":-129,"y":-938,"width":256,"height":190},
-		{"id":"s1-img","type":"file","file":"Sprites/spamton_oldposter.jpg","x":775,"y":-108,"width":260,"height":139},
-		{"id":"s2-img","type":"file","file":"Sprites/tenna_introduction.webp","x":-129,"y":758,"width":253,"height":190},
-		{"id":"s_addison-img","type":"file","file":"Sprites/spamton_adison.png","x":1237,"y":-914,"width":143,"height":190},
-		{"id":"s_call-img","type":"file","file":"Sprites/spamton_telephone.gif","x":1280,"y":-467,"width":107,"height":190},
-		{"id":"s_garbage-img","type":"file","file":"Sprites/spamton_z_room.webp","x":1295,"y":7,"width":253,"height":190},
-		{"id":"s_friendcat-img","type":"file","file":"Sprites/FRIEND.png","x":1229,"y":851,"width":205,"height":190},
-		{"id":"s_garbage","type":"text","text":"**'Solo ruido de basura'**\nEl eco sonoro de su caída se asocia al mismo tipo de estática ligada a Gaster.","x":890,"y":160,"width":290,"height":165,"color":"1"},
-		{"id":"s3-img","type":"file","file":"Sprites/Shadow_Crystal_item.webp","x":-880,"y":-360,"width":62,"height":80},
-		{"id":"center-img","type":"file","file":"Sprites/spamton.gif","x":-79,"y":-260,"width":169,"height":190},
-		{"id":"s_eram","type":"text","text":"**ERAM (Shadow Mantle Holder)**\nMismo motivo musical (BIG SHOT/BURNING EYES); ambos candidatos a 'Alguien Extraño'.","x":-1236,"y":300,"width":270,"height":160,"color":"1"},
-		{"id":"s_qanda","type":"text","text":"**Q&A de 2022 (más respuestas)** Confirma que le robó a Lancer su swatch \"Lucas\" y que fue amigo de Jevil antes de \"engañarle\" — pero dice no saber quién es el Caballero, contradiciendo su diálogo in-game.","x":-900,"y":-400,"width":280,"height":180,"color":"3"},
-		{"id":"s_roomz","type":"text","text":"**La Room Z, ¿su antiguo despacho?**\nSala de rango Z (el más bajo) en el Mundo TV del Cap.3, con un teléfono de disco idéntico al de su tienda, colgado y desconectado — el mismo detalle que Addisons y Tenna mencionan sobre su desaparición.","x":-1236,"y":1121,"width":320,"height":200,"color":"3"},
-		{"id":"s_puppetcat","type":"text","text":"**El elemento \"Puppet/Cat\"**\nSegún el propio Spamton en el Q&A de 2022, existe un tipo de daño oculto llamado así (Elemento 6) — varios de sus objetos (Dealmaker, FrayedBowtie, TrueTie) reducen específicamente ese daño.","x":-896,"y":1121,"width":320,"height":200,"color":"4"},
-		{"id":"s_puppetcat-img","type":"file","file":"Sprites/FRIEND.png","x":-896,"y":1350,"width":183,"height":170},
-		{"id":"s_qanda-img","type":"file","file":"Sprites/spamton_telephone.gif","x":-1250,"y":-620,"width":107,"height":190},
-		{"id":"s_marioneta","type":"text","text":"**¿Por qué tiene forma de marioneta y no de Addison normal?**\nSpamton da a entender que los Swatchlings lo tiraron al río de ácido de la Mansión de Queen — el ácido \"encoge\", y las cuerdas de Spamton NEO son del mismo verde. Sin confirmar del todo.","x":-620,"y":1350,"width":300,"height":230,"color":"3"},
-		{"id":"s_marioneta-img","type":"file","file":"Sprites/spamton_theory_acid_small.png","x":-620,"y":1610,"width":300,"height":169},
-		{"id":"s_eram-img","type":"file","file":"Sprites/shadow_mantle.gif","x":-1186,"y":130,"width":170,"height":170},
-		{"id":"s_ch5-img","type":"file","file":"Sprites/spamton_swatch.png","x":-825,"y":473,"width":130,"height":190}
-	],
-	"edges":[
-		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"3"},
-		{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"3"},
-		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"s2","toSide":"right","color":"1"},
-		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"3"},
-		{"id":"e_ch5","fromNode":"center","fromSide":"bottom","toNode":"s_ch5","toSide":"top","color":"1"},
-		{"id":"e_s_addison","fromNode":"center","fromSide":"right","toNode":"s_addison","toSide":"left","color":"1"},
-		{"id":"e_s_call","fromNode":"center","fromSide":"right","toNode":"s_call","toSide":"left","color":"1"},
-		{"id":"e_s_garbage","fromNode":"center","fromSide":"right","toNode":"s_garbage","toSide":"left","color":"1"},
-		{"id":"e_s_friendcat","fromNode":"center","fromSide":"right","toNode":"s_friendcat","toSide":"left","color":"1"},
-		{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},
-		{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},
-		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
-		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
-		{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},
-		{"id":"s_ch5-img-e","fromNode":"s_ch5-img","fromSide":"bottom","toNode":"s_ch5","toSide":"top","color":"6"},
-		{"id":"s_addison-img-e","fromNode":"s_addison-img","fromSide":"bottom","toNode":"s_addison","toSide":"top","color":"6"},
-		{"id":"s_call-img-e","fromNode":"s_call-img","fromSide":"bottom","toNode":"s_call","toSide":"top","color":"6"},
-		{"id":"s_garbage-img-e","fromNode":"s_garbage-img","fromSide":"bottom","toNode":"s_garbage","toSide":"top","color":"6"},
-		{"id":"s_friendcat-img-e","fromNode":"s_friendcat-img","fromSide":"bottom","toNode":"s_friendcat","toSide":"top","color":"6"},
-		{"id":"e_eram","fromNode":"center","fromSide":"left","toNode":"s_eram","toSide":"right","color":"1"},
-		{"id":"e_eram_img","fromNode":"s_eram-img","fromSide":"top","toNode":"s_eram","toSide":"bottom","color":"6"},
-		{"id":"e_qanda","fromNode":"center","fromSide":"left","toNode":"s_qanda","toSide":"right","color":"3"},
-		{"id":"e_s_roomz","fromNode":"center","fromSide":"bottom","toNode":"s_roomz","toSide":"top","color":"3"},
-		{"id":"e_s_puppetcat","fromNode":"center","fromSide":"bottom","toNode":"s_puppetcat","toSide":"top","color":"4"},
-		{"id":"e_s_puppetcat-img","fromNode":"s_puppetcat-img","fromSide":"top","toNode":"s_puppetcat","toSide":"bottom","color":"3"},
-		{"id":"e_s_qanda-img","fromNode":"s_qanda-img","fromSide":"right","toNode":"s_qanda","toSide":"left","color":"3"},
-		{"id":"e_s_marioneta","fromNode":"center","fromSide":"bottom","toNode":"s_marioneta","toSide":"top","color":"3"},
-		{"id":"e_s_marioneta-img","fromNode":"s_marioneta-img","fromSide":"top","toNode":"s_marioneta","toSide":"bottom","color":"3"}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Spamton — el vendedor que predice el futuro\n\nAntagonista del Cap.2, jefe secreto como Spamton NEO. Ex-socio y ahora rival de Tenna.",
+   "x": -190,
+   "y": -80,
+   "width": 400,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Predice la Ruta Rara**\n'Libertad a cambio de llorar en un hogar roto' — y la muerte de Tenna.",
+   "x": -130,
+   "y": -538,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Strange Someone**\nDespertado junto a Jevil mediante el Shadow Crystal.",
+   "x": 390,
+   "y": -70,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Tenna**\nConoce el Shadow Mantle por el manhole que conecta ambas salas.",
+   "x": -130,
+   "y": 398,
+   "width": 270,
+   "height": 150,
+   "color": "1"
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Dark Crystal**\nUno de sus Portadores; tema de la libertad.",
+   "x": -650,
+   "y": -70,
+   "width": 270,
+   "height": 150,
+   "color": "3"
+  },
+  {
+   "id": "s_ch5",
+   "type": "text",
+   "text": "**Pink hereda sus cuerdas (Cap.5)**\nEl jefe del Shadow Crystal del Cap.5 manifiesta las mismas cuerdas verdes que ataban a Spamton.",
+   "x": -900,
+   "y": 300,
+   "width": 280,
+   "height": 160,
+   "color": "1"
+  },
+  {
+   "id": "s_addison",
+   "type": "text",
+   "text": "**El White Addison**\nVendedor de spam sin éxito; soñaba con ser un 'big shot'.",
+   "x": 900,
+   "y": -700,
+   "width": 290,
+   "height": 165,
+   "color": "1"
+  },
+  {
+   "id": "s_call",
+   "type": "text",
+   "text": "**La llamada misteriosa**\nAlguien no identificado lo ayuda a triunfar — luego lo abandona justo antes de firmar con Tenna.",
+   "x": 900,
+   "y": -350,
+   "width": 290,
+   "height": 165,
+   "color": "1"
+  },
+  {
+   "id": "s_friendcat",
+   "type": "text",
+   "text": "**Conexión con FRIEND**\nSus gafas comparten colores con FRIEND; equipa objetos con defensa anti-gato para protegerse de él.",
+   "x": 900,
+   "y": 650,
+   "width": 290,
+   "height": 165,
+   "color": "1"
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/spamton_thornring.png",
+   "x": -129,
+   "y": -938,
+   "width": 256,
+   "height": 190
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/spamton_oldposter.jpg",
+   "x": 775,
+   "y": -108,
+   "width": 260,
+   "height": 139
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/tenna_introduction.webp",
+   "x": -129,
+   "y": 758,
+   "width": 253,
+   "height": 190
+  },
+  {
+   "id": "s_addison-img",
+   "type": "file",
+   "file": "Sprites/spamton_adison.png",
+   "x": 1237,
+   "y": -914,
+   "width": 143,
+   "height": 190
+  },
+  {
+   "id": "s_call-img",
+   "type": "file",
+   "file": "Sprites/spamton_telephone.gif",
+   "x": 1280,
+   "y": -467,
+   "width": 107,
+   "height": 190
+  },
+  {
+   "id": "s_garbage-img",
+   "type": "file",
+   "file": "Sprites/spamton_z_room.webp",
+   "x": 1295,
+   "y": 7,
+   "width": 253,
+   "height": 190
+  },
+  {
+   "id": "s_friendcat-img",
+   "type": "file",
+   "file": "Sprites/FRIEND.png",
+   "x": 1229,
+   "y": 851,
+   "width": 205,
+   "height": 190
+  },
+  {
+   "id": "s_garbage",
+   "type": "text",
+   "text": "**'Solo ruido de basura'**\nEl eco sonoro de su caída se asocia al mismo tipo de estática ligada a Gaster.",
+   "x": 890,
+   "y": 160,
+   "width": 290,
+   "height": 165,
+   "color": "1"
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/Shadow_Crystal_item.webp",
+   "x": -880,
+   "y": -360,
+   "width": 62,
+   "height": 80
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/spamton.gif",
+   "x": -79,
+   "y": -260,
+   "width": 169,
+   "height": 190
+  },
+  {
+   "id": "s_eram",
+   "type": "text",
+   "text": "**ERAM (Shadow Mantle Holder)**\nMismo motivo musical (BIG SHOT/BURNING EYES); ambos candidatos a 'Alguien Extraño'.",
+   "x": -1236,
+   "y": 300,
+   "width": 270,
+   "height": 160,
+   "color": "1"
+  },
+  {
+   "id": "s_qanda",
+   "type": "text",
+   "text": "**Q&A de 2022 (más respuestas)** Confirma que le robó a Lancer su swatch \"Lucas\" y que fue amigo de Jevil antes de \"engañarle\" — pero dice no saber quién es el Caballero, contradiciendo su diálogo in-game.",
+   "x": -900,
+   "y": -400,
+   "width": 280,
+   "height": 180,
+   "color": "3"
+  },
+  {
+   "id": "s_roomz",
+   "type": "text",
+   "text": "**La Room Z, ¿su antiguo despacho?**\nSala de rango Z (el más bajo) en el Mundo TV del Cap.3, con un teléfono de disco idéntico al de su tienda, colgado y desconectado — el mismo detalle que Addisons y Tenna mencionan sobre su desaparición.",
+   "x": -1236,
+   "y": 1121,
+   "width": 320,
+   "height": 200,
+   "color": "3"
+  },
+  {
+   "id": "s_puppetcat",
+   "type": "text",
+   "text": "**El elemento \"Puppet/Cat\"**\nSegún el propio Spamton en el Q&A de 2022, existe un tipo de daño oculto llamado así (Elemento 6) — varios de sus objetos (Dealmaker, FrayedBowtie, TrueTie) reducen específicamente ese daño.",
+   "x": -896,
+   "y": 1121,
+   "width": 320,
+   "height": 200,
+   "color": "4"
+  },
+  {
+   "id": "s_puppetcat-img",
+   "type": "file",
+   "file": "Sprites/FRIEND.png",
+   "x": -896,
+   "y": 1350,
+   "width": 183,
+   "height": 170
+  },
+  {
+   "id": "s_qanda-img",
+   "type": "file",
+   "file": "Sprites/spamton_telephone.gif",
+   "x": -1250,
+   "y": -620,
+   "width": 107,
+   "height": 190
+  },
+  {
+   "id": "s_marioneta",
+   "type": "text",
+   "text": "**¿Por qué tiene forma de marioneta y no de Addison normal?**\nSpamton da a entender que los Swatchlings lo tiraron al río de ácido de la Mansión de Queen — el ácido \"encoge\", y las cuerdas de Spamton NEO son del mismo verde. Sin confirmar del todo.",
+   "x": -620,
+   "y": 1350,
+   "width": 300,
+   "height": 230,
+   "color": "3"
+  },
+  {
+   "id": "s_marioneta-img",
+   "type": "file",
+   "file": "Sprites/spamton_theory_acid_small.png",
+   "x": -620,
+   "y": 1610,
+   "width": 300,
+   "height": 169
+  },
+  {
+   "id": "s_eram-img",
+   "type": "file",
+   "file": "Sprites/shadow_mantle.gif",
+   "x": -1186,
+   "y": 130,
+   "width": 170,
+   "height": 170
+  },
+  {
+   "id": "s_ch5-img",
+   "type": "file",
+   "file": "Sprites/spamton_swatch.png",
+   "x": -825,
+   "y": 473,
+   "width": 130,
+   "height": 190
+  }
+ ],
+ "edges": [
+  {
+   "id": "e0",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s0",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e1",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e2",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e3",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_ch5",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s_ch5",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e_s_addison",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s_addison",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_s_call",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s_call",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_s_garbage",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s_garbage",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_s_friendcat",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s_friendcat",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "center-img-e",
+   "fromNode": "center-img",
+   "fromSide": "right",
+   "toNode": "center",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "s0-img-e",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s1-img-e",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s2-img-e",
+   "fromNode": "s2-img",
+   "fromSide": "bottom",
+   "toNode": "s2",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s3-img-e",
+   "fromNode": "s3-img",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s_ch5-img-e",
+   "fromNode": "s_ch5-img",
+   "fromSide": "bottom",
+   "toNode": "s_ch5",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s_addison-img-e",
+   "fromNode": "s_addison-img",
+   "fromSide": "bottom",
+   "toNode": "s_addison",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s_call-img-e",
+   "fromNode": "s_call-img",
+   "fromSide": "bottom",
+   "toNode": "s_call",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s_garbage-img-e",
+   "fromNode": "s_garbage-img",
+   "fromSide": "bottom",
+   "toNode": "s_garbage",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "s_friendcat-img-e",
+   "fromNode": "s_friendcat-img",
+   "fromSide": "bottom",
+   "toNode": "s_friendcat",
+   "toSide": "top",
+   "color": "6"
+  },
+  {
+   "id": "e_eram",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s_eram",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_eram_img",
+   "fromNode": "s_eram-img",
+   "fromSide": "top",
+   "toNode": "s_eram",
+   "toSide": "bottom",
+   "color": "6"
+  },
+  {
+   "id": "e_qanda",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s_qanda",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s_roomz",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s_roomz",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s_puppetcat",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s_puppetcat",
+   "toSide": "top",
+   "color": "4"
+  },
+  {
+   "id": "e_s_puppetcat-img",
+   "fromNode": "s_puppetcat-img",
+   "fromSide": "top",
+   "toNode": "s_puppetcat",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s_qanda-img",
+   "fromNode": "s_qanda-img",
+   "fromSide": "right",
+   "toNode": "s_qanda",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e_s_marioneta",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s_marioneta",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s_marioneta-img",
+   "fromNode": "s_marioneta-img",
+   "fromSide": "top",
+   "toNode": "s_marioneta",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "cross_addison_marioneta",
+   "fromNode": "s_addison",
+   "fromSide": "bottom",
+   "toNode": "s_marioneta",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_tenna_roomz",
+   "fromNode": "s2",
+   "fromSide": "bottom",
+   "toNode": "s_roomz",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_eram_crystal",
+   "fromNode": "s_eram",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_qanda_jevil",
+   "fromNode": "s_qanda",
+   "fromSide": "left",
+   "toNode": "s1",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_call_addison",
+   "fromNode": "s_call",
+   "fromSide": "bottom",
+   "toNode": "s_addison",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_garbage_call",
+   "fromNode": "s_garbage",
+   "fromSide": "right",
+   "toNode": "s_call",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_puppetcat_friendcat",
+   "fromNode": "s_puppetcat",
+   "fromSide": "left",
+   "toNode": "s_friendcat",
+   "toSide": "right",
+   "color": "3"
+  }
+ ]
 }

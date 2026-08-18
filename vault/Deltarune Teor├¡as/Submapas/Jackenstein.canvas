@@ -248,6 +248,46 @@
    "toNode": "s4",
    "toSide": "right",
    "color": "3"
+  },
+  {
+   "id": "cross_face_maze",
+   "fromNode": "s3",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_susie_gerson",
+   "fromNode": "s1",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_cards_maze",
+   "fromNode": "s5",
+   "fromSide": "right",
+   "toNode": "s4",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_kris_face",
+   "fromNode": "s0",
+   "fromSide": "top",
+   "toNode": "s3",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_bakery_susie",
+   "fromNode": "s6",
+   "fromSide": "left",
+   "toNode": "s1",
+   "toSide": "right",
+   "color": "1"
   }
  ]
 }
