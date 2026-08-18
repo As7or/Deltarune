@@ -309,6 +309,62 @@
    "toNode": "s_roots",
    "toSide": "left",
    "color": "1"
+  },
+  {
+   "id": "cross_knight_shelter",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s3",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_knight_lake",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s1",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_lostgirl_lake",
+   "fromNode": "s_lostgirl",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_unused_shelter",
+   "fromNode": "s_unused",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_roots_forgottenman",
+   "fromNode": "s_roots",
+   "fromSide": "top",
+   "toNode": "s4",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_noelle_asriel",
+   "fromNode": "s2",
+   "fromSide": "right",
+   "toNode": "s_asriel",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_lostgirl_unused",
+   "fromNode": "s_lostgirl",
+   "fromSide": "right",
+   "toNode": "s_unused",
+   "toSide": "left",
+   "color": "3"
   }
  ]
 }

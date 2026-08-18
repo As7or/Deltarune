@@ -1,45 +1,405 @@
 {
-	"nodes":[
-		{"id":"center","type":"text","text":"# Fuentes Oscuras\n🌊 Dan forma a cada Mundo Oscuro. Cualquier Lightner \"determinado\" puede abrir una — demasiadas a la vez desencadenan el Rugido.","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
-		{"id":"center-img","type":"file","file":"Sprites/Dark_Fountain_screenshot.webp","x":-75,"y":-425,"width":200,"height":150},
-		{"id":"s0","type":"text","text":"**Roaring Knight**\nSospechoso principal: abre la Biblioteca (Cap.2), tres Fuentes del Cap.4 y una de las gemelas del Cap.5.","x":-150,"y":-930,"width":300,"height":220,"color":"6"},
-		{"id":"s0-img","type":"file","file":"Sprites/TheRoaringKnightDeltarune.webp","x":-95,"y":-1315,"width":149,"height":170},
-		{"id":"s1","type":"text","text":"**Kris**\nAbre en persona la del salón de Toriel (Cap.3) y la principal de Flower King (Cap.5), siempre de noche y sin su ALMA.","x":332,"y":-773,"width":300,"height":220,"color":"6"},
-		{"id":"s1-img","type":"file","file":"Sprites/Dark_Fountain_screenshot_TV_World_creation.png","x":628,"y":-1080,"width":190,"height":143},
-		{"id":"s2","type":"text","text":"**Susie**\nAbre su primera Fuente propia en el 2do Santuario (Cap.4), inspirada por las palabras de Queen.","x":630,"y":-363,"width":300,"height":220,"color":"6"},
-		{"id":"s2-img","type":"file","file":"Sprites/Susie_overworld_eyes.png","x":1075,"y":-465,"width":97,"height":170},
-		{"id":"s3","type":"text","text":"**Titan**\nNace cuando una Fuente se abre con mucha más intensidad de lo normal — el del 3er Santuario, hasta ahora el único caso confirmado.","x":630,"y":143,"width":300,"height":220,"color":"6"},
-		{"id":"s3-img","type":"file","file":"Sprites/dark_fountain_3_sanctuary_titan_creation.png","x":1075,"y":295,"width":190,"height":143},
-		{"id":"s4","type":"text","text":"**Ralsei y Queen**\nRalsei es el único que siente su presencia antes de encontrarlas. Queen explica en el Cap.2 la mecánica exacta de cómo se abren.","x":332,"y":553,"width":300,"height":220,"color":"6"},
-		{"id":"s5","type":"text","text":"**Noelle y Berdly**\nNoelle se niega a abrir una pese a la coacción de Queen. Berdly está a punto de abrir una dentro del Mundo Cíber como disculpa hacia ella.","x":-150,"y":710,"width":300,"height":220,"color":"6"},
-		{"id":"s6","type":"text","text":"**🎲 La Fuente del Shelter**\nLa única, junto a la del Cap.1, cuyo abridor es una incógnita total — nunca se ha sellado ni explorado del todo.","x":-632,"y":553,"width":300,"height":220,"color":"1"},
-		{"id":"s6-img","type":"file","file":"Sprites/Dark_Fountain_screenshot_shelter.png","x":-818,"y":910,"width":190,"height":143},
-		{"id":"s7","type":"text","text":"**🎲 ¿Quién abrió la del Cap.1?**\nNi el juego ni la wiki lo confirman. Los sospechosos principales son Kris y el Caballero Rugiente.","x":-930,"y":143,"width":300,"height":220,"color":"1"},
-		{"id":"s7-img","type":"file","file":"Sprites/DEVICE_MENU_screenshot_Dark_Fountain.gif","x":-1265,"y":295,"width":190,"height":143},
-		{"id":"s8","type":"text","text":"**🎲 Las Fuentes gemelas del Cap.5**\nLa Fuente que abre el Caballero para capturar a Asgore es idéntica a la que Kris acaba de abrir — la prueba visual más citada de la teoría \"Kris es el Caballero\".","x":-930,"y":-363,"width":300,"height":220,"color":"1"},
-		{"id":"s8-img","type":"file","file":"Sprites/Dark_Fountain_screenshot_Flower_Kingdom.png","x":-1265,"y":-465,"width":190,"height":143},
-		{"id":"s9","type":"text","text":"**El Rugido, en la Profecía**\nLa vidriera 04 de la Última Profecía menciona textualmente el Rugido y los Titanes antes incluso de que Ralsei lo explique en el Cap.2.","x":-632,"y":-773,"width":300,"height":220,"color":"6"},
-		{"id":"s9-img","type":"file","file":"Sprites/The_Roaring_screenshot_Dark_Fountains.png","x":-818,"y":-1080,"width":190,"height":138}
-	],
-	"edges":[
-		{"id":"e_center-img","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"4"},
-		{"id":"e_s0","fromNode":"center","fromSide":"top","toNode":"s0","toSide":"bottom","color":"3"},
-		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
-		{"id":"e_s1","fromNode":"center","fromSide":"top","toNode":"s1","toSide":"bottom","color":"3"},
-		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"3"},
-		{"id":"e_s2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"3"},
-		{"id":"e_s2-img","fromNode":"s2-img","fromSide":"left","toNode":"s2","toSide":"right","color":"3"},
-		{"id":"e_s3","fromNode":"center","fromSide":"right","toNode":"s3","toSide":"left","color":"3"},
-		{"id":"e_s3-img","fromNode":"s3-img","fromSide":"left","toNode":"s3","toSide":"right","color":"3"},
-		{"id":"e_s4","fromNode":"center","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
-		{"id":"e_s5","fromNode":"center","fromSide":"bottom","toNode":"s5","toSide":"top","color":"3"},
-		{"id":"e_s6","fromNode":"center","fromSide":"bottom","toNode":"s6","toSide":"top","color":"1"},
-		{"id":"e_s6-img","fromNode":"s6-img","fromSide":"top","toNode":"s6","toSide":"bottom","color":"1"},
-		{"id":"e_s7","fromNode":"center","fromSide":"left","toNode":"s7","toSide":"right","color":"1"},
-		{"id":"e_s7-img","fromNode":"s7-img","fromSide":"right","toNode":"s7","toSide":"left","color":"1"},
-		{"id":"e_s8","fromNode":"center","fromSide":"left","toNode":"s8","toSide":"right","color":"1"},
-		{"id":"e_s8-img","fromNode":"s8-img","fromSide":"right","toNode":"s8","toSide":"left","color":"1"},
-		{"id":"e_s9","fromNode":"center","fromSide":"top","toNode":"s9","toSide":"bottom","color":"3"},
-		{"id":"e_s9-img","fromNode":"s9-img","fromSide":"bottom","toNode":"s9","toSide":"top","color":"3"}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Fuentes Oscuras\n🌊 Dan forma a cada Mundo Oscuro. Cualquier Lightner \"determinado\" puede abrir una — demasiadas a la vez desencadenan el Rugido.",
+   "x": -190,
+   "y": -105,
+   "width": 420,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/Dark_Fountain_screenshot.webp",
+   "x": -75,
+   "y": -425,
+   "width": 200,
+   "height": 150
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Roaring Knight**\nSospechoso principal: abre la Biblioteca (Cap.2), tres Fuentes del Cap.4 y una de las gemelas del Cap.5.",
+   "x": -150,
+   "y": -930,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/TheRoaringKnightDeltarune.webp",
+   "x": -95,
+   "y": -1315,
+   "width": 149,
+   "height": 170
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Kris**\nAbre en persona la del salón de Toriel (Cap.3) y la principal de Flower King (Cap.5), siempre de noche y sin su ALMA.",
+   "x": 332,
+   "y": -773,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/Dark_Fountain_screenshot_TV_World_creation.png",
+   "x": 628,
+   "y": -1080,
+   "width": 190,
+   "height": 143
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Susie**\nAbre su primera Fuente propia en el 2do Santuario (Cap.4), inspirada por las palabras de Queen.",
+   "x": 630,
+   "y": -363,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/Susie_overworld_eyes.png",
+   "x": 1075,
+   "y": -465,
+   "width": 97,
+   "height": 170
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Titan**\nNace cuando una Fuente se abre con mucha más intensidad de lo normal — el del 3er Santuario, hasta ahora el único caso confirmado.",
+   "x": 630,
+   "y": 143,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/dark_fountain_3_sanctuary_titan_creation.png",
+   "x": 1075,
+   "y": 295,
+   "width": 190,
+   "height": 143
+  },
+  {
+   "id": "s4",
+   "type": "text",
+   "text": "**Ralsei y Queen**\nRalsei es el único que siente su presencia antes de encontrarlas. Queen explica en el Cap.2 la mecánica exacta de cómo se abren.",
+   "x": 332,
+   "y": 553,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s5",
+   "type": "text",
+   "text": "**Noelle y Berdly**\nNoelle se niega a abrir una pese a la coacción de Queen. Berdly está a punto de abrir una dentro del Mundo Cíber como disculpa hacia ella.",
+   "x": -150,
+   "y": 710,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s6",
+   "type": "text",
+   "text": "**🎲 La Fuente del Shelter**\nLa única, junto a la del Cap.1, cuyo abridor es una incógnita total — nunca se ha sellado ni explorado del todo.",
+   "x": -632,
+   "y": 553,
+   "width": 300,
+   "height": 220,
+   "color": "1"
+  },
+  {
+   "id": "s6-img",
+   "type": "file",
+   "file": "Sprites/Dark_Fountain_screenshot_shelter.png",
+   "x": -818,
+   "y": 910,
+   "width": 190,
+   "height": 143
+  },
+  {
+   "id": "s7",
+   "type": "text",
+   "text": "**🎲 ¿Quién abrió la del Cap.1?**\nNi el juego ni la wiki lo confirman. Los sospechosos principales son Kris y el Caballero Rugiente.",
+   "x": -930,
+   "y": 143,
+   "width": 300,
+   "height": 220,
+   "color": "1"
+  },
+  {
+   "id": "s7-img",
+   "type": "file",
+   "file": "Sprites/DEVICE_MENU_screenshot_Dark_Fountain.gif",
+   "x": -1265,
+   "y": 295,
+   "width": 190,
+   "height": 143
+  },
+  {
+   "id": "s8",
+   "type": "text",
+   "text": "**🎲 Las Fuentes gemelas del Cap.5**\nLa Fuente que abre el Caballero para capturar a Asgore es idéntica a la que Kris acaba de abrir — la prueba visual más citada de la teoría \"Kris es el Caballero\".",
+   "x": -930,
+   "y": -363,
+   "width": 300,
+   "height": 220,
+   "color": "1"
+  },
+  {
+   "id": "s8-img",
+   "type": "file",
+   "file": "Sprites/Dark_Fountain_screenshot_Flower_Kingdom.png",
+   "x": -1265,
+   "y": -465,
+   "width": 190,
+   "height": 143
+  },
+  {
+   "id": "s9",
+   "type": "text",
+   "text": "**El Rugido, en la Profecía**\nLa vidriera 04 de la Última Profecía menciona textualmente el Rugido y los Titanes antes incluso de que Ralsei lo explique en el Cap.2.",
+   "x": -632,
+   "y": -773,
+   "width": 300,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "s9-img",
+   "type": "file",
+   "file": "Sprites/The_Roaring_screenshot_Dark_Fountains.png",
+   "x": -818,
+   "y": -1080,
+   "width": 190,
+   "height": 138
+  }
+ ],
+ "edges": [
+  {
+   "id": "e_center-img",
+   "fromNode": "center-img",
+   "fromSide": "bottom",
+   "toNode": "center",
+   "toSide": "top",
+   "color": "4"
+  },
+  {
+   "id": "e_s0",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s0",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s0-img",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s1",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s1",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s1-img",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s2",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s2",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e_s2-img",
+   "fromNode": "s2-img",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s3",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e_s3-img",
+   "fromNode": "s3-img",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s4",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s5",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s6",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s6",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "e_s6-img",
+   "fromNode": "s6-img",
+   "fromSide": "top",
+   "toNode": "s6",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "e_s7",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s7",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_s7-img",
+   "fromNode": "s7-img",
+   "fromSide": "right",
+   "toNode": "s7",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_s8",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s8",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_s8-img",
+   "fromNode": "s8-img",
+   "fromSide": "right",
+   "toNode": "s8",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "e_s9",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s9",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s9-img",
+   "fromNode": "s9-img",
+   "fromSide": "bottom",
+   "toNode": "s9",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_knight_twins",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s8",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_kris_twins",
+   "fromNode": "s1",
+   "fromSide": "bottom",
+   "toNode": "s8",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_knight_titan",
+   "fromNode": "s0",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_shelter_cap1_mystery",
+   "fromNode": "s6",
+   "fromSide": "right",
+   "toNode": "s7",
+   "toSide": "left",
+   "color": "1"
+  },
+  {
+   "id": "cross_ralsei_prophecy",
+   "fromNode": "s4",
+   "fromSide": "bottom",
+   "toNode": "s9",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_susie_queen",
+   "fromNode": "s2",
+   "fromSide": "left",
+   "toNode": "s4",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_noelle_queen",
+   "fromNode": "s5",
+   "fromSide": "left",
+   "toNode": "s4",
+   "toSide": "right",
+   "color": "1"
+  }
+ ]
 }

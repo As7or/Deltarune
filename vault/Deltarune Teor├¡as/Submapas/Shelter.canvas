@@ -1,39 +1,354 @@
 {
-	"nodes":[
-		{"id":"center","type":"text","text":"# Shelter — la puerta que no se abre\n🚪 Contiene un Mundo Oscuro propio (confirmado Cap.3). Cerradura de 3 códigos: pino, placa de policía y Delta Rune.","x":-190,"y":-105,"width":420,"height":220,"color":"6"},
-		{"id":"center-img","type":"file","file":"Sprites/Shelter.png","x":-75,"y":-425,"width":200,"height":150},
-		{"id":"s0","type":"text","text":"**Undyne**\nSecuestrada por el Knight al final del Cap.3. Su forma Darkner (armadura + piel cian) es la única prueba visual del Mundo Oscuro del Refugio.","x":-150,"y":-925,"width":300,"height":210,"color":"6"},
-		{"id":"s0-img","type":"file","file":"Sprites/Undyne_Dark_World_Sprite.webp","x":-95,"y":-1315,"width":190,"height":152},
-		{"id":"s1","type":"text","text":"**Roaring Knight**\nEntra y sale del Refugio sin código. Responsable de las dos capturas: Undyne (Cap.3) y Asgore (Cap.5).","x":332,"y":-768,"width":300,"height":210,"color":"6"},
-		{"id":"s1-img","type":"file","file":"Sprites/Knight_screenshot_Undyne_captured.png","x":628,"y":-1080,"width":190,"height":143},
-		{"id":"s2","type":"text","text":"**Asgore**\nConoce y esconde el código de la placa de policía, 0915199X, por haber sido jefe de policía. Capturado al final del Cap.5.","x":630,"y":-358,"width":300,"height":210,"color":"6"},
-		{"id":"s2-img","type":"file","file":"Sprites/flowery_shelter_code_scene.webp","x":1075,"y":-465,"width":190,"height":157},
-		{"id":"s3","type":"text","text":"**Dess**\nEl código del pino, 122(5), aparece escondido en su guitarra. Varias pistas sitúan aquí el incidente que la hizo desaparecer.","x":630,"y":148,"width":300,"height":210,"color":"6"},
-		{"id":"s3-img","type":"file","file":"Sprites/dess_guitar.png","x":1075,"y":295,"width":165,"height":170},
-		{"id":"s4","type":"text","text":"**Carol**\nInvestiga la zona desde el Cap.3; en el Cap.5 ya hace \"gestiones\" activas dentro del propio Refugio.","x":332,"y":558,"width":300,"height":210,"color":"6"},
-		{"id":"s4-img","type":"file","file":"Sprites/Carol_Holiday.webp","x":628,"y":910,"width":78,"height":170},
-		{"id":"s5","type":"text","text":"**Alphys**\nConfirma en diálogo que solo ha visto ir hacia allí a Undyne y a la alcaldesa.","x":-150,"y":715,"width":300,"height":210,"color":"6"},
-		{"id":"s6","type":"text","text":"**Alvin**\nPreguntado por el Refugio, pide a Kris que deje el tema y se mantenga alejado.","x":-632,"y":558,"width":300,"height":210,"color":"6"},
-		{"id":"s7","type":"text","text":"**🎲 Gaster**\nEl sonido mus_smile al 15% junto a la puerta es el mismo de la Entrada 17 de Undertale — pista musical real, sin confirmación textual.","x":-930,"y":148,"width":300,"height":210,"color":"1"},
-		{"id":"s8","type":"text","text":"**🎲 El número 1225**\nEl código de Dess reaparece en varios puzles ligados a Noelle — posible motivo numérico deliberado de la familia Holiday.","x":-930,"y":-358,"width":300,"height":210,"color":"1"},
-		{"id":"s9","type":"text","text":"**🎲 \"Depths\" y \"Hell\"**\nLa encuesta Thank You del equipo respondía igual a Shelter, Depths y Hell — dato de datamine, no confirmación en el juego.","x":-632,"y":-768,"width":300,"height":210,"color":"1"}
-	],
-	"edges":[
-		{"id":"e_center-img","fromNode":"center-img","fromSide":"bottom","toNode":"center","toSide":"top","color":"4"},
-		{"id":"e_s0","fromNode":"center","fromSide":"top","toNode":"s0","toSide":"bottom","color":"3"},
-		{"id":"e_s0-img","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"3"},
-		{"id":"e_s1","fromNode":"center","fromSide":"top","toNode":"s1","toSide":"bottom","color":"3"},
-		{"id":"e_s1-img","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"3"},
-		{"id":"e_s2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"3"},
-		{"id":"e_s2-img","fromNode":"s2-img","fromSide":"left","toNode":"s2","toSide":"right","color":"3"},
-		{"id":"e_s3","fromNode":"center","fromSide":"right","toNode":"s3","toSide":"left","color":"3"},
-		{"id":"e_s3-img","fromNode":"s3-img","fromSide":"left","toNode":"s3","toSide":"right","color":"3"},
-		{"id":"e_s4","fromNode":"center","fromSide":"bottom","toNode":"s4","toSide":"top","color":"3"},
-		{"id":"e_s4-img","fromNode":"s4-img","fromSide":"top","toNode":"s4","toSide":"bottom","color":"3"},
-		{"id":"e_s5","fromNode":"center","fromSide":"bottom","toNode":"s5","toSide":"top","color":"3"},
-		{"id":"e_s6","fromNode":"center","fromSide":"bottom","toNode":"s6","toSide":"top","color":"3"},
-		{"id":"e_s7","fromNode":"center","fromSide":"left","toNode":"s7","toSide":"right","color":"1"},
-		{"id":"e_s8","fromNode":"center","fromSide":"left","toNode":"s8","toSide":"right","color":"1"},
-		{"id":"e_s9","fromNode":"center","fromSide":"top","toNode":"s9","toSide":"bottom","color":"1"}
-	]
+ "nodes": [
+  {
+   "id": "center",
+   "type": "text",
+   "text": "# Shelter — la puerta que no se abre\n🚪 Contiene un Mundo Oscuro propio (confirmado Cap.3). Cerradura de 3 códigos: pino, placa de policía y Delta Rune.",
+   "x": -190,
+   "y": -105,
+   "width": 420,
+   "height": 220,
+   "color": "6"
+  },
+  {
+   "id": "center-img",
+   "type": "file",
+   "file": "Sprites/Shelter.png",
+   "x": -75,
+   "y": -425,
+   "width": 200,
+   "height": 150
+  },
+  {
+   "id": "s0",
+   "type": "text",
+   "text": "**Undyne**\nSecuestrada por el Knight al final del Cap.3. Su forma Darkner (armadura + piel cian) es la única prueba visual del Mundo Oscuro del Refugio.",
+   "x": -150,
+   "y": -925,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s0-img",
+   "type": "file",
+   "file": "Sprites/Undyne_Dark_World_Sprite.webp",
+   "x": -95,
+   "y": -1315,
+   "width": 190,
+   "height": 152
+  },
+  {
+   "id": "s1",
+   "type": "text",
+   "text": "**Roaring Knight**\nEntra y sale del Refugio sin código. Responsable de las dos capturas: Undyne (Cap.3) y Asgore (Cap.5).",
+   "x": 332,
+   "y": -768,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s1-img",
+   "type": "file",
+   "file": "Sprites/Knight_screenshot_Undyne_captured.png",
+   "x": 628,
+   "y": -1080,
+   "width": 190,
+   "height": 143
+  },
+  {
+   "id": "s2",
+   "type": "text",
+   "text": "**Asgore**\nConoce y esconde el código de la placa de policía, 0915199X, por haber sido jefe de policía. Capturado al final del Cap.5.",
+   "x": 630,
+   "y": -358,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s2-img",
+   "type": "file",
+   "file": "Sprites/flowery_shelter_code_scene.webp",
+   "x": 1075,
+   "y": -465,
+   "width": 190,
+   "height": 157
+  },
+  {
+   "id": "s3",
+   "type": "text",
+   "text": "**Dess**\nEl código del pino, 122(5), aparece escondido en su guitarra. Varias pistas sitúan aquí el incidente que la hizo desaparecer.",
+   "x": 630,
+   "y": 148,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s3-img",
+   "type": "file",
+   "file": "Sprites/dess_guitar.png",
+   "x": 1075,
+   "y": 295,
+   "width": 165,
+   "height": 170
+  },
+  {
+   "id": "s4",
+   "type": "text",
+   "text": "**Carol**\nInvestiga la zona desde el Cap.3; en el Cap.5 ya hace \"gestiones\" activas dentro del propio Refugio.",
+   "x": 332,
+   "y": 558,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s4-img",
+   "type": "file",
+   "file": "Sprites/Carol_Holiday.webp",
+   "x": 628,
+   "y": 910,
+   "width": 78,
+   "height": 170
+  },
+  {
+   "id": "s5",
+   "type": "text",
+   "text": "**Alphys**\nConfirma en diálogo que solo ha visto ir hacia allí a Undyne y a la alcaldesa.",
+   "x": -150,
+   "y": 715,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s6",
+   "type": "text",
+   "text": "**Alvin**\nPreguntado por el Refugio, pide a Kris que deje el tema y se mantenga alejado.",
+   "x": -632,
+   "y": 558,
+   "width": 300,
+   "height": 210,
+   "color": "6"
+  },
+  {
+   "id": "s7",
+   "type": "text",
+   "text": "**🎲 Gaster**\nEl sonido mus_smile al 15% junto a la puerta es el mismo de la Entrada 17 de Undertale — pista musical real, sin confirmación textual.",
+   "x": -930,
+   "y": 148,
+   "width": 300,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s8",
+   "type": "text",
+   "text": "**🎲 El número 1225**\nEl código de Dess reaparece en varios puzles ligados a Noelle — posible motivo numérico deliberado de la familia Holiday.",
+   "x": -930,
+   "y": -358,
+   "width": 300,
+   "height": 210,
+   "color": "1"
+  },
+  {
+   "id": "s9",
+   "type": "text",
+   "text": "**🎲 \"Depths\" y \"Hell\"**\nLa encuesta Thank You del equipo respondía igual a Shelter, Depths y Hell — dato de datamine, no confirmación en el juego.",
+   "x": -632,
+   "y": -768,
+   "width": 300,
+   "height": 210,
+   "color": "1"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e_center-img",
+   "fromNode": "center-img",
+   "fromSide": "bottom",
+   "toNode": "center",
+   "toSide": "top",
+   "color": "4"
+  },
+  {
+   "id": "e_s0",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s0",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s0-img",
+   "fromNode": "s0-img",
+   "fromSide": "bottom",
+   "toNode": "s0",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s1",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s1",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s1-img",
+   "fromNode": "s1-img",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s2",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s2",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e_s2-img",
+   "fromNode": "s2-img",
+   "fromSide": "left",
+   "toNode": "s2",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s3",
+   "fromNode": "center",
+   "fromSide": "right",
+   "toNode": "s3",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "e_s3-img",
+   "fromNode": "s3-img",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s4",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s4",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s4-img",
+   "fromNode": "s4-img",
+   "fromSide": "top",
+   "toNode": "s4",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s5",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s6",
+   "fromNode": "center",
+   "fromSide": "bottom",
+   "toNode": "s6",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "e_s7",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s7",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_s8",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s8",
+   "toSide": "right",
+   "color": "1"
+  },
+  {
+   "id": "e_s9",
+   "fromNode": "center",
+   "fromSide": "top",
+   "toNode": "s9",
+   "toSide": "bottom",
+   "color": "1"
+  },
+  {
+   "id": "cross_undyne_knight",
+   "fromNode": "s0",
+   "fromSide": "bottom",
+   "toNode": "s1",
+   "toSide": "top",
+   "color": "4"
+  },
+  {
+   "id": "cross_asgore_knight",
+   "fromNode": "s2",
+   "fromSide": "top",
+   "toNode": "s1",
+   "toSide": "bottom",
+   "color": "4"
+  },
+  {
+   "id": "cross_asgore_dess_codes",
+   "fromNode": "s2",
+   "fromSide": "left",
+   "toNode": "s3",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "cross_dess_1225",
+   "fromNode": "s3",
+   "fromSide": "bottom",
+   "toNode": "s8",
+   "toSide": "top",
+   "color": "3"
+  },
+  {
+   "id": "cross_carol_alphys",
+   "fromNode": "s4",
+   "fromSide": "right",
+   "toNode": "s5",
+   "toSide": "left",
+   "color": "3"
+  },
+  {
+   "id": "cross_alvin_gaster",
+   "fromNode": "s6",
+   "fromSide": "bottom",
+   "toNode": "s7",
+   "toSide": "top",
+   "color": "1"
+  },
+  {
+   "id": "cross_gaster_depths",
+   "fromNode": "s7",
+   "fromSide": "right",
+   "toNode": "s9",
+   "toSide": "left",
+   "color": "1"
+  }
+ ]
 }
