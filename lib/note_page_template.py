@@ -304,80 +304,82 @@ PAGE_CSS_RUSTED = '''
 
 PAGE_CSS_WET = '''
   body{
-    margin:0; padding:24px 26px 60px; font-family:Georgia, serif; color:#26424a;
-    background-color:#aec9d6;
+    margin:0; padding:24px 26px 60px; font-family:Georgia, serif; color:#3a3220;
+    background-color:#e8e0c4;
     background-image:
-      /* pliegues de papel arrugado, mas marcados */
-      linear-gradient(112deg, transparent 30%, rgba(255,255,255,0.32) 31%, rgba(0,0,0,0.1) 32%, transparent 34%),
-      linear-gradient(75deg, transparent 48%, rgba(255,255,255,0.28) 49%, rgba(0,0,0,0.08) 50%, transparent 52%),
-      linear-gradient(140deg, transparent 15%, rgba(255,255,255,0.22) 16%, transparent 18%),
-      linear-gradient(160deg, transparent 22%, rgba(0,0,0,0.08) 23%, transparent 25%),
-      linear-gradient(35deg, transparent 60%, rgba(255,255,255,0.24) 61%, transparent 63%),
-      linear-gradient(20deg, transparent 78%, rgba(0,0,0,0.08) 79%, transparent 81%),
-      linear-gradient(95deg, transparent 88%, rgba(0,0,0,0.06) 89%, transparent 91%),
-      /* gotas de agua, mas presentes */
-      radial-gradient(circle at 12% 18%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.2) 35%, transparent 55%),
-      radial-gradient(circle at 88% 12%, rgba(255,255,255,0.5) 0%, transparent 45%),
-      radial-gradient(circle at 76% 62%, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 58%),
-      radial-gradient(circle at 22% 78%, rgba(255,255,255,0.45) 0%, transparent 48%),
-      radial-gradient(circle at 55% 40%, rgba(255,255,255,0.4) 0%, transparent 40%),
-      radial-gradient(circle at 35% 92%, rgba(255,255,255,0.4) 0%, transparent 38%),
-      radial-gradient(circle at 92% 82%, rgba(255,255,255,0.35) 0%, transparent 36%);
+      /* pliegues de papel, muy marcados */
+      linear-gradient(112deg, transparent 28%, rgba(255,255,255,0.5) 29%, rgba(90,75,30,0.22) 30%, transparent 32%),
+      linear-gradient(75deg, transparent 46%, rgba(255,255,255,0.45) 47%, rgba(90,75,30,0.18) 48%, transparent 50%),
+      linear-gradient(140deg, transparent 12%, rgba(255,255,255,0.4) 13%, rgba(90,75,30,0.15) 14%, transparent 16%),
+      linear-gradient(160deg, transparent 20%, rgba(90,75,30,0.18) 21%, transparent 23%),
+      linear-gradient(35deg, transparent 58%, rgba(255,255,255,0.4) 59%, rgba(90,75,30,0.15) 60%, transparent 62%),
+      linear-gradient(20deg, transparent 76%, rgba(90,75,30,0.18) 77%, transparent 79%),
+      linear-gradient(95deg, transparent 86%, rgba(90,75,30,0.14) 87%, transparent 89%),
+      /* manchas de agua amarillentas, como cercos de humedad en papel viejo */
+      radial-gradient(circle at 14% 20%, transparent 55%, rgba(196,168,90,0.35) 58%, rgba(196,168,90,0.1) 64%, transparent 68%),
+      radial-gradient(circle at 82% 15%, transparent 50%, rgba(196,168,90,0.3) 53%, transparent 60%),
+      radial-gradient(circle at 70% 68%, transparent 52%, rgba(196,168,90,0.38) 55%, rgba(196,168,90,0.1) 62%, transparent 66%),
+      radial-gradient(circle at 25% 80%, transparent 48%, rgba(196,168,90,0.28) 51%, transparent 58%),
+      /* gotas de agua brillantes */
+      radial-gradient(circle at 55% 40%, rgba(255,255,255,0.55) 0%, transparent 38%),
+      radial-gradient(circle at 35% 92%, rgba(255,255,255,0.5) 0%, transparent 36%),
+      radial-gradient(circle at 92% 82%, rgba(255,255,255,0.45) 0%, transparent 34%);
   }
-  h1{ font-size:22px; color:#1f3538; border-bottom:2px solid #4a6b70; padding-bottom:8px; }
-  h2{ font-size:17px; color:#3d5a5f; margin-top:22px; }
-  h3{ font-size:15px; color:#3d5a5f; }
+  h1{ font-size:22px; color:#4a3d18; border-bottom:2px solid #a08840; padding-bottom:8px; }
+  h2{ font-size:17px; color:#6b5828; margin-top:22px; }
+  h3{ font-size:15px; color:#6b5828; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
-  figcaption{ font-size:12.5px; font-style:italic; color:#4a6266; margin-top:4px; }
-  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 3px 10px rgba(20,40,42,0.3); }
+  figcaption{ font-size:12.5px; font-style:italic; color:#6b5c38; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 3px 10px rgba(80,65,20,0.3); }
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#cbd9da; }
-  table.note-table th, table.note-table td{ border:1px solid #9db0b2; padding:6px; font-size:13px; text-align:center; vertical-align:top; }
+  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#ede4c8; }
+  table.note-table th, table.note-table td{ border:1px solid #c4b06a; padding:6px; font-size:13px; text-align:center; vertical-align:top; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- papel humedo, manchado --- */
+  /* --- papel humedo amarillento, con cerco de mancha visible alrededor --- */
   .callout{
     position:relative;
     background:
-      radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.2) 0, transparent 40%),
-      radial-gradient(ellipse at 75% 80%, rgba(60,90,95,0.14) 0, transparent 45%),
-      linear-gradient(160deg, #dbe9ec 0%, #c9dadd 100%);
+      radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.35) 0, transparent 40%),
+      radial-gradient(ellipse at 78% 30%, transparent 45%, rgba(180,150,70,0.3) 50%, transparent 62%),
+      radial-gradient(ellipse at 25% 82%, transparent 50%, rgba(180,150,70,0.26) 55%, transparent 66%),
+      linear-gradient(160deg, #f2ead0 0%, #e0d3a4 100%);
     padding:16px 18px 18px; margin:22px 10px 26px;
-    box-shadow:2px 6px 14px rgba(20,40,42,0.28), inset 0 -10px 20px -14px rgba(20,40,42,0.15);
+    box-shadow:2px 6px 14px rgba(90,70,20,0.32), inset 0 -12px 22px -16px rgba(90,70,20,0.2);
     border-radius:3px 12px 3px 14px/10px 3px 14px 3px;
   }
-  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:#1f3538; }
-  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#2c3a3d; }
-  .callout-info{ background:#c3dce8; }
-  .callout-tip{ background:#c8e2d4; }
-  .callout-example{ background:#dbe6e7; }
-  .callout-danger{ background:#e0cccb; }
-  .callout-quote{ background:#d3d3e6; }
-  .callout-question{ background:#dce0c3; }
-  .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(20,40,42,0.35); }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:#4a3d18; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#3a3220; }
+  .callout-info{ background:#dce0c8; }
+  .callout-tip{ background:#e0dcb8; }
+  .callout-example{ background:#f2ead0; }
+  .callout-danger{ background:#ecd8c0; }
+  .callout-quote{ background:#e6ddc8; }
+  .callout-question{ background:#f0e4b8; }
+  .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(90,70,20,0.4); }
 
-  .wikilink{ color:#1f5258; border-bottom:1px dotted #1f5258; text-decoration:none; cursor:pointer; }
-  a.wikilink:hover{ background:rgba(31,82,88,0.12); }
+  .wikilink{ color:#8a6a20; border-bottom:1px dotted #8a6a20; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(138,106,32,0.12); }
   .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
-  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:linear-gradient(180deg,#e4eeee,#c3d5d6); border:1px solid #9db0b2; border-radius:13px; padding:4px 12px; font-size:11px; color:#2c3a3d; font-family:'Segoe UI',sans-serif; }
-  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#4a6b70; }
-  .fm-badge b{ font-weight:700; color:#1f3538; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
+  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:linear-gradient(180deg,#f2ead0,#e0d3a4); border:1px solid #c4b06a; border-radius:13px; padding:4px 12px; font-size:11px; color:#2c3a3d; font-family:'Segoe UI',sans-serif; }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#a08840; }
+  .fm-badge b{ font-weight:700; color:#4a3d18; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
   .fm-icon{ font-size:12px; margin-right:1px; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
-    background:#cbd9da; border:1px solid #9db0b2; border-radius:8px;
-    padding:8px 16px; font-size:14px; font-weight:600; color:#1f5258 !important;
+    background:#e0d3a4; border:1px solid #c4b06a; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#4a3d18 !important;
     text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
   }
   .submap-link:hover{ filter:brightness(1.1); }
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
-  .link-chip{ display:inline-block; background:#cbd9da; border:1px solid #9db0b2; border-radius:8px; padding:5px 13px; box-shadow:1px 2px 5px rgba(20,40,42,0.25); }
+  .link-chip{ display:inline-block; background:#e0d3a4; border:1px solid #c4b06a; border-radius:8px; padding:5px 13px; box-shadow:1px 2px 5px rgba(90,70,20,0.28); }
   .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
   .note-list{ margin:8px 0; padding-left:22px; }
   .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; }
@@ -510,67 +512,66 @@ PAGE_CSS_UNDERTALE = '''
 
 PAGE_CSS_FOUNTAIN = '''
   body{
-    margin:0; padding:24px 26px 60px; font-family:'Segoe UI', Georgia, serif; color:#c8f0e8;
-    background-color:#0a1e1c;
+    margin:0; padding:24px 26px 60px; font-family:'Segoe UI', Georgia, serif; color:#dceef5;
+    background-color:#16303d;
     background-image:
-      radial-gradient(ellipse at 20% 20%, rgba(45,180,160,0.22) 0, transparent 42%),
-      radial-gradient(ellipse at 80% 30%, rgba(30,120,140,0.2) 0, transparent 40%),
-      radial-gradient(ellipse at 50% 90%, rgba(45,180,160,0.18) 0, transparent 45%);
+      radial-gradient(ellipse at 20% 10%, rgba(90,150,190,0.35) 0, transparent 40%),
+      radial-gradient(ellipse at 80% 20%, rgba(60,120,160,0.3) 0, transparent 38%),
+      radial-gradient(ellipse at 30% 55%, rgba(70,130,170,0.28) 0, transparent 42%),
+      radial-gradient(ellipse at 75% 65%, rgba(50,100,140,0.3) 0, transparent 40%),
+      radial-gradient(ellipse at 45% 90%, rgba(80,140,180,0.26) 0, transparent 42%),
+      repeating-linear-gradient(95deg, rgba(255,255,255,0.02) 0px, transparent 3px, transparent 7px);
   }
-  h1{ font-size:22px; color:#e8fff8; border-bottom:2px solid #3dd4bf; padding-bottom:8px; text-shadow:0 0 8px rgba(61,212,191,0.35); }
-  h2{ font-size:17px; color:#8bd8c8; margin-top:22px; }
-  h3{ font-size:15px; color:#8bd8c8; }
-  p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#c8f0e8; }
+  h1{ font-size:22px; color:#eaf6fc; border-bottom:2px solid #6fb8dc; padding-bottom:8px; text-shadow:0 0 10px rgba(111,184,220,0.4); }
+  h2{ font-size:17px; color:#a8d4ec; margin-top:22px; }
+  h3{ font-size:15px; color:#a8d4ec; }
+  p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#dceef5; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
-  figcaption{ font-size:12.5px; font-style:italic; color:#8bb8ad; margin-top:4px; }
-  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 0 16px rgba(45,180,160,0.25); }
+  figcaption{ font-size:12.5px; font-style:italic; color:#9bc0d4; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 0 16px rgba(90,150,190,0.3); }
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:rgba(15,45,42,0.7); }
-  table.note-table th, table.note-table td{ border:1px solid rgba(61,212,191,0.3); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#c8f0e8; }
+  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:rgba(20,55,70,0.7); }
+  table.note-table th, table.note-table td{ border:1px solid rgba(111,184,220,0.35); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#dceef5; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- columna de agua ondulada, como la textura real de la Fuente Oscura --- */
+  /* --- panel liso de agua, textura continua, sin bordes rasgados --- */
   .callout{
     position:relative;
     background:
-      radial-gradient(ellipse at 35% 20%, rgba(140,190,220,0.4) 0%, transparent 45%),
-      radial-gradient(ellipse at 65% 75%, rgba(20,70,90,0.5) 0%, transparent 50%),
-      linear-gradient(180deg, #3d6a80 0%, #1e3d4d 55%, #0f2530 100%);
-    padding:22px 20px 24px; margin:26px 10px 30px;
-    box-shadow:0 0 22px rgba(45,140,180,0.3), inset 0 0 30px rgba(10,30,40,0.4);
-    clip-path: polygon(
-      3% 6%, 9% 2%, 15% 6%, 21% 2%, 27% 6%, 33% 2%, 39% 6%, 45% 2%, 51% 6%, 57% 2%, 63% 6%, 69% 2%, 75% 6%, 81% 2%, 87% 6%, 93% 2%, 97% 6%,
-      94% 18%, 98% 30%, 94% 42%, 98% 54%, 94% 66%, 98% 78%, 92% 88%,
-      88% 96%, 80% 100%, 20% 100%, 12% 96%,
-      8% 88%, 2% 78%, 6% 66%, 2% 54%, 6% 42%, 2% 30%, 6% 18%
-    );
+      radial-gradient(ellipse at 30% 20%, rgba(140,190,220,0.3) 0%, transparent 45%),
+      radial-gradient(ellipse at 70% 70%, rgba(50,100,140,0.35) 0%, transparent 50%),
+      linear-gradient(160deg, #2c5570 0%, #1a3a4d 100%);
+    padding:18px 20px 20px; margin:22px 8px 26px;
+    border:1px solid rgba(111,184,220,0.4);
+    border-radius:8px;
+    box-shadow:0 0 20px rgba(60,130,170,0.28), inset 0 1px 0 rgba(200,230,245,0.1);
   }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#a8dcf0; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#dceef5; }
-  .callout-info{ background:linear-gradient(180deg,#3d5a80,#1e2d4d 55%,#0f1830); }
-  .callout-tip{ background:linear-gradient(180deg,#3d8070,#1e4d40 55%,#0f3028); }
-  .callout-example{ background:linear-gradient(180deg,#807a3d,#4d4a1e 55%,#302d0f); }
-  .callout-danger{ background:linear-gradient(180deg,#803d45,#4d1e22 55%,#300f12); }
-  .callout-quote{ background:linear-gradient(180deg,#5a3d80,#2d1e4d 55%,#180f30); }
-  .callout-question{ background:linear-gradient(180deg,#807a3d,#4d4a1e 55%,#302d0f); }
-  .callout .callout{ margin:16px 6px 8px; box-shadow:0 0 24px rgba(45,140,180,0.35); }
+  .callout-info{ background:linear-gradient(160deg,#2c4a70,#1a2d4d); }
+  .callout-tip{ background:linear-gradient(160deg,#2c705f,#1a4d40); }
+  .callout-example{ background:linear-gradient(160deg,#70652c,#4d451a); }
+  .callout-danger{ background:linear-gradient(160deg,#702c35,#4d1a20); }
+  .callout-quote{ background:linear-gradient(160deg,#502c70,#301a4d); }
+  .callout-question{ background:linear-gradient(160deg,#70652c,#4d451a); }
+  .callout .callout{ margin:14px 4px 6px; box-shadow:0 0 22px rgba(60,130,170,0.3); }
 
-  .wikilink{ color:#3dd4bf; border-bottom:1px dotted #3dd4bf; text-decoration:none; cursor:pointer; }
+  .wikilink{ color:#6fb8dc; border-bottom:1px dotted #6fb8dc; text-decoration:none; cursor:pointer; }
   a.wikilink:hover{ background:rgba(61,212,191,0.12); }
   .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
-  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:rgba(20,60,55,0.6); border:1px solid rgba(61,212,191,0.35); border-radius:12px; padding:4px 12px; font-size:11px; color:#c8f0e8; font-family:'Segoe UI',sans-serif; }
-  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#3dd4bf; box-shadow:0 0 5px #3dd4bf; }
-  .fm-badge b{ font-weight:700; color:#3dd4bf; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
+  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:rgba(25,70,90,0.6); border:1px solid rgba(111,184,220,0.4); border-radius:12px; padding:4px 12px; font-size:11px; color:#dceef5; font-family:'Segoe UI',sans-serif; }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#6fb8dc; box-shadow:0 0 5px #6fb8dc; }
+  .fm-badge b{ font-weight:700; color:#6fb8dc; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
   .fm-icon{ font-size:12px; margin-right:1px; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:rgba(15,45,42,0.7); border:1px solid rgba(61,212,191,0.35); border-radius:8px;
-    padding:8px 16px; font-size:14px; font-weight:600; color:#3dd4bf !important;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#6fb8dc !important;
     text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
   }
   .submap-link:hover{ filter:brightness(1.1); }
@@ -578,7 +579,7 @@ PAGE_CSS_FOUNTAIN = '''
   .link-chip{ display:inline-block; background:rgba(15,45,42,0.7); border:1px solid rgba(61,212,191,0.3); border-radius:8px; padding:5px 13px; box-shadow:0 0 10px rgba(45,180,160,0.15); }
   .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
   .note-list{ margin:8px 0; padding-left:22px; }
-  .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; color:#c8f0e8; }
+  .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; color:#dceef5; }
   .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border-radius:6px; overflow:hidden; border:1px solid rgba(61,212,191,0.3); }
   .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
 '''

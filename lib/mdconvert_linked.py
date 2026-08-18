@@ -300,7 +300,30 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
                 i += 1
             body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
         else:
-            if content.strip():
+            stripped = content.strip()
+            if stripped.startswith("|"):
+                table_lines = []
+                while i < len(lines) and lines[i][0] == d and lines[i][1].strip().startswith("|"):
+                    table_lines.append(lines[i][1])
+                    i += 1
+                t = parse_table(table_lines, sprites_prefix)
+                if t:
+                    body_parts.append(t)
+                continue
+            if stripped.startswith("- ") or stripped.startswith("* "):
+                items = []
+                while i < len(lines) and lines[i][0] == d and (lines[i][1].strip().startswith("- ") or lines[i][1].strip().startswith("* ")):
+                    items.append(lines[i][1].strip()[2:])
+                    i += 1
+                only_links = all(re.fullmatch(r"\[\[.+?\]\]", it.strip()) for it in items) and len(items) > 0
+                if only_links:
+                    chips = "".join(f'<span class="link-chip">{inline_md(it, sprites_prefix)}</span>' for it in items)
+                    body_parts.append(f'<div class="link-row">{chips}</div>')
+                else:
+                    lis = "".join(f"<li>{inline_md(it, sprites_prefix)}</li>" for it in items)
+                    body_parts.append(f'<ul class="note-list">{lis}</ul>')
+                continue
+            if stripped:
                 body_parts.append(f"<p>{inline_md(content, sprites_prefix, force_small=force_small_here)}</p>")
             i += 1
     body = "".join(body_parts)

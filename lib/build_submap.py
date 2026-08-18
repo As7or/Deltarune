@@ -197,14 +197,14 @@ PAGE_CSS = '''
       radial-gradient(ellipse at 80% 85%, rgba(150,50,15,0.24) 0, transparent 42%);
   }
   #viewport.viewport-wet{
-    background-color:#c6cbcd;
+    background-color:#e8e0c4;
     background-image:
-      linear-gradient(115deg, transparent 42%, rgba(255,255,255,0.18) 43%, transparent 45%),
-      linear-gradient(72deg, transparent 60%, rgba(255,255,255,0.13) 61%, transparent 63%),
-      radial-gradient(circle at 15% 20%, rgba(255,255,255,0.4) 0%, transparent 40%),
-      radial-gradient(circle at 85% 15%, rgba(255,255,255,0.32) 0%, transparent 40%),
-      radial-gradient(circle at 75% 68%, rgba(255,255,255,0.36) 0%, transparent 42%),
-      radial-gradient(circle at 25% 78%, rgba(255,255,255,0.28) 0%, transparent 40%);
+      linear-gradient(112deg, transparent 30%, rgba(255,255,255,0.4) 31%, rgba(90,75,30,0.16) 32%, transparent 34%),
+      linear-gradient(75deg, transparent 48%, rgba(255,255,255,0.35) 49%, rgba(90,75,30,0.14) 50%, transparent 52%),
+      radial-gradient(circle at 15% 20%, transparent 55%, rgba(196,168,90,0.3) 58%, transparent 66%),
+      radial-gradient(circle at 85% 15%, transparent 50%, rgba(196,168,90,0.26) 53%, transparent 60%),
+      radial-gradient(circle at 75% 68%, transparent 52%, rgba(196,168,90,0.3) 55%, transparent 64%),
+      radial-gradient(circle at 25% 78%, rgba(255,255,255,0.4) 0%, transparent 40%);
   }
   #viewport.viewport-crystal{
     background-color:#140e26;
@@ -215,11 +215,13 @@ PAGE_CSS = '''
   }
   #viewport.viewport-undertale{ background-color:#000000; background-image:none; }
   #viewport.viewport-fountain{
-    background-color:#0a1e1c;
+    background-color:#16303d;
     background-image:
-      radial-gradient(ellipse at 20% 20%, rgba(45,180,160,0.2) 0, transparent 42%),
-      radial-gradient(ellipse at 80% 30%, rgba(30,120,140,0.18) 0, transparent 40%),
-      radial-gradient(ellipse at 50% 90%, rgba(45,180,160,0.16) 0, transparent 45%);
+      radial-gradient(ellipse at 20% 10%, rgba(90,150,190,0.32) 0, transparent 40%),
+      radial-gradient(ellipse at 80% 20%, rgba(60,120,160,0.28) 0, transparent 38%),
+      radial-gradient(ellipse at 30% 55%, rgba(70,130,170,0.26) 0, transparent 42%),
+      radial-gradient(ellipse at 75% 65%, rgba(50,100,140,0.28) 0, transparent 40%),
+      radial-gradient(ellipse at 45% 90%, rgba(80,140,180,0.24) 0, transparent 42%);
   }
   #viewport.viewport-parchment{
     background-color:#c9ad74;
