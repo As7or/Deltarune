@@ -206,18 +206,22 @@ PAGE_CSS_PARCHMENT = '''
 PAGE_CSS_RUSTED = '''
   body{
     margin:0; padding:24px 26px 60px; font-family:'Consolas','Courier New',monospace; color:#e8dcc0;
-    background-color:#2e2620;
+    background-color:#2b1f16;
     background-image:
-      radial-gradient(ellipse at 15% 20%, rgba(180,90,40,0.18) 0, transparent 40%),
-      radial-gradient(ellipse at 85% 15%, rgba(140,60,20,0.15) 0, transparent 38%),
-      radial-gradient(ellipse at 60% 85%, rgba(180,90,40,0.14) 0, transparent 42%),
-      repeating-linear-gradient(90deg, rgba(0,0,0,0.06) 0px, transparent 2px, transparent 5px);
+      radial-gradient(ellipse at 12% 15%, rgba(200,90,30,0.32) 0, transparent 38%),
+      radial-gradient(ellipse at 88% 10%, rgba(160,55,15,0.3) 0, transparent 36%),
+      radial-gradient(ellipse at 65% 40%, rgba(120,40,10,0.22) 0, transparent 40%),
+      radial-gradient(ellipse at 20% 70%, rgba(190,80,25,0.26) 0, transparent 40%),
+      radial-gradient(ellipse at 80% 85%, rgba(150,50,15,0.28) 0, transparent 42%),
+      radial-gradient(ellipse at 45% 92%, rgba(200,100,35,0.2) 0, transparent 38%),
+      repeating-linear-gradient(90deg, rgba(0,0,0,0.08) 0px, transparent 2px, transparent 5px),
+      repeating-linear-gradient(4deg, rgba(0,0,0,0.06) 0px, transparent 3px, transparent 8px);
   }
-  h1{ font-size:21px; color:#e8dcc0; border-bottom:2px solid #b5622e; padding-bottom:8px; letter-spacing:.02em; text-transform:uppercase; }
-  h2{ font-size:16px; color:#d68b52; margin-top:24px; text-transform:uppercase; letter-spacing:.05em; }
-  h3{ font-size:14px; color:#d68b52; }
+  h1{ font-size:21px; color:#f0dcc0; border-bottom:3px solid #b5622e; padding-bottom:8px; letter-spacing:.02em; text-transform:uppercase; text-shadow:0 0 10px rgba(200,100,40,0.3); }
+  h2{ font-size:16px; color:#e0975a; margin-top:24px; text-transform:uppercase; letter-spacing:.05em; }
+  h3{ font-size:14px; color:#e0975a; }
   p{ font-size:14.5px; line-height:1.65; margin:8px 0; color:#d9cdb2; }
-  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; filter:saturate(0.85); }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; filter:saturate(0.8) sepia(0.12); }
   figure{ margin:14px 0; text-align:center; }
   figcaption{ font-size:12px; font-style:italic; color:#b5a688; margin-top:4px; }
   .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border:1px solid #5a4a38; box-shadow:0 3px 10px rgba(0,0,0,0.5); }
@@ -229,21 +233,25 @@ PAGE_CSS_RUSTED = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- placas metalicas remachadas --- */
+  /* --- placas metalicas remachadas, con manchas de oxido visibles --- */
   .callout{
     position:relative;
-    background: linear-gradient(160deg, #4a3d30 0%, #3a2f26 40%, #2e2620 100%);
+    background:
+      radial-gradient(ellipse at 15% 20%, rgba(180,80,25,0.35) 0%, transparent 30%),
+      radial-gradient(ellipse at 85% 75%, rgba(160,60,15,0.3) 0%, transparent 32%),
+      radial-gradient(ellipse at 60% 10%, rgba(140,50,10,0.25) 0%, transparent 28%),
+      linear-gradient(160deg, #4a3d30 0%, #3a2f26 40%, #2e2620 100%);
     padding:18px 20px; margin:22px 6px 26px;
     border:1px solid #6b5842;
-    box-shadow:2px 5px 14px rgba(0,0,0,0.5), inset 0 0 30px rgba(0,0,0,0.35);
+    box-shadow:2px 5px 14px rgba(0,0,0,0.5), inset 0 0 30px rgba(0,0,0,0.35), inset 0 0 50px rgba(150,60,20,0.12);
   }
-  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:#d68b52; }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:#e0975a; }
   .callout-body p{ margin:5px 0; font-size:14px; line-height:1.55; color:#d9cdb2; }
-  .callout-info{ background:linear-gradient(160deg,#38424a,#2a3238); }
-  .callout-tip{ background:linear-gradient(160deg,#354a38,#28362a); }
-  .callout-example{ background:linear-gradient(160deg,#4a3d30,#3a2f26); }
-  .callout-danger{ background:linear-gradient(160deg,#4a2e28,#3a221e); }
-  .callout-quote{ background:linear-gradient(160deg,#3d3548,#2c2736); }
+  .callout-info{ background:radial-gradient(ellipse at 20% 20%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#38424a,#2a3238); }
+  .callout-tip{ background:radial-gradient(ellipse at 80% 25%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#354a38,#28362a); }
+  .callout-example{ background:radial-gradient(ellipse at 15% 75%, rgba(180,85,25,0.32) 0%, transparent 32%), linear-gradient(160deg,#4a3d30,#3a2f26); }
+  .callout-danger{ background:radial-gradient(ellipse at 75% 20%, rgba(190,90,25,0.35) 0%, transparent 32%), linear-gradient(160deg,#4a2e28,#3a221e); }
+  .callout-quote{ background:radial-gradient(ellipse at 25% 80%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#3d3548,#2c2736); }
   .callout-question{ background:linear-gradient(160deg,#4a3d20,#3a2f18); }
   .callout::before, .callout::after{
     content:""; position:absolute; width:8px; height:8px; border-radius:50%;
@@ -273,11 +281,19 @@ PAGE_CSS_RUSTED = '''
 PAGE_CSS_WET = '''
   body{
     margin:0; padding:24px 26px 60px; font-family:Georgia, serif; color:#2c3a3d;
-    background-color:#b9c9cb;
+    background-color:#c6cbcd;
     background-image:
-      radial-gradient(ellipse at 20% 15%, rgba(120,150,155,0.3) 0, transparent 42%),
-      radial-gradient(ellipse at 80% 25%, rgba(90,120,130,0.25) 0, transparent 40%),
-      radial-gradient(ellipse at 50% 90%, rgba(120,150,155,0.28) 0, transparent 45%);
+      /* pliegues de papel arrugado */
+      linear-gradient(115deg, transparent 42%, rgba(255,255,255,0.22) 43%, transparent 45%),
+      linear-gradient(72deg, transparent 60%, rgba(255,255,255,0.16) 61%, transparent 63%),
+      linear-gradient(160deg, transparent 25%, rgba(0,0,0,0.05) 26%, transparent 28%),
+      linear-gradient(20deg, transparent 78%, rgba(0,0,0,0.05) 79%, transparent 81%),
+      /* gotas de agua */
+      radial-gradient(circle at 12% 18%, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 35%, transparent 55%),
+      radial-gradient(circle at 88% 12%, rgba(255,255,255,0.4) 0%, transparent 45%),
+      radial-gradient(circle at 76% 62%, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.1) 40%, transparent 58%),
+      radial-gradient(circle at 22% 78%, rgba(255,255,255,0.35) 0%, transparent 48%),
+      radial-gradient(circle at 55% 40%, rgba(255,255,255,0.3) 0%, transparent 40%);
   }
   h1{ font-size:22px; color:#1f3538; border-bottom:2px solid #4a6b70; padding-bottom:8px; }
   h2{ font-size:17px; color:#3d5a5f; margin-top:22px; }
@@ -295,26 +311,31 @@ PAGE_CSS_WET = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- papel humedo, manchado --- */
+  /* --- tarjeta ondulada tipo "Lago" del corcho, con textura de agua --- */
   .callout{
     position:relative;
     background:
-      radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.15) 0, transparent 40%),
-      radial-gradient(ellipse at 75% 80%, rgba(60,90,95,0.12) 0, transparent 45%),
-      #dbe6e7;
-    padding:16px 18px 18px; margin:22px 10px 26px;
-    box-shadow:2px 6px 14px rgba(20,40,42,0.28), inset 0 -10px 20px -14px rgba(20,40,42,0.15);
-    border-radius:3px 12px 3px 14px/10px 3px 14px 3px;
+      radial-gradient(ellipse at 30% 25%, rgba(180,210,225,0.35) 0%, transparent 45%),
+      radial-gradient(ellipse at 70% 70%, rgba(60,100,120,0.2) 0%, transparent 50%),
+      linear-gradient(160deg, #dbe9ec 0%, #c3d8dc 100%);
+    padding:22px 20px 24px; margin:26px 8px 30px;
+    box-shadow:2px 6px 16px rgba(15,35,40,0.32), inset 0 -14px 22px -16px rgba(15,35,40,0.18);
+    clip-path: polygon(
+      2% 4%, 8% 0%, 16% 3%, 24% 0%, 32% 3%, 40% 0%, 48% 3%, 56% 0%, 64% 3%, 72% 0%, 80% 3%, 88% 0%, 96% 3%, 100% 6%,
+      98% 20%, 100% 34%, 98% 48%, 100% 62%, 98% 76%, 100% 90%, 97% 96%,
+      92% 100%, 84% 97%, 76% 100%, 68% 97%, 60% 100%, 52% 97%, 44% 100%, 36% 97%, 28% 100%, 20% 97%, 12% 100%, 4% 97%, 0% 94%,
+      2% 80%, 0% 66%, 2% 52%, 0% 38%, 2% 24%, 0% 10%
+    );
   }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:#1f3538; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#2c3a3d; }
-  .callout-info{ background:#c3dce8; }
-  .callout-tip{ background:#c8e2d4; }
-  .callout-example{ background:#dbe6e7; }
-  .callout-danger{ background:#e0cccb; }
-  .callout-quote{ background:#d3d3e6; }
-  .callout-question{ background:#dce0c3; }
-  .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(20,40,42,0.35); }
+  .callout-info{ background:linear-gradient(160deg,#c9dcec,#a9c4d8); }
+  .callout-tip{ background:linear-gradient(160deg,#c8e2d4,#a8ccbc); }
+  .callout-example{ background:linear-gradient(160deg,#dbe9ec,#c3d8dc); }
+  .callout-danger{ background:linear-gradient(160deg,#e0cccb,#c8a8a6); }
+  .callout-quote{ background:linear-gradient(160deg,#d3d3e6,#b3b3cc); }
+  .callout-question{ background:linear-gradient(160deg,#dce0c3,#c0c8a0); }
+  .callout .callout{ margin:16px 6px 8px; box-shadow:3px 6px 16px rgba(15,35,40,0.4); }
 
   .wikilink{ color:#1f5258; border-bottom:1px dotted #1f5258; text-decoration:none; cursor:pointer; }
   a.wikilink:hover{ background:rgba(31,82,88,0.12); }

@@ -185,6 +185,49 @@ PAGE_CSS = '''
       repeating-radial-gradient(circle at 50% 50%, rgba(60,38,12,0.12) 0px, transparent 2px, transparent 6px);
   }
   #viewport.panning{ cursor:grabbing; }
+  /* --- fondos tematicos para el submapa cuyo nodo central es una de las
+     6 notas con diseno especial, a juego con la pagina de esa nota --- */
+  #viewport.viewport-rusted{
+    background-color:#2b1f16;
+    background-image:
+      radial-gradient(ellipse at 12% 15%, rgba(200,90,30,0.28) 0, transparent 38%),
+      radial-gradient(ellipse at 88% 10%, rgba(160,55,15,0.26) 0, transparent 36%),
+      radial-gradient(ellipse at 65% 40%, rgba(120,40,10,0.2) 0, transparent 40%),
+      radial-gradient(ellipse at 20% 70%, rgba(190,80,25,0.22) 0, transparent 40%),
+      radial-gradient(ellipse at 80% 85%, rgba(150,50,15,0.24) 0, transparent 42%);
+  }
+  #viewport.viewport-wet{
+    background-color:#c6cbcd;
+    background-image:
+      linear-gradient(115deg, transparent 42%, rgba(255,255,255,0.18) 43%, transparent 45%),
+      linear-gradient(72deg, transparent 60%, rgba(255,255,255,0.13) 61%, transparent 63%),
+      radial-gradient(circle at 15% 20%, rgba(255,255,255,0.4) 0%, transparent 40%),
+      radial-gradient(circle at 85% 15%, rgba(255,255,255,0.32) 0%, transparent 40%),
+      radial-gradient(circle at 75% 68%, rgba(255,255,255,0.36) 0%, transparent 42%),
+      radial-gradient(circle at 25% 78%, rgba(255,255,255,0.28) 0%, transparent 40%);
+  }
+  #viewport.viewport-crystal{
+    background-color:#140e26;
+    background-image:
+      radial-gradient(ellipse at 15% 15%, rgba(120,90,220,0.22) 0, transparent 42%),
+      radial-gradient(ellipse at 85% 25%, rgba(70,180,220,0.2) 0, transparent 40%),
+      radial-gradient(ellipse at 50% 90%, rgba(120,90,220,0.18) 0, transparent 45%);
+  }
+  #viewport.viewport-undertale{ background-color:#000000; background-image:none; }
+  #viewport.viewport-fountain{
+    background-color:#0a1e1c;
+    background-image:
+      radial-gradient(ellipse at 20% 20%, rgba(45,180,160,0.2) 0, transparent 42%),
+      radial-gradient(ellipse at 80% 30%, rgba(30,120,140,0.18) 0, transparent 40%),
+      radial-gradient(ellipse at 50% 90%, rgba(45,180,160,0.16) 0, transparent 45%);
+  }
+  #viewport.viewport-parchment{
+    background-color:#c9ad74;
+    background-image:
+      radial-gradient(ellipse at 18% 12%, rgba(120,90,40,0.18) 0, transparent 45%),
+      radial-gradient(ellipse at 82% 28%, rgba(90,60,20,0.15) 0, transparent 42%),
+      radial-gradient(ellipse at 55% 92%, rgba(70,45,15,0.2) 0, transparent 50%);
+  }
   #board{ position:absolute; top:0; left:0; transform-origin:0 0; will-change:transform; }
   svg#strings{ position:absolute; top:0; left:0; width:100%; height:100%; overflow:visible; }
   .string-hit{ stroke:transparent; stroke-width:16; fill:none; }
@@ -230,8 +273,28 @@ PAGE_CSS = '''
   #note-panel .note-header button.active{ background:#f3ead6; color:#3a2f22; }
   #note-panel iframe{ width:100%; height:calc(100% - 49px); border:none; }
   #note-panel .postit-body{
+    position:relative;
     width:100%; height:calc(100% - 49px); overflow-y:auto; overflow-x:hidden; box-sizing:border-box;
-    padding:26px 28px 30px; background:#fdf1b8; font-family:'Segoe UI', Tahoma, sans-serif;
+    padding:30px 30px 34px;
+    background:
+      radial-gradient(ellipse at 25% 15%, rgba(255,255,255,0.25) 0, transparent 40%),
+      linear-gradient(135deg, #fdf1b8 0%, #fbe89a 100%);
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    box-shadow:inset 0 -18px 26px -20px rgba(80,60,10,0.18);
+  }
+  #note-panel .postit-body::before{
+    content:""; position:absolute; top:0; right:0; width:0; height:0;
+    border-style:solid; border-width:0 22px 22px 0;
+    border-color:transparent rgba(120,90,10,0.18) transparent transparent;
+  }
+  #note-panel .postit-ref-img{
+    margin:0 0 18px; text-align:center;
+  }
+  #note-panel .postit-ref-img img{
+    max-width:100%; max-height:220px; border-radius:2px;
+    box-shadow:2px 6px 14px rgba(60,45,10,0.35);
+    border:4px solid #fffdf6;
+    transform:rotate(-1.1deg);
   }
   #note-panel .postit-body p{ font-size:15px; line-height:1.6; color:#3a2f22; margin:0 0 14px; max-width:100%; }
   #note-panel .postit-body strong{ color:#2c2416; }
@@ -240,18 +303,18 @@ PAGE_CSS = '''
     border-bottom:1px dotted #8a3a30; text-decoration:none;
   }
   /* Callouts anidados (p.ej. Ruta Rara dentro de una teoria) dentro del
-     popup: una caja mas suave, sin repetir el marco postit completo. */
+     popup: otra notita mas pequena encima, con su propia sombra de papel. */
   #note-panel .postit-body .callout{
-    background:rgba(255,255,255,0.45); border-radius:4px; padding:12px 14px; margin:10px 0 16px;
-    box-shadow:none; transform:none !important;
+    position:relative; background:#fffdf3; border-radius:2px; padding:12px 14px; margin:14px 4px 18px;
+    box-shadow:1px 4px 10px rgba(60,45,10,0.28); transform:rotate(0.6deg) !important;
   }
-  #note-panel .postit-body .callout-title{ font-weight:bold; margin-bottom:6px; font-size:13px; text-transform:uppercase; letter-spacing:.03em; }
+  #note-panel .postit-body .callout-title{ font-weight:bold; margin-bottom:6px; font-size:13px; text-transform:uppercase; letter-spacing:.03em; color:#5a4520; }
   /* Imagenes dentro del texto de teoria/conexion -- mismas reglas que las
      paginas de nota normales, para que no rompan el ancho del panel. */
   #note-panel .postit-body figure{ margin:12px 0; text-align:center; max-width:100%; }
   #note-panel .postit-body figcaption{ font-size:12px; font-style:italic; color:#6b5c38; margin-top:4px; }
   #note-panel .postit-body img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
-  #note-panel .postit-body .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:3px; box-shadow:0 2px 6px rgba(0,0,0,0.2); }
+  #note-panel .postit-body .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:3px; box-shadow:1px 4px 10px rgba(60,45,10,0.25); }
   #note-panel .postit-body .inline-img-alpha{ width:auto; max-width:210px; max-height:250px; margin:8px auto; box-shadow:none; background:none; }
   #note-panel .postit-body .inline-img-small{ width:auto; height:100px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   #note-panel .postit-body table.note-table{ width:100%; border-collapse:collapse; margin:10px 0; font-size:12.5px; }
@@ -469,6 +532,15 @@ def build_submap(canvas_path, title_name):
     # principal (Shelter, Lago, Cristal Oscuro, Conexion Undertale, Profecia,
     # Fuentes Oscuras) -- se detectan por titulo exacto de la burbuja/centro.
     SPECIAL_THEMES = {"Shelter", "Lake", "Cristal Oscuro", "Conexión Undertale", "Profecía", "Fuentes Oscuras"}
+    THEME_VIEWPORT_CLASS = {
+        "Shelter": "viewport-rusted", "Lake": "viewport-wet", "Cristal Oscuro": "viewport-crystal",
+        "Conexión Undertale": "viewport-undertale", "Fuentes Oscuras": "viewport-fountain",
+        "Profecía": "viewport-parchment",
+    }
+    # Si el propio centro del submapa es una de esas 6 notas especiales, todo
+    # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).
+    center_title = next((it["title"] for it in items if it["is_center"]), "")
+    viewport_extra_class = THEME_VIEWPORT_CLASS.get(center_title, "")
 
     node_html = []
     content_map = {}
@@ -511,8 +583,14 @@ def build_submap(canvas_path, title_name):
                     extracted = extract_callout_by_title(parent_note_text, it["title"], sprites_prefix="../Sprites/")
                 except Exception:
                     extracted = None
+            ref_img_html = ""
+            if it["img"]:
+                popup_path = os.path.join(SPRITES_DIR, it["img"])
+                pmime, pb64 = prepare_image(popup_path, maxw=340)
+                if pb64:
+                    ref_img_html = f'<div class="postit-ref-img"><img src="data:{pmime};base64,{pb64}" alt=""></div>'
             content_map[nid] = {"title": it["title"],
-                                 "html": extracted or it["full_html"] or f"<p>{body_html}</p>",
+                                 "html": ref_img_html + (extracted or it["full_html"] or f"<p>{body_html}</p>"),
                                  "note": note_attr}
 
         opennote_flag = "1" if opens_full_note else "0"
@@ -630,7 +708,7 @@ def build_submap(canvas_path, title_name):
 </defs>
 </svg>
 <a id="back-link" href="../corcho-principal.html">&larr; Corcho principal</a>
-<div id="viewport">
+<div id="viewport" class="{viewport_extra_class}">
   <div id="board" style="width:{board_w}px; height:{board_h}px;">
     <svg id="strings"></svg>
 {nodes_str}
