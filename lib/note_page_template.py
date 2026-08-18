@@ -71,6 +71,14 @@ PAGE_CSS = '''
   .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#8a6a3a; flex-shrink:0; align-self:center; }
   .fm-badge b{ font-weight:700; color:#2c2416; text-transform:uppercase; font-size:9.5px; letter-spacing:.03em;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#fdf6e3; border:1px solid #d8c48a; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#8a3a30 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
 
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{
@@ -184,6 +192,14 @@ PAGE_CSS_PARCHMENT = '''
   .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#5a3416; flex-shrink:0; align-self:center; }
   .fm-badge b{ font-weight:700; color:#2c1c08; text-transform:uppercase; font-size:9px; letter-spacing:.03em;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#e9d4a0; border:1px solid #96773f; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#7a2e22 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
 
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{
@@ -269,6 +285,14 @@ PAGE_CSS_RUSTED = '''
   .fm-badge::before{ content:"▪"; color:#d68b52; }
   .fm-badge b{ font-weight:700; color:#e0975a; text-transform:uppercase; font-size:9px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#3a2f26; border:1px solid #6b5842; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#e0975a !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{ display:inline-block; background:#3a2f26; border:1px solid #6b5842; border-radius:3px; padding:5px 13px; box-shadow:1px 2px 5px rgba(0,0,0,0.4); }
   .link-chip a.wikilink{ font-size:13px; font-weight:600; border-bottom:none; }
@@ -280,20 +304,25 @@ PAGE_CSS_RUSTED = '''
 
 PAGE_CSS_WET = '''
   body{
-    margin:0; padding:24px 26px 60px; font-family:Georgia, serif; color:#2c3a3d;
-    background-color:#c6cbcd;
+    margin:0; padding:24px 26px 60px; font-family:Georgia, serif; color:#26424a;
+    background-color:#aec9d6;
     background-image:
-      /* pliegues de papel arrugado */
-      linear-gradient(115deg, transparent 42%, rgba(255,255,255,0.22) 43%, transparent 45%),
-      linear-gradient(72deg, transparent 60%, rgba(255,255,255,0.16) 61%, transparent 63%),
-      linear-gradient(160deg, transparent 25%, rgba(0,0,0,0.05) 26%, transparent 28%),
-      linear-gradient(20deg, transparent 78%, rgba(0,0,0,0.05) 79%, transparent 81%),
-      /* gotas de agua */
-      radial-gradient(circle at 12% 18%, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.15) 35%, transparent 55%),
-      radial-gradient(circle at 88% 12%, rgba(255,255,255,0.4) 0%, transparent 45%),
-      radial-gradient(circle at 76% 62%, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.1) 40%, transparent 58%),
-      radial-gradient(circle at 22% 78%, rgba(255,255,255,0.35) 0%, transparent 48%),
-      radial-gradient(circle at 55% 40%, rgba(255,255,255,0.3) 0%, transparent 40%);
+      /* pliegues de papel arrugado, mas marcados */
+      linear-gradient(112deg, transparent 30%, rgba(255,255,255,0.32) 31%, rgba(0,0,0,0.1) 32%, transparent 34%),
+      linear-gradient(75deg, transparent 48%, rgba(255,255,255,0.28) 49%, rgba(0,0,0,0.08) 50%, transparent 52%),
+      linear-gradient(140deg, transparent 15%, rgba(255,255,255,0.22) 16%, transparent 18%),
+      linear-gradient(160deg, transparent 22%, rgba(0,0,0,0.08) 23%, transparent 25%),
+      linear-gradient(35deg, transparent 60%, rgba(255,255,255,0.24) 61%, transparent 63%),
+      linear-gradient(20deg, transparent 78%, rgba(0,0,0,0.08) 79%, transparent 81%),
+      linear-gradient(95deg, transparent 88%, rgba(0,0,0,0.06) 89%, transparent 91%),
+      /* gotas de agua, mas presentes */
+      radial-gradient(circle at 12% 18%, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.2) 35%, transparent 55%),
+      radial-gradient(circle at 88% 12%, rgba(255,255,255,0.5) 0%, transparent 45%),
+      radial-gradient(circle at 76% 62%, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.15) 40%, transparent 58%),
+      radial-gradient(circle at 22% 78%, rgba(255,255,255,0.45) 0%, transparent 48%),
+      radial-gradient(circle at 55% 40%, rgba(255,255,255,0.4) 0%, transparent 40%),
+      radial-gradient(circle at 35% 92%, rgba(255,255,255,0.4) 0%, transparent 38%),
+      radial-gradient(circle at 92% 82%, rgba(255,255,255,0.35) 0%, transparent 36%);
   }
   h1{ font-size:22px; color:#1f3538; border-bottom:2px solid #4a6b70; padding-bottom:8px; }
   h2{ font-size:17px; color:#3d5a5f; margin-top:22px; }
@@ -339,6 +368,14 @@ PAGE_CSS_WET = '''
   .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#4a6b70; }
   .fm-badge b{ font-weight:700; color:#1f3538; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#cbd9da; border:1px solid #9db0b2; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#1f5258 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{ display:inline-block; background:#cbd9da; border:1px solid #9db0b2; border-radius:8px; padding:5px 13px; box-shadow:1px 2px 5px rgba(20,40,42,0.25); }
   .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
@@ -400,6 +437,14 @@ PAGE_CSS_CRYSTAL = '''
   .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#7de8ff; box-shadow:0 0 5px #7de8ff; }
   .fm-badge b{ font-weight:700; color:#7de8ff; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:rgba(45,35,80,0.6); border:1px solid rgba(125,232,255,0.35); border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#7de8ff !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{ display:inline-block; background:rgba(45,35,80,0.6); border:1px solid rgba(125,232,255,0.3); border-radius:8px; padding:5px 13px; box-shadow:0 0 10px rgba(90,120,255,0.15); }
   .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
@@ -445,6 +490,14 @@ PAGE_CSS_UNDERTALE = '''
   .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:#000000; border:1px solid #ffffff; border-radius:0; padding:4px 11px; font-size:10.5px; color:#ffffff; font-family:'Courier New',monospace; }
   .fm-badge b{ font-weight:700; color:#ffff00; text-transform:uppercase; font-size:9px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#000000; border:1px solid #ffffff; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#ffff00 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{ display:inline-block; background:#000000; border:1px solid #ffffff; border-radius:0; padding:5px 13px; }
   .link-chip a.wikilink{ font-size:13px; font-weight:600; border-bottom:none; }
@@ -513,6 +566,14 @@ PAGE_CSS_FOUNTAIN = '''
   .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#3dd4bf; box-shadow:0 0 5px #3dd4bf; }
   .fm-badge b{ font-weight:700; color:#3dd4bf; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
   .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:rgba(15,45,42,0.7); border:1px solid rgba(61,212,191,0.35); border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#3dd4bf !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.25);
+  }
+  .submap-link:hover{ filter:brightness(1.1); }
   .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
   .link-chip{ display:inline-block; background:rgba(15,45,42,0.7); border:1px solid rgba(61,212,191,0.3); border-radius:8px; padding:5px 13px; box-shadow:0 0 10px rgba(45,180,160,0.15); }
   .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }

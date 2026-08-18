@@ -141,6 +141,11 @@ def inline_md(text, sprites_prefix, force_small=False):
         inner = m.group(1)
         target = inner.split("|")[0].strip()
         display = inner.split("|")[-1].strip()
+        m_sub = re.match(r"Submapas/(.+?)\.canvas$", target)
+        if m_sub:
+            sub_stem = slugify(m_sub.group(1))
+            href = "../submaps/" + urllib.parse.quote(sub_stem) + ".html"
+            return stash(f'<a class="submap-link" href="{href}">🗺️ {html.escape(display)}</a>')
         stem = resolve_note_stem(target)
         if stem:
             return stash(f'<a class="wikilink" href="{urllib.parse.quote(stem)}.html">{html.escape(display)}</a>')
@@ -380,7 +385,36 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
         i += 1
     fm_html = ""
     if fm:
-        badges = "".join(f'<span class="fm-badge"><b>{html.escape(k)}</b><em>{html.escape(v[:60])}</em></span>' for k, v in fm.items())
-        fm_html = f'<div class="fm-bar">{badges}</div>'
+        SKIP_VALUES = {"n/a", "na", "-", "ninguna", "ninguno", "", "no aplica"}
+        FM_ICONS = {
+            "tipo": {"personaje": "🧑", "lugar": "📍", "tema": "💭", "objeto": "📦", "evento": "📖"},
+            "mundo": {"lightner": "☀️", "darkner": "🌙", "ambos": "🌗"},
+            "confianza": {"oficial": "✅", "fuerte": "🟢", "fuerte)": "🟢", "débil": "🟡", "debil": "🟡"},
+            "especie": {},
+            "familia": {},
+        }
+        FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "confianza": "⚪"}
+
+        def _icon_for(key, value):
+            key_l = key.lower().strip()
+            val_l = value.lower()
+            table = FM_ICONS.get(key_l, {})
+            for frag, ic in table.items():
+                if frag in val_l:
+                    return ic
+            return FM_DEFAULT_ICON.get(key_l, "🏷️")
+
+        parts = []
+        for k, v in fm.items():
+            if v.strip().lower() in SKIP_VALUES:
+                continue
+            icon = _icon_for(k, v)
+            key_slug = k.lower().strip()
+            parts.append(
+                f'<span class="fm-badge" data-key="{html.escape(key_slug)}">'
+                f'<span class="fm-icon">{icon}</span><b>{html.escape(k)}</b><em>{html.escape(v[:60])}</em></span>'
+            )
+        if parts:
+            fm_html = f'<div class="fm-bar">{"".join(parts)}</div>'
     return fm_html + "\n".join(out)
 
