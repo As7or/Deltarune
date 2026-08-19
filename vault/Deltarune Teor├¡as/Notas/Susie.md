@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (reptil)
 familia: no revelada — Cap.4/5 insinúan una vida familiar dura, sin contacto con sus padres
+grupo: Fun Gang
 confianza: oficial
 ---
 
@@ -211,6 +212,9 @@ Tiene el HP y el Ataque más altos del grupo — su rol es aguantar golpes y peg
 > En el Cap.5, es Kris —no el Knight— quien crea la nueva Fuente Oscura tras la floristería, delante de Susie, aunque ella no llega a ver la escena directamente. Combinado con que ya en el Cap.4 desconfiaba de que le ocultaran cosas (primero de Ralsei, y según esta teoría también de Kris) y con que en el Cap.2 el Mundo Oscuro del ordenador pudo haber sido obra de Kris a solas mientras el SOUL no estaba puesto, parte del fandom sostiene que Susie intuye, sin llegar a confirmarlo del todo, que Kris tiene un papel activo en la creación de Fuentes y podría ser el propio Knight (o estar ligado a él). Ralsei, según esta misma teoría, ya lo sabría todo y estaría callando por decisión propia. **Teoría de fans (la llamada "Kris-Knight theory"), fuerte pero no confirmada; el juego deja la identidad del Knight deliberadamente ambigua.**
 >
 > ![[susie_suspect_kriss.png]]
+
+## Apodo del menú de estadísticas
+Empieza el Cap.1 como "Mean Girl" ("No hace nada más que pelear"), y pasa a "Dark Knight" ("Hace daño con energía oscura") tras liberar a Kris y Ralsei en el sótano del Castillo de Cartas — título que se mantiene por defecto al empezar los Caps.2 y 3. En el Cap.2 puede subir a "Healing Master" ("Puede usar la curación definitiva. ¡Perdedores!") al aprender UltimatHeal, o a "Moss Enjoyer" si prueba el musgo de Cyber City junto a Kris — esta última elección tiene consecuencias que se arrastran hasta el Cap.3 y el Cap.4 en los títulos de Kris. En el Cap.4 puede desbloquear "Axe of Justice" ("Afronta el destino con la hoja") tras conseguir el JusticeAxe del Hammer of Justice. En el Cap.5 empieza como "Violent Violet" ("Para esa persona especial") y sube a "Dark Vine" tras enfrentarse a Flowery y las 7 Flores junto al resto del grupo.
 
 ## Curiosidades
 - En Undertale ya se mencionaba a una "Suzy" a través de un NPC secundario ([[Clam Guy]]), como guiño previo a su existencia — meses antes de que Deltarune se anunciara siquiera.

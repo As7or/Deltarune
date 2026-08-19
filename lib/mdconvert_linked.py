@@ -409,14 +409,15 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
     fm_html = ""
     if fm:
         SKIP_VALUES = {"n/a", "na", "-", "ninguna", "ninguno", "", "no aplica"}
+        SKIP_KEYS = {"confianza"}
         FM_ICONS = {
             "tipo": {"personaje": "🧑", "lugar": "📍", "tema": "💭", "objeto": "📦", "evento": "📖"},
             "mundo": {"lightner": "☀️", "darkner": "🌙", "ambos": "🌗"},
-            "confianza": {"oficial": "✅", "fuerte": "🟢", "fuerte)": "🟢", "débil": "🟡", "debil": "🟡"},
             "especie": {},
             "familia": {},
+            "grupo": {"fun gang": "🎈", "colegio": "🏫", "iglesia": "⛪", "policía": "👮", "policia": "👮", "ayuntamiento": "🏛️"},
         }
-        FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "confianza": "⚪"}
+        FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "grupo": "👥"}
 
         def _icon_for(key, value):
             key_l = key.lower().strip()
@@ -429,10 +430,12 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
 
         parts = []
         for k, v in fm.items():
+            key_slug = k.lower().strip()
+            if key_slug in SKIP_KEYS:
+                continue
             if v.strip().lower() in SKIP_VALUES:
                 continue
             icon = _icon_for(k, v)
-            key_slug = k.lower().strip()
             parts.append(
                 f'<span class="fm-badge" data-key="{html.escape(key_slug)}">'
                 f'<span class="fm-icon">{icon}</span><b>{html.escape(k)}</b><em>{html.escape(v[:60])}</em></span>'

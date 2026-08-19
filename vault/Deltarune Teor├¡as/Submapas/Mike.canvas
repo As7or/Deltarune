@@ -3,7 +3,7 @@
   {
    "id": "center",
    "type": "text",
-   "text": "# Mike\n\n☎️ Ayudante y socio de Tenna, amigo mutuo de Spamton — nunca visto en persona, pero el Cap.5 confirma que existió de verdad.",
+   "text": "# Mike\n\n☎️ Ayudante y socio de Tenna, amigo mutuo de Spamton — nunca visto en persona en ningún momento del juego, pero el Cap.5 confirma indirectamente que existió de verdad y que su desaparición fue real, no una broma recurrente sin más.",
    "x": -190,
    "y": -80,
    "width": 400,
@@ -22,7 +22,7 @@
   {
    "id": "s3",
    "type": "text",
-   "text": "**Los tres impostores**\nBattat, Pluey y Jongler — cada uno parodia una teoría distinta del fandom sobre quién es Mike.",
+   "text": "**Los tres impostores**\nBattat, Pluey y Jongler — cada uno parodia una teoría distinta del fandom sobre quién es Mike en realidad: Battat (Small Mike) es un Pippins verde disfrazado, Pluey lleva un traje visiblemente mal ajustado, y Jongler directamente hace malabares en vez de fingir ser Mike con convicción. Los tres cobran el mismo sueldo por hacerse pasar por él, lo que sugiere que ni el propio Tenna sabe ya con certeza qué le pasó.",
    "x": 420,
    "y": -260,
    "width": 280,
@@ -41,7 +41,7 @@
   {
    "id": "s0",
    "type": "text",
-   "text": "**FRIEND**\nCat Mike, el impostor favorito de Tenna, se le parece mucho — base de la teoría de que Mike podría ser FRIEND disfrazado.",
+   "text": "**FRIEND**\nCat Mike, el impostor favorito de Tenna dentro del propio show, se le parece mucho — base visual de la teoría de que Mike podría ser en realidad FRIEND disfrazado, aunque el juego nunca llega a confirmarlo ni a insinuarlo directamente fuera de esa coincidencia de diseño.",
    "x": -760,
    "y": -588,
    "width": 270,
@@ -60,7 +60,7 @@
   {
    "id": "s2",
    "type": "text",
-   "text": "**Tenna**\nSu jefe y amigo íntimo — le advirtió que no forzara a Spamton a firmar. Desapareció cuando Tenna lo ignoró.",
+   "text": "**Tenna**\nSu jefe y, según todo lo que se puede inferir, su amigo íntimo — le advirtió explícitamente que no forzara a Spamton a firmar el contrato. Mike desapareció poco después de que Tenna ignorara ese aviso, una coincidencia temporal que el fandom no considera casual.",
    "x": -125,
    "y": -575,
    "width": 270,
@@ -79,7 +79,7 @@
   {
    "id": "s1",
    "type": "text",
-   "text": "**Everyman**\nFunciona más como guiño que como pieza argumental.",
+   "text": "**Everyman**\nFunciona más como guiño meta que como pieza argumental real — otro personaje de relleno con nombre genérico que el fandom conecta sueltamente con Mike solo por compartir esa misma categoría de \"personaje intercambiable sin rostro propio\".",
    "x": -490,
    "y": 448,
    "width": 270,

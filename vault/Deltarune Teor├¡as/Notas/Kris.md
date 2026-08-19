@@ -4,6 +4,7 @@ mundo: lightner
 especie: humano
 pronombres: they/them
 familia: Dreemurr (adoptivo) — hijo de Toriel y Asgore (separados), hermano de Asriel
+grupo: Fun Gang
 confianza: fuerte
 ---
 
@@ -277,6 +278,16 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > *Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2).*
 >
 > - 🎲 Pieza más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
+
+> [!question]- ¿Dónde estuvo Kris la noche entre el Cap.4 y el Cap.5?
+> Un hueco temporal que el fandom lleva señalando desde que se supo que el Cap.5 empezaba directamente al anochecer del Festival, saltándose por completo esa noche. Varias pistas sueltas apuntan a que Kris no se quedó tranquilamente en la cama:
+> - Al recuperar el control de Kris al inicio de la Ruta Rara del Cap.5, la escena empieza con Kris entrando por la ventana de su propio cuarto, dejándose caer sin ningún cuidado, y arrastrándose hasta la jaula donde guarda el ALMA para devolvérsela al cuerpo — es decir, el ALMA llevaba ya un rato fuera y Kris fuera de casa antes de que el jugador retome el control.
+> - Esa misma noche (entre el final del Cap.4 y el inicio del Cap.5) aparecen las ruedas del coche de Toriel rajadas, sin que se aclare quién lo hizo ni por qué.
+> - Existe una animación de archivo, no accesible en una partida normal, en la que Kris se revuelve en la cama a mitad de la noche, se incorpora de un salto, camina de forma brusca hasta el centro de la habitación y levanta el brazo con violencia — cortada antes de mostrar el desenlace.
+> Ninguna de estas tres piezas está confirmada como parte de la misma noche exacta ni conectada explícitamente entre sí dentro del juego; es el fandom quien las une para especular sobre una ausencia nocturna de Kris entre capítulos. **Teoría de fans especulativa, construida sobre varias piezas de evidencia textual real pero nunca unidas explícitamente por el propio juego.**
+
+> [!question]- ¿Le gustaba Noelle a Kris?
+> Al usar un Cristal Oscuro dentro de la casa de Noelle en el Cap.4, Kris tiene una visión fugaz del Mundo Claro equivalente — y ve a Noelle inclinada hacia él, susurrándole algo, aparentemente con un ramo de flores de por medio. Seam explica en el Cap.5 que los Cristales Oscuros contienen "el poder de los sueños rotos", y que tirar uno se sentiría "como tirar el/la... de alguien" — dejando la frase deliberadamente incompleta. Uniendo ambas cosas, parte del fandom lee esta visión como un sueño roto propio de Kris relacionado con Noelle, no solo un vistazo neutral al Mundo Claro. **Teoría de fans especulativa: la visión y la explicación de Seam están confirmadas por separado, pero el juego nunca afirma directamente que ese cristal en concreto sea "el sueño roto" de Kris ni que tenga que ver con un sentimiento romántico hacia Noelle.**
 > - En conjunto, ya no es solo especulación visual: hay al menos tres líneas de texto reales ("no pudiste encontrar tu mano", "se despierta sin una mano", la mordedura de gato de Pink) que apuntan en la misma dirección, además de una pista de diseño verificable (el juego de palabras Wingdings). Sigue sin haber, eso sí, ninguna confirmación de que le vaya a pasar a Kris específicamente dentro de la trama principal.
 
 ## En combate
@@ -293,6 +304,13 @@ Uno de los primeros bocetos de Kris es de 2014 o 2015, compartido por Toby Fox e
 
 ![[Kris_artwork.png]]
 *Boceto conceptual de Kris de Toby Fox, de 2014 o 2015.*
+
+## Apodo del menú de estadísticas
+El título de Kris en el menú POWER cambia constantemente según la ruta, las decisiones y hasta ciertos secretos opcionales — es, con diferencia, el personaje con más títulos distintos de todo el juego. Empieza como "Human" ("Ninguna descripción sirve mejor") en el Cap.1, y pasa a "Leader" tras conocer la Profecía. El más famoso de todos es "Bed Inspector" ("Inspecciona todas las camas sin razón aparente"), que se gana revisando las cuatro camas del cuarto de Hathy en el Castillo de Cartas — y que se puede "mantener" en el Cap.2 si se repite la misma manía en las camas de Ralsei, Susie, Lancer, Clover y Noelle; el juego incluso avisa por adelantado de que se perderá el título si no se hace. Otros títulos memorables por capítulo:
+- Cap.2: "Tactician" por defecto, o "Moss Finder" si encuentra musgo en Cyber City junto a Susie.
+- Cap.3: "Blazer" / "Ice Blazer" en la Ruta de la Espada, o "Enjoying" (la vida joven) tras conseguir el Huevo — este último es el único título de todo el juego que en la versión japonesa coloca el nivel a la izquierda en vez de a la derecha, precisamente para que parezca un error de sistema.
+- Cap.4: "Dark Hero" por defecto, o "Dark Bead" ("Roto, pero sigue sin soltarse") durante la Ruta Rara.
+- Cap.5: empieza como "Blue Rose" ("Callado, pero ligón"); cambia a "Dark Rose" ("Transmite una despedida") al enfrentarse a Flowery y las 7 Flores, a "Pink Rose" tras derrotar a Pink, o a "Shattered Rose" ("Solo uno conoce el significado de la rosa") si se aborta la Ruta Rara nada más empezar el capítulo. Entrar en la habitación con el Forgotten Man resetea el nivel a 1 y elimina el título por completo mientras se recibe el Huevo.
 
 ## Curiosidades
 - Es el único miembro del grupo sin un sprite de "dolor" al recibir daño.

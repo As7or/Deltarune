@@ -13,7 +13,7 @@
   {
    "id": "s0",
    "type": "text",
-   "text": "**Catti**\nSu novia y mejor amiga.",
+   "text": "**Catti**\nSu novia y mejor amiga, compañera de clase de Kris y Susie en el aula de Alphys — se conocieron ahí mismo. Jockington es de los pocos personajes de Hometown que la trata con total normalidad pese a su aspecto poco convencional (mitad gato, mitad monstruo pez).",
    "x": -130,
    "y": -640,
    "width": 280,
@@ -23,7 +23,7 @@
   {
    "id": "s1",
    "type": "text",
-   "text": "**Kris y Susie**\nApoya abiertamente su amistad, aunque advierte que no tolerará que Catti salga herida por ello.",
+   "text": "**Kris y Susie**\nApoya abiertamente su amistad con Catti, aunque advierte con seriedad que no tolerará que ella salga herida por juntarse con ellos — la misma cautela protectora que aplica, en menor medida, a Noelle.",
    "x": 420,
    "y": -260,
    "width": 280,
@@ -33,7 +33,7 @@
   {
    "id": "s2",
    "type": "text",
-   "text": "**Noelle**\nCompañero en el equipo de campo a través.",
+   "text": "**Noelle**\nCompañero en el equipo de campo a través del instituto; una de las pocas conexiones sociales de Noelle fuera de Kris, Susie y su propia familia, y que se mantiene sin apenas fricción a lo largo de todo el juego.",
    "x": 420,
    "y": 220,
    "width": 280,
@@ -79,7 +79,7 @@
   {
    "id": "s3",
    "type": "text",
-   "text": "**¿Por qué se cumple tan literalmente su parte de la Profecía?**\nEs la única línea profética que se cumple al pie de la letra — posible broma deliberada de Toby Fox, eligiendo a propósito el fragmento con menos peso narrativo posible.",
+   "text": "**¿Por qué se cumple tan literalmente su parte de la Profecía?**\nEs la única línea profética de todo el juego que se cumple al pie de la letra y sin ambigüedad — posible broma deliberada de Toby Fox, eligiendo a propósito el fragmento con menos peso narrativo posible para demostrar que la Profecía, tomada de forma literal, puede ser tan trivial como aplicarse a un adolescente sin ningún protagonismo en la trama.",
    "x": -680,
    "y": 125,
    "width": 320,
