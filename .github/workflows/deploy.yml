@@ -21,6 +21,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
@@ -31,10 +32,11 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias (Pillow + ffmpeg)
+        timeout-minutes: 5
         run: |
-          sudo apt-get update
           export DEBIAN_FRONTEND=noninteractive
-          sudo -E apt-get install -y ffmpeg
+          sudo apt-get update -o Acquire::Retries=3 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15
+          sudo -E apt-get install -y --no-install-recommends ffmpeg
           pip install -r requirements.txt
 
       # La carpeta "vault/" del repo debe contener tu vault de Obsidian
