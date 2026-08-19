@@ -350,6 +350,7 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 
 ## Relacionado
 - [[Roaring Knight]]
+- [[Fuentes Oscuras]]
 - [[Rutas]]
 - [[Ángel]]
 - [[Jugador]]
@@ -365,6 +366,7 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 - [[Tenna]]
 - [[FRIEND]]
 - [[Cristal Oscuro]]
+- [[Ralsei]]
 - [[Asgore]]
 - [[Shelter]]
 

@@ -8,7 +8,7 @@ confianza: fuerte
 
 | Mundo Oscuro (Card Kingdom)                                                         | Mundo Claro                                                                                                                                               |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![[Rouxls_Kaard_overworld_appear.gif]]<br>*Rouxls Kaard apareciendo en el Reino de las Cartas.* | ![[Cards_item_rouxl.gif]]<br>*La carta de las reglas — su objeto real según la lista de identidades del Cap.1.* |
+| ![[Rouxls_Kaard_overworld_appear.gif]]<br>*Rouxls Kaard apareciendo en el Reino de las Cartas.* | ![[Cards_item_rouxl.gif]]<br>*La carta de las reglas — su objeto real según [[Objetos del Mundo Oscuro\|la lista de identidades]] del Cap.1.* |
 
 > [!info]+ Datos rápidos
 > 🃏 Darkner del Reino de las Cartas; se autoproclama "Duque de los Puzles" y sirve al Rey en el Cap.1. Según Jigsaw Joe, cuando el Rey tomó el poder "despidió a todo el mundo y sustituyó a todos los creadores de puzles por él... Rouxls Kaard".

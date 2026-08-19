@@ -123,7 +123,7 @@ def build(vault_path, out_dir):
         "Conexiones del Corcho": "Explicación completa de cada línea del corcho: por qué cada conexión "
                                    "está clasificada como oficial, teoría fuerte o teoría débil, organizada por bloques.",
         "Objetos del Mundo Oscuro": "Identidades reales de los personajes/objetos del Mundo Oscuro, "
-                                      "Cap.1-4 — cada Darkner tiene un equivalente en el Mundo Claro.",
+                                      "Cap.1-5 — cada Darkner tiene un equivalente en el Mundo Claro.",
     }
     for fname in EXTRA_ROOT_NOTES:
         if os.path.isfile(os.path.join(vault_dir, fname)):

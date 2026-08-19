@@ -3,300 +3,511 @@ tipo: tema
 mundo: darkner
 especie: na
 familia: na
-confianza: fuerte
 ---
 
 > [!info]+ Datos rápidos
 > 🃏 Cada Darkner/objeto del Mundo Oscuro tiene un objeto equivalente en el Mundo Claro (el mundo "real" del juego).
 > 📋 Fuente: recopilación externa (hoja de cálculo + vídeo de teorías), no viene directamente de deltarune.wiki.
-> 🎨 La fuente original marca cada fila como confirmada en el juego, suposición fundamentada, o teoría del autor — pero el PDF que me pasaste no conserva esos colores de celda, así que aquí van todas mezcladas. Trátalas como teoría fuerte en conjunto; si quieres marcar cuáles son 100% oficiales (por descripciones de objetos dentro del juego) dime cuáles te interesa verificar y las contrasto en la wiki una a una.
-> ⚠️ El Cap.5 no está en esta lista todavía.
+> 🎨 Los colores/marcadores de fiabilidad sí están capturados esta vez (antes no, por limitación del PDF en texto plano): 🔵 suposición fundada, 🟡 teoría más débil del propio autor de la lista, 🆕 verdicto añadido o corregido tras el Cap.5. Sin marca = confirmado por el propio juego o evidente por diseño.
+> ✅ Ya incluye el Cap.5 completo.
 
 > [!question]- Fiabilidad de la lista
-> Esto viene de un recopilatorio externo, no del wiki oficial. La lógica general (objetos del cuarto/casa/iglesia de los Lightner reflejados como personajes/objetos del Mundo Oscuro) sí está confirmada por el juego en varios casos puntuales (p. ej. Rouxls Kaard = "the rules card" se menciona en su propio diálogo), pero no he verificado fila por fila.
+> Esto viene de un recopilatorio externo, no del wiki oficial. La lógica general (objetos del cuarto/casa/iglesia de los Lightner reflejados como personajes/objetos del Mundo Oscuro) sí está confirmada por el juego en varios casos puntuales (p. ej. Rouxls Kaard = "the rules card" se menciona en su propio diálogo), pero no se ha verificado fila por fila contra la wiki.
 
-## Capítulo 1 — El armario (Card Castle)
+## Capítulo 1 — Reino de las Cartas
 
-| Categoría | Nombre | Identidad real |
-|---|---|---|
-| Location | Cliffs | Armario de almacenamiento (cerca de la puerta) |
-| Item | Glowshard | Una baratija brillante perdida en el armario |
-| Location | Castle Town | Armario de almacenamiento |
-| Character | Ralsei | ??? |
-| Weapon | Wood Blade | El lápiz de Kris |
-| Weapon | Mane Ax | El cepillo de pelo de Susie |
-| Character | Lancer | La carta de la jota de picas |
-| Object | Lancer's Bike | La caja vacía de cartas |
-| Weapon | Red Scarf | Papel de construcción rojo |
-| Object | The Great Door | La puerta del armario al aula en desuso |
-| Location | Field | Una alfombra morada grande |
-| Enemy | Ruddin | Varias cartas de diamantes (números bajos) |
-| Item | Dark Candy | Pegatinas de malvavisco rasca-y-huele |
-| Enemy | Hathy | Varias cartas de corazones (números bajos) |
-| Armor | White Ribbon | Un papel arrugado |
-| Character | Top Chef | Una peonza amarilla |
-| Character | Seam | Un peluche |
-| Item | Darkburger | Migas de hamburguesa quemada |
-| Armor | Amber Card | Una nota adhesiva naranja |
-| Weapon | Spookysword | Un lápiz temático de Halloween |
-| Enemy | Jigsawry | Una pieza de puzle |
-| Location | The Great Board | Un tablero de damas |
-| Enemy | Ponman | Un peón blanco |
-| Character | Mr. Elegance | Una pieza de caballo (ajedrez) |
-| Character | Mr. Society | Una pieza de alfil |
-| Enemy | K.Round | Una ficha de damas roja |
-| Location | Block Forest | Un bosque hecho de bloques de construcción |
-| Enemy | Rabbick | Bolas de polvo |
-| Enemy | Dark Ponman | Un peón negro |
-| Character | Royal Coat Rack | Una jota |
-| Character | Little Ball | Una bola de tabas/canicas |
-| Weapon | Ragger | Un trapo con pinchos |
-| Enemy | Bloxer | Una minifigura tipo LEGO |
-| Character | B Blocker | Una cuenta con la letra "B" |
-| Character | O Blocker | Una cuenta con la letra "O" |
-| Armor | Dice Brace | Una pulsera artesanal de cuentas con letras |
-| Enemy | Clover | El as de tréboles |
-| Character | Malius | Un martillo de juguete que chirría |
-| Item | Top Cake/Spin Cake | Una peonza con los colores de una tarta |
-| Item | Choco Diamond | Un cuadrado de una tableta de chocolate |
-| Item | Hearts Donut | Un donut de mermelada viejo |
-| Item | Lancer Cookie | Una bola de plastilina |
-| Character | Worm | Un fidget toy con forma de gusano |
-| Enemy | Scissor Dancer | Cadenetas de muñecos de papel |
-| Item | Revive Mint | Una menta |
-| Enemy | Starwalker Bird | Una pegatina de estrella |
-| Character | Original Starwalker | Una pegatina de estrella recortada y desgastada |
-| Character | Block Tree | Bloques de construcción con ojos y piezas de piernas |
-| Item | Egg | Un huevo |
-| Location | Card Castle | El armario metálico |
-| Armor | Iron Shackle | Una pulsera de cadena |
-| Character | Pair Of Eyes | Pegatinas de ojos |
-| Character | Goulden Sam | Cajas vacías de galletas de animalitos |
-| Character | The Three Kings | El rey de corazones, de diamantes y de tréboles |
-| Character | Caged Animals | Galletas de animalitos |
-| Enemy | Rudinn Ranger | Varias cartas de diamantes (números altos) |
-| Item | Clubs Sandwich | Un trébol de tres hojas |
-| Character | Rouxls Kaard | La carta de las reglas |
-| Enemy | Head Hathy | Varias cartas de corazones (números altos) |
-| Item | Rouxls' Roux | Un roux concreto |
-| Weapon | Brave Ax | Un hacha hecha de piezas de construcción |
-| Weapon | Dainty Scarf | Puntillas de papel enrolladas |
-| Enemy | King | El rey de picas |
-| Item | Broken Key/Door Key | La llave del armario |
-| Enemy | Jevil | La carta del comodín (joker) |
-| Armor | Jevilstail | La carta del comodín |
-| Weapon | Devilsknife | La carta del comodín |
-| Item | Shadow Crystal | Un cristal extraño |
+> [!example]- 📍 Lugares (6)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 |
+> | Castle Town | Armario de almacenamiento |
+> | Field | Una alfombra morada grande |
+> | The Great Board | Un tablero de damas |
+> | Block Forest | Un bosque hecho de bloques de construcción |
+> | Card Castle | El armario metálico |
+>
+> [!example]- 🧑 Personajes (19)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Ralsei | ??? 🟡 |
+> | Lancer | La carta de la jota de picas 🟡 |
+> | Top Chef | Una peonza amarilla 🔵 |
+> | Seam | Un peluche |
+> | Mr. Elegance | Una pieza de caballo (ajedrez) 🟡 |
+> | Mr. Society | Una pieza de alfil 🟡 |
+> | Royal Coat Rack | Una jota 🟡 |
+> | Little Ball | Una bola de tabas/canicas 🟡 |
+> | B Blocker | Una cuenta con la letra "B" 🔵 |
+> | O Blocker | Una cuenta con la letra "O" 🔵 |
+> | Malius | Un martillo de juguete que chirría 🟡 |
+> | Worm | Un fidget toy con forma de gusano 🟡 |
+> | Original Starwalker | Una pegatina de estrella recortada y desgastada 🔵 |
+> | Block Tree | Bloques de construcción con ojos y piezas de piernas 🔵 |
+> | Pair Of Eyes | Pegatinas de ojos |
+> | Goulden Sam | Cajas vacías de galletas de animalitos 🟡 |
+> | The Three Kings | El rey de corazones, de diamantes y de tréboles 🟡 |
+> | Caged Animals | Galletas de animalitos 🟡 |
+> | Rouxls Kaard | La carta de las reglas 🟡 |
+>
+> [!example]- 👹 Enemigos (15)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Ruddin | Varias cartas de diamantes (números bajos) |
+> | Hathy | Varias cartas de corazones (números bajos) |
+> | Jigsawry | Una pieza de puzle |
+> | Ponman | Un peón blanco |
+> | K.Round | Una ficha de damas roja |
+> | Rabbick | Bolas de polvo |
+> | Dark Ponman | Un peón negro |
+> | Bloxer | Una minifigura tipo LEGO |
+> | Clover | El as de tréboles 🟡 |
+> | Sheary | Unas tijeras |
+> | Starwalker Bird | Una pegatina de estrella 🔵 |
+> | Rudinn Ranger | Varias cartas de diamantes (números altos) 🟡 |
+> | Head Hathy | Varias cartas de corazones (números altos) 🟡 |
+> | King | El rey de picas 🟡 |
+> | Jevil | La carta del comodín (joker) 🟡 |
+>
+> [!example]- 🍬 Objetos consumibles (13)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Glowshard | Una baratija brillante perdida en el armario 🟡 |
+> | Dark Candy | Pegatinas de malvavisco rasca-y-huele |
+> | Darkburger | Migas de hamburguesa quemada |
+> | Top Cake/Spin Cake | Una peonza con los colores de una tarta 🔵 |
+> | Choco Diamond | Un cuadrado de una tableta de chocolate |
+> | Hearts Donut | Un donut de mermelada viejo |
+> | Lancer Cookie | Una bola de plastilina 🔵 |
+> | Revive Mint | Una menta |
+> | Egg | Un huevo |
+> | Clubs Sandwich | Un trébol de tres hojas 🔵 |
+> | Rouxls' Roux | Un roux concreto |
+> | Broken Key/Door Key | La llave del armario 🟡 |
+> | Shadow Crystal | Un cristal extraño |
+>
+> [!example]- ⚔️ Armas (8)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Wood Blade | El lápiz de Kris |
+> | Mane Ax | El cepillo de pelo de Susie |
+> | Red Scarf | Papel de construcción rojo 🔵 |
+> | Spookysword | Un lápiz temático de Halloween |
+> | Ragger | Un trapo con pinchos 🟡 |
+> | Brave Ax | Un hacha hecha de piezas de construcción |
+> | Dainty Scarf | Puntillas de papel enrolladas |
+> | Devilsknife | La carta del comodín 🟡 |
+>
+> [!example]- 🎽 Armaduras (5)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | White Ribbon | Un papel arrugado 🟡 |
+> | Amber Card | Una nota adhesiva naranja 🔵 |
+> | Dice Brace | Una pulsera artesanal de cuentas con letras |
+> | Iron Shackle | Una pulsera de cadena |
+> | Jevilstail | La carta del comodín 🟡 |
+>
+> [!example]- 📦 Objetos/decorado (3)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Lancer's Bike | La caja vacía de cartas |
+> | The Great Door | La puerta del armario al aula en desuso |
+> | Moss | Un puñado de musgo |
+>
 
 ## Capítulo 2 — Mundo Cíber
 
-| Categoría | Nombre | Identidad real |
-|---|---|---|
-| Item | Light Candy | Tiza |
-| Item | DD-Burger | Dos migas de hamburguesa quemada |
-| Armor | Silver Card | Una tarjeta bancaria |
-| Object | King's Cage | La jaula del hámster de Noelle |
-| Character | Plugboy | Un enchufe eléctrico |
-| Object | The Wires | Cables desconectados |
-| Enemy | Queen | Un portátil |
-| Enemy | Werewire | Un cable enchufado |
-| Location | Cyber Field | Una placa de circuito |
-| Armor | Glow Wrist | Un manojo enredado de cables verdes |
-| Object | Teacup Ride | Los tornillos que sujetan la placa de circuito |
-| Enemy | Tasque | Una ventana de ordenador abierta |
-| Object | Typing Puzzles | Los teclados de los ordenadores |
-| Character | Nubert | Un puntero |
-| Weapon | Fiber Scarf | Una gamuza de microfibra |
-| Object | Arcade Machine | Un juego en uno de los ordenadores |
-| Item | CD Bagel | Un trozo de CD |
-| Character | The Hacker | Un cursor |
-| Enemy | Virovirokun | Un virus informático |
-| Character | Sweet | Dos altavoces mono |
-| Character | Cap'n | Un reproductor de casetes |
-| Character | K_K | Un reproductor de CD |
-| Weapon | Mecha Saber | Un lápiz mecánico |
-| Weapon | Auto Axe | Un cepillo de dientes eléctrico |
-| Item | Tension Bit | Un caramelo duro naranja |
-| Character | Fommt | Un disquete |
-| Weapon | Ragger 2 | Un trapo con pinchos |
-| Object | Shock Cages | Bloqueos o restricciones puestas a un ordenador |
-| Weapon | Berdly's Halberd | Un marcador fluorescente |
-| Location | Trash Zone | Archivos borrados y correos spam |
-| Character | Trashy | La papelera del aula de informática |
-| Location | Cyber City | Internet en su conjunto |
-| Object | Electro-Dasher | Una representación del "tráfico" de internet |
-| Enemy | Poppup | Un anuncio emergente |
-| Weapon | Snow Ring | Un anillo que lleva Noelle |
-| Armor | Silver Watch | El reloj de Noelle |
-| Object | Annoying Mouse Rooms | Software de verificación tipo Captcha |
-| Enemy | Ambyu-Lance | Un antivirus |
-| Character | The Addisons | Varios anuncios |
-| Armor | Pink Ribbon | Un papel arrugado |
-| Object | Glass Of Battery Acid | Una pila en un vaso |
-| Character | Icon Man | Los usuarios del ordenador |
-| Item | Character Tea | Cotilleos |
-| Weapon | Bounce Blade | Una goma de borrar rosa |
-| Armor | Mannequin | Una oferta de estafa de un vestido |
-| Enemy | Maus | Un ratón de ordenador |
-| Object | Gamer's Delight | Un montón de pilas en un bol |
-| Object | Queen's Car | La versión del Electrodasher del portátil |
-| Object | The Banana | Un JPEG de un plátano |
-| Enemy | Spamton | Un anuncio de un concesionario de coches |
-| Object | Queen's Mixtape | Música hecha en el portátil |
-| Object | Character Plushies | Regalos ideales determinados por internet |
-| Object | Maus Bucket | Un cubo de ratones de ordenador |
-| Object | Giant Toilet | Un dibujo sobredimensionado de un váter en Swatch |
-| Location | Queen's Mansion | El armario (el de la derecha) |
-| Location | Character's Rooms | Visualizaciones del historial web de cada personaje |
-| Character | Swatch | Un programa de dibujo digital |
-| Item | Butler Juice | Un vaso de muestras de pintura de verdad |
-| Item | Spaghetti Code | La forma física de código fuente desordenado |
-| Armor | Big Shot Bowtie | Una pajarita de la marca Big Shot Autos |
-| Armor | Royal Pin | Una chincheta |
-| Enemy | Swatchling | Paletas de colores (probablemente en Swatch) |
-| Enemy | Tasque Manager | El software Administrador de tareas |
-| Armor | Chain Mail | Una cadena de correo digital |
-| Enemy | Mauswheel | La rueda de un ratón |
-| Object | Toilet | Un dibujo de tamaño normal de un váter en Swatch |
-| Object | Tiny Houses | Piezas de un juego tipo Catan |
-| Item | Revive Dust | Los trocitos machacados de una menta |
-| Object | Camera | La webcam del ordenador |
-| Object | Ferris Wheel | El póster de una noria |
-| Enemy | Werewerewire | Un enchufe inestable que chispea |
-| Item | Tension Gem | Un caramelo duro naranja |
-| Armor | Twin Ribbon | Los dos lazos |
-| Armor | Spike Band | Una tira de velcro |
-| Armor | Tension Bow | Un caramelo duro todavía envuelto |
-| Item | KeyGen | Un generador de claves de software |
-| Item | S. POISON | Butler Juice caducado |
-| Weapon | Broken Sword | Un lápiz roto |
-| Armor | Frayed Bowtie | Una pajarita de la marca Big Shot Autos |
-| Location | Queen's Basement | El armario ropero |
-| Object | Spamton NEO's Body | Un cuerpo dibujado en Swatch |
-| Armor | Dealmaker | Las gafas de Spamton |
-| Weapon | Puppet Scarf | Cuerdas de guitarra |
-| Item | Empty Disk/Loaded Disk | Un disco que puede transferir datos |
-| Weapon | Freeze Ring | Un anillo |
-| Weapon | Thorn Ring | Una espina |
-| Enemy | Pipis | Un virus recién "nacido" |
-| Enemy | Ms. Pipis | Un virus recién "nacido" |
+> [!example]- 📍 Lugares (6)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Cyber Field | Una placa de circuito 🔵 |
+> | Trash Zone | Archivos borrados y correos spam |
+> | Cyber City | Internet en su conjunto 🔵 |
+> | Queen's Mansion | El armario (el de la derecha) 🔵 |
+> | Character's Rooms | Visualizaciones del historial web de cada personaje |
+> | Queen's Basement | El armario ropero 🔵 |
+>
+> [!example]- 🧑 Personajes (9)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Plugboy | Un enchufe eléctrico |
+> | Nubert | Un puntero |
+> | The Hacker | Un cursor |
+> | Sweet | Dos altavoces mono |
+> | Cap'n | Un reproductor de casetes |
+> | K_K | Un reproductor de CD |
+> | Fommt | Un disquete |
+> | Trashy | La papelera del aula de informática |
+> | Swatch | Un programa de dibujo digital |
+>
+> [!example]- 👹 Enemigos (14)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Queen | Un portátil |
+> | Werewire | Un cable enchufado |
+> | Tasque | Una ventana de ordenador abierta |
+> | Virovirokun | Un virus informático |
+> | Poppup | Un anuncio emergente |
+> | Ambyu-Lance | Un antivirus |
+> | Maus | Un ratón de ordenador |
+> | Spamton | Un anuncio de un concesionario de coches |
+> | Swatchling | Paletas de colores (probablemente en Swatch) |
+> | Tasque Manager | El software Administrador de tareas |
+> | Mausewheel | La rueda de un ratón |
+> | Werewerewire | Un enchufe inestable que chispea 🔵 |
+> | Pipis | Un virus recién "nacido" |
+> | Ms. Pipis | Un virus recién "nacido" |
+>
+> [!example]- 🍬 Objetos consumibles (13)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Light Candy | Tiza |
+> | DD-Burger | Dos migas de hamburguesa quemada |
+> | CD Bagel | Un trozo de CD |
+> | Tension Bit | Un caramelo duro naranja |
+> | Character Tea | Cotilleos 🟡 |
+> | Dog Dollar | Un dibujo de un dólar hecho por el Perro Molesto 🟡 |
+> | Butler Juice | Un vaso de muestras de pintura de verdad 🔵 |
+> | Spaghetti Code | La forma física de código fuente desordenado |
+> | Revive Dust | Los trocitos machacados de una menta |
+> | Tension Gem | Un caramelo duro naranja |
+> | KeyGen | Un generador de claves de software |
+> | S. POISON | Butler Juice caducado |
+> | Empty Disk/Loaded Disk | Un disco que puede transferir datos |
+>
+> [!example]- ⚔️ Armas (11)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Fiber Scarf | Una gamuza de microfibra |
+> | Mecha Saber | Un lápiz mecánico |
+> | Auto Axe | Un cepillo de dientes eléctrico |
+> | Ragger 2 | Un trapo con pinchos |
+> | Berdly's Halberd | Un marcador fluorescente 🔵 |
+> | Snow Ring | Un anillo que lleva Noelle |
+> | Bounce Blade | Una goma de borrar rosa |
+> | Broken Sword | Un lápiz roto |
+> | Puppet Scarf | Cuerdas de guitarra 🔵 |
+> | Freeze Ring | Un anillo 🔵 |
+> | Thorn Ring | Una espina |
+>
+> [!example]- 🎽 Armaduras (12)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Silver Card | Una tarjeta bancaria 🔵 |
+> | Glow Wrist | Un manojo enredado de cables verdes |
+> | Silver Watch | El reloj de Noelle |
+> | Mannequin | Una oferta de estafa de un vestido 🟡 |
+> | Big Shot Bowtie | Una pajarita de la marca Big Shot Autos |
+> | Royal Pin | Una chincheta 🔵 |
+> | Chain Mail | Una cadena de correo digital |
+> | Twin Ribbon | Los dos lazos |
+> | Spike Band | Una tira de velcro 🔵 |
+> | Tension Bow | Un caramelo duro todavía envuelto 🔵 |
+> | Frayed Bowtie | Una pajarita de la marca Big Shot Autos |
+> | Dealmaker | Las gafas de Spamton |
+>
+> [!example]- 📦 Objetos/decorado (20)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | King's Cage | La jaula del hámster de Noelle 🟡 |
+> | The Wires | Cables desconectados |
+> | Teacup Ride | Los tornillos que sujetan la placa de circuito 🔵 |
+> | Typing Puzzles | Los teclados de los ordenadores |
+> | Arcade Machine | Un juego en uno de los ordenadores 🟡 |
+> | Shock Cages | Bloqueos o restricciones puestas a un ordenador 🟡 |
+> | Electro-Dasher | Una representación del "tráfico" de internet |
+> | Annoying Mouse Rooms | Software de verificación tipo Captcha 🟡 |
+> | Gamer's Delight | Un montón de pilas en un bol 🔵 |
+> | Queen's Car | La versión del Electrodasher del portátil |
+> | The Banana | Un JPEG de un plátano 🟡 |
+> | Queen's Mixtape | Música hecha en el portátil |
+> | Character Plushies | Regalos ideales determinados por internet |
+> | Maus Bucket | Un cubo de ratones de ordenador |
+> | Giant Toilet | Un dibujo sobredimensionado de un váter en Swatch 🟡 |
+> | Toilet | Un dibujo de tamaño normal de un váter en Swatch 🟡 |
+> | Tiny Houses | Piezas de un juego tipo Catan 🟡 |
+> | Camera | La webcam del ordenador 🔵 |
+> | Ferris Wheel | El póster de una noria 🔵 |
+> | Spamton NEO's Body | Un cuerpo dibujado en Swatch |
+>
 
-## Capítulo 3 — Mundo TV (Couch Cliffs, casa Dreemurr)
+## Capítulo 3 — Mundo TV
 
-| Categoría | Nombre | Identidad real |
-|---|---|---|
-| Character | Walking Couch | El sofá |
-| Location | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr |
-| Enemy | Tenna | La televisión de los Dreemurr |
-| Character | The Crowd | El público de estudio fabricado |
-| Item | TV/Deluxe Dinner/Slop | Migas de comida en el sofá |
-| Object | Game Console | La consola de Kris y Asriel |
-| Enemy | Shadowguy | Las sombras de figuras/pegatinas en las ventanas |
-| Enemy | Lanino | Una previsión de cielos despejados |
-| Enemy | Elnina | Una previsión de cielos nublados |
-| Location | Cooking Show | El canal de cocina |
-| Location | Green Room | El cuarto de Kris y Asriel |
-| Object | Green Couch | La cama de Asriel |
-| Object | Blue Couch | La cama de Kris |
-| Armor | Lode Stone | La concha de un caracol |
-| Armor | Ginger Guard | Un cortador de galletas |
-| Character | Ramb | Una regleta con enchufes tipo K |
-| Weapon | Toxic Axe | Un cepillo de dientes sucio |
-| Weapon | Saber10 | Espinas de cactus |
-| Weapon | Flex Scarf | Un limpiapipas |
-| Object | Curtain | La cortina de la ducha |
-| Character | Curtain NPC | El cactus |
-| Enemy | Watercooler | Una botella de agua |
-| Item | Executive Buffet | Caviar hecho de pipis |
-| Item | TensionMax | Un caramelo duro naranja |
-| Armor | Blue Ribbon | Parte de un traje de animadora (probablemente de Catti) |
-| Armor | Tenna Tie | Una corbata (probablemente de Asgore) |
-| Object | Small black triangle | La púa de una guitarra |
-| Location | Monster Movie | Un maratón de películas de monstruos gigantes |
-| Object | Odd Controller | El mando pirata debajo de la cama de Asriel |
-| Enemy | Pippins | Dados |
-| Enemy | Shuttah | Una cámara Polaroid |
-| Location | Rock Concert | El canal de videos musicales |
-| Enemy | Zapper | Un mando de televisión |
-| Location | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) |
-| Object | The Pipes | La fontanería de la casa |
-| Location | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore |
-| Enemy | Ribbick | Una bola de polvo |
-| Character | Serious Trashy | La papelera de la cocina |
-| Character | Suilver Sam | Una caja temática de galletas de animalitos |
-| Character | Gouldon Son | Un paquete pequeño de galletas de animalitos |
-| Character | Bibliox (Mundo TV) | El libro de himnos |
-| Location | Mancountry | En lo profundo del sofá |
-| Character | Seven Flying Aces | Cartas de as fotocopiadas y coloreadas |
-| Enemy | ERAM | La diadema con cuernos de Kris |
-| Enemy | Friend | ??? |
-| Armor | Shadow Mantle | ??? |
-| Item | Flat Soda | Un refresco de la nevera |
-| Object | Toriel's Throne | Chairiel (la silla de Toriel) |
-| Weapon | Black Shard | Black Shard |
-| Object | The Great Door | La puerta principal de la casa |
+> [!example]- 📍 Lugares (8)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr |
+> | Cooking Show | El canal de cocina |
+> | Green Room | El cuarto de Kris y Asriel |
+> | Monster Movie | Un maratón de películas de monstruos gigantes |
+> | Rock Concert | El canal de videos musicales |
+> | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) |
+> | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore |
+> | Mancountry | En lo profundo del sofá 🔵 |
+>
+> [!example]- 🧑 Personajes (8)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Walking Couch | El sofá |
+> | The Crowd | El público de estudio fabricado 🔵 |
+> | Ramb | Una regleta con enchufes tipo K 🔵 |
+> | Serious Trashy | La papelera de la cocina |
+> | Suilver Sam | Una caja temática de galletas de animalitos 🟡 |
+> | Gouldon Son | Un paquete pequeño de galletas de animalitos 🟡 |
+> | Bibliox (TV World) | El libro de himnos |
+> | Seven Flying Aces | Cartas de as fotocopiadas y coloreadas |
+>
+> [!example]- 👹 Enemigos (11)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Tenna | La televisión de los Dreemurr |
+> | Shadowguy | Las sombras de figuras/pegatinas en las ventanas |
+> | Lanino | Una previsión de cielos despejados |
+> | Elnina | Una previsión de cielos nublados |
+> | Watercooler | Una botella de agua |
+> | Pippins | Dados |
+> | Shuttah | Una cámara Polaroid |
+> | Zapper | Un mando de televisión |
+> | Ribbick | Una bola de polvo |
+> | ERAM | La diadema con cuernos de Kris 🟡 |
+> | Friend | ??? |
+>
+> [!example]- 🍬 Objetos consumibles (4)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | TV/Deluxe Dinner/Slop | Migas de comida en el sofá |
+> | Executive Buffet | Caviar hecho de pipis |
+> | TensionMax | Un caramelo duro naranja |
+> | Flat Soda | Un refresco de la nevera |
+>
+> [!example]- ⚔️ Armas (4)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Toxic Axe | Un cepillo de dientes sucio |
+> | Saber10 | Espinas de cactus |
+> | Flex Scarf | Un limpiapipas |
+> | Black Shard | Black Shard |
+>
+> [!example]- 🎽 Armaduras (5)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Lode Stone | La concha de un caracol |
+> | Ginger Guard | Un cortador de galletas |
+> | Blue Ribbon | Parte de un traje de animadora (probablemente de Catti) 🟡 |
+> | Tenna Tie | Una corbata (probablemente de Asgore) 🔵 |
+> | Shadow Mantle | ??? |
+>
+> [!example]- 📦 Objetos/decorado (9)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Game Console | La consola de Kris y Asriel |
+> | Green Couch | La cama de Asriel |
+> | Blue Couch | La cama de Kris |
+> | Curtain | La cortina de la ducha |
+> | Small black triangle | La púa de una guitarra |
+> | Odd Controller | El mando pirata debajo de la cama de Asriel |
+> | The Pipes | La fontanería de la casa 🔵 |
+> | Toriel's Throne | Chairiel (la silla de Toriel) |
+> | The Great Door | La puerta principal de la casa |
+>
 
-## Capítulo 4 — Catedral / Santuario
+## Capítulo 4 — Iglesia y Santuario Oscuro
 
-| Categoría | Nombre | Identidad real |
-|---|---|---|
-| Item | Ancient Sweet | Chocolate viejo dentro de la chaqueta de Asriel |
-| Character | Blue Ruddin | El séptimo as volador |
-| Character | Mike | Un micrófono |
-| Weapon | Jingle Blade | El lápiz de Noelle |
-| Location | Dark/Second Sanctuary | El vestíbulo de la iglesia |
-| Object | The Prophecy | Extractos de la biblia de la religión |
-| Object | Piano Puzzles | Partituras y teclas de piano |
-| Enemy | Guei | Una vela |
-| Character | Church Wafer | Hostias de comunión |
-| Item | Rhapsotea | Los ecos del coro cantando |
-| Object | Slippery Gloves | Guantes de goma |
-| Enemy | Balthizard | Un incensario |
-| Character | Old Man | El polvo de Gerson Boom |
-| Item | Darker Candy | Pegatinas de malvavisco rasca-y-huele |
-| Location | Study | El despacho del Padre Alvin |
-| Item | Scarlixir | Zumo de fruta rojo |
-| Armor | WaferGuard | Una hostia |
-| Weapon | Scarf Mark | Un marcapáginas |
-| Enemy | Bibliox | Un libro |
-| Character | Cuptain | Un vaso rojo de plástico |
-| Character | Unknown | ??? |
-| Object | Ladder | Una escalera |
-| Weapon | Absorb Ax | Una cuchara o cucharón para el zumo |
-| Object | Telescope | Un telescopio |
-| Character | Tao | Un metrónomo |
-| Object | Couch Cushion | Un cojín de sofá |
-| Armor | Mystic Band | El bol para el zumo de fruta amarillo |
-| Location | Dark Zone | El armario |
-| Enemy | Jackenstein | Una decoración de Halloween |
-| Enemy | Jackenstein's Pumpkin | Una decoración de calabaza de Halloween |
-| Item | Claimb Claws | Grapas/grapadoras |
-| Object | Water Container | Pila de agua bendita |
-| Enemy | Miss Mizzle | Agua de la jarra |
-| Enemy | Mizzle | Agua bendita |
-| Item | Bitter Tear | Una gota de lluvia |
-| Weapon | Old Man's Hammer | El martillo con el que enterraron a Gerson |
-| Weapon | Justice Axe | Un pincel |
-| Weapon | Winglade | Una pluma de escribir |
-| Character | Fire Extinguisher Darkner | El extintor |
-| Armor | Power Band | El bol para el zumo de fruta rojo |
-| Location | East Belltower | La caja de campanas |
-| Object | Pianolike Organ | El teclado en la habitación más a la izquierda |
-| Object | The Great Door | La puerta del vestíbulo a la nave |
-| Enemy | Winglade | Una pluma de escribir *(repetido en la fuente original, misma identidad que el arma de arriba)* |
-| Character | Kind Organikks | Tubos de órgano |
-| Enemy | Organikks | Tubos de órgano |
-| Armor | Gold Widow | Una araña |
-| Enemy | Wicabell | Una campanilla de mano |
-| Enemy | Sound Of Justice | La foto de Gerson |
-| Location | Third Sanctuary | La nave |
-| Armor | Princess Ribbon | El lazo y los guantes de Kris que usaba al tocar el piano |
+> [!example]- 📍 Lugares (5)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Dark/Second Sanctuary | El vestíbulo de la iglesia |
+> | Study | El despacho del Padre Alvin |
+> | Dark Zone | El armario |
+> | East Belltower | La caja de campanas |
+> | Third Sanctuary | La nave |
+>
+> [!example]- 🧑 Personajes (9)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Blue Ruddin | El séptimo as volador 🔵 |
+> | Mike | Un micrófono 🔵 |
+> | Church Wafer | Hostias de comunión |
+> | Old Man | El polvo de Gerson Boom |
+> | Cuptain | Un vaso rojo de plástico |
+> | Unknown | ??? |
+> | Tao | Un metrónomo |
+> | Fire Extinguisher Darkner | El extintor |
+> | Kind Organikks | Tubos de órgano |
+>
+> [!example]- 👹 Enemigos (11)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Guei | Una vela |
+> | Balthizard | Un incensario |
+> | Bibliox | Un libro |
+> | Jackenstein | Una decoración de Halloween |
+> | Jackenstein's Pumpkin | Una decoración de calabaza de Halloween 🟡 |
+> | Miss Mizzle | Agua de la jarra |
+> | Mizzle | Agua bendita |
+> | Winglade | Una pluma de escribir *(repetido en la fuente original, misma identidad que el arma de arriba)* |
+> | Organikks | Tubos de órgano |
+> | Wicabell | Una campanilla de mano |
+> | Sound Of Justice | La foto de Gerson 🔵 |
+>
+> [!example]- 🍬 Objetos consumibles (6)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Ancient Sweet | Chocolate viejo dentro de la chaqueta de Asriel |
+> | Rhapsotea | Los ecos del coro cantando |
+> | Darker Candy | Pegatinas de malvavisco rasca-y-huele |
+> | Scarlixir | Zumo de fruta rojo |
+> | Claimb Claws | Grapas/grapadoras 🔵 |
+> | Bitter Tear | Una gota de lluvia |
+>
+> [!example]- ⚔️ Armas (6)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Jingle Blade | El lápiz de Noelle |
+> | Scarf Mark | Un marcapáginas |
+> | Absorb Ax | Una cuchara o cucharón para el zumo |
+> | Old Man's Hammer | El martillo con el que enterraron a Gerson |
+> | Justice Axe | Un pincel 🔵 |
+> | Winglade | Una pluma de escribir *(repetido en la fuente original, misma identidad que el arma de arriba)* |
+>
+> [!example]- 🎽 Armaduras (5)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | WaferGuard | Una hostia |
+> | Mystic Band | El bol para el zumo de fruta amarillo 🔵 |
+> | Power Band | El bol para el zumo de fruta rojo 🔵 |
+> | Gold Widow | Una araña 🔵 |
+> | Princess Ribbon | El lazo y los guantes de Kris que usaba al tocar el piano 🟡 |
+>
+> [!example]- 📦 Objetos/decorado (9)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | The Prophecy | Extractos de la biblia de la religión 🔵 |
+> | Piano Puzzles | Partituras y teclas de piano 🟡 |
+> | Slippery Gloves | Guantes de goma |
+> | Ladder | Una escalera 🔵 |
+> | Telescope | Un telescopio 🟡 |
+> | Couch Cushion | Un cojín de sofá 🔵 |
+> | Water Container | Pila de agua bendita |
+> | Pianolike Organ | El teclado en la habitación más a la izquierda |
+> | The Great Door | La puerta del vestíbulo a la nave |
+>
 
-## Curiosidades
-- Varios personajes distintos comparten la misma identidad real: **Jevil, Jevilstail y Devilsknife** son los tres la misma carta del comodín; **Winglade** aparece dos veces en el Cap.4 con la misma pluma.
-- **The Great Door** se repite en tres capítulos (1, 3 y 4), siempre como una puerta distinta de la casa/iglesia/aula — parece un patrón recurrente de la fuente más que casualidad.
-- Varios objetos "Ragger", "Tension [Bit/Gem/Max]" y "Darker/Dark Candy" se repiten entre capítulos con la misma identidad (caramelos duros, trapos con pinchos), lo que sugiere que ciertos ítems básicos del Mundo Oscuro son genéricos y no exclusivos de un capítulo.
-- Bastantes identidades siguen sin resolver (`???`): Ralsei, Friend, Shadow Mantle, Unknown — casos donde ni la fuente original tenía una respuesta clara.
+## Capítulo 5 — Reino de las Flores
+
+> [!example]- 📍 Lugares (5)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Garden | Una sábana rosa y afelpada |
+> | Ideal Diner | El recuerdo de Asgore del restaurante |
+> | Shrine | La percepción de Asgore de un santuario sintoísta 🔵 |
+> | Cliffs | La pared trasera de la sala de las flores 🆕 |
+> | Flower Castle | El panel de conspiración de Asgore 🔵 |
+>
+> [!example]- 🧑 Personajes (10)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Kooby | Una planta con forma de gusano 🟡 |
+> | Doubter | Una pieza de un puzle floral 🔵 |
+> | Hopschef | Un salto |
+> | Umbella Yokai | Un paraguas viejo |
+> | Zenlooker | Un brote de árbol con la forma de Milklooker |
+> | Tropical Starwalker | Una pegatina de estrella arcoíris desgastada y recortada 🔵 |
+> | Ferroll | Un martillo de garra |
+> | Windstruggler | Un abanico de mano de fantasía 🟡 |
+> | Mantis | Una orquídea 🆕 |
+> | Archer | Una flor brotando en una maceta |
+>
+> [!example]- 👹 Enemigos (9)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Floradinn | Una etiqueta identificadora de planta |
+> | Netskie | Un netsuke con forma de zorro 🔵 |
+> | Tropical Starwalker Bird | Una pegatina de estrella arcoíris 🔵 |
+> | Shi | Un espantapájaros |
+> | Leafling | Una hoja |
+> | Kawkaw | Un abrojo (fruto espinoso) 🆕 |
+> | Terakota | Un brote de cerezo en una maceta |
+> | Shinobeetle | Un álbum de los Beatles 🔵 |
+> | Pink (Body) | La figura de Mad Mew Mew de Asgore |
+>
+> [!example]- 🍬 Objetos consumibles (23)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | S. POTION | Una bebida energética con la marca Big Shot Autos |
+> | Punch Bowl | Un bol de zumo de frutas rojo |
+> | Orange Juice | Gel de aloe |
+> | Flavingne | Una semilla recubierta de azúcar |
+> | Green Tea | Un té especiado |
+> | Petal Feather | Un complemento de plumas del esmoquin de boda de Asgore 🟡 |
+> | Tree Cake | Una miga de pastel de árbol hecho de pan |
+> | Raw Moon | Refresco de arándanos |
+> | Phanta | Refresco de uva |
+> | Flowery Soda | Un refresco lechoso 🆕 |
+> | Shikacola | Pelaje de ciervo |
+> | BromideR | La foto de Toriel en su boda con Asgore 🔵 |
+> | Yellow Key | Un deshojador de maíz 🟡 |
+> | Yellow Shred | Una camiseta con motivo de maíz 🟡 |
+> | Boot Oil | Un bote de aceite para botas |
+> | Scissors | Unas tijeras pequeñas |
+> | Purple Book | Un libro de la biblioteca 🔵 |
+> | Train Plan | Un plano de vías de tren 🔵 |
+> | Red Splatter | Colorante alimentario rojo |
+> | Blue String | Un cordel azul 🔵 |
+> | BromideF | Una foto de la flor dorada mientras la riegan 🟡 |
+> | Seeds | Las semillas de Flowery |
+> | Mystery Key | La llave de la casa de Pink 🟡 |
+>
+> [!example]- ⚔️ Armas (8)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Winning Smile | La cabeza de la flor dorada 🔵 |
+> | Thatchet | Un cepillo de zarzas espinosas |
+> | Wood Blade 2 | Un lápiz del número 2 |
+> | Mistle WP | Muérdago 🆕 |
+> | Blue Shoes | Un pétalo de la flor azul |
+> | Aqua Knife | Un pétalo de la flor cian |
+> | Flowery Scarf | Un pétalo de la flor dorada |
+> | Broken Scarf | Un pétalo rasgado de la flor dorada |
+>
+> [!example]- 🎽 Armaduras (11)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Monarch Ribbon | Un lazo atado con forma de mariposa 🔵 |
+> | True Tie | La corbata de Spamton |
+> | Dog Widow | Un broche dorado con forma de perro |
+> | Red Ribbon | Un aviso o recibo de alquiler 🆕 |
+> | Petal Mantle | Los pétalos de la flor dorada 🔵 |
+> | Sunday Best | El tallo de la flor dorada 🔵 |
+> | Netskie Hat | Un sombrero de fantasía con orejas de zorro 🔵 |
+> | Seth Specs | Un pétalo de la flor morada |
+> | Green Apron | Un pétalo de la flor verde |
+> | Yellow Hat | Un pétalo de la flor amarilla |
+> | Orange Glove | Un pétalo de la flor naranja |
+>
+> [!example]- 📦 Objetos/decorado (17)
+> | Mundo Oscuro | Identidad real |
+> |---|---|
+> | Susie's Costume | Varios trozos de basura |
+> | Flower Bed | Un arriate de flores |
+> | Mushroom | Una seta marrón |
+> | Schadenbrot | Masa de pan 🔵 |
+> | Watering Can | Una regadera pequeña |
+> | Dash Gate | La percepción de Asgore de un torii 🔵 |
+> | Root Beer | Raíces y agua en una taza |
+> | Fruit Punch | Savia de la flor dorada |
+> | Bell | Un suzu (campanilla japonesa) 🔵 |
+> | Platswap Statue | Una estatua religiosa que representa la Runa Delta 🟡 |
+> | The Seven Suns | Las siete luces de colores |
+> | Falling Peaches | Melocotones 🔵 |
+> | Pinwheel | Un molinillo de jardín |
+> | Seth's Payment | Una de las plumas de Berdly |
+> | Jail Slide | El sistema de ventilación de la tienda 🟡 |
+> | Foyer Scissors | Unas tijeras de jardinería grandes |
+> | Huge Watering Can | La regadera verde |
+>
 
 ## Relacionado
-[[Rouxls Kaard]] [[Jevil]] [[Spamton-Tenna]] [[Noelle]] [[Kris]] [[Asriel]] [[Tenna]]
+- [[Rouxls Kaard]]
+- [[Pippins]]
+- [[Ramb]]
+- [[Huevo]]

@@ -8,7 +8,7 @@ confianza: fuerte
 
 | Mundo Oscuro (aspecto normal) | Mundo Real |
 |---|---|
-| ![[pippins.webp]]<br>*Un Pippins en su forma habitual, paseando por el Mundo TV.* | ![[Pippins_overworld_lightworld.png]]<br>*Su identidad real, según la lista de Objetos del Mundo Oscuro: dados.* |
+| ![[pippins.webp]]<br>*Un Pippins en su forma habitual, paseando por el Mundo TV.* | ![[Pippins_overworld_lightworld.png]]<br>*Su identidad real, según [[Objetos del Mundo Oscuro\|la lista de Objetos del Mundo Oscuro]]: dados.* |
 
 *Nota de tabla: al contrario de lo que pueda parecer a simple vista, sí tienen una identidad de Mundo Real confirmada — son, literalmente, dados.*
 
