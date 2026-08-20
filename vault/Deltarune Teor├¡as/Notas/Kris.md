@@ -4,7 +4,7 @@ mundo: lightner
 especie: humano
 pronombres: they/them
 familia: Dreemurr (adoptivo) — hijo de Toriel y Asgore (separados), hermano de Asriel
-grupo: Fun Gang
+grupo: Fun Gang y Colegio
 confianza: fuerte
 ---
 

@@ -3,7 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (reptil)
 familia: no revelada — Cap.4/5 insinúan una vida familiar dura, sin contacto con sus padres
-grupo: Fun Gang
+grupo: Fun Gang y Colegio
 confianza: oficial
 ---
 

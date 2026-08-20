@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (gato)
 familia: "Esposo de Mom Cat; padre de Catty y Catti"
+grupo: Iglesia
 confianza: fuerte
 ---
 

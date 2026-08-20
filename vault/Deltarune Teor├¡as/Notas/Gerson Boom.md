@@ -3,6 +3,8 @@ tipo: personaje
 mundo: ambos
 especie: monstruo tortuga (Lightner fallecido, revivido como Darkner)
 familia: "Alvin (hijo), Ms. Boom (pariente)"
+grupo: Colegio (profesor)
+estado: Fallecido
 confianza: fuerte
 ---
 

@@ -77,6 +77,12 @@ PAGE_CSS = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #4a8a5a; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #9a4a7a; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #c9982e; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:#fdf6e3; border:1px solid #d8c48a; border-radius:8px;
@@ -203,6 +209,12 @@ PAGE_CSS_PARCHMENT = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #3a6b3e; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #7a3560; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #a87820; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:#e9d4a0; border:1px solid #96773f; border-radius:8px;
@@ -309,6 +321,12 @@ PAGE_CSS_RUSTED = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #8ab06a; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #b06a8a; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #e0b040; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:#3a2f26; border:1px solid #6b5842; border-radius:8px;
@@ -401,6 +419,12 @@ PAGE_CSS_WET = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #5a8a4a; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #9a5a70; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #c99a30; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:#e0d3a4; border:1px solid #c4b06a; border-radius:8px;
@@ -475,6 +499,12 @@ PAGE_CSS_CRYSTAL = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #5ee89f; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #c07de8; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #f0d060; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:rgba(45,35,80,0.6); border:1px solid rgba(125,232,255,0.35); border-radius:8px;
@@ -533,6 +563,12 @@ PAGE_CSS_UNDERTALE = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #00ff88; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #ff66ff; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #ff8800; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:#000000; border:1px solid #ffffff; border-radius:8px;
@@ -613,6 +649,12 @@ PAGE_CSS_FOUNTAIN = '''
   .fm-badge[data-key="especie"]{ border-left:3px solid #7de8c0; }
   .fm-badge[data-key="familia"]{ border-left:3px solid #a0d8e8; }
   .fm-badge[data-key="grupo"]{ border-left:3px solid #f0c060; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
   .submap-link{
     display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
     background:rgba(15,45,42,0.7); border:1px solid rgba(61,212,191,0.35); border-radius:8px;

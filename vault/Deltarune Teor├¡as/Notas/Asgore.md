@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (cabra)
 familia: Dreemurr — ex-esposo de Toriel, padre de Kris y Asriel
+grupo: Policía (retirado)
 confianza: oficial
 ---
 

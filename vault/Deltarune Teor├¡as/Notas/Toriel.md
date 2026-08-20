@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (cabra)
 familia: Dreemurr — ex-esposa de Asgore, madre de Asriel y adoptiva de Kris
+grupo: Iglesia y Colegio
 confianza: oficial
 ---
 

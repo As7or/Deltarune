@@ -1,0 +1,17 @@
+Solo Objetos del Mundo Oscuro.md (va en la RAIZ del vault, no en Notas/).
+
+Rellene 90 filas mas con los sprites que anadiste (cruzando nombres con
+los 112 archivos nuevos que encontre en tu carpeta Sprites/), sumadas a
+las 17 que ya tenia de antes -- unas 107 de las ~337 filas totales ya
+tienen imagen. El resto de filas (sobre todo objetos sin personaje
+asociado, como "Egg" o "Moss") se quedan sin sprite porque no encontre
+ningun archivo nuevo que las representara -- si anades mas adelante,
+dime y sigo rellenando.
+
+IMPORTANTE: borre un duplicado viejo que segui encontrando -- tenias
+OTRA copia de esta misma nota dentro de Notas/ (una version vieja, de
+antes de que renombrara la columna a "Sprite"), ademas de la buena en la
+raiz. Ya no deberia aparecer.
+
+Build verificado: 0 fallos (60 notas, 58 submapas), JS valido. Confirmado
+en captura que las imagenes nuevas cargan a tamano proporcional.

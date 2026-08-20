@@ -251,7 +251,7 @@ def parse_table(block_lines, sprites_prefix):
         return None
     header = split_row(rows[0])
     body_rows = rows[2:]
-    small_cols = {i for i, h in enumerate(header) if "talksprite" in h.lower()}
+    small_cols = {i for i, h in enumerate(header) if "talksprite" in h.lower() or "sprite" in h.lower()}
     out = ['<table class="note-table">', "<tr>"]
     for h in header:
         out.append(f"<th>{inline_md(h, sprites_prefix)}</th>")
@@ -416,8 +416,9 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
             "especie": {},
             "familia": {},
             "grupo": {"fun gang": "🎈", "colegio": "🏫", "iglesia": "⛪", "policía": "👮", "policia": "👮", "ayuntamiento": "🏛️"},
+            "estado": {"fallecido": "💀", "fallecida": "💀", "muerto": "💀", "muerta": "💀"},
         }
-        FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "grupo": "👥"}
+        FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "grupo": "👥", "estado": "⚠️"}
 
         def _icon_for(key, value):
             key_l = key.lower().strip()
