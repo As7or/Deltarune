@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (gato)
 familia: Hermana menor de Catty; novia de Jockington
+grupo: Colegio
 confianza: fuerte
 ---
 

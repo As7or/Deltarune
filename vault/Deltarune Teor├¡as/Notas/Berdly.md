@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (ave, tipo cuervo/azulejo)
 familia: N/A
+grupo: Colegio
 confianza: fuerte
 ---
 

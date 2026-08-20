@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (reno)
 familia: Holiday — esposo de Carol, padre de Dess y Noelle
+grupo: Policía (retirado)
 confianza: oficial
 ---
 

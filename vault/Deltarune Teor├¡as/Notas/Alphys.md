@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (reptil)
 familia: N/A
+grupo: Colegio (profesora)
 confianza: fuerte
 ---
 

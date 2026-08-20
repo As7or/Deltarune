@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (reno)
 familia: Holiday — esposa de Rudy, madre de Dess y Noelle, alcaldesa de Hometown
+grupo: Ayuntamiento
 confianza: oficial
 ---
 

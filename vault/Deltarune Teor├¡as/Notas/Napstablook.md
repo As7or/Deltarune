@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: fantasma (familia Blook)
 familia: "Mad Mew Mew/Pink y Nobody (primos, familia Blook)"
+grupo: Policía
 confianza: fuerte
 ---
 

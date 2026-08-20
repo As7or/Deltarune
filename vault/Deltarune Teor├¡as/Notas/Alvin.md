@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo tortuga
 familia: hijo de Gerson Boom (fallecido)
+grupo: Iglesia
 confianza: oficial
 ---
 

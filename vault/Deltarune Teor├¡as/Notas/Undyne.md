@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (pez)
 familia: N/A
+grupo: Policía
 confianza: fuerte
 ---
 

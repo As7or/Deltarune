@@ -3,6 +3,7 @@ tipo: personaje
 mundo: lightner
 especie: monstruo (serpiente)
 familia: N/A
+grupo: Colegio
 confianza: fuerte
 ---
 
