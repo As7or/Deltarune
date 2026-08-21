@@ -24,7 +24,7 @@ familia: na
 > | ![[Field_cap1.webp\|50]] | Field | Una alfombra morada grande | ![[Field_cap1_lightworld.png\|50]] |
 > | ![[600px-Great_Board_location.png.webp\|50]] | The Great Board | Un tablero de damas | ![[Board_cap1_lightoworld.png\|50]] |
 > | ![[440px-Forest_location.png.webp\|50]] | Block Forest | Un bosque hecho de bloques de construcción | ![[forest_cap1_lightworld.png\|50]] |
-> | ![[440px-Card_Castle_location.png.webp\|50]] | Card Castle | El armario metálico |  |
+> | ![[440px-Card_Castle_location.png.webp\|50]] | Card Castle | El armario metálico | ![[Card_Castle_Lightworld.png\|50]] |
 >
 > [!example]- 🧑 Personajes (19)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -33,10 +33,10 @@ familia: na
 > | ![[Lancer_Overworld.webp\|50]] | Lancer | La carta de la jota de picas 🟡 | ![[Cards_item_Lancer.gif\|50]] |
 > | ![[Top_Chef_overworld_talk.gif\|50]] | Top Chef | Una peonza amarilla 🔵 |  |
 > | ![[Seam_Face.webp\|50]] | Seam | Un peluche | ![[Seam_lightowrld.png\|50]] |
-> | ![[Mr._Elegance_overworld.png\|50]] | Mr. Elegance | Una pieza de caballo (ajedrez) 🟡 |  |
-> | ![[Mr._Society_overworld.png\|50]] | Mr. Society | Una pieza de alfil 🟡 |  |
-> | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota 🟡 |  |
-> | ![[Ball_overworld.png\|50]] | Little Ball | Una bola de tabas/canicas 🟡 |  |
+> | ![[Mr._Elegance_overworld.png\|50]] | Mr. Elegance | Una pieza de caballo (ajedrez) 🟡 | ![[Board_cap1_lightoworld.png\|50]] |
+> | ![[Mr._Society_overworld.png\|50]] | Mr. Society | Una pieza de alfil 🟡 | ![[Board_cap1_lightoworld.png\|50]] |
+> | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota 🟡 | ![[Board_cap1_lightoworld.png\|50]] |
+> | ![[Ball_overworld.png\|50]] | Little Ball | Una bola de tabas/canicas 🟡 | ![[Board_cap1_lightoworld.png\|50]] |
 > | ![[Blockler_B_overworld.png\|50]] | B Blocker | Una cuenta con la letra "B" 🔵 |  |
 > | ![[Blockler_O_overworld.png\|50]] | O Blocker | Una cuenta con la letra "O" 🔵 |  |
 > | ![[Malius_overworld.gif\|50]] | Malius | Un martillo de juguete que chirría 🟡 |  |
@@ -52,21 +52,21 @@ familia: na
 > [!example]- 👹 Enemigos (15)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Ruddin | Varias cartas de diamantes (números bajos) |  |
-> | ![[Hathy_battle.gif\|50]] | Hathy | Varias cartas de corazones (números bajos) |  |
+> | ![[Rudinn_battle.gif\|50]] | Ruddin | Varias cartas de diamantes (números bajos) | ![[cards_lightworld.png\|50]] |
+> | ![[Hathy_battle.gif\|50]] | Hathy | Varias cartas de corazones (números bajos) | ![[cards_lightworld.png\|50]] |
 > | ![[Jigsawry_battle_idle.gif\|50]] | Jigsawry | Una pieza de puzle |  |
-> | ![[Ponman_battle_idle.gif\|50]] | Ponman | Un peón blanco |  |
-> | ![[C._Round_battle_idle.gif\|50]] | K.Round | Una ficha de damas roja |  |
+> | ![[Ponman_battle_idle.gif\|50]] | Ponman | Un peón blanco | ![[Board_cap1_lightoworld.png\|50]] |
+> | ![[C._Round_battle_idle.gif\|50]] | K.Round | Una ficha de damas roja | ![[Board_cap1_lightoworld.png\|50]] |
 > | ![[Rabbick_battle_idle.gif\|50]] | Rabbick | Bolas de polvo | ![[rabbick_cap1_lightworld.png\|50]] |
-> |  | Dark Ponman | Un peón negro |  |
-> | ![[Bloxer_battle_idle.gif\|50]] | Bloxer | Una minifigura tipo LEGO |  |
-> | ![[Clover_battle.gif\|50]] | Clover | El as de tréboles 🟡 |  |
+> | ![[Dark_Ponman_overworld.gif\|50]] | Dark Ponman | Un peón negro | ![[Board_cap1_lightoworld.png\|50]] |
+> | ![[Bloxer_battle_idle.gif\|50]] | Bloxer | Una minifigura tipo LEGO | ![[rabbick_cap1_lightworld.png\|50]] |
+> | ![[Clover_battle.gif\|50]] | Clover | El as de tréboles 🟡 | ![[cards_lightworld.png\|50]] |
 > | ![[Sheary_overworld.gif\|50]] | Sheary | Unas tijeras |  |
 > | ![[Starwalker_Bird_overworld.gif\|50]] | Starwalker Bird | Una pegatina de estrella 🔵 |  |
 > | ![[Rudinn_Ranger_battle.gif\|50]] | Rudinn Ranger | Varias cartas de diamantes (números altos) 🟡 |  |
 > | ![[Head_Hathy_battle.gif\|50]] | Head Hathy | Varias cartas de corazones (números altos) 🟡 |  |
 > | ![[King_Battle (2).gif\|50]] | King | El rey de picas 🟡 | ![[Cards_item_Lancer.gif\|50]] |
-> | ![[Jevil.gif\|50]] | Jevil | La carta del comodín (joker) 🟡 |  |
+> | ![[Jevil.gif\|50]] | Jevil | La carta del comodín (joker) 🟡 | ![[cards_lightworld.png\|50]] |
 >
 > [!example]- 🍬 Objetos consumibles (13)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -120,11 +120,11 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[440px-Cyber_Field_location.png.webp\|50]] | Cyber Field | Una placa de circuito 🔵 |  |
-> | ![[trash_zone.png\|50]] | Trash Zone | Archivos borrados y correos spam |  |
+> | ![[trashy_zone_cap2.png\|50]] | Trash Zone | Archivos borrados y correos spam |  |
 > | ![[440px-Cyber_City_location.png.webp\|50]] | Cyber City | Internet en su conjunto 🔵 | ![[Cyber_City.png\|50]] |
-> | ![[440px-Queen's_Mansion_location.png.webp\|50]] | Queen's Mansion | El armario (el de la derecha) 🔵 | ![[queens_mansion.png\|50]] |
-> |  | Character's Rooms | Visualizaciones del historial web de cada personaje | ![[Guest_room_queens_mansion.jpg\|50]] |
-> |  | Queen's Basement | El armario ropero 🔵 | ![[Basement_queen_mansion.webp\|50]] |
+> | ![[440px-Queen's_Mansion_location.png.webp\|50]] | Queen's Mansion | El armario (el de la derecha) 🔵 | ![[storage_closet_lightwolrd.png\|50]] |
+> | ![[Guest_room_queens_mansion.jpg\|50]] | Character's Rooms | Visualizaciones del historial web de cada personaje |  |
+> | ![[Basement_queen_mansion.webp\|50]] | Queen's Basement | El armario ropero 🔵 | ![[storage_closet_lightwolrd.png\|50]] |
 >
 > [!example]- 🧑 Personajes (9)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -152,7 +152,7 @@ familia: na
 > | ![[spamton.gif\|50]] | Spamton | Un anuncio de un concesionario de coches |  |
 > | ![[Swatchling_battle_idle.gif\|50]] | Swatchling | Paletas de colores (probablemente en Swatch) |  |
 > | ![[Tasque_Manager_battle_idle.gif\|50]] | Tasque Manager | El software Administrador de tareas |  |
-> | ![[Mauswheel_battle_idle.gif\|50]] | Mausewheel | La rueda de un ratón |  |
+> | ![[Mauswheel_battle_idle.gif\|50]] | Mausewheel | La rueda de un ratón | ![[computer_mouse_typer_lightworld.png\|50]] |
 > | ![[Werewerewire_battle_idle.gif\|50]] | Werewerewire | Un enchufe inestable que chispea 🔵 | ![[cables_plugs_lightworld.png\|50]] |
 > | ![[1406-pipis.png\|50]] | Pipis | Un virus recién "nacido" |  |
 > | ![[Ms._Pipis_battle_static.png\|50]] | Ms. Pipis | Un virus recién "nacido" |  |
@@ -236,19 +236,19 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[440px-Couch_cliffs_location.png.webp\|50]] | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr | ![[Couch_lightworld.png\|50]] |
-> |  | Cooking Show | El canal de cocina |  |
+> | ![[Rouxls_Kaard_screenshot_Cooking_Show.png\|50]] | Cooking Show | El canal de cocina |  |
 > | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | El cuarto de Kris y Asriel |  |
 > | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | Un maratón de películas de monstruos gigantes |  |
 > | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales |  |
 > | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[Cold_Place_lightworld.png\|50]] |
-> |  | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore | ![[Rasei_Rancher.png\|50]] |
+> | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore |  |
 > |  | Mancountry | En lo profundo del sofá 🔵 |  |
 >
 > [!example]- 🧑 Personajes (8)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[Couch_overworld.gif\|50]] | Walking Couch | El sofá | ![[Couch_lightworld.png\|50]] |
-> |  | The Crowd | El público de estudio fabricado 🔵 |  |
+> | ![[320px-Crowd_overworld.gif.webp\|50]] | The Crowd | El público de estudio fabricado 🔵 |  |
 > | ![[Ramb.webp\|50]] | Ramb | Una regleta con enchufes tipo K 🔵 |  |
 > | ![[Serious_Trashy_overworld.png\|50]] | Serious Trashy | La papelera de la cocina | ![[Cool_Trashy_lightworld.png\|50]] |
 > | ![[Suilver_Sam_overworld.png\|50]] | Suilver Sam | Una caja temática de galletas de animalitos 🟡 |  |
