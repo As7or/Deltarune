@@ -20,6 +20,7 @@ confianza: fuerte
 > ⚔️ Es el único jefe final de Deltarune que debe derrotarse de forma no violenta en vez de con fuerza.
 > 💚 Es el archirrival declarado de Ralsei — la comunidad ha convertido su rivalidad en meme.
 > 🌱 En su maceta rota guarda el código del refugio y un paquete de Semillas con etiquetas de peligro — Kris intenta destruir el código, pero Susie ya lo sabía porque Flowery se lo confió antes, previendo justo eso.
+> 🪴 Confirmado por el propio Flowery en el Cap.5: "como plantas, no somos ni Darkners ni Lightners; somos seres vivos que ganan consciencia en el Mundo Oscuro, capaces de sentir cosas que otros no pueden" — la razón textual por la que esta nota lo clasifica como "planta" y no como Darkner.
 
 > [!tip]- Ficha de personalidad
 > Flamboyante, exageradamente amable de cara al público y con un ego que no encaja con lo que en teoría es "solo una flor". Usa la nostalgia de Asgore por el pasado para mantenerlo entretenido y alejado de Kris y Susie, mostrando un lado manipulador bajo la fachada de bondad perfecta. Habla con pequeños errores gramaticales, un guiño a las traducciones torpes de los dating sims. Pese a su rivalidad con Ralsei, en el fondo parece respetarlo — y admite, ya herido de muerte, que en otras circunstancias podrían haber sido buenos amigos.

@@ -141,7 +141,7 @@
    "width": 280,
    "height": 220,
    "color": "3",
-   "text": "**Ruta Rara Cap.4 — no reconoce a Susie**\nEn la Ruta Rara, Rudy le pregunta a Kris, molesto, \"¿por que demonios has traido a tu amiga aqui?\" al ver a Susie, como si no la reconociera en absoluto — pero en la misma escena reconoce a Kris con total normalidad (\"has crecido mucho, Kris\"). Una de las piezas de evidencia mas directas de la teoria del Caballero."
+   "text": "**Ruta Rara Cap.4 — no reconoce a Susie**\nEn la Ruta Rara, Rudy le pregunta a Kris, molesto, \"¿por que demonios has traido a tu amiga aqui?\" al ver a Susie, como si no la reconociera en absoluto -- una de las piezas de evidencia mas directas de la teoria del Caballero."
   },
   {
    "id": "s6-img",
@@ -151,6 +151,25 @@
    "width": 280,
    "height": 210,
    "file": "Sprites/Rudy_weird_route_dont_knows_sussie.png"
+  },
+  {
+   "id": "s7",
+   "type": "text",
+   "x": -1330,
+   "y": -260,
+   "width": 280,
+   "height": 200,
+   "color": "3",
+   "text": "**El eco con Flowery**\nRudy le dice a Kris \"has crecido mucho\" en esa misma escena -- casi la misma frase con la que Flowery saluda a Kris al empezar el Cap.5 (\"You've grown so much, haven't you?\"). Base del paralelismo Rudy-Flowery-Caballero que circula en la comunidad. [[Flowery]]"
+  },
+  {
+   "id": "s7-img",
+   "type": "file",
+   "x": -1660,
+   "y": -290,
+   "width": 280,
+   "height": 210,
+   "file": "Sprites/flowery_rudy_same_dialogue.png"
   }
  ],
  "edges": [
@@ -289,6 +308,22 @@
    "toNode": "s5",
    "toSide": "top",
    "color": "3"
+  },
+  {
+   "id": "e_s7",
+   "fromNode": "s5",
+   "fromSide": "top",
+   "toNode": "s7",
+   "toSide": "bottom",
+   "color": "3"
+  },
+  {
+   "id": "e_s7img",
+   "fromNode": "s7-img",
+   "fromSide": "right",
+   "toNode": "s7",
+   "toSide": "left",
+   "color": "6"
   }
  ]
 }

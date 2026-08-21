@@ -158,9 +158,7 @@ confianza: fuerte
 > *Comparativas que suele citar el fandom para respaldar la teoría de que el Knight es Asriel.*
 
 > [!question]- [[Carol]] y Rudy Holiday (especulación mucho más débil)
-> Existe una rama minoritaria de la teoría Asriel que además lo imagina colaborando en secreto con **Carol** para buscar a Dess por su cuenta — explicaría por qué Carol investiga la zona del Shelter con tanta insistencia. Es una idea interesante pero que descansa en un solo hilo de especulación de la comunidad, sin ninguna pista textual directa del juego. Lo mismo aplica a la variante que apunta a **Rudy**: no hay evidencia de peso más allá de ser otro miembro cercano a Dess.
->
-> *Nota de mantenimiento: en tu corcho actual, la conexión Carol–Knight está marcada como "complicidad" en verde (confirmada). Por lo que he podido investigar, esto es más bien una teoría débil apoyada en un único comentario de foro — te recomendaría bajarla a rojo (teoría débil) salvo que tengas otra fuente que la respalde.*
+> Existe una rama minoritaria de la teoría Asriel que además lo imagina colaborando en secreto con **Carol** para buscar a Dess por su cuenta — explicaría por qué Carol investiga la zona del Shelter con tanta insistencia. Es una idea interesante pero que descansa en un solo hilo de especulación de la comunidad, sin ninguna pista textual directa del juego. Lo mismo aplica a la variante que apunta a **Rudy**, aunque en su caso hay ahora una teoría propia mucho más desarrollada y con más peso — ver [[Rudy]].
 
 > [!question]- El ciervo negro del minijuego retro del Cap.3
 > Dentro del "Juego Original" (el minijuego retro estilo Zelda de la Ruta Espada, en su tercera y última ronda, justo antes del combate contra el Shadow Mantle), hay un enemigo negro y amorfo que copia los movimientos del propio jugador (HERO_SWORD). Revisando los archivos del juego se descubre que ese enemigo tiene un sprite de repuesto sin usar —oculto tras una variable interna llamada literalmente `toriel`, activada por defecto— que resulta ser un **ciervo negro**. El otro enemigo de esa misma ronda, "White Cloak", esconde de la misma forma un ciervo *marrón* como sprite de repuesto. Dado que los Holiday son la única familia de ciervos confirmada del reparto, la lectura casi unánime es que el ciervo negro representa a Dess —y el marrón, más discutido, a Noelle—, escondidos deliberadamente tras esa variable con el nombre de Toriel. Es una de las pistas de archivo más citadas a favor de "Dess es el Caballero", con más peso que la mayoría por tratarse de un dato verificable en el propio código, no solo de una lectura simbólica.
@@ -169,7 +167,7 @@ confianza: fuerte
 > *El sprite de repuesto sin usar, oculto tras la variable `toriel` — un ciervo negro.*
 
 ## Curiosidades
-- Es habitual que los vídeos de teorías sobre la identidad del Knight terminen con un giro cómico de última hora (p.ej., "en realidad es Rudy") como broche de humor tras defender una teoría en serio durante todo el vídeo — una convención del género más que una teoría real a tener en cuenta.
+- Los vídeos de teorías sobre la identidad del Knight tienden a mencionar a Rudy como parte del chiste recurrente de "en realidad es [nombre inesperado]" — aunque, a diferencia de otros nombres usados así, la candidatura de Rudy ha acabado consolidándose como una de las teorías con más desarrollo propio de toda la comunidad (ver [[Rudy]]), no solo como broche de humor.
 
 ![[deltarune-roaring-knight.gif]]
 *El Knight en combate.*

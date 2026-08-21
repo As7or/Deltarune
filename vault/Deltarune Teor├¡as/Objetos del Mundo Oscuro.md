@@ -17,8 +17,8 @@ familia: na
 ## Capítulo 1 — Reino de las Cartas
 
 > [!example]- 📍 Lugares (6)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 |  |
 > |  | Castle Town | Armario de almacenamiento |  |
 > |  | Field | Una alfombra morada grande |  |
@@ -27,12 +27,12 @@ familia: na
 > |  | Card Castle | El armario metálico |  |
 >
 > [!example]- 🧑 Personajes (19)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > | ![[Ralsei_overworld_hatless.png\|50]] | Ralsei | ??? 🟡 |  |
-> | ![[Lancer_Overworld.webp\|50]] | Lancer | La carta de la jota de picas 🟡 | ![[Lancer_screenshot_Lancer_Card.png\|50]] |
+> | ![[Lancer_Overworld.webp\|50]] | Lancer | La carta de la jota de picas 🟡 | ![[Cards_item_Lancer.gif\|50]] |
 > | ![[Top_Chef_overworld_talk.gif\|50]] | Top Chef | Una peonza amarilla 🔵 |  |
-> | ![[Seam_Face.webp\|50]] | Seam | Un peluche | ![[Seam_lightowrld.png\|50]] |
+> | ![[Seam_Face.webp\|50]] | Seam | Un peluche |  |
 > | ![[Mr._Elegance_overworld.png\|50]] | Mr. Elegance | Una pieza de caballo (ajedrez) 🟡 |  |
 > | ![[Mr._Society_overworld.png\|50]] | Mr. Society | Una pieza de alfil 🟡 |  |
 > | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota 🟡 |  |
@@ -50,27 +50,27 @@ familia: na
 > | ![[Rouxls_Kaard_overworld_appear.gif\|50]] | Rouxls Kaard | La carta de las reglas 🟡 | ![[rouxl_lightworld.gif\|50]] |
 >
 > [!example]- 👹 Enemigos (15)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
-> | ![[Rudinn_battle.gif\|50]] | Ruddin | Varias cartas de diamantes (números bajos) |  |
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
+> |  | Ruddin | Varias cartas de diamantes (números bajos) |  |
 > | ![[Hathy_battle.gif\|50]] | Hathy | Varias cartas de corazones (números bajos) |  |
 > | ![[Jigsawry_battle_idle.gif\|50]] | Jigsawry | Una pieza de puzle |  |
 > | ![[Ponman_battle_idle.gif\|50]] | Ponman | Un peón blanco |  |
 > | ![[C._Round_battle_idle.gif\|50]] | K.Round | Una ficha de damas roja |  |
 > | ![[Rabbick_battle_idle.gif\|50]] | Rabbick | Bolas de polvo |  |
-> | ![[Dark_Ponman_overworld.gif\|50]] | Dark Ponman | Un peón negro |  |
+> |  | Dark Ponman | Un peón negro |  |
 > | ![[Bloxer_battle_idle.gif\|50]] | Bloxer | Una minifigura tipo LEGO |  |
 > | ![[Clover_battle.gif\|50]] | Clover | El as de tréboles 🟡 |  |
 > | ![[Sheary_overworld.gif\|50]] | Sheary | Unas tijeras |  |
 > | ![[Starwalker_Bird_overworld.gif\|50]] | Starwalker Bird | Una pegatina de estrella 🔵 |  |
 > | ![[Rudinn_Ranger_battle.gif\|50]] | Rudinn Ranger | Varias cartas de diamantes (números altos) 🟡 |  |
 > | ![[Head_Hathy_battle.gif\|50]] | Head Hathy | Varias cartas de corazones (números altos) 🟡 |  |
-> | ![[King_Battle (2).gif\|50]] | King | El rey de picas 🟡 |  |
+> | ![[King_Battle (2).gif\|50]] | King | El rey de picas 🟡 | ![[Cards_item_Lancer.gif\|50]] |
 > | ![[Jevil.gif\|50]] | Jevil | La carta del comodín (joker) 🟡 |  |
 >
 > [!example]- 🍬 Objetos consumibles (13)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Glowshard | Una baratija brillante perdida en el armario 🟡 |  |
 > |  | Dark Candy | Pegatinas de malvavisco rasca-y-huele |  |
 > |  | Darkburger | Migas de hamburguesa quemada |  |
@@ -79,15 +79,15 @@ familia: na
 > |  | Hearts Donut | Un donut de mermelada viejo |  |
 > |  | Lancer Cookie | Una bola de plastilina 🔵 |  |
 > |  | Revive Mint | Una menta |  |
-> |  | Egg | Un huevo |  |
+> | ![[man_egg.png\|50]] | Egg | Un huevo |  |
 > |  | Clubs Sandwich | Un trébol de tres hojas 🔵 |  |
 > |  | Rouxls' Roux | Un roux concreto |  |
 > |  | Broken Key/Door Key | La llave del armario 🟡 |  |
 > |  | Shadow Crystal | Un cristal extraño |  |
 >
 > [!example]- ⚔️ Armas (8)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Wood Blade | El lápiz de Kris |  |
 > |  | Mane Ax | El cepillo de pelo de Susie |  |
 > |  | Red Scarf | Papel de construcción rojo 🔵 |  |
@@ -95,20 +95,20 @@ familia: na
 > |  | Ragger | Un trapo con pinchos 🟡 |  |
 > |  | Brave Ax | Un hacha hecha de piezas de construcción |  |
 > |  | Dainty Scarf | Puntillas de papel enrolladas |  |
-> | ![[jevil_Devilsknife_item.png\|50]] | Devilsknife | La carta del comodín 🟡 |  |
+> |  | Devilsknife | La carta del comodín 🟡 |  |
 >
 > [!example]- 🎽 Armaduras (5)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | White Ribbon | Un papel arrugado 🟡 |  |
 > |  | Amber Card | Una nota adhesiva naranja 🔵 |  |
 > |  | Dice Brace | Una pulsera artesanal de cuentas con letras |  |
 > |  | Iron Shackle | Una pulsera de cadena |  |
-> | ![[jevil_Devilsknife_item.png\|50]] | Jevilstail | La carta del comodín 🟡 |  |
+> |  | Jevilstail | La carta del comodín 🟡 |  |
 >
 > [!example]- 📦 Objetos/decorado (3)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Lancer's Bike | La caja vacía de cartas |  |
 > |  | The Great Door | La puerta del armario al aula en desuso |  |
 > |  | Moss | Un puñado de musgo |  |
@@ -117,8 +117,8 @@ familia: na
 ## Capítulo 2 — Mundo Cíber
 
 > [!example]- 📍 Lugares (6)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Cyber Field | Una placa de circuito 🔵 |  |
 > |  | Trash Zone | Archivos borrados y correos spam |  |
 > |  | Cyber City | Internet en su conjunto 🔵 |  |
@@ -127,8 +127,8 @@ familia: na
 > |  | Queen's Basement | El armario ropero 🔵 |  |
 >
 > [!example]- 🧑 Personajes (9)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > | ![[Plugboy_overworld.png\|50]] | Plugboy | Un enchufe eléctrico |  |
 > | ![[Nubert_overworld.png\|50]] | Nubert | Un puntero |  |
 > | ![[Hacker_overworld.png\|50]] | The Hacker | Un cursor |  |
@@ -140,9 +140,9 @@ familia: na
 > | ![[Swatch_overworld.png\|50]] | Swatch | Un programa de dibujo digital |  |
 >
 > [!example]- 👹 Enemigos (14)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
-> | ![[Queen_overworld_laughing.gif\|50]] | Queen | Un portátil | ![[Queen_overworld_laptop.png\|50]] |
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
+> | ![[Queen_overworld_laughing.gif\|50]] | Queen | Un portátil |  |
 > | ![[Werewire_battle_idle.gif\|50]] | Werewire | Un cable enchufado |  |
 > | ![[Tasque_battle_idle.gif\|50]] | Tasque | Una ventana de ordenador abierta |  |
 > | ![[Virovirokun_battle_idle.gif\|50]] | Virovirokun | Un virus informático |  |
@@ -155,11 +155,11 @@ familia: na
 > | ![[Mauswheel_battle_idle.gif\|50]] | Mausewheel | La rueda de un ratón |  |
 > | ![[Werewerewire_battle_idle.gif\|50]] | Werewerewire | Un enchufe inestable que chispea 🔵 |  |
 > | ![[1406-pipis.png\|50]] | Pipis | Un virus recién "nacido" |  |
-> | ![[1406-pipis.png\|50]] | Ms. Pipis | Un virus recién "nacido" |  |
+> | ![[Ms._Pipis_battle_static.png\|50]] | Ms. Pipis | Un virus recién "nacido" |  |
 >
 > [!example]- 🍬 Objetos consumibles (13)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Light Candy | Tiza |  |
 > |  | DD-Burger | Dos migas de hamburguesa quemada |  |
 > |  | CD Bagel | Un trozo de CD |  |
@@ -175,8 +175,8 @@ familia: na
 > |  | Empty Disk/Loaded Disk | Un disco que puede transferir datos |  |
 >
 > [!example]- ⚔️ Armas (11)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Fiber Scarf | Una gamuza de microfibra |  |
 > |  | Mecha Saber | Un lápiz mecánico |  |
 > |  | Auto Axe | Un cepillo de dientes eléctrico |  |
@@ -190,8 +190,8 @@ familia: na
 > |  | Thorn Ring | Una espina |  |
 >
 > [!example]- 🎽 Armaduras (12)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Silver Card | Una tarjeta bancaria 🔵 |  |
 > |  | Glow Wrist | Un manojo enredado de cables verdes |  |
 > |  | Silver Watch | El reloj de Noelle |  |
@@ -206,8 +206,8 @@ familia: na
 > |  | Dealmaker | Las gafas de Spamton |  |
 >
 > [!example]- 📦 Objetos/decorado (20)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | King's Cage | La jaula del hámster de Noelle 🟡 |  |
 > |  | The Wires | Cables desconectados |  |
 > |  | Teacup Ride | Los tornillos que sujetan la placa de circuito 🔵 |  |
@@ -233,8 +233,8 @@ familia: na
 ## Capítulo 3 — Mundo TV
 
 > [!example]- 📍 Lugares (8)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr |  |
 > |  | Cooking Show | El canal de cocina |  |
 > |  | Green Room | El cuarto de Kris y Asriel |  |
@@ -245,10 +245,10 @@ familia: na
 > |  | Mancountry | En lo profundo del sofá 🔵 |  |
 >
 > [!example]- 🧑 Personajes (8)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > | ![[Couch_overworld.gif\|50]] | Walking Couch | El sofá |  |
-> | ![[320px-Crowd_overworld.gif.webp\|50]] | The Crowd | El público de estudio fabricado 🔵 |  |
+> |  | The Crowd | El público de estudio fabricado 🔵 |  |
 > | ![[Ramb.webp\|50]] | Ramb | Una regleta con enchufes tipo K 🔵 |  |
 > | ![[Serious_Trashy_overworld.png\|50]] | Serious Trashy | La papelera de la cocina |  |
 > | ![[Suilver_Sam_overworld.png\|50]] | Suilver Sam | Una caja temática de galletas de animalitos 🟡 |  |
@@ -257,39 +257,39 @@ familia: na
 > |  | Seven Flying Aces | Cartas de as fotocopiadas y coloreadas |  |
 >
 > [!example]- 👹 Enemigos (11)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > | ![[Tenna_Overworld_gif.gif\|50]] | Tenna | La televisión de los Dreemurr | ![[tenna_lightworld_form.png\|50]] |
 > | ![[Shadowguy_battle_idle.gif\|50]] | Shadowguy | Las sombras de figuras/pegatinas en las ventanas |  |
 > | ![[Lanino_battle_idle.gif\|50]] | Lanino | Una previsión de cielos despejados |  |
 > | ![[Elnina_battle_idle.gif\|50]] | Elnina | Una previsión de cielos nublados |  |
 > | ![[Watercooler_battle_idle.png\|50]] | Watercooler | Una botella de agua |  |
-> | ![[Pippins_act_Bet.gif\|50]] | Pippins | Dados | ![[Pippins_overworld_lightworld.png\|50]] |
+> | ![[Pippins_battle_spared.gif\|50]] | Pippins | Dados | ![[Pippins_overworld_lightworld.png\|50]] |
 > | ![[Shuttah_battle_idle.gif\|50]] | Shuttah | Una cámara Polaroid |  |
 > | ![[Zapper_battle_idle.gif\|50]] | Zapper | Un mando de televisión |  |
 > | ![[Ribbick_battle_idle.gif\|50]] | Ribbick | Una bola de polvo |  |
 > | ![[Shadow_Mantle_holder_battle_idle.gif\|50]] | ERAM | La diadema con cuernos de Kris 🟡 |  |
-> |  | Friend | ??? |  |
+> | ![[FRIEND.png\|50]] | Friend | ??? |  |
 >
 > [!example]- 🍬 Objetos consumibles (4)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | TV/Deluxe Dinner/Slop | Migas de comida en el sofá |  |
 > |  | Executive Buffet | Caviar hecho de pipis |  |
 > |  | TensionMax | Un caramelo duro naranja |  |
 > |  | Flat Soda | Un refresco de la nevera |  |
 >
 > [!example]- ⚔️ Armas (4)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Toxic Axe | Un cepillo de dientes sucio |  |
 > |  | Saber10 | Espinas de cactus |  |
 > |  | Flex Scarf | Un limpiapipas |  |
 > |  | Black Shard | Black Shard |  |
 >
 > [!example]- 🎽 Armaduras (5)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Lode Stone | La concha de un caracol |  |
 > |  | Ginger Guard | Un cortador de galletas |  |
 > |  | Blue Ribbon | Parte de un traje de animadora (probablemente de Catti) 🟡 |  |
@@ -297,8 +297,8 @@ familia: na
 > |  | Shadow Mantle | ??? |  |
 >
 > [!example]- 📦 Objetos/decorado (9)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Game Console | La consola de Kris y Asriel |  |
 > |  | Green Couch | La cama de Asriel |  |
 > |  | Blue Couch | La cama de Kris |  |
@@ -313,8 +313,8 @@ familia: na
 ## Capítulo 4 — Iglesia y Santuario Oscuro
 
 > [!example]- 📍 Lugares (5)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Dark/Second Sanctuary | El vestíbulo de la iglesia |  |
 > |  | Study | El despacho del Padre Alvin |  |
 > |  | Dark Zone | El armario |  |
@@ -322,12 +322,12 @@ familia: na
 > |  | Third Sanctuary | La nave |  |
 >
 > [!example]- 🧑 Personajes (9)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Blue Ruddin | El séptimo as volador 🔵 |  |
 > | ![[Mike_screenshot_photorealistic_microphone.png\|50]] | Mike | Un micrófono 🔵 |  |
-> |  | Church Wafer | Hostias de comunión |  |
-> |  | Old Man | El polvo de Gerson Boom |  |
+> | ![[Wafer_overworld.gif\|50]] | Church Wafer | Hostias de comunión |  |
+> | ![[old-man-gerson.png\|50]] | Old Man | El polvo de Gerson Boom |  |
 > | ![[Cuptain_overworld.gif\|50]] | Cuptain | Un vaso rojo de plástico |  |
 > | ![[Unknown_cap4__overworld.gif\|50]] | Unknown | ??? |  |
 > | ![[Tao_overworld.gif\|50]] | Tao | Un metrónomo |  |
@@ -335,8 +335,8 @@ familia: na
 > | ![[Organikk_battle_idle.gif\|50]] | Kind Organikks | Tubos de órgano |  |
 >
 > [!example]- 👹 Enemigos (11)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > | ![[Guei_battle_idle.webp\|50]] | Guei | Una vela |  |
 > | ![[Balthizard_battle.gif\|50]] | Balthizard | Un incensario |  |
 > | ![[Bibliox_battle_idle.gif\|50]] | Bibliox | Un libro |  |
@@ -350,8 +350,8 @@ familia: na
 > | ![[Sound_of_Justice_battle.png\|50]] | Sound Of Justice | La foto de Gerson 🔵 |  |
 >
 > [!example]- 🍬 Objetos consumibles (6)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Ancient Sweet | Chocolate viejo dentro de la chaqueta de Asriel |  |
 > |  | Rhapsotea | Los ecos del coro cantando |  |
 > |  | Darker Candy | Pegatinas de malvavisco rasca-y-huele |  |
@@ -360,8 +360,8 @@ familia: na
 > |  | Bitter Tear | Una gota de lluvia |  |
 >
 > [!example]- ⚔️ Armas (6)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Jingle Blade | El lápiz de Noelle |  |
 > |  | Scarf Mark | Un marcapáginas |  |
 > |  | Absorb Ax | Una cuchara o cucharón para el zumo |  |
@@ -370,17 +370,17 @@ familia: na
 > | ![[Winglade_battle_idle.gif\|50]] | Winglade | Una pluma de escribir *(repetido en la fuente original, misma identidad que el arma de arriba)* |  |
 >
 > [!example]- 🎽 Armaduras (5)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
-> | ![[Wafer_overworld.gif\|50]] | WaferGuard | Una hostia |  |
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
+> |  | WaferGuard | Una hostia |  |
 > |  | Mystic Band | El bol para el zumo de fruta amarillo 🔵 |  |
 > |  | Power Band | El bol para el zumo de fruta rojo 🔵 |  |
 > |  | Gold Widow | Una araña 🔵 |  |
 > |  | Princess Ribbon | El lazo y los guantes de Kris que usaba al tocar el piano 🟡 |  |
 >
 > [!example]- 📦 Objetos/decorado (9)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | The Prophecy | Extractos de la biblia de la religión 🔵 |  |
 > |  | Piano Puzzles | Partituras y teclas de piano 🟡 |  |
 > |  | Slippery Gloves | Guantes de goma |  |
@@ -395,8 +395,8 @@ familia: na
 ## Capítulo 5 — Reino de las Flores
 
 > [!example]- 📍 Lugares (5)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Garden | Una sábana rosa y afelpada |  |
 > |  | Ideal Diner | El recuerdo de Asgore del restaurante |  |
 > |  | Shrine | La percepción de Asgore de un santuario sintoísta 🔵 |  |
@@ -404,8 +404,8 @@ familia: na
 > |  | Flower Castle | El panel de conspiración de Asgore 🔵 |  |
 >
 > [!example]- 🧑 Personajes (10)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > | ![[Kooby_overworld.png\|50]] | Kooby | Una planta con forma de gusano 🟡 |  |
 > | ![[Doubter_overworld.png\|50]] | Doubter | Una pieza de un puzle floral 🔵 |  |
 > | ![[Hopschef_overworld.gif\|50]] | Hopschef | Un salto |  |
@@ -418,9 +418,9 @@ familia: na
 > | ![[Pot_archer_overworld.gif\|50]] | Archer | Una flor brotando en una maceta |  |
 >
 > [!example]- 👹 Enemigos (9)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
-> |  | Floradinn | Una etiqueta identificadora de planta |  |
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
+> | ![[Floradinn_battle.gif\|50]] | Floradinn | Una etiqueta identificadora de planta |  |
 > | ![[Netskie_battle_idle.gif\|50]] | Netskie | Un netsuke con forma de zorro 🔵 |  |
 > | ![[Tropical_Starwalker_Bird_overworld.gif\|50]] | Tropical Starwalker Bird | Una pegatina de estrella arcoíris 🔵 |  |
 > | ![[Shi_battle_idle.gif\|50]] | Shi | Un espantapájaros |  |
@@ -428,11 +428,11 @@ familia: na
 > | ![[Kawkaw_battle_idle.gif\|50]] | Kawkaw | Un abrojo (fruto espinoso) 🆕 |  |
 > | ![[Terakota_overworld.png\|50]] | Terakota | Un brote de cerezo en una maceta |  |
 > | ![[Shinobeetle_battle_idle.gif\|50]] | Shinobeetle | Un álbum de los Beatles 🔵 |  |
-> |  | Pink (Body) | La figura de Mad Mew Mew de Asgore |  |
+> | ![[Mad_Mew_Mew_Pink.gif\|50]] | Pink (Body) | La figura de Mad Mew Mew de Asgore |  |
 >
 > [!example]- 🍬 Objetos consumibles (23)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | S. POTION | Una bebida energética con la marca Big Shot Autos |  |
 > |  | Punch Bowl | Un bol de zumo de frutas rojo |  |
 > |  | Orange Juice | Gel de aloe |  |
@@ -458,9 +458,9 @@ familia: na
 > |  | Mystery Key | La llave de la casa de Pink 🟡 |  |
 >
 > [!example]- ⚔️ Armas (8)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
-> |  | Winning Smile | La cabeza de la flor dorada 🔵 |  |
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
+> |  | Winning Smile | La cabeza de la flor dorada 🔵 | ![[goldenflower_realworld.webp\|50]] |
 > |  | Thatchet | Un cepillo de zarzas espinosas |  |
 > |  | Wood Blade 2 | Un lápiz del número 2 |  |
 > |  | Mistle WP | Muérdago 🆕 |  |
@@ -470,8 +470,8 @@ familia: na
 > |  | Broken Scarf | Un pétalo rasgado de la flor dorada |  |
 >
 > [!example]- 🎽 Armaduras (11)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Monarch Ribbon | Un lazo atado con forma de mariposa 🔵 |  |
 > |  | True Tie | La corbata de Spamton |  |
 > |  | Dog Widow | Un broche dorado con forma de perro |  |
@@ -485,8 +485,8 @@ familia: na
 > |  | Orange Glove | Un pétalo de la flor naranja |  |
 >
 > [!example]- 📦 Objetos/decorado (17)
-> | Sprite | Mundo Oscuro | Identidad real |  |
-> |---|---|---|
+> | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
+> |---|---|---|---|
 > |  | Susie's Costume | Varios trozos de basura |  |
 > |  | Flower Bed | Un arriate de flores |  |
 > |  | Mushroom | Una seta marrón |  |
