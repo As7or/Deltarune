@@ -17,9 +17,12 @@ familia: na
 ## Capítulo 1 — Reino de las Cartas
 
 > [!example]- 📍 Lugares (6)
+> ![[dark_world_1_in_lightworld.webp]]
+> *Vista de conjunto de las localizaciones de este capítulo en el Mundo Claro.*
+>
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> | ![[Cliffs_cap1.webp\|50]] | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 |  |
+> | ![[Cliffs_cap1.webp\|50]] | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 | ![[storage_closet_lightwolrd.png\|50]] |
 > | ![[Castle_Town.webp\|50]] | Castle Town | Armario de almacenamiento |  |
 > | ![[Field_cap1.webp\|50]] | Field | Una alfombra morada grande | ![[Field_cap1_lightworld.png\|50]] |
 > | ![[600px-Great_Board_location.png.webp\|50]] | The Great Board | Un tablero de damas | ![[Board_cap1_lightoworld.png\|50]] |
@@ -42,7 +45,7 @@ familia: na
 > | ![[Malius_overworld.gif\|50]] | Malius | Un martillo de juguete que chirría 🟡 |  |
 > | ![[Worm_overworld.png\|50]] | Worm | Un fidget toy con forma de gusano 🟡 |  |
 > | ![[Starwalker_overworld.png\|50]] | Original Starwalker | Una pegatina de estrella recortada y desgastada 🔵 |  |
-> | ![[Block_Tree_overworld_switch.gif\|50]] | Block Tree | Bloques de construcción con ojos y piezas de piernas 🔵 |  |
+> | ![[Block_Tree_overworld_switch.gif\|50]] | Block Tree | Bloques de construcción con ojos y piezas de piernas 🔵 | ![[rabbick_cap1_lightworld.png\|50]] |
 > | ![[Pair_of_eyes_overworld.png\|50]] | Pair Of Eyes | Pegatinas de ojos |  |
 > | ![[Goulden_Sam_overworld.png\|50]] | Goulden Sam | Cajas vacías de galletas de animalitos 🟡 |  |
 > | ![[Former_Kings_overworld.png\|50]] | The Three Kings | El rey de corazones, de diamantes y de tréboles 🟡 |  |
@@ -63,9 +66,9 @@ familia: na
 > | ![[Clover_battle.gif\|50]] | Clover | El as de tréboles 🟡 | ![[cards_lightworld.png\|50]] |
 > | ![[Sheary_overworld.gif\|50]] | Sheary | Unas tijeras |  |
 > | ![[Starwalker_Bird_overworld.gif\|50]] | Starwalker Bird | Una pegatina de estrella 🔵 |  |
-> | ![[Rudinn_Ranger_battle.gif\|50]] | Rudinn Ranger | Varias cartas de diamantes (números altos) 🟡 |  |
-> | ![[Head_Hathy_battle.gif\|50]] | Head Hathy | Varias cartas de corazones (números altos) 🟡 |  |
-> | ![[King_Battle (2).gif\|50]] | King | El rey de picas 🟡 | ![[Cards_item_Lancer.gif\|50]] |
+> | ![[Rudinn_Ranger_battle.gif\|50]] | Rudinn Ranger | Varias cartas de diamantes (números altos) 🟡 | ![[cards_lightworld.png\|50]] |
+> | ![[Head_Hathy_battle.gif\|50]] | Head Hathy | Varias cartas de corazones (números altos) 🟡 | ![[cards_lightworld.png\|50]] |
+> | ![[King_Battle (2).gif\|50]] | King | El rey de picas 🟡 | ![[cards_lightworld.png\|50]] |
 > | ![[Jevil.gif\|50]] | Jevil | La carta del comodín (joker) 🟡 | ![[cards_lightworld.png\|50]] |
 >
 > [!example]- 🍬 Objetos consumibles (13)
@@ -117,14 +120,17 @@ familia: na
 ## Capítulo 2 — Mundo Cíber
 
 > [!example]- 📍 Lugares (6)
+> ![[darkworld_2_lightworld_computerlab.png]]
+> *Vista de conjunto de las localizaciones de este capítulo en el Mundo Claro.*
+>
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[440px-Cyber_Field_location.png.webp\|50]] | Cyber Field | Una placa de circuito 🔵 |  |
-> | ![[trashy_zone_cap2.png\|50]] | Trash Zone | Archivos borrados y correos spam |  |
+> | ![[trashy_zone_cap2.png\|50]] | Trash Zone | Archivos borrados y correos spam | ![[trash_zone.png\|50]] |
 > | ![[440px-Cyber_City_location.png.webp\|50]] | Cyber City | Internet en su conjunto 🔵 | ![[Cyber_City.png\|50]] |
-> | ![[440px-Queen's_Mansion_location.png.webp\|50]] | Queen's Mansion | El armario (el de la derecha) 🔵 | ![[storage_closet_lightwolrd.png\|50]] |
-> | ![[Guest_room_queens_mansion.jpg\|50]] | Character's Rooms | Visualizaciones del historial web de cada personaje |  |
-> | ![[Basement_queen_mansion.webp\|50]] | Queen's Basement | El armario ropero 🔵 | ![[storage_closet_lightwolrd.png\|50]] |
+> | ![[440px-Queen's_Mansion_location.png.webp\|50]] | Queen's Mansion | El armario (el de la derecha) 🔵 | ![[queens_mansion.png\|50]] |
+> | ![[Guest_room_queens_mansion.jpg\|50]] | Character's Rooms | Visualizaciones del historial web de cada personaje | ![[queens_mansion.png\|50]] |
+> | ![[Basement_queen_mansion.webp\|50]] | Queen's Basement | El armario ropero 🔵 | ![[queens_mansion.png\|50]] |
 >
 > [!example]- 🧑 Personajes (9)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -233,22 +239,25 @@ familia: na
 ## Capítulo 3 — Mundo TV
 
 > [!example]- 📍 Lugares (8)
+> ![[darkworld_3_lightworld_livingroom_dreemur.png]]
+> *Vista de conjunto de las localizaciones de este capítulo en el Mundo Claro.*
+>
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[440px-Couch_cliffs_location.png.webp\|50]] | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr | ![[Couch_lightworld.png\|50]] |
-> | ![[Rouxls_Kaard_screenshot_Cooking_Show.png\|50]] | Cooking Show | El canal de cocina |  |
-> | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | El cuarto de Kris y Asriel |  |
-> | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | Un maratón de películas de monstruos gigantes |  |
-> | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales |  |
+> | ![[Rouxls_Kaard_screenshot_Cooking_Show.png\|50]] | Cooking Show | El canal de cocina | ![[Tv_dreemur.png\|50]] |
+> | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | El cuarto de Kris y Asriel | ![[asriel_room.png\|50]] |
+> | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | Un maratón de películas de monstruos gigantes | ![[Tv_dreemur.png\|50]] |
+> | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales | ![[Tv_dreemur.png\|50]] |
 > | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[Cold_Place_lightworld.png\|50]] |
-> | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore |  |
+> | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore | ![[Tv_dreemur.png\|50]] |
 > |  | Mancountry | En lo profundo del sofá 🔵 |  |
 >
 > [!example]- 🧑 Personajes (8)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[Couch_overworld.gif\|50]] | Walking Couch | El sofá | ![[Couch_lightworld.png\|50]] |
-> | ![[320px-Crowd_overworld.gif.webp\|50]] | The Crowd | El público de estudio fabricado 🔵 |  |
+> | ![[320px-Crowd_overworld.gif.webp\|50]] | The Crowd | El público de estudio fabricado 🔵 | ![[shadow_guy_lightowrld.png\|50]] |
 > | ![[Ramb.webp\|50]] | Ramb | Una regleta con enchufes tipo K 🔵 |  |
 > | ![[Serious_Trashy_overworld.png\|50]] | Serious Trashy | La papelera de la cocina | ![[Cool_Trashy_lightworld.png\|50]] |
 > | ![[Suilver_Sam_overworld.png\|50]] | Suilver Sam | Una caja temática de galletas de animalitos 🟡 |  |
