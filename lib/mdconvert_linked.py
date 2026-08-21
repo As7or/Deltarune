@@ -412,7 +412,7 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
         SKIP_KEYS = {"confianza"}
         FM_ICONS = {
             "tipo": {"personaje": "🧑", "lugar": "📍", "tema": "💭", "objeto": "📦", "evento": "📖"},
-            "mundo": {"lightner": "☀️", "darkner": "🌙", "ambos": "🌗"},
+            "mundo": {"lightner": "☀️", "darkner": "🌙", "ambos": "🌗", "planta": "🌱"},
             "especie": {},
             "familia": {},
             "grupo": {"fun gang": "🎈", "colegio": "🏫", "iglesia": "⛪", "policía": "👮", "policia": "👮", "ayuntamiento": "🏛️"},

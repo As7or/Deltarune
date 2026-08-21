@@ -43,6 +43,17 @@ confianza: oficial
 >
 > ![[Rudy_screenshot_church.png]]
 > *Rudy en la iglesia junto a Noelle, durante el Cap.4.*
+>
+> > [!danger]- Ruta Rara del Cap.4 — no reconoce a Susie
+> > Si Kris lleva a Susie a visitarlo durante la Ruta Rara, Rudy reacciona con una franqueza que no muestra en la ruta normal: le pregunta a Kris, molesto, "¿por qué demonios has traído a tu amiga aquí?" — como si no la reconociera en absoluto, pese a que en la ruta normal la trata con calidez y hasta le da consejos para conquistar a Noelle. Es uno de los primeros indicios claros de que algo distinto ocurre con los adultos del pueblo durante esta ruta.
+> >
+> > ![[Rudy_weird_route_dont_knows_sussie.png]]
+> > *"Kris... why the hell... did you bring your friend here?" — Rudy sin reconocer a Susie en la Ruta Rara del Cap.4.*
+> >
+> > En cambio, con el propio Kris se muestra tan cercano como siempre, llegando a comentarle "de verdad que has crecido mucho, Kris" — dejando claro que su memoria de Kris está intacta; el fallo de reconocimiento parece limitarse específicamente a Susie.
+> >
+> > ![[rudy_flowery_u_grown_alot_kris.png]]
+> > *"You've grown up a lot, Kris." — Rudy reconociendo perfectamente a Kris en la misma escena.*
 
 > [!example]+ Capítulo 5 — Las luces del Festival
 > Ya fuera del hospital, ayuda a montar las luces del Festival de Castle Town subido a una escalera, con Noelle advirtiéndole que no se esfuerce demasiado.
@@ -101,8 +112,17 @@ confianza: oficial
 > ![[The_Dreemurrs_and_Holiday_Families.webp]]
 > *El flashback de Tenna: las familias Holiday y Dreemurr reunidas frente al televisor — la escena de la que cada uno va desapareciendo, uno a uno.*
 
-> [!question]- ¿Rudy es el Caballero Rugiente?
-> Teoría de foro (Rudy Knight): su enfermedad, su ausencia física del resto del pueblo y ciertas líneas de diálogo ambiguas (posible tercera voz en una llamada entre Kris y Carol) alimentan la idea de que Rudy podría representar, de forma literal o simbólica, al Caballero Rugiente — leído como una fantasía de escape frente a la pérdida de Dess. Teoría débil, sin confirmación directa y bastante especulativa.
+> [!question]+ ¿Rudy es el Caballero Rugiente?
+> Una de las teorías de identidad más discutidas por la comunidad para el Caballero — con partidarios serios fuera de este vault, no solo aquí. Los puntos de más peso:
+> - **Motivación clara**: si el Caballero busca crear Fuentes Oscuras para recuperar a alguien perdido, Rudy comparte exactamente esa motivación con Dess — la misma que Carol, pero sin la sospecha que pesa sobre ella por su papel público de alcaldesa.
+> - **El vínculo Holiday**: el Caballero tiene astas, y hasta ahora el único rasgo de diseño consistente que comparte con la familia es precisamente ese — astas de ciervo, la especie de los Holiday.
+> - **No reconoce a Susie en la Ruta Rara del Cap.4** (ver arriba), mientras que con Kris sigue siendo el mismo de siempre — un fallo de reconocimiento selectivo consistente con llevar una doble vida que Susie, al no formar parte de "antes", nunca llegó a conocer del todo.
+> - **Coartada geográfica**: su hospitalización lo mantiene fuera de la vista del resto del pueblo casi todo el juego, y su cama nunca cambia de fondo — la "cámara" más estática de todo el reparto, coincidiendo con el patrón de otros candidatos al Caballero (ausencia física prolongada y sin testigos).
+> - El propio Ralsei explica que crear una Fuente Oscura implica canalizar Determinación de forma intensa — encajaría temáticamente con una enfermedad que se agrava según avanza el juego, aunque el propio texto nunca conecta ambas cosas de forma explícita.
+>
+> Puntos bastante más débiles, que sí circulan en la teoría pero se apoyan en juegos de palabras o cadenas de suposición sin respaldo textual: que los ataques del Caballero sean rojos y "Rudy" suene parecido a "ruddy" (rojizo), o que el nombre remita a Rudolph el reno de la nariz roja; que la mano dominante de Rudy nunca se muestre en pantalla; o que pudiera haber aprendido a usar una katana gracias a Carol. Son parte de cómo se argumenta esta teoría en foros y vídeos, pero no aportan gran cosa por sí solos.
+>
+> **Teoría de fans consistente y bastante debatida, con motivación y algunas pistas de diseño genuinamente sugerentes — pero el juego nunca confirma ni desmiente la identidad del Caballero, y varios de los argumentos que la sostienen son especulación bastante libre.**
 >
 > ![[TheRoaringKnightDeltarune.webp]]
 > *La silueta oficial del Caballero Rugiente — la figura con la que esta teoría conecta a Rudy.*

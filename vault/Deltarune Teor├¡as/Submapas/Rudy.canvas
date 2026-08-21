@@ -72,12 +72,12 @@
   {
    "id": "s5",
    "type": "text",
-   "text": "**¿Rudy es el Caballero Rugiente?**\nTeoría de foro (Rudy Knight): su enfermedad, su ausencia física del resto del pueblo y ciertas líneas de diálogo ambiguas (posible tercera voz en una llamada entre Kris y Carol) alimentan la idea de que Rudy podría…",
+   "text": "**¿Rudy es el Caballero Rugiente?**\nTeoría de fans bastante debatida fuera de este vault tambien: motivacion clara (busca a Dess, igual que el Caballero busca crear Fuentes), el vinculo de las astas con la familia Holiday, y que no reconozca a Susie en la Ruta Rara del Cap.4 mientras sigue reconociendo a Kris con normalidad. Varios argumentos que la acompanan (juegos de palabras, la mano dominante nunca mostrada) son mucho mas debiles. [[Roaring Knight]]",
    "x": -680,
    "y": -260,
    "width": 280,
    "height": 240,
-   "color": "1"
+   "color": "3"
   },
   {
    "id": "s0-img",
@@ -123,6 +123,34 @@
    "y": -313,
    "width": 190,
    "height": 170
+  },
+  {
+   "id": "s4-img",
+   "type": "file",
+   "x": -1010,
+   "y": 190,
+   "width": 280,
+   "height": 176,
+   "file": "Sprites/The_Dreemurrs_and_Holiday_Families.webp"
+  },
+  {
+   "id": "s6",
+   "type": "text",
+   "x": -680,
+   "y": -560,
+   "width": 280,
+   "height": 220,
+   "color": "3",
+   "text": "**Ruta Rara Cap.4 — no reconoce a Susie**\nEn la Ruta Rara, Rudy le pregunta a Kris, molesto, \"¿por que demonios has traido a tu amiga aqui?\" al ver a Susie, como si no la reconociera en absoluto — pero en la misma escena reconoce a Kris con total normalidad (\"has crecido mucho, Kris\"). Una de las piezas de evidencia mas directas de la teoria del Caballero."
+  },
+  {
+   "id": "s6-img",
+   "type": "file",
+   "x": -1010,
+   "y": -590,
+   "width": 280,
+   "height": 210,
+   "file": "Sprites/Rudy_weird_route_dont_knows_sussie.png"
   }
  ],
  "edges": [
@@ -229,6 +257,38 @@
    "toNode": "s5",
    "toSide": "left",
    "color": "1"
+  },
+  {
+   "id": "e_s4img",
+   "fromNode": "s4-img",
+   "fromSide": "right",
+   "toNode": "s4",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "e_s6",
+   "fromNode": "center",
+   "fromSide": "left",
+   "toNode": "s6",
+   "toSide": "right",
+   "color": "3"
+  },
+  {
+   "id": "e_s6img",
+   "fromNode": "s6-img",
+   "fromSide": "right",
+   "toNode": "s6",
+   "toSide": "left",
+   "color": "6"
+  },
+  {
+   "id": "cross_s6_s5",
+   "fromNode": "s6",
+   "fromSide": "bottom",
+   "toNode": "s5",
+   "toSide": "top",
+   "color": "3"
   }
  ]
 }

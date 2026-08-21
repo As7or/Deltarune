@@ -1,6 +1,6 @@
 ---
 tipo: tema
-mundo: darkner
+mundo: planta (ni Lightner ni Darkner)
 especie: plantas con sapiencia (Darkners atípicos, igual que Flowery)
 confianza: oficial
 ---

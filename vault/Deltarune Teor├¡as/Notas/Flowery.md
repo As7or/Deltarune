@@ -1,6 +1,6 @@
 ---
 tipo: personaje
-mundo: darkner
+mundo: planta (ni Lightner ni Darkner)
 especie: planta con sapiencia (Darkner atípico, ni Lightner ni Darkner "puro")
 familia: N/A
 confianza: fuerte
