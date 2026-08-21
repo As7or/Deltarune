@@ -19,12 +19,12 @@ familia: na
 > [!example]- 📍 Lugares (6)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 |  |
-> |  | Castle Town | Armario de almacenamiento |  |
-> |  | Field | Una alfombra morada grande |  |
-> |  | The Great Board | Un tablero de damas |  |
-> |  | Block Forest | Un bosque hecho de bloques de construcción |  |
-> |  | Card Castle | El armario metálico |  |
+> | ![[Cliffs_cap1.webp\|50]] | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 |  |
+> | ![[Castle_Town.webp\|50]] | Castle Town | Armario de almacenamiento |  |
+> | ![[Field_cap1.webp\|50]] | Field | Una alfombra morada grande | ![[Field_cap1_lightworld.png\|50]] |
+> | ![[600px-Great_Board_location.png.webp\|50]] | The Great Board | Un tablero de damas | ![[Board_cap1_lightoworld.png\|50]] |
+> | ![[440px-Forest_location.png.webp\|50]] | Block Forest | Un bosque hecho de bloques de construcción | ![[forest_cap1_lightworld.png\|50]] |
+> | ![[440px-Card_Castle_location.png.webp\|50]] | Card Castle | El armario metálico |  |
 >
 > [!example]- 🧑 Personajes (19)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -32,7 +32,7 @@ familia: na
 > | ![[Ralsei_overworld_hatless.png\|50]] | Ralsei | ??? 🟡 |  |
 > | ![[Lancer_Overworld.webp\|50]] | Lancer | La carta de la jota de picas 🟡 | ![[Cards_item_Lancer.gif\|50]] |
 > | ![[Top_Chef_overworld_talk.gif\|50]] | Top Chef | Una peonza amarilla 🔵 |  |
-> | ![[Seam_Face.webp\|50]] | Seam | Un peluche |  |
+> | ![[Seam_Face.webp\|50]] | Seam | Un peluche | ![[Seam_lightowrld.png\|50]] |
 > | ![[Mr._Elegance_overworld.png\|50]] | Mr. Elegance | Una pieza de caballo (ajedrez) 🟡 |  |
 > | ![[Mr._Society_overworld.png\|50]] | Mr. Society | Una pieza de alfil 🟡 |  |
 > | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota 🟡 |  |
@@ -57,7 +57,7 @@ familia: na
 > | ![[Jigsawry_battle_idle.gif\|50]] | Jigsawry | Una pieza de puzle |  |
 > | ![[Ponman_battle_idle.gif\|50]] | Ponman | Un peón blanco |  |
 > | ![[C._Round_battle_idle.gif\|50]] | K.Round | Una ficha de damas roja |  |
-> | ![[Rabbick_battle_idle.gif\|50]] | Rabbick | Bolas de polvo |  |
+> | ![[Rabbick_battle_idle.gif\|50]] | Rabbick | Bolas de polvo | ![[rabbick_cap1_lightworld.png\|50]] |
 > |  | Dark Ponman | Un peón negro |  |
 > | ![[Bloxer_battle_idle.gif\|50]] | Bloxer | Una minifigura tipo LEGO |  |
 > | ![[Clover_battle.gif\|50]] | Clover | El as de tréboles 🟡 |  |
@@ -119,41 +119,41 @@ familia: na
 > [!example]- 📍 Lugares (6)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Cyber Field | Una placa de circuito 🔵 |  |
-> |  | Trash Zone | Archivos borrados y correos spam |  |
-> |  | Cyber City | Internet en su conjunto 🔵 |  |
-> |  | Queen's Mansion | El armario (el de la derecha) 🔵 |  |
-> |  | Character's Rooms | Visualizaciones del historial web de cada personaje |  |
-> |  | Queen's Basement | El armario ropero 🔵 |  |
+> | ![[440px-Cyber_Field_location.png.webp\|50]] | Cyber Field | Una placa de circuito 🔵 |  |
+> | ![[trash_zone.png\|50]] | Trash Zone | Archivos borrados y correos spam |  |
+> | ![[440px-Cyber_City_location.png.webp\|50]] | Cyber City | Internet en su conjunto 🔵 | ![[Cyber_City.png\|50]] |
+> | ![[440px-Queen's_Mansion_location.png.webp\|50]] | Queen's Mansion | El armario (el de la derecha) 🔵 | ![[queens_mansion.png\|50]] |
+> |  | Character's Rooms | Visualizaciones del historial web de cada personaje | ![[Guest_room_queens_mansion.jpg\|50]] |
+> |  | Queen's Basement | El armario ropero 🔵 | ![[Basement_queen_mansion.webp\|50]] |
 >
 > [!example]- 🧑 Personajes (9)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> | ![[Plugboy_overworld.png\|50]] | Plugboy | Un enchufe eléctrico |  |
+> | ![[Plugboy_overworld.png\|50]] | Plugboy | Un enchufe eléctrico | ![[cables_plugs_lightworld.png\|50]] |
 > | ![[Nubert_overworld.png\|50]] | Nubert | Un puntero |  |
 > | ![[Hacker_overworld.png\|50]] | The Hacker | Un cursor |  |
 > | ![[Sweet_battle_idle.gif\|50]] | Sweet | Dos altavoces mono |  |
 > | ![[Cap'n_battle_idle.gif\|50]] | Cap'n | Un reproductor de casetes |  |
 > | ![[K_K_battle_idle.gif\|50]] | K_K | Un reproductor de CD |  |
 > | ![[Fommt_overworld.gif\|50]] | Fommt | Un disquete |  |
-> | ![[Trashy_overworld.gif\|50]] | Trashy | La papelera del aula de informática |  |
+> | ![[Trashy_overworld.gif\|50]] | Trashy | La papelera del aula de informática | ![[trashy_lighworld.png\|50]] |
 > | ![[Swatch_overworld.png\|50]] | Swatch | Un programa de dibujo digital |  |
 >
 > [!example]- 👹 Enemigos (14)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> | ![[Queen_overworld_laughing.gif\|50]] | Queen | Un portátil |  |
-> | ![[Werewire_battle_idle.gif\|50]] | Werewire | Un cable enchufado |  |
+> | ![[Queen_overworld_laughing.gif\|50]] | Queen | Un portátil | ![[Queen_overworld_laptop.png\|50]] |
+> | ![[Werewire_battle_idle.gif\|50]] | Werewire | Un cable enchufado | ![[cables_plugs_lightworld.png\|50]] |
 > | ![[Tasque_battle_idle.gif\|50]] | Tasque | Una ventana de ordenador abierta |  |
 > | ![[Virovirokun_battle_idle.gif\|50]] | Virovirokun | Un virus informático |  |
 > | ![[Poppup_battle_idle.gif\|50]] | Poppup | Un anuncio emergente |  |
 > | ![[Ambyu-Lance_battle_idle.gif\|50]] | Ambyu-Lance | Un antivirus |  |
-> | ![[Maus_battle_idle.gif\|50]] | Maus | Un ratón de ordenador |  |
+> | ![[Maus_battle_idle.gif\|50]] | Maus | Un ratón de ordenador | ![[computer_mouse_typer_lightworld.png\|50]] |
 > | ![[spamton.gif\|50]] | Spamton | Un anuncio de un concesionario de coches |  |
 > | ![[Swatchling_battle_idle.gif\|50]] | Swatchling | Paletas de colores (probablemente en Swatch) |  |
 > | ![[Tasque_Manager_battle_idle.gif\|50]] | Tasque Manager | El software Administrador de tareas |  |
 > | ![[Mauswheel_battle_idle.gif\|50]] | Mausewheel | La rueda de un ratón |  |
-> | ![[Werewerewire_battle_idle.gif\|50]] | Werewerewire | Un enchufe inestable que chispea 🔵 |  |
+> | ![[Werewerewire_battle_idle.gif\|50]] | Werewerewire | Un enchufe inestable que chispea 🔵 | ![[cables_plugs_lightworld.png\|50]] |
 > | ![[1406-pipis.png\|50]] | Pipis | Un virus recién "nacido" |  |
 > | ![[Ms._Pipis_battle_static.png\|50]] | Ms. Pipis | Un virus recién "nacido" |  |
 >
@@ -209,9 +209,9 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > |  | King's Cage | La jaula del hámster de Noelle 🟡 |  |
-> |  | The Wires | Cables desconectados |  |
+> |  | The Wires | Cables desconectados | ![[cables_plugs_lightworld.png\|50]] |
 > |  | Teacup Ride | Los tornillos que sujetan la placa de circuito 🔵 |  |
-> |  | Typing Puzzles | Los teclados de los ordenadores |  |
+> |  | Typing Puzzles | Los teclados de los ordenadores | ![[computer_mouse_typer_lightworld.png\|50]] |
 > |  | Arcade Machine | Un juego en uno de los ordenadores 🟡 |  |
 > |  | Shock Cages | Bloqueos o restricciones puestas a un ordenador 🟡 |  |
 > |  | Electro-Dasher | Una representación del "tráfico" de internet |  |
@@ -226,7 +226,7 @@ familia: na
 > |  | Toilet | Un dibujo de tamaño normal de un váter en Swatch 🟡 |  |
 > |  | Tiny Houses | Piezas de un juego tipo Catan 🟡 |  |
 > |  | Camera | La webcam del ordenador 🔵 |  |
-> |  | Ferris Wheel | El póster de una noria 🔵 |  |
+> |  | Ferris Wheel | El póster de una noria 🔵 | ![[ferry_wheel_lightworld.png\|50]] |
 > |  | Spamton NEO's Body | Un cuerpo dibujado en Swatch |  |
 >
 
@@ -235,32 +235,32 @@ familia: na
 > [!example]- 📍 Lugares (8)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr |  |
+> | ![[440px-Couch_cliffs_location.png.webp\|50]] | Couch Cliffs/TV World | La mayor parte de la casa de los Dreemurr | ![[Couch_lightworld.png\|50]] |
 > |  | Cooking Show | El canal de cocina |  |
-> |  | Green Room | El cuarto de Kris y Asriel |  |
-> |  | Monster Movie | Un maratón de películas de monstruos gigantes |  |
-> |  | Rock Concert | El canal de videos musicales |  |
-> |  | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) |  |
-> |  | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore |  |
+> | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | El cuarto de Kris y Asriel |  |
+> | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | Un maratón de películas de monstruos gigantes |  |
+> | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales |  |
+> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[Cold_Place_lightworld.png\|50]] |
+> |  | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore | ![[Rasei_Rancher.png\|50]] |
 > |  | Mancountry | En lo profundo del sofá 🔵 |  |
 >
 > [!example]- 🧑 Personajes (8)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> | ![[Couch_overworld.gif\|50]] | Walking Couch | El sofá |  |
+> | ![[Couch_overworld.gif\|50]] | Walking Couch | El sofá | ![[Couch_lightworld.png\|50]] |
 > |  | The Crowd | El público de estudio fabricado 🔵 |  |
 > | ![[Ramb.webp\|50]] | Ramb | Una regleta con enchufes tipo K 🔵 |  |
-> | ![[Serious_Trashy_overworld.png\|50]] | Serious Trashy | La papelera de la cocina |  |
+> | ![[Serious_Trashy_overworld.png\|50]] | Serious Trashy | La papelera de la cocina | ![[Cool_Trashy_lightworld.png\|50]] |
 > | ![[Suilver_Sam_overworld.png\|50]] | Suilver Sam | Una caja temática de galletas de animalitos 🟡 |  |
 > | ![[Goulden_Son_overworld.png\|50]] | Gouldon Son | Un paquete pequeño de galletas de animalitos 🟡 |  |
-> | ![[Bibliox_battle_idle (1).gif\|50]] | Bibliox (TV World) | El libro de himnos |  |
+> | ![[Bibliox_battle_idle (1).gif\|50]] | Bibliox (TV World) | El libro de himnos | ![[Biblox_cap3_lightworld.png\|50]] |
 > |  | Seven Flying Aces | Cartas de as fotocopiadas y coloreadas |  |
 >
 > [!example]- 👹 Enemigos (11)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[Tenna_Overworld_gif.gif\|50]] | Tenna | La televisión de los Dreemurr | ![[tenna_lightworld_form.png\|50]] |
-> | ![[Shadowguy_battle_idle.gif\|50]] | Shadowguy | Las sombras de figuras/pegatinas en las ventanas |  |
+> | ![[Shadowguy_battle_idle.gif\|50]] | Shadowguy | Las sombras de figuras/pegatinas en las ventanas | ![[shadow_guy_lightowrld.png\|50]] |
 > | ![[Lanino_battle_idle.gif\|50]] | Lanino | Una previsión de cielos despejados |  |
 > | ![[Elnina_battle_idle.gif\|50]] | Elnina | Una previsión de cielos nublados |  |
 > | ![[Watercooler_battle_idle.png\|50]] | Watercooler | Una botella de agua |  |
@@ -321,10 +321,11 @@ familia: na
 > |  | East Belltower | La caja de campanas |  |
 > |  | Third Sanctuary | La nave |  |
 >
-> [!example]- 🧑 Personajes (9)
+> [!example]- 🧑 Personajes (10)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > |  | Blue Ruddin | El séptimo as volador 🔵 |  |
+> | ![[Blue_Flying_Ace_overworld.png\|50]] | Flying Ace Blue | La séptima carta de as, la misma identidad que Blue Ruddin 🔵 |  |
 > | ![[Mike_screenshot_photorealistic_microphone.png\|50]] | Mike | Un micrófono 🔵 |  |
 > | ![[Wafer_overworld.gif\|50]] | Church Wafer | Hostias de comunión |  |
 > | ![[old-man-gerson.png\|50]] | Old Man | El polvo de Gerson Boom |  |
@@ -400,7 +401,7 @@ familia: na
 > |  | Garden | Una sábana rosa y afelpada |  |
 > |  | Ideal Diner | El recuerdo de Asgore del restaurante |  |
 > |  | Shrine | La percepción de Asgore de un santuario sintoísta 🔵 |  |
-> |  | Cliffs | La pared trasera de la sala de las flores 🆕 |  |
+> | ![[Cliffs_cap1.webp\|50]] | Cliffs | La pared trasera de la sala de las flores 🆕 |  |
 > |  | Flower Castle | El panel de conspiración de Asgore 🔵 |  |
 >
 > [!example]- 🧑 Personajes (10)
@@ -428,7 +429,7 @@ familia: na
 > | ![[Kawkaw_battle_idle.gif\|50]] | Kawkaw | Un abrojo (fruto espinoso) 🆕 |  |
 > | ![[Terakota_overworld.png\|50]] | Terakota | Un brote de cerezo en una maceta |  |
 > | ![[Shinobeetle_battle_idle.gif\|50]] | Shinobeetle | Un álbum de los Beatles 🔵 |  |
-> | ![[Mad_Mew_Mew_Pink.gif\|50]] | Pink (Body) | La figura de Mad Mew Mew de Asgore |  |
+> | ![[Mad_Mew_Mew_Pink.gif\|50]] | Pink (Body) | La figura de Mad Mew Mew de Asgore | ![[Pink_overworld_action_figure.png\|50]] |
 >
 > [!example]- 🍬 Objetos consumibles (23)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
