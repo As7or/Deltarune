@@ -324,17 +324,17 @@ familia: na
 > [!example]- 📍 Lugares (5)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Dark/Second Sanctuary | El vestíbulo de la iglesia |  |
-> |  | Study | El despacho del Padre Alvin |  |
-> |  | Dark Zone | El armario |  |
+> | ![[2nd_Sanctuary_location.png\|50]] | Dark/Second Sanctuary | El vestíbulo de la iglesia | ![[Church_location_lobby.png\|50]] |
+> |  | Study | El despacho del Padre Alvin | ![[Church_location_office.png\|50]] |
+> |  | Dark Zone | El armario | ![[Church_location_storage_room.png\|50]] |
 > |  | East Belltower | La caja de campanas |  |
-> |  | Third Sanctuary | La nave |  |
+> | ![[3rd_Sanctuary_location.png\|50]] | Third Sanctuary | La nave | ![[1024px-Church_location_main_hall.png.webp\|50]] |
 >
 > [!example]- 🧑 Personajes (10)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Blue Ruddin | El séptimo as volador 🔵 |  |
-> | ![[Blue_Flying_Ace_overworld.png\|50]] | Flying Ace Blue | La séptima carta de as, la misma identidad que Blue Ruddin 🔵 |  |
+> | ![[Castle_Rudinn_overworld.png\|50]] | Blue Ruddin | El séptimo as volador 🔵 | ![[cards_lightworld.png\|50]] |
+> | ![[Blue_Flying_Ace_overworld.png\|50]] | Flying Ace Blue | La séptima carta de as, la misma identidad que Blue Ruddin 🔵 | ![[cards_lightworld.png\|50]] |
 > | ![[Mike_screenshot_photorealistic_microphone.png\|50]] | Mike | Un micrófono 🔵 |  |
 > | ![[Wafer_overworld.gif\|50]] | Church Wafer | Hostias de comunión |  |
 > | ![[old-man-gerson.png\|50]] | Old Man | El polvo de Gerson Boom |  |
@@ -407,11 +407,11 @@ familia: na
 > [!example]- 📍 Lugares (5)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Garden | Una sábana rosa y afelpada |  |
+> | ![[Garden_cap5_location.png\|50]] | Garden | Una sábana rosa y afelpada |  |
 > |  | Ideal Diner | El recuerdo de Asgore del restaurante |  |
 > |  | Shrine | La percepción de Asgore de un santuario sintoísta 🔵 |  |
-> | ![[Cliffs_cap1.webp\|50]] | Cliffs | La pared trasera de la sala de las flores 🆕 |  |
-> |  | Flower Castle | El panel de conspiración de Asgore 🔵 |  |
+> | ![[Cliffs_cap5_location.png\|50]] | Cliffs | La pared trasera de la sala de las flores 🆕 |  |
+> | ![[Flower_Castle_location.png\|50]] | Flower Castle | El panel de conspiración de Asgore 🔵 |  |
 >
 > [!example]- 🧑 Personajes (10)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
