@@ -8,7 +8,7 @@ familia: na
 > [!info]+ Datos rápidos
 > 🃏 Cada Darkner/objeto del Mundo Oscuro tiene un objeto equivalente en el Mundo Claro (el mundo "real" del juego).
 > 📋 Fuente: recopilación externa (hoja de cálculo + vídeo de teorías), no viene directamente de deltarune.wiki.
-> 🎨 Fiabilidad: 🔵 suposición fundada, 🟡 teoría más débil del propio autor de la lista, 🆕 verdicto añadido o corregido tras la publicación del vídeo original. Sin marca = confirmado por el propio juego o evidente por diseño. *(Intenté además pintar el fondo real de la celda como en la hoja de cálculo original con HTML, pero el generador del sitio no lo interpreta y lo deja como texto en crudo — lo he quitado hasta encontrar una forma que sí funcione con `build.py`.)* Se ha auditado fila por fila contra el PDF original en el Cap.1; el resto de capítulos usan todavía el emoji sin verificar y se irán revisando igual.
+> 🎨 Fiabilidad: 🔵 suposición fundada (fondo azul), 🟡 teoría más débil del propio autor de la lista (fondo amarillo), 🆕 verdicto añadido o corregido tras la publicación del vídeo original (texto en rojo). Sin marca = confirmado por el propio juego o evidente por diseño. El color de fondo real de la celda, como en la hoja de cálculo original, ya se ve en la web (no solo el emoji) — se generó una solución en el propio `build.py` para que funcione en las 5 tablas de todos los capítulos, no solo donde se ha auditado manualmente. Se ha auditado fila por fila contra el PDF original en el Cap.1; el resto de capítulos usan todavía el emoji sin verificar contra el PDF, pero ya se colorean igual en cuanto se corrijan.
 > ✅ Ya incluye el Cap.5 completo.
 
 > [!question]- Fiabilidad de la lista
@@ -68,7 +68,7 @@ familia: na
 > | ![[Starwalker_Bird_overworld.gif\|50]] | Starwalker Bird | Una pegatina de estrella 🔵 |  |
 > | ![[Rudinn_Ranger_battle.gif\|50]] | Rudinn Ranger | Varias cartas de diamantes (números altos) | ![[cards_lightworld.png\|50]] |
 > | ![[Head_Hathy_battle.gif\|50]] | Head Hathy | Varias cartas de corazones (números altos) | ![[cards_lightworld.png\|50]] |
-> | ![[King_Battle (2).gif\|50]] | King | El rey de picas | ![[cards_lightworld.png\|50]] |
+> | ![[King_Battle (2).gif\|50]] | King | El rey de picas | ![[Cards_item_Lancer.gif\|50]] |
 > | ![[Jevil.gif\|50]] | Jevil | La carta del comodín (joker) | ![[cards_lightworld.png\|50]] |
 >
 > [!example]- 🍬 Objetos consumibles (13)
@@ -86,7 +86,7 @@ familia: na
 > |  | Clubs Sandwich | Un trébol de tres hojas 🔵 |  |
 > |  | Rouxls' Roux | Un roux concreto |  |
 > |  | Broken Key/Door Key | La llave del armario 🟡 |  |
-> |  | Shadow Crystal | Un cristal extraño |  |
+> | ![[Shadow_Crystal_item.webp\|50]] | Shadow Crystal | Un cristal extraño |  |
 >
 > [!example]- ⚔️ Armas (8)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -98,7 +98,7 @@ familia: na
 > |  | Ragger | Un trapo con pinchos |  |
 > |  | Brave Ax | Un hacha hecha de piezas de construcción |  |
 > |  | Dainty Scarf | Puntillas de papel enrolladas |  |
-> |  | Devilsknife | La carta del comodín |  |
+> | ![[jevil_Devilsknife_item.png\|50]] | Devilsknife | La carta del comodín |  |
 >
 > [!example]- 🎽 Armaduras (5)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -112,9 +112,9 @@ familia: na
 > [!example]- 📦 Objetos/decorado (3)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Lancer's Bike | La caja vacía de cartas |  |
+> | ![[Lancer_battle_bike.gif\|50]] | Lancer's Bike | La caja vacía de cartas |  |
 > |  | The Great Door | La puerta del armario al aula en desuso |  |
-> |  | Moss | Un puñado de musgo |  |
+> | ![[moss_cap1.png\|50]] | Moss | Un puñado de musgo | ![[Moss_item_evidence.png\|50]] |
 >
 
 ## Capítulo 2 — Mundo Cíber
@@ -303,7 +303,7 @@ familia: na
 > |  | Ginger Guard | Un cortador de galletas |  |
 > |  | Blue Ribbon | Parte de un traje de animadora (probablemente de Catti) 🟡 |  |
 > |  | Tenna Tie | Una corbata (probablemente de Asgore) 🔵 |  |
-> |  | Shadow Mantle | ??? |  |
+> | ![[shadow_mantle.gif\|50]] | Shadow Mantle | ??? |  |
 >
 > [!example]- 📦 Objetos/decorado (9)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |

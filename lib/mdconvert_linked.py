@@ -245,6 +245,25 @@ def split_row(r):
     cells = [c.strip().replace(SENTINEL, "|") for c in protected.strip("|").split("|")]
     return cells
 
+def wrap_reliability(cell_html):
+    """Traduce los emojis de fiabilidad que ya vienen en el markdown original
+    (🔵 suposicion fundada, 🟡 teoria mas debil del propio autor, 🆕 verdicto
+    anadido/corregido tras el video) a un color de fondo/texto real en el
+    HTML del sitio, replicando la hoja de calculo original en vez de dejarlo
+    solo en emoji. No requiere tocar ninguna nota: se deriva del emoji que ya
+    esta en el texto (y sigue viendose bien en Obsidian, que no lee estas
+    clases)."""
+    classes = []
+    if "🔵" in cell_html:
+        classes.append("rel-blue")
+    if "🟡" in cell_html:
+        classes.append("rel-yellow")
+    if "🆕" in cell_html:
+        classes.append("rel-new")
+    if not classes:
+        return cell_html
+    return f'<span class="rel-cell {" ".join(classes)}">{cell_html}</span>'
+
 def parse_table(block_lines, sprites_prefix):
     rows = [l for l in block_lines if l.strip().startswith("|")]
     if len(rows) < 2:
@@ -252,6 +271,7 @@ def parse_table(block_lines, sprites_prefix):
     header = split_row(rows[0])
     body_rows = rows[2:]
     small_cols = {i for i, h in enumerate(header) if "talksprite" in h.lower() or "sprite" in h.lower()}
+    reliability_cols = {i for i, h in enumerate(header) if "identidad" in h.lower()}
     out = ['<table class="note-table">', "<tr>"]
     for h in header:
         out.append(f"<th>{inline_md(h, sprites_prefix)}</th>")
@@ -260,7 +280,10 @@ def parse_table(block_lines, sprites_prefix):
         cells = split_row(r)
         out.append("<tr>")
         for idx, c in enumerate(cells):
-            out.append(f"<td>{inline_md(c, sprites_prefix, force_small=(idx in small_cols))}</td>")
+            cell_html = inline_md(c, sprites_prefix, force_small=(idx in small_cols))
+            if idx in reliability_cols:
+                cell_html = wrap_reliability(cell_html)
+            out.append(f"<td>{cell_html}</td>")
         out.append("</tr>")
     out.append("</table>")
     return "\n".join(out)
@@ -301,6 +324,30 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
             body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
         else:
             stripped = content.strip()
+            # Imagen de cabecera: si es la PRIMERA linea de contenido de un
+            # callout tipo "example" (las secciones de categoria de "Objetos
+            # del Mundo Oscuro.md": Lugares, Personajes, Enemigos...) y va
+            # sola en su propia linea, se trata como imagen de resumen del
+            # capitulo/zona y se renderiza mas pequena y centrada (clase
+            # fig-header), en vez de con la clase inline-img generica a
+            # ancho completo que usan el resto de imagenes sueltas dentro de
+            # cualquier callout del vault.
+            if i == 1 and ctype == "example" and re.fullmatch(r"!\[\[.+?\]\]", stripped):
+                mimg = re.match(r"!\[\[(.+?)\]\]", stripped)
+                name = mimg.group(1).split("|")[0].strip()
+                caption = ""
+                if i+1 < len(lines) and lines[i+1][0] == d:
+                    next_stripped = lines[i+1][1].strip()
+                    if len(next_stripped) > 1 and next_stripped.startswith("*") and next_stripped.endswith("*"):
+                        caption = next_stripped.strip("*")
+                        i += 1
+                fig_cls = "fig-header fig-alpha" if has_real_transparency(name) else "fig-header"
+                body_parts.append(
+                    f'<figure class="{fig_cls}"><img src="{img_url(name, sprites_prefix)}" alt="" loading="lazy">' +
+                    (f"<figcaption>{html.escape(caption)}</figcaption>" if caption else "") + "</figure>"
+                )
+                i += 1
+                continue
             if stripped.startswith("|"):
                 table_lines = []
                 while i < len(lines) and lines[i][0] == d and lines[i][1].strip().startswith("|"):

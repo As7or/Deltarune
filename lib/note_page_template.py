@@ -671,15 +671,70 @@ PAGE_CSS_FOUNTAIN = '''
   .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
 '''
 
+# --- CSS compartido por TODOS los temas: no depende de colores de cada tema,
+# asi que se anade una sola vez en vez de duplicarlo 7 veces. Cubre: colores
+# reales de fiabilidad en la columna "Identidad real" (antes solo emoji),
+# tamano reducido para las imagenes de cabecera de capitulo/zona, y el
+# lightbox de "clic para ver completa" que aplica a cualquier imagen del sitio.
+SHARED_CSS_EXTRA = '''
+  /* --- fiabilidad de identidad: color de fondo/texto real, como en el PDF original --- */
+  .rel-cell{ display:block; width:100%; box-sizing:border-box; border-radius:4px; padding:3px 6px; }
+  .rel-blue{ background:#b7c9ef; }
+  .rel-yellow{ background:#f0b429; }
+  .rel-blue.rel-yellow{ background:linear-gradient(180deg,#b7c9ef 50%,#f0b429 50%); }
+  .rel-new{ color:#c0392b; font-weight:700; }
+
+  /* --- imagen de cabecera de capitulo/zona (mas pequena que una imagen suelta normal) --- */
+  figure.fig-header{ margin:10px 0 16px; }
+  figure.fig-header img{ width:auto; max-width:320px; max-height:340px; margin:0 auto; box-shadow:0 2px 8px rgba(0,0,0,0.28); }
+
+  /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
+  img{ cursor: zoom-in; }
+  #lightbox-overlay{
+    display:none; position:fixed; inset:0; z-index:9999;
+    background:rgba(0,0,0,0.86); align-items:center; justify-content:center;
+    cursor: zoom-out; padding:24px; box-sizing:border-box;
+  }
+  #lightbox-overlay.open{ display:flex; }
+  #lightbox-overlay img{
+    max-width:92vw; max-height:92vh; width:auto; height:auto; display:block;
+    margin:0; border-radius:4px; box-shadow:0 8px 32px rgba(0,0,0,0.6); cursor: zoom-out;
+  }
+'''
+
+SHARED_BODY_EXTRA = '''
+<div id="lightbox-overlay"><img id="lightbox-img" src="" alt=""></div>
+<script>
+(function(){
+  var overlay = document.getElementById('lightbox-overlay');
+  var lbImg = document.getElementById('lightbox-img');
+  document.addEventListener('click', function(e){
+    var t = e.target;
+    if(t && t.tagName === 'IMG' && t.id !== 'lightbox-img'){
+      lbImg.src = t.getAttribute('src');
+      overlay.classList.add('open');
+    } else if(overlay.classList.contains('open')){
+      overlay.classList.remove('open');
+      lbImg.src = '';
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){ overlay.classList.remove('open'); lbImg.src = ''; }
+  });
+})();
+</script>
+'''
+
 PAGE_TMPL = '''<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>{title}</title>
-<style>{css}</style>
+<style>{css}{shared_css}</style>
 </head>
 <body>
 {body}
+{shared_body}
 </body>
 </html>
 '''
@@ -696,5 +751,8 @@ THEME_CSS = {
 
 def render_page(title_escaped, body_html, theme="postit"):
     css = THEME_CSS.get(theme, PAGE_CSS)
-    return PAGE_TMPL.format(title=title_escaped, css=css, body=body_html)
+    return PAGE_TMPL.format(
+        title=title_escaped, css=css, shared_css=SHARED_CSS_EXTRA,
+        body=body_html, shared_body=SHARED_BODY_EXTRA,
+    )
 
