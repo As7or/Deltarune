@@ -8,7 +8,7 @@ familia: na
 > [!info]+ Datos rápidos
 > 🃏 Cada Darkner/objeto del Mundo Oscuro tiene un objeto equivalente en el Mundo Claro (el mundo "real" del juego).
 > 📋 Fuente: recopilación externa (hoja de cálculo + vídeo de teorías), no viene directamente de deltarune.wiki.
-> 🎨 Fiabilidad: además del emoji, ahora la celda de "Identidad real" lleva el mismo color de fondo que en la hoja de cálculo original — <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">azul</span> = suposición fundada 🔵, <span style="background-color:#f0b429;padding:0 4px;border-radius:3px">amarillo</span> = teoría más débil del propio autor de la lista 🟡, <span style="color:#c0392b;font-weight:600">texto en rojo</span> = verdicto añadido o corregido tras la publicación del vídeo original 🆕. Sin color ni emoji = confirmado por el propio juego o evidente por diseño. Se ha auditado fila por fila contra el PDF original en el Cap.1; el resto de capítulos usan todavía el emoji como único marcador y se irán revisando igual.
+> 🎨 Fiabilidad: 🔵 suposición fundada, 🟡 teoría más débil del propio autor de la lista, 🆕 verdicto añadido o corregido tras la publicación del vídeo original. Sin marca = confirmado por el propio juego o evidente por diseño. *(Intenté además pintar el fondo real de la celda como en la hoja de cálculo original con HTML, pero el generador del sitio no lo interpreta y lo deja como texto en crudo — lo he quitado hasta encontrar una forma que sí funcione con `build.py`.)* Se ha auditado fila por fila contra el PDF original en el Cap.1; el resto de capítulos usan todavía el emoji sin verificar y se irán revisando igual.
 > ✅ Ya incluye el Cap.5 completo.
 
 > [!question]- Fiabilidad de la lista
@@ -23,7 +23,7 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[Cliffs_cap1.webp\|50]] | Cliffs | Armario de almacenamiento (cerca de la puerta) 🔵 | ![[storage_closet_lightwolrd.png\|50]] |
-> | ![[Castle_Town.webp\|50]] | Castle Town | Armario de almacenamiento |  |
+> | ![[Castle_Town.webp\|50]] | Castle Town | Armario de almacenamiento | ![[storage_closet_lightwolrd.png\|50]] |
 > | ![[Field_cap1.webp\|50]] | Field | Una alfombra morada grande | ![[Field_cap1_lightworld.png\|50]] |
 > | ![[600px-Great_Board_location.png.webp\|50]] | The Great Board | Un tablero de damas | ![[Board_cap1_lightoworld.png\|50]] |
 > | ![[440px-Forest_location.png.webp\|50]] | Block Forest | Un bosque hecho de bloques de construcción | ![[forest_cap1_lightworld.png\|50]] |
@@ -34,20 +34,20 @@ familia: na
 > |---|---|---|---|
 > | ![[Ralsei_overworld_hatless.png\|50]] | Ralsei | ??? |  |
 > | ![[Lancer_Overworld.webp\|50]] | Lancer | La carta de la jota de picas | ![[Cards_item_Lancer.gif\|50]] |
-> | ![[Top_Chef_overworld_talk.gif\|50]] | Top Chef | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una peonza amarilla</span> 🔵 |  |
+> | ![[Top_Chef_overworld_talk.gif\|50]] | Top Chef | Una peonza amarilla 🔵 |  |
 > | ![[Seam_Face.webp\|50]] | Seam | Un peluche | ![[Seam_lightowrld.png\|50]] |
 > | ![[Mr._Elegance_overworld.png\|50]] | Mr. Elegance | Una pieza de caballo (ajedrez) | ![[Board_cap1_lightoworld.png\|50]] |
 > | ![[Mr._Society_overworld.png\|50]] | Mr. Society | Una pieza de alfil | ![[Board_cap1_lightoworld.png\|50]] |
-> | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota | ![[Board_cap1_lightoworld.png\|50]] |
-> | ![[Ball_overworld.png\|50]] | Little Ball | Una bola de tabas/canicas | ![[Board_cap1_lightoworld.png\|50]] |
-> | ![[Blockler_B_overworld.png\|50]] | B Blocker | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una cuenta con la letra "B"</span> 🔵 |  |
-> | ![[Blockler_O_overworld.png\|50]] | O Blocker | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una cuenta con la letra "O"</span> 🔵 |  |
+> | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota |  |
+> | ![[Ball_overworld.png\|50]] | Little Ball | Una bola de tabas/canicas |  |
+> | ![[Blockler_B_overworld.png\|50]] | B Blocker | Una cuenta con la letra "B" 🔵 |  |
+> | ![[Blockler_O_overworld.png\|50]] | O Blocker | Una cuenta con la letra "O" 🔵 |  |
 > | ![[Malius_overworld.gif\|50]] | Malius | Un martillo de juguete que chirría |  |
-> | ![[Worm_overworld.png\|50]] | Worm | <span style="background-color:#f0b429;padding:0 4px;border-radius:3px">Un fidget toy con forma de gusano</span> 🟡 |  |
-> | ![[Starwalker_overworld.png\|50]] | Original Starwalker | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una pegatina de estrella recortada y desgastada</span> 🔵 |  |
-> | ![[Block_Tree_overworld_switch.gif\|50]] | Block Tree | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Bloques de construcción con ojos y piezas de piernas</span> 🔵 | ![[rabbick_cap1_lightworld.png\|50]] |
+> | ![[Worm_overworld.png\|50]] | Worm | Un fidget toy con forma de gusano 🟡 |  |
+> | ![[Starwalker_overworld.png\|50]] | Original Starwalker | Una pegatina de estrella recortada y desgastada 🔵 |  |
+> | ![[Block_Tree_overworld_switch.gif\|50]] | Block Tree | Bloques de construcción con ojos y piezas de piernas 🔵 | ![[rabbick_cap1_lightworld.png\|50]] |
 > | ![[Pair_of_eyes_overworld.png\|50]] | Pair Of Eyes | Pegatinas de ojos |  |
-> | ![[Goulden_Sam_overworld.png\|50]] | Goulden Sam | <span style="background-color:#f0b429;padding:0 4px;border-radius:3px">Cajas vacías de galletas de animalitos</span> 🟡 |  |
+> | ![[Goulden_Sam_overworld.png\|50]] | Goulden Sam | Cajas vacías de galletas de animalitos 🟡 |  |
 > | ![[Former_Kings_overworld.png\|50]] | The Three Kings | El rey de corazones, de diamantes y de tréboles |  |
 > | ![[Cage_Animals_overworld.png\|50]] | Caged Animals | Galletas de animalitos |  |
 > | ![[Rouxls_Kaard_overworld_appear.gif\|50]] | Rouxls Kaard | La carta de las reglas (confirmado por el propio diálogo del personaje en el juego) | ![[rouxl_lightworld.gif\|50]] |
@@ -65,7 +65,7 @@ familia: na
 > | ![[Bloxer_battle_idle.gif\|50]] | Bloxer | Una minifigura tipo LEGO | ![[rabbick_cap1_lightworld.png\|50]] |
 > | ![[Clover_battle.gif\|50]] | Clover | El as de tréboles | ![[cards_lightworld.png\|50]] |
 > | ![[Sheary_overworld.gif\|50]] | Sheary | Unas tijeras |  |
-> | ![[Starwalker_Bird_overworld.gif\|50]] | Starwalker Bird | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una pegatina de estrella</span> 🔵 |  |
+> | ![[Starwalker_Bird_overworld.gif\|50]] | Starwalker Bird | Una pegatina de estrella 🔵 |  |
 > | ![[Rudinn_Ranger_battle.gif\|50]] | Rudinn Ranger | Varias cartas de diamantes (números altos) | ![[cards_lightworld.png\|50]] |
 > | ![[Head_Hathy_battle.gif\|50]] | Head Hathy | Varias cartas de corazones (números altos) | ![[cards_lightworld.png\|50]] |
 > | ![[King_Battle (2).gif\|50]] | King | El rey de picas | ![[cards_lightworld.png\|50]] |
@@ -74,18 +74,18 @@ familia: na
 > [!example]- 🍬 Objetos consumibles (13)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Glowshard | <span style="background-color:#f0b429;padding:0 4px;border-radius:3px">Una baratija brillante perdida en el armario</span> 🟡 |  |
+> |  | Glowshard | Una baratija brillante perdida en el armario 🟡 |  |
 > |  | Dark Candy | Pegatinas de malvavisco rasca-y-huele |  |
 > |  | Darkburger | Migas de hamburguesa quemada |  |
-> |  | Top Cake/Spin Cake | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una peonza con los colores de una tarta</span> 🔵 |  |
+> |  | Top Cake/Spin Cake | Una peonza con los colores de una tarta 🔵 |  |
 > |  | Choco Diamond | Un cuadrado de una tableta de chocolate |  |
 > |  | Hearts Donut | Un donut de mermelada viejo |  |
-> |  | Lancer Cookie | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una bola de arcilla</span> 🔵 |  |
+> |  | Lancer Cookie | Una bola de arcilla 🔵 |  |
 > |  | Revive Mint | Una menta |  |
 > | ![[man_egg.png\|50]] | Egg | Un huevo |  |
-> |  | Clubs Sandwich | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Un trébol de tres hojas</span> 🔵 |  |
+> |  | Clubs Sandwich | Un trébol de tres hojas 🔵 |  |
 > |  | Rouxls' Roux | Un roux concreto |  |
-> |  | Broken Key/Door Key | <span style="background-color:#f0b429;padding:0 4px;border-radius:3px">La llave del armario</span> 🟡 |  |
+> |  | Broken Key/Door Key | La llave del armario 🟡 |  |
 > |  | Shadow Crystal | Un cristal extraño |  |
 >
 > [!example]- ⚔️ Armas (8)
@@ -93,7 +93,7 @@ familia: na
 > |---|---|---|---|
 > |  | Wood Blade | El lápiz de Kris |  |
 > |  | Mane Ax | El cepillo de pelo de Susie |  |
-> |  | Red Scarf | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Papel de construcción rojo</span> 🔵 |  |
+> |  | Red Scarf | Papel de construcción rojo 🔵 |  |
 > |  | Spookysword | Un lápiz temático de Halloween |  |
 > |  | Ragger | Un trapo con pinchos |  |
 > |  | Brave Ax | Un hacha hecha de piezas de construcción |  |
@@ -103,11 +103,11 @@ familia: na
 > [!example]- 🎽 Armaduras (5)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | White Ribbon | <span style="background-color:#f0b429;padding:0 4px;border-radius:3px">Un papel arrugado</span> 🟡 |  |
-> |  | Amber Card | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">Una nota adhesiva naranja</span> 🔵 |  |
+> |  | White Ribbon | Un papel arrugado 🟡 |  |
+> |  | Amber Card | Una nota adhesiva naranja 🔵 |  |
 > |  | Dice Brace | Una pulsera artesanal de cuentas con letras |  |
 > |  | Iron Shackle | Una pulsera de cadena |  |
-> |  | Jevilstail | <span style="background-color:#b7c9ef;padding:0 4px;border-radius:3px">La carta del comodín</span> 🔵 |  |
+> |  | Jevilstail | La carta del comodín 🔵 |  |
 >
 > [!example]- 📦 Objetos/decorado (3)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -263,7 +263,7 @@ familia: na
 > | ![[Suilver_Sam_overworld.png\|50]] | Suilver Sam | Una caja temática de galletas de animalitos 🟡 |  |
 > | ![[Goulden_Son_overworld.png\|50]] | Gouldon Son | Un paquete pequeño de galletas de animalitos 🟡 |  |
 > | ![[Bibliox_battle_idle (1).gif\|50]] | Bibliox (TV World) | El libro de himnos | ![[Biblox_cap3_lightworld.png\|50]] |
-> |  | Seven Flying Aces | Cartas de as fotocopiadas y coloreadas |  |
+> | ![[Blue_Flying_Ace_overworld.png\|50]] | Seven Flying Aces | Cartas de as fotocopiadas y coloreadas | ![[cards_lightworld.png\|50]] |
 >
 > [!example]- 👹 Enemigos (11)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -329,8 +329,8 @@ familia: na
 > |---|---|---|---|
 > | ![[2nd_Sanctuary_location.png\|50]] | Dark/Second Sanctuary | El vestíbulo de la iglesia | ![[Church_location_lobby.png\|50]] |
 > | ![[600px-Study_location.png.webp\|50]] | Study | El despacho del Padre Alvin | ![[Church_location_office.png\|50]] |
-> |  | Dark Zone | El armario | ![[Church_location_storage_room.png\|50]] |
-> | ![[440px-Dark_Sanctuary_location_East_Belltower_base.png.webp\|50]] | East Belltower | La caja de campanas |  |
+> | ![[600px-A_DARK_ZONE_soundtrack.png.webp\|50]] | Dark Zone | El armario | ![[Church_location_storage_room.png\|50]] |
+> | ![[440px-Dark_Sanctuary_location_East_Belltower_base.png.webp\|50]] | East Belltower | La caja de campanas | ![[wicabel_lightworld.png\|50]] |
 > | ![[3rd_Sanctuary_location.png\|50]] | Third Sanctuary | La nave | ![[1024px-Church_location_main_hall.png.webp\|50]] |
 >
 > [!example]- 🧑 Personajes (10)
@@ -352,11 +352,11 @@ familia: na
 > |---|---|---|---|
 > | ![[Guei_battle_idle.webp\|50]] | Guei | Una vela | ![[guei_lightworld.png\|50]] |
 > | ![[Balthizard_battle.gif\|50]] | Balthizard | Un incensario | ![[Balthizard_lightworld.png\|50]] |
-> | ![[Bibliox_battle_idle.gif\|50]] | Bibliox | Un libro |  |
-> | ![[Jackenstein_overworld_talk.gif\|50]] | Jackenstein | Una decoración de Halloween |  |
-> | ![[Jackenstein's_pumpkin_overworld.png\|50]] | Jackenstein's Pumpkin | Una decoración de calabaza de Halloween 🟡 |  |
+> | ![[Bibliox_battle_idle.gif\|50]] | Bibliox | Un libro | ![[Biblox_cap5_lightworld.png\|50]] |
+> | ![[Jackenstein_overworld_talk.gif\|50]] | Jackenstein | Una decoración de Halloween | ![[Jackenstein_overworld_Halloween_decoration.png\|50]] |
+> | ![[Jackenstein's_pumpkin_overworld.png\|50]] | Jackenstein's Pumpkin | Una decoración de calabaza de Halloween 🟡 | ![[Jackenstein_overworld_Halloween_decoration.png\|50]] |
 > | ![[Miss_Mizzle_battle_idle.gif\|50]] | Miss Mizzle | Agua de la jarra | ![[miss_mizzle_lightworld.png\|50]] |
-> | ![[Mizzle_battle_idle.gif\|50]] | Mizzle | Agua bendita |  |
+> | ![[Mizzle_battle_idle.gif\|50]] | Mizzle | Agua bendita | ![[mizzle_lightworld.png\|50]] |
 > | ![[Winglade_battle_idle.gif\|50]] | Winglade | Una pluma de escribir *(repetido en la fuente original, misma identidad que el arma de arriba)* | ![[winglade_lightworld.png\|50]] |
 > | ![[Organikk_battle_idle.gif\|50]] | Organikks | Tubos de órgano | ![[organikk_lightoworld.png\|50]] |
 > | ![[Wicabel_battle.gif\|50]] | Wicabell | Una campanilla de mano | ![[wicabel_lightworld.png\|50]] |
@@ -408,7 +408,7 @@ familia: na
 ## Capítulo 5 — Reino de las Flores
 
 > [!example]- 📍 Lugares (5)
-> ![[Flower_Castle_lightworld.png]]
+> ![[Flower_King_location_first_floor.png]]
 > *La tienda de flores de Asgore en el Mundo Claro — la identidad real de todo el Reino de las Flores de este capítulo.*
 >
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |

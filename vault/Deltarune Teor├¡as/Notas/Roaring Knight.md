@@ -157,8 +157,17 @@ confianza: fuerte
 > ![[asriel_roaringknight2.webp]]
 > *Comparativas que suele citar el fandom para respaldar la teoría de que el Knight es Asriel.*
 
-> [!question]- [[Carol]] y Rudy Holiday (especulación mucho más débil)
-> Existe una rama minoritaria de la teoría Asriel que además lo imagina colaborando en secreto con **Carol** para buscar a Dess por su cuenta — explicaría por qué Carol investiga la zona del Shelter con tanta insistencia. Es una idea interesante pero que descansa en un solo hilo de especulación de la comunidad, sin ninguna pista textual directa del juego. Lo mismo aplica a la variante que apunta a **Rudy**, aunque en su caso hay ahora una teoría propia mucho más desarrollada y con más peso — ver [[Rudy]].
+> [!question]- [[Carol]] y Rudy Holiday (especulación más débil, pero a tener en consideración)
+> Existe una rama minoritaria de la teoría Asriel que además lo imagina colaborando en secreto con **Carol** para buscar a Dess por su cuenta — explicaría por qué Carol investiga la zona del Shelter con tanta insistencia. Es una idea interesante pero que descansa en un solo hilo de especulación de la comunidad, sin ninguna pista textual directa del juego.
+> 
+> Lo mismo aplica en origen a la variante que apunta a **Rudy**, aunque en su caso ha crecido hasta convertirse en su propia candidatura a la identidad del Knight, con bastante más desarrollo y peso que la de Carol — no solo una variante de la teoría Asriel:
+> - **Motivación clara**: si el Knight busca crear Fuentes Oscuras para recuperar a alguien perdido, Rudy comparte exactamente esa motivación con Dess — la misma que Carol, pero sin la sospecha que pesa sobre ella por su papel público de alcaldesa.
+> - **El vínculo Holiday**: el Knight tiene astas, y hasta ahora el único rasgo de diseño consistente que comparte con la familia es precisamente ese — astas de ciervo, la especie de los Holiday.
+> - **No reconoce a Susie en la Ruta Rara del Cap.4**, mientras que con Kris sigue siendo el mismo de siempre — un fallo de reconocimiento selectivo consistente con llevar una doble vida que Susie, al no formar parte de "antes", nunca llegó a conocer del todo.
+> - **Coartada geográfica**: su hospitalización lo mantiene fuera de la vista del resto del pueblo casi todo el juego, y su cama nunca cambia de fondo.
+> - **El eco con Flowery**: al empezar el Cap.5, Flowery le dice a Kris "You've grown so much, haven't you?" — casi calcado a lo que Rudy le dice en la Ruta Rara del Cap.4 ("has crecido mucho, Kris").
+>
+> Puntos bastante más débiles que también circulan (juegos de palabras Rudy/ruddy/Rudolph, que su mano dominante nunca se muestre en pantalla, que pudiera haber aprendido a usar una katana gracias a Carol) aportan poco por sí solos. Ficha completa con todo el desarrollo de esta teoría en [[Rudy]].
 
 > [!question]- El ciervo negro del minijuego retro del Cap.3
 > Dentro del "Juego Original" (el minijuego retro estilo Zelda de la Ruta Espada, en su tercera y última ronda, justo antes del combate contra el Shadow Mantle), hay un enemigo negro y amorfo que copia los movimientos del propio jugador (HERO_SWORD). Revisando los archivos del juego se descubre que ese enemigo tiene un sprite de repuesto sin usar —oculto tras una variable interna llamada literalmente `toriel`, activada por defecto— que resulta ser un **ciervo negro**. El otro enemigo de esa misma ronda, "White Cloak", esconde de la misma forma un ciervo *marrón* como sprite de repuesto. Dado que los Holiday son la única familia de ciervos confirmada del reparto, la lectura casi unánime es que el ciervo negro representa a Dess —y el marrón, más discutido, a Noelle—, escondidos deliberadamente tras esa variable con el nombre de Toriel. Es una de las pistas de archivo más citadas a favor de "Dess es el Caballero", con más peso que la mayoría por tratarse de un dato verificable en el propio código, no solo de una lectura simbólica.

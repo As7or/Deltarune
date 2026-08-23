@@ -122,8 +122,12 @@ confianza: oficial
 >
 > **Teoría de fans consistente y bastante debatida, con motivación y algunas pistas de diseño genuinamente sugerentes — pero el juego nunca confirma ni desmiente la identidad del Caballero, y varios de los argumentos que la sostienen son especulación bastante libre.**
 >
-> ![[flowery_rudy_same_dialogue.png]]
-> *Flowery, al empezar el Cap.5: "Kris. You've grown so much, haven't you?" — la misma frase, casi palabra por palabra, que usa Rudy con Kris. La base real del paralelismo Rudy–Flowery que alimenta esta teoría.*
+> | Rudy (Ruta Rara del Cap.4) | Flowery (inicio del Cap.5) |
+> |---|---|
+> | ![[rudy_flowery_u_grown_alot_kris.png]] | ![[flowery_rudy_same_dialogue.png]] |
+> | *"...de verdad que has crecido mucho, Kris."* | *"Kris. You've grown so much, haven't you?"* |
+>
+> Las dos líneas, una junto a la otra — la base real del paralelismo Rudy–Flowery que alimenta esta teoría.
 >
 > ![[TheRoaringKnightDeltarune.webp]]
 > *La silueta oficial del Caballero Rugiente — la figura con la que esta teoría conecta a Rudy.*
