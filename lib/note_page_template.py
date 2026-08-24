@@ -273,7 +273,12 @@ PAGE_CSS_RUSTED = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- placas metalicas remachadas, con manchas de oxido y borde rasgado --- */
+  /* --- carteles de acero oxidado, simplemente atornillados al corcho: placa
+     metalica rectangular (sin bordes rasgados de papel) con un remache
+     visible en cada esquina y textura de chapa/costuras de panel. El remachado
+     va en un ::before propio (no en el "background" de .callout) para que no
+     desaparezca cuando .callout-info/tip/example/... pisa ese "background"
+     con su propio color por tipo de aviso. --- */
   .callout{
     position:relative;
     background:
@@ -281,17 +286,23 @@ PAGE_CSS_RUSTED = '''
       radial-gradient(ellipse at 85% 75%, rgba(160,60,15,0.3) 0%, transparent 32%),
       radial-gradient(ellipse at 60% 10%, rgba(140,50,10,0.25) 0%, transparent 28%),
       linear-gradient(160deg, #4a3d30 0%, #3a2f26 40%, #2e2620 100%);
-    padding:20px 22px; margin:24px 6px 28px;
-    border:1px solid #6b5842;
-    box-shadow:2px 5px 14px rgba(0,0,0,0.5), inset 0 0 30px rgba(0,0,0,0.35), inset 0 0 50px rgba(150,60,20,0.12);
-    clip-path: polygon(
-      0% 3%, 3% 0%, 10% 2%, 16% 0%, 24% 2%, 31% 0%, 39% 2%, 46% 0%, 54% 2%, 61% 0%, 69% 2%, 76% 0%, 84% 2%, 91% 0%, 97% 2%, 100% 0%,
-      98% 14%, 100% 24%, 97% 33%, 100% 46%, 98% 55%, 100% 67%, 96% 78%, 100% 88%, 96% 100%,
-      88% 97%, 78% 100%, 68% 97%, 58% 100%, 47% 97%, 37% 100%, 27% 97%, 17% 100%, 8% 97%, 0% 100%,
-      3% 87%, 0% 76%, 4% 64%, 0% 53%, 3% 40%, 0% 28%, 3% 16%
-    );
+    padding:26px 26px 24px; margin:24px 8px 28px;
+    border:2px solid #6b5842;
+    border-radius:3px;
+    box-shadow:2px 5px 14px rgba(0,0,0,0.5), inset 0 0 30px rgba(0,0,0,0.35), inset 0 0 50px rgba(150,60,20,0.12), inset 0 0 0 1px rgba(0,0,0,0.4);
   }
-  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:#e0975a; }
+  .callout::before{
+    content:""; position:absolute; inset:0; z-index:1; pointer-events:none; border-radius:inherit;
+    background:
+      radial-gradient(circle 5px at 17px 17px, #d0c0a0 0%, #6b5a3e 58%, transparent 64%),
+      radial-gradient(circle 5px at calc(100% - 17px) 17px, #d0c0a0 0%, #6b5a3e 58%, transparent 64%),
+      radial-gradient(circle 5px at 17px calc(100% - 17px), #d0c0a0 0%, #6b5a3e 58%, transparent 64%),
+      radial-gradient(circle 5px at calc(100% - 17px) calc(100% - 17px), #d0c0a0 0%, #6b5a3e 58%, transparent 64%),
+      repeating-linear-gradient(90deg, rgba(0,0,0,.14) 0 2px, transparent 2px 26px),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.1) 0 2px, transparent 2px 26px);
+  }
+  .callout-title{ position:relative; z-index:2; font-weight:bold; margin-bottom:8px; font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:#e0975a; }
+  .callout-body{ position:relative; z-index:2; }
   .callout-body p{ margin:5px 0; font-size:14px; line-height:1.55; color:#d9cdb2; }
   .callout-info{ background:radial-gradient(ellipse at 20% 20%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#38424a,#2a3238); }
   .callout-tip{ background:radial-gradient(ellipse at 80% 25%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#354a38,#28362a); }
@@ -299,13 +310,6 @@ PAGE_CSS_RUSTED = '''
   .callout-danger{ background:radial-gradient(ellipse at 75% 20%, rgba(190,90,25,0.35) 0%, transparent 32%), linear-gradient(160deg,#4a2e28,#3a221e); }
   .callout-quote{ background:radial-gradient(ellipse at 25% 80%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#3d3548,#2c2736); }
   .callout-question{ background:linear-gradient(160deg,#4a3d20,#3a2f18); }
-  .callout::before, .callout::after{
-    content:""; position:absolute; width:8px; height:8px; border-radius:50%;
-    background:radial-gradient(circle at 35% 30%, #a89880, #4a3d2e 70%);
-    box-shadow:0 1px 2px rgba(0,0,0,0.6);
-  }
-  .callout::before{ top:6px; left:6px; }
-  .callout::after{ bottom:6px; right:6px; }
   .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(0,0,0,0.6); }
 
   .wikilink{ color:#e0975a; border-bottom:1px dotted #e0975a; text-decoration:none; cursor:pointer; }

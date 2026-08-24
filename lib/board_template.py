@@ -173,20 +173,14 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 
   /* ---- Shelter: placa de metal oxidada y rasgada ---- */
   .node-rusted .rusted-card{{
-    position:relative; overflow:hidden; border-radius:2px;
+    position:relative; overflow:hidden; border-radius:3px; border:2px solid #7a6a52;
     background:
       repeating-linear-gradient(90deg, rgba(0,0,0,.22) 0 2px, transparent 2px 26px),
       repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0 2px, transparent 2px 26px),
       radial-gradient(ellipse 70% 40% at 15% 10%, rgba(200,100,40,.32) 0, transparent 55%),
       radial-gradient(ellipse 55% 40% at 85% 90%, rgba(160,70,25,.4) 0, transparent 60%),
       linear-gradient(160deg, #6b6058 0%, #3a332e 100%);
-    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 18px rgba(0,0,0,.4);
-    clip-path: polygon(
-      0% 3%, 4% 0%, 12% 2%, 18% 0%, 27% 3%, 35% 0%, 44% 2%, 52% 0%, 61% 3%, 69% 0%, 78% 2%, 86% 0%, 94% 3%, 100% 0%,
-      98% 15%, 100% 25%, 97% 35%, 100% 48%, 98% 58%, 100% 70%, 96% 82%, 100% 92%, 95% 100%,
-      85% 97%, 73% 100%, 62% 97%, 50% 100%, 38% 97%, 27% 100%, 15% 97%, 5% 100%, 0% 95%,
-      3% 82%, 0% 70%, 4% 58%, 0% 45%, 3% 32%, 0% 20%, 4% 10%
-    );
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 18px rgba(0,0,0,.4), inset 0 0 0 1px rgba(0,0,0,.4);
   }}
   .node-rusted .rust-texture{{ position:absolute; inset:0; z-index:1; pointer-events:none;
     background:
