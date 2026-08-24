@@ -37,6 +37,9 @@ confianza: fuerte
 > [!example]+ Capítulo 2 — De vuelta en la tienda
 > Sigue regentando su tienda en Hometown, disponible para hablar en cuanto se sale del Reino de las Cartas — la misma rutina de siempre, sin cambios aparentes en su discurso ni en lo que vende.
 >
+> ![[sans_shop_cap2.png]]
+> *El interior de la tienda de Sans en el Cap.2, con Kris y Susie de visita — el mismo surtido y el mismo puesto tras el mostrador que en el Cap.1.*
+>
 > Su casa, en cambio, sigue sin abrir la puerta: llamar en el Cap.2 repite el mismo gesto que en el Cap.1 —Sans no aparece, y solo se oye un sonido lejano de fondo—, aunque esta vez la narración lo describe alejándose ("...growing further away..."), como si aquello que suena tras la puerta se moviera hacia el interior de la casa en vez de quedarse quieto. Ver la teoría "¿Por qué no aparece Papyrus?" más abajo.
 >
 > ![[Sans's_house_screenshot_knocking_Chapter_2.png]]
