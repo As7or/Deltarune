@@ -729,6 +729,35 @@ SHARED_CSS_EXTRA = '''
     letter-spacing:0; text-transform:none; transform:rotate(-9deg); opacity:.85;
   }
 
+  /* --- "Objetos del Mundo Oscuro.md": cada capitulo tiñe sus postits de
+     categoria (Lugares/Personajes/Enemigos/...) y las tablas que contienen
+     con el color mas representativo de ese Mundo Oscuro, para distinguir
+     un capitulo de otro de un vistazo sin perder el aspecto de postit --- */
+  .callout.chapter-c1{ background:#f9d6d0; }
+  .callout.chapter-c1 table.note-table{ background:#fdf1ee; border-color:#e3a99e; }
+  .callout.chapter-c1 table.note-table th{ background:#efb2a6; color:#5c1e14; }
+  .callout.chapter-c1 table.note-table td{ border-color:#eecac2; }
+
+  .callout.chapter-c2{ background:#f4d3ef; }
+  .callout.chapter-c2 table.note-table{ background:#fdf1fb; border-color:#d19bcb; }
+  .callout.chapter-c2 table.note-table th{ background:#e4aedc; color:#4d1a48; }
+  .callout.chapter-c2 table.note-table td{ border-color:#ecc9e6; }
+
+  .callout.chapter-c3{ background:#cceff1; }
+  .callout.chapter-c3 table.note-table{ background:#eefbfc; border-color:#89c7cc; }
+  .callout.chapter-c3 table.note-table th{ background:#a4dde1; color:#0f3d40; }
+  .callout.chapter-c3 table.note-table td{ border-color:#c4e9eb; }
+
+  .callout.chapter-c4{ background:#ded1f4; }
+  .callout.chapter-c4 table.note-table{ background:#f6f1fc; border-color:#ac91d6; }
+  .callout.chapter-c4 table.note-table th{ background:#c3a9e6; color:#341c5c; }
+  .callout.chapter-c4 table.note-table td{ border-color:#dccbf0; }
+
+  .callout.chapter-c5{ background:#d6ecc4; }
+  .callout.chapter-c5 table.note-table{ background:#f3faee; border-color:#9bc981; }
+  .callout.chapter-c5 table.note-table th{ background:#b6dd9c; color:#25470f; }
+  .callout.chapter-c5 table.note-table td{ border-color:#d3e9c3; }
+
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }
   #lightbox-overlay{

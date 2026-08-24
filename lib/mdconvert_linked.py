@@ -15,6 +15,20 @@ CALLOUT_ICONS = {
     "question": ("?", "#c9982e"),
 }
 
+# En "Objetos del Mundo Oscuro.md" cada "## Capítulo N — ..." agrupa varias
+# secciones [!example] (Lugares, Personajes, Enemigos...) con sus tablas.
+# Se les asigna una clase CSS distinta por capítulo -segun el color mas
+# representativo de cada Mundo Oscuro- para que el postit y la tabla de esa
+# seccion se distingan a simple vista de las de otro capitulo. Solo esta nota
+# usa un encabezado "## Capítulo N", asi que no afecta a ningun otro archivo.
+CHAPTER_COLOR_CLASS = {
+    1: "chapter-c1",  # Reino de las Cartas -> rojo (cartas, alfombra roja del King)
+    2: "chapter-c2",  # Mundo Ciber -> magenta neon
+    3: "chapter-c3",  # Mundo TV -> cian/turquesa (Queen, estatica de TV)
+    4: "chapter-c4",  # Iglesia y Santuario Oscuro -> violeta
+    5: "chapter-c5",  # Reino de las Flores -> verde
+}
+
 # Diccionario {nombre original de la nota: nombre de archivo sin acentos} para
 # saber que wikilinks [[Nombre]] se pueden convertir en enlaces reales, y con
 # qué nombre de archivo real construir el href. Lo rellena el script llamador.
@@ -310,7 +324,7 @@ def depth_of(line):
             break
     return d, line[i:]
 
-def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
+def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapter_class=None):
     header = lines[0][1]
     m = re.match(r"\[!(\w+)\]([+-]?)\s*(.*)", header)
     ctype = m.group(1) if m else "info"
@@ -330,7 +344,7 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
             while i < len(lines) and lines[i][0] > base_depth:
                 nested.append((lines[i][0]-base_depth, lines[i][1]))
                 i += 1
-            body_parts.append(render_callout_block(nested, sprites_prefix, depth+1))
+            body_parts.append(render_callout_block(nested, sprites_prefix, depth+1, chapter_class=chapter_class))
         else:
             stripped = content.strip()
             # Imagen de cabecera: si es la PRIMERA linea de contenido de un
@@ -414,7 +428,8 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
     except ImportError:
         rotation_for = lambda t: 0
     rot = rotation_for((title or ctype) + str(depth)) * (1.3 if depth > 0 else 1)
-    return (f'<div class="callout callout-{ctype}" style="transform:rotate({rot}deg);">'
+    cls_extra = f" {chapter_class}" if chapter_class else ""
+    return (f'<div class="callout callout-{ctype}{cls_extra}" style="transform:rotate({rot}deg);">'
             f'{title_html}<div class="callout-body">{body}</div></div>')
 
 def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
@@ -425,6 +440,7 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
     out = []
     i = 0
     n = len(lines)
+    chapter_class = None
     while i < n:
         line = lines[i]
         if line.strip().startswith("|"):
@@ -445,12 +461,16 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
                 if not first and dd == base_depth and re.match(r"\[!\w+\][+-]?\s*", content):
                     break
                 block.append((dd, content)); i += 1; first = False
-            out.append(render_callout_block(block, sprites_prefix))
+            out.append(render_callout_block(block, sprites_prefix, chapter_class=chapter_class))
             continue
         if line.startswith("### "):
             out.append(f"<h3>{inline_md(line[4:], sprites_prefix)}</h3>")
         elif line.startswith("## "):
-            out.append(f"<h2>{inline_md(line[3:], sprites_prefix)}</h2>")
+            heading_text = line[3:]
+            cap_match = re.match(r"Capítulo\s+(\d+)", heading_text.strip())
+            if cap_match:
+                chapter_class = CHAPTER_COLOR_CLASS.get(int(cap_match.group(1)))
+            out.append(f"<h2>{inline_md(heading_text, sprites_prefix)}</h2>")
         elif line.startswith("# "):
             out.append(f"<h1>{inline_md(line[2:], sprites_prefix)}</h1>")
         elif line.strip().startswith("![["):
