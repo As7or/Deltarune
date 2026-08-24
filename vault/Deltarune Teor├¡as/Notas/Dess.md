@@ -117,7 +117,7 @@ confianza: fuerte
 
 ## Curiosidades
 - La respuesta oculta a introducir "1225" como respuesta en una página promocional real de 2025 fue una paráfrasis de la "ley del instrumento" de Maslow ("cuando lo único que tienes es un martillo, todo parece un clavo") — un guiño textual directo a Dess relacionado con ese mismo número.
-- Su arma por defecto es la Guitarra de Roca (Rock Guitar).
+- No tiene arma por defecto ni se la ha visto nunca en combate.
 - El bloque de texto "UNUSED" existe ya desde el Cap.1 y ha ido creciendo capítulo a capítulo — de confirmarse que es Dess, llevaría "hablando" en la sombra desde el principio mismo del juego sin que nadie lo supiera.
 
 ## Relacionado
