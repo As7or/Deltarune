@@ -277,7 +277,7 @@ familia: na
 > | ![[Shuttah_battle_idle.gif\|50]] | Shuttah | Una cámara Polaroid |  |
 > | ![[Zapper_battle_idle.gif\|50]] | Zapper | Un mando de televisión |  |
 > | ![[Ribbick_battle_idle.gif\|50]] | Ribbick | Una bola de polvo |  |
-> | ![[Shadow_Mantle_holder_battle_idle.gif\|50]] | ERAM | La diadema con cuernos de Kris 🟡 |  |
+> | ![[shadow_mantle.gif\|50]] | ERAM | La diadema con cuernos de Kris 🟡 |  |
 > | ![[FRIEND.png\|50]] | Friend | ??? |  |
 >
 > [!example]- 🍬 Objetos consumibles (4)
@@ -303,15 +303,15 @@ familia: na
 > |  | Ginger Guard | Un cortador de galletas |  |
 > |  | Blue Ribbon | Parte de un traje de animadora (probablemente de Catti) 🟡 |  |
 > |  | Tenna Tie | Una corbata (probablemente de Asgore) 🔵 |  |
-> | ![[shadow_mantle.gif\|50]] | Shadow Mantle | ??? |  |
+> | ![[Shadow_Mantle_holder_battle_idle.gif\|50]] | Shadow Mantle | ??? |  |
 >
 > [!example]- 📦 Objetos/decorado (9)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > |  | Game Console | La consola de Kris y Asriel |  |
-> |  | Green Couch | La cama de Asriel | ![[asriel_bed.png\|50]] |
-> |  | Blue Couch | La cama de Kris | ![[grey_sofa.png\|50]] |
-> | ![[cortina_darkworld.png\|50]] | Curtain | La cortina de la ducha |  |
+> |  | Green Couch | La cama de Asriel | ![[asriel_sofa_greenroom.png\|50]] |
+> |  | Blue Couch | La cama de Kris | ![[kris_bed.png\|50]] |
+> | ![[cortina_darkworld.png\|50]] | Curtain | La cortina de la ducha | ![[cortina_lightworld.png\|50]] |
 > |  | Small black triangle | La púa de una guitarra |  |
 > |  | Odd Controller | El mando pirata debajo de la cama de Asriel |  |
 > |  | The Pipes | La fontanería de la casa 🔵 |  |
@@ -402,7 +402,7 @@ familia: na
 > |  | Couch Cushion | Un cojín de sofá 🔵 |  |
 > |  | Water Container | Pila de agua bendita |  |
 > | ![[440px-Dark_Sanctuary_location_golden_piano.png.webp\|50]] | Pianolike Organ | El teclado en la habitación más a la izquierda | ![[pianolike_organ_lightworld.png\|50]] |
-> | ![[Great_Door_overworld.png\|50]] | The Great Door | La puerta del vestíbulo a la nave |  |
+> | ![[great_door_cap4.png\|50]] | The Great Door | La puerta del vestíbulo a la nave | ![[dreemur_door.png\|50]] |
 >
 
 ## Capítulo 5 — Reino de las Flores

@@ -328,6 +328,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 <div id="legend">
   <div><span class="dot" style="background:#2e8b46;"></span> Lightner</div>
   <div><span class="dot" style="background:#6b3fa0;"></span> Darkner</div>
+  <div><span class="dot" style="background:#3a9aa6;"></span> Planta</div>
   <div><span class="dot" style="background:#c9982e;"></span> Lugar</div>
   <div><span class="dot" style="background:#6b7280;"></span> Tema / Other</div>
   <div style="margin-top:6px;"><span class="swatch" style="background:#2e8b46;"></span> arista: oficial</div>

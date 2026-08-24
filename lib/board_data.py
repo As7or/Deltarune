@@ -73,6 +73,9 @@ NODE_COLOR_MAP = {
     "4": "#2e8b46", "6": "#6b3fa0",
     "#6b7280": "#6b7280", "6b7280": "#6b7280",
     "3": "#c9982e", None: "#6b7280",
+    # "5" (cian de Obsidian) se reserva para personajes-planta como Flowery:
+    # no son Darkners al uso, asi que se distinguen del morado generico.
+    "5": "#3a9aa6",
 }
 EDGE_COLOR_MAP = {
     "1": "#b23c30", "2": "#c97a3d", "3": "#c9982e",
