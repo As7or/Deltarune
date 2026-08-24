@@ -685,9 +685,49 @@ SHARED_CSS_EXTRA = '''
   table.note-table td.rel-blue.rel-yellow{ background:linear-gradient(180deg,#b7c9ef 50%,#f0b429 50%); }
   table.note-table td.rel-new{ color:#c0392b; font-weight:700; }
 
-  /* --- imagen de cabecera de capitulo/zona (mas pequena que una imagen suelta normal) --- */
-  figure.fig-header{ margin:10px 0 16px; }
-  figure.fig-header img{ width:auto; max-width:540px; max-height:560px; margin:0 auto; box-shadow:0 2px 8px rgba(0,0,0,0.28); }
+  /* --- imagen de cabecera de capitulo/zona: foto de expediente clavada al
+     corcho con una chincheta, en vez de una imagen suelta generica --- */
+  figure.fig-header{
+    position:relative; display:block; width:fit-content; max-width:100%;
+    margin:20px auto 26px; padding:9px 9px 7px;
+    background:#fffdf6; border:1px solid rgba(0,0,0,0.07);
+    box-shadow:0 12px 22px -8px rgba(0,0,0,0.42), 0 2px 5px rgba(0,0,0,0.18);
+    transform:rotate(-0.6deg);
+  }
+  figure.fig-header::before{
+    content:""; position:absolute; top:-9px; left:50%; margin-left:-8px;
+    width:16px; height:16px; border-radius:50%; z-index:2;
+    background:radial-gradient(circle at 34% 30%, #ff9c8c, #b91f1f 55%, #650d0d 100%);
+    box-shadow:0 3px 4px rgba(0,0,0,0.45);
+  }
+  figure.fig-header img{
+    width:auto; max-width:540px; max-height:560px; margin:0 auto; display:block;
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,0.08);
+  }
+  figure.fig-header figcaption{
+    font-family:'Courier New', monospace; font-size:11px; letter-spacing:.03em;
+    text-transform:uppercase; margin-top:9px; padding-top:7px;
+    border-top:1px dashed rgba(0,0,0,0.22);
+  }
+
+  /* --- cabecera de categoria tipo "expediente" (Lugares/Personajes/...):
+     icono a modo de chincheta, contador a modo de sello de tinta --- */
+  .case-tag{
+    display:flex; align-items:center; gap:10px;
+    padding-bottom:9px; border-bottom:2px dashed rgba(0,0,0,0.22);
+  }
+  .case-tag-icon{
+    font-size:19px; line-height:1; flex-shrink:0;
+    filter:drop-shadow(0 1px 1px rgba(0,0,0,0.3));
+  }
+  .case-tag-label{ flex:1; }
+  .case-tag-count{
+    display:inline-flex; align-items:center; justify-content:center;
+    min-width:26px; height:26px; padding:0 5px; flex-shrink:0;
+    border:2px solid #8a2020; border-radius:50%; background:rgba(138,32,32,0.07);
+    color:#8a2020; font-family:'Courier New', monospace; font-weight:700; font-size:12px;
+    letter-spacing:0; text-transform:none; transform:rotate(-9deg); opacity:.85;
+  }
 
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }

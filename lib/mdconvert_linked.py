@@ -389,7 +389,25 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False):
         # propio marco visual, para no anidar una tarjeta postit dentro de
         # otra y generar margenes/huecos horizontales raros.
         return body
-    title_html = f'<div class="callout-title">{inline_md(title, sprites_prefix)}</div>' if title else ""
+    # Las cabeceras de categoria de "Objetos del Mundo Oscuro.md" (Lugares,
+    # Personajes, Enemigos...) siguen siempre el patron "EMOJI Etiqueta (N)".
+    # Se separan en icono / etiqueta / contador para poder darles un
+    # tratamiento de "ficha de expediente" (icono a modo de chincheta,
+    # contador a modo de sello) en vez de un titulo de postit generico.
+    case_match = re.match(r"^(\S+)\s+(.+?)\s*\((\d+)\)\s*$", title) if ctype == "example" and title else None
+    if case_match:
+        icon_txt, label_txt, count_txt = case_match.groups()
+        title_html = (
+            '<div class="callout-title case-tag">'
+            f'<span class="case-tag-icon">{html.escape(icon_txt)}</span>'
+            f'<span class="case-tag-label">{inline_md(label_txt, sprites_prefix)}</span>'
+            f'<span class="case-tag-count">{html.escape(count_txt)}</span>'
+            '</div>'
+        )
+    elif title:
+        title_html = f'<div class="callout-title">{inline_md(title, sprites_prefix)}</div>'
+    else:
+        title_html = ""
     import importlib
     try:
         from note_page_template import rotation_for
