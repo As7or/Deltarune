@@ -671,6 +671,136 @@ PAGE_CSS_FOUNTAIN = '''
   .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
 '''
 
+PAGE_CSS_GASTER = '''
+  body{
+    margin:0; padding:24px 26px 60px; font-family:'Consolas','Courier New',monospace; color:#c4c4be;
+    background-color:#141412;
+    background-image:
+      radial-gradient(ellipse at 20% 10%, rgba(255,255,255,0.035) 0, transparent 40%),
+      radial-gradient(ellipse at 80% 15%, rgba(0,0,0,0.35) 0, transparent 40%),
+      radial-gradient(ellipse at 50% 90%, rgba(0,0,0,0.4) 0, transparent 50%),
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0px, transparent 1px, transparent 3px);
+  }
+  body::after{
+    content:""; position:fixed; inset:0; pointer-events:none; z-index:9998;
+    background:repeating-linear-gradient(0deg, rgba(255,255,255,0.015) 0px, rgba(255,255,255,0.015) 1px, transparent 1px, transparent 3px);
+    mix-blend-mode:overlay;
+  }
+  h1{
+    font-size:21px; color:#e8e8e2; border-bottom:2px solid #5a5a54; padding-bottom:8px; letter-spacing:.04em;
+    text-shadow:1px 0 0 rgba(120,40,50,0.22), -1px 0 0 rgba(60,120,130,0.18);
+  }
+  h2{ font-size:16px; color:#9a9a92; margin-top:24px; letter-spacing:.03em; text-transform:uppercase; }
+  h3{ font-size:14px; color:#9a9a92; }
+  p{ font-size:14.5px; line-height:1.7; margin:8px 0; color:#bcbcb4; }
+  img{ max-width:100%; border-radius:1px; display:block; margin:8px auto; filter:grayscale(0.85) contrast(1.08) brightness(0.96); }
+  figure{ margin:14px 0; text-align:center; }
+  figcaption{ font-size:12px; font-style:italic; color:#7c7c74; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border:1px solid #3a3a34; box-shadow:0 3px 12px rgba(0,0,0,0.6); }
+  .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
+  .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
+  table.note-table{ width:100%; max-width:700px; border-collapse:collapse; margin:12px auto; background:#1c1c19; }
+  table.note-table th, table.note-table td{ border:1px solid #454540; padding:6px; font-size:12.5px; text-align:center; vertical-align:top; color:#bcbcb4; }
+  table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
+  table.note-table .inline-img-small{ height:110px; }
+
+  /* --- postit viejo, gris y polvoriento, con el borde medio rasgado: papel
+     envejecido, motas de polvo y una esquina suelta a punto de despegarse,
+     en vez del postit amarillo brillante habitual --- */
+  .callout{
+    position:relative;
+    background:
+      radial-gradient(circle 1px at 12% 18%, rgba(0,0,0,0.5) 0, transparent 100%),
+      radial-gradient(circle 1px at 34% 62%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1.4px at 71% 30%, rgba(0,0,0,0.45) 0, transparent 100%),
+      radial-gradient(circle 1px at 82% 74%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1.2px at 55% 88%, rgba(0,0,0,0.35) 0, transparent 100%),
+      radial-gradient(ellipse 40% 30% at 85% 15%, rgba(70,55,55,0.16) 0%, transparent 70%),
+      radial-gradient(ellipse 30% 25% at 10% 85%, rgba(55,60,62,0.14) 0%, transparent 65%),
+      linear-gradient(155deg, #cfcfc6 0%, #b7b7ac 45%, #a3a398 100%);
+    padding:16px 18px 18px; margin:24px 14px 28px;
+    box-shadow:2px 6px 14px rgba(0,0,0,0.55), inset 0 -14px 22px -16px rgba(0,0,0,0.25);
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    clip-path: polygon(
+      0% 2%, 6% 0%, 13% 1.6%, 21% 0.4%, 29% 2%, 37% 0%, 46% 1.6%, 54% 0.3%, 62% 2%, 70% 0%, 78% 1.6%, 86% 0.4%, 93% 1.4%, 100% 0.5%,
+      99% 9%, 100% 18%, 98% 27%, 100% 36%, 98.5% 45%, 100% 54%, 98% 63%, 100% 72%, 98.5% 81%, 100% 90%, 99% 97%,
+      92% 100%, 84% 98.5%, 76% 100%, 68% 99%, 60% 100%, 52% 98.5%, 44% 100%, 36% 99%, 28% 100%, 20% 98.5%, 12% 100%, 4% 99%, 0% 97%,
+      1.4% 88%, 0% 79%, 1.6% 70%, 0% 61%, 1.4% 52%, 0% 43%, 1.6% 34%, 0% 25%, 1.4% 16%, 0% 8%
+    );
+  }
+  .callout::after{
+    content:""; position:absolute; top:-6px; right:10%; width:34px; height:26px; z-index:2;
+    background:linear-gradient(200deg, #c2c2b6 40%, #9c9c90 100%);
+    clip-path: polygon(0% 100%, 100% 100%, 78% 8%, 34% 0%, 12% 38%);
+    box-shadow:1px 2px 4px rgba(0,0,0,0.5);
+    transform:rotate(-7deg);
+    opacity:.92;
+  }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#2c2c26; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#38382e; }
+
+  .callout-info{ background:linear-gradient(155deg,#c4d0d0,#a5b0b0); }
+  .callout-tip{ background:linear-gradient(155deg,#c4cfc2,#a3aea1); }
+  .callout-example{ background:linear-gradient(155deg,#cfcfc6,#b0b0a4); }
+  .callout-danger{ background:linear-gradient(155deg,#d2c0bc,#b09a95); }
+  .callout-quote{ background:linear-gradient(155deg,#c8c4ce,#a8a3ae); }
+  .callout-question{ background:linear-gradient(155deg,#d0ccb6,#b0ab92); }
+
+  .callout .callout{
+    margin:16px 4px 8px;
+    box-shadow:3px 7px 16px rgba(0,0,0,0.6), inset 0 -10px 16px -10px rgba(0,0,0,0.18);
+  }
+
+  .wikilink{ color:#e8e8e0; border-bottom:1px dotted #8a8a80; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(255,255,255,0.08); }
+
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
+  .fm-badge{
+    position:relative; display:inline-flex; align-items:baseline; gap:5px;
+    background:linear-gradient(180deg, rgba(38,38,35,0.5), rgba(26,26,24,0.5));
+    border:1px solid #4a4a42; border-radius:2px; padding:4px 12px 4px 10px;
+    font-size:10.5px; color:#c4c4bc; font-family:'Consolas','Courier New',monospace;
+  }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#8a8a80; flex-shrink:0; align-self:center; }
+  .fm-badge b{ font-weight:700; color:#e8e8e0; text-transform:uppercase; font-size:9px; letter-spacing:.03em;  margin-right:5px;}
+  .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; filter:grayscale(1); }
+  .fm-badge[data-key="tipo"]{ border-left:3px solid #8a8a80; }
+  .fm-badge[data-key="mundo"]{ border-left:3px solid #6e7676; }
+  .fm-badge[data-key="especie"]{ border-left:3px solid #75786c; }
+  .fm-badge[data-key="familia"]{ border-left:3px solid #7a6e74; }
+  .fm-badge[data-key="grupo"]{ border-left:3px solid #8a826e; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#c47070; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#1e1e1b; border:1px solid #4a4a42; border-radius:3px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#e0e0d6 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.4);
+  }
+  .submap-link:hover{ filter:brightness(1.15); }
+
+  .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
+  .link-chip{
+    display:inline-block; background:#1e1e1b; border:1px solid #4a4a42; border-radius:3px;
+    padding:5px 13px; box-shadow:1px 2px 5px rgba(0,0,0,0.4);
+  }
+  .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
+  .link-chip:hover{ background:#28281e; }
+
+  .note-list{ margin:8px 0; padding-left:22px; }
+  .note-list li{ font-size:14.5px; line-height:1.55; margin:4px 0; color:#bcbcb4; }
+  .note-list li::marker{ color:#6a6a60; }
+
+  .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border:1px solid #4a4a42; overflow:hidden; filter:grayscale(0.7); }
+  .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+'''
+
 # --- CSS compartido por TODOS los temas: no depende de colores de cada tema,
 # asi que se anade una sola vez en vez de duplicarlo 7 veces. Cubre: colores
 # reales de fiabilidad en la columna "Identidad real" (antes solo emoji),
@@ -836,6 +966,7 @@ THEME_CSS = {
     "crystal": PAGE_CSS_CRYSTAL,
     "undertale": PAGE_CSS_UNDERTALE,
     "fountain": PAGE_CSS_FOUNTAIN,
+    "gaster": PAGE_CSS_GASTER,
 }
 
 def render_page(title_escaped, body_html, theme="postit"):

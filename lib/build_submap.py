@@ -230,6 +230,13 @@ PAGE_CSS = '''
       radial-gradient(ellipse at 82% 28%, rgba(90,60,20,0.15) 0, transparent 42%),
       radial-gradient(ellipse at 55% 92%, rgba(70,45,15,0.2) 0, transparent 50%);
   }
+  #viewport.viewport-gaster{
+    background-color:#141412;
+    background-image:
+      radial-gradient(ellipse at 20% 10%, rgba(255,255,255,0.03) 0, transparent 40%),
+      radial-gradient(ellipse at 80% 15%, rgba(0,0,0,0.35) 0, transparent 40%),
+      radial-gradient(ellipse at 50% 90%, rgba(0,0,0,0.4) 0, transparent 50%);
+  }
   #board{ position:absolute; top:0; left:0; transform-origin:0 0; will-change:transform; }
   svg#strings{ position:absolute; top:0; left:0; width:100%; height:100%; overflow:visible; }
   .string-hit{ stroke:transparent; stroke-width:16; fill:none; }
@@ -412,6 +419,28 @@ PAGE_CSS = '''
   .node-fountain .title{ position:relative; z-index:2; color:#eaf7ff; text-shadow:0 0 6px rgba(150,210,255,.6); }
   .node-fountain .summary{ position:relative; z-index:2; color:#d5ecfb; }
 
+  /* ---- Gaster: posit viejo, gris y polvoriento, con el borde medio rasgado ---- */
+  .node-gaster .gaster-card{
+    position:relative; overflow:hidden; border-radius:2px;
+    background:linear-gradient(155deg, #cfcfc6 0%, #adada2 55%, #949488 100%);
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 16px rgba(0,0,0,.18);
+    clip-path: polygon(
+      0% 3%, 5% 0%, 13% 2%, 20% 0%, 29% 2.5%, 37% 0%, 46% 2%, 55% 0%, 64% 2.5%, 73% 0%, 82% 2%, 91% 0%, 97% 2%, 100% 0.5%,
+      98% 16%, 100% 28%, 97% 40%, 100% 54%, 98% 66%, 100% 80%, 96% 92%, 100% 100%,
+      86% 97%, 72% 100%, 58% 97%, 44% 100%, 30% 97%, 16% 100%, 4% 96%,
+      2% 82%, 0% 68%, 2.5% 54%, 0% 40%, 2% 26%, 0% 13%
+    );
+  }
+  .node-gaster .gaster-dust{ position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:
+      radial-gradient(circle 1px at 20% 25%, rgba(0,0,0,.4) 0, transparent 100%),
+      radial-gradient(circle 1px at 65% 60%, rgba(0,0,0,.35) 0, transparent 100%),
+      radial-gradient(circle 1.2px at 40% 80%, rgba(0,0,0,.3) 0, transparent 100%),
+      radial-gradient(circle 1px at 85% 20%, rgba(0,0,0,.35) 0, transparent 100%),
+      radial-gradient(ellipse 40% 30% at 80% 85%, rgba(60,55,55,.14) 0%, transparent 70%); }
+  .node-gaster .thumb{ position:relative; z-index:2; filter:grayscale(1) contrast(1.05); }
+  .node-gaster .title{ position:relative; z-index:2; color:#2c2c24; }
+
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }
   .node-scroll .roll{ position:relative; height:22px; width:100%; z-index:2;
@@ -538,11 +567,11 @@ def build_submap(canvas_path, title_name):
     # Nodos con el mismo tema visual especial que sus tarjetas en el corcho
     # principal (Shelter, Lago, Cristal Oscuro, Conexion Undertale, Profecia,
     # Fuentes Oscuras) -- se detectan por titulo exacto de la burbuja/centro.
-    SPECIAL_THEMES = {"Shelter", "Lake", "Cristal Oscuro", "Conexión Undertale", "Profecía", "Fuentes Oscuras"}
+    SPECIAL_THEMES = {"Shelter", "Lake", "Cristal Oscuro", "Conexión Undertale", "Profecía", "Fuentes Oscuras", "Gaster"}
     THEME_VIEWPORT_CLASS = {
         "Shelter": "viewport-rusted", "Lake": "viewport-wet", "Cristal Oscuro": "viewport-crystal",
         "Conexión Undertale": "viewport-undertale", "Fuentes Oscuras": "viewport-fountain",
-        "Profecía": "viewport-parchment",
+        "Profecía": "viewport-parchment", "Gaster": "viewport-gaster",
     }
     # Si el propio centro del submapa es una de esas 6 notas especiales, todo
     # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).
@@ -669,6 +698,16 @@ def build_submap(canvas_path, title_name):
     {pin}
     <div class="card fountain-card" style="border-top:5px solid {it['color']};">
       <div class="fountain-glow"></div>
+      <div class="{thumb_class}" style="height:{thumb_h}px;">{img_tag}</div>
+      <div class="title">{title_html}</div>
+    </div>
+  </div>''')
+        elif theme == "Gaster":
+            node_html.append(f'''
+  <div class="node node-gaster" {base_attrs} style="{pos_style}">
+    {pin}
+    <div class="card gaster-card" style="border-top:5px solid {it['color']};">
+      <div class="gaster-dust"></div>
       <div class="{thumb_class}" style="height:{thumb_h}px;">{img_tag}</div>
       <div class="title">{title_html}</div>
     </div>

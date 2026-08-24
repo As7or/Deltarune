@@ -43,6 +43,7 @@ RUSTED_NOTES = {"Shelter"}
 CRYSTAL_NOTES = {"Cristal Oscuro"}
 UNDERTALE_NOTES = {"Conexión Undertale"}
 FOUNTAIN_NOTES = {"Fuentes Oscuras"}
+GASTER_NOTES = {"Gaster (W. D. Gaster)"}
 
 
 def find_vault_root(path):
@@ -146,6 +147,7 @@ def build(vault_path, out_dir):
             "crystal" if stem in CRYSTAL_NOTES else
             "undertale" if stem in UNDERTALE_NOTES else
             "fountain" if stem in FOUNTAIN_NOTES else
+            "gaster" if stem in GASTER_NOTES else
             "postit"
         )
         page = note_page_template.render_page(html.escape(stem), body, theme=theme)
