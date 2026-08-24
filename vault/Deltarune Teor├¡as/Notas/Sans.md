@@ -35,9 +35,12 @@ confianza: fuerte
 > *Sans presentándose a Kris como recién llegado a Hometown.*
 
 > [!example]+ Capítulo 2 — De vuelta en la tienda
-> Sigue regentando su tienda en Hometown, disponible para hablar tras salir del Reino de las Cartas.
-> 
-
+> Sigue regentando su tienda en Hometown, disponible para hablar en cuanto se sale del Reino de las Cartas — la misma rutina de siempre, sin cambios aparentes en su discurso ni en lo que vende.
+>
+> Su casa, en cambio, sigue sin abrir la puerta: llamar en el Cap.2 repite el mismo gesto que en el Cap.1 —Sans no aparece, y solo se oye un sonido lejano de fondo—, aunque esta vez la narración lo describe alejándose ("...growing further away..."), como si aquello que suena tras la puerta se moviera hacia el interior de la casa en vez de quedarse quieto. Ver la teoría "¿Por qué no aparece Papyrus?" más abajo.
+>
+> ![[Sans's_house_screenshot_knocking_Chapter_2.png]]
+> *Llamando a la puerta de la casa de Sans en el Cap.2 — el mismo misterio sin resolver del Cap.1, esta vez alejándose en vez de quedarse quieto.*
 
 > [!example]+ Capítulo 4 — Amistad con Toriel
 > Se revela (o se recuerda) que Sans se "hizo amigo" de Toriel la noche antes de que comenzara el juego — la primera pista directa de una relación cercana entre ambos que se confirmará abiertamente en el Cap.5. 
@@ -48,7 +51,7 @@ confianza: fuerte
 > *Sans bailando con Toriel al final del Cap.5.*
 >
 > ![[sans_dancing_toriel.png]]
-*Más momentos de Sans bailando con Toriel — su vínculo más citado de todo el juego.*
+> *Más momentos de Sans bailando con Toriel — su vínculo más citado de todo el juego.*
 
 
 
