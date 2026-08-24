@@ -35,7 +35,10 @@ confianza: fuerte
 ## Historia por capítulos
 
 > [!example]+ Capítulo 5 — Festival Day
-> Aparece primero como una tendera amistosa en los Acantilados, sin que nada indique todavía su identidad real.
+> Aparece primero atendiendo sola su pequeña tienda en los Acantilados, como una tendera amistosa (algo sospechosa, con ese tic de repetir palabras) sin que nada indique todavía su identidad real. Poco después, el grupo se la encuentra fuera del mostrador, en su sala, donde también está Orange —a quien ella llama "Ory" y trata como una hermana pequeña—; es ahí cuando Orange, emocionada de que haya llegado, la saluda como "Hermana Mayor". De vuelta en la tienda, ambas comparten una última escena juntas antes de que el grupo siga su camino: es allí donde se puede comprar la MysteryKey, necesaria para acceder más adelante a la puerta rosa de Top of Castle.
+>
+> ![[Pink_face_shop.gif]]
+> *Su retrato como tendera, sola en su tienda y antes de que nadie sospeche de su identidad real.*
 >
 > ![[Orange_screenshot_greeting_Pink.png]]
 > *"Big sis!! You made it!" — Orange saludando a Pink como "Hermana Mayor" al verla llegar a su sala en los Acantilados.*
@@ -43,11 +46,8 @@ confianza: fuerte
 > ![[Pink_talking_to _orange.png]]
 > *"And never make an enemy when you can make a friend!" — Pink recibiendo a Kris, Susie y Ralsei en su sala de los Acantilados.*
 >
-> ![[Pink_face_shop.gif]]
-> *Su retrato como tendera, antes de que nadie sospeche de su identidad real.*
->
 > ![[Pink_face_shop_animation_Orange.gif]]
-> *La animación de su rostro durante la escena con Orange en la tienda.*
+> *La animación de su rostro durante la escena con Orange, de vuelta en la tienda.*
 >
 > ![[Pink's_Shop_location.png]]
 > *La ubicación de su tienda en los Acantilados, donde también se compra la MysteryKey.*
