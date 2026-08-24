@@ -166,7 +166,7 @@ confianza: fuerte
 > Lo mismo aplica en origen a la variante que apunta a **Rudy**, aunque en su caso ha crecido hasta convertirse en su propia candidatura a la identidad del Knight, con bastante más desarrollo y peso que la de Carol — no solo una variante de la teoría Asriel:
 > - **Motivación clara**: si el Knight busca crear Fuentes Oscuras para recuperar a alguien perdido, Rudy comparte exactamente esa motivación con Dess — la misma que Carol, pero sin la sospecha que pesa sobre ella por su papel público de alcaldesa.
 > - **El vínculo Holiday**: el Knight tiene astas, y hasta ahora el único rasgo de diseño consistente que comparte con la familia es precisamente ese — astas de ciervo, la especie de los Holiday.
-> - **No reconoce a Susie en la Ruta Rara del Cap.4**, mientras que con Kris sigue siendo el mismo de siempre — un fallo de reconocimiento selectivo consistente con llevar una doble vida que Susie, al no formar parte de "antes", nunca llegó a conocer del todo.
+> - **Reacciona con recelo a Susie en la Ruta Rara del Cap.4** — le pregunta a Kris, molesto, por qué la ha traído, mientras que con el propio Kris sigue siendo el mismo de siempre; una desconfianza selectiva hacia alguien que, al no formar parte de "antes", nunca llegó a conocer del todo.
 > - **Coartada geográfica**: su hospitalización lo mantiene fuera de la vista del resto del pueblo casi todo el juego, y su cama nunca cambia de fondo.
 > - **El eco con Flowery**: al empezar el Cap.5, Flowery le dice a Kris "You've grown so much, haven't you?" — casi calcado a lo que Rudy le dice en la Ruta Rara del Cap.4 ("has crecido mucho, Kris").
 >

@@ -687,7 +687,7 @@ SHARED_CSS_EXTRA = '''
 
   /* --- imagen de cabecera de capitulo/zona (mas pequena que una imagen suelta normal) --- */
   figure.fig-header{ margin:10px 0 16px; }
-  figure.fig-header img{ width:auto; max-width:420px; max-height:440px; margin:0 auto; box-shadow:0 2px 8px rgba(0,0,0,0.28); }
+  figure.fig-header img{ width:auto; max-width:540px; max-height:560px; margin:0 auto; box-shadow:0 2px 8px rgba(0,0,0,0.28); }
 
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }

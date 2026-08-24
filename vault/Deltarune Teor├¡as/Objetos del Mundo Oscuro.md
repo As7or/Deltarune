@@ -251,7 +251,7 @@ familia: na
 > | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales | ![[Tv_dreemur.png\|50]] |
 > | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[the_great_door_lightworld.png\|50]] |
 > | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore | ![[Tv_dreemur.png\|50]] |
-> |  | Mancountry | En lo profundo del sofá 🔵 |  |
+> | ![[Mancountry_location_Forgotten_Island.png\|50]] | Mancountry | En lo profundo del sofá 🔵 | ![[Couch_lightworld.png\|50]] |
 >
 > [!example]- 🧑 Personajes (8)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -309,8 +309,8 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > |  | Game Console | La consola de Kris y Asriel |  |
-> |  | Green Couch | La cama de Asriel | ![[asriel_sofa_greenroom.png\|50]] |
-> |  | Blue Couch | La cama de Kris | ![[kris_bed.png\|50]] |
+> | ![[asriel_sofa_greenroom.png\|50]] | Green Couch | La cama de Asriel | ![[asriel_bed.png\|50]] |
+> | ![[grey_sofa.png\|50]] | Blue Couch | La cama de Kris | ![[kris_bed.png\|50]] |
 > | ![[cortina_darkworld.png\|50]] | Curtain | La cortina de la ducha | ![[cortina_lightworld.png\|50]] |
 > |  | Small black triangle | La púa de una guitarra |  |
 > |  | Odd Controller | El mando pirata debajo de la cama de Asriel |  |
