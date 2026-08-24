@@ -37,11 +37,11 @@ confianza: fuerte
 > [!example]+ Capítulo 5 — Festival Day
 > Aparece primero como una tendera amistosa en los Acantilados, sin que nada indique todavía su identidad real.
 >
-> ![[Pink_talking_to _orange.png]]
-> *"And never make an enemy when you can make a friend!" — Pink recibiendo a Kris, Susie y Ralsei como tendera de los Acantilados.*
->
 > ![[Orange_screenshot_greeting_Pink.png]]
-> *"Big sis!! You made it!" — Orange saludando a Pink como "Hermana Mayor" en su tienda de los Acantilados.*
+> *"Big sis!! You made it!" — Orange saludando a Pink como "Hermana Mayor" al verla llegar a su sala en los Acantilados.*
+>
+> ![[Pink_talking_to _orange.png]]
+> *"And never make an enemy when you can make a friend!" — Pink recibiendo a Kris, Susie y Ralsei en su sala de los Acantilados.*
 >
 > ![[Pink_face_shop.gif]]
 > *Su retrato como tendera, antes de que nadie sospeche de su identidad real.*

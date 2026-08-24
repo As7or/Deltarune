@@ -64,10 +64,13 @@ confianza: fuerte
 > *El chiste original de Undertale: Papyrus llama "Flowery" a Flowey, que le corrige el nombre.*
 
 > [!question]- ¿Es el [[Forgotten Man]]?
-> La lectura más débil de las tres, sostenida sobre todo por coincidencias de merchandising real más que por pistas dentro del propio juego: existe un dibujo oficial de Fangamer que muestra a Papyrus escondido tras un árbol de hojas rojas casi idéntico al del Forgotten Man, y parte del fandom conecta la forma de huevo agrietado que recordaría la cabeza del propio Mystery Man (el sprite ligado a Gaster) con la afición de Papyrus por "esa avena con huevos de dinosaurio", mencionada de pasada por Flowey en un Q&A de Undertale de 2016. No hay ninguna pista dentro de Deltarune que sostenga esta lectura más allá de esas coincidencias externas al juego. **Teoría de fans muy especulativa, apoyada en merchandising y trivia externa al juego; no confirmada.**
+> La lectura más débil de las tres, sostenida sobre todo por coincidencias de merchandising y trivia oficial externa más que por pistas dentro del propio juego: existe un dibujo oficial de Fangamer que muestra a Papyrus escondido tras un árbol de hojas rojas casi idéntico al del Forgotten Man, y parte del fandom conecta la forma de huevo agrietado que recordaría la cabeza del propio Mystery Man (el sprite ligado a Gaster) con la afición de Papyrus por "esa avena con huevos de dinosaurio", mencionada de pasada por Flowey en un Q&A de Undertale de 2016. A esto se suma otra imagen oficial de Q&A de Toby Fox, esta vez de Papyrus "de cita", rodeado de un panel de estadísticas de broma (POBLACIÓN, CRIMEN...) que incluye un icono etiquetado sin más explicación como "EGG" — otro guiño del propio autor asociando a Papyrus con un huevo, aunque sea en un formato de chiste. Sigue sin haber ninguna pista dentro del propio Deltarune que sostenga esta lectura; lo que hay es una acumulación de guiños externos al juego (merchandising, Q&As) que el fandom no ha dejado de señalar. **Teoría de fans muy especulativa, apoyada en merchandising y trivia oficial externa al juego, no en el juego en sí; no confirmada.**
 >
 > ![[papyrus_forgottenman.webp]]
 > *El dibujo oficial de merchandising de Fangamer: Papyrus junto a un árbol de tronco rayado y hojas rojas, muy similar al del Forgotten Man.*
+>
+> ![[papyrus_date_egg.png]]
+> *"Here we are!! On our date!!" — Q&A oficial de Toby Fox: Papyrus junto a un panel de estadísticas de broma que incluye un icono etiquetado "EGG", sin más contexto.*
 
 ## Curiosidades
 - Es, junto a Gaster, uno de los dos personajes de Undertale con mayor presencia "fantasma" en Deltarune: mencionado constantemente, visto jamás.
