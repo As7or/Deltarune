@@ -601,7 +601,7 @@
       "y": -5130,
       "width": 300,
       "height": 300,
-      "color": "3",
+      "color": "5",
       "label": "7 Flores de Colores",
       "background": "Sprites/7_Colored_Flowers_screenshot_enemies.png"
     },
@@ -681,7 +681,7 @@
     {
       "id": "g_7flores-cap",
       "type": "text",
-      "text": "# ⚪ Tema — **7 Flores de Colores**\n**🌸 Ramo de bodas de Asgore y Toriel**\n## Aqua, Seth, Orange, Green, Yellow y Blue — espejo de las ALMAs de Undertale.\n[[7 Flores de Colores]]",
+      "text": "# 🌱 Planta — **7 Flores de Colores**\n**🌸 Ramo de bodas de Asgore y Toriel**\n## Aqua, Seth, Orange, Green, Yellow y Blue — espejo de las ALMAs de Undertale.\n[[7 Flores de Colores]]",
       "x": -2980,
       "y": -4720,
       "width": 300,
@@ -790,7 +790,7 @@
     {
       "id": "g_flowery-cap",
       "type": "text",
-      "text": "# 🟣 Darkner — **Flowery**\n**🌼 Objeto Lightworld: flor dorada**\n**🌑 Reino de las Flores, Cap.5**\n## Antagonista principal y jefe final del Cap.5.\n[[Flowery]]",
+      "text": "# 🌱 Planta — **Flowery**\n**🌼 Objeto Lightworld: flor dorada**\n**🌑 Reino de las Flores, Cap.5**\n## Antagonista principal y jefe final del Cap.5.\n[[Flowery]]",
       "x": -3760,
       "y": -3803,
       "width": 340,

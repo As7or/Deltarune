@@ -122,7 +122,7 @@ confianza: oficial
 >
 > **Teoría de fans consistente y bastante debatida, con motivación y algunas pistas de diseño genuinamente sugerentes — pero el juego nunca confirma ni desmiente la identidad del Caballero, y varios de los argumentos que la sostienen son especulación bastante libre.**
 >
-> | Rudy (Ruta Rara del Cap.4) | Flowery (inicio del Cap.5) |
+> | Rudy (Cap.1) | Flowery (inicio del Cap.5) |
 > |---|---|
 > | ![[rudy_flowery_u_grown_alot_kris.png]] | ![[flowery_rudy_same_dialogue.png]] |
 > | *"...de verdad que has crecido mucho, Kris."* | *"Kris. You've grown so much, haven't you?"* |
