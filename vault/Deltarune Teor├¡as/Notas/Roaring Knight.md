@@ -160,8 +160,8 @@ confianza: fuerte
 > [!question]- [[Carol]] y Rudy Holiday (especulación más débil, pero a tener en consideración)
 > Existe una rama minoritaria de la teoría Asriel que además lo imagina colaborando en secreto con **Carol** para buscar a Dess por su cuenta — explicaría por qué Carol investiga la zona del Shelter con tanta insistencia. Es una idea interesante pero que descansa en un solo hilo de especulación de la comunidad, sin ninguna pista textual directa del juego.
 >
-> ![[Carol_Holiday.webp\|120]]
-> *Carol Holiday, alcaldesa de Hometown — la variante más débil de esta teoría la imagina colaborando en secreto con el Knight.*
+> ![[Carol_face_ominous_unused.png\|120]]
+> *Retrato descartado de Carol con una expresión mucho más inquietante que la habitual — la pista de diseño que más suele citar el fandom a favor de esta variante. Ficha completa en [[Carol]].*
 > 
 > Lo mismo aplica en origen a la variante que apunta a **Rudy**, aunque en su caso ha crecido hasta convertirse en su propia candidatura a la identidad del Knight, con bastante más desarrollo y peso que la de Carol — no solo una variante de la teoría Asriel:
 > - **Motivación clara**: si el Knight busca crear Fuentes Oscuras para recuperar a alguien perdido, Rudy comparte exactamente esa motivación con Dess — la misma que Carol, pero sin la sospecha que pesa sobre ella por su papel público de alcaldesa.
@@ -170,8 +170,12 @@ confianza: fuerte
 > - **Coartada geográfica**: su hospitalización lo mantiene fuera de la vista del resto del pueblo casi todo el juego, y su cama nunca cambia de fondo.
 > - **El eco con Flowery**: al empezar el Cap.5, Flowery le dice a Kris "You've grown so much, haven't you?" — casi calcado a lo que Rudy le dice en la Ruta Rara del Cap.4 ("has crecido mucho, Kris").
 >
-> ![[Rudy_face.png\|120]]
-> *Rudy Holiday — la candidatura con más desarrollo propio de las dos.*
+> ![[rudy_flowery_u_grown_alot_kris.png\|120]]
+> ![[flowery_rudy_same_dialogue.png\|120]]
+> *Rudy (Cap.1) y Flowery (inicio del Cap.5) — la misma línea, una junto a la otra.*
+>
+> ![[TheRoaringKnightDeltarune.webp\|120]]
+> *La silueta oficial del Caballero Rugiente — la figura con la que esta teoría conecta a Rudy Holiday, la candidatura con más desarrollo propio de las dos.*
 >
 > Puntos bastante más débiles que también circulan (juegos de palabras Rudy/ruddy/Rudolph, que su mano dominante nunca se muestre en pantalla, que pudiera haber aprendido a usar una katana gracias a Carol) aportan poco por sí solos. Ficha completa con todo el desarrollo de esta teoría en [[Rudy]].
 
