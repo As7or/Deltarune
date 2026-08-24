@@ -758,6 +758,18 @@ SHARED_CSS_EXTRA = '''
   .callout.chapter-c5 table.note-table th{ background:#b6dd9c; color:#25470f; }
   .callout.chapter-c5 table.note-table td{ border-color:#d3e9c3; }
 
+  /* --- tablas de identidad (Sprite/Mundo Oscuro/Identidad real/Sprite Mundo
+     Claro): las columnas de texto se quedaban con mucho hueco horizontal
+     vacio porque el layout automatico las ensancha al ancho de la fila mas
+     larga de toda la columna. Se les da un ancho propio mas ajustado (que
+     envuelve en varias lineas si hace falta) y el nombre se ve mas grande,
+     dejando las columnas de sprite tal cual para no deformar las imagenes. --- */
+  table.note-table.id-table td, table.note-table.id-table th{ word-wrap:break-word; overflow-wrap:break-word; }
+  table.note-table.id-table th:nth-child(2), table.note-table.id-table td:nth-child(2){
+    width:15%; font-size:15px; font-weight:700;
+  }
+  table.note-table.id-table th:nth-child(3), table.note-table.id-table td:nth-child(3){ width:27%; }
+
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }
   #lightbox-overlay{

@@ -292,7 +292,14 @@ def parse_table(block_lines, sprites_prefix):
     body_rows = rows[2:]
     small_cols = {i for i, h in enumerate(header) if "talksprite" in h.lower() or "sprite" in h.lower()}
     reliability_cols = {i for i, h in enumerate(header) if "identidad" in h.lower()}
-    out = ['<table class="note-table">', "<tr>"]
+    # Las tablas de "Objetos del Mundo Oscuro.md" siguen siempre las mismas 4
+    # columnas (Sprite / Mundo Oscuro / Identidad real / Sprite Mundo Claro).
+    # Se marcan con una clase aparte para poder ajustar el ancho de las
+    # columnas de TEXTO (nombre y descripcion) sin tocar el layout de otras
+    # tablas del vault (p.ej. la comparativa de 2 columnas de Rudy.md).
+    is_id_table = [h.strip() for h in header] == ["Sprite", "Mundo Oscuro", "Identidad real", "Sprite Mundo Claro"]
+    table_cls = "note-table id-table" if is_id_table else "note-table"
+    out = [f'<table class="{table_cls}">', "<tr>"]
     for h in header:
         out.append(f"<th>{inline_md(h, sprites_prefix, respect_size=False)}</th>")
     out.append("</tr>")
