@@ -677,16 +677,17 @@ PAGE_CSS_FOUNTAIN = '''
 # tamano reducido para las imagenes de cabecera de capitulo/zona, y el
 # lightbox de "clic para ver completa" que aplica a cualquier imagen del sitio.
 SHARED_CSS_EXTRA = '''
-  /* --- fiabilidad de identidad: color de fondo/texto real, como en el PDF original --- */
-  .rel-cell{ display:block; width:100%; box-sizing:border-box; border-radius:4px; padding:3px 6px; }
-  .rel-blue{ background:#b7c9ef; }
-  .rel-yellow{ background:#f0b429; }
-  .rel-blue.rel-yellow{ background:linear-gradient(180deg,#b7c9ef 50%,#f0b429 50%); }
-  .rel-new{ color:#c0392b; font-weight:700; }
+  /* --- fiabilidad de identidad: el fondo se aplica a la CELDA entera (td),
+     no a un span interior, para que rellene el hueco completo como en la
+     hoja de calculo original en vez de verse como un subrayado/resaltado --- */
+  table.note-table td.rel-blue{ background:#b7c9ef; }
+  table.note-table td.rel-yellow{ background:#f0b429; }
+  table.note-table td.rel-blue.rel-yellow{ background:linear-gradient(180deg,#b7c9ef 50%,#f0b429 50%); }
+  table.note-table td.rel-new{ color:#c0392b; font-weight:700; }
 
   /* --- imagen de cabecera de capitulo/zona (mas pequena que una imagen suelta normal) --- */
   figure.fig-header{ margin:10px 0 16px; }
-  figure.fig-header img{ width:auto; max-width:320px; max-height:340px; margin:0 auto; box-shadow:0 2px 8px rgba(0,0,0,0.28); }
+  figure.fig-header img{ width:auto; max-width:420px; max-height:440px; margin:0 auto; box-shadow:0 2px 8px rgba(0,0,0,0.28); }
 
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }

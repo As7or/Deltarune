@@ -38,7 +38,7 @@ familia: na
 > | ![[Seam_Face.webp\|50]] | Seam | Un peluche | ![[Seam_lightowrld.png\|50]] |
 > | ![[Mr._Elegance_overworld.png\|50]] | Mr. Elegance | Una pieza de caballo (ajedrez) | ![[Board_cap1_lightoworld.png\|50]] |
 > | ![[Mr._Society_overworld.png\|50]] | Mr. Society | Una pieza de alfil | ![[Board_cap1_lightoworld.png\|50]] |
-> | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Una jota |  |
+> | ![[Royal_Coat_Rack_overworld.png\|50]] | Royal Coat Rack | Un perchero |  |
 > | ![[Ball_overworld.png\|50]] | Little Ball | Una bola de tabas/canicas |  |
 > | ![[Blockler_B_overworld.png\|50]] | B Blocker | Una cuenta con la letra "B" 🔵 |  |
 > | ![[Blockler_O_overworld.png\|50]] | O Blocker | Una cuenta con la letra "O" 🔵 |  |

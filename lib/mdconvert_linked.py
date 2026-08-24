@@ -245,14 +245,14 @@ def split_row(r):
     cells = [c.strip().replace(SENTINEL, "|") for c in protected.strip("|").split("|")]
     return cells
 
-def wrap_reliability(cell_html):
+def reliability_classes(cell_html):
     """Traduce los emojis de fiabilidad que ya vienen en el markdown original
     (🔵 suposicion fundada, 🟡 teoria mas debil del propio autor, 🆕 verdicto
-    anadido/corregido tras el video) a un color de fondo/texto real en el
-    HTML del sitio, replicando la hoja de calculo original en vez de dejarlo
-    solo en emoji. No requiere tocar ninguna nota: se deriva del emoji que ya
-    esta en el texto (y sigue viendose bien en Obsidian, que no lee estas
-    clases)."""
+    anadido/corregido tras el video) a clases CSS que se aplican a la CELDA
+    (td) entera, para que el color de fondo rellene todo el hueco como en la
+    hoja de calculo original en vez de solo un span interior. No requiere
+    tocar ninguna nota: se deriva del emoji que ya esta en el texto (y sigue
+    viendose bien en Obsidian, que no lee estas clases)."""
     classes = []
     if "🔵" in cell_html:
         classes.append("rel-blue")
@@ -260,9 +260,7 @@ def wrap_reliability(cell_html):
         classes.append("rel-yellow")
     if "🆕" in cell_html:
         classes.append("rel-new")
-    if not classes:
-        return cell_html
-    return f'<span class="rel-cell {" ".join(classes)}">{cell_html}</span>'
+    return classes
 
 def parse_table(block_lines, sprites_prefix):
     rows = [l for l in block_lines if l.strip().startswith("|")]
@@ -282,8 +280,11 @@ def parse_table(block_lines, sprites_prefix):
         for idx, c in enumerate(cells):
             cell_html = inline_md(c, sprites_prefix, force_small=(idx in small_cols))
             if idx in reliability_cols:
-                cell_html = wrap_reliability(cell_html)
-            out.append(f"<td>{cell_html}</td>")
+                classes = reliability_classes(cell_html)
+                cls_attr = f' class="{" ".join(classes)}"' if classes else ""
+                out.append(f"<td{cls_attr}>{cell_html}</td>")
+            else:
+                out.append(f"<td>{cell_html}</td>")
         out.append("</tr>")
     out.append("</table>")
     return "\n".join(out)
