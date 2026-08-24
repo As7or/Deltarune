@@ -75,7 +75,7 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > |  | Glowshard | Una baratija brillante perdida en el armario 🟡 |  |
-> |  | Dark Candy | Pegatinas de malvavisco rasca-y-huele |  |
+> | ![[Dark_Candy_item.gif\|50]] | Dark Candy | Pegatinas de malvavisco rasca-y-huele |  |
 > |  | Darkburger | Migas de hamburguesa quemada |  |
 > |  | Top Cake/Spin Cake | Una peonza con los colores de una tarta 🔵 |  |
 > |  | Choco Diamond | Un cuadrado de una tableta de chocolate |  |
@@ -85,7 +85,7 @@ familia: na
 > | ![[man_egg.png\|50]] | Egg | Un huevo |  |
 > |  | Clubs Sandwich | Un trébol de tres hojas 🔵 |  |
 > |  | Rouxls' Roux | Un roux concreto |  |
-> |  | Broken Key/Door Key | La llave del armario 🟡 |  |
+> | ![[Door_Key_item.png\|50]] | Broken Key/Door Key | La llave del armario 🟡 |  |
 > | ![[Shadow_Crystal_item.webp\|50]] | Shadow Crystal | Un cristal extraño |  |
 >
 > [!example]- ⚔️ Armas (8)
@@ -113,7 +113,7 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[Lancer_battle_bike.gif\|50]] | Lancer's Bike | La caja vacía de cartas |  |
-> |  | The Great Door | La puerta del armario al aula en desuso |  |
+> | ![[Great_Door_overworld.png\|50]] | The Great Door | La puerta del armario al aula en desuso |  |
 > | ![[moss_cap1.png\|50]] | Moss | Un puñado de musgo | ![[Moss_item_evidence.png\|50]] |
 >
 
@@ -201,7 +201,7 @@ familia: na
 > |  | Silver Card | Una tarjeta bancaria 🔵 |  |
 > |  | Glow Wrist | Un manojo enredado de cables verdes |  |
 > |  | Silver Watch | El reloj de Noelle |  |
-> |  | Mannequin | Una oferta de estafa de un vestido 🟡 |  |
+> | ![[Mannequin_item.png\|50]] | Mannequin | Una oferta de estafa de un vestido 🟡 |  |
 > |  | Big Shot Bowtie | Una pajarita de la marca Big Shot Autos |  |
 > |  | Royal Pin | Una chincheta 🔵 |  |
 > |  | Chain Mail | Una cadena de correo digital |  |
@@ -209,21 +209,21 @@ familia: na
 > |  | Spike Band | Una tira de velcro 🔵 |  |
 > |  | Tension Bow | Un caramelo duro todavía envuelto 🔵 |  |
 > |  | Frayed Bowtie | Una pajarita de la marca Big Shot Autos |  |
-> |  | Dealmaker | Las gafas de Spamton |  |
+> | ![[Dealmaker_item.png\|50]] | Dealmaker | Las gafas de Spamton |  |
 >
 > [!example]- 📦 Objetos/decorado (20)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | King's Cage | La jaula del hámster de Noelle 🟡 |  |
-> |  | The Wires | Cables desconectados | ![[cables_plugs_lightworld.png\|50]] |
-> |  | Teacup Ride | Los tornillos que sujetan la placa de circuito 🔵 |  |
+> | ![[cage_king.png\|50]] | King's Cage | La jaula del hámster de Noelle 🟡 |  |
+> | ![[wires.png\|50]] | The Wires | Cables desconectados | ![[cables_plugs_lightworld.png\|50]] |
+> | ![[440px-Cyber_Field_screenshot_teacup_ride.png.webp\|50]] | Teacup Ride | Los tornillos que sujetan la placa de circuito 🔵 |  |
 > |  | Typing Puzzles | Los teclados de los ordenadores | ![[computer_mouse_typer_lightworld.png\|50]] |
 > |  | Arcade Machine | Un juego en uno de los ordenadores 🟡 |  |
 > |  | Shock Cages | Bloqueos o restricciones puestas a un ordenador 🟡 |  |
-> |  | Electro-Dasher | Una representación del "tráfico" de internet |  |
+> | ![[Electro-Dasher_overworld_legs.gif\|50]] | Electro-Dasher | Una representación del "tráfico" de internet |  |
 > |  | Annoying Mouse Rooms | Software de verificación tipo Captcha 🟡 |  |
 > |  | Gamer's Delight | Un montón de pilas en un bol 🔵 |  |
-> |  | Queen's Car | La versión del Electrodasher del portátil |  |
+> | ![[queens car.png\|50]] | Queen's Car | La versión del Electrodasher del portátil |  |
 > |  | The Banana | Un JPEG de un plátano 🟡 |  |
 > |  | Queen's Mixtape | Música hecha en el portátil |  |
 > |  | Character Plushies | Regalos ideales determinados por internet |  |
@@ -232,8 +232,8 @@ familia: na
 > |  | Toilet | Un dibujo de tamaño normal de un váter en Swatch 🟡 |  |
 > |  | Tiny Houses | Piezas de un juego tipo Catan 🟡 |  |
 > |  | Camera | La webcam del ordenador 🔵 |  |
-> |  | Ferris Wheel | El póster de una noria 🔵 | ![[ferry_wheel_lightworld.png\|50]] |
-> |  | Spamton NEO's Body | Un cuerpo dibujado en Swatch |  |
+> | ![[600px-Ferris_Wheel_soundtrack.png.webp\|50]] | Ferris Wheel | El póster de una noria 🔵 | ![[ferry_wheel_lightworld.png\|50]] |
+> | ![[Spamton_NEO_battle.gif\|50]] | Spamton NEO's Body | Un cuerpo dibujado en Swatch |  |
 >
 
 ## Capítulo 3 — Mundo TV
@@ -249,7 +249,7 @@ familia: na
 > | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | El cuarto de Kris y Asriel | ![[asriel_room.png\|50]] |
 > | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | Un maratón de películas de monstruos gigantes | ![[Tv_dreemur.png\|50]] |
 > | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales | ![[Tv_dreemur.png\|50]] |
-> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[Cold_Place_lightworld.png\|50]] |
+> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[the_great_door_lightworld.png\|50]] |
 > | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore | ![[Tv_dreemur.png\|50]] |
 > |  | Mancountry | En lo profundo del sofá 🔵 |  |
 >
@@ -309,14 +309,14 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > |  | Game Console | La consola de Kris y Asriel |  |
-> |  | Green Couch | La cama de Asriel |  |
-> |  | Blue Couch | La cama de Kris |  |
-> |  | Curtain | La cortina de la ducha |  |
+> |  | Green Couch | La cama de Asriel | ![[asriel_bed.png\|50]] |
+> |  | Blue Couch | La cama de Kris | ![[grey_sofa.png\|50]] |
+> | ![[cortina_darkworld.png\|50]] | Curtain | La cortina de la ducha |  |
 > |  | Small black triangle | La púa de una guitarra |  |
 > |  | Odd Controller | El mando pirata debajo de la cama de Asriel |  |
 > |  | The Pipes | La fontanería de la casa 🔵 |  |
-> |  | Toriel's Throne | Chairiel (la silla de Toriel) |  |
-> |  | The Great Door | La puerta principal de la casa |  |
+> | ![[Toriel_overworld_Chairiel.png\|50]] | Toriel's Throne | Chairiel (la silla de Toriel) | ![[toriel couch.png\|50]] |
+> | ![[great_door_cap3_dark.png\|50]] | The Great Door | La puerta principal de la casa | ![[the_great_door_lightworld.png\|50]] |
 >
 
 ## Capítulo 4 — Iglesia y Santuario Oscuro
@@ -378,8 +378,8 @@ familia: na
 > |  | Jingle Blade | El lápiz de Noelle |  |
 > |  | Scarf Mark | Un marcapáginas |  |
 > |  | Absorb Ax | Una cuchara o cucharón para el zumo |  |
-> |  | Old Man's Hammer | El martillo con el que enterraron a Gerson |  |
-> |  | Justice Axe | Un pincel 🔵 |  |
+> | ![[gerson_Hammer_of_Justice_attack_21st.gif\|50]] | Old Man's Hammer | El martillo con el que enterraron a Gerson | ![[old_man_lightworld_dust.png\|50]] |
+> | ![[JusticeAxe_item.png\|50]] | Justice Axe | Un pincel 🔵 |  |
 > | ![[Winglade_battle_idle.gif\|50]] | Winglade | Una pluma de escribir *(repetido en la fuente original, misma identidad que el arma de arriba)* | ![[winglade_lightworld.png\|50]] |
 >
 > [!example]- 🎽 Armaduras (5)
@@ -394,15 +394,15 @@ familia: na
 > [!example]- 📦 Objetos/decorado (9)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | The Prophecy | Extractos de la biblia de la religión 🔵 |  |
-> |  | Piano Puzzles | Partituras y teclas de piano 🟡 |  |
+> | ![[Profecy.gif\|50]] | The Prophecy | Extractos de la biblia de la religión 🔵 |  |
+> | ![[Dark_Sanctuary_location_third_piano_playing_puzzle.png\|50]] | Piano Puzzles | Partituras y teclas de piano 🟡 | ![[partituras_y_teclas_del_piano.png\|50]] |
 > |  | Slippery Gloves | Guantes de goma |  |
 > |  | Ladder | Una escalera 🔵 |  |
 > |  | Telescope | Un telescopio 🟡 |  |
 > |  | Couch Cushion | Un cojín de sofá 🔵 |  |
 > |  | Water Container | Pila de agua bendita |  |
-> | ![[440px-Dark_Sanctuary_location_golden_piano.png.webp\|50]] | Pianolike Organ | El teclado en la habitación más a la izquierda |  |
-> |  | The Great Door | La puerta del vestíbulo a la nave |  |
+> | ![[440px-Dark_Sanctuary_location_golden_piano.png.webp\|50]] | Pianolike Organ | El teclado en la habitación más a la izquierda | ![[pianolike_organ_lightworld.png\|50]] |
+> | ![[Great_Door_overworld.png\|50]] | The Great Door | La puerta del vestíbulo a la nave |  |
 >
 
 ## Capítulo 5 — Reino de las Flores
@@ -417,7 +417,7 @@ familia: na
 > | ![[440px-Garden_location_Ideal_Diner.png.webp\|50]] | Ideal Diner | El recuerdo de Asgore del restaurante |  |
 > | ![[shrine.png.webp\|50]] | Shrine | La percepción de Asgore de un santuario sintoísta 🔵 |  |
 > | ![[Cliffs_cap5_location.png\|50]] | Cliffs | La pared trasera de la sala de las flores 🆕 | ![[cliffs_cap5_lightworld.png\|50]] |
-> | ![[Flower_Castle_location.png\|50]] | Flower Castle | El panel de conspiración de Asgore 🔵 |  |
+> | ![[Flower_Castle_location.png\|50]] | Flower Castle | El panel de conspiración de Asgore 🔵 | ![[Flower_Castle_lightworld.png\|50]] |
 >
 > [!example]- 🧑 Personajes (10)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -460,7 +460,7 @@ familia: na
 > |  | Phanta | Refresco de uva |  |
 > |  | Flowery Soda | Un refresco lechoso 🆕 |  |
 > |  | Shikacola | Pelaje de ciervo |  |
-> |  | BromideR | La foto de Toriel en su boda con Asgore 🔵 |  |
+> | ![[flowery_BromideR_item.png\|50]] | BromideR | La foto de Toriel en su boda con Asgore 🔵 |  |
 > |  | Yellow Key | Un deshojador de maíz 🟡 |  |
 > |  | Yellow Shred | Una camiseta con motivo de maíz 🟡 |  |
 > |  | Boot Oil | Un bote de aceite para botas |  |
@@ -503,11 +503,11 @@ familia: na
 > [!example]- 📦 Objetos/decorado (17)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
-> |  | Susie's Costume | Varios trozos de basura |  |
+> | ![[susie_costime.jpg\|50]] | Susie's Costume | Varios trozos de basura | ![[susie_costume_lightworld.jpg\|50]] |
 > |  | Flower Bed | Un arriate de flores |  |
 > |  | Mushroom | Una seta marrón |  |
 > |  | Schadenbrot | Masa de pan 🔵 |  |
-> |  | Watering Can | Una regadera pequeña |  |
+> | ![[Watering_can_overworld.png\|50]] | Watering Can | Una regadera pequeña | ![[regadera_lightworld.png\|50]] |
 > |  | Dash Gate | La percepción de Asgore de un torii 🔵 |  |
 > |  | Root Beer | Raíces y agua en una taza |  |
 > |  | Fruit Punch | Savia de la flor dorada |  |
