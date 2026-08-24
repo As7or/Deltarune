@@ -113,7 +113,7 @@ familia: na
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
 > |---|---|---|---|
 > | ![[Lancer_battle_bike.gif\|50]] | Lancer's Bike | La caja vacía de cartas |  |
-> | ![[Great_Door_overworld.png\|50]] | The Great Door | La puerta del armario al aula en desuso |  |
+> | ![[Great_Door_overworld.png\|50]] | The Great Door | La puerta del armario al aula en desuso | ![[the_great_door_lightworld.png\|50]] |
 > | ![[moss_cap1.png\|50]] | Moss | Un puñado de musgo | ![[Moss_item_evidence.png\|50]] |
 >
 
@@ -278,7 +278,7 @@ familia: na
 > | ![[Zapper_battle_idle.gif\|50]] | Zapper | Un mando de televisión |  |
 > | ![[Ribbick_battle_idle.gif\|50]] | Ribbick | Una bola de polvo |  |
 > | ![[shadow_mantle.gif\|50]] | ERAM | La diadema con cuernos de Kris 🟡 |  |
-> | ![[FRIEND.png\|50]] | Friend | ??? |  |
+> | ![[FRIEND.png\|50]] | FRIEND | ??? |  |
 >
 > [!example]- 🍬 Objetos consumibles (4)
 > | Sprite | Mundo Oscuro | Identidad real | Sprite Mundo Claro |
@@ -315,7 +315,7 @@ familia: na
 > |  | Small black triangle | La púa de una guitarra |  |
 > |  | Odd Controller | El mando pirata debajo de la cama de Asriel |  |
 > |  | The Pipes | La fontanería de la casa 🔵 |  |
-> | ![[Toriel_overworld_Chairiel.png\|50]] | Toriel's Throne | Chairiel (la silla de Toriel) | ![[toriel couch.png\|50]] |
+> | ![[Toriel_overworld_Chairiel.png\|50]] | Toriel's Throne | Chairiel (la silla de Toriel) | ![[Toriel_throne.png\|50]] |
 > | ![[great_door_cap3_dark.png\|50]] | The Great Door | La puerta principal de la casa | ![[the_great_door_lightworld.png\|50]] |
 >
 
