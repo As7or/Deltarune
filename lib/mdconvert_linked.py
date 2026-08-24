@@ -117,6 +117,15 @@ def resolve_note_stem(target):
     base = re.sub(r"\s*\(.*?\)\s*", "", target).strip()
     if base in KNOWN_NOTES:
         return KNOWN_NOTES[base]
+    # Algunos personajes tienen su alias/identidad entre parentesis en el
+    # TITULO de su propia nota (p.ej. "Mad Mew Mew (Pink)", "Gaster (W. D.
+    # Gaster)"). Si el texto es justo ese alias ("Pink", "Pink (Body)"...),
+    # se resuelve tambien contra el parentesis del titulo, no solo contra el
+    # nombre completo.
+    for note_title, slug in KNOWN_NOTES.items():
+        m = re.search(r"\((.+?)\)\s*$", note_title)
+        if m and m.group(1).strip().lower() == base.lower():
+            return slug
     return None
 
 def img_url(name, sprites_prefix):
