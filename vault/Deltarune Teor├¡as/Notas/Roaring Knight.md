@@ -170,9 +170,10 @@ confianza: fuerte
 > - **Coartada geográfica**: su hospitalización lo mantiene fuera de la vista del resto del pueblo casi todo el juego, y su cama nunca cambia de fondo.
 > - **El eco con Flowery**: al empezar el Cap.5, Flowery le dice a Kris "You've grown so much, haven't you?" — casi calcado a lo que Rudy le dice en la Ruta Rara del Cap.4 ("has crecido mucho, Kris").
 >
-> ![[rudy_flowery_u_grown_alot_kris.png|120]]
-> ![[flowery_rudy_same_dialogue.png|120]]
-> *Rudy (Cap.1) y Flowery (inicio del Cap.5) — la misma línea, una junto a la otra.*
+> | Rudy (Cap.1) | Flowery (inicio del Cap.5) |
+> |---|---|
+> | ![[rudy_flowery_u_grown_alot_kris.png]] | ![[flowery_rudy_same_dialogue.png]] |
+> | *"...de verdad que has crecido mucho, Kris."* | *"Kris. You've grown so much, haven't you?"* |
 >
 > ![[TheRoaringKnightDeltarune.webp|120]]
 > *La silueta oficial del Caballero Rugiente — la figura con la que esta teoría conecta a Rudy Holiday, la candidatura con más desarrollo propio de las dos.*

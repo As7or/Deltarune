@@ -108,10 +108,14 @@ def resolve_note_stem(target):
 def img_url(name, sprites_prefix):
     return sprites_prefix + urllib.parse.quote(resolve_sprite_path(name))
 
-def inline_md(text, sprites_prefix, force_small=False):
+def inline_md(text, sprites_prefix, force_small=False, respect_size=True):
     # Las imagenes y wikilinks se resuelven ANTES de escapar el texto (para que
     # nombres de archivo con apostrofes, & u otros caracteres no se corrompan al
     # pasar por html.escape). Se guardan como placeholders y se reinsertan al final.
+    # respect_size=False para celdas de tabla: ahi el `|N` es un resto del ancho
+    # de embed de Obsidian (casi siempre 50) y el tamano real ya lo controla el
+    # CSS de table.note-table .inline-img, asi que no debe convertirse en un
+    # max-width inline que lo aplaste.
     placeholders = {}
     def stash(fragment):
         key = f"\x00PH{len(placeholders)}\x00"
@@ -120,12 +124,16 @@ def inline_md(text, sprites_prefix, force_small=False):
 
     def img_sub(m):
         inner = m.group(1)
-        name = inner.split("|")[0].strip()
+        parts = inner.split("|")
+        name = parts[0].strip()
+        size_style = ""
+        if respect_size and len(parts) > 1 and parts[-1].strip().isdigit():
+            size_style = f' style="width:auto;max-width:{parts[-1].strip()}px;"'
         if force_small:
             cls = "inline-img-small"
         else:
             cls = "inline-img inline-img-alpha" if has_real_transparency(name) else "inline-img"
-        return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt="" loading="lazy">')
+        return stash(f'<img class="{cls}" src="{img_url(name, sprites_prefix)}" alt=""{size_style} loading="lazy">')
     text = re.sub(r"!\[\[(.+?)\]\]", img_sub, text)
 
     def youtube_sub(m):
@@ -272,13 +280,13 @@ def parse_table(block_lines, sprites_prefix):
     reliability_cols = {i for i, h in enumerate(header) if "identidad" in h.lower()}
     out = ['<table class="note-table">', "<tr>"]
     for h in header:
-        out.append(f"<th>{inline_md(h, sprites_prefix)}</th>")
+        out.append(f"<th>{inline_md(h, sprites_prefix, respect_size=False)}</th>")
     out.append("</tr>")
     for r in body_rows:
         cells = split_row(r)
         out.append("<tr>")
         for idx, c in enumerate(cells):
-            cell_html = inline_md(c, sprites_prefix, force_small=(idx in small_cols))
+            cell_html = inline_md(c, sprites_prefix, force_small=(idx in small_cols), respect_size=False)
             if idx in reliability_cols:
                 classes = reliability_classes(cell_html)
                 cls_attr = f' class="{" ".join(classes)}"' if classes else ""
@@ -429,12 +437,16 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
             out.append(f"<h1>{inline_md(line[2:], sprites_prefix)}</h1>")
         elif line.strip().startswith("![["):
             m = re.match(r"!\[\[(.+?)\]\]", line.strip())
-            name = m.group(1).split("|")[0].strip()
+            img_parts = m.group(1).split("|")
+            name = img_parts[0].strip()
+            size_style = ""
+            if len(img_parts) > 1 and img_parts[-1].strip().isdigit():
+                size_style = f' style="width:auto;max-width:{img_parts[-1].strip()}px;"'
             caption = ""
             if i+1 < n and lines[i+1].strip().startswith("*") and lines[i+1].strip().endswith("*"):
                 caption = lines[i+1].strip().strip("*"); i += 1
             fig_cls = "fig-alpha" if has_real_transparency(name) else ""
-            out.append(f'<figure class="{fig_cls}"><img src="{img_url(name, sprites_prefix)}" alt="" loading="lazy">' +
+            out.append(f'<figure class="{fig_cls}"><img src="{img_url(name, sprites_prefix)}" alt=""{size_style} loading="lazy">' +
                         (f"<figcaption>{html.escape(caption)}</figcaption>" if caption else "") + "</figure>")
         elif line.strip().startswith("- ") or line.strip().startswith("* "):
             items = []
