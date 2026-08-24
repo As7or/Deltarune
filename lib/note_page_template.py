@@ -18,7 +18,7 @@ PAGE_CSS = '''
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
   figure.fig-small img{ box-shadow:none; width:auto; height:130px; max-width:100%; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#fbf6e9; }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:#fbf6e9; }
   table.note-table th, table.note-table td{ border:1px solid #d8cba8; padding:6px; font-size:13px; text-align:center; vertical-align:top; }
   /* en la tabla comparativa, las figuras de cuerpo entero escalan a una ALTURA
      fija común (no solo un tope máximo), así un sprite con menos "relleno" en
@@ -131,7 +131,7 @@ PAGE_CSS_PARCHMENT = '''
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#e9d9a8; }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:#e9d9a8; }
   table.note-table th, table.note-table td{ border:1px solid #b8985e; padding:6px; font-size:13px; text-align:center; vertical-align:top; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
@@ -268,7 +268,7 @@ PAGE_CSS_RUSTED = '''
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#3a2f28; }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:#3a2f28; }
   table.note-table th, table.note-table td{ border:1px solid #5a4a38; padding:6px; font-size:12.5px; text-align:center; vertical-align:top; color:#d9cdb2; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
@@ -379,7 +379,7 @@ PAGE_CSS_WET = '''
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#ede4c8; }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:#ede4c8; }
   table.note-table th, table.note-table td{ border:1px solid #c4b06a; padding:6px; font-size:13px; text-align:center; vertical-align:top; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
@@ -461,7 +461,7 @@ PAGE_CSS_CRYSTAL = '''
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:rgba(30,22,55,0.7); }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:rgba(30,22,55,0.7); }
   table.note-table th, table.note-table td{ border:1px solid rgba(125,150,255,0.3); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#d8ecff; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
@@ -534,7 +534,7 @@ PAGE_CSS_UNDERTALE = '''
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:#000000; }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:#000000; }
   table.note-table th, table.note-table td{ border:1px solid #ffffff; padding:6px; font-size:12.5px; text-align:center; vertical-align:top; color:#ffffff; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
@@ -609,7 +609,7 @@ PAGE_CSS_FOUNTAIN = '''
   .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
   .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
   figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
-  table.note-table{ width:100%; border-collapse:collapse; margin:12px 0; background:rgba(20,55,70,0.7); }
+  table.note-table{ width:100%; max-width:620px; border-collapse:collapse; margin:12px auto; background:rgba(20,55,70,0.7); }
   table.note-table th, table.note-table td{ border:1px solid rgba(111,184,220,0.35); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#dceef5; }
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }

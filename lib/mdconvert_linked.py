@@ -300,6 +300,16 @@ def parse_table(block_lines, sprites_prefix):
         cells = split_row(r)
         out.append("<tr>")
         for idx, c in enumerate(cells):
+            # Si el contenido de la celda coincide EXACTAMENTE con el nombre de
+            # una nota real del vault (p.ej. "Ralsei" en la columna Mundo
+            # Oscuro), se enlaza automaticamente como [[wikilink]] sin tener
+            # que tocar el markdown fila por fila en las 5 tablas x 5
+            # capitulos. Coincidencia exacta a proposito: evita enlazar a
+            # medias frases descriptivas ("Un cubo de ratones de ordenador")
+            # que nunca van a coincidir con el nombre de una nota.
+            c_stripped = c.strip()
+            if c_stripped and not c_stripped.startswith("![[") and not c_stripped.startswith("[[") and resolve_note_stem(c_stripped):
+                c = f"[[{c_stripped}]]"
             cell_html = inline_md(c, sprites_prefix, force_small=(idx in small_cols), respect_size=False)
             if idx in reliability_cols:
                 classes = reliability_classes(cell_html)
