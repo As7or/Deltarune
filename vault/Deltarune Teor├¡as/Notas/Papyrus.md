@@ -6,7 +6,7 @@ familia: "Sans (hermano mayor); ¿Gaster? — teoría sin confirmar"
 confianza: fuerte
 ---
 
-| Sprite heredado de Undertale | Su "sombra" en Deltarune |
+| Diseño heredado de Undertale | Su "sombra" en Deltarune |
 |---|---|
 | ![[Papyrus_sprite1.webp]]<br>*Su sprite conocido de Undertale — no existe ningún sprite propio confirmado dentro de Deltarune.* | ![[papyrus_shadow.png]]<br>*Representación de su ausencia/sombra tras la puerta de su casa — el papel que ocupa en Deltarune: mencionado constantemente, visto jamás.* |
 
