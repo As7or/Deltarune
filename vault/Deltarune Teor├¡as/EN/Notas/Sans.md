@@ -100,6 +100,8 @@ confianza: strong
 >
 > ![[sans_lab_machine_another_universe.png]]
 > *"There's a strange machine behind the curtain... it looks broken." [TODO: verify exact EN quote] — the Undertale lab, the centerpiece of this theory.*
+>
+> 🎲 The full development of this theory — including its most recent piece of evidence, a Genocide Route battle sprite in which Sans bleeds despite no monster being able to — and its parallel with [[Susie]]'s bloodied hand in Deltarune, lives in [[Conexión Undertale]].
 
 > [!question]+ Is the Weird Route/Sword what "produces" or unlocks Undertale?
 > One of the fandom's most widespread theories (documented even in press coverage of Ch.5): taking the Weird Route/Sword all the way to the end — including the Twisted Sword, the strongest weapon in the game to date, only obtainable by NOT following Noelle to the Lake — could be exactly what's needed for the player to finally meet W.D. Gaster, the Undertale scientist never seen in person in Deltarune. A more extreme variant, also cited in theory forums and wikis, proposes that Deltarune takes place *before* Undertale but only exists *because* Sans, at some later point, fixes his time machine and travels back to prevent the war between humans and monsters — meaning Deltarune's very existence would be a later consequence of Undertale's events, not simply a chronological "before." Neither variant is confirmed by Toby Fox; both are speculative readings built on the deliberate ambiguity over which order the two games actually occur in.

@@ -123,6 +123,12 @@ Repaso de los personajes de Undertale que reaparecen en Deltarune como Lightners
 > - **Rompe las reglas del propio Mundo Claro**: todos los demás Lightners evitan usar magia fuera de los Mundos Oscuros (Asgore es solo florista, Undyne solo invoca lanzas dentro de Fuentes) — Sans se teletransporta abiertamente en el Cap.4 y multiplica su presencia física de forma imposible en el Cap.5.
 > - **Su propio diálogo en Undertale**: en el combate final de la Ruta Genocida, Sans admite "dejé de intentar volver hace mucho tiempo... y llegar a la superficie tampoco me atrae ya", sin especificar nunca a qué lugar se refería con "volver".
 > - **El detalle del sol con Papyrus**: en la Ruta Pacifista Verdadera de Undertale, al salir todos los monstruos a la superficie, Papyrus no reconoce el sol — extraño para alguien que ha vivido siempre bajo tierra, salvo que en realidad hubiera vivido antes en algún lugar con cielo (como el propio Hometown de Deltarune) y lo hubiera olvidado. Sans, en cambio, sí lo reconoce sin dudar.
+> - 🎲 **La sangre de la Ruta Genocida**: en un sprite de combate poco visto de Undertale, solo accesible en circunstancias muy concretas de la Ruta Genocida, Sans aparece sangrando por la boca y con un corte en el torso.
+>
+> ![[sans_bleeding.webp]]
+> *Sans sangrando — el sprite de combate de la Ruta Genocida que el fandom cita como anomalía biológica.*
+>
+> Según las propias reglas de Undertale, los monstruos no tienen sangre — se desvanecen en polvo al morir, no sangran, y menos aún uno hecho enteramente de hueso. Un Sans que sangra es, por tanto, una anomalía dentro de las normas de su propio universo, lo que el fandom lee como una grieta más a favor de que no encaja del todo con las reglas de ese mundo — coherente con la idea de que en realidad procede de otro lugar. Curiosamente, Deltarune tiene su propio eco de esta misma anomalía: la mano de [[Susie]] aparece manchada de un líquido rojo sin explicación clara en el Cap.4, abriendo la misma pregunta sobre si los monstruos de Deltarune pueden sangrar (ver [[Susie]]). Ninguna de las dos pistas está confirmada como sangre real por Toby Fox, pero el paralelismo entre ambas —un monstruo "fuera de lugar" en cada juego, mostrando la misma imposibilidad biológica— es uno de los que más se repite en análisis de la comunidad.
 >
 > **Teoría muy extendida y con un respaldo de pruebas inusualmente fuerte para tratarse de fan theory — pero Toby Fox nunca la ha confirmado ni negado directamente.**
 
@@ -145,6 +151,7 @@ Repaso de los personajes de Undertale que reaparecen en Deltarune como Lightners
 - [[Asriel]]
 - [[Kris]]
 - [[Sans]]
+- [[Susie]]
 - [[Jugador]]
 - [[Ángel]]
 - [[Gerson Boom]]

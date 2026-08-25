@@ -124,6 +124,11 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 >
 > > [!danger]- Una posible pista sobre su sangre (Cap.4)
 > > En una escena de la iglesia, la mano de Susie aparece manchada de un líquido rojo tras beber de un ponche. El propio fandom debate si es sangre real —lo que reabriría la pregunta de si los monstruos de Deltarune pueden sangrar, a diferencia de Undertale— o simplemente el ponche rojo de la iglesia. Toby Fox no lo ha aclarado, y ambas lecturas tienen defensores dentro de la comunidad. La escena de su mano sangrando al romper la profecía, más adelante en el mismo capítulo, se suele traer a colación en esta misma discusión.
+> >
+> > ![[susie_bleeding.webp]]
+> > *La mano de Susie manchada de rojo, poco después de la escena en la que bebe con Kris en la iglesia.*
+> >
+> > 🎲 Un "espejo" curioso entre juegos: Undertale tiene su propia versión de esta misma anomalía. Un sprite de combate poco visto de [[Sans]], solo accesible en circunstancias muy concretas de la Ruta Genocida, lo muestra sangrando por la boca y con un corte en el torso — algo que, según las propias reglas de Undertale, no debería ser posible para ningún monstruo (se desvanecen en polvo al morir, no sangran, y menos aún un esqueleto). El fandom conecta ambas pistas como el mismo tipo de imposibilidad biológica repetida en los dos juegos: un monstruo "fuera de lugar" en cada uno, sangrando cuando no debería. Desarrollo completo en [[Conexión Undertale]].
 
 > [!example]+ Capítulo 5 — Festival Day (24 jun 2026)
 > En Castle Town, Susie se prepara para su cita en el Festival con Noelle con ayuda de Queen y Lancer; entre Lancer y Kris le confeccionan un "Traje para Machacar el Culo de tu Cita", aunque ella solo acepta ponerse el sombrero. Al salir del Mundo Oscuro el disfraz desaparece y se convierte en un montón de papeles sobre su cabeza, para su vergüenza.
@@ -238,6 +243,8 @@ Empieza el Cap.1 como "Mean Girl" ("No hace nada más que pelear"), y pasa a "Da
 - [[Berdly]]
 - [[Flowery]]
 - [[Clam Guy]]
+- [[Sans]]
+- [[Conexión Undertale]]
 
 ## Submapa
 [[Submapas/Susie.canvas|Abrir submapa gráfico]]

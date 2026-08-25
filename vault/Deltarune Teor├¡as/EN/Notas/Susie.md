@@ -124,6 +124,11 @@ The game never confirms it directly, but several clues — not recognizing the c
 >
 > > [!danger]- A possible clue about her blood (Ch.4)
 > > In a scene at the church, Susie's hand appears stained with a red liquid after she drinks some punch. The fandom itself debates whether it's real blood — which would reopen the question of whether Deltarune's monsters can bleed, unlike in Undertale — or simply the church's red punch. Toby Fox hasn't clarified it, and both readings have supporters within the community. The scene of her hand bleeding when she tears the prophecy, later in the same chapter, is often brought up in this same discussion.
+> >
+> > ![[susie_bleeding.webp]]
+> > *Susie's hand stained red, shortly after the scene where she drinks with Kris at the church.*
+> >
+> > 🎲 A curious cross-game "mirror": Undertale has its own version of this same anomaly. A rarely-seen battle sprite of [[Sans]], only accessible under very specific Genocide Route circumstances, shows him bleeding from the mouth with a gash on his torso — something that, by Undertale's own rules, shouldn't be possible for any monster (they turn to dust when they die, they don't bleed, let alone a skeleton). The fandom connects both clues as the same kind of biological impossibility repeating across both games: an "out of place" monster in each one, bleeding when they shouldn't. Full development in [[Conexión Undertale]].
 
 > [!example]+ Chapter 5 — Festival Day (Jun 24, 2026)
 > In Castle Town, Susie gets ready for her date with Noelle at the Festival with help from Queen and Lancer; between Lancer and Kris they put together an [TODO: verify exact EN quote] "Outfit to Kick Your Date's Butt," though she only agrees to wear the hat. On leaving the Dark World, the outfit disappears and turns into a pile of papers on her head, to her embarrassment.
@@ -238,6 +243,8 @@ She starts Ch.1 as "Mean Girl" ([TODO: verify exact EN quote] "Does nothing but 
 - [[Berdly]]
 - [[Flowery]]
 - [[Clam Guy]]
+- [[Sans]]
+- [[Conexión Undertale]]
 
 ## Submap
 [[Submapas/Susie.canvas|Open graphical submap]]

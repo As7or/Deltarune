@@ -100,6 +100,8 @@ confianza: fuerte
 >
 > ![[sans_lab_machine_another_universe.png]]
 > *"Hay una máquina extraña tras la cortina... parece rota." — el laboratorio de Undertale, la pieza central de esta teoría.*
+>
+> 🎲 Todo el desarrollo completo de esta teoría —incluida la pista más reciente, un sprite de combate de la Ruta Genocida en el que Sans sangra pese a que ningún monstruo debería poder hacerlo, y su paralelismo con la mano ensangrentada de [[Susie]] en Deltarune— vive en [[Conexión Undertale]].
 
 > [!question]+ ¿Es la Ruta Rara/Espada lo que "produce" o desbloquea Undertale?
 > Una de las teorías más extendidas del fandom (documentada incluso en cobertura de prensa del Cap.5): llevar la Ruta Rara/Espada hasta el final —incluida la Espada Retorcida, el arma más fuerte del juego hasta la fecha, solo obtenible si NO se sigue a Noelle al Lago— podría ser justo lo necesario para que el jugador llegue por fin a encontrarse con W.D. Gaster, el científico de Undertale nunca visto en persona en Deltarune. Una variante más extrema, también citada en foros y wikis de teorías, plantea que Deltarune transcurre *antes* de Undertale pero solo existe *porque* Sans, en algún punto posterior, arregla su máquina del tiempo y viaja atrás para evitar la guerra entre humanos y monstruos — es decir, que la propia existencia de Deltarune sería una consecuencia posterior a los hechos de Undertale, no un simple "antes" cronológico. Ninguna de las dos variantes está confirmada por Toby Fox; son lecturas especulativas que se apoyan en la ambigüedad deliberada sobre en qué orden ocurren realmente ambos juegos.

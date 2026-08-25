@@ -123,6 +123,12 @@ A rundown of the Undertale characters who reappear in Deltarune as Hometown Ligh
 > - **He breaks the Light World's own rules**: every other Lightner avoids using magic outside the Dark Worlds (Asgore is just a florist, Undyne only summons spears inside Fountains) — Sans teleports openly in Ch.4 and impossibly multiplies his physical presence in Ch.5.
 > - **His own dialogue in Undertale**: in the final battle of the Genocide Route, Sans admits [TODO: verify exact EN quote] "I gave up trying to go back a long time ago... and going to the surface doesn't really appeal to me anymore either," never specifying what place he meant by "go back."
 > - **The sun detail with Papyrus**: on Undertale's True Pacifist Route, when all the monsters come out to the surface, Papyrus doesn't recognize the sun — strange for someone who has always lived underground, unless he had actually lived somewhere with a sky before (like Deltarune's own Hometown) and had forgotten it. Sans, on the other hand, does recognize it without hesitation.
+> - 🎲 **The Genocide Route blood**: in a rarely-seen Undertale battle sprite, only accessible under very specific Genocide Route circumstances, Sans appears bleeding from the mouth with a gash on his torso.
+>
+> ![[sans_bleeding.webp]]
+> *Sans bleeding — the Genocide Route battle sprite the fandom cites as a biological anomaly.*
+>
+> By Undertale's own rules, monsters don't have blood — they turn to dust when they die instead of bleeding, let alone one made entirely of bone. A bleeding Sans is, therefore, an anomaly within his own universe's rules, which the fandom reads as one more crack in the idea that he doesn't quite fit that world — consistent with the theory that he actually comes from somewhere else. Interestingly, Deltarune has its own echo of this same anomaly: [[Susie]]'s hand is stained with a red liquid without clear explanation in Ch.4, raising the same question of whether Deltarune's monsters can bleed (see [[Susie]]). Neither clue has been confirmed as real blood by Toby Fox, but the parallel between the two — an "out of place" monster in each game, showing the same biological impossibility — is one of the most repeated in community analysis.
 >
 > **A very widespread theory with an unusually strong body of evidence for a fan theory — but Toby Fox has never directly confirmed or denied it.**
 
@@ -145,6 +151,7 @@ A rundown of the Undertale characters who reappear in Deltarune as Hometown Ligh
 - [[Asriel]]
 - [[Kris]]
 - [[Sans]]
+- [[Susie]]
 - [[Jugador|Player]]
 - [[Ángel|Angel]]
 - [[Gerson Boom]]
