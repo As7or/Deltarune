@@ -534,13 +534,38 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
     if fm:
         SKIP_VALUES = {"n/a", "na", "-", "ninguna", "ninguno", "", "no aplica"}
         SKIP_KEYS = {"confianza"}
+        # Nota bilingüe: las CLAVES del frontmatter (tipo/mundo/especie/...) se
+        # mantienen siempre en español, incluso en las notas traducidas al
+        # inglés (EN/Notas/*.md) -- solo los VALORES se traducen. Por eso cada
+        # tabla de abajo acepta tanto el fragmento en español como su
+        # equivalente en inglés, para que el icono siga resolviendo bien en
+        # ambos idiomas.
         FM_ICONS = {
-            "tipo": {"personaje": "🧑", "lugar": "📍", "tema": "💭", "objeto": "📦", "evento": "📖"},
-            "mundo": {"lightner": "☀️", "darkner": "🌙", "ambos": "🌗", "planta": "🌱"},
+            "tipo": {
+                "personaje": "🧑", "character": "🧑",
+                "lugar": "📍", "place": "📍",
+                "tema": "💭", "topic": "💭",
+                "objeto": "📦", "object": "📦",
+                "evento": "📖", "event": "📖",
+            },
+            "mundo": {
+                "lightner": "☀️", "darkner": "🌙",
+                "ambos": "🌗", "both": "🌗",
+                "planta": "🌱", "plant": "🌱",
+            },
             "especie": {},
             "familia": {},
-            "grupo": {"fun gang": "🎈", "colegio": "🏫", "iglesia": "⛪", "policía": "👮", "policia": "👮", "ayuntamiento": "🏛️"},
-            "estado": {"fallecido": "💀", "fallecida": "💀", "muerto": "💀", "muerta": "💀"},
+            "grupo": {
+                "fun gang": "🎈",
+                "colegio": "🏫", "school": "🏫",
+                "iglesia": "⛪", "church": "⛪",
+                "policía": "👮", "policia": "👮", "police": "👮",
+                "ayuntamiento": "🏛️", "city hall": "🏛️", "town hall": "🏛️",
+            },
+            "estado": {
+                "fallecido": "💀", "fallecida": "💀", "muerto": "💀", "muerta": "💀",
+                "deceased": "💀", "dead": "💀",
+            },
         }
         FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "grupo": "👥", "estado": "⚠️"}
 

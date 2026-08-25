@@ -28,6 +28,7 @@ sys.path.insert(0, os.path.join(HERE, "lib"))
 
 from encoding_fix import fix_encoding
 import board_data
+import board_template
 from board_template import BOARD_TEMPLATE
 import mdconvert_linked
 from mdconvert_linked import convert_note_linked, slugify as md_slugify
@@ -92,40 +93,48 @@ def find_main_canvas(vault_dir):
     return best
 
 
-def build(vault_path, out_dir):
-    vault_dir = find_vault_root(vault_path)
-    notes_dir = os.path.join(vault_dir, "Notas")
-    submaps_dir = os.path.join(vault_dir, "Submapas")
-    sprites_dir = os.path.join(vault_dir, "Sprites")
-    main_canvas = find_main_canvas(vault_dir)
+# Notas de indice sueltas en la raiz del vault (una versión ES y otra EN,
+# ambas con el MISMO stem de archivo -- solo cambia el idioma del contenido y
+# del blurb -- para no tener que tocar ninguna lógica de enlaces/slugs).
+EXTRA_ROOT_NOTES = ["Conexiones del Corcho.md", "Objetos del Mundo Oscuro.md"]
+EXTRA_ROOT_BLURBS_ES = {
+    "Conexiones del Corcho": "Explicación completa de cada línea del corcho: por qué cada conexión "
+                               "está clasificada como oficial, teoría fuerte o teoría débil, organizada por bloques.",
+    "Objetos del Mundo Oscuro": "Identidades reales de los personajes/objetos del Mundo Oscuro, "
+                                  "Cap.1-5 — cada Darkner tiene un equivalente en el Mundo Claro.",
+}
+EXTRA_ROOT_BLURBS_EN = {
+    "Conexiones del Corcho": "A full explanation of every line on the corkboard: why each connection "
+                               "is classified as official, strong theory, or weak theory, organized by block.",
+    "Objetos del Mundo Oscuro": "The real-world identities behind the Dark World's characters/objects, "
+                                  "Ch.1-5 — every Darkner has a Light World counterpart.",
+}
 
-    print(f"Vault detectado en: {vault_dir}")
-    print(f"Canvas principal:   {os.path.basename(main_canvas)}")
 
+def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
+                sprites_dir, sprites_prefix_notes, sprites_prefix_board,
+                thumbs_out_dir, extra_root_blurbs, copy_sprites=False):
+    """Genera un idioma completo del sitio (es o en) en out_dir. Reutiliza
+    siempre el mismo Sprites/ fisico (sprites_dir): solo cambia el PREFIJO
+    relativo con el que cada tipo de pagina referencia esas imagenes, segun
+    la profundidad real de out_dir (out_dir/ para es, out_dir/en/ para en)."""
     os.makedirs(out_dir, exist_ok=True)
     out_notes = os.path.join(out_dir, "notes")
     out_submaps = os.path.join(out_dir, "submaps")
-    out_sprites = os.path.join(out_dir, "Sprites")
     for d in (out_notes, out_submaps):
         os.makedirs(d, exist_ok=True)
 
-    # 1) Sprites (con subcarpetas, tal cual)
-    if os.path.isdir(sprites_dir):
-        if os.path.isdir(out_sprites):
-            shutil.rmtree(out_sprites)
-        shutil.copytree(sprites_dir, out_sprites)
-    print(f"Sprites copiados.")
+    if copy_sprites:
+        out_sprites = os.path.join(out_dir, "Sprites")
+        if os.path.isdir(sprites_dir):
+            if os.path.isdir(out_sprites):
+                shutil.rmtree(out_sprites)
+            shutil.copytree(sprites_dir, out_sprites)
+        print(f"[{lang}] Sprites copiados.")
 
-    # 2) Notas (incluye Notas/ + un par de notas de indice sueltas en la raiz
-    #    del vault, para que la tira de periodico del hub pueda enlazar a ellas)
+    # Notas (incluye Notas/ + las notas de indice sueltas en la raiz del
+    # vault de este idioma, para que la tira de periodico del hub enlace)
     note_files = [(fname, notes_dir) for fname in os.listdir(notes_dir) if fname.endswith(".md")]
-    EXTRA_ROOT_NOTES = ["Conexiones del Corcho.md", "Objetos del Mundo Oscuro.md"]
-    EXTRA_ROOT_BLURBS = {
-        "Conexiones del Corcho": "Explicación completa de cada línea del corcho: por qué cada conexión "
-                                   "está clasificada como oficial, teoría fuerte o teoría débil, organizada por bloques.",
-        "Objetos del Mundo Oscuro": "Identidades reales de los personajes/objetos del Mundo Oscuro, "
-                                      "Cap.1-5 — cada Darkner tiene un equivalente en el Mundo Claro.",
-    }
     for fname in EXTRA_ROOT_NOTES:
         if os.path.isfile(os.path.join(vault_dir, fname)):
             note_files.append((fname, vault_dir))
@@ -139,7 +148,7 @@ def build(vault_path, out_dir):
         stem = fname[:-3]
         slug = md_slugify(stem)
         text = open(os.path.join(srcdir, fname), encoding="utf-8").read()
-        body = convert_note_linked(text, sprites_prefix="../Sprites/")
+        body = convert_note_linked(text, sprites_prefix=sprites_prefix_notes)
         theme = (
             "parchment" if stem in PARCHMENT_NOTES else
             "wet" if stem in WET_NOTES else
@@ -158,23 +167,53 @@ def build(vault_path, out_dir):
             title = (m_title.group(1) if m_title else stem).strip()
             index_cards.append({
                 "title": title,
-                "blurb": EXTRA_ROOT_BLURBS.get(stem, ""),
+                "blurb": extra_root_blurbs.get(stem, ""),
                 "slug": slug,
             })
-    print(f"Notas generadas: {len(note_files)}")
+    print(f"[{lang}] Notas generadas: {len(note_files)}")
 
-    # 3) Corcho principal
+    # Corcho principal
     data = board_data.extract_main_canvas_data(main_canvas, notes_dir, submaps_dir, sprites_dir)
-    thumbs_out_dir = os.path.join(out_sprites, "_thumbs")
     nodes_html, links_js, board_w, board_h, news_html = board_data.build_board_html(
-        data, index_cards=index_cards, sprites_dir=sprites_dir, thumbs_out_dir=thumbs_out_dir
+        data, index_cards=index_cards, sprites_dir=sprites_dir, thumbs_out_dir=thumbs_out_dir,
+        sprites_prefix=sprites_prefix_board,
     )
     board_html = BOARD_TEMPLATE.format(
-        board_w=board_w, board_h=board_h, nodes_html=nodes_html, links_js=links_js, news_html=news_html
+        board_w=board_w, board_h=board_h, nodes_html=nodes_html, links_js=links_js,
+        news_html=news_html, lang_switch=board_template.render_lang_switch(lang),
+        sprites_prefix=sprites_prefix_board,
     )
     with open(os.path.join(out_dir, "corcho-principal.html"), "w", encoding="utf-8") as f:
         f.write(board_html)
-    print(f"Corcho principal generado: {len(data['items'])} nodos, {len(data['edges'])} conexiones.")
+    print(f"[{lang}] Corcho principal generado: {len(data['items'])} nodos, {len(data['edges'])} conexiones.")
+
+    # Submapas
+    ok, fail = build_submap.build_all_submaps(submaps_dir, notes_dir, sprites_dir, out_submaps)
+    print(f"[{lang}] Submapas generados: {ok} (fallos: {len(fail)})")
+    for stem, err in fail:
+        print(f"   - {stem}: {err}")
+
+
+def build(vault_path, out_dir):
+    vault_dir = find_vault_root(vault_path)
+    notes_dir = os.path.join(vault_dir, "Notas")
+    submaps_dir = os.path.join(vault_dir, "Submapas")
+    sprites_dir = os.path.join(vault_dir, "Sprites")
+    main_canvas = find_main_canvas(vault_dir)
+
+    print(f"Vault detectado en: {vault_dir}")
+    print(f"Canvas principal:   {os.path.basename(main_canvas)}")
+
+    out_sprites = os.path.join(out_dir, "Sprites")
+    thumbs_out_dir = os.path.join(out_sprites, "_thumbs")
+
+    # 1) Pasada en español (idioma por defecto, en la raiz de out_dir -- el
+    #    mismo comportamiento y las mismas rutas de siempre)
+    build_lang(
+        vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, "es",
+        sprites_dir=sprites_dir, sprites_prefix_notes="../Sprites/", sprites_prefix_board="Sprites/",
+        thumbs_out_dir=thumbs_out_dir, extra_root_blurbs=EXTRA_ROOT_BLURBS_ES, copy_sprites=True,
+    )
 
     # index.html de redireccion, para que la URL raiz de GitHub Pages
     # (https://usuario.github.io/repo/) caiga directo en el corcho sin
@@ -193,11 +232,28 @@ display:flex;align-items:center;justify-content:center;height:100vh;margin:0;}</
         f.write(index_redirect)
     print("index.html de redireccion generado.")
 
-    # 4) Submapas
-    ok, fail = build_submap.build_all_submaps(submaps_dir, notes_dir, sprites_dir, out_submaps)
-    print(f"Submapas generados: {ok} (fallos: {len(fail)})")
-    for stem, err in fail:
-        print(f"   - {stem}: {err}")
+    # 2) Pasada en ingles, SOLO si el vault trae una subcarpeta EN/ con su
+    #    propia Notas/ (y opcionalmente Submapas/ y su propio .canvas
+    #    principal). Se genera en out_dir/en/, reutilizando el MISMO
+    #    Sprites/ ya copiado arriba (no se duplica en disco).
+    en_vault_dir = os.path.join(vault_dir, "EN")
+    en_notes_dir = os.path.join(en_vault_dir, "Notas")
+    en_has_canvas = os.path.isdir(en_vault_dir) and any(
+        f.endswith(".canvas") for f in os.listdir(en_vault_dir)
+    ) if os.path.isdir(en_vault_dir) else False
+    if os.path.isdir(en_vault_dir) and os.path.isdir(en_notes_dir) and en_has_canvas:
+        en_submaps_dir = os.path.join(en_vault_dir, "Submapas")
+        en_main_canvas = find_main_canvas(en_vault_dir)
+        en_out_dir = os.path.join(out_dir, "en")
+        build_lang(
+            en_vault_dir, en_notes_dir, en_submaps_dir, en_main_canvas, en_out_dir, "en",
+            sprites_dir=sprites_dir, sprites_prefix_notes="../../Sprites/", sprites_prefix_board="../Sprites/",
+            thumbs_out_dir=thumbs_out_dir, extra_root_blurbs=EXTRA_ROOT_BLURBS_EN, copy_sprites=False,
+        )
+    else:
+        print("(Todavía no hay vault/EN/Notas/ + un .canvas principal en EN/ -- se omite la build en inglés "
+              "por ahora. El interruptor Español/English del corcho seguirá ahí, pero solo funcionará "
+              "una vez exista esa carpeta completa con el contenido traducido.)")
 
     print(f"\nListo. Sitio generado en: {os.path.abspath(out_dir)}")
     print(f"Abre {os.path.join(out_dir, 'corcho-principal.html')} en el navegador para verlo en local.")

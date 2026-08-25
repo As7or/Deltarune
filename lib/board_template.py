@@ -119,6 +119,32 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   #legend .swatch{{ width:20px; height:3px; display:inline-block; border-radius:2px; }}
   #legend .dot{{ width:11px; height:11px; border-radius:50%; display:inline-block; }}
   #zoomhint{{ position:fixed; bottom:14px; right:14px; background:rgba(253,250,243,0.92); border-radius:6px; padding:8px 12px; font-size:11px; color:#3a2f22; box-shadow:2px 3px 8px rgba(0,0,0,0.25); z-index:50; max-width:220px; }}
+  #lang-switch{{
+    position:fixed; top:16px; right:16px; z-index:95;
+    background:linear-gradient(180deg, #fdfaf0, #f1e8d2);
+    border-radius:3px; padding:14px 13px 12px; text-align:center;
+    box-shadow:2px 5px 12px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(0,0,0,0.08);
+    transform:rotate(-1.6deg);
+  }}
+  #lang-switch .pin{{ position:absolute; top:-9px; left:50%; transform:translateX(-50%); width:16px; height:16px; }}
+  #lang-switch .pin svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 2px 1px rgba(0,0,0,0.45)); }}
+  #lang-switch .lang-opt{{
+    display:block; font-family:'Segoe Print','Bradley Hand','Comic Sans MS',cursive;
+    font-size:14px; font-weight:700; color:#9c8c68; text-decoration:none;
+    letter-spacing:.02em; line-height:1.3; transition:color .15s ease, transform .15s ease;
+  }}
+  #lang-switch .lang-opt:hover{{ transform:scale(1.07); }}
+  #lang-switch .lang-opt.active{{ color:#a8332a; text-decoration:underline wavy rgba(168,51,42,0.6); }}
+  #lang-switch .lang-track{{
+    position:relative; width:14px; height:30px; margin:5px auto; border-radius:7px;
+    background:#3a2f22; box-shadow:inset 0 1px 3px rgba(0,0,0,0.55);
+  }}
+  #lang-switch .lang-lever{{
+    position:absolute; top:2px; left:2px; width:10px; height:10px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #e8dcc0, #8a7a5c 70%);
+    box-shadow:0 1px 2px rgba(0,0,0,0.5); transition:top .2s ease;
+  }}
+  #lang-switch .lang-lever.lang-lever-en{{ top:18px; }}
 
   #note-panel{{
     position:fixed; background:#fbf6e9; box-shadow:-4px 0 20px rgba(0,0,0,0.4);
@@ -335,7 +361,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 <div class="frame-screw" style="right:11px; top:11px;"></div>
 <div class="frame-screw" style="left:11px; bottom:11px;"></div>
 <div class="frame-screw" style="right:11px; bottom:11px;"></div>
-<img id="pipis-guest" src="Sprites/nike_Green_Pippins_overworld_exasperated.gif" alt="Pipis, mirando el corcho con cara de exasperación">
+<img id="pipis-guest" src="{sprites_prefix}nike_Green_Pippins_overworld_exasperated.gif" alt="Pipis, mirando el corcho con cara de exasperación">
 <div id="viewport">
   <div id="board">
     <svg id="strings"></svg>
@@ -343,6 +369,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   <svg id="highlight-svg"></svg>
   </div>
 </div>
+{lang_switch}
 <div id="legend">
   <div><span class="dot" style="background:#2e8b46;"></span> Lightner</div>
   <div><span class="dot" style="background:#6b3fa0;"></span> Darkner</div>
@@ -669,4 +696,22 @@ overlay.addEventListener('click', closeNote);
 </body>
 </html>
 '''
+
+
+def render_lang_switch(lang):
+    """Interruptor ES/EN clavado al corcho -- SOLO aparece en el corcho
+    principal (nunca en notas ni submapas, por decision explicita). 'lang' es
+    'es' o 'en': el idioma de ESTA pagina que se esta generando ahora mismo.
+    Los dos idiomas se construyen en carpetas hermanas (out_dir/ para es,
+    out_dir/en/ para en), asi que el enlace cruzado es siempre relativo a un
+    unico nivel de profundidad en cualquiera de los dos sentidos."""
+    es_active = (lang == "es")
+    en_href = "en/corcho-principal.html" if es_active else "corcho-principal.html"
+    es_href = "corcho-principal.html" if es_active else "../corcho-principal.html"
+    return f'''<div id="lang-switch">
+    <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
+    <a class="lang-opt lang-es{' active' if es_active else ''}" href="{es_href}">Español</a>
+    <div class="lang-track"><div class="lang-lever{' lang-lever-en' if not es_active else ''}"></div></div>
+    <a class="lang-opt lang-en{' active' if not es_active else ''}" href="{en_href}">English</a>
+  </div>'''
 

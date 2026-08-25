@@ -190,7 +190,7 @@ def extract_main_canvas_data(canvas_path, notes_dir, submaps_dir, sprites_dir):
     return {"items": items, "edges": elinks, "hub": nodes.get("hub")}
 
 
-def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None):
+def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None, sprites_prefix="Sprites/"):
     """A partir de {"items","edges"} genera (nodes_html, links_js, board_w, board_h)."""
     items = data["items"]
     edges = data["edges"]
@@ -286,7 +286,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
             img_ref = it["img"]
             if sprites_dir and thumbs_out_dir:
                 img_ref = make_board_thumb(it["img"], sprites_dir, thumbs_out_dir)
-            src = "Sprites/" + urllib.parse.quote(img_ref)
+            src = sprites_prefix + urllib.parse.quote(img_ref)
             img_tag = f'<img src="{src}" alt="" loading="lazy">'
         else:
             img_tag = '<div class="noimg"><i>sin imagen</i></div>'
