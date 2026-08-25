@@ -318,6 +318,57 @@ PAGE_CSS = '''
     box-shadow:1px 4px 10px rgba(60,45,10,0.28); transform:rotate(0.6deg) !important;
   }
   #note-panel .postit-body .callout-title{ font-weight:bold; margin-bottom:6px; font-size:13px; text-transform:uppercase; letter-spacing:.03em; color:#5a4520; }
+  /* Callout especial "[!prophecy]" dentro del popup del submapa: mismo
+     pergamino abierto que usa la nota completa (note_page_template.py,
+     bloque .callout.prophecy-scroll) -- sin este bloque, el popup del
+     submapa mostraba la version generica de callout (notita amarilla
+     simple) en vez del pergamino, aunque la nota real si lo tuviera. */
+  #note-panel .postit-body .callout.prophecy-scroll{
+    position:relative;
+    background:
+      radial-gradient(ellipse at 50% 45%, #f3e3b2 0%, #ecd89e 30%, #d8b678 58%, #a97b46 82%, #6e4526 100%),
+      radial-gradient(ellipse at 30% 35%, rgba(255,240,200,0.25) 0, transparent 45%),
+      linear-gradient(124deg, transparent 30%, rgba(90,60,20,0.08) 31%, transparent 34%),
+      linear-gradient(38deg, transparent 55%, rgba(90,60,20,0.07) 56%, transparent 60%),
+      linear-gradient(160deg, transparent 15%, rgba(120,85,35,0.06) 16%, transparent 20%),
+      repeating-linear-gradient(91deg, rgba(90,60,20,0.05) 0px, transparent 2px, transparent 5px),
+      repeating-linear-gradient(4deg, rgba(90,60,20,0.04) 0px, transparent 3px, transparent 7px);
+    padding:28px 20px 30px;
+    margin:22px 6px 28px;
+    border-left:8px solid #8a6a3a;
+    box-shadow:0 6px 18px rgba(40,25,5,0.4), inset 0 0 60px rgba(90,55,25,0.4);
+    font-family:'Palatino Linotype', Georgia, serif;
+    transform:none !important;
+    clip-path: polygon(
+      0% 2%, 7% 0%, 15% 1.5%, 23% 0.5%, 31% 2%, 39% 0%, 47% 1.5%, 55% 0.5%, 63% 2%, 71% 0%, 79% 1.5%, 87% 0.5%, 94% 1.5%, 100% 0.5%,
+      99% 8%, 100% 15%, 98.5% 23%, 100% 31%, 99% 39%, 100% 47%, 98.5% 55%, 100% 63%, 99% 71%, 100% 79%, 98.5% 87%, 100% 94%, 99.5% 100%,
+      92% 99%, 84% 100%, 76% 98.5%, 68% 100%, 60% 99%, 52% 100%, 44% 98.5%, 36% 100%, 28% 99%, 20% 100%, 12% 98.5%, 4% 100%, 0% 99%,
+      1% 92%, 0% 84%, 1.5% 76%, 0% 68%, 1% 60%, 0% 52%, 1.5% 44%, 0% 36%, 1% 28%, 0% 20%, 1.5% 12%, 0% 6%
+    );
+  }
+  #note-panel .postit-body .callout.prophecy-scroll::before, #note-panel .postit-body .callout.prophecy-scroll::after{
+    content:""; position:absolute; left:-2px; right:-2px; height:22px; z-index:1;
+    background:
+      repeating-linear-gradient(135deg, transparent 0 7px, #5a3416 7px 8.5px),
+      repeating-linear-gradient(45deg, transparent 0 7px, #5a3416 7px 8.5px),
+      linear-gradient(180deg, #caa267, #8a6236 45%, #6e4a26 55%, #a37e46);
+    box-shadow:0 3px 8px rgba(30,18,6,0.5);
+  }
+  #note-panel .postit-body .callout.prophecy-scroll::before{ top:-11px; }
+  #note-panel .postit-body .callout.prophecy-scroll::after{ bottom:-11px; transform:scaleY(-1); }
+  #note-panel .postit-body .prophecy-scroll .callout-title{
+    font-weight:bold; margin-bottom:8px; font-size:13.5px; color:#4a3418 !important;
+    text-transform:uppercase; letter-spacing:.08em; border-bottom:1px solid rgba(90,60,20,.35); padding-bottom:5px;
+    position:relative; z-index:2; font-family:'Palatino Linotype', Georgia, serif;
+  }
+  #note-panel .postit-body .prophecy-scroll p{ margin:6px 0; font-size:14.5px; line-height:1.55; color:#3f3120 !important; position:relative; z-index:2; }
+  #note-panel .postit-body .prophecy-scroll img{
+    width:auto; max-width:85%; height:auto; display:block; margin:10px auto;
+    border-radius:2px; box-shadow:0 2px 8px rgba(40,25,5,0.35); border:none; position:relative; z-index:2;
+  }
+  #note-panel .postit-body .prophecy-scroll .wikilink, #note-panel .postit-body .prophecy-scroll .postit-note-link{
+    color:#7a2e22 !important; border-bottom:1px dotted #7a2e22 !important;
+  }
   /* Imagenes dentro del texto de teoria/conexion -- mismas reglas que las
      paginas de nota normales, para que no rompan el ancho del panel. */
   #note-panel .postit-body figure{ margin:12px 0; text-align:center; max-width:100%; }
@@ -461,7 +512,45 @@ PAGE_CSS = '''
   .node-scroll .sheet .title, .node-scroll .sheet .summary{ position:relative; z-index:2; }
 '''
 
-def build_submap(canvas_path, title_name):
+SUBMAP_UI = {
+    "es": {
+        "submap_title_prefix": "Submapa",
+        "back_link": "← Corcho principal",
+        "zoomhint": "Rueda = zoom &middot; arrastra el fondo para moverte &middot; clic en una nota = abrir su pagina",
+        "note_title_default": "Nota",
+        "mode_side_title": "Ver al lado",
+        "mode_side_label": "Lateral",
+        "mode_center_title": "Ver centrado, mas grande",
+        "mode_center_label": "Centrado",
+        "note_close_label": "Cerrar X",
+        "no_note_prefix": "Todavia no hay nota para",
+        "view_full_note_prefix": "Ver la nota completa de",
+        "no_image": "sin imagen",
+    },
+    "en": {
+        "submap_title_prefix": "Submap",
+        "back_link": "← Main Corkboard",
+        "zoomhint": "Wheel = zoom &middot; drag the background to move &middot; click a note to open its page",
+        "note_title_default": "Note",
+        "mode_side_title": "View beside",
+        "mode_side_label": "Side",
+        "mode_center_title": "View centered, larger",
+        "mode_center_label": "Center",
+        "note_close_label": "Close X",
+        # OJO: este valor se inyecta crudo dentro de un string JS delimitado
+        # con comillas simples (ver mas abajo, linea del "no_note_prefix").
+        # Un apostrofo aqui ("There's") rompe esa comilla simple y tira
+        # abajo TODO el <script> de la pagina -- mismo bug que ya paso una
+        # vez en board_template.py. Nunca usar apostrofos en este valor.
+        "no_note_prefix": "There is no note yet for",
+        "view_full_note_prefix": "View the full note for",
+        "no_image": "no image",
+    },
+}
+
+
+def build_submap(canvas_path, title_name, lang="es"):
+    ui = SUBMAP_UI.get(lang, SUBMAP_UI["es"])
     d = json.load(open(canvas_path, encoding="utf-8"))
     nodes = {n["id"]: n for n in d["nodes"]}
     edges = d["edges"]
@@ -592,9 +681,9 @@ def build_submap(canvas_path, title_name):
             b = brightness_of(path)
             is_dark = (b is not None and b < 70)
             mime, b64 = prepare_image(path, maxw=(260 if is_center else 200))
-            img_tag = f'<img src="data:{mime};base64,{b64}" alt="">' if b64 else '<div class="noimg"><i>sin imagen</i></div>'
+            img_tag = f'<img src="data:{mime};base64,{b64}" alt="">' if b64 else f'<div class="noimg"><i>{ui["no_image"]}</i></div>'
         else:
-            img_tag = '<div class="noimg"><i>sin imagen</i></div>'
+            img_tag = f'<div class="noimg"><i>{ui["no_image"]}</i></div>'
 
         thumb_class = "thumb thumb-dark" if is_dark else "thumb"
         title_html = html.escape(it["title"]) if it["title"] else ""
@@ -723,10 +812,10 @@ def build_submap(canvas_path, title_name):
     content_json = json.dumps(content_map, ensure_ascii=False)
 
     page = f'''<!DOCTYPE html>
-<html lang="es">
+<html lang="{lang}">
 <head>
 <meta charset="UTF-8">
-<title>Submapa — {html.escape(title_name)}</title>
+<title>{ui["submap_title_prefix"]} — {html.escape(title_name)}</title>
 <style>{PAGE_CSS}</style>
 </head>
 <body>
@@ -752,7 +841,7 @@ def build_submap(canvas_path, title_name):
 </clipPath>
 </defs>
 </svg>
-<a id="back-link" href="../corcho-principal.html">&larr; Corcho principal</a>
+<a id="back-link" href="../corcho-principal.html">&larr; {ui["back_link"].lstrip("← ")}</a>
 <div id="viewport" class="{viewport_extra_class}">
   <div id="board" style="width:{board_w}px; height:{board_h}px;">
     <svg id="strings"></svg>
@@ -760,15 +849,15 @@ def build_submap(canvas_path, title_name):
     <svg id="highlight-svg"></svg>
   </div>
 </div>
-<div id="zoomhint">Rueda = zoom &middot; arrastra el fondo para moverte &middot; clic en una nota = abrir su pagina</div>
+<div id="zoomhint">{ui["zoomhint"]}</div>
 <div id="overlay"></div>
 <div id="note-panel" class="mode-side">
   <div class="note-header">
-    <span id="note-title-bar">Nota</span>
+    <span id="note-title-bar">{ui["note_title_default"]}</span>
     <div class="btns">
-      <button id="mode-side-btn" class="active" title="Ver al lado">Lateral</button>
-      <button id="mode-center-btn" title="Ver centrado, mas grande">Centrado</button>
-      <button id="note-close">Cerrar X</button>
+      <button id="mode-side-btn" class="active" title="{ui["mode_side_title"]}">{ui["mode_side_label"]}</button>
+      <button id="mode-center-btn" title="{ui["mode_center_title"]}">{ui["mode_center_label"]}</button>
+      <button id="note-close">{ui["note_close_label"]}</button>
     </div>
   </div>
   <iframe id="note-frame" src=""></iframe>
@@ -942,7 +1031,7 @@ function openNote(noteStem, label){{
   frame.style.display = 'block';
   postitBody.style.display = 'none';
   if(noteStem){{ frame.src = '../notes/' + encodeURIComponent(noteStem) + '.html'; }}
-  else {{ frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">Todavia no hay nota para <b>'+label+'</b>.</body>'); }}
+  else {{ frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">{ui["no_note_prefix"]} <b>'+label+'</b>.</body>'); }}
   panel.classList.add('open'); overlay.classList.add('open');
 }}
 function openPostit(content){{
@@ -952,7 +1041,7 @@ function openPostit(content){{
   postitBody.style.display = 'block';
   let extra = '';
   if(content.note){{
-    extra = '<a class="postit-note-link" href="../notes/' + encodeURIComponent(content.note) + '.html" target="_blank">Ver la nota completa de "' + content.title + '" →</a>';
+    extra = '<a class="postit-note-link" href="../notes/' + encodeURIComponent(content.note) + '.html" target="_blank">{ui["view_full_note_prefix"]} "' + content.title + '" →</a>';
   }}
   postitBody.innerHTML = content.html + extra;
   panel.classList.add('open'); overlay.classList.add('open');
@@ -966,7 +1055,7 @@ overlay.addEventListener('click', closeNote);
 '''
     return page
 
-def build_all_submaps(submapas_dir, notes_dir, sprites_dir, out_dir):
+def build_all_submaps(submapas_dir, notes_dir, sprites_dir, out_dir, lang="es"):
     """Genera una pagina html por cada Submapas/*.canvas. Devuelve (ok, fallos)."""
     configure(notes_dir, sprites_dir, out_dir)
     os.makedirs(out_dir, exist_ok=True)
@@ -979,7 +1068,7 @@ def build_all_submaps(submapas_dir, notes_dir, sprites_dir, out_dir):
         stem = fname[:-7]
         slug = slugify(stem)
         try:
-            page = build_submap(os.path.join(submapas_dir, fname), stem)
+            page = build_submap(os.path.join(submapas_dir, fname), stem, lang=lang)
             if page is None:
                 fail.append((stem, "sin nodos"))
                 continue

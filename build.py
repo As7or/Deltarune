@@ -222,7 +222,7 @@ def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
     print(f"[{lang}] Corcho principal generado: {len(data['items'])} nodos, {len(data['edges'])} conexiones.")
 
     # Submapas
-    ok, fail = build_submap.build_all_submaps(submaps_dir, notes_dir, sprites_dir, out_submaps)
+    ok, fail = build_submap.build_all_submaps(submaps_dir, notes_dir, sprites_dir, out_submaps, lang=lang)
     print(f"[{lang}] Submapas generados: {ok} (fallos: {len(fail)})")
     for stem, err in fail:
         print(f"   - {stem}: {err}")
