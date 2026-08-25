@@ -190,6 +190,28 @@ def extract_main_canvas_data(canvas_path, notes_dir, submaps_dir, sprites_dir):
     return {"items": items, "edges": elinks, "hub": nodes.get("hub")}
 
 
+# Nota bilingue: igual que en build.py (mismo diccionario, es la unica
+# fuente de verdad -- build.py lo referencia como board_data.EN_TITLE_OVERRIDES
+# para el <title> de cada nota), estas son las etiquetas EN a mostrar para los
+# nodos del corcho cuyo nombre interno (it["label"]) se quedo en español al
+# crear el vault. Solo afecta al texto MOSTRADO en la tarjeta -- it["label"]
+# en si no se toca, porque mas abajo se usa como clave para decidir el tema
+# visual de la tarjeta (Profecía, Lake, Shelter, Cristal Oscuro...) y cambiar
+# ese valor rompería esas comparaciones.
+EN_TITLE_OVERRIDES = {
+    "7 Flores de Colores": "7 Colored Flowers",
+    "Conexión Undertale": "Undertale Connection",
+    "Cristal Oscuro": "Shadow Crystal",
+    "Fuentes Oscuras": "Dark Fountains",
+    "Huevo": "Egg",
+    "Jugador": "Player",
+    "Profecía": "Prophecy",
+    "Rutas": "Routes",
+    "Sr. Cattenheimer": "Mr. Cattenheimer",
+    "Ángel": "Angel",
+}
+
+
 def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None, sprites_prefix="Sprites/", lang="es"):
     """A partir de {"items","edges"} genera (nodes_html, links_js, board_w, board_h)."""
     items = data["items"]
@@ -298,7 +320,8 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
             img_tag = f'<div class="noimg"><i>{UI["no_img"]}</i></div>'
 
         note_attr = slugify(it["note"]) if it["note"] else ""
-        title = html.escape(it["label"])
+        display_label = EN_TITLE_OVERRIDES.get(it["label"], it["label"]) if lang == "en" else it["label"]
+        title = html.escape(display_label)
         tag = html.escape(it["tag"])
         summary = html.escape(it["summary"])
         approx_card_h = thumb_h + 60
@@ -307,8 +330,9 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         submap_badge = ""
         if it.get("submap"):
             submap_url = "submaps/" + urllib.parse.quote(slugify(it["submap"])) + ".html"
+            submap_tooltip = f"View submap of {title}" if lang == "en" else f"Ver submapa de {title}"
             submap_badge = (f'<a class="submap-badge" href="{submap_url}" '
-                             f'title="Ver submapa de {title}" onmousedown="event.stopPropagation()">🗺️</a>')
+                             f'title="{submap_tooltip}" onmousedown="event.stopPropagation()">🗺️</a>')
 
         if it["label"] == "Profecía":
             node_html.append(f'''

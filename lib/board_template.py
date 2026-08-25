@@ -719,7 +719,13 @@ def render_ui_strings(lang):
             mode_side_title="View side-by-side", mode_side_label="Side",
             mode_center_title="View centered, bigger", mode_center_label="Centered",
             note_close_label="Close",
-            no_note_prefix="There's no note yet for",
+            # OJO: este valor se inyecta crudo dentro de un string JS delimitado
+            # con comillas simples (ver mas abajo, la linea de frame.src) -- un
+            # apostrofo aqui ("There's") rompe esa comilla simple a mitad de
+            # frase, lo que provoca un SyntaxError en TODO el <script> de la
+            # pagina y deja sin funcionar arrastrar/zoom/hilos por completo.
+            # Por eso se evita deliberadamente cualquier apostrofo/contraccion.
+            no_note_prefix="There is no note yet for",
         )
     return dict(
         page_title="Corcho Principal — Deltarune Teorías 🕵️",

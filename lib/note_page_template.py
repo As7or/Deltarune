@@ -735,15 +735,15 @@ PAGE_CSS_GASTER = '''
       radial-gradient(ellipse 40% 30% at 85% 15%, rgba(70,55,55,0.16) 0%, transparent 70%),
       radial-gradient(ellipse 30% 25% at 10% 85%, rgba(55,60,62,0.14) 0%, transparent 65%),
       linear-gradient(155deg, #cfcfc6 0%, #b7b7ac 45%, #a3a398 100%);
-    padding:16px 18px 18px; margin:24px 14px 28px;
+    padding:18px 20px 20px; margin:24px 14px 28px;
     box-shadow:2px 6px 14px rgba(0,0,0,0.55), inset 0 -14px 22px -16px rgba(0,0,0,0.25);
     font-family:'Segoe UI', Tahoma, sans-serif;
     /* recorte de respaldo por si algun postit no recibe clase de variante */
     clip-path: polygon(
-      0% 1%, 44% 0.4%, 68% 0.1%, 93.5% 0%, 100% 0.8%,
-      99.4% 30%, 99% 55%, 99.4% 75%, 99.5% 98.7%,
-      97% 100%, 80% 99.6%, 46% 99.2%, 0% 98.7%,
-      0.6% 55%, 0.9% 0%
+      0% 0.6%, 44% 0.3%, 68% 0.2%, 93.5% 0.1%, 100% 0.5%,
+      99.7% 30%, 99.5% 55%, 99.6% 75%, 99.7% 98.7%,
+      98.5% 100%, 80% 99.7%, 46% 99.6%, 0% 99.7%,
+      0.4% 55%, 0.5% 0%
     );
   }
   /* --- 4 variantes de borde rasgado, generadas con desplazamientos
@@ -766,10 +766,10 @@ PAGE_CSS_GASTER = '''
       radial-gradient(ellipse 30% 25% at 10% 85%, rgba(55,60,62,0.14) 0%, transparent 65%),
       linear-gradient(155deg, #cfcfc6 0%, #b7b7ac 45%, #a3a398 100%);
     clip-path: polygon(
-      0% 0.6%, 44.1% 0.4%, 47.5% 0.7%, 47.8% 0.6%, 67.6% 0.1%, 68% 3.3%, 69.9% 0.8%, 74.7% 0.6%, 80.5% 1.6%, 93.5% 0%, 95.2% 2.7%, 99.2% 0.6%, 99.3% 0.1%, 100% 0.8%,
-      99.7% 0%, 99.4% 30.2%, 97.7% 46%, 99.3% 48.9%, 99.9% 54.6%, 99.2% 56.8%, 99.8% 62.4%, 99.6% 63.9%, 99.3% 67.2%, 99.5% 73.9%, 99.4% 75.2%, 99.1% 90.7%, 99.5% 98.7%,
-      97.4% 100%, 100% 99.4%, 98.5% 99.7%, 97% 99.4%, 95.2% 99.3%, 92% 99.5%, 87.7% 99.8%, 81.8% 96.7%, 80.8% 99.6%, 79.9% 99.7%, 53.8% 96.9%, 46% 99.2%, 37.3% 99%, 0% 98.7%,
-      0.9% 100%, 0.6% 91%, 0.9% 89.4%, 0% 80.3%, 1.2% 73.4%, 0.3% 68.8%, 0.2% 67.5%, 0.6% 55.3%, 0.8% 51.9%, 0.9% 38.5%, 0.9% 0%
+      0% 0.4%, 44.1% 0.3%, 47.5% 0.2%, 47.8% 0.3%, 67.6% 0.4%, 68% 0.5%, 69.9% 0.3%, 80.5% 0.2%, 93.5% 0.1%, 95.2% 0.1%, 99.2% 0.6%, 99.3% 0.2%, 100% 0.5%,
+      99.8% 0%, 99.9% 30.2%, 99.9% 46%, 99.6% 48.9%, 99.6% 54.6%, 98.8% 56.8%, 99.7% 62.4%, 99.5% 63.9%, 99.8% 67.2%, 99.5% 73.9%, 99.6% 75.2%, 99.5% 90.7%, 99.7% 100%,
+      100% 99.7%, 98.5% 99.6%, 97% 99.5%, 95.2% 99.6%, 92% 99.8%, 81.8% 99.9%, 80.8% 99.8%, 79.9% 99.6%, 53.8% 100%, 46% 99.5%, 37.3% 99.7%, 0% 100%,
+      0.2% 100%, 0.7% 98.3%, 1% 88.2%, 0% 80.7%, 0.3% 75.6%, 0.3% 74.2%, 0.2% 60.8%, 0.2% 57.1%, 0.1% 42.3%, 0.2% 0%
     );
   }
   .callout.callout-torn-2{
@@ -787,10 +787,10 @@ PAGE_CSS_GASTER = '''
       radial-gradient(ellipse 34% 26% at 88% 12%, rgba(70,55,55,0.14) 0%, transparent 68%),
       linear-gradient(150deg, #d0c9b8 0%, #b7ac93 45%, #9c9280 100%);
     clip-path: polygon(
-      0% 0.6%, 31.2% 3.6%, 43.2% 0.9%, 50% 1.3%, 59.7% 0.5%, 59.7% 1.2%, 63.7% 0.9%, 67.4% 1.2%, 85.8% 3.6%, 89.7% 3.8%, 98.1% 1.8%, 100% 0.5%,
-      97% 0%, 99.4% 34%, 99.2% 36.2%, 97.9% 47.8%, 99.8% 49.7%, 97.1% 62.3%, 98.7% 74.2%, 99.9% 80.5%, 99.6% 83.2%, 97.5% 86.9%, 98.9% 93.1%, 99.3% 100%,
-      100% 99.6%, 95.9% 99.6%, 82.7% 96.9%, 74.1% 98.6%, 69.6% 98.3%, 68.3% 98.9%, 64.2% 98.1%, 63.4% 99.2%, 61.9% 99.2%, 61.7% 97.2%, 47.2% 99.6%, 45.1% 99.3%, 40.6% 99%, 37.3% 98.7%, 37.2% 99.1%, 32.9% 96.3%, 0% 99.5%,
-      0.8% 100%, 3.1% 94.6%, 0.4% 86.5%, 0.4% 80.5%, 3.9% 79.5%, 3.1% 77.8%, 0.4% 74.5%, 2.4% 70.9%, 0% 62.8%, 3.3% 56.9%, 1.2% 49.9%, 3.2% 45.3%, 0.9% 41.9%, 0.6% 41.7%, 1.1% 30.9%, 1.8% 0%
+      0% 1.5%, 43.2% 0.1%, 50% 0.6%, 59.7% 0.3%, 59.7% 0.5%, 63.7% 0.3%, 67.4% 0.3%, 85.8% 0.4%, 89.7% 0%, 98.1% 0.1%, 100% 0%,
+      99.9% 0%, 99.6% 36.6%, 99.5% 38.9%, 100% 51.3%, 99.7% 53.4%, 99.9% 67%, 99.6% 79.7%, 99.4% 86.5%, 99.1% 89.4%, 99.9% 93.4%, 99.5% 100%,
+      100% 99.6%, 77.3% 99.6%, 72.6% 98.9%, 66.9% 99.8%, 66.1% 99.7%, 64.5% 99.5%, 49.2% 99.4%, 47% 99.6%, 42.3% 98.6%, 38.8% 99.8%, 34.3% 99.7%, 0% 98.7%,
+      0.1% 100%, 0.3% 94.6%, 0.3% 86.5%, 0.1% 80.5%, 0.1% 79.5%, 0.4% 77.8%, 0.8% 70.9%, 0.4% 62.8%, 0% 56.9%, 0.4% 49.9%, 0.2% 45.3%, 0.6% 41.9%, 0.4% 41.7%, 0.3% 30.9%, 0% 0%
     );
   }
   .callout.callout-torn-3{
@@ -806,10 +806,10 @@ PAGE_CSS_GASTER = '''
       radial-gradient(ellipse 38% 28% at 12% 12%, rgba(64,64,64,0.15) 0%, transparent 70%),
       linear-gradient(150deg, #c6c6bd 0%, #a8a89d 50%, #8f8f84 100%);
     clip-path: polygon(
-      0% 1.9%, 32.7% 0.5%, 33.5% 0.5%, 40.3% 4.2%, 40.4% 0.3%, 63.7% 0.4%, 68.3% 0.2%, 80.8% 0.4%, 84.6% 0.1%, 97.8% 1.7%, 100% 1.5%,
-      99.6% 0%, 99.5% 33.4%, 99.5% 34.5%, 99.3% 35.8%, 99.7% 42.3%, 99.6% 49.2%, 100% 55.6%, 99.3% 56%, 99.6% 82.6%, 99.5% 83.2%, 99.6% 100%,
-      100% 99.2%, 97.5% 99.6%, 94.7% 99.4%, 93% 99.7%, 90.2% 99.3%, 79.2% 97.5%, 68.3% 99.1%, 67.9% 99.2%, 64.6% 99.2%, 64.5% 99.3%, 53.2% 99.7%, 50.5% 99.4%, 47% 99.3%, 42.3% 99.5%, 0% 99.9%,
-      0.7% 100%, 0.2% 99.9%, 0.5% 90.4%, 2.8% 73.2%, 3.8% 59.1%, 0.6% 56.8%, 0.5% 56%, 0.1% 55.6%, 0.4% 47.5%, 0.3% 37.9%, 0.8% 35.6%, 2.6% 33.1%, 0.6% 33%, 0.3% 31.1%, 3.2% 0%
+      0% 0.5%, 33.5% 0.3%, 40.3% 0.1%, 40.4% 0.1%, 63.7% 0.4%, 68.3% 0.1%, 80.8% 0.3%, 84.6% 0.3%, 97.8% 0.3%, 100% 0.5%,
+      99.6% 0%, 99.7% 33.4%, 99.6% 34.5%, 99.8% 35.8%, 99.9% 42.3%, 99.6% 49.2%, 99.8% 55.6%, 98.8% 56%, 99.8% 83.2%, 99.6% 100%,
+      100% 99.8%, 97.5% 99.8%, 94.7% 99.8%, 93% 99.7%, 90.2% 100%, 79.2% 99.6%, 68.3% 99.9%, 67.9% 99.9%, 64.6% 99.9%, 64.5% 99.6%, 53.2% 99.6%, 47% 99.6%, 42.3% 99%, 0% 99.7%,
+      0.4% 100%, 0.2% 99.9%, 0% 90.4%, 0.1% 73.2%, 0.1% 59.1%, 0.3% 56.8%, 0.1% 56%, 0.1% 55.6%, 0.1% 47.5%, 0.1% 37.9%, 0% 35.6%, 0.3% 33.1%, 0.4% 33%, 0.7% 0%
     );
   }
   .callout.callout-torn-4{
@@ -827,10 +827,10 @@ PAGE_CSS_GASTER = '''
       radial-gradient(ellipse 36% 26% at 90% 10%, rgba(70,55,55,0.15) 0%, transparent 68%),
       linear-gradient(160deg, #d3cdb0 0%, #b8ae8c 48%, #9e9576 100%);
     clip-path: polygon(
-      0% 1.5%, 30.7% 0.5%, 31.3% 3.1%, 47.5% 0.2%, 49.4% 0.6%, 49.9% 3.2%, 53.3% 2.3%, 57.1% 0.8%, 83.6% 1.7%, 89.8% 3.6%, 92.9% 2.1%, 93.3% 1.6%, 99.6% 0.7%, 100% 0.1%,
-      99.3% 0%, 96.5% 39.3%, 99.8% 44.6%, 99.6% 45.4%, 96.7% 46.1%, 97.6% 48.6%, 99.5% 56.5%, 98.4% 57.6%, 99.8% 83.2%, 99.9% 84.6%, 97.1% 87.1%, 99.5% 88.1%, 98.3% 96.6%, 98.8% 97.8%, 98.7% 99.9%,
-      99.4% 100%, 100% 97.9%, 85.8% 98.4%, 81.2% 97.2%, 74.8% 98.1%, 74% 98.5%, 72.4% 99.8%, 67.9% 98.1%, 57.5% 98.2%, 51.5% 99.9%, 37.8% 98.6%, 0% 98.6%,
-      1.2% 100%, 1% 93.9%, 1.1% 92.9%, 3.7% 88.3%, 1.2% 84.8%, 1.8% 82.9%, 2.6% 78.9%, 2.3% 67.2%, 1.2% 60.8%, 2.2% 59.7%, 0.9% 54.3%, 1.9% 45.3%, 0.5% 44%, 1% 0%
+      0% 1.5%, 30.7% 0.6%, 47.5% 0.2%, 49.4% 0.4%, 49.9% 1.1%, 53.3% 0.2%, 57.1% 0%, 83.6% 0.3%, 89.8% 0%, 92.9% 0.8%, 93.3% 0.1%, 99.6% 0.1%, 100% 1.1%,
+      99.7% 0%, 99.8% 39.3%, 99.5% 44.6%, 99% 45.4%, 99.9% 46.1%, 99.9% 48.6%, 99.8% 56.5%, 99.8% 57.6%, 99% 83.2%, 98.6% 84.6%, 99.1% 87.1%, 99.4% 88.1%, 99.9% 97.8%, 98.8% 99.9%,
+      99.4% 100%, 100% 99.9%, 85.8% 100%, 81.2% 99.8%, 74.8% 99%, 74% 98.6%, 67.9% 99.2%, 57.5% 99.3%, 51.5% 99.7%, 37.8% 99.4%, 0% 99.6%,
+      0.5% 100%, 0.4% 93.9%, 0% 92.9%, 1.3% 88.3%, 0.1% 82.9%, 0.1% 78.9%, 0.2% 67.2%, 0.6% 60.8%, 0.2% 59.7%, 1.1% 54.3%, 0.2% 45.3%, 0.2% 44%, 0.5% 0%
     );
   }
   .callout::after{
@@ -1017,6 +1017,63 @@ SHARED_CSS_EXTRA = '''
     width:15%; font-size:15px; font-weight:700;
   }
   table.note-table.id-table th:nth-child(3), table.note-table.id-table td:nth-child(3){ width:27%; }
+
+  /* --- pergamino de la Profecia: el callout "[!prophecy]- Titulo" (ver
+     mdconvert_linked.py, ctype=="prophecy") se usa dentro de la nota de
+     CUALQUIER personaje que tenga relacion con la Profecia, para mostrar
+     ese vinculo siempre como un rollo de pergamino abierto -- el mismo
+     diseño que usa la propia nota de Profecía (tema "parchment") -- sin
+     importar el tema visual del resto de esa nota (postit, Gaster, Undertale,
+     Cristal...). Va aqui, en el CSS compartido, en vez de en cada tema, para
+     no tener que duplicarlo 8 veces y para que gane siempre por orden de
+     carga (este bloque se añade DESPUES del CSS del tema en el <style> de
+     la pagina). Reutiliza el mismo recorte irregular de "rollo antiguo" que
+     PAGE_CSS_PARCHMENT, con el borde-barra enrollado arriba y abajo. */
+  .callout.prophecy-scroll{
+    position:relative;
+    background:
+      radial-gradient(ellipse at 50% 45%, #f3e3b2 0%, #ecd89e 30%, #d8b678 58%, #a97b46 82%, #6e4526 100%),
+      radial-gradient(ellipse at 30% 35%, rgba(255,240,200,0.25) 0, transparent 45%),
+      linear-gradient(124deg, transparent 30%, rgba(90,60,20,0.08) 31%, transparent 34%),
+      linear-gradient(38deg, transparent 55%, rgba(90,60,20,0.07) 56%, transparent 60%),
+      linear-gradient(160deg, transparent 15%, rgba(120,85,35,0.06) 16%, transparent 20%),
+      repeating-linear-gradient(91deg, rgba(90,60,20,0.05) 0px, transparent 2px, transparent 5px),
+      repeating-linear-gradient(4deg, rgba(90,60,20,0.04) 0px, transparent 3px, transparent 7px);
+    padding:34px 26px 36px;
+    margin:36px 10px 42px;
+    border-left:8px solid #8a6a3a;
+    box-shadow:0 6px 18px rgba(40,25,5,0.4), inset 0 0 60px rgba(90,55,25,0.4);
+    font-family:'Palatino Linotype', Georgia, serif;
+    clip-path: polygon(
+      0% 2%, 7% 0%, 15% 1.5%, 23% 0.5%, 31% 2%, 39% 0%, 47% 1.5%, 55% 0.5%, 63% 2%, 71% 0%, 79% 1.5%, 87% 0.5%, 94% 1.5%, 100% 0.5%,
+      99% 8%, 100% 15%, 98.5% 23%, 100% 31%, 99% 39%, 100% 47%, 98.5% 55%, 100% 63%, 99% 71%, 100% 79%, 98.5% 87%, 100% 94%, 99.5% 100%,
+      92% 99%, 84% 100%, 76% 98.5%, 68% 100%, 60% 99%, 52% 100%, 44% 98.5%, 36% 100%, 28% 99%, 20% 100%, 12% 98.5%, 4% 100%, 0% 99%,
+      1% 92%, 0% 84%, 1.5% 76%, 0% 68%, 1% 60%, 0% 52%, 1.5% 44%, 0% 36%, 1% 28%, 0% 20%, 1.5% 12%, 0% 6%
+    );
+  }
+  .callout.prophecy-scroll::before, .callout.prophecy-scroll::after{
+    content:""; position:absolute; left:-2px; right:-2px; height:26px; z-index:1;
+    background:
+      repeating-linear-gradient(135deg, transparent 0 7px, #5a3416 7px 8.5px),
+      repeating-linear-gradient(45deg, transparent 0 7px, #5a3416 7px 8.5px),
+      linear-gradient(180deg, #caa267, #8a6236 45%, #6e4a26 55%, #a37e46);
+    box-shadow:0 3px 8px rgba(30,18,6,0.5);
+  }
+  .callout.prophecy-scroll::before{ top:-13px; }
+  .callout.prophecy-scroll::after{ bottom:-13px; transform:scaleY(-1); }
+  .prophecy-scroll .callout-title{
+    font-weight:bold; margin-bottom:8px; font-size:14.5px; color:#4a3418 !important;
+    text-transform:uppercase; letter-spacing:.08em; border-bottom:1px solid rgba(90,60,20,.35); padding-bottom:5px;
+    position:relative; z-index:2; font-family:'Palatino Linotype', Georgia, serif;
+  }
+  .prophecy-scroll .callout-body{ position:relative; z-index:2; }
+  .prophecy-scroll .callout-body p{ margin:6px 0; font-size:15px; line-height:1.55; color:#3f3120 !important; }
+  .prophecy-scroll .callout-body img.inline-img{
+    width:auto; max-width:80%; height:auto; display:block; margin:10px auto;
+    border-radius:2px; box-shadow:0 2px 8px rgba(40,25,5,0.35); border:none;
+  }
+  .prophecy-scroll .wikilink{ color:#7a2e22 !important; border-bottom:1px dotted #7a2e22 !important; }
+  .prophecy-scroll a.wikilink:hover{ background:rgba(122,46,34,0.12); }
 
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }

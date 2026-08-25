@@ -119,22 +119,14 @@ EXTRA_ROOT_BLURBS_EN = {
 # en la pestaña del navegador de la version EN, incluso para esas notas
 # mezcladas (algunas ya tenian nombre en ingles como "Lake"/"Shelter", otras
 # se quedaron en español al crear el vault). Este diccionario es SOLO de
-# presentacion (el <title> de la pagina): no toca el archivo, el slug ni el
-# data-key de ningun badge. Las notas que sí tienen su propio "# Titulo" en
-# ingles al principio del cuerpo (como los dos EXTRA_ROOT_NOTES) no lo
-# necesitan -- ese H1 ya se usa como fallback automatico, ver build_lang().
-EN_TITLE_OVERRIDES = {
-    "7 Flores de Colores": "7 Colored Flowers",
-    "Conexión Undertale": "Undertale Connection",
-    "Cristal Oscuro": "Shadow Crystal",
-    "Fuentes Oscuras": "Dark Fountains",
-    "Huevo": "Egg",
-    "Jugador": "Player",
-    "Profecía": "Prophecy",
-    "Rutas": "Routes",
-    "Sr. Cattenheimer": "Mr. Cattenheimer",
-    "Ángel": "Angel",
-}
+# presentacion (el <title> de la pagina, y tambien la etiqueta visible de la
+# tarjeta del corcho -- ver board_data.EN_TITLE_OVERRIDES, MISMO diccionario,
+# una sola fuente de verdad para no desincronizar los dos sitios donde se usa):
+# no toca el archivo, el slug ni el data-key de ningun badge. Las notas que sí
+# tienen su propio "# Titulo" en ingles al principio del cuerpo (como los dos
+# EXTRA_ROOT_NOTES) no lo necesitan -- ese H1 ya se usa como fallback
+# automatico, ver build_lang().
+EN_TITLE_OVERRIDES = board_data.EN_TITLE_OVERRIDES
 
 
 def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,

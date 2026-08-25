@@ -13,6 +13,7 @@ CALLOUT_ICONS = {
     "danger": ("!", "#b23c30"),
     "quote": ("quote", "#6b3fa0"),
     "question": ("?", "#c9982e"),
+    "prophecy": ("scroll", "#8a6a3a"),
 }
 
 # En "Objetos del Mundo Oscuro.md" cada "## Capítulo N — ..." agrupa varias
@@ -458,6 +459,14 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapte
     torn_variant = torn_variant_for((title or ctype) + str(depth) + ctype)
     cls_extra = f" {chapter_class}" if chapter_class else ""
     cls_extra += f" callout-torn-{torn_variant}"
+    # Callout especial "[!prophecy]": la conexion de un personaje con la
+    # Profecia, renderizada siempre como un pergamino abierto (mismo diseño
+    # que la propia nota de Profecía) sin importar el tema visual del resto
+    # de la nota -- ver .callout.prophecy-scroll en SHARED_CSS_EXTRA
+    # (note_page_template.py), que sobreescribe fondo/recorte/tipografia
+    # para cualquier tema.
+    if ctype == "prophecy":
+        cls_extra += " prophecy-scroll"
     return (f'<div class="callout callout-{ctype}{cls_extra}" style="transform:rotate({rot}deg);">'
             f'{title_html}<div class="callout-body">{body}</div></div>')
 
