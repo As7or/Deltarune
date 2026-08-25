@@ -402,7 +402,7 @@ familia: na
 > |  | Couch Cushion | Un cojín de sofá 🔵 |  |
 > |  | Water Container | Pila de agua bendita |  |
 > | ![[440px-Dark_Sanctuary_location_golden_piano.png.webp\|50]] | Pianolike Organ | El teclado en la habitación más a la izquierda | ![[pianolike_organ_lightworld.png\|50]] |
-> | ![[great_door_cap4.png\|50]] | The Great Door | La puerta del vestíbulo a la nave | ![[dreemur_door.png\|50]] |
+> | ![[great_door_cap4.png\|50]] | The Great Door | La puerta del vestíbulo a la nave |  |
 >
 
 ## Capítulo 5 — Reino de las Flores

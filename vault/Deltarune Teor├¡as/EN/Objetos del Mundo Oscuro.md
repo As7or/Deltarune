@@ -397,7 +397,7 @@
 > |  | Couch Cushion | A couch cushion 🔵 |  |
 > |  | Water Container | Holy water font |  |
 > | ![[440px-Dark_Sanctuary_location_golden_piano.png.webp\|50]] | Pianolike Organ | The keyboard in the leftmost room | ![[pianolike_organ_lightworld.png\|50]] |
-> | ![[great_door_cap4.png\|50]] | The Great Door | The door from the lobby to the nave | ![[dreemur_door.png\|50]] |
+> | ![[great_door_cap4.png\|50]] | The Great Door | The door from the lobby to the nave |  |
 >
 
 ## Chapter 5 — Flower Kingdom
