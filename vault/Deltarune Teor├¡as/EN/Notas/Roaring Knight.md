@@ -6,11 +6,10 @@ familia: N/A
 confianza: strong
 ---
 
-| Masked (all appearances) | Real World |
-|---|---|
-| ![[TheRoaringKnightDeltarune.webp]] | *(image gap: his real identity is still unconfirmed — see Theories)* |
+![[knight_titan_profecy.webp]]
+*The Ultimate Prophecy's illustration depicting the Roaring: a central Titan flanked by two figures resembling the Roaring Knight's silhouette — see [[Titan]].*
 
-*Table note: unlike the rest of the characters in this folder, the Knight is not a Darkner — Susie confirms he's a Lightner under a mask, so he has no "Dark World" form of his own, just a still-unrevealed Light World identity.*
+*Unlike the rest of the characters in this folder, the Knight is not a Darkner — Susie confirms he's a Lightner under a mask, so he has no "Dark World" form of his own, just a still-unrevealed Light World identity (see Theories).*
 
 > [!info]+ Quick facts
 > 🗡️ Masked figure in the service of "The Roaring," central to the Prophecy that foretells his duel against the heroes. He's officially called only "Knight" on the wiki.

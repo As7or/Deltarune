@@ -62,7 +62,7 @@ confianza: fuerte
 > > ![[Noelle_overworld_weird_route_wind_sprite_cap4.gif]]
 > > *El efecto de viento distorsionado que envuelve a Noelle durante su monólogo.*
 > >
-> > ![[Weird_Route_Noelle_Face2.webp]]
+> > ![[Weird_Route_Noelle_Face2.webp|220]]
 > > *El rostro de Noelle durante el monólogo, justo antes de arrastrar a Kris al agua.*
 > >
 > > ![[lake_noelle_and_kriss_drowning.png]]

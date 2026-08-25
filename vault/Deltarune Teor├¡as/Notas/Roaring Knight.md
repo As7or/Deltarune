@@ -6,11 +6,10 @@ familia: N/A
 confianza: fuerte
 ---
 
-| Con máscara (todas sus apariciones) | Mundo Real |
-|---|---|
-| ![[TheRoaringKnightDeltarune.webp]] | *(hueco de imagen: su identidad real sigue sin confirmarse — ver Teorías)* |
+![[knight_titan_profecy.webp]]
+*El dibujo de la Última Profecía que ilustra el Rugido: un Titán central flanqueado por dos figuras que recuerdan a la silueta del Caballero Rugiente — ver [[Titan]].*
 
-*Nota de tabla: a diferencia del resto de personajes de esta carpeta, el Knight no es un Darkner — Susie confirma que es un Lightner bajo una máscara, así que no tiene una forma "Mundo Oscuro" propia, sino una identidad de Mundo Claro todavía sin desvelar.*
+*A diferencia del resto de personajes de esta carpeta, el Knight no es un Darkner — Susie confirma que es un Lightner bajo una máscara, así que no tiene una forma "Mundo Oscuro" propia, sino una identidad de Mundo Claro todavía sin desvelar (ver Teorías).*
 
 > [!info]+ Datos rápidos
 > 🗡️ Figura enmascarada al servicio de «The Roaring», central en la Profecía que anuncia su duelo contra los héroes. Se llama oficialmente solo "Knight" en la wiki.

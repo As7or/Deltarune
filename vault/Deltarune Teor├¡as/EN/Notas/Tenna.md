@@ -84,6 +84,9 @@ confianza: strong
 >
 > If he's brought to the Blooks' house, "the nobody" agrees to adopt him and asks for his brand name; Susie says "Tenna," and they find it "adorable." If instead Tenna is left in front of the Dreemurr house with a blanket over him, Susie takes it upon herself to carry him to Castle Town, explaining that "he had a cold," even though it was Lancer who put him out to tan.
 >
+> ![[tenna_to_mettaton.png]]
+> *Fandom comparison between Tenna and Mettaton (Undertale) — both media hosts with an abandonment complex.*
+>
 > If Tenna was **not** repaired, his screen appears broken and he can't be brought to Castle Town — none of the Darkners wanted to help find him.
 
 > [!example]+ Chapter 5 — Festival Day
@@ -152,8 +155,6 @@ confianza: strong
 - His design is inspired by TV Dinnah, from *Little King's Story* — confirmed by Toby Fox himself, who also worked in a nod to Yoshiro Kimura (that game's director and a friend of his) through a Papyrus cameo in Undertale.
 - He's also inspired by Bob Sparker, from the web novel *Tales from Electricopolis* — the same character who already influenced Mettaton, from Undertale.
 - "Ant Tenna" comes from "antenna," a leftover from an earlier design phase in which Tenna looked more like an ant.
-- ![[tenna_to_mettaton.png]]
-  *Fandom comparison between Tenna and Mettaton (Undertale) — both media hosts with an abandonment complex.*
 - During the 2022 Spamton Sweepstakes, a hidden page showed the Dreemurrs' TV crossed out with a red X, with Spamton calling Tenna a "boob tube" [TODO: verify exact EN quote] — the first confirmation that the TV entity was Tenna, and that Tenna and Mike are separate characters.
 - ![[tenna_smoking.gif]]
   *One of his less conventional animations/poses, frequently cited by the fandom.*

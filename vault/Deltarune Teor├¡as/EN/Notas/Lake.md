@@ -62,7 +62,7 @@ confianza: strong
 > > ![[Noelle_overworld_weird_route_wind_sprite_cap4.gif]]
 > > *The distorted wind effect surrounding Noelle during her monologue.*
 > >
-> > ![[Weird_Route_Noelle_Face2.webp]]
+> > ![[Weird_Route_Noelle_Face2.webp|220]]
 > > *Noelle's face during the monologue, just before she drags Kris into the water.*
 > >
 > > ![[lake_noelle_and_kriss_drowning.png]]

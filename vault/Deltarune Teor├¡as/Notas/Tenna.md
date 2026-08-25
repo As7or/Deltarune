@@ -84,6 +84,9 @@ confianza: fuerte
 >
 > Si se le lleva a la casa de los Blook, "el nadie" acepta adoptarlo y pregunta su nombre de marca; Susie dice "Tenna", y les parece "adorable". Si en cambio Tenna se queda frente a la casa Dreemurr con una manta encima, Susie se encarga de llevarlo por su cuenta a Castle Town explicando que "tenía un resfriado", aunque fuera Lancer quien lo puso a broncearse.
 >
+> ![[tenna_to_mettaton.png]]
+> *Comparativa de fandom entre Tenna y Mettaton (Undertale) — ambos presentadores mediáticos con complejo de abandono.*
+>
 > Si Tenna **no** fue reparado, su pantalla aparece rota y no puede llevarse a Castle Town — ninguno de los Darkners quiso ayudar a encontrarlo.
 
 > [!example]+ Capítulo 5 — Festival Day
@@ -152,8 +155,6 @@ confianza: fuerte
 - Su diseño está inspirado en TV Dinnah, de *Little King's Story* — confirmado por el propio Toby Fox, que además dirige un guiño a Yoshiro Kimura (director de ese juego y amigo suyo) a través de un cameo de Papyrus en Undertale.
 - También está inspirado en Bob Sparker, de la novela web *Tales from Electricopolis* — el mismo personaje que ya influyó en Mettaton, de Undertale.
 - "Ant Tenna" viene de "antena" ("antenna"), y es un resto de una fase de diseño anterior en la que Tenna tenía un aspecto más parecido a una hormiga.
-- ![[tenna_to_mettaton.png]]
-  *Comparativa de fandom entre Tenna y Mettaton (Undertale) — ambos presentadores mediáticos con complejo de abandono.*
 - Durante las Spamton Sweepstakes de 2022, una página oculta mostraba la tele de los Dreemurr tachada con una X roja, con Spamton llamando a Tenna "tubo bobo" — la primera confirmación de que la entidad-televisión era Tenna, y de que Tenna y Mike son personajes distintos.
 - ![[tenna_smoking.gif]]
   *Una de sus animaciones/poses menos convencionales, muy citada por el fandom.*
