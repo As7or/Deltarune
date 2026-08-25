@@ -118,6 +118,8 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 
 > [!question]+ Deltarune's final antagonist?
 > He's been theorized as a possible final antagonist behind much of the past's mysterious events — including Dess's disappearance (and her possible transformation into the Roaring Knight) — and Kris's own trauma. It's one of the fandom's most widespread theories, but still has no direct textual confirmation.
+>
+> 🎲 Before Ch.5's release, one very elaborate video analysis (see [[Rutas]]) went as far as proposing FRIEND as that chapter's Dark Crystal secret boss, fought by Kris and Noelle together. That's not what happened: Ch.5's confirmed secret boss is Pink (see [[Mad Mew Mew (Pink)]]), not FRIEND. That doesn't rule out FRIEND mattering later on — Toby Fox has hinted "Roots" could still be the title of a Ch.6 or Ch.7 track — but the specific timing that theory proposed has already come and gone unconfirmed.
 
 > [!question]- Is FRIEND the "Strange Someone"?
 > Given his visible connection to Spamton (glasses/colors) and his constant presence in the game's darkest moments, it's been proposed that FRIEND could be the same mysterious figure who pushed Jevil and Spamton into madness — and who would also have tried (unsuccessfully) to do the same to Gerson Boom. This is further supported by a scene with Tenna, who mentions that a "heavy hitter" [TODO: verify exact EN quote] she worked with received a call with no one on the other end. A strong theory due to the accumulation of clues, but none directly confirmed.
@@ -150,6 +152,7 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 - [[ERAM]]
 - [[Dess]]
 - [[Mad Mew Mew (Pink)]]
+- [[Rutas]]
 
 ## Submap
 [[Submapas/FRIEND.canvas|Open graphical submap]]

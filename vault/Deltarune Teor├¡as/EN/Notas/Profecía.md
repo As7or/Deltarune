@@ -231,6 +231,8 @@ The final block, much shorter and more intimate in tone than the rest — closes
 > "Roots" isn't exclusive to this pane: it's also the title of two soundtrack pieces ("Digital Roots," which plays in Queen's Mansion basement in Ch.2, and "BIT ROOTS," which plays in MANTLE's final dungeon in Ch.3+4), and one of the possible words in Bibliox's "spelling correction" minigame in Ch.4. It had already been hinted at months before Ch.4's release, on the `/lostwheretheforestwouldgrow/` page of the Spamton Sweepstakes — the URL's own name ("where the lost forest would grow") fits the image of the two trees. Toby Fox has even hinted that "Roots" might also be the title of a still-unreleased track for Ch.6 or Ch.7.
 >
 > Right at the end of the stained-glass hallway that ends on this one ("Roots"), an Organikk (one of the furniture-enemies in the Sanctuary) drops a hint about something being "in between" — the same kind of hint that in earlier chapters pointed to where to find the chapter's secret Egg. **"Roots"'s ultimate meaning is still never explained within the game — this is a description of where and how it appears, not a closed interpretation.**
+>
+> 🎲 The BIT ROOTS board from the Sword Route (Ch.3) has its own fan theory about exactly what this place might represent — see [[Rutas]].
 
 > [!example]- 33 — "Gallery"
 > ![[33_gallery_galeria.gif]]

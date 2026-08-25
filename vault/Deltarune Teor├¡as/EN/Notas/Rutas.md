@@ -96,6 +96,19 @@ confianza: strong
 > ![[Weird_Route_Crack.webp]]
 > *The red crack that visually represents this route in fan material — a fracture, not a path with a reward at the end.*
 
+> [!question]- 🎲 Is the third board (BIT ROOTS) a symbolic map of Hometown?
+> "Roots" is a word that keeps resurfacing unexplained throughout the game: it's the title of Prophecy pane 32 (a house between two trees), of the "Digital Roots" ambience that plays in Queen's Mansion basement in Ch.2, and also of "BIT ROOTS," the track that plays specifically on this third board of the Original Game, right before the fight against ERAM (see [[Profecía|Prophecy]]). A very detailed video analysis, made before Ch.5's release, proposed that this board's layout isn't random, but a miniature symbolic map of Hometown, with each room representing a specific neighbor at roughly the position of their real house or business:
+> - The rooms with the purple cat and the green lizard, adjacent to each other in the top row, would represent Catty and Bratty — also placed in the same relative position as their real houses in Hometown.
+> - The fish-type enemy room (which can become tougher with armor, and whose death "upsets" the neighboring yellow lizards) would represent Undyne and Alphys.
+> - The white cat faces that only attack after the "singing cat" upstairs (read as Toriel, who also sings in the Church choir) is defeated would fit with the promise Sans makes to Toriel in Undertale not to attack the human unless they go so far as to harm her.
+> - The orange fire-spitting enemies, positioned where the hospital would be, would fit Rudy — consistent with him recommending Noelle use Fireshock instead of Iceshock after the Weird Route.
+> - The room with the enemy that copies the player's movements, positioned where the Lake would be, would read as a reference to the mysterious "song on the other side of the Lake" (see [[Lake]]).
+> - The Dreemurr house would occupy the only standalone room in the top row, and the school would be blocked off by a wall of trees with the same design as Hometown's.
+>
+> Not everything fits equally well — the Alphys/Undyne room sits out of place relative to Catty/Bratty's, and there's no clear room for the Police Station or Flower King — but the pattern of recycling enemy sprites instead of building a unique design per NPC does match the deliberately NES/8-bit aesthetic of the rest of the Original Game.
+>
+> *Contrast note: the video that popularized this reading used it as the basis for predicting that Ch.5 would bring a Hometown-wide Dark World (coinciding with the Festival), with FRIEND itself — "the tail of hell" — as the chapter's Dark Crystal secret boss, fought by Kris and Noelle together after the Weird Route's ending. With Ch.5 now out, we know that's not what happened: the chapter's Dark World is Asgore's own flower shop (see [[Flowery]]), its confirmed secret boss is Pink (see [[Mad Mew Mew (Pink)]]), and Ch.5's Weird Route skips the Dark World entirely, ending straight at the Lake (see above). Toby Fox has hinted that "Roots" could still be the title of an unreleased track for Ch.6 or Ch.7 (see [[Profecía|Prophecy]]), so the connection between BIT ROOTS and a future Hometown Dark World isn't fully ruled out — just pushed further out than the original theory placed it.*
+
 ## Trivia
 - It's one of the few systems in the game that tracks progress silently and invisibly to the player, with no visible counter on screen — with the only partial exception being the Sword Route's unlabeled kill counter.
 - The name "Snowgrave Route," while still the most popular among the Spanish-speaking community, has become technically outdated since it was confirmed that the official name is "Weird Route" and that Snowgrave itself is only the Ch.2 spell, not the whole route — developer Fred Wood himself refers to it consistently by that name.
@@ -109,6 +122,8 @@ confianza: strong
 - [[Noelle]]
 - [[Ramb]]
 - [[FRIEND]]
+- [[Flowery]]
+- [[Mad Mew Mew (Pink)]]
 
 ## Submap
 [[Submapas/Rutas.canvas|Open graphical submap]]

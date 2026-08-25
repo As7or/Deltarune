@@ -118,6 +118,8 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 
 > [!question]+ ¿Antagonista final de Deltarune?
 > Se le ha teorizado como posible antagonista final que estaría detrás de gran parte de los eventos misteriosos del pasado —incluida la desaparición de Dess (y su posible transformación en el Caballero Rugiente)— y del propio trauma de Kris. Es una de las teorías más extendidas del fandom, pero sigue sin ninguna confirmación textual directa.
+>
+> 🎲 Antes de la publicación del Cap.5, una lectura de vídeo muy elaborada (ver [[Rutas]]) llegó a proponer a FRIEND como jefe secreto del Cristal Oscuro de ese capítulo, enfrentado por Kris y Noelle juntos. No fue así: el jefe secreto confirmado del Cap.5 es Pink (ver [[Mad Mew Mew (Pink)]]), no FRIEND. Eso no descarta que FRIEND acabe siendo relevante más adelante —Toby Fox ha insinuado que "Roots" podría seguir siendo el título de un tema para el Cap.6 o el Cap.7—, pero la fecha concreta que proponía esa teoría ya ha pasado sin confirmarse.
 
 > [!question]- ¿Es FRIEND el "Strange Someone"?
 > Dada su conexión visible con Spamton (gafas/colores) y su presencia constante en los momentos más oscuros del juego, se ha propuesto que FRIEND podría ser la misma figura misteriosa que empujó a Jevil y Spamton a la locura — y que también habría intentado (sin éxito) hacer lo mismo con Gerson Boom. Se apoya además en una escena de Tenna, quien comenta que un "peso pesado" con el que trabajaba recibió una llamada sin que hubiera nadie al otro lado. Teoría fuerte por la acumulación de pistas, pero ninguna confirmada de forma directa.
@@ -150,6 +152,7 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 - [[ERAM]]
 - [[Dess]]
 - [[Mad Mew Mew (Pink)]]
+- [[Rutas]]
 
 ## Submapa
 [[Submapas/FRIEND.canvas|Abrir submapa gráfico]]

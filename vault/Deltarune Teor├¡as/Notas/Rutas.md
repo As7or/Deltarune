@@ -96,6 +96,19 @@ confianza: fuerte
 > ![[Weird_Route_Crack.webp]]
 > *La grieta roja que representa visualmente esta ruta en el material de fans — una fractura, no un camino con recompensa al final.*
 
+> [!question]- 🎲 ¿Es el tercer tablero (BIT ROOTS) un mapa simbólico de Hometown?
+> "Roots" es una palabra que reaparece sin explicarse por todo el juego: título de la vidriera 32 de la Profecía (una casa entre dos árboles), de la ambientación "Digital Roots" que suena en el sótano de la Mansión de Queen del Cap.2, y también del tema "BIT ROOTS" que suena precisamente en este tercer tablero del Juego Original, justo antes del combate contra ERAM (ver [[Profecía]]). Un análisis de vídeo muy detallado, previo a la publicación del Cap.5, propuso que el diseño de este tablero no es aleatorio, sino un mapa simbólico en miniatura de Hometown, con cada sala representando a un vecino concreto en la posición aproximada de su casa o negocio real:
+> - Las salas con el gato morado y el lagarto verde, adyacentes entre sí en la fila superior, representarían a Catty y Bratty — colocadas, además, en la misma posición relativa que sus casas reales en Hometown.
+> - La sala del enemigo pez (que puede volverse más resistente con una armadura, y cuya muerte "disgusta" a los lagartos amarillos vecinos) representaría a Undyne y Alphys.
+> - Las caras de gato blanco que solo atacan tras derrotar al "gato cantante" del piso superior (leído como Toriel, que también canta en el coro de la Iglesia) encajarían con la promesa que Sans le hace a Toriel en Undertale de no atacar al humano salvo que este llegue a hacerle daño a ella.
+> - Los enemigos naranjas que escupen fuego, en la posición del hospital, encajarían con Rudy — coherente con que él mismo recomiende a Noelle usar Fireshock en vez de Iceshock tras la Ruta Rara.
+> - La sala del enemigo que copia los movimientos del jugador, situada donde estaría el Lago, se leería como una referencia a la misteriosa "canción al otro lado del Lago" (ver [[Lake]]).
+> - La casa Dreemurr ocuparía la única sala en solitario de la fila superior, y la escuela quedaría bloqueada por una pared de árboles con el mismo diseño que los de Hometown.
+>
+> No todo encaja igual de bien —la sala de Alphys/Undyne queda descolocada respecto a la de Catty/Bratty, y no hay ninguna sala clara para la Comisaría ni para Flower King—, pero el propio patrón de reciclar sprites de enemigo en vez de crear un diseño único por NPC coincide con la estética deliberadamente NES/8-bit del resto del Juego Original.
+>
+> *Nota de contraste: el vídeo que popularizó esta lectura la usaba como base para predecir que el Cap.5 traería un Mundo Oscuro a escala de todo Hometown (coincidiendo con el Festival), con el propio FRIEND —"la cola del infierno"— como jefe secreto del Cristal Oscuro del capítulo, enfrentado por Kris y Noelle juntos tras el final de la Ruta Rara. Con el Cap.5 ya publicado, sabemos que no fue así: el Mundo Oscuro del capítulo es la propia floristería de Asgore (ver [[Flowery]]), su jefe secreto confirmado es Pink (ver [[Mad Mew Mew (Pink)]]), y la Ruta Rara del Cap.5 se salta el Mundo Oscuro por completo, terminando directamente en el Lago (ver más arriba). Toby Fox ha insinuado que "Roots" podría seguir siendo el título de un tema todavía sin publicar para el Cap.6 o el Cap.7 (ver [[Profecía]]), así que la conexión entre BIT ROOTS y un futuro Mundo Oscuro de Hometown no está descartada del todo — solo pospuesta más allá de donde la situaba la teoría original.*
+
 ## Curiosidades
 - Es uno de los pocos sistemas del juego que registra progreso de forma silenciosa e invisible para el jugador, sin ningún contador visible en pantalla — con la única excepción parcial del contador de bajas sin etiquetar de la Ruta Espada.
 - El nombre "Snowgrave Route", aunque sigue siendo el más popular entre la comunidad hispanohablante, ha quedado técnicamente desactualizado desde que se confirmó que el nombre oficial es "Weird Route" (Ruta Rara) y que la propia Snowgrave es solo el hechizo del Cap.2, no toda la ruta — el propio desarrollador Fred Wood se refiere a ella con ese nombre de forma consistente.
@@ -109,6 +122,8 @@ confianza: fuerte
 - [[Noelle]]
 - [[Ramb]]
 - [[FRIEND]]
+- [[Flowery]]
+- [[Mad Mew Mew (Pink)]]
 
 ## Submapa
 [[Submapas/Rutas.canvas|Abrir submapa gráfico]]

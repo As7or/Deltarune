@@ -260,6 +260,8 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 > "Roots" no es exclusivo de esta vidriera: es también el título de dos temas de la banda sonora ("Digital Roots", que suena en el sótano de la Mansión de Queen en el Cap.2, y "BIT ROOTS", que suena en la mazmorra final de MANTLE en el Cap.3+4), y una de las palabras posibles en el minijuego de "corregir ortografía" de Bibliox en el Cap.4. Ya se había insinuado meses antes del lanzamiento del Cap.4, en la página `/lostwheretheforestwouldgrow/` de las Spamton Sweepstakes — el propio nombre de esa URL ("donde el bosque perdido crecería") encaja con la imagen de los dos árboles. Toby Fox ha llegado a insinuar que "Roots" podría ser también el título de un tema todavía sin publicar para el Cap.6 o el Cap.7.
 >
 > Justo al final del pasillo de vidrieras que termina en esta ("Roots"), un Organikk (uno de los enemigos-mueble del Santuario) suelta una pista sobre que hay algo "en medio" (*in between*) — la misma clase de pista que en capítulos anteriores señalaba dónde encontrar el Huevo secreto del capítulo. **El propio significado final de "Roots" sigue sin explicarse dentro del juego — esto es descripción de dónde y cómo aparece, no una interpretación cerrada.**
+>
+> 🎲 El tablero BIT ROOTS de la Ruta Espada (Cap.3) tiene su propia teoría de fans sobre qué podría representar exactamente este lugar — ver [[Rutas]].
 
 > [!example]- 33 — "Gallery"
 > ![[33_gallery_galeria.gif]]
