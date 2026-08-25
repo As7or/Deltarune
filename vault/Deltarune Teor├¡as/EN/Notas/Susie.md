@@ -164,6 +164,10 @@ The game never confirms it directly, but several clues — not recognizing the c
 
 ## Key relationships
 
+> [!prophecy]- Prophecy
+> ![[12_the_second_hero_the_girl_with_hope_crossed_on_her_heart.gif]]
+> Pane 12 describes the Second Hero as "the Girl, with hope crossed on her heart" — the exact line the theory of whether Susie is "the girl" of the Prophecy rests on. She's also the one who physically breaks one of the panes with her hand, until it bleeds, in the most-cited moment of her Ch.4 arc. [[Profecía|Prophecy]]
+
 > [!quote]- Kris
 > From initial hostility to being inseparable by Ch.3-4. She admits she likes the apple smell of his shampoo, and jokes about "wanting to take a bite out of him" because of it. She shows genuine concern when she sees him hurt or acting differently than he should, even if she doesn't always fully understand what's wrong.
 >
@@ -226,7 +230,7 @@ She starts Ch.1 as "Mean Girl" ([TODO: verify exact EN quote] "Does nothing but 
 
 ## Related
 - [[Dess]]
-- [[Fuentes Oscuras]]
+- [[Fuentes Oscuras|Dark Fountains]]
 - [[Kris]]
 - [[Ralsei]]
 - [[Noelle]]

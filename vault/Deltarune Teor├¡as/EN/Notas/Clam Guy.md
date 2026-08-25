@@ -67,7 +67,7 @@ confianza: strong
 - [[Onionsan]]
 - [[Gaster (W. D. Gaster)]]
 - [[Susie]]
-- [[Conexión Undertale]]
+- [[Conexión Undertale|Undertale Connection]]
 
 ## Submap
 [[Submapas/Clam Guy.canvas|Open graphical submap]]

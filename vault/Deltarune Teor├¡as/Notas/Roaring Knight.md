@@ -113,6 +113,10 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[Profecy.gif]]
+> Es la única figura de la Profecía referida siempre por su título ("el Caballero"), nunca por nombre — a diferencia de Queen, mencionada solo por su apodo, que también funciona como título. [[Profecía]]
+
 > [!quote]- Titan
 > Lo crea deliberadamente al final del Cap.4, abriendo una Fuente Oscura mucho más potente de lo normal dentro del 3er Santuario — la culminación de su plan de ese capítulo, y el jefe final resultante. 🎲 En el dibujo profético del Rugido, dos figuras con su misma silueta flanquean al Titán — lectura visual sin confirmar, ver [[Titan]].
 

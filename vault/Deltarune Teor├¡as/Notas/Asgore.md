@@ -58,6 +58,10 @@ confianza: oficial
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[20_the_flower_man_trapped_in_asylum.gif]]
+> La vidriera 20 ("The Flower Man, trapped in asylum") lo muestra confirmado como antagonista del Cap.5, con las manos alrededor de una flor y una corona que nunca lleva en el Mundo Claro. [[Profecía]]
+
 > [!quote]- Toriel
 > Ex-esposa; se divorciaron antes del inicio del juego. Según su propio monólogo del Cap.5, su autoculpa por la tragedia sin revelar terminó alejándola de él, aunque ella nunca llegó a culparlo abiertamente. [[Toriel]] 
 > ![[Asgore_and_Toriel_overworld_awkward.gif]]

@@ -51,7 +51,7 @@ confianza: strong
 - [[Kris]]
 - [[Napstablook]]
 - [[Susie]]
-- [[Sr. Cattenheimer]]
+- [[Sr. Cattenheimer|Mr. Cattenheimer]]
 
 ## Submap
 [[Submapas/Catti.canvas|Open graphical submap]]

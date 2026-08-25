@@ -48,7 +48,7 @@ confianza: strong
 > Appears as a secret boss after completing the three S/T/Z-rank boards of the Original Game backstage in the TV World's Green Room — the same final stretch Ramb helps unlock from his post at the bar. Without Ramb's help, most players would never even cross paths with ERAM. [[Ramb]]
 
 > [!quote]- Dark Crystal
-> Although it carries the Shadow Mantle — a different item — its battle is deeply tied to the same thematic circle of Dark Crystals and the "Strange Someone" who empowers other secret bosses. [[Cristal Oscuro]]
+> Although it carries the Shadow Mantle — a different item — its battle is deeply tied to the same thematic circle of Dark Crystals and the "Strange Someone" who empowers other secret bosses. [[Cristal Oscuro|Shadow Crystal]]
 
 ## Theories
 
@@ -97,7 +97,7 @@ confianza: strong
 - [[Kris]]
 - [[FRIEND]]
 - [[Ramb]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 
 ## Submap
 [[Submapas/ERAM.canvas|Open graphical submap]]

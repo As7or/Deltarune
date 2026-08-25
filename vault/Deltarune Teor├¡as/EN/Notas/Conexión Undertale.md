@@ -112,7 +112,7 @@ A rundown of the Undertale characters who reappear in Deltarune as Hometown Ligh
 > The existence of SOULs in both games fuels the theory that Kris (the vessel) was created with a mechanism similar to the one used in Undertale. [[Kris]]
 
 > [!quote]- Jugador
-> The Vessel creation sequence at the start of Deltarune directly reuses terminology, aesthetics, and music associated with Gaster in Undertale — see the full development in its own note. [[Jugador]]
+> The Vessel creation sequence at the start of Deltarune directly reuses terminology, aesthetics, and music associated with Gaster in Undertale — see the full development in its own note. [[Jugador|Player]]
 
 ## Theories
 
@@ -127,7 +127,7 @@ A rundown of the Undertale characters who reappear in Deltarune as Hometown Ligh
 > **A very widespread theory with an unusually strong body of evidence for a fan theory — but Toby Fox has never directly confirmed or denied it.**
 
 > [!question]- Is Undertale the result of a Deltarune Weird Route?
-> A much more speculative reading, but a recurring one in the fandom: that the world of Undertale itself — monsters sealed underground after a war with humans — isn't just any parallel universe, but the result of a Deltarune Weird Route being carried to its ultimate consequences at some point in the story, generating a completely different and much darker reality from those decisions. Under this reading, the "Angel's Heaven" that must be banished in the Prophecy (see [[Ángel]]) and Undertale's own human-monster war could be the same catastrophe seen from two different angles. **A very speculative theory with no direct textual support — it rests mostly on the thematic parallel between both conflicts, not on any concrete clue in the game.**
+> A much more speculative reading, but a recurring one in the fandom: that the world of Undertale itself — monsters sealed underground after a war with humans — isn't just any parallel universe, but the result of a Deltarune Weird Route being carried to its ultimate consequences at some point in the story, generating a completely different and much darker reality from those decisions. Under this reading, the "Angel's Heaven" that must be banished in the Prophecy (see [[Ángel|Angel]]) and Undertale's own human-monster war could be the same catastrophe seen from two different angles. **A very speculative theory with no direct textual support — it rests mostly on the thematic parallel between both conflicts, not on any concrete clue in the game.**
 
 > [!question]- Is Deltarune a hidden prequel, not a parallel universe?
 > Another minority reading: given that all of Hometown's residents "wear Undertale's face" but remember nothing of that life — no war, no Underground, no barrier — some fans read this not as two parallel lines but as the same world at an earlier point in time, before any of Undertale's events came to pass. This would fit with the fact that SOULs already exist as a concept in Deltarune without anyone yet using them in the "wartime" way they're used in Undertale. **A minority theory; Toby Fox has described the relationship between the two games as one of parallel universes, which doesn't fully fit with a strictly prequel reading.**
@@ -145,8 +145,8 @@ A rundown of the Undertale characters who reappear in Deltarune as Hometown Ligh
 - [[Asriel]]
 - [[Kris]]
 - [[Sans]]
-- [[Jugador]]
-- [[Ángel]]
+- [[Jugador|Player]]
+- [[Ángel|Angel]]
 - [[Gerson Boom]]
 - [[Everyman]]
 

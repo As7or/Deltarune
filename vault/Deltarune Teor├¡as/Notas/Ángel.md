@@ -51,7 +51,8 @@ confianza: fuerte
 > ![[Angel_doll_overworld.png]]
 > *Un muñeco de ángel, del mismo tipo de imaginería navideña con la que Noelle interpretó ese papel de pequeña.*
 
-> [!quote]- Profecía
+> [!prophecy]- Profecía
+> ![[14_theyll_hear_the_ring_of_heavens_call.gif]]
 > El propio texto profético es la fuente principal de todo lo que se sabe del Ángel — su "Cielo" es, literalmente, lo que los tres héroes deben desterrar para salvar ambos mundos. [[Profecía]]
 
 > [!quote]- Ralsei

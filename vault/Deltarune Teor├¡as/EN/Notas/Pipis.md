@@ -75,7 +75,7 @@ confianza: strong
 - [[Tenna]]
 - [[FRIEND]]
 - [[Forgotten Man]]
-- [[Huevo]]
+- [[Huevo|Egg]]
 
 ## Submap
 [[Submapas/Pipis.canvas|Open graphical submap]]

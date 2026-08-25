@@ -75,7 +75,7 @@ confianza: strong
 ## Related
 - [[Kris]]
 - [[Gaster (W. D. Gaster)]]
-- [[Huevo]]
+- [[Huevo|Egg]]
 - [[Forgotten Man]]
 
 ## Submap

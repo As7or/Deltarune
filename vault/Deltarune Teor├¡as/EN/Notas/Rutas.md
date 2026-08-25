@@ -48,7 +48,7 @@ confianza: strong
 >
 > **Ch.3 — doesn't progress, but leaves a mark**: the Weird Route doesn't advance in this chapter, but there are dialogue changes if it was completed in Ch.2 — the Shadow Mantle's holder makes direct reference to what happened. This chapter's own Sword Route acts as a mechanical preview/mirror of the Weird Route (same concepts, sound effects, and level layout).
 >
-> **Ch.4 — the central part**: the key events happen in the Light World, at Noelle's house, when she asks to speak with Kris alone. Before that conversation, a black screen with only a red heart stays silent for a few seconds — the same visual device that reappears at the start of Ch.5 — while Noelle "says" THANK YOU very slowly. Kris puts the SOUL in a gift box in the guest room before entering their own room; from there, the Player guides the lone SOUL through the ventilation ducts (see [[Jugador]] for the full writeup of this scene, including the beating Kris gives the SOUL afterward in the bathroom). The chapter's point of no return is forcing Kris to put the Thorn Ring back on Noelle and drive it into her hand — from then on, the route is locked in for the rest of the chapter, dialogue and ending changes included.
+> **Ch.4 — the central part**: the key events happen in the Light World, at Noelle's house, when she asks to speak with Kris alone. Before that conversation, a black screen with only a red heart stays silent for a few seconds — the same visual device that reappears at the start of Ch.5 — while Noelle "says" THANK YOU very slowly. Kris puts the SOUL in a gift box in the guest room before entering their own room; from there, the Player guides the lone SOUL through the ventilation ducts (see [[Jugador|Player]] for the full writeup of this scene, including the beating Kris gives the SOUL afterward in the bathroom). The chapter's point of no return is forcing Kris to put the Thorn Ring back on Noelle and drive it into her hand — from then on, the route is locked in for the rest of the chapter, dialogue and ending changes included.
 >
 > ![[weird_route_Blank_Dialogue.webp]]
 > *The black screen with a single red heart, right before Noelle asks Kris to speak alone.*
@@ -63,14 +63,15 @@ confianza: strong
 
 ## Relationships
 
-> [!quote]- Prophecy
-> Each route reinterprets the final sacrifice the Prophecy foretells in a different way — the Weird Route in particular suggests that "script" can bend in ways the prophetic text doesn't account for. [[Profecía]]
+> [!prophecy]- Prophecy
+> ![[Profecy.gif]]
+> Each route reinterprets the final sacrifice the Prophecy foretells in a different way — the Weird Route in particular suggests that "script" can bend in ways the prophetic text doesn't account for. [[Profecía|Prophecy]]
 
 > [!quote]- Lake
 > The Weird Route's exclusive Ch.5 ending takes place here, and is for now the most extreme culmination of the cumulative decision pattern. [[Lake]]
 
 > [!quote]- Player
-> The hidden route system itself, invisible to the characters but logged by the game, is one of the most direct pieces of evidence for the tension between the Player's decisions and the story's real control. [[Jugador]]
+> The hidden route system itself, invisible to the characters but logged by the game, is one of the most direct pieces of evidence for the tension between the Player's decisions and the story's real control. [[Jugador|Player]]
 
 > [!quote]- Noelle
 > By far the character most affected by the Weird Route's cumulative pattern across chapters — from Snowgrave in Ch.2 to the scene at her house in Ch.4 and the Lake ending in Ch.5. No other character chains as many consequences between different chapters as she does. [[Noelle]]
@@ -102,9 +103,9 @@ confianza: strong
 - The status page for each chapter in the game's internal files marks Ch.1 as "Not applicable" (no Weird Route content) and Ch.3 as "Not applicable" too — but, curiously, the Ch.3 page contains the text "But..." rendered off-screen, invisible in a normal playthrough, a possible hint that the route does leave a mark that chapter even though it doesn't advance in it.
 
 ## Related
-- [[Profecía]]
+- [[Profecía|Prophecy]]
 - [[Lake]]
-- [[Jugador]]
+- [[Jugador|Player]]
 - [[Noelle]]
 - [[Ramb]]
 - [[FRIEND]]

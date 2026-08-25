@@ -64,6 +64,10 @@ Confirmed in Ch.3: beneath the closed door there's a Dark World of its own, of w
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[20_the_flower_man_trapped_in_asylum.gif]]
+> "Trapped in asylum" from pane 20 is, for much of the fandom, a direct hint at this very area — "asylum" and "shelter" are synonyms in English. [[Profecía|Prophecy]]
+
 > [!quote]- Dess
 > The Shelter's access code is found hidden inside her guitar, and several environmental clues place the incident that made her disappear here. [[Dess]]
 
@@ -139,7 +143,7 @@ Confirmed in Ch.3: beneath the closed door there's a Dark World of its own, of w
 - [[Alphys]]
 - [[Alvin]]
 - [[Roaring Knight]]
-- [[Sr. Cattenheimer]]
+- [[Sr. Cattenheimer|Mr. Cattenheimer]]
 - [[Susie]]
 - [[Cristal Oscuro|Shadow Crystal]]
 

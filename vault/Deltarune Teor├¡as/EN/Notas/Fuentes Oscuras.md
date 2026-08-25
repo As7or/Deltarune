@@ -64,7 +64,7 @@ To date, the Roaring Knight, Kris, and Susie are the only confirmed entities cap
 > *Black smoke coming out of the Shelter's door in Chapter 3 — the same image used to describe any Dark Fountain opening, applied here to a place whose Fountain no one has ever seen open.*
 
 ## The Roaring, in the Prophecy itself
-Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the Roaring calls out. And Titans form from darkened eyes." [TODO: verify exact EN quote] — is the first direct textual mention of this danger within the Prophecy itself, even before Ralsei explains it out loud in Chapter 2. See [[Profecía]].
+Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the Roaring calls out. And Titans form from darkened eyes." [TODO: verify exact EN quote] — is the first direct textual mention of this danger within the Prophecy itself, even before Ralsei explains it out loud in Chapter 2. See [[Profecía|Prophecy]].
 
 ![[The_Roaring_screenshot_Dark_Fountains.png]]
 *The Prophecy stained glass illustrating the Roaring: three Dark Fountains erupting at once.*
@@ -124,7 +124,7 @@ Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the R
 - [[Berdly]]
 - [[Titan]]
 - [[Shelter]]
-- [[Profecía]]
+- [[Profecía|Prophecy]]
 
 ## Submap
 [[Submapas/Fuentes Oscuras.canvas|Open graphical submap]]

@@ -64,6 +64,10 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[20_the_flower_man_trapped_in_asylum.gif]]
+> "Atrapado en el asilo" de la vidriera 20 es, para buena parte del fandom, un anticipo directo de esta misma zona — "asilo" y "refugio" son sinónimos en inglés (*asylum*/*shelter*). [[Profecía]]
+
 > [!quote]- Dess
 > El código de acceso al Refugio aparece escondido dentro de su guitarra, y varias pistas ambientales sitúan aquí el incidente que la hizo desaparecer. [[Dess]]
 

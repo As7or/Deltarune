@@ -49,12 +49,12 @@ confianza: strong
 > His best and only friend in Card Kingdom — it was Seam who had to lock him up for his own safety, and who still asks after him chapters later. His role as court magician is, in a way, the exact counterpoint to Jevil's as the jester. [[Jevil]]
 
 > [!quote]- Dark Crystal
-> The only character who receives and studies each Dark Crystal as it's obtained; almost everything known about their nature comes from his comments. [[Cristal Oscuro]]
+> The only character who receives and studies each Dark Crystal as it's obtained; almost everything known about their nature comes from his comments. [[Cristal Oscuro|Shadow Crystal]]
 
 ## Theories
 
 > [!question]+ What is the "very, very interesting" thing?
-> In Chapter 5, Seam hints at knowing something he could do with the five gathered Dark Crystals, without ever saying what it is. It's one of the biggest open questions heading into the final chapters — some point to the unused "Pure Crystal" item (see [[Cristal Oscuro]]) as the most likely clue.
+> In Chapter 5, Seam hints at knowing something he could do with the five gathered Dark Crystals, without ever saying what it is. It's one of the biggest open questions heading into the final chapters — some point to the unused "Pure Crystal" item (see [[Cristal Oscuro|Shadow Crystal]]) as the most likely clue.
 >
 > ![[seam_very_very_interesting.png]]
 > *"Something very, very, interesting." — the exact moment of the hint, with a background object the community has flagged as a possible clue.*
@@ -72,7 +72,7 @@ confianza: strong
 
 ## Related
 - [[Jevil]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 
 ## Submap
 [[Submapas/Seam.canvas|Open graphic submap]]

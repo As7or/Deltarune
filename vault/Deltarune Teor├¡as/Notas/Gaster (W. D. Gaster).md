@@ -209,7 +209,8 @@ Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Delta
 > ![[Shelter.png]]
 > *El Refugio de Hometown, el lugar donde suena su ruido de sonrisa ralentizado al 15%.*
 
-> [!quote]- Profecía
+> [!prophecy]- Profecía
+> ![[Profecy.gif]]
 > La frase "las sombras cortan más profundo" del himno de la Profecía (Cap.4) coincide casi textualmente con una línea de la Entrada 17. Seam, en el Cap.1, y Ralsei, en el Cap.3, citan también casi literalmente "más oscuro, aún más oscuro". [[Profecía]]
 
 ## Curiosidades

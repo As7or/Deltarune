@@ -110,6 +110,10 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[22_the_pointy_headed_will_say_toothpaste_and_then_boy.gif]]
+> La vidriera 22 ("The pointy-headed will say 'toothpaste,' and then 'boy.'") parece describirlo por su diseño — existe incluso un sprite del vault (`lancer_Darkner_face_profecy.png`) que refuerza esta misma lectura. **Sin confirmación textual directa.** [[Profecía]]
+
 > [!quote]- Susie
 > Su mejor amiga. Se conocieron como falsos rivales/aliados en el Cap.1 y forjaron un vínculo genuino que se mantiene fuerte capítulo tras capítulo — ella lo lleva a caballito, lo protege, y él la admira profundamente. [[Susie]]
 >

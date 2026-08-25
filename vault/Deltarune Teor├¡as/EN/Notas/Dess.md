@@ -53,6 +53,10 @@ confianza: strong
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[16_the_knight_which_makes_with_blackened_knife.gif]]
+> Pane 16 ("The Knight which makes with blackened knife") mentions the Knight's black knife, the same object the theory of whether Dess is the Roaring Knight rests on. [[Profecía|Prophecy]]
+
 > [!quote]- Noelle
 > Her younger sister. She taught Noelle to love horror movies, played jacks with her when they were little, and her disappearance shapes much of Noelle's emotional arc throughout the whole game. [[Noelle]]
 

@@ -58,6 +58,10 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[21_jockington_grows_the_beard.gif]]
+> La vidriera 21 ("Jockington grows the beard") es la línea exacta que confirma que es el único personaje mencionado por su nombre propio en toda la Profecía. [[Profecía]]
+
 > [!quote]- Catti
 > Su novia y mejor amiga. Se conocieron en su primera clase de gimnasia, el día del hula-hoop, cuando ella lo usó a él en lugar de un aro que faltaba. [[Catti]]
 

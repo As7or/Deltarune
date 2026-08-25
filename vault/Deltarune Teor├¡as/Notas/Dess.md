@@ -53,6 +53,10 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[16_the_knight_which_makes_with_blackened_knife.gif]]
+> La vidriera 16 ("The Knight which makes with blackened knife") menciona el cuchillo negro del Caballero, el mismo objeto que sostiene la teoría de si Dess es el Caballero Rugiente. [[Profecía]]
+
 > [!quote]- Noelle
 > Su hermana menor. Le enseñó a querer el cine de terror, jugaba con ella a las tabas de pequeñas, y su desaparición marca buena parte del arco emocional de Noelle a lo largo de todo el juego. [[Noelle]]
 

@@ -51,19 +51,20 @@ confianza: strong
 > ![[Angel_doll_overworld.png]]
 > *An angel doll, the same kind of Christmas imagery Noelle used when she played that role as a child.*
 
-> [!quote]- Prophecy
-> The prophetic text itself is the main source of everything known about the Angel — its "Heaven" is, literally, what the three heroes must banish to save both worlds. [[Profecía]]
+> [!prophecy]- Prophecy
+> ![[14_theyll_hear_the_ring_of_heavens_call.gif]]
+> The prophetic text itself is the main source of everything known about the Angel — its "Heaven" is, literally, what the three heroes must banish to save both worlds. [[Profecía|Prophecy]]
 
 > [!quote]- Ralsei
 > He's the one who most often repeats the idea of the Angel as part of the "script" Kris and Susie must fulfill — though when faced with the actual tapestry depicting it, even he doesn't seem sure of what he's looking at. [[Ralsei]]
 
 > [!quote]- Player
-> The question of whether the Angel is, in fact, a narrative personification of the Player themself is the most widespread theory in the whole fandom — developed in full in its own note. [[Jugador]]
+> The question of whether the Angel is, in fact, a narrative personification of the Player themself is the most widespread theory in the whole fandom — developed in full in its own note. [[Jugador|Player]]
 
 ## Theories
 
 > [!question]+ Is the Angel the Player themself?
-> The most widespread reading in the whole fandom: the Angel of the Prophecy wouldn't be a cast character, but a narrative personification of whoever controls Kris from outside the fiction. It's supported by the Prophecy describing the Angel as someone with [TODO: verify exact EN quote] "a desire it will finally attain, once banished" — and part of the community reads that desire as "knowing how the story ends," which would fit the real player's own curiosity. If this reading were true, "banishing" the Angel could, in some way, be equivalent to the player losing control over Kris at the end of the series. **A very widespread and well-reasoned theory, but the game never explicitly equates the two concepts — see the [[Jugador]] note for the full development of this comparison.**
+> The most widespread reading in the whole fandom: the Angel of the Prophecy wouldn't be a cast character, but a narrative personification of whoever controls Kris from outside the fiction. It's supported by the Prophecy describing the Angel as someone with [TODO: verify exact EN quote] "a desire it will finally attain, once banished" — and part of the community reads that desire as "knowing how the story ends," which would fit the real player's own curiosity. If this reading were true, "banishing" the Angel could, in some way, be equivalent to the player losing control over Kris at the end of the series. **A very widespread and well-reasoned theory, but the game never explicitly equates the two concepts — see the [[Jugador|Player]] note for the full development of this comparison.**
 >
 > ![[3rd_Sanctuary_location_angel_prophecy.png]]
 > *"The Angel, banished, will finally meet with its desire." — the exact Prophecy line behind this whole reading.*
@@ -85,9 +86,9 @@ confianza: strong
 ## Related
 - [[Alvin]]
 - [[Noelle]]
-- [[Profecía]]
+- [[Profecía|Prophecy]]
 - [[Ralsei]]
-- [[Jugador]]
+- [[Jugador|Player]]
 - [[Asriel]]
 
 ## Submap

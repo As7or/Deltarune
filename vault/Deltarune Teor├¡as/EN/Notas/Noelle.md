@@ -186,7 +186,7 @@ Classmate of Kris and Susie, Kris's neighbor since childhood. Shy, kind, and pro
 ## Theories
 
 > [!question]+ The Angel of the Prophecy?
-> During the 2022 Spamton Sweepstakes, one of the real prizes was a white wristwatch engraved with the name "Noelle Holiday"; in its description, Spamton presents it as a jewel that belonged to someone "rich and powerful," and caps off the joke with "if you need proof, there's the name of the Angel with torn wings." [TODO: verify exact EN quote] The watch matches the design of the Silver Ring that Noelle has equipped in-game — the same item needed to unlock the darkest dialogue at the end of the Snowgrave Route — which has, over the years, reinforced the theory that Noelle is the "Angel" mentioned in the Prophecy. **A real merchandising/ARG clue that supports the theory; the game itself never confirms it directly.** See the full breakdown in [[Ángel]].
+> During the 2022 Spamton Sweepstakes, one of the real prizes was a white wristwatch engraved with the name "Noelle Holiday"; in its description, Spamton presents it as a jewel that belonged to someone "rich and powerful," and caps off the joke with "if you need proof, there's the name of the Angel with torn wings." [TODO: verify exact EN quote] The watch matches the design of the Silver Ring that Noelle has equipped in-game — the same item needed to unlock the darkest dialogue at the end of the Snowgrave Route — which has, over the years, reinforced the theory that Noelle is the "Angel" mentioned in the Prophecy. **A real merchandising/ARG clue that supports the theory; the game itself never confirms it directly.** See the full breakdown in [[Ángel|Angel]].
 >
 > ![[The_Legend_screenshot_Angel%27s_Heaven.webp]]
 > *The Angel's Heaven, as illustrated by the Prophecy — the figure this theory connects to Noelle.*
@@ -204,7 +204,7 @@ Classmate of Kris and Susie, Kris's neighbor since childhood. Shy, kind, and pro
 > *"Kris, YOU actually changed!" — by the lake, in the Chapter 5 Weird Route, directly voicing what the rest of the route only hints at.*
 
 > [!question]- Is she herself just another "key," paralleling Yellow?
-> In the Chapter 3 secret Sword Route, the White Cloak (which represents her within that minigame) is consumed in a door exactly like the Ice Key, with the two notices appearing back-to-back on screen: "The ice key was used up. She was used up." — treating her, literally, as just another key that runs out. See the full breakdown of this comparison, including the "Just-Ice" wordplay with Yellow's Yellow Key, in [[7 Flores de Colores]]. **A highly speculative fan theory, with no direct confirmation.**
+> In the Chapter 3 secret Sword Route, the White Cloak (which represents her within that minigame) is consumed in a door exactly like the Ice Key, with the two notices appearing back-to-back on screen: "The ice key was used up. She was used up." — treating her, literally, as just another key that runs out. See the full breakdown of this comparison, including the "Just-Ice" wordplay with Yellow's Yellow Key, in [[7 Flores de Colores|7 Colored Flowers]]. **A highly speculative fan theory, with no direct confirmation.**
 >
 > ![[noelle_she_was_used_up.png]]
 > *The literal notice that accompanies the White Cloak when it's consumed at the door — treating her as just another key.*
@@ -213,7 +213,7 @@ Classmate of Kris and Susie, Kris's neighbor since childhood. Shy, kind, and pro
 > *The same kind of notice — "(The Yellow Key got used up.)" — appears with Yellow's Yellow Key, the direct basis for the "Just-Ice" parallel between the two.*
 
 > [!question]- 🎲 If the Knight opened the Fountain, why does everything revolve around her?
-> A fact that corrects a widely spread idea in the fandom: the Chapter 2 Fountain (the one in the library lab, the origin of the Cyber World) **is not opened by Noelle** — the wiki confirms it's opened by the Roaring Knight, at some point after Chapter 1. Before that confirmation, there was an analysis-video theory debating whether it had been her or, alternatively, Asriel — the argument being that much of the Cyber World revolves around the spelling bee where Noelle blanked having to spell "December" (Dess's real name) after her disappearance, something Asriel could have witnessed and she couldn't. With the Knight confirmed as the one who opens the Fountain, the question shifts: why is a world he opens so centered on such a personal, specific trauma of Noelle's? There's still no textual answer — the exact mechanic of "whose will" shapes a Dark World isn't entirely clear. See [[Fuentes Oscuras]].
+> A fact that corrects a widely spread idea in the fandom: the Chapter 2 Fountain (the one in the library lab, the origin of the Cyber World) **is not opened by Noelle** — the wiki confirms it's opened by the Roaring Knight, at some point after Chapter 1. Before that confirmation, there was an analysis-video theory debating whether it had been her or, alternatively, Asriel — the argument being that much of the Cyber World revolves around the spelling bee where Noelle blanked having to spell "December" (Dess's real name) after her disappearance, something Asriel could have witnessed and she couldn't. With the Knight confirmed as the one who opens the Fountain, the question shifts: why is a world he opens so centered on such a personal, specific trauma of Noelle's? There's still no textual answer — the exact mechanic of "whose will" shapes a Dark World isn't entirely clear. See [[Fuentes Oscuras|Dark Fountains]].
 >
 > ![[Noelle_contest_spell.png]]
 > *The spelling bee: Noelle blanks having to spell "December," Dess's real name.*
@@ -240,12 +240,12 @@ She doesn't appear with a title until Chapter 2, where she starts as "Snowcaster
 ## Related
 - [[Dess]]
 - [[Lake]]
-- [[Ángel]]
-- [[Jugador]]
+- [[Ángel|Angel]]
+- [[Jugador|Player]]
 - [[Kris]]
 - [[Susie]]
 - [[Rudy]]
 - [[Carol]]
 - [[Berdly]]
-- [[7 Flores de Colores]]
+- [[7 Flores de Colores|7 Colored Flowers]]
 [[Submapas/Noelle.canvas|Open graphic submap]]

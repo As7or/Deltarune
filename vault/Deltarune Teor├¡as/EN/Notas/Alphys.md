@@ -67,7 +67,7 @@ confianza: strong
 ## Trivia
 - She lends Kris her home DVD collection of "The Symptons," the sitcom about a middle-class monster family.
 - Her gift to Asgore — the Mew Mew figure that gives rise to Pink in Ch.5 — unknowingly makes her the indirect origin of one of the most talked-about secret bosses in the whole game.
-- Unlike Undertale, where she and Undyne have been a couple for years, in Deltarune they don't seem to know each other at all at the start of the game — Deltarune doesn't continue or depend on the relationships already established in Undertale; each game sets them up on its own (see [[Conexión Undertale]]).
+- Unlike Undertale, where she and Undyne have been a couple for years, in Deltarune they don't seem to know each other at all at the start of the game — Deltarune doesn't continue or depend on the relationships already established in Undertale; each game sets them up on its own (see [[Conexión Undertale|Undertale Connection]]).
 
 ## Related
 - [[Undyne]]

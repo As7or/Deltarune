@@ -153,6 +153,10 @@ Gerson is, along with Ralsei, the game's most insistent voice against following 
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[30_axe_carved_by_the_tortoises_grand_hammer.gif]]
+> Pane 30 ("Axe carved by the tortoise's grand hammer") is one of the most solid connections in this whole analysis: "the tortoise" is, literally, Gerson Boom, and his weapon as the Hammer of Justice is an axe/hammer. But the bigger connection is another: Gerson is the author of *Lord of the Hammer*, a novel directly inspired by this same Prophecy, with chapter titles that mirror the game's real chapters almost word for word. His study, moreover, sits right next to the Gallery (pane 33) where a mysterious book is hidden. [[Profecía|Prophecy]]
+
 > [!quote]- Susie
 > His main student — he mentors her throughout Ch.4, and his fight as the Hammer of Justice works almost as a rite of passage for her, in a direct parallel to his role as the inspiration for Undyne in Undertale. She confesses to him that he's the first person who's managed to teach her something without making her feel dumb. [[Susie]]
 
@@ -227,7 +231,7 @@ The title "Dragon Blazers" may be a nod to the real 1992 video game *Soul Blazer
 - [[Susie]]
 - [[Alvin]]
 - [[Roaring Knight]]
-- [[Profecía]]
+- [[Profecía|Prophecy]]
 - [[Jackenstein]]
 - [[Ralsei]]
 - [[Gaster (W. D. Gaster)]]

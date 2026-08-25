@@ -81,10 +81,10 @@ A Darkner from the Card Kingdom, King's former court jester. After an encounter 
 ## Theories
 
 > [!question]+ Is "Somebody Strange" Gaster?
-> The most widespread theory about who drove Jevil (and later Spamton) mad points to W. D. Gaster, the real missing scientist from Undertale. The main clue: using Kris's phone in the Dark World plays the same ambience as Undertale's Entry Number 17 — associated with Gaster's attempts at communication — described the same way the Addisons describe the call that ruined Spamton: "nothing but garbage noise." [TODO: verify exact EN quote] A strong theory given the accumulation of sound and text clues, but never directly confirmed by the game. (See also the equivalent theory in [[Cristal Oscuro]].)
+> The most widespread theory about who drove Jevil (and later Spamton) mad points to W. D. Gaster, the real missing scientist from Undertale. The main clue: using Kris's phone in the Dark World plays the same ambience as Undertale's Entry Number 17 — associated with Gaster's attempts at communication — described the same way the Addisons describe the call that ruined Spamton: "nothing but garbage noise." [TODO: verify exact EN quote] A strong theory given the accumulation of sound and text clues, but never directly confirmed by the game. (See also the equivalent theory in [[Cristal Oscuro|Shadow Crystal]].)
 
 > [!question]- The "increasingly Lightner" pattern
-> A strong theory, already documented in the Dark Crystal note: Dark Crystal holders become progressively less "pure Darkner" with each chapter. Jevil, the first, is a completely ordinary Darkner from head to toe — unlike Spamton (halfway there), the Roaring Knight (half Lightner), or Gerson Boom (a deceased Lightner). It remains unconfirmed where this pattern is heading toward Ch.6, but Jevil functions as the purest "starting point" of the scale. [[Cristal Oscuro]]
+> A strong theory, already documented in the Dark Crystal note: Dark Crystal holders become progressively less "pure Darkner" with each chapter. Jevil, the first, is a completely ordinary Darkner from head to toe — unlike Spamton (halfway there), the Roaring Knight (half Lightner), or Gerson Boom (a deceased Lightner). It remains unconfirmed where this pattern is heading toward Ch.6, but Jevil functions as the purest "starting point" of the scale. [[Cristal Oscuro|Shadow Crystal]]
 
 > [!question]- Is Jevil the origin of Susie's "Weird Route"?
 > The fandom connects several mechanical details — Ch.3's Bet30 ("the JOKER's bet"), Ch.5's Scythemare (accompanied by his laugh), and the fact that having the Devilsknife equipped during the Ch.4 sermon makes Susie call it "a weird card" [TODO: verify exact EN quote] — as signs that Jevil's influence lives on in Susie's combat kit long after his defeat, almost as if part of his chaos "rubbed off" on her. A fan theory, supported by several mechanical coincidences; not narratively confirmed.
@@ -104,7 +104,7 @@ A Darkner from the Card Kingdom, King's former court jester. After an encounter 
 - [[Seam]]
 - [[King]]
 - [[Spamton]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 - [[Roaring Knight]]
 - [[Kris]]
 - [[Everyman]]

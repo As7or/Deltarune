@@ -160,6 +160,10 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 
 ## Key relationships
 
+> [!prophecy]- Prophecy
+> ![[09_the_first_hero_the_cage_with_human_soul_and_parts.gif]]
+> Pane 09 describes the First Hero as "the Cage, with human SOUL and parts" — one of the most-cited descriptions for theories about Kris's nature as a body/container for a SOUL that isn't their own. [[Profecía|Prophecy]]
+
 > [!quote]- Asriel
 > Has always been affectionate toward their younger sibling: used the "pirate" controller to play with them, "confessed their sins" on their behalf before Father [[Alvin]], and carried them to school. Kris misses them a lot since they left for college — their internet search about colleges gives it away. In Ch.2, they close their eyes before inspecting Asriel's room in Queen's Mansion, protective even in dreams.
 
@@ -277,7 +281,7 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > ![[Kriss_hand_acid_river_scene.webp]]
 > *The Giant Hand puzzle in the acid river of Queen's Mansion (Ch.2).*
 >
-> - 🎲 Weakest piece: [[Sr. Cattenheimer]], a Hometown NPC, is the only named character already missing a hand on screen, and his house shares with the [[Shelter]] a 3-code lock — a design coincidence with no textual confirmation, see his note for the full detail.
+> - 🎲 Weakest piece: [[Sr. Cattenheimer|Mr. Cattenheimer]], a Hometown NPC, is the only named character already missing a hand on screen, and his house shares with the [[Shelter]] a 3-code lock — a design coincidence with no textual confirmation, see his note for the full detail.
 
 > [!question]- Where was Kris the night between Ch.4 and Ch.5?
 > A time gap the fandom has been pointing out ever since it became known that Ch.5 starts directly at Festival dusk, skipping that night entirely. Several loose clues suggest Kris didn't stay quietly in bed:
@@ -320,10 +324,10 @@ Kris's title in the POWER menu changes constantly depending on the route, choice
 - During the 2022 Spamton Sweepstakes, several posts from Noelle's private blog detail her memories with Kris — including confirmation that their surname is Dreemurr via the URL of one of them.
 
 ## Related
-- [[Ángel]]
-- [[Fuentes Oscuras]]
-- [[Jugador]]
-- [[Conexión Undertale]]
+- [[Ángel|Angel]]
+- [[Fuentes Oscuras|Dark Fountains]]
+- [[Jugador|Player]]
+- [[Conexión Undertale|Undertale Connection]]
 - [[Ralsei]]
 - [[Susie]]
 - [[Noelle]]
@@ -337,7 +341,7 @@ Kris's title in the POWER menu changes constantly depending on the route, choice
 - [[FRIEND]]
 - [[Forgotten Man]]
 - [[Asriel]]
-- [[Sr. Cattenheimer]]
+- [[Sr. Cattenheimer|Mr. Cattenheimer]]
 
 ## Submap
 [[Submapas/Kris.canvas|Open graphical submap]]

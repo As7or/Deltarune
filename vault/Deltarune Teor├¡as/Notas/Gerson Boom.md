@@ -153,6 +153,10 @@ Gerson es, junto con Ralsei, la voz más insistente del juego en contra de segui
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[30_axe_carved_by_the_tortoises_grand_hammer.gif]]
+> La vidriera 30 ("Axe carved by the tortoise's grand hammer") es una de las conexiones más sólidas de todo el análisis: "la tortuga" es, literalmente, Gerson Boom, y su arma como Hammer of Justice es un hacha/martillo. Pero la conexión más grande es otra: Gerson es el autor de *Lord of the Hammer*, una novela inspirada directamente en esta misma Profecía, con títulos de capítulo que reflejan casi palabra por palabra los capítulos reales del propio juego. Su estudio, además, está justo al lado de la Galería (vidriera 33) donde se esconde un libro misterioso. [[Profecía]]
+
 > [!quote]- Susie
 > Su alumna principal — la mentoriza durante todo el Cap.4, y su combate como Hammer of Justice funciona casi como un rito de iniciación para ella, en un paralelismo directo con su papel como inspiración de Undyne en Undertale. Le confiesa ser la primera persona que consigue enseñarle algo sin hacerla sentir tonta. [[Susie]]
 

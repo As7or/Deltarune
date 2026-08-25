@@ -103,18 +103,18 @@ A quick, chapter-by-chapter rundown of every confirmed moment where Kris tears o
 > One of the few Lightners who seems to consciously perceive the Player's presence, going so far as to ask out loud during the Snowgrave Route whether it's really Kris acting. [[Noelle]]
 
 > [!quote]- Routes
-> The hidden-routes system itself — invisible to the characters, but tracked by the game — is one of the most direct pieces of evidence for the tension between the Player's choices and the story's real control. [[Rutas]]
+> The hidden-routes system itself — invisible to the characters, but tracked by the game — is one of the most direct pieces of evidence for the tension between the Player's choices and the story's real control. [[Rutas|Routes]]
 
 > [!quote]- Cristal Oscuro
-> The desire to "break free of the script" shared by its bearers directly reflects this same tension between the Player's control and the fate the Prophecy seems to impose on them. [[Cristal Oscuro]]
+> The desire to "break free of the script" shared by its bearers directly reflects this same tension between the Player's control and the fate the Prophecy seems to impose on them. [[Cristal Oscuro|Shadow Crystal]]
 
 > [!quote]- Ángel
-> The fandom's most widespread theory is that the Prophecy's Angel and the Player are, deep down, the same idea — developed in full in the theory below. [[Ángel]]
+> The fandom's most widespread theory is that the Prophecy's Angel and the Player are, deep down, the same idea — developed in full in the theory below. [[Ángel|Angel]]
 
 ## Theories
 
 > [!question]+ Is the Player, in fact, the Angel of the Prophecy?
-> The most widespread reading: the Angel wouldn't be a cast character, but a narrative personification of whoever is in charge from outside the fiction — that is, the person playing. It would fit the saga's own metanarrative design (the initial Voice, the discarded Vessel, the real name asked of the player) and with the Prophecy describing the Angel as someone with "a wish that they will finally get once banished" [TODO: verify exact EN quote] — possibly the wish to know how the story ends. Under this reading, "banishing" the Angel would mean the Player losing control over Kris at the end of the series. **A strong, widely held theory, though the game never confirms it in these exact words — see also the [[Ángel]] note.**
+> The most widespread reading: the Angel wouldn't be a cast character, but a narrative personification of whoever is in charge from outside the fiction — that is, the person playing. It would fit the saga's own metanarrative design (the initial Voice, the discarded Vessel, the real name asked of the player) and with the Prophecy describing the Angel as someone with "a wish that they will finally get once banished" [TODO: verify exact EN quote] — possibly the wish to know how the story ends. Under this reading, "banishing" the Angel would mean the Player losing control over Kris at the end of the series. **A strong, widely held theory, though the game never confirms it in these exact words — see also the [[Ángel|Angel]] note.**
 
 > [!question]- Is the Player, in fact, Chara?
 > Since Undertale's Genocide ending is canon within that same continuity, and Chara bids farewell to that playthrough saying "there's nothing left for us here, let's erase this pointless world and move on to the next" [TODO: verify exact EN quote], part of the fandom theorizes that Deltarune could literally be "the next world" — with Kris as Chara's/the Player's new Vessel. **A widespread fan theory that depends on assuming which Undertale ending was carried over into the save file — with no direct confirmation within Deltarune.**
@@ -129,9 +129,9 @@ A quick, chapter-by-chapter rundown of every confirmed moment where Kris tears o
 ## Related
 - [[Kris]]
 - [[Noelle]]
-- [[Rutas]]
-- [[Cristal Oscuro]]
-- [[Ángel]]
+- [[Rutas|Routes]]
+- [[Cristal Oscuro|Shadow Crystal]]
+- [[Ángel|Angel]]
 - [[Gaster (W. D. Gaster)]]
 - [[Clam Guy]]
 

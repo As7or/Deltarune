@@ -157,10 +157,9 @@ confianza: fuerte
 > ![[asriel_ralsei_fire_atack.jpeg]]
 > *Comparativa entre el ataque de fuego de Ralsei y el de Asriel — otro paralelismo que alimenta la teoría de su conexión.*
 
-> [!quote]- Profecía
-> Es quien se la resume por primera vez a Kris y Susie en el Cap.1, y el único Darkner conocido que la conoce entera, incluido su final trágico — a diferencia del resto, que solo la conocen a través de fragmentos sueltos (vidrieras, corchos de investigación, rumores). También es el único capaz de sentir la "presencia oscura" de las Fuentes Oscuras y del propio Caballero antes de que aparezcan en pantalla, un sexto sentido que ningún otro personaje demuestra tener. [[Profecía]]
->
+> [!prophecy]- Profecía
 > ![[07_el_tercer_heroe_el_principe.gif]]
+> Es quien se la resume por primera vez a Kris y Susie en el Cap.1, y el único Darkner conocido que la conoce entera, incluido su final trágico — a diferencia del resto, que solo la conocen a través de fragmentos sueltos (vidrieras, corchos de investigación, rumores). También es el único capaz de sentir la "presencia oscura" de las Fuentes Oscuras y del propio Caballero antes de que aparezcan en pantalla, un sexto sentido que ningún otro personaje demuestra tener. [[Profecía]]
 > *La vidriera de la Profecía que lo nombra directamente: "The third hero. The prince, alone in deepest dark."*
 
 ## Teorías

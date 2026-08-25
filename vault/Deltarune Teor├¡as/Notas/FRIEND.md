@@ -92,6 +92,10 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
+> La vidriera 15 ("They'll see the tail of Hell take crawl") es la línea que el fandom apoda "la Cola del Infierno" — el sobrenombre más extendido para referirse a él. **Teoría de fans muy extendida, sin confirmar con nombre propio.** [[Profecía]]
+
 > [!quote]- Forgotten Man / Huevo
 > Desde la revelación del Cap.5, ya no es solo teoría: Pink confirma que los Huevos que reparte el Forgotten Man son literalmente la "proteína" que persigue FRIEND. Ver [[Huevo]] para el diálogo completo. [[Forgotten Man]]
 

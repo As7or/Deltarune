@@ -90,7 +90,7 @@ confianza: official
 > *Asgore and Rudy in their university days, already friends back then.*
 
 > [!quote]- Mr. Cattenheimer
-> A friend of Asgore and Rudy outside the game: promotional art from an official newsletter (not a scene from Deltarune itself) shows the three of them enjoying a barbecue — Cattenheimer at the grill, Asgore and Rudy sitting and chatting. It's not playable content, but it is official material confirming their friendship. [[Sr. Cattenheimer]]
+> A friend of Asgore and Rudy outside the game: promotional art from an official newsletter (not a scene from Deltarune itself) shows the three of them enjoying a barbecue — Cattenheimer at the grill, Asgore and Rudy sitting and chatting. It's not playable content, but it is official material confirming their friendship. [[Sr. Cattenheimer|Mr. Cattenheimer]]
 >
 > ![[Asgore_Rudy_and_Mr.Cat_enjoying_bbq.gif]]
 > *Asgore, Rudy, and Mr. Cattenheimer at a barbecue — art from an official newsletter, not a scene from the game.*
@@ -142,7 +142,7 @@ confianza: official
 - [[Carol]]
 - [[Noelle]]
 - [[Asgore]]
-- [[Sr. Cattenheimer]]
+- [[Sr. Cattenheimer|Mr. Cattenheimer]]
 - [[Roaring Knight]]
 - [[Susie]]
 - [[Berdly]]

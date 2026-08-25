@@ -109,7 +109,7 @@ confianza: strong
 ## Theories
 
 > [!question]- Determination versus his six "sisters"
-> Of the 7 Colored Flowers, the other six directly mirror one of the six human SOULs from Undertale (Patience, Perseverance, Bravery, Kindness, Justice, and Integrity); Flowery, as their leader, gets the seventh: Determination — the same virtue that in Undertale defines Flowey precisely because he has no SOUL of his own. It's a design choice that reinforces his corrupt nature compared to his sisters: while they are faithful to positively-connoted virtues, he gets the only one capable of turning dangerous without a SOUL to temper it. See [[7 Flores de Colores]] for the full breakdown of all seven.
+> Of the 7 Colored Flowers, the other six directly mirror one of the six human SOULs from Undertale (Patience, Perseverance, Bravery, Kindness, Justice, and Integrity); Flowery, as their leader, gets the seventh: Determination — the same virtue that in Undertale defines Flowey precisely because he has no SOUL of his own. It's a design choice that reinforces his corrupt nature compared to his sisters: while they are faithful to positively-connoted virtues, he gets the only one capable of turning dangerous without a SOUL to temper it. See [[7 Flores de Colores|7 Colored Flowers]] for the full breakdown of all seven.
 >
 > ![[Flowery_screenshot_end_the_dream.png]]
 > *Flowery and his six sisters, all together facing the group in the final battle at Top of Castle — Determination at the front of the rest of the virtues.*
@@ -142,7 +142,7 @@ confianza: strong
 > [!question]- The other 6 Colored Flowers
 > Alongside Flowery, they make up the 7 Colored Flowers from Asgore and Toriel's wedding bouquet. Unlike him — who is the equivalent of Undertale's Flowey — the other six directly represent, one by one, the six human SOULs from Undertale (Patience, Perseverance, Integrity, Bravery, Kindness, and Justice), both in color and in the object they use as a weapon in battle. All of them gain sentience when Flower King's Dark World opens in Chapter 5 and devote their new lives to giving Asgore back, each in their own way, the years of care they received.
 >
-> Their individual backstories, the parallel with Undertale's SOULs, and their relationship with Berdly, Kris, and Pink are covered in their own note — see [[7 Flores de Colores]].
+> Their individual backstories, the parallel with Undertale's SOULs, and their relationship with Berdly, Kris, and Pink are covered in their own note — see [[7 Flores de Colores|7 Colored Flowers]].
 >
 > Pink acts as another flower in the group and Orange calls her "big sister," but she isn't one of the 7 original Colored Flowers from Asgore and Toriel's bouquet — she only "officially" joins the group after being defeated and introduced by Orange to the rest. Her real identity (a Blook family ghost possessing the Mew Mew action figure) is confirmed and covered in her own note — see [[Mad Mew Mew (Pink)]].
 
@@ -172,7 +172,7 @@ When he briefly joins the group in Chapter 5, the POWER menu gives him the title
 - [[Susie]]
 - [[Roaring Knight]]
 - [[Objetos del Mundo Oscuro]]
-- [[7 Flores de Colores]]
+- [[7 Flores de Colores|7 Colored Flowers]]
 - [[Mad Mew Mew (Pink)]]
 
 ## Submap

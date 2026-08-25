@@ -105,11 +105,11 @@ As a Ch.2 enemy, he attacks with "Chirashi" (papers with "A+" grades fired in wa
 
 ## Related
 - [[Noelle]]
-- [[Fuentes Oscuras]]
+- [[Fuentes Oscuras|Dark Fountains]]
 - [[Susie]]
 - [[Queen]]
 - [[Kris]]
-- [[7 Flores de Colores]]
+- [[7 Flores de Colores|7 Colored Flowers]]
 
 ## Submap
 [[Submapas/Berdly.canvas|Open graphic submap]]

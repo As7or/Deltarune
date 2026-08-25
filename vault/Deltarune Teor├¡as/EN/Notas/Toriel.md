@@ -130,7 +130,7 @@ confianza: official
 > *Tenna alongside members of the Dreemurr and Holiday families — the kind of prior bond this theory tries to explain.*
 
 ## Trivia
-- Toriel is also a character shared with Undertale, though — as with the rest of the recurring cast — Deltarune doesn't confirm the two games share a single timeline; see [[Conexión Undertale]].
+- Toriel is also a character shared with Undertale, though — as with the rest of the recurring cast — Deltarune doesn't confirm the two games share a single timeline; see [[Conexión Undertale|Undertale Connection]].
 - The contrast between her current personality and the one Rudy describes from her youth (much more energetic) is one of the most-cited characterization details of the adult cast.
 - The jitterbug scene with Sans in Ch.4 split the community quite a bit: for some it's just another Toby Fox joke, for others it's uncomfortable for showing Kris's mother tipsy right when her son needed her most.
 

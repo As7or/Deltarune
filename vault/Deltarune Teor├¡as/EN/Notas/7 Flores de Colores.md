@@ -184,7 +184,7 @@ In the Light World, the 7 Flowers are still just potted flowers, kept on the sec
 - [[Kris]]
 - [[Mad Mew Mew (Pink)]]
 - [[Noelle]]
-- [[Rutas]]
+- [[Rutas|Routes]]
 - [[Ralsei]]
 - [[Susie]]
 

@@ -93,6 +93,10 @@ confianza: strong
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[19_the_lord_of_screens_cleaved_red_by_blade.gif]]
+> Pane 19 ("The Lord of Screens cleaved red by blade") is them: "the Lord of Screens" cleaved by the Knight's blade, who cuts off their arms after defeating them in Ch.3. [[Profecía|Prophecy]]
+
 > [!quote]- Spamton
 > Former business partners and now archenemies. Ch.5 confirms Tenna forced him to sign the contract that ruined him despite knowing "something terrible would happen" [TODO: verify exact EN quote] — and that, deep down, he really did care about him. Tenna has a certain inferiority complex toward Spamton's success and technical know-how, and never misses a chance to insult or belittle him in public. [[Spamton]]
 >

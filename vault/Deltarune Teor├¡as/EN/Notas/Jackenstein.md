@@ -105,7 +105,7 @@ Besides Jackenstein himself, there's a separate NPC officially called "Jackenste
 - [[Susie]]
 - [[Ralsei]]
 - [[Gerson Boom]]
-- [[Jugador]]
+- [[Jugador|Player]]
 
 ## Submap
 [[Submapas/Jackenstein.canvas|Open graphical submap]]

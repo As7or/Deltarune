@@ -61,7 +61,7 @@ confianza: official
 > Although they never interact directly on screen, it's Susie who rewrites Gerson's final letter for him in Ch.4 — a gesture that indirectly connects two characters marked by the death of a father figure or mentor. Alvin never knows for certain who it was, but the gesture serves its purpose all the same. [[Susie]]
 
 > [!quote]- Ángel
-> He firmly believes in faith and the Prophecy, and treats the Angel with genuine religious reverence. In Ch.5 he even attributes the previous chapter's church damage to the Angel, describing it as "[TODO: verify exact EN quote] winds of great change." [[Ángel]]
+> He firmly believes in faith and the Prophecy, and treats the Angel with genuine religious reverence. In Ch.5 he even attributes the previous chapter's church damage to the Angel, describing it as "[TODO: verify exact EN quote] winds of great change." [[Ángel|Angel]]
 >
 > ![[The_Legend_screenshot_Angel%27s_Heaven.webp]]
 > *The Angel's Heaven, as illustrated by the Prophecy — the figure Alvin venerates.*
@@ -83,7 +83,7 @@ confianza: official
 - [[Susie]]
 - [[Asriel]]
 - [[Shelter]]
-- [[Ángel]]
+- [[Ángel|Angel]]
 
 ## Submap
 [[Submapas/Alvin.canvas|Open graphic submap]]

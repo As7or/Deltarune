@@ -113,6 +113,10 @@ confianza: strong
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[Profecy.gif]]
+> The only figure in the Prophecy always referred to by title ("the Knight"), never by name — unlike Queen, mentioned only by her nickname, which also functions as a title. [[Profecía|Prophecy]]
+
 > [!quote]- Titan
 > He deliberately creates it at the end of Ch.4, opening a Dark Fountain much more powerful than usual inside the 3rd Sanctuary — the culmination of his plan for that chapter, and the resulting final boss. 🎲 In the prophetic drawing of the Roaring, two figures with his same silhouette flank the Titan — an unconfirmed visual reading, see [[Titan]].
 
@@ -194,8 +198,8 @@ confianza: strong
 
 ## Related
 - [[Dess]]
-- [[Fuentes Oscuras]]
-- [[Profecía]]
+- [[Fuentes Oscuras|Dark Fountains]]
+- [[Profecía|Prophecy]]
 - [[Kris]]
 - [[Asriel]]
 - [[Susie]]

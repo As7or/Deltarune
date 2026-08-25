@@ -157,10 +157,9 @@ confianza: strong
 > ![[asriel_ralsei_fire_atack.jpeg]]
 > *Comparison between Ralsei's fire attack and Asriel's — another parallel that fuels the theory of their connection.*
 
-> [!quote]- Prophecy
-> He's the one who summarizes it for Kris and Susie for the first time in Ch.1, and the only known Darkner who knows it in full, including its tragic ending — unlike the rest, who only know it through scattered fragments (stained-glass windows, research corkboards, rumors). He's also the only one capable of sensing the "dark presence" of the Dark Fountains and the Knight himself before they appear on screen, a sixth sense no other character shows having. [[Profecía]]
->
+> [!prophecy]- Prophecy
 > ![[07_el_tercer_heroe_el_principe.gif]]
+> He's the one who summarizes it for Kris and Susie for the first time in Ch.1, and the only known Darkner who knows it in full, including its tragic ending — unlike the rest, who only know it through scattered fragments (stained-glass windows, research corkboards, rumors). He's also the only one capable of sensing the "dark presence" of the Dark Fountains and the Knight himself before they appear on screen, a sixth sense no other character shows having. [[Profecía|Prophecy]]
 > *The Prophecy stained-glass window that names him directly: "The third hero. The prince, alone in deepest dark."*
 
 ## Theories
@@ -221,12 +220,12 @@ He's the only one of the three protagonists whose title depends directly on whic
 
 ## Related
 - [[Asriel]]
-- [[Fuentes Oscuras]]
+- [[Fuentes Oscuras|Dark Fountains]]
 - [[Kris]]
 - [[Susie]]
 - [[Flowery]]
 - [[FRIEND]]
-- [[Profecía]]
+- [[Profecía|Prophecy]]
 
 ## Submap
 [[Submapas/Ralsei.canvas|Open graphical submap]]

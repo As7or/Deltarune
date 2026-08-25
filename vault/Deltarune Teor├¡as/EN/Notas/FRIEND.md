@@ -88,12 +88,16 @@ After defeating her, interacting with FRIEND in the Garden, and collecting the C
 ![[Pink_screenshot_cat_bite.png]]
 *Pink pointing out FRIEND's bite on Kris's hand — the exact moment that unlocks the whole dialogue.*
 
-See [[Huevo]] for the full transcript of this scene.
+See [[Huevo|Egg]] for the full transcript of this scene.
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
+> Pane 15 ("They'll see the tail of Hell take crawl") is the line the fandom nicknames "the Tail of Hell" — the most widespread nickname for them. **Very widespread fan theory, not confirmed by name.** [[Profecía|Prophecy]]
+
 > [!quote]- Forgotten Man / Huevo
-> Since the Chapter 5 revelation, it's no longer just theory: Pink confirms that the Eggs the Forgotten Man hands out are literally the "protein" FRIEND hunts. See [[Huevo]] for the full dialogue. [[Forgotten Man]]
+> Since the Chapter 5 revelation, it's no longer just theory: Pink confirms that the Eggs the Forgotten Man hands out are literally the "protein" FRIEND hunts. See [[Huevo|Egg]] for the full dialogue. [[Forgotten Man]]
 
 > [!quote]- Dess
 > An Organikk (a philosopher from the Second/Third Sanctuary) describes how some children were "led astray" [TODO: verify exact EN quote] by FRIEND, disappearing in the place "where the forest would grow" [TODO: verify exact EN quote] — a description that unsettlingly matches Dess's disappearance around the Shelter. In the Egg room of Chapter 4, Kris covers their own drawing with an image of a tree during an art-therapy session, which much of the fandom reads as Kris actively repressing the memory of that same incident. [[Dess]]
@@ -138,7 +142,7 @@ See [[Huevo]] for the full transcript of this scene.
 
 ## Related
 - [[Forgotten Man]]
-- [[Huevo]]
+- [[Huevo|Egg]]
 - [[Everyman]]
 - [[Spamton]]
 - [[Roaring Knight]]

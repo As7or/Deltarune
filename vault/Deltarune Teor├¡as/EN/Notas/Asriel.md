@@ -32,7 +32,7 @@ As of now, Asriel is a character built entirely out of absence: the game has gon
 In Ch.4, [[Susie]] discovers that same contrast while looking at the room's shelves: Asriel's full of trophies, Kris's entirely empty — and she takes a glow-in-the-dark star from Asriel's shelf to make Kris a trophy of his own. It's a detail that fits a much broader fan reading: Asriel's room is full of life, color, and achievements; Kris's is plain, gray, and has nothing of its own — the same washed-out palette shared, for example, by the Gaster Followers or any "copy" with no real identity within the Undertale/Deltarune universe. Under that reading, Kris's room wouldn't be empty by chance, but as another visual reflection of the Vessel theory: literally, little "of their own" to show.
 
 ## Is Kris hiding something from the Player?
-This is, by far, the most direct and least-cited clue of all: when Kris snoops in Asriel's room at Queen's Mansion, the narration explicitly says "*[TODO: verify exact EN quote] you opened the door with your eyes closed. You didn't see anything.*" — Kris themself, not the player, decides not to let that room be seen. It's the only time in the whole game that such a simple action (opening a door and looking) gets blocked in a way this deliberate and this explicitly narrated as a choice made by Kris. See [[Jugador]] for the full development of this tension.
+This is, by far, the most direct and least-cited clue of all: when Kris snoops in Asriel's room at Queen's Mansion, the narration explicitly says "*[TODO: verify exact EN quote] you opened the door with your eyes closed. You didn't see anything.*" — Kris themself, not the player, decides not to let that room be seen. It's the only time in the whole game that such a simple action (opening a door and looking) gets blocked in a way this deliberate and this explicitly narrated as a choice made by Kris. See [[Jugador|Player]] for the full development of this tension.
 
 And there's a second piece that fits almost perfectly: when trying to **Check** the Roaring Knight during battle, the game responds with the exact same structure — first "*[TODO: verify exact EN quote] (You get the feeling you wouldn't learn anything.)*", and if you press further, "*[TODO: verify exact EN quote] But Kris couldn't learn anything.*" It's the same verb ("learn"/"see"), the same total negation, and the same implicit subject: it's specifically Kris who cannot or will not let something be known — not a generic Check-system failure, which normally does give some description, however minimal.
 
@@ -140,15 +140,15 @@ Confirmed by the game: as a kid, [[Berdly|Bratty]] convinced Asriel to give her 
 - Nicknames others give him: "Azzy" (Pizzapants, Catty, Bratty), "Doug/Douglas" (Catty's father, who isn't too fond of him), "the brother who smells like pizza" (Susie, jokingly).
 
 ## Related
-- [[Conexión Undertale]]
+- [[Conexión Undertale|Undertale Connection]]
 - [[Ralsei]]
 - [[Kris]]
 - [[Toriel]]
 - [[Asgore]]
 - [[Dess]]
 - [[Roaring Knight]]
-- [[Jugador]]
-- [[Ángel]]
+- [[Jugador|Player]]
+- [[Ángel|Angel]]
 - [[Susie]]
 - [[Carol]]
 - [[Alvin]]

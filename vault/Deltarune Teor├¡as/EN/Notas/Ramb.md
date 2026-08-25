@@ -58,7 +58,7 @@ confianza: strong
 > *Ramb quitting his old job on Tenna's show.*
 
 > [!quote]- Dark Crystal
-> His line about the "freedom" Kris really wants is one of the most direct quotes in the whole game about the central theme running through Dark Crystal bearers. [[Cristal Oscuro]]
+> His line about the "freedom" Kris really wants is one of the most direct quotes in the whole game about the central theme running through Dark Crystal bearers. [[Cristal Oscuro|Shadow Crystal]]
 
 ## Theories
 
@@ -75,7 +75,7 @@ confianza: strong
 ## Related
 - [[Kris]]
 - [[Tenna]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 - [[FRIEND]]
 
 ## Submap

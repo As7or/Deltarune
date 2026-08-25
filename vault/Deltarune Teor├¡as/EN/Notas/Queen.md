@@ -84,6 +84,10 @@ confianza: strong
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[18_the_queens_chariot_cannot_be_stopped.gif]]
+> Pane 18 ("The Queen's chariot cannot be stopped") fits thematically with her GIGA Queen from Ch.2 — an unstoppable mechanical "chariot." **Reasoned reading, no direct textual confirmation.** [[Profecía|Prophecy]]
+
 > [!quote]- Berdly
 > Her ally (and victim) in Ch.2 — together they try to build a "Smartopia," until she loses control over him and ends up forcing him into submission with a cable in his face. [[Berdly]]
 
@@ -117,10 +121,10 @@ confianza: strong
 
 ## Related
 - [[Berdly]]
-- [[Fuentes Oscuras]]
+- [[Fuentes Oscuras|Dark Fountains]]
 - [[Noelle]]
 - [[Roaring Knight]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 - [[Susie]]
 - [[Flowery]]
 - [[Rouxls Kaard]]

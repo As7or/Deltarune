@@ -160,6 +160,10 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 
 ## Relaciones clave
 
+> [!prophecy]- Profecía
+> ![[09_the_first_hero_the_cage_with_human_soul_and_parts.gif]]
+> La vidriera 09 describe al Primer Héroe como "la Jaula, con ALMA y partes humanas" — una de las descripciones más citadas para las teorías sobre la naturaleza de Kris como cuerpo/contenedor de un ALMA ajena. [[Profecía]]
+
 > [!quote]- Asriel
 > Siempre ha sido cariñoso con su hermano menor: usaba el mando "pirata" para jugar con él, "confesaba sus pecados" en su nombre ante el Padre [[Alvin]], y lo llevaba cargado al colegio. Kris lo echa muchísimo de menos desde que se fue a la universidad — su búsqueda de internet sobre universidades lo delata. En el Cap.2, cierra los ojos antes de inspeccionar el cuarto de Asriel en la Mansión de Queen, protector incluso en sueños.
 

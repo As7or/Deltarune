@@ -209,7 +209,8 @@ This section brings together, chapter by chapter, everything within Deltarune it
 > ![[Shelter.png]]
 > *Hometown's Shelter, the place where his smile noise plays slowed to 15%.*
 
-> [!quote]- Prophecy
+> [!prophecy]- Prophecy
+> ![[Profecy.gif]]
 > [TODO: verify exact EN quote] The phrase "the shadows cut deeper" from the Prophecy's hymn (Ch.4) coincides almost verbatim with a line from Entry 17. Seam, in Ch.1, and Ralsei, in Ch.3, also almost literally quote [TODO: verify exact EN quote] "darker, even darker." [[Profecía|Prophecy]]
 
 ## Trivia

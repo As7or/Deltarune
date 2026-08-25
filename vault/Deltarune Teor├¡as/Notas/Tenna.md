@@ -93,6 +93,10 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[19_the_lord_of_screens_cleaved_red_by_blade.gif]]
+> La vidriera 19 ("The Lord of Screens cleaved red by blade") es él: "el Señor de las Pantallas" partido por la espada del Caballero, que le corta los brazos tras derrotarlo en el Cap.3. [[Profecía]]
+
 > [!quote]- Spamton
 > Antiguos socios de negocio y ahora archienemigos. El Cap.5 confirma que Tenna lo forzó a firmar el contrato que lo arruinó pese a saber que "algo terrible pasaría" — y que, en el fondo, sí le importaba. Tenna tiene un cierto complejo de inferioridad hacia el éxito y los conocimientos tecnológicos de Spamton, y no pierde ocasión de insultarlo o menospreciarlo en público. [[Spamton]]
 >

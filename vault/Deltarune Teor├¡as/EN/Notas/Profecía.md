@@ -140,7 +140,7 @@ A block of paired couplets that announce, in very symbolic terms, the confrontat
 
 > [!example]- 14 — "They'll hear the ring of Heaven's call."
 > ![[14_theyll_hear_the_ring_of_heavens_call.gif]]
-> Possible connection to the "Angel's Heaven" that must be banished according to the prose text — see [[Ángel]].
+> Possible connection to the "Angel's Heaven" that must be banished according to the prose text — see [[Ángel|Angel]].
 
 > [!example]- 15 — "They'll see the tail of Hell take crawl."
 > ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
@@ -264,7 +264,7 @@ The final block, much shorter and more intimate in tone than the rest — closes
 > Each route reinterprets the final sacrifice announced by the prophetic text differently — from the standard ending of each chapter to the darker variants of the Weird Route, like Snowgrave in Ch.2 or the Lake ending in Ch.5. None of those variants directly contradicts the Prophecy's text; they simply change the tone and emotional cost of fulfilling it. [[Rutas|Routes]]
 
 > [!quote]- Ángel
-> The "Angel's Heaven" that must be banished according to the Prophecy is one of the text's most direct connections to this figure. [[Ángel]]
+> The "Angel's Heaven" that must be banished according to the Prophecy is one of the text's most direct connections to this figure. [[Ángel|Angel]]
 
 > [!quote]- Gaster (W. D. Gaster)
 > The hymn's phrase "the shadows cut deeper" matches almost word-for-word a line associated with his Entry Number Seventeen in Undertale. [[Gaster (W. D. Gaster)]]
@@ -321,7 +321,7 @@ The final block, much shorter and more intimate in tone than the rest — closes
 - [[Roaring Knight]]
 - [[Fuentes Oscuras|Dark Fountains]]
 - [[Rutas|Routes]]
-- [[Ángel]]
+- [[Ángel|Angel]]
 - [[Jugador|Player]]
 - [[Gaster (W. D. Gaster)]]
 - [[Titan]]

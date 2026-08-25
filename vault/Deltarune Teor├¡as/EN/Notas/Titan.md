@@ -69,8 +69,9 @@ confianza: official
 > [!quote]- Susie and Kris
 > They're the ones who defeat it together: Susie throws Kris inside the Titan, and it's Kris's SOUL, shining from within, that finally destroys it. [[Susie]] [[Kris]]
 
-> [!quote]- Prophecy
-> The Roaring the Titans announce is one of the great catastrophic events recorded in the Ultimate Prophecy — the one in Ch.4 is, so far, the only one that has actually materialized on screen. Its design directly recalls the silhouette of the Titan that appears at the center of the Roaring's prophetic illustration, shown at the start of this note. [[Profecía]]
+> [!prophecy]- Prophecy
+> ![[04_si_las_fuentes_se_liberan_el_rugido.gif]]
+> The Roaring the Titans announce is one of the great catastrophic events recorded in the Ultimate Prophecy — the one in Ch.4 is, so far, the only one that has actually materialized on screen. Its design directly recalls the silhouette of the Titan that appears at the center of the Roaring's prophetic illustration, shown at the start of this note. [[Profecía|Prophecy]]
 
 ## Theories
 
@@ -96,13 +97,13 @@ confianza: official
 
 ## Related
 - [[Roaring Knight]]
-- [[Fuentes Oscuras]]
+- [[Fuentes Oscuras|Dark Fountains]]
 - [[Gerson Boom]]
 - [[Ralsei]]
 - [[Susie]]
 - [[Kris]]
-- [[Profecía]]
-- [[Cristal Oscuro]]
+- [[Profecía|Prophecy]]
+- [[Cristal Oscuro|Shadow Crystal]]
 
 ## Submap
 [[Submapas/Titan.canvas|Open graphical submap]]

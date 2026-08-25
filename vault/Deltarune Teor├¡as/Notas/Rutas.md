@@ -63,7 +63,8 @@ confianza: fuerte
 
 ## Relaciones
 
-> [!quote]- Profecía
+> [!prophecy]- Profecía
+> ![[Profecy.gif]]
 > Cada ruta reinterpreta de forma distinta el sacrificio final que anuncia la Profecía — la Ruta Rara en particular sugiere que ese "guion" puede torcerse de formas que el texto profético no contempla. [[Profecía]]
 
 > [!quote]- Lake

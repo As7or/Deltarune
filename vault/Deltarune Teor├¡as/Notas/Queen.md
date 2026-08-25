@@ -84,6 +84,10 @@ confianza: fuerte
 
 ## Relaciones
 
+> [!prophecy]- Profecía
+> ![[18_the_queens_chariot_cannot_be_stopped.gif]]
+> La vidriera 18 ("The Queen's chariot cannot be stopped") encaja temáticamente con su GIGA Queen del Cap.2 — un "carro" mecánico e imparable. **Lectura razonada, sin confirmación textual directa.** [[Profecía]]
+
 > [!quote]- Berdly
 > Su aliado (y víctima) en el Cap.2 — juntos intentan construir una "Smartopia", hasta que ella pierde el control sobre él y termina sometiéndolo por la fuerza con un cable en la cara. [[Berdly]]
 

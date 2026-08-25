@@ -164,6 +164,10 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 
 ## Relaciones clave
 
+> [!prophecy]- Profecía
+> ![[12_the_second_hero_the_girl_with_hope_crossed_on_her_heart.gif]]
+> La vidriera 12 describe al Segundo Héroe como "la Chica, con esperanza cruzada en el corazón" — la línea exacta en la que se apoya la teoría de si Susie es "la chica" de la Profecía. Es también quien físicamente rompe uno de los tapices con la mano, hasta hacerse sangre, en el momento más citado de su arco del Cap.4. [[Profecía]]
+
 > [!quote]- Kris
 > De la hostilidad inicial a ser inseparables hacia el Cap.3-4. Le confiesa que le gusta el olor a manzana de su champú, y bromea con "querer darle un mordisco" por ello. Muestra preocupación genuina cuando lo ve herido o distinto a como debería estar, aunque no siempre entiende del todo qué le pasa.
 >

@@ -110,6 +110,10 @@ confianza: strong
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[22_the_pointy_headed_will_say_toothpaste_and_then_boy.gif]]
+> Pane 22 ("The pointy-headed will say 'toothpaste,' and then 'boy.'") seems to describe him by design — there's even a vault sprite (`lancer_Darkner_face_profecy.png`) that reinforces this same reading. **No direct textual confirmation.** [[Profecía|Prophecy]]
+
 > [!quote]- Susie
 > His best friend. They met as fake rivals/allies in Ch.1 and forged a genuine bond that stays strong chapter after chapter — she carries him piggyback, protects him, and he admires her deeply. [[Susie]]
 >
@@ -144,7 +148,7 @@ confianza: strong
 - [[King]]
 - [[Queen]]
 - [[Jevil]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 
 ## Submap
 [[Submapas/Lancer.canvas|Open graphic submap]]

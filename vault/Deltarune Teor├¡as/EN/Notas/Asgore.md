@@ -58,6 +58,10 @@ confianza: official
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[20_the_flower_man_trapped_in_asylum.gif]]
+> Pane 20 ("The Flower Man, trapped in asylum") shows him confirmed as Ch.5's antagonist, with his hands around a flower and a crown he never wears in the Light World. [[Profecía|Prophecy]]
+
 > [!quote]- Toriel
 > Ex-wife; they divorced before the game begins. According to his own monologue in Ch.5, his self-blame over the unrevealed tragedy ended up driving her away, though she never openly blamed him for it. [[Toriel]] 
 > ![[Asgore_and_Toriel_overworld_awkward.gif]]
@@ -79,7 +83,7 @@ confianza: official
 > ![[Asgore_y_Rudy_universidad.png]]
 
 > [!quote]- Sr. Cattenheimer
-> Friends outside of the game itself: a promotional drawing from an official newsletter (not a playable Deltarune scene) shows them alongside Rudy at a barbecue, with Cattenheimer manning the grill. [[Sr. Cattenheimer]]
+> Friends outside of the game itself: a promotional drawing from an official newsletter (not a playable Deltarune scene) shows them alongside Rudy at a barbecue, with Cattenheimer manning the grill. [[Sr. Cattenheimer|Mr. Cattenheimer]]
 >
 > ![[Asgore_Rudy_and_Mr.Cat_enjoying_bbq.gif]]
 > *Asgore, Rudy, and Mr. Cattenheimer at a barbecue — art from an official newsletter, not a scene from the game.*
@@ -111,7 +115,7 @@ confianza: official
 - [[Susie]]
 - [[Alphys]]
 - [[Rudy]]
-- [[Sr. Cattenheimer]]
+- [[Sr. Cattenheimer|Mr. Cattenheimer]]
 
 ## Submap
 [[Submapas/Asgore.canvas|Open graphical submap]]

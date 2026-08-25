@@ -17,7 +17,7 @@ confianza: strong
 > 🏆 The Ch.4 Egg intentionally causes you to lose that chapter's completion trophy/achievement on PlayStation, meant to unlock secret dialogue.
 
 > [!tip]- Personality profile
-> It's not a character, but an object and a recurring narrative pattern — but, just like the [[Cristal Oscuro]], each Egg works as a small, isolated clue that only makes sense once put together with the rest: on their own they're just a curious collectible, together they point to a much more uncomfortable revelation about FRIEND and about the Forgotten Man himself.
+> It's not a character, but an object and a recurring narrative pattern — but, just like the [[Cristal Oscuro|Shadow Crystal]], each Egg works as a small, isolated clue that only makes sense once put together with the rest: on their own they're just a curious collectible, together they point to a much more uncomfortable revelation about FRIEND and about the Forgotten Man himself.
 
 ## Locations by chapter
 
@@ -132,7 +132,7 @@ This single line of dialogue suddenly connects three of the game's biggest myste
 - [[Forgotten Man]]
 - [[FRIEND]]
 - [[Mad Mew Mew (Pink)]]
-- [[Cristal Oscuro]]
+- [[Cristal Oscuro|Shadow Crystal]]
 - [[Susie]]
 
 ## Submap

@@ -58,6 +58,10 @@ confianza: strong
 
 ## Relationships
 
+> [!prophecy]- Prophecy
+> ![[21_jockington_grows_the_beard.gif]]
+> Pane 21 ("Jockington grows the beard") is the exact line confirming he's the only character mentioned by his own name in the entire Prophecy. [[Profecía|Prophecy]]
+
 > [!quote]- Catti
 > His girlfriend and best friend. They met in their first gym class, on hula-hoop day, when she used him instead of a missing hoop. [[Catti]]
 
@@ -78,14 +82,14 @@ confianza: strong
 ## Theories
 
 > [!question]- Why does his part of the Prophecy come true so literally?
-> It's striking that, of the entire Prophecy, the only part that comes true clearly, directly, and verifiably as of today is precisely the most absurd and least significant one — Jockington's beard — while the rest of the characters (Gerson Boom included, with his "you have to read between the lines") insist that the prophetic text admits many readings and shouldn't be taken literally. One fandom reading sees this as a deliberate joke by Toby Fox: proving that the Prophecy really can come true exactly as written, but deliberately choosing the fragment with the least possible narrative weight to do so, leaving it open what will happen the day an important part comes true literally. See [[Profecía]] and [[Gerson Boom]].
+> It's striking that, of the entire Prophecy, the only part that comes true clearly, directly, and verifiably as of today is precisely the most absurd and least significant one — Jockington's beard — while the rest of the characters (Gerson Boom included, with his "you have to read between the lines") insist that the prophetic text admits many readings and shouldn't be taken literally. One fandom reading sees this as a deliberate joke by Toby Fox: proving that the Prophecy really can come true exactly as written, but deliberately choosing the fragment with the least possible narrative weight to do so, leaving it open what will happen the day an important part comes true literally. See [[Profecía|Prophecy]] and [[Gerson Boom]].
 
 ## Related
 - [[Catti]]
 - [[Kris]]
 - [[Susie]]
 - [[Noelle]]
-- [[Profecía]]
+- [[Profecía|Prophecy]]
 - [[Gerson Boom]]
 
 ## Submap

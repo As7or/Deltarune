@@ -20,7 +20,7 @@ confianza: strong
 > ![[dark_crystal_Glass_item.png]]
 > *The "Glass" in Kris's inventory — the form the Shadow Crystal takes when it crosses into the Light World.*
 > 🔮 Using it inside a Dark World shows Kris a vision tied to that area's theme: a flash of the equivalent Light World location, a possible glimpse of the future (in the Cyber World/TV World), or even a vision of characters who aren't present at that moment (in the Garden). The effect is one-use-per-location and can't be repeated.
-> 🚫 The tapestries/stained-glass windows in the Dark Sanctuaries that narrate the Prophecy (Ch.4) are **immune** to this vision effect — see [[Profecía]].
+> 🚫 The tapestries/stained-glass windows in the Dark Sanctuaries that narrate the Prophecy (Ch.4) are **immune** to this vision effect — see [[Profecía|Prophecy]].
 > 🗽 The word "Freedom" appears in the description or dialogue of almost every one of its bearers.
 > 👤 Several bearers were contacted by the same mysterious figure, "Strange Someone" (Alguien Extraño), right before losing their minds.
 > 💭 Ch.5 reveal: Seam explains that the Crystals contain [TODO: verify exact EN quote] "the power of lost dreams" — what's left of a strong attachment, a dream held onto tightly that ends up breaking. He calls them "failed dreams," useless to Kris... but promises he knows something "very, very interesting" to do with the full set of 5.
@@ -113,7 +113,7 @@ The Shadow Mantle is an item **distinct** from the Shadow Crystals, but belongs 
 > Doesn't carry any Shadow Crystal — it carries the Shadow Mantle, a different item — but its battle belongs to the same thematic circle of Strange Someone that empowers the rest of the secret bosses. [[ERAM]]
 
 > [!quote]- Jugador
-> The desire to "break free of the script" shared by the Crystal's bearers directly reflects the tension between the Player and control over Deltarune's story. [[Jugador]]
+> The desire to "break free of the script" shared by the Crystal's bearers directly reflects the tension between the Player and control over Deltarune's story. [[Jugador|Player]]
 
 ## Theories
 
@@ -130,7 +130,7 @@ The Shadow Mantle is an item **distinct** from the Shadow Crystals, but belongs 
 > *The five Shadow Crystals together — the complete set that, according to this theory, would allow the creation of the Pure Crystal.*
 
 > [!question]- 🎲 The fallen star and the crystal tears
-> A book in the 2nd Dark Sanctuary (Ch.4) describes a fallen star whose tears, made of a bitter water, formed something "like crystal." This is a possible symbolic origin for the material that both the Shadow Crystals and the tapestries/stained-glass windows that narrate the Prophecy are made of (see [[Profecía]]) — but the game never explicitly says both things are the same material, so this is a speculative reading based on a vocabulary coincidence ("like crystal"), not a confirmation.
+> A book in the 2nd Dark Sanctuary (Ch.4) describes a fallen star whose tears, made of a bitter water, formed something "like crystal." This is a possible symbolic origin for the material that both the Shadow Crystals and the tapestries/stained-glass windows that narrate the Prophecy are made of (see [[Profecía|Prophecy]]) — but the game never explicitly says both things are the same material, so this is a speculative reading based on a vocabulary coincidence ("like crystal"), not a confirmation.
 >
 > ![[shadow_crystal_lagrimas_cristal_teoria.webp]]
 > *The exact text of the book in the 2nd Sanctuary [TODO: verify exact EN quote]: "And so the fallen star wept, forming rivers with its tears. Then, slowly, from the bitter water, something grew. It looked like crystal."*
@@ -155,8 +155,8 @@ The Shadow Mantle is an item **distinct** from the Shadow Crystals, but belongs 
 - [[Mad Mew Mew (Pink)]]
 - [[Seam]]
 - [[ERAM]]
-- [[Jugador]]
-- [[Profecía]]
+- [[Jugador|Player]]
+- [[Profecía|Prophecy]]
 
 ## Submap
 [[Submapas/Cristal Oscuro.canvas|Open graphical submap]]

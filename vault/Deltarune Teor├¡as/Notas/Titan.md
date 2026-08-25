@@ -69,7 +69,8 @@ confianza: oficial
 > [!quote]- Susie y Kris
 > Son quienes lo derrotan entre los dos: Susie lanza a Kris dentro del Titán, y es el ALMA de Kris, brillando desde dentro, la que finalmente lo destruye. [[Susie]] [[Kris]]
 
-> [!quote]- Profecía
+> [!prophecy]- Profecía
+> ![[04_si_las_fuentes_se_liberan_el_rugido.gif]]
 > El Rugido que los Titanes anuncian es uno de los grandes eventos catastróficos recogidos en la Última Profecía — el del Cap.4 es, de momento, el único que ha llegado a materializarse en pantalla. Su diseño recuerda directamente a la silueta del Titán que aparece en el centro del dibujo profético del Rugido, mostrado al principio de esta nota. [[Profecía]]
 
 ## Teorías
