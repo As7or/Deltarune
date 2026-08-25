@@ -1,8 +1,8 @@
 BOARD_TEMPLATE = '''<!DOCTYPE html>
-<html lang="es">
+<html lang="{lang}">
 <head>
 <meta charset="UTF-8">
-<title>Corcho Principal — Deltarune Teorías 🕵️</title>
+<title>{page_title}</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 26 L15 15' stroke='%23b23c30' stroke-width='2' fill='none'/%3E%3Ccircle cx='17' cy='13' r='6' fill='%23c73434'/%3E%3Ccircle cx='14.5' cy='10.5' r='1.8' fill='%23ffb3b3'/%3E%3C/svg%3E">
 <style>
   :root{{
@@ -361,7 +361,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 <div class="frame-screw" style="right:11px; top:11px;"></div>
 <div class="frame-screw" style="left:11px; bottom:11px;"></div>
 <div class="frame-screw" style="right:11px; bottom:11px;"></div>
-<img id="pipis-guest" src="{sprites_prefix}nike_Green_Pippins_overworld_exasperated.gif" alt="Pipis, mirando el corcho con cara de exasperación">
+<img id="pipis-guest" src="{sprites_prefix}nike_Green_Pippins_overworld_exasperated.gif" alt="{pipis_alt}">
 <div id="viewport">
   <div id="board">
     <svg id="strings"></svg>
@@ -371,24 +371,24 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 </div>
 {lang_switch}
 <div id="legend">
-  <div><span class="dot" style="background:#2e8b46;"></span> Lightner</div>
-  <div><span class="dot" style="background:#6b3fa0;"></span> Darkner</div>
-  <div><span class="dot" style="background:#3a9aa6;"></span> Planta</div>
-  <div><span class="dot" style="background:#c9982e;"></span> Lugar</div>
-  <div><span class="dot" style="background:#6b7280;"></span> Tema / Other</div>
-  <div style="margin-top:6px;"><span class="swatch" style="background:#2e8b46;"></span> arista: oficial</div>
-  <div><span class="swatch" style="background:#c9982e;"></span> arista: teoría fuerte</div>
-  <div><span class="swatch" style="background:#b23c30;"></span> arista: teoría débil</div>
+  <div><span class="dot" style="background:#2e8b46;"></span> {legend_lightner}</div>
+  <div><span class="dot" style="background:#6b3fa0;"></span> {legend_darkner}</div>
+  <div><span class="dot" style="background:#3a9aa6;"></span> {legend_plant}</div>
+  <div><span class="dot" style="background:#c9982e;"></span> {legend_place}</div>
+  <div><span class="dot" style="background:#6b7280;"></span> {legend_topic}</div>
+  <div style="margin-top:6px;"><span class="swatch" style="background:#2e8b46;"></span> {legend_edge_official}</div>
+  <div><span class="swatch" style="background:#c9982e;"></span> {legend_edge_strong}</div>
+  <div><span class="swatch" style="background:#b23c30;"></span> {legend_edge_weak}</div>
 </div>
-<div id="zoomhint">Rueda = zoom · arrastra el corcho vacío para moverte · clic en una nota = abrir su página<br><span style="opacity:.65; font-style:italic;">🧵 Sigue el hilo. (Pipis estaría orgulloso.)</span></div>
+<div id="zoomhint">{zoomhint_text}<br><span style="opacity:.65; font-style:italic;">{zoomhint_thread}</span></div>
 <div id="overlay"></div>
 <div id="note-panel" class="mode-side">
   <div class="note-header">
-    <span id="note-title-bar">Nota</span>
+    <span id="note-title-bar">{note_panel_default_title}</span>
     <div class="btns">
-      <button id="mode-side-btn" class="active" title="Ver al lado">▤ Lateral</button>
-      <button id="mode-center-btn" title="Ver centrado, más grande">▣ Centrado</button>
-      <button id="note-close">Cerrar ✕</button>
+      <button id="mode-side-btn" class="active" title="{mode_side_title}">▤ {mode_side_label}</button>
+      <button id="mode-center-btn" title="{mode_center_title}">▣ {mode_center_label}</button>
+      <button id="note-close">{note_close_label} ✕</button>
     </div>
   </div>
   <iframe id="note-frame" src=""></iframe>
@@ -679,7 +679,7 @@ function openNote(noteStem, label){{
   if(noteStem){{
     frame.src = 'notes/' + encodeURIComponent(noteStem) + '.html';
   }} else {{
-    frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">Todavía no hay nota para <b>'+label+'</b>.</body>');
+    frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">{no_note_prefix} <b>'+label+'</b>.</body>');
   }}
   panel.classList.add('open');
   overlay.classList.add('open');
@@ -696,6 +696,46 @@ overlay.addEventListener('click', closeNote);
 </body>
 </html>
 '''
+
+
+def render_ui_strings(lang):
+    """Todos los textos fijos del "chrome" del corcho (leyenda, tooltip de
+    zoom, controles del panel de nota, titulo de pestaña, mensaje de "aun
+    no hay nota"...) que antes estaban escritos directamente en español
+    dentro de BOARD_TEMPLATE. Devuelve un dict listo para pasarlo como
+    **kwargs a BOARD_TEMPLATE.format(), igual que ya se hacia con
+    render_lang_switch(). 'lang' es 'es' o 'en'."""
+    if lang == "en":
+        return dict(
+            page_title="Main Corkboard — Deltarune Theories 🕵️",
+            pipis_alt="Pipis, looking at the corkboard with an exasperated face",
+            legend_lightner="Lightner", legend_darkner="Darkner", legend_plant="Plant",
+            legend_place="Place", legend_topic="Topic / Other",
+            legend_edge_official="edge: official", legend_edge_strong="edge: strong theory",
+            legend_edge_weak="edge: weak theory",
+            zoomhint_text="Wheel = zoom · drag empty corkboard to move · click a note = open its page",
+            zoomhint_thread="🧵 Follow the thread. (Pipis would be proud.)",
+            note_panel_default_title="Note",
+            mode_side_title="View side-by-side", mode_side_label="Side",
+            mode_center_title="View centered, bigger", mode_center_label="Centered",
+            note_close_label="Close",
+            no_note_prefix="There's no note yet for",
+        )
+    return dict(
+        page_title="Corcho Principal — Deltarune Teorías 🕵️",
+        pipis_alt="Pipis, mirando el corcho con cara de exasperación",
+        legend_lightner="Lightner", legend_darkner="Darkner", legend_plant="Planta",
+        legend_place="Lugar", legend_topic="Tema / Other",
+        legend_edge_official="arista: oficial", legend_edge_strong="arista: teoría fuerte",
+        legend_edge_weak="arista: teoría débil",
+        zoomhint_text="Rueda = zoom · arrastra el corcho vacío para moverte · clic en una nota = abrir su página",
+        zoomhint_thread="🧵 Sigue el hilo. (Pipis estaría orgulloso.)",
+        note_panel_default_title="Nota",
+        mode_side_title="Ver al lado", mode_side_label="Lateral",
+        mode_center_title="Ver centrado, más grande", mode_center_label="Centrado",
+        note_close_label="Cerrar",
+        no_note_prefix="Todavía no hay nota para",
+    )
 
 
 def render_lang_switch(lang):

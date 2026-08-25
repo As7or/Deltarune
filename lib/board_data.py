@@ -190,10 +190,16 @@ def extract_main_canvas_data(canvas_path, notes_dir, submaps_dir, sprites_dir):
     return {"items": items, "edges": elinks, "hub": nodes.get("hub")}
 
 
-def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None, sprites_prefix="Sprites/"):
+def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None, sprites_prefix="Sprites/", lang="es"):
     """A partir de {"items","edges"} genera (nodes_html, links_js, board_w, board_h)."""
     items = data["items"]
     edges = data["edges"]
+    UI = {
+        "es": {"open_note": "Abrir nota →", "eyebrow": "Boletín del Corcho",
+               "dateline": "Edición especial · Deltarune Teorías", "no_img": "sin imagen"},
+        "en": {"open_note": "Open note →", "eyebrow": "The Corkboard Bulletin",
+               "dateline": "Special edition · Deltarune Theories", "no_img": "no image"},
+    }[lang if lang in ("es", "en") else "es"]
 
     xs = [it["cx"] for it in items]
     ys = [it["cy"] for it in items]
@@ -245,7 +251,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
 
         cols = []
         for c in cards:
-            link_html = f'<a class="news-link" href="{c["href"]}">Abrir nota →</a>' if c["href"] else ""
+            link_html = f'<a class="news-link" href="{c["href"]}">{UI["open_note"]}</a>' if c["href"] else ""
             cols.append(f'''
     <div class="news-col">
       <div class="news-heading">{html.escape(c["title"])}</div>
@@ -259,8 +265,8 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   <div class="news-clip" style="left:{news_x:.0f}px; top:{news_y:.0f}px;">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     <div class="news-masthead">
-      <span class="news-eyebrow">Boletín del Corcho</span>
-      <span class="news-dateline">Edición especial · Deltarune Teorías</span>
+      <span class="news-eyebrow">{UI["eyebrow"]}</span>
+      <span class="news-dateline">{UI["dateline"]}</span>
     </div>
     <div class="news-cols">{''.join(cols)}</div>
   </div>'''
@@ -289,7 +295,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
             src = sprites_prefix + urllib.parse.quote(img_ref)
             img_tag = f'<img src="{src}" alt="" loading="lazy">'
         else:
-            img_tag = '<div class="noimg"><i>sin imagen</i></div>'
+            img_tag = f'<div class="noimg"><i>{UI["no_img"]}</i></div>'
 
         note_attr = slugify(it["note"]) if it["note"] else ""
         title = html.escape(it["label"])

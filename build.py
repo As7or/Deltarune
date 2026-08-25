@@ -110,6 +110,32 @@ EXTRA_ROOT_BLURBS_EN = {
                                   "Ch.1-5 — every Darkner has a Light World counterpart.",
 }
 
+# Nota bilingue: el STEM (nombre de archivo) de una nota se mantiene SIEMPRE
+# identico entre ES y EN -- incluso cuando el vault en espanol le puso un
+# nombre en espanol ("Cristal Oscuro", "Profecía"...) -- porque los wikilinks
+# (KNOWN_NOTES) y los sets de tema (PARCHMENT_NOTES, GASTER_NOTES...)
+# resuelven por ese nombre exacto y cambiarlo rompería enlaces sin tocar
+# codigo en cada sitio. Pero el usuario SI espera ver un titulo en ingles
+# en la pestaña del navegador de la version EN, incluso para esas notas
+# mezcladas (algunas ya tenian nombre en ingles como "Lake"/"Shelter", otras
+# se quedaron en español al crear el vault). Este diccionario es SOLO de
+# presentacion (el <title> de la pagina): no toca el archivo, el slug ni el
+# data-key de ningun badge. Las notas que sí tienen su propio "# Titulo" en
+# ingles al principio del cuerpo (como los dos EXTRA_ROOT_NOTES) no lo
+# necesitan -- ese H1 ya se usa como fallback automatico, ver build_lang().
+EN_TITLE_OVERRIDES = {
+    "7 Flores de Colores": "7 Colored Flowers",
+    "Conexión Undertale": "Undertale Connection",
+    "Cristal Oscuro": "Shadow Crystal",
+    "Fuentes Oscuras": "Dark Fountains",
+    "Huevo": "Egg",
+    "Jugador": "Player",
+    "Profecía": "Prophecy",
+    "Rutas": "Routes",
+    "Sr. Cattenheimer": "Mr. Cattenheimer",
+    "Ángel": "Angel",
+}
+
 
 def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
                 sprites_dir, sprites_prefix_notes, sprites_prefix_board,
@@ -148,7 +174,7 @@ def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
         stem = fname[:-3]
         slug = md_slugify(stem)
         text = open(os.path.join(srcdir, fname), encoding="utf-8").read()
-        body = convert_note_linked(text, sprites_prefix=sprites_prefix_notes)
+        body = convert_note_linked(text, sprites_prefix=sprites_prefix_notes, lang=lang)
         theme = (
             "parchment" if stem in PARCHMENT_NOTES else
             "wet" if stem in WET_NOTES else
@@ -159,14 +185,29 @@ def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
             "gaster" if stem in GASTER_NOTES else
             "postit"
         )
-        page = note_page_template.render_page(html.escape(stem), body, theme=theme)
+        # Titulo visible de la pagina (pestaña del navegador): en ES siempre
+        # el stem tal cual, como antes. En EN, el usuario mezcló nombres de
+        # archivo en español y en inglés al crear el vault -- así que en vez
+        # de mostrar ese stem en crudo, se busca (en este orden) un titulo
+        # explicito en EN_TITLE_OVERRIDES, luego un "# Titulo" real al
+        # principio del cuerpo (lo tienen las notas de indice sueltas como
+        # "Conexiones del Corcho"), y solo si ninguno existe se usa el stem.
+        h1_title = None
+        if lang == "en":
+            m_title = re.search(r'^#\s+(.+)$', re.sub(r'^---.*?---\n', '', text, flags=re.S), re.M)
+            h1_title = m_title.group(1).strip() if m_title else None
+            page_title = EN_TITLE_OVERRIDES.get(stem) or h1_title or stem
+        else:
+            page_title = stem
+        page = note_page_template.render_page(html.escape(page_title), body, theme=theme, lang=lang)
         with open(os.path.join(out_notes, slug + ".html"), "w", encoding="utf-8") as f:
             f.write(page)
         if fname in EXTRA_ROOT_NOTES:
-            m_title = re.search(r'^#\s+(.+)$', re.sub(r'^---.*?---\n', '', text, flags=re.S), re.M)
-            title = (m_title.group(1) if m_title else stem).strip()
+            if h1_title is None:
+                m_title = re.search(r'^#\s+(.+)$', re.sub(r'^---.*?---\n', '', text, flags=re.S), re.M)
+                h1_title = m_title.group(1).strip() if m_title else None
             index_cards.append({
-                "title": title,
+                "title": h1_title or stem,
                 "blurb": extra_root_blurbs.get(stem, ""),
                 "slug": slug,
             })
@@ -176,12 +217,13 @@ def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
     data = board_data.extract_main_canvas_data(main_canvas, notes_dir, submaps_dir, sprites_dir)
     nodes_html, links_js, board_w, board_h, news_html = board_data.build_board_html(
         data, index_cards=index_cards, sprites_dir=sprites_dir, thumbs_out_dir=thumbs_out_dir,
-        sprites_prefix=sprites_prefix_board,
+        sprites_prefix=sprites_prefix_board, lang=lang,
     )
     board_html = BOARD_TEMPLATE.format(
         board_w=board_w, board_h=board_h, nodes_html=nodes_html, links_js=links_js,
         news_html=news_html, lang_switch=board_template.render_lang_switch(lang),
-        sprites_prefix=sprites_prefix_board,
+        sprites_prefix=sprites_prefix_board, lang=lang,
+        **board_template.render_ui_strings(lang),
     )
     with open(os.path.join(out_dir, "corcho-principal.html"), "w", encoding="utf-8") as f:
         f.write(board_html)

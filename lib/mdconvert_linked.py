@@ -450,15 +450,18 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapte
         title_html = ""
     import importlib
     try:
-        from note_page_template import rotation_for
+        from note_page_template import rotation_for, torn_variant_for
     except ImportError:
         rotation_for = lambda t: 0
+        torn_variant_for = lambda t: 1
     rot = rotation_for((title or ctype) + str(depth)) * (1.3 if depth > 0 else 1)
+    torn_variant = torn_variant_for((title or ctype) + str(depth) + ctype)
     cls_extra = f" {chapter_class}" if chapter_class else ""
+    cls_extra += f" callout-torn-{torn_variant}"
     return (f'<div class="callout callout-{ctype}{cls_extra}" style="transform:rotate({rot}deg);">'
             f'{title_html}<div class="callout-body">{body}</div></div>')
 
-def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
+def convert_note_linked(md_text, sprites_prefix="../Sprites/", lang="es"):
     """Convierte una nota .md de Obsidian a HTML enlazando imagenes como
     archivos reales (sprites_prefix + nombre), sin base64."""
     lines = md_text.split("\n")
@@ -568,6 +571,16 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
             },
         }
         FM_DEFAULT_ICON = {"tipo": "🏷️", "mundo": "🌍", "especie": "🧬", "familia": "👪", "grupo": "👥", "estado": "⚠️"}
+        # Nota bilingue: la CLAVE interna (key_slug, usada en data-key para el
+        # CSS de color por categoria) se mantiene siempre en espanol para no
+        # romper esas reglas -- pero la ETIQUETA visible ("TIPO", "MUNDO"...)
+        # si debe traducirse al ingles en las notas de EN/, igual que ya se
+        # traduce el VALOR. Este diccionario es solo de presentacion.
+        FM_KEY_LABELS_EN = {
+            "tipo": "Type", "mundo": "World", "especie": "Species",
+            "familia": "Family", "grupo": "Group", "estado": "Status",
+            "pronombres": "Pronouns",
+        }
 
         def _icon_for(key, value):
             key_l = key.lower().strip()
@@ -586,9 +599,10 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/"):
             if v.strip().lower() in SKIP_VALUES:
                 continue
             icon = _icon_for(k, v)
+            label = FM_KEY_LABELS_EN.get(key_slug, k) if lang == "en" else k
             parts.append(
                 f'<span class="fm-badge" data-key="{html.escape(key_slug)}">'
-                f'<span class="fm-icon">{icon}</span><b>{html.escape(k)}</b><em>{html.escape(v[:60])}</em></span>'
+                f'<span class="fm-icon">{icon}</span><b>{html.escape(label)}</b><em>{html.escape(v[:60])}</em></span>'
             )
         if parts:
             fm_html = f'<div class="fm-bar">{"".join(parts)}</div>'

@@ -4,6 +4,14 @@ def rotation_for(text):
     h = zlib.crc32((text or "x").encode("utf-8"))
     return round(((h % 700) - 350) / 100.0 * 0.28, 2)  # entre -0.98 y 0.98 grados
 
+def torn_variant_for(text):
+    """Numero 1-4 deterministico (segun el texto) que elige una de las 4
+    variantes de borde rasgado irregular (callout-torn-1..4) del tema
+    Gaster, para que distintos postits de la misma nota no compartan
+    siempre el mismo recorte."""
+    h = zlib.crc32(((text or "x") + "|torn").encode("utf-8"))
+    return (h % 4) + 1
+
 PAGE_CSS = '''
   body{ margin:0; padding:20px 24px 60px; font-family:Georgia, serif; color:#2c2416; background:#e9dfc8; }
   h1{ font-size:22px; border-bottom:2px solid #8a6a3a; padding-bottom:6px;}
@@ -709,9 +717,13 @@ PAGE_CSS_GASTER = '''
   table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
   table.note-table .inline-img-small{ height:110px; }
 
-  /* --- postit viejo, gris y polvoriento, con el borde medio rasgado: papel
-     envejecido, motas de polvo y una esquina suelta a punto de despegarse,
-     en vez del postit amarillo brillante habitual --- */
+  /* --- postit viejo, gris y polvoriento, con el borde rasgado a mano: papel
+     envejecido, motas de polvo, manchas y una esquina suelta a punto de
+     despegarse, en vez del postit amarillo brillante habitual. El recorte
+     base (clip-path) se sustituye por 4 variantes irregulares y no
+     periodicas -- .callout-torn-1..4, mas abajo -- para que cada postit de
+     la nota tenga un borde distinto, ninguno con el patron de diente de
+     sierra regular/poligonal de antes. --- */
   .callout{
     position:relative;
     background:
@@ -726,11 +738,99 @@ PAGE_CSS_GASTER = '''
     padding:16px 18px 18px; margin:24px 14px 28px;
     box-shadow:2px 6px 14px rgba(0,0,0,0.55), inset 0 -14px 22px -16px rgba(0,0,0,0.25);
     font-family:'Segoe UI', Tahoma, sans-serif;
+    /* recorte de respaldo por si algun postit no recibe clase de variante */
     clip-path: polygon(
-      0% 2%, 6% 0%, 13% 1.6%, 21% 0.4%, 29% 2%, 37% 0%, 46% 1.6%, 54% 0.3%, 62% 2%, 70% 0%, 78% 1.6%, 86% 0.4%, 93% 1.4%, 100% 0.5%,
-      99% 9%, 100% 18%, 98% 27%, 100% 36%, 98.5% 45%, 100% 54%, 98% 63%, 100% 72%, 98.5% 81%, 100% 90%, 99% 97%,
-      92% 100%, 84% 98.5%, 76% 100%, 68% 99%, 60% 100%, 52% 98.5%, 44% 100%, 36% 99%, 28% 100%, 20% 98.5%, 12% 100%, 4% 99%, 0% 97%,
-      1.4% 88%, 0% 79%, 1.6% 70%, 0% 61%, 1.4% 52%, 0% 43%, 1.6% 34%, 0% 25%, 1.4% 16%, 0% 8%
+      0% 1%, 44% 0.4%, 68% 0.1%, 93.5% 0%, 100% 0.8%,
+      99.4% 30%, 99% 55%, 99.4% 75%, 99.5% 98.7%,
+      97% 100%, 80% 99.6%, 46% 99.2%, 0% 98.7%,
+      0.6% 55%, 0.9% 0%
+    );
+  }
+  /* --- 4 variantes de borde rasgado, generadas con desplazamientos
+     irregulares (no una funcion periodica) por cada uno de los 4 lados, con
+     picos ocasionales mas profundos que simulan mordiscos/rasgones mas
+     grandes en vez de un serrucho uniforme. Cada variante lleva ademas su
+     propio juego de manchas (mas o menos amarillentas/grisaceas) para que
+     ademas de la forma cambie el "sucio" del papel. --- */
+  .callout.callout-torn-1{
+    background:
+      radial-gradient(circle 1px at 14% 22%, rgba(0,0,0,0.5) 0, transparent 100%),
+      radial-gradient(circle 1px at 38% 61%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1.3px at 73% 33%, rgba(0,0,0,0.45) 0, transparent 100%),
+      radial-gradient(circle 1px at 84% 71%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1.1px at 58% 87%, rgba(0,0,0,0.35) 0, transparent 100%),
+      radial-gradient(circle 0.8px at 22% 44%, rgba(0,0,0,0.3) 0, transparent 100%),
+      radial-gradient(ellipse 20% 15% at 78% 20%, rgba(90,58,30,0.22) 0%, rgba(90,58,30,0.08) 55%, transparent 78%),
+      radial-gradient(ellipse 15% 11% at 15% 80%, rgba(70,60,40,0.18) 0%, transparent 72%),
+      radial-gradient(ellipse 40% 30% at 85% 15%, rgba(70,55,55,0.16) 0%, transparent 70%),
+      radial-gradient(ellipse 30% 25% at 10% 85%, rgba(55,60,62,0.14) 0%, transparent 65%),
+      linear-gradient(155deg, #cfcfc6 0%, #b7b7ac 45%, #a3a398 100%);
+    clip-path: polygon(
+      0% 0.6%, 44.1% 0.4%, 47.5% 0.7%, 47.8% 0.6%, 67.6% 0.1%, 68% 3.3%, 69.9% 0.8%, 74.7% 0.6%, 80.5% 1.6%, 93.5% 0%, 95.2% 2.7%, 99.2% 0.6%, 99.3% 0.1%, 100% 0.8%,
+      99.7% 0%, 99.4% 30.2%, 97.7% 46%, 99.3% 48.9%, 99.9% 54.6%, 99.2% 56.8%, 99.8% 62.4%, 99.6% 63.9%, 99.3% 67.2%, 99.5% 73.9%, 99.4% 75.2%, 99.1% 90.7%, 99.5% 98.7%,
+      97.4% 100%, 100% 99.4%, 98.5% 99.7%, 97% 99.4%, 95.2% 99.3%, 92% 99.5%, 87.7% 99.8%, 81.8% 96.7%, 80.8% 99.6%, 79.9% 99.7%, 53.8% 96.9%, 46% 99.2%, 37.3% 99%, 0% 98.7%,
+      0.9% 100%, 0.6% 91%, 0.9% 89.4%, 0% 80.3%, 1.2% 73.4%, 0.3% 68.8%, 0.2% 67.5%, 0.6% 55.3%, 0.8% 51.9%, 0.9% 38.5%, 0.9% 0%
+    );
+  }
+  .callout.callout-torn-2{
+    background:
+      radial-gradient(circle 1px at 20% 30%, rgba(0,0,0,0.5) 0, transparent 100%),
+      radial-gradient(circle 1.2px at 44% 68%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1px at 66% 24%, rgba(0,0,0,0.42) 0, transparent 100%),
+      radial-gradient(circle 1.4px at 88% 58%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1px at 30% 85%, rgba(0,0,0,0.32) 0, transparent 100%),
+      /* pliegue/arruga: dos franjas diagonales de luz y sombra, como un doblez de papel */
+      linear-gradient(115deg, transparent 41%, rgba(255,255,255,0.20) 42.5%, rgba(0,0,0,0.14) 44%, transparent 45.5%),
+      linear-gradient(21deg, transparent 66%, rgba(255,255,255,0.16) 67.5%, rgba(0,0,0,0.12) 69%, transparent 70.5%),
+      radial-gradient(ellipse 26% 18% at 24% 26%, rgba(100,68,32,0.24) 0%, rgba(100,68,32,0.08) 55%, transparent 80%),
+      radial-gradient(ellipse 18% 13% at 82% 78%, rgba(80,64,38,0.2) 0%, transparent 75%),
+      radial-gradient(ellipse 34% 26% at 88% 12%, rgba(70,55,55,0.14) 0%, transparent 68%),
+      linear-gradient(150deg, #d0c9b8 0%, #b7ac93 45%, #9c9280 100%);
+    clip-path: polygon(
+      0% 0.6%, 31.2% 3.6%, 43.2% 0.9%, 50% 1.3%, 59.7% 0.5%, 59.7% 1.2%, 63.7% 0.9%, 67.4% 1.2%, 85.8% 3.6%, 89.7% 3.8%, 98.1% 1.8%, 100% 0.5%,
+      97% 0%, 99.4% 34%, 99.2% 36.2%, 97.9% 47.8%, 99.8% 49.7%, 97.1% 62.3%, 98.7% 74.2%, 99.9% 80.5%, 99.6% 83.2%, 97.5% 86.9%, 98.9% 93.1%, 99.3% 100%,
+      100% 99.6%, 95.9% 99.6%, 82.7% 96.9%, 74.1% 98.6%, 69.6% 98.3%, 68.3% 98.9%, 64.2% 98.1%, 63.4% 99.2%, 61.9% 99.2%, 61.7% 97.2%, 47.2% 99.6%, 45.1% 99.3%, 40.6% 99%, 37.3% 98.7%, 37.2% 99.1%, 32.9% 96.3%, 0% 99.5%,
+      0.8% 100%, 3.1% 94.6%, 0.4% 86.5%, 0.4% 80.5%, 3.9% 79.5%, 3.1% 77.8%, 0.4% 74.5%, 2.4% 70.9%, 0% 62.8%, 3.3% 56.9%, 1.2% 49.9%, 3.2% 45.3%, 0.9% 41.9%, 0.6% 41.7%, 1.1% 30.9%, 1.8% 0%
+    );
+  }
+  .callout.callout-torn-3{
+    background:
+      radial-gradient(circle 1.1px at 10% 40%, rgba(0,0,0,0.48) 0, transparent 100%),
+      radial-gradient(circle 1px at 50% 15%, rgba(0,0,0,0.38) 0, transparent 100%),
+      radial-gradient(circle 1.3px at 76% 55%, rgba(0,0,0,0.44) 0, transparent 100%),
+      radial-gradient(circle 1px at 60% 90%, rgba(0,0,0,0.36) 0, transparent 100%),
+      radial-gradient(circle 0.9px at 90% 20%, rgba(0,0,0,0.3) 0, transparent 100%),
+      radial-gradient(circle 1px at 20% 78%, rgba(0,0,0,0.34) 0, transparent 100%),
+      radial-gradient(ellipse 24% 34% at 30% 60%, rgba(60,58,52,0.2) 0%, rgba(60,58,52,0.06) 60%, transparent 82%),
+      radial-gradient(ellipse 14% 10% at 68% 12%, rgba(72,60,36,0.18) 0%, transparent 75%),
+      radial-gradient(ellipse 38% 28% at 12% 12%, rgba(64,64,64,0.15) 0%, transparent 70%),
+      linear-gradient(150deg, #c6c6bd 0%, #a8a89d 50%, #8f8f84 100%);
+    clip-path: polygon(
+      0% 1.9%, 32.7% 0.5%, 33.5% 0.5%, 40.3% 4.2%, 40.4% 0.3%, 63.7% 0.4%, 68.3% 0.2%, 80.8% 0.4%, 84.6% 0.1%, 97.8% 1.7%, 100% 1.5%,
+      99.6% 0%, 99.5% 33.4%, 99.5% 34.5%, 99.3% 35.8%, 99.7% 42.3%, 99.6% 49.2%, 100% 55.6%, 99.3% 56%, 99.6% 82.6%, 99.5% 83.2%, 99.6% 100%,
+      100% 99.2%, 97.5% 99.6%, 94.7% 99.4%, 93% 99.7%, 90.2% 99.3%, 79.2% 97.5%, 68.3% 99.1%, 67.9% 99.2%, 64.6% 99.2%, 64.5% 99.3%, 53.2% 99.7%, 50.5% 99.4%, 47% 99.3%, 42.3% 99.5%, 0% 99.9%,
+      0.7% 100%, 0.2% 99.9%, 0.5% 90.4%, 2.8% 73.2%, 3.8% 59.1%, 0.6% 56.8%, 0.5% 56%, 0.1% 55.6%, 0.4% 47.5%, 0.3% 37.9%, 0.8% 35.6%, 2.6% 33.1%, 0.6% 33%, 0.3% 31.1%, 3.2% 0%
+    );
+  }
+  .callout.callout-torn-4{
+    background:
+      radial-gradient(circle 1px at 26% 18%, rgba(0,0,0,0.46) 0, transparent 100%),
+      radial-gradient(circle 1.2px at 55% 48%, rgba(0,0,0,0.4) 0, transparent 100%),
+      radial-gradient(circle 1px at 80% 30%, rgba(0,0,0,0.42) 0, transparent 100%),
+      radial-gradient(circle 1.3px at 40% 82%, rgba(0,0,0,0.38) 0, transparent 100%),
+      radial-gradient(circle 0.9px at 92% 76%, rgba(0,0,0,0.3) 0, transparent 100%),
+      /* esquina arrugada: pliegue corto concentrado en una zona, no un doblez de lado a lado */
+      linear-gradient(60deg, transparent 78%, rgba(255,255,255,0.22) 80%, rgba(0,0,0,0.16) 82%, transparent 84%),
+      linear-gradient(60deg, transparent 84%, rgba(255,255,255,0.16) 86%, rgba(0,0,0,0.12) 88%, transparent 90%),
+      radial-gradient(ellipse 22% 16% at 66% 82%, rgba(96,66,34,0.22) 0%, rgba(96,66,34,0.08) 55%, transparent 78%),
+      radial-gradient(ellipse 16% 12% at 12% 30%, rgba(74,62,38,0.18) 0%, transparent 74%),
+      radial-gradient(ellipse 36% 26% at 90% 10%, rgba(70,55,55,0.15) 0%, transparent 68%),
+      linear-gradient(160deg, #d3cdb0 0%, #b8ae8c 48%, #9e9576 100%);
+    clip-path: polygon(
+      0% 1.5%, 30.7% 0.5%, 31.3% 3.1%, 47.5% 0.2%, 49.4% 0.6%, 49.9% 3.2%, 53.3% 2.3%, 57.1% 0.8%, 83.6% 1.7%, 89.8% 3.6%, 92.9% 2.1%, 93.3% 1.6%, 99.6% 0.7%, 100% 0.1%,
+      99.3% 0%, 96.5% 39.3%, 99.8% 44.6%, 99.6% 45.4%, 96.7% 46.1%, 97.6% 48.6%, 99.5% 56.5%, 98.4% 57.6%, 99.8% 83.2%, 99.9% 84.6%, 97.1% 87.1%, 99.5% 88.1%, 98.3% 96.6%, 98.8% 97.8%, 98.7% 99.9%,
+      99.4% 100%, 100% 97.9%, 85.8% 98.4%, 81.2% 97.2%, 74.8% 98.1%, 74% 98.5%, 72.4% 99.8%, 67.9% 98.1%, 57.5% 98.2%, 51.5% 99.9%, 37.8% 98.6%, 0% 98.6%,
+      1.2% 100%, 1% 93.9%, 1.1% 92.9%, 3.7% 88.3%, 1.2% 84.8%, 1.8% 82.9%, 2.6% 78.9%, 2.3% 67.2%, 1.2% 60.8%, 2.2% 59.7%, 0.9% 54.3%, 1.9% 45.3%, 0.5% 44%, 1% 0%
     );
   }
   .callout::after{
@@ -743,6 +843,13 @@ PAGE_CSS_GASTER = '''
   }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#2c2c26; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#38382e; }
+  /* --- las listas con vinetas dentro de un postit heredaban el color claro
+     pensado para el fondo oscuro de la pagina (#bcbcb4), casi invisible
+     sobre el papel claro del postit -- p.ej. los bloques "Referencias y
+     pistas por capitulo" de la nota de Gaster. Se oscurecen igual que el
+     resto del texto del postit (.callout-body p). --- */
+  .callout .note-list li{ color:#38382e; }
+  .callout .note-list li::marker{ color:#6a5f4e; }
 
   .callout-info{ background:linear-gradient(155deg,#c4d0d0,#a5b0b0); }
   .callout-tip{ background:linear-gradient(155deg,#c4cfc2,#a3aea1); }
@@ -949,7 +1056,7 @@ SHARED_BODY_EXTRA = '''
 '''
 
 PAGE_TMPL = '''<!DOCTYPE html>
-<html lang="es">
+<html lang="{lang}">
 <head>
 <meta charset="UTF-8">
 <title>{title}</title>
@@ -973,10 +1080,10 @@ THEME_CSS = {
     "gaster": PAGE_CSS_GASTER,
 }
 
-def render_page(title_escaped, body_html, theme="postit"):
+def render_page(title_escaped, body_html, theme="postit", lang="es"):
     css = THEME_CSS.get(theme, PAGE_CSS)
     return PAGE_TMPL.format(
         title=title_escaped, css=css, shared_css=SHARED_CSS_EXTRA,
-        body=body_html, shared_body=SHARED_BODY_EXTRA,
+        body=body_html, shared_body=SHARED_BODY_EXTRA, lang=lang,
     )
 
