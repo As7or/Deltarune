@@ -77,6 +77,8 @@ confianza: fuerte
 
 > [!question]- ¿Es Noelle el Ángel?
 > Durante la Spamton Sweepstakes de 2022, uno de los premios reales fue un reloj de pulsera blanco grabado con el nombre "Noelle Holiday"; en su descripción, Spamton lo presenta como una joya que perteneció a alguien "rico y poderoso", y remata la broma con "si necesitas pruebas, ahí tienes el nombre del Ángel con las alas rasgadas". El reloj coincide en diseño con el Anillo de Plata que Noelle lleva equipado en el juego —el mismo objeto necesario para desbloquear los diálogos más oscuros del final de la Ruta Snowgrave—, lo que ha reforzado durante años esta teoría. Se apoya además en que Noelle guarda desde niña unas alitas de ángel de verdad (ver Datos rápidos), aunque esa pista concreta parece más un guiño temático que una prueba de identidad. **Pista real de merchandising/ARG que apoya la teoría; el juego en sí nunca lo confirma de forma directa.** Ver también [[Noelle]].
+>
+> 🎲 Una teoría de 2026 (ver [[Roaring Knight]]) añade un hilo más, mucho más especulativo: si el Caballero fuese una fusión de Noelle con [[Kris]], y esta última pudiera literalmente "sacar alas" bajo el control del jugador durante la Ruta Rara del Cap.2, el propio Ángel de la Profecía podría no ser una identidad separada, sino otra forma de esa misma fusión. No añade ninguna prueba nueva a las de arriba — solo reinterpreta el mismo ARG del reloj dentro de un marco distinto.
 
 ## Curiosidades
 - Es uno de los pocos conceptos del juego catalogados oficialmente como parte del elenco de personajes pese a no tener sprite, nombre propio ni diálogo directo.

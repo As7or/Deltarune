@@ -244,6 +244,8 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 
 > [!question]- ¿Es Kris el propio Knight?
 > Al final del Capítulo 2, Kris abre una Fuente Oscura por su cuenta usando su cuchillo y, aparentemente, su propia Determinación — el mismo tipo de voluntad que Queen sugiere que hace falta para ello. El juego no aclara si esto convierte a Kris en una especie de Knight por derecho propio, en paralelo (o en conflicto) con la teoría de que el Knight es Dess.
+>
+> 🎲 Una lectura de 2026 (ver [[Roaring Knight]]) propone una tercera vía: que Kris no sea el Knight en solitario, sino la mitad de una fusión con [[Noelle]] —la única otra persona a la que el propio juego ha vinculado alguna vez con el título de Caballero, a través de Queen—. Bajo esa lectura, este momento no contradice la teoría Dess ni la compite en solitario, sino que abre una tercera posibilidad: que más de una persona haya "sido" el Knight en distintos puntos de la historia.
 
 > [!question]- Teoría de la mano
 > Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; desde entonces se han ido acumulando varias piezas de evidencia textual directa, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.

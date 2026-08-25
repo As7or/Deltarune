@@ -190,6 +190,24 @@ confianza: fuerte
 > ![[black_deer.png]]
 > *El sprite de repuesto sin usar, oculto tras la variable `toriel` — un ciervo negro.*
 
+> [!question]- ¿Amalgama de Kris y Noelle?
+> Una lectura minoritaria pero muy comentada en 2026 (popularizada por un vídeo de YouTube del canal de Jorge Dogue) propone que el Knight no es una sola persona disfrazada, sino la fusión de **[[Kris]] y [[Noelle]]**, apoyándose en varias pistas mecánicas y de diseño reales:
+> - **Cuernos + espada**: las astas del casco (rasgo de la familia Holiday, presente también en la teoría Dess) y el arma tipo espada (asociada a Kris) convivirían en la misma figura porque, literalmente, serían de dos personas distintas.
+> - **Fuerza física fuera del Mundo Oscuro**: el Knight es capaz de cargar a Undyne y levantar a Asgore sin esfuerzo aparente en pleno Mundo Claro — algo que ningún otro Darkner puede hacer. Encajaría con una entidad que no es puramente Lightner ni Darkner, sino ambas cosas a la vez.
+> - **Paralelismo con Mad Mew Mew**: el propio Cap.5 presenta a un enemigo que es literalmente la fusión de dos cosas —Mad Dummy y Mew Mew—, que solo se mantiene unida mientras sus deseos están alineados y cuyo objetivo explícito es la libertad. El fandom lo lee como un espejo temático deliberado de lo que le pasaría al Knight.
+> - **Solo dos nombres han sido propuestos nunca *dentro* de la ficción como posible Knight**: a Noelle, Queen le dice en la Biblioteca del Cap.3 que podría convertirse en un nuevo Caballero; a Kris, Tenna lo sospecha directamente de haber abierto la 3ª Fuente Oscura del Cap.3 —y de hecho lo vemos hacerlo con nuestros propios ojos—. Ningún otro personaje ha sido mencionado nunca como candidato dentro del propio juego.
+> - **En el combate contra el Knight, la única acción disponible para Kris es "aguantar la respiración"** —como si estuviera bajo el agua— y el juego impide atacarlo incluso teniendo ocasiones claras para hacerlo.
+>
+> 🎲 La Ruta Rara (Snowgrave) del Cap.2 termina con Kris y Noelle hundiéndose juntos en el Lago del pueblo, acompañados —según señala el vídeo— de una versión modificada de la música que suena al enfrentarse a Endogeny, una de las amalgamas del Verdadero Laboratorio en Undertale. Es un detalle llamativo, pero de momento depende del oído de quien lo señaló primero; convendría contrastarlo directamente con los archivos de audio del juego antes de darlo por hecho.
+>
+> 🎲 Esa misma escena introduce, al fondo del Lago, una franja blanca infranqueable —visualmente parecida a la barrera del Subsuelo de Undertale, que Alphys explica que necesita al menos un alma humana y una de monstruo para cruzarse—. Es una hipótesis vistosa, pero construida sobre el color de un límite de mapa; muy especulativa por sí sola. [[Lake]]
+>
+> 🎲 El vídeo extiende la idea hasta Undertale: si Frisk fuese "una de las muchas formas" de esta fusión, la Profecía de la Runa Delta y la del Ángel de Undertale podrían estar describiendo el mismo suceso desde dos ángulos distintos. Es la parte más especulativa de todas —se apoya en leer "Frisk" como un anagrama parcial de "Kris"—, pero conecta con una idea ya presente en este vault: que el Ángel de la Profecía podría ser la propia Noelle (ver [[Ángel]]).
+>
+> *Nota de contraste: una parte de esta teoría especula con que [[Dess]] se ahogase intentando cruzar el Lago, lo que explicaría la obsesión de Noelle con llegar al otro lado. Este vault documenta una pista mucho mejor fundamentada sobre su destino —el texto sin usar en Wingdings que la describe explícitamente con vida, atrapada, no ahogada (ver [[Dess]])—, así que esta parte concreta entra en conflicto directo con la pista más sólida ya disponible y debería tratarse como especulación sin confirmar, no como dato verídico.*
+>
+> Esta lectura no sustituye a las teorías de Dess, Asriel o Rudy de más arriba — de hecho es compatible con la idea, ya presente en este vault, de que Kris sea "el propio Knight" en algún sentido (ver [[Kris]]); aquí simplemente no actuaría solo. **Teoría de fans especulativa, popularizada en 2026 — combina algunas pistas mecánicas reales (los ataques que evitan a Kris en combate, la fuerza del Knight fuera del Mundo Oscuro, los dos únicos nombres que el propio juego asocia al Caballero) con lecturas de audio y de color de mapa sin verificar, y con al menos un punto que contradice una pista más sólida ya documentada en este vault.**
+
 ## Curiosidades
 - Los vídeos de teorías sobre la identidad del Knight tienden a mencionar a Rudy como parte del chiste recurrente de "en realidad es [nombre inesperado]" — aunque, a diferencia de otros nombres usados así, la candidatura de Rudy ha acabado consolidándose como una de las teorías con más desarrollo propio de toda la comunidad (ver [[Rudy]]), no solo como broche de humor.
 
@@ -201,12 +219,15 @@ confianza: fuerte
 - [[Fuentes Oscuras]]
 - [[Profecía]]
 - [[Kris]]
+- [[Noelle]]
 - [[Asriel]]
 - [[Susie]]
 - [[Carol]]
 - [[Rudy]]
 - [[King]]
 - [[Titan]]
+- [[Lake]]
+- [[Ángel]]
 
 ## Submapa
 [[Submapas/Roaring Knight.canvas|Abrir submapa gráfico]]

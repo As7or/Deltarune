@@ -77,6 +77,8 @@ confianza: strong
 
 > [!question]- Is Noelle the Angel?
 > During the 2022 Spamton Sweepstakes, one of the real prizes was a white wristwatch engraved with the name "Noelle Holiday"; in its description, Spamton presents it as a jewel that belonged to someone "rich and powerful," and caps off the joke with [TODO: verify exact EN quote] "if you need proof, there's the Angel's name with torn wings right there." The watch matches the design of the Silver Ring that Noelle has equipped in the game — the same item needed to unlock the darkest dialogue at the end of the Snowgrave Route — which has reinforced this theory for years. It's also supported by the fact that Noelle has kept real angel wings since she was a child (see Quick Facts), though that particular clue seems more like a thematic nod than proof of identity. **A real piece of merchandising/ARG evidence that supports the theory; the game itself never confirms it directly.** See also [[Noelle]].
+>
+> 🎲 A 2026 theory (see [[Roaring Knight]]) adds one more, much more speculative thread: if the Knight were a fusion of Noelle with [[Kris]], and she can literally "grow wings" under the player's control during the Ch.2 Weird Route, the Prophecy's Angel might not be a separate identity at all, but another form of that same fusion. It doesn't add any new evidence to the points above — it just reinterprets the same watch ARG within a different frame.
 
 ## Trivia
 - It's one of the few concepts in the game officially listed as part of the character cast despite having no sprite, proper name, or direct dialogue.

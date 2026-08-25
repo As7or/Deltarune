@@ -190,6 +190,24 @@ confianza: strong
 > ![[black_deer.png]]
 > *The unused backup sprite, hidden behind the `toriel` variable — a black deer.*
 
+> [!question]- An amalgam of Kris and Noelle?
+> A minority but widely discussed reading in 2026 (popularized by a YouTube video from the channel Jorge Dogue) proposes that the Knight isn't one person in disguise, but a fusion of **[[Kris]] and [[Noelle]]**, drawing on several real mechanical and design clues:
+> - **Antlers + sword**: the helmet's antlers (a Holiday family trait, also present in the Dess theory) and the sword-type weapon (associated with Kris) would coexist in the same figure because, literally, they'd belong to two different people.
+> - **Physical strength outside the Dark World**: the Knight is able to carry Undyne and lift Asgore with no apparent effort in the middle of the Light World — something no other Darkner can do. That would fit an entity that isn't purely Lightner or Darkner, but both at once.
+> - **Parallel with Mad Mew Mew**: Ch.5 itself features an enemy that's literally a fusion of two things — Mad Dummy and Mew Mew — which only stays merged while their desires are aligned, and whose explicit goal is freedom. The fandom reads it as a deliberate thematic mirror of what would happen to the Knight.
+> - **Only two names have ever been proposed *within* the fiction as a possible Knight**: Queen tells Noelle in the Ch.3 Library that she could become a new Knight; Tenna directly suspects Kris of having opened the Ch.3 3rd Dark Fountain — and we do see him do it with our own eyes. No other character has ever been named as a candidate within the game itself.
+> - **In the fight against the Knight, Kris's only available action is "hold your breath"** — as if underwater — and the game prevents attacking him even when there are clear openings to do so.
+>
+> 🎲 The Ch.2 Weird Route (Snowgrave) ends with Kris and Noelle sinking together into the town Lake, accompanied — per the video — by a modified version of the music that plays when fighting Endogeny, one of the True Lab amalgams in Undertale. It's a striking detail, but for now it rests on the ear of whoever first pointed it out; it's worth checking directly against the game's audio files before taking it as given.
+>
+> 🎲 That same scene introduces an impassable white strip at the far side of the Lake — visually similar to Undertale's Underground barrier, which Alphys explains requires at least one human soul and one monster soul to cross. It's an eye-catching hypothesis, but built on the color of a map boundary; very speculative on its own. [[Lake]]
+>
+> 🎲 The video stretches the idea all the way to Undertale: if Frisk were "one of the many forms" of this fusion, the Delta Rune Prophecy and Undertale's Angel prophecy could be describing the same event from two different angles. This is the most speculative part of all — it rests on reading "Frisk" as a partial anagram of "Kris" — but it connects to an idea already present in this vault: that the Prophecy's Angel could be Noelle herself (see [[Ángel|Angel]]).
+>
+> *Contrast note: part of this theory speculates that [[Dess]] drowned trying to cross the Lake, which would explain Noelle's obsession with reaching the other side. This vault documents a much better-founded clue about her fate — the unused Wingdings text that explicitly describes her as alive, trapped, not drowned (see [[Dess]]) — so this specific part directly conflicts with the strongest clue already available and should be treated as unconfirmed speculation, not as a verified fact.*
+>
+> This reading doesn't replace the Dess, Asriel, or Rudy theories above — in fact it's compatible with the idea, already present in this vault, that Kris is "the Knight himself" in some sense (see [[Kris]]); here he simply wouldn't be acting alone. **A speculative fan theory, popularized in 2026 — it combines some real mechanical clues (the attacks that avoid Kris in combat, the Knight's strength outside the Dark World, the only two names the game itself ever links to the Knight) with unverified audio and map-color readings, and with at least one point that contradicts a stronger clue already documented in this vault.**
+
 ## Trivia
 - Theory videos about the Knight's identity tend to mention Rudy as part of the recurring "it's actually [unexpected name]" joke — though, unlike other names used that way, Rudy's candidacy has ended up becoming one of the most developed theories in the whole community (see [[Rudy]]), not just a punchline.
 
@@ -201,12 +219,15 @@ confianza: strong
 - [[Fuentes Oscuras|Dark Fountains]]
 - [[Profecía|Prophecy]]
 - [[Kris]]
+- [[Noelle]]
 - [[Asriel]]
 - [[Susie]]
 - [[Carol]]
 - [[Rudy]]
 - [[King]]
 - [[Titan]]
+- [[Lake]]
+- [[Ángel|Angel]]
 
 ## Submap
 [[Submapas/Roaring Knight.canvas|Open graphical submap]]

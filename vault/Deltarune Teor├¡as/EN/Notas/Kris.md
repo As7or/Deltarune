@@ -244,6 +244,8 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 
 > [!question]- Is Kris the Knight themself?
 > At the end of Chapter 2, Kris opens a Dark Fountain on their own using their knife and, apparently, their own Determination — the same kind of will Queen suggests is needed for it. The game doesn't clarify whether this makes Kris a kind of Knight in their own right, in parallel with (or in conflict with) the theory that the Knight is Dess.
+>
+> 🎲 A 2026 reading (see [[Roaring Knight]]) proposes a third path: that Kris isn't the Knight alone, but half of a fusion with [[Noelle]] — the only other person the game itself has ever linked to the title of Knight, through Queen. Under that reading, this moment doesn't contradict or compete with the Dess theory on its own — it opens a third possibility: that more than one person may have "been" the Knight at different points in the story.
 
 > [!question]- The Hand Theory
 > A fan theory holding that Kris will lose an arm or a hand in a future chapter. Before Ch.5 it was pure visual speculation; since then several pieces of direct textual evidence have piled up, though it's still unconfirmed that Kris will actually lose the hand.
