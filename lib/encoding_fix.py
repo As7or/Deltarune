@@ -1,4 +1,4 @@
-import os, re, unicodedata
+import os, re, shutil, unicodedata
 
 
 def _fix_hex_escapes(name):
@@ -31,6 +31,47 @@ def _normalize_name(name):
     fixed = _fix_hex_escapes(name)
     fixed = _fix_cp437(fixed)
     return unicodedata.normalize('NFC', fixed)
+
+
+def _merge_dir_into(src_dir, dst_dir, dropped):
+    """Funde el contenido de src_dir dentro de dst_dir, que ya existe.
+    Pasa esto cuando dos carpetas del vault -- una con el nombre roto y otra
+    ya con el nombre correcto -- son en realidad la misma carpeta duplicada
+    (típicamente un checkout/exportación repetido del mismo vault con dos
+    encodings distintos). Para cada elemento de src_dir:
+      - Si no existe ya en dst_dir, se mueve directamente.
+      - Si existe y ambos son carpetas, se funde recursivamente.
+      - Si existe y es un archivo (en cualquiera de los dos lados), se
+        conserva el más reciente y se descarta el otro, igual que ya hace
+        fix_encoding() para archivos duplicados dentro del mismo directorio.
+    Al final, src_dir queda vacía y se borra."""
+    for item in os.listdir(src_dir):
+        src = os.path.join(src_dir, item)
+        dst = os.path.join(dst_dir, item)
+        if not os.path.exists(dst):
+            os.rename(src, dst)
+            continue
+        if os.path.isdir(src) and os.path.isdir(dst):
+            _merge_dir_into(src, dst, dropped)  # ya borra src al terminar
+            continue
+        # Colision real entre archivo(s)/carpeta(s) con el mismo nombre
+        # final: nos quedamos con el más reciente.
+        src_mtime = os.path.getmtime(src)
+        dst_mtime = os.path.getmtime(dst)
+        if src_mtime > dst_mtime:
+            if os.path.isdir(dst):
+                shutil.rmtree(dst)
+            else:
+                os.remove(dst)
+            os.rename(src, dst)
+            dropped.append((dst, src))
+        else:
+            if os.path.isdir(src):
+                shutil.rmtree(src)
+            else:
+                os.remove(src)
+            dropped.append((src, dst))
+    os.rmdir(src_dir)
 
 
 def fix_encoding(root_dir):
@@ -77,7 +118,20 @@ def fix_encoding(root_dir):
 
         for dname in dirnames:
             new = _normalize_name(dname)
-            if new != dname:
-                os.rename(os.path.join(dirpath, dname), os.path.join(dirpath, new))
-                renamed += 1
+            if new == dname:
+                continue
+            old_path = os.path.join(dirpath, dname)
+            new_path = os.path.join(dirpath, new)
+            if os.path.exists(new_path):
+                # La carpeta destino ya existe -- un os.rename directo aquí
+                # fallaría con "OSError: Directory not empty" en Linux en
+                # cuanto la carpeta correcta tuviera algún contenido (bug
+                # real visto en CI: 'vault/Deltarune Teor├¡as' intentando
+                # renombrarse sobre 'vault/Deltarune Teorías', que ya existe
+                # con el vault completo dentro). En vez de fallar, se funde
+                # el contenido de la carpeta rota dentro de la correcta.
+                _merge_dir_into(old_path, new_path, dropped)
+            else:
+                os.rename(old_path, new_path)
+            renamed += 1
     return renamed, dropped

@@ -100,7 +100,11 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 > Since the Chapter 5 revelation, it's no longer just theory: Pink confirms that the Eggs the Forgotten Man hands out are literally the "protein" FRIEND hunts. See [[Huevo|Egg]] for the full dialogue. [[Forgotten Man]]
 
 > [!quote]- Dess
-> An Organikk (a philosopher from the Second/Third Sanctuary) describes how some children were "led astray" [TODO: verify exact EN quote] by FRIEND, disappearing in the place "where the forest would grow" [TODO: verify exact EN quote] — a description that unsettlingly matches Dess's disappearance around the Shelter. In the Egg room of Chapter 4, Kris covers their own drawing with an image of a tree during an art-therapy session, which much of the fandom reads as Kris actively repressing the memory of that same incident. [[Dess]]
+> An Organikk (a philosopher from the Second/Third Sanctuary) describes how children were "lost where the forest would grow," after they "followed the pointed tail" — FRIEND itself — a description that unsettlingly matches Dess's disappearance around the Shelter. In the Egg room of Chapter 4, Kris covers their own drawing with an image of a tree during an art-therapy session, which much of the fandom reads as Kris actively repressing the memory of that same incident.
+>
+> ![[Organic_forest_tail_dialogue.png]]
+> *"Lost where the forest would grow, the children followed the pointed tail." — the Organikk's original dialogue in the Organic Forest, the source of the quote above. The same "tail" motif reappears in the "tail of hell" identification from the Last Prophecy (see "The 'tail of hell' prophecy" above).*
+> [[Dess]]
 
 > [!quote]- Spamton
 > His yellow and pink eyes match the same colors (reversed) as Spamton's glasses in his NEO form. But the connection goes far beyond aesthetics: several pieces of his equipment — the Frayed Bowtie, the restored True Tie, and the Dealmaker itself — explicitly grant resistance to "Puppet/Cat"-type damage in their stats, something that only makes sense if Spamton had spent time actively protecting himself from a FRIEND attack. He's also described as smelling like meat, and the Pipis he carries are actually clams — both good sources of "protein." On top of that, the very blue circle from Cat Petterz 2 that gave rise to the Pipis item was a confirmed gift from Spamton to Noelle, which puts him with one foot already inside the same "rare pets" universe the fandom associates with FRIEND's origin. [[Spamton]]

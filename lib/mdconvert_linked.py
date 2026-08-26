@@ -302,13 +302,25 @@ def parse_table(block_lines, sprites_prefix):
     header = split_row(rows[0])
     body_rows = rows[2:]
     small_cols = {i for i, h in enumerate(header) if "talksprite" in h.lower() or "sprite" in h.lower()}
-    reliability_cols = {i for i, h in enumerate(header) if "identidad" in h.lower()}
+    # Bilingue: "Identidad real" en las notas ES, "Real identity" en las
+    # notas EN de "Objetos del Mundo Oscuro.md" (la clave interna del
+    # frontmatter se deja en espanol siempre, pero los ENCABEZADOS de tabla
+    # si se traducen). Si solo se comprobaba "identidad", el color de
+    # fiabilidad (🔵/🟡/🆕) nunca se aplicaba en la version en ingles -- bug
+    # real reportado por el usuario.
+    reliability_cols = {i for i, h in enumerate(header) if "identidad" in h.lower() or "identity" in h.lower()}
     # Las tablas de "Objetos del Mundo Oscuro.md" siguen siempre las mismas 4
-    # columnas (Sprite / Mundo Oscuro / Identidad real / Sprite Mundo Claro).
-    # Se marcan con una clase aparte para poder ajustar el ancho de las
-    # columnas de TEXTO (nombre y descripcion) sin tocar el layout de otras
-    # tablas del vault (p.ej. la comparativa de 2 columnas de Rudy.md).
-    is_id_table = [h.strip() for h in header] == ["Sprite", "Mundo Oscuro", "Identidad real", "Sprite Mundo Claro"]
+    # columnas (Sprite / Mundo Oscuro / Identidad real / Sprite Mundo Claro,
+    # o su traduccion al ingles). Se marcan con una clase aparte para poder
+    # ajustar el ancho de las columnas de TEXTO (nombre y descripcion) sin
+    # tocar el layout de otras tablas del vault (p.ej. la comparativa de 2
+    # columnas de Rudy.md). Mismo bug bilingue que reliability_cols arriba:
+    # la comparacion exacta solo reconocia los encabezados en español.
+    ID_TABLE_HEADERS = (
+        ["Sprite", "Mundo Oscuro", "Identidad real", "Sprite Mundo Claro"],
+        ["Sprite", "Dark World", "Real identity", "Light World Sprite"],
+    )
+    is_id_table = [h.strip() for h in header] in ID_TABLE_HEADERS
     table_cls = "note-table id-table" if is_id_table else "note-table"
     out = [f'<table class="{table_cls}">', "<tr>"]
     for h in header:

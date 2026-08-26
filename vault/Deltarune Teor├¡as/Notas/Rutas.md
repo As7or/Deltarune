@@ -140,10 +140,7 @@ confianza: fuerte
 > ![[roots_asgore_room_noofficial.png]]
 > *(No oficial) El combate final del tercer tablero, contra "OWEN", con la silueta de Asgore superpuesta para remarcar el parecido de su patrón de ataque con el combate original de Undertale.*
 >
-> *Nota de contraste: el vídeo que popularizó esta lectura la usaba como base para predecir que el Cap.5 traería un Mundo Oscuro a escala de todo Hometown (coincidiendo con el Festival), con el propio FRIEND —"la cola del infierno"— como jefe secreto del Cristal Oscuro del capítulo, enfrentado por Kris y Noelle juntos tras el final de la Ruta Rara. Con el Cap.5 ya publicado, sabemos que no fue así: el Mundo Oscuro del capítulo es la propia floristería de Asgore (ver [[Flowery]]), su jefe secreto confirmado es Pink (ver [[Mad Mew Mew (Pink)]]), y la Ruta Rara del Cap.5 se salta el Mundo Oscuro por completo, terminando directamente en el Lago (ver más arriba). Toby Fox ha insinuado que "Roots" podría seguir siendo el título de un tema todavía sin publicar para el Cap.6 o el Cap.7 (ver [[Profecía]]), así que la conexión entre BIT ROOTS y un futuro Mundo Oscuro de Hometown no está descartada del todo — solo pospuesta más allá de donde la situaba la teoría original.*
->
-> ![[Organic_forest_tail_dialogue.png]]
-> *"Lost where the forest would grow, the children followed the pointed tail." — el motivo de la "cola" que la teoría original conectaba con FRIEND aparece también en este diálogo del Bosque Orgánico.*
+> *Nota de contraste: el vídeo que popularizó esta lectura la usaba como base para predecir que el Cap.5 traería un Mundo Oscuro a escala de todo Hometown (coincidiendo con el Festival), con el propio FRIEND —"la cola del infierno"— como jefe secreto del Cristal Oscuro del capítulo, enfrentado por Kris y Noelle juntos tras el final de la Ruta Rara. Con el Cap.5 ya publicado, sabemos que no fue así: el Mundo Oscuro del capítulo es la propia floristería de Asgore (ver [[Flowery]]), su jefe secreto confirmado es Pink (ver [[Mad Mew Mew (Pink)]]), y la Ruta Rara del Cap.5 se salta el Mundo Oscuro por completo, terminando directamente en el Lago (ver más arriba). Toby Fox ha insinuado que "Roots" podría seguir siendo el título de un tema todavía sin publicar para el Cap.6 o el Cap.7 (ver [[Profecía]]), así que la conexión entre BIT ROOTS y un futuro Mundo Oscuro de Hometown no está descartada del todo — solo pospuesta más allá de donde la situaba la teoría original. El motivo de la "cola" que esta teoría conectaba con FRIEND reaparece, de hecho, en un diálogo del Bosque Orgánico — ver [[FRIEND]].*
 
 ## Curiosidades
 - Es uno de los pocos sistemas del juego que registra progreso de forma silenciosa e invisible para el jugador, sin ningún contador visible en pantalla — con la única excepción parcial del contador de bajas sin etiquetar de la Ruta Espada.
@@ -165,6 +162,8 @@ confianza: fuerte
 [[Submapas/Rutas.canvas|Abrir submapa gráfico]]
 
 ## Vídeo relacionado
-Análisis en vídeo que profundiza sala a sala en la teoría del tablero BIT ROOTS como mapa simbólico de Hometown (ver "## Teorías" más arriba) — fuente de varias de las capturas comparativas de esta nota.
 
-{{youtube:n8WHKVwAw00}}
+> [!example]+0 Análisis en vídeo: BIT ROOTS como mapa de Hometown
+> Análisis en vídeo que profundiza sala a sala en la teoría del tablero BIT ROOTS como mapa simbólico de Hometown (ver "## Teorías" más arriba) — fuente de varias de las capturas comparativas de esta nota.
+>
+> {{youtube:n8WHKVwAw00}}
