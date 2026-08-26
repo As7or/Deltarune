@@ -536,7 +536,11 @@ def convert_note_linked(md_text, sprites_prefix="../Sprites/", lang="es"):
             out.append(f"<h3>{inline_md(line[4:], sprites_prefix)}</h3>")
         elif line.startswith("## "):
             heading_text = line[3:]
-            cap_match = re.match(r"Capítulo\s+(\d+)", heading_text.strip())
+            # Bilingue: "Capítulo N" en las notas ES, "Chapter N" en las EN.
+            # Mismo bug bilingue que reliability_cols/is_id_table mas arriba
+            # en este archivo -- el color de fondo por capitulo de "Objetos
+            # del Mundo Oscuro.md" nunca se aplicaba en la version en ingles.
+            cap_match = re.match(r"(?:Capítulo|Chapter)\s+(\d+)", heading_text.strip(), re.IGNORECASE)
             if cap_match:
                 chapter_class = CHAPTER_COLOR_CLASS.get(int(cap_match.group(1)))
             out.append(f"<h2>{inline_md(heading_text, sprites_prefix)}</h2>")

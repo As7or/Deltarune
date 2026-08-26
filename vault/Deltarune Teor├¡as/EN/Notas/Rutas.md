@@ -151,6 +151,7 @@ confianza: strong
 - The name "Snowgrave Route," while still the most popular among the Spanish-speaking community, has become technically outdated since it was confirmed that the official name is "Weird Route" and that Snowgrave itself is only the Ch.2 spell, not the whole route — developer Fred Wood himself refers to it consistently by that name.
 - Ch.3 calls the Weird Route "the Forbidden Path" [TODO: verify exact EN quote] in one of the Sword Route minigame's hints, even before there was official confirmation of its real name.
 - The status page for each chapter in the game's internal files marks Ch.1 as "Not applicable" (no Weird Route content) and Ch.3 as "Not applicable" too — but, curiously, the Ch.3 page contains the text "But..." rendered off-screen, invisible in a normal playthrough, a possible hint that the route does leave a mark that chapter even though it doesn't advance in it.
+- deltarune.com/chapter5 has its own nod to the Weird Route: it shows the five chapter numbers in a different font size depending on how much Weird Route content each one has (1 and 3 are invisible, 2 is the largest, and 5 sits at a middling size between 2 and 4), and clicking each number plays a sound or leads to a game asset tied to it — Ch.3's, specifically, is the sound effect of ERAM fleeing off-screen after the Shadow Mantle fight, despite that chapter having no playable Weird Route section at all (see [[ERAM]]).
 
 ## Related
 - [[Profecía|Prophecy]]
@@ -161,6 +162,7 @@ confianza: strong
 - [[FRIEND]]
 - [[Flowery]]
 - [[Mad Mew Mew (Pink)]]
+- [[ERAM]]
 
 ## Submap
 [[Submapas/Rutas.canvas|Open graphical submap]]

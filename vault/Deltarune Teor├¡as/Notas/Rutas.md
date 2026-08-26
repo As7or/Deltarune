@@ -151,6 +151,7 @@ confianza: fuerte
 - El nombre "Snowgrave Route", aunque sigue siendo el más popular entre la comunidad hispanohablante, ha quedado técnicamente desactualizado desde que se confirmó que el nombre oficial es "Weird Route" (Ruta Rara) y que la propia Snowgrave es solo el hechizo del Cap.2, no toda la ruta — el propio desarrollador Fred Wood se refiere a ella con ese nombre de forma consistente.
 - El Cap.3 llama a la Ruta Rara "el Camino Prohibido" en una de las pistas del minijuego de la Ruta Espada, antes incluso de que existiera confirmación oficial de su nombre real.
 - La página de estado de cada capítulo en los archivos internos del juego marca el Cap.1 como "No aplicable" (sin contenido de Ruta Rara) y el Cap.3 como "No aplicable" también — pero, curiosamente, la página del Cap.3 contiene el texto "But..." ("Pero...") renderizado fuera de la pantalla, invisible en una partida normal, posible guiño a que la ruta sí deja huella ese capítulo aunque no avance en él.
+- deltarune.com/chapter5 tiene su propio guiño a la Ruta Rara: muestra los cinco números de capítulo con un tamaño de letra distinto según cuánto contenido de esa ruta tiene cada uno (el 1 y el 3 son invisibles, el 2 es el más grande, y el 5 queda en un tamaño intermedio entre el 2 y el 4), y cada número, al pulsarlo, reproduce un sonido o lleva a un asset del juego relacionado — el del Cap.3, en concreto, es el efecto de sonido de ERAM huyendo de la pantalla tras el combate del Manto de Sombra, pese a que ese capítulo no tiene ningún tramo jugable de la Ruta Rara (ver [[ERAM]]).
 
 ## Relacionado
 - [[Profecía]]
@@ -161,6 +162,7 @@ confianza: fuerte
 - [[FRIEND]]
 - [[Flowery]]
 - [[Mad Mew Mew (Pink)]]
+- [[ERAM]]
 
 ## Submapa
 [[Submapas/Rutas.canvas|Abrir submapa gráfico]]
