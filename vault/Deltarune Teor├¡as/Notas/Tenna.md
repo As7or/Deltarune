@@ -28,6 +28,9 @@ confianza: fuerte
 
 > [!tip]- Patrón de habla
 > En diálogo normal (no en combate), su texto se acompaña de "Word Art" —logotipos estilizados incrustados en las frases, llamados internamente `funnytext`— inspirados en el personaje P.T. Bridgeport de las tiras cómicas *Pogo*. En la versión japonesa tiene una coletilla adicional: sustituye la terminación de futuro しょう (*shou*) por "SHOW" en caracteres latinos. Comparte ese mismo tipo de tic verbal con Spamton, que en japonés sustituye です por "DEATH" y だい por "DIE".
+>
+> ![[Tenna_funnytext_physical_challenge.gif]]
+> *Un ejemplo real de "funnytext" — "PHYSICAL CHALLENGE" incrustado directamente en el diálogo.*
 
 ## Trasfondo — La tele del salón
 Tenna es la televisión CRT del salón de la casa Dreemurr, la que entretenía tanto a los Dreemurr como a los Holiday. Asriel y Kris veían dibujos jugando, Toriel veía programas de cocina, y ambas familias se reunían siempre a su alrededor en los especiales de vacaciones.
@@ -42,6 +45,9 @@ En el Mundo Claro, Kris y una chica llevaron un día un portátil a casa para ju
 
 Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue la última en verla antes de que quedara desenchufada durante un largo periodo — polvorienta, sin usar, y puede que con quemado de pantalla. Toriel llegó a plantearse tirarla.
 
+![[Tenna_overworld_TV_conditions.png]]
+*Los distintos estados de la tele: encendida, apagada... y con la pantalla ya agrietada por el desuso.*
+
 ## Historia por capítulos
 
 > [!example]+ Capítulo 2 — Mencionado por Spamton
@@ -54,9 +60,17 @@ Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue l
 > ![[tenna_introduction.webp]]
 > *La presentación introductoria de Tenna, con su propio vídeo VHS.*
 >
-> Declara al grupo sus concursantes para *TV Time*, y los acompaña como comentarista mientras juegan en los tableros del Desierto y de la Isla. Mientras tanto, en el Green Room, mantiene llamadas telefónicas secretas con sus subordinados sobre algo que quiere ocultar al grupo — Susie sospecha, y al investigar descubren que tenía a Toriel encerrada en una cápsula de gachapón, llamándola su "carta bajo la manga" por ser quien más lo apreciaba.
+> Declara al grupo sus concursantes para *TV Time*, y los acompaña como comentarista mientras juegan en los tableros del Desierto y de la Isla.
 >
-> Como el grupo se niega a seguir jugando, Tenna los encierra también en cápsulas y los fuerza a participar en la "ronda bonus", cada vez más inestable por el miedo a que los Lightners se marchen. Cuando finalmente escapan, ordena a sus empleados que los busquen — y, al fallar una y otra vez, se derrumba y los va apartando a todos hasta que lo abandonan, siendo Mike el último en irse.
+> ![[440px-MIKE,_the_BOARD,_please!_soundtrack.png.webp]]
+> *"MIKE, the BOARD, please!" — Tenna pidiendo el tablero a su empleado, en pleno papel de presentador de TV Time.*
+>
+> Mientras tanto, en el Green Room, mantiene llamadas telefónicas secretas con sus subordinados sobre algo que quiere ocultar al grupo — Susie sospecha, y al investigar descubren que tenía a Toriel encerrada en una cápsula de gachapón, llamándola su "carta bajo la manga" por ser quien más lo apreciaba.
+>
+> Como el grupo se niega a seguir jugando, Tenna los encierra también en cápsulas y los fuerza a participar en la "ronda bonus", cada vez más inestable por el miedo a que los Lightners se marchen. Cuando finalmente escapan, ordena a sus empleados que los busquen — amenazándolos para que no fallen — y, al fallar una y otra vez, se derrumba y los va apartando a todos hasta que lo abandonan, siendo Mike el último en irse.
+>
+> ![[440px-Tenna_screenshot_salary_threat.png.webp]]
+> *"No more POINTS until you CAPTURE them!! You like POINTS, right!?" — Tenna presionando a sus empleados-soldado para que encuentren al grupo.*
 >
 > ![[tenna_villian.gif]]
 > *Tenna como antagonista principal, ya al borde del colapso.*
@@ -78,9 +92,15 @@ Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue l
 > > Tenna aparece como NPC dentro del propio Juego Original, en el tablero de la Isla y en el "manhole dungeon", dando pistas sobre su relación con Spamton y con Kris. Tras alcanzar el nivel máximo, puede encontrársele lamentándose de su relación fallida con Spamton, incluida su reacción a la llamada telefónica que causó su ruina — y desea en voz alta que Kris nunca hubiera llevado el portátil a casa. Al notar la presencia de HERO_SWORD, se da la vuelta, insiste en que cumplió su parte del trato y suplica que no lo "apaguen" de nuevo; para avanzar, HERO_SWORD debe atacarlo y "matarlo" dentro del propio Juego Original.
 > >
 > > Completar esta ruta triplica el daño de Kris contra él en el combate final, y altera ligeramente su diálogo de batalla: en el tramo donde suplica, llega a preguntar si Kris de verdad quiere divertirse, casi revelando qué pasó realmente antes de contenerse en el último momento.
+> >
+> > ![[Tenna-Sword_Route_screenshot_Tenna.png.webp]]
+> > *"ALL. HE HAD. TO DO. WAS TELL ME WHAT HIS LITTLE SECRET WAS." — Tenna, lamentándose de su ruptura con Spamton dentro del propio Juego Original.*
 
 > [!example]+ Capítulo 4 — Reparado o no, adoptado o no
 > El estado de su forma Mundo Claro depende de si se reclutó a los Shadowguys y Pippins en el Cap.3 y de si no se perdió a ningún Darkner. Si Tenna fue reparado, aparece más pequeño y bailando en su propia habitación del castillo de Ralsei, pidiendo al grupo que le busquen a alguien que lo adopte.
+>
+> ![[Tenna_screenshot_Castle_Town_King.png.webp]]
+> *"Hey, KINGY-DOODLE!! IT'S ME!!! THE NEW FUNNY... MR. ANT TENNA!!" — Tenna presentándose a King a su llegada a Castle Town.*
 >
 > ![[tenna_laughing.webp]]
 > *Tenna, ya reparado, entreteniendo a King y Lancer en la prisión del castillo — pese a tropezar por accidente, se alegra de haberlos hecho reír.*
@@ -93,9 +113,22 @@ Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue l
 > Si Tenna **no** fue reparado, su pantalla aparece rota y no puede llevarse a Castle Town — ninguno de los Darkners quiso ayudar a encontrarlo.
 
 > [!example]+ Capítulo 5 — Festival Day
-> Si Tenna se quedó en Castle Town, aparece hablando con Small Mike, poniéndose nervioso al ser confrontado sobre cómo trata a sus empleados, y mencionando a Spamton. Si fue entregado al fantasma en el Cap.4, este le graba en vídeo el Festival para que lo vea después.
+> Si Tenna se quedó en Castle Town, aparece hablando con Small Mike, poniéndose nervioso al ser confrontado sobre cómo trata a sus empleados, y mencionando a Spamton.
 >
-> Si sigue en Castle Town, interrumpe brevemente para pedir "¡Mike, la ropa, por favor!" cuando Susie va a probarse la ropa que el jugador diseñó para ella, y puede encontrársele después junto al caldero, recordando cómo Noelle prefería jugar a las casitas en vez de pelear — al enterarse de que Noelle tiene ahora una tele de pantalla plana, le dice a Susie sin dudarlo que la deje.
+> ![[Tenna_screenshot_Mike's_absence.png.webp]]
+> *"That's why... since then... it feels like... you're not really here." — Tenna, hablando con Small Mike sobre la distancia que quedó entre ellos.*
+>
+> Si fue entregado al fantasma en el Cap.4, este le graba en vídeo el Festival para que lo vea después.
+>
+> Si sigue en Castle Town, interrumpe brevemente para pedir "¡Mike, la ropa, por favor!" cuando Susie va a probarse la ropa que el jugador diseñó para ella, y puede encontrársele después junto al caldero, recordando cómo Noelle prefería jugar a las casitas en vez de pelear.
+>
+> ![[Tenna_Noelle_screenshot_distraught.png.webp]]
+> *"You can't give THAT away! It's, it's..." — Tenna, protestando en pleno recuerdo de Noelle.*
+>
+> Al enterarse de que Noelle tiene ahora una tele de pantalla plana, le dice a Susie sin dudarlo que la deje.
+>
+> ![[Tenna_dialogue_of_noelle_having_a_flat_screen.png]]
+> *"WHAT!? DUMP HER ASS!!!" — Tenna, sin ninguna duda, al enterarse de la traición definitiva de Noelle hacia las CRT.*
 
 ## Relaciones
 
