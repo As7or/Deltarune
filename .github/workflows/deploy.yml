@@ -21,7 +21,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
@@ -32,7 +32,7 @@ jobs:
           python-version: "3.11"
 
       - name: Instalar dependencias (Pillow + ffmpeg)
-        timeout-minutes: 5
+        timeout-minutes: 10
         run: |
           export DEBIAN_FRONTEND=noninteractive
           sudo apt-get update -o Acquire::Retries=3 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15
