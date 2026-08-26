@@ -63,6 +63,9 @@ confianza: fuerte
 - Su regalo a Asgore —la figura de Mew Mew que da origen a Pink en el Cap.5— la convierte, sin saberlo, en el origen indirecto de uno de los jefes secretos más comentados de todo el juego.
 - A diferencia de Undertale, donde ella y Undyne llevan años siendo pareja, en Deltarune no parecen conocerse en absoluto al empezar el juego — Deltarune no continúa ni depende de las relaciones ya establecidas en Undertale, cada juego las plantea por su cuenta (ver [[Conexión Undertale]]).
 
+![[undertale_alphys.webp]]
+*La Alphys de Undertale, con el estilo de retrato clásico de aquel juego — la pareja ya asentada con Undyne que Deltarune decide replantear desde cero.*
+
 ## Relacionado
 - [[Undyne]]
 - [[Asgore]]

@@ -21,6 +21,9 @@ confianza: strong
 ![[Pipis_item.png]]
 *The Pipis as it's depicted as a healing item in the inventory.*
 
+![[Ms._Pipis_battle_static.png]]
+*Ms. Pipis, the pink-bow variant that can appear with a 1/100 chance since v1.07.*
+
 > [!info]+ Quick facts
 > 🥚 Blue, oval-shaped objects/"enemies" from the Cyber World, closely tied to Spamton — their own Check text calls them "clams," but Spamton insists on calling them "eggs."
 > 💥 When they burst, they release dozens of tiny Spamton faces flying in every direction; they're Spamton NEO's signature attack.

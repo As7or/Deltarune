@@ -31,6 +31,15 @@ confianza: fuerte
 
 > [!example]+ Capítulo 4 — El árbol y el rechazo a Susie
 > Catti y su familia quedan atrapados en un árbol; Jockington la acompaña e intenta ayudarla a bajarlos. Catti castiga a Kris por juntarse con Susie, a quien considera claramente "el enemigo" — a diferencia de Jockington, que se muestra mucho más comprensivo con esa amistad.
+>
+> ![[Catti_overworld_construction.png]]
+> *Catti subida a una escalera de mano, con casco de construcción y un libro de hechizos en las manos, intentando bajar mágicamente a su familia del árbol.*
+
+> [!example]+ Capítulo 5 — El Festival
+> Durante el Festival, Catti aparece disfrazada de clarividente dentro de la iglesia decorada, reclamando que le devuelvan su "CD mix encantado".
+>
+> ![[Catti_screenshot_upset_cd_back_chapter_5.png]]
+> *"* Give me my haunted mix CD back...!" — Catti, disfrazada de clarividente en su puesto del Festival.*
 
 ## Relaciones
 

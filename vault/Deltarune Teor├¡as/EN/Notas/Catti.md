@@ -31,6 +31,15 @@ confianza: strong
 
 > [!example]+ Chapter 4 — The tree and the rejection of Susie
 > Catti and her family get trapped in a tree; Jockington stays with her and tries to help get them down. Catti scolds Kris for hanging out with Susie, whom she clearly considers "the enemy" — unlike Jockington, who is much more understanding of that friendship.
+>
+> ![[Catti_overworld_construction.png]]
+> *Catti standing on a stepladder, wearing a hardhat and holding a book of spells, trying to magically get her family down from the tree.*
+
+> [!example]+ Chapter 5 — The Festival
+> During the Festival, Catti appears dressed as a clairvoyant inside the decorated church, demanding her "haunted mix CD" back.
+>
+> ![[Catti_screenshot_upset_cd_back_chapter_5.png]]
+> *"* Give me my haunted mix CD back...!" — Catti, dressed as a clairvoyant at her Festival stall.*
 
 ## Relationships
 

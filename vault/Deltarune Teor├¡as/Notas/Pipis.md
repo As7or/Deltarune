@@ -15,6 +15,9 @@ confianza: fuerte
 ![[Pipis_item.png]]
 *El Pipis tal y como aparece representado como objeto de curación en el inventario.*
 
+![[Ms._Pipis_battle_static.png]]
+*Ms. Pipis, la variante con lacito rosa que puede aparecer con una probabilidad de 1/100 desde la v1.07.*
+
 > [!info]+ Datos rápidos
 > 🥚 Objetos/"enemigos" ovalados azules del Mundo Cíber, estrechamente ligados a Spamton — su propio Check los llama "almejas", pero Spamton insiste en llamarlos "huevos".
 > 💥 Al reventar, sueltan decenas de caritas diminutas de Spamton volando en todas direcciones; son el ataque característico de Spamton NEO.
