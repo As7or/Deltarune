@@ -26,6 +26,9 @@ confianza: strong
 >
 > Completing all three boards culminates in a fight against the Shadow Mantle's holder (see [[Ramb]] for their possible identity) and grants the Shadow Mantle itself — an item that makes the fight against the Roaring Knight much more manageable, slightly changes the requirements for getting the chapter's Dark Crystal, and multiplies Kris's damage against Tenna by 6 compared to not having completed it. If you're wearing the Shadow Mantle and then lose to the Roaring Knight, the defeat text uses a special narrator variant ("Typer 667") that almost encourages Kris to keep losing on purpose. See [[ERAM]] for the full writeup.
 >
+> ![[route_sword_the_forbbiden_path.png]]
+> *"THE FORBIDDEN PATH BEGAN WITH ICE MAGIC" — one of the hints that shows up during the minigame, the one behind the "Forbidden Path" nickname (see Trivia below).*
+>
 > ![[Weird_Route_Eram_talking.webp]]
 > *"The same part of you that enjoyed yesterday." — one of Typer 667's lines, on losing to the Knight while wearing the Shadow Mantle.*
 >
@@ -98,16 +101,49 @@ confianza: strong
 
 > [!question]- 🎲 Is the third board (BIT ROOTS) a symbolic map of Hometown?
 > "Roots" is a word that keeps resurfacing unexplained throughout the game: it's the title of Prophecy pane 32 (a house between two trees), of the "Digital Roots" ambience that plays in Queen's Mansion basement in Ch.2, and also of "BIT ROOTS," the track that plays specifically on this third board of the Original Game, right before the fight against ERAM (see [[Profecía|Prophecy]]). A very detailed video analysis, made before Ch.5's release, proposed that this board's layout isn't random, but a miniature symbolic map of Hometown, with each room representing a specific neighbor at roughly the position of their real house or business:
+>
+> ![[sword_route_map_roots.png]]
+> *The complete third board (BIT ROOTS), as seen in the minigame.*
+>
+> ![[roots_hometown_comparation.png]]
+> *Hometown itself, laid out the way the video compares it room-by-room to the board above.*
+>
 > - The rooms with the purple cat and the green lizard, adjacent to each other in the top row, would represent Catty and Bratty — also placed in the same relative position as their real houses in Hometown.
+>
+> ![[roots_catty_bratty_room_houses_hometown_comparasion.png]]
+> *(Unofficial composite: the board rooms themselves are official, but the semi-transparent overlay with Catty and Bratty's real houses in Hometown is a video edit made to illustrate the comparison.)*
+>
 > - The fish-type enemy room (which can become tougher with armor, and whose death "upsets" the neighboring yellow lizards) would represent Undyne and Alphys.
+>
+> ![[roots_undyne_room_noofficial.png]]
+> *(Unofficial) The armored fish enemy's room, with Undyne's silhouette overlaid — the room itself is official, the silhouette is a video addition.*
+>
+> ![[roots_alphys_room_nooficial.png]]
+> *(Unofficial) The neighboring yellow-lizard room, with Alphys's silhouette overlaid on one of them.*
+>
 > - The white cat faces that only attack after the "singing cat" upstairs (read as Toriel, who also sings in the Church choir) is defeated would fit with the promise Sans makes to Toriel in Undertale not to attack the human unless they go so far as to harm her.
+>
+> ![[roots_toriel_room_nooficial.png]]
+> *(Unofficial) The "singing cat" upstairs, with Toriel overlaid next to the room — the room itself is official, the silhouette is a video edit.*
+>
+> The video itself notes that this same standalone room might represent both of Kris's parents at once, not just Toriel — which actually fits the reading of the room as the Dreemurr house (see the last bullet below):
+>
+> ![[roots_dadcat_room_nooficial.png]]
+> *(Unofficial) A second cat, with a different design from the "singing cat," overlaid in the same room — read by the video as a possible nod to Asgore alongside Toriel.*
+>
 > - The orange fire-spitting enemies, positioned where the hospital would be, would fit Rudy — consistent with him recommending Noelle use Fireshock instead of Iceshock after the Weird Route.
 > - The room with the enemy that copies the player's movements, positioned where the Lake would be, would read as a reference to the mysterious "song on the other side of the Lake" (see [[Lake]]).
 > - The Dreemurr house would occupy the only standalone room in the top row, and the school would be blocked off by a wall of trees with the same design as Hometown's.
 >
-> Not everything fits equally well — the Alphys/Undyne room sits out of place relative to Catty/Bratty's, and there's no clear room for the Police Station or Flower King — but the pattern of recycling enemy sprites instead of building a unique design per NPC does match the deliberately NES/8-bit aesthetic of the rest of the Original Game.
+> Not everything fits equally well — the Alphys/Undyne room sits out of place relative to Catty/Bratty's, and there's no clear room for the Police Station or Flower King — but the pattern of recycling enemy sprites instead of building a unique design per NPC does match the deliberately NES/8-bit aesthetic of the rest of the Original Game. The video does point out, though, that even without a room identified for Flower King (Asgore's real-world identity), the board's final fight reuses the spike-and-yellow-petal attack pattern from Undertale's classic Asgore fight — his presence might live in the fight itself rather than in a room:
+>
+> ![[roots_asgore_room_noofficial.png]]
+> *(Unofficial) The third board's final fight, against "OWEN," with Asgore's silhouette overlaid to highlight how closely its attack pattern mirrors the original Undertale fight.*
 >
 > *Contrast note: the video that popularized this reading used it as the basis for predicting that Ch.5 would bring a Hometown-wide Dark World (coinciding with the Festival), with FRIEND itself — "the tail of hell" — as the chapter's Dark Crystal secret boss, fought by Kris and Noelle together after the Weird Route's ending. With Ch.5 now out, we know that's not what happened: the chapter's Dark World is Asgore's own flower shop (see [[Flowery]]), its confirmed secret boss is Pink (see [[Mad Mew Mew (Pink)]]), and Ch.5's Weird Route skips the Dark World entirely, ending straight at the Lake (see above). Toby Fox has hinted that "Roots" could still be the title of an unreleased track for Ch.6 or Ch.7 (see [[Profecía|Prophecy]]), so the connection between BIT ROOTS and a future Hometown Dark World isn't fully ruled out — just pushed further out than the original theory placed it.*
+>
+> ![[Organic_forest_tail_dialogue.png]]
+> *"Lost where the forest would grow, the children followed the pointed tail." — the "tail" motif the original theory tied to FRIEND also shows up in this Organic Forest dialogue.*
 
 ## Trivia
 - It's one of the few systems in the game that tracks progress silently and invisibly to the player, with no visible counter on screen — with the only partial exception being the Sword Route's unlabeled kill counter.
@@ -127,3 +163,8 @@ confianza: strong
 
 ## Submap
 [[Submapas/Rutas.canvas|Open graphical submap]]
+
+## Related video
+Video analysis that digs room-by-room into the BIT ROOTS board theory as a symbolic map of Hometown (see "## Theories" above) — the source of several of this note's comparison screenshots.
+
+{{youtube:n8WHKVwAw00}}

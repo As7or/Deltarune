@@ -45,9 +45,6 @@ En el Mundo Claro, Kris y una chica llevaron un día un portátil a casa para ju
 
 Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue la última en verla antes de que quedara desenchufada durante un largo periodo — polvorienta, sin usar, y puede que con quemado de pantalla. Toriel llegó a plantearse tirarla.
 
-![[Tenna_overworld_TV_conditions.png]]
-*Los distintos estados de la tele: encendida, apagada... y con la pantalla ya agrietada por el desuso.*
-
 ## Historia por capítulos
 
 > [!example]+ Capítulo 2 — Mencionado por Spamton
@@ -111,6 +108,9 @@ Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue l
 > *Comparativa de fandom entre Tenna y Mettaton (Undertale) — ambos presentadores mediáticos con complejo de abandono.*
 >
 > Si Tenna **no** fue reparado, su pantalla aparece rota y no puede llevarse a Castle Town — ninguno de los Darkners quiso ayudar a encontrarlo.
+>
+> ![[Tenna_overworld_TV_conditions.png]]
+> *Sus distintos estados: encendido, apagado... y con la pantalla agrietada por el ataque del Caballero Rugiente, si nadie lo repara.*
 
 > [!example]+ Capítulo 5 — Festival Day
 > Si Tenna se quedó en Castle Town, aparece hablando con Small Mike, poniéndose nervioso al ser confrontado sobre cómo trata a sus empleados, y mencionando a Spamton.

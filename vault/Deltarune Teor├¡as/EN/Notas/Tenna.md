@@ -45,9 +45,6 @@ In the Light World, Kris and a girl once brought a laptop home to play doctors a
 
 Over time, both families watched the TV less and less. Toriel was the last to watch him before he was unplugged for a long stretch — dusty, unused, and possibly with screen burn-in. Toriel even considered throwing him out.
 
-![[Tenna_overworld_TV_conditions.png]]
-*The TV's different states: on, off... and its screen already cracked from long disuse.*
-
 ## Story by chapter
 
 > [!example]+ Chapter 2 — Mentioned by Spamton
@@ -111,6 +108,9 @@ Over time, both families watched the TV less and less. Toriel was the last to wa
 > *Fandom comparison between Tenna and Mettaton (Undertale) — both media hosts with an abandonment complex.*
 >
 > If Tenna was **not** repaired, his screen appears broken and he can't be brought to Castle Town — none of the Darkners wanted to help find him.
+>
+> ![[Tenna_overworld_TV_conditions.png]]
+> *His different states: on, off... and with his screen cracked from the Roaring Knight's attack, if no one repairs him.*
 
 > [!example]+ Chapter 5 — Festival Day
 > If Tenna stayed in Castle Town, he appears talking with Small Mike, growing nervous when confronted about how he treats his employees, and mentioning Spamton.

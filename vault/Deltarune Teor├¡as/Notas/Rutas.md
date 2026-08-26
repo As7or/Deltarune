@@ -26,6 +26,9 @@ confianza: fuerte
 >
 > Completar los tres tableros culmina en un combate contra el portador del Shadow Mantle (ver [[Ramb]] para su posible identidad) y otorga el propio Shadow Mantle — un objeto que hace mucho más llevadero el combate contra el Caballero Rugiente, cambia ligeramente los requisitos para conseguir el Cristal Oscuro del capítulo, y multiplica por 6 el daño de Kris contra Tenna respecto a no haberla completado. Si se lleva puesto el Shadow Mantle y se pierde después contra el Caballero Rugiente, el texto de derrota usa una variante especial del narrador ("Typer 667") que casi anima a Kris a seguir perdiendo a propósito. Ver [[ERAM]] para el desarrollo completo.
 >
+> ![[route_sword_the_forbbiden_path.png]]
+> *"THE FORBIDDEN PATH BEGAN WITH ICE MAGIC" — una de las pistas que aparecen durante el minijuego, la que da pie al apodo "Camino Prohibido" (ver Curiosidades más abajo).*
+>
 > ![[Weird_Route_Eram_talking.webp]]
 > *"The same part of you that enjoyed yesterday." — uno de los diálogos del Typer 667, al perder contra el Caballero llevando puesto el Shadow Mantle.*
 >
@@ -98,16 +101,49 @@ confianza: fuerte
 
 > [!question]- 🎲 ¿Es el tercer tablero (BIT ROOTS) un mapa simbólico de Hometown?
 > "Roots" es una palabra que reaparece sin explicarse por todo el juego: título de la vidriera 32 de la Profecía (una casa entre dos árboles), de la ambientación "Digital Roots" que suena en el sótano de la Mansión de Queen del Cap.2, y también del tema "BIT ROOTS" que suena precisamente en este tercer tablero del Juego Original, justo antes del combate contra ERAM (ver [[Profecía]]). Un análisis de vídeo muy detallado, previo a la publicación del Cap.5, propuso que el diseño de este tablero no es aleatorio, sino un mapa simbólico en miniatura de Hometown, con cada sala representando a un vecino concreto en la posición aproximada de su casa o negocio real:
+>
+> ![[sword_route_map_roots.png]]
+> *El tercer tablero (BIT ROOTS) completo, tal y como se ve en el minijuego.*
+>
+> ![[roots_hometown_comparation.png]]
+> *El propio Hometown, en la disposición que el vídeo usa para comparar sala a sala con el tablero de arriba.*
+>
 > - Las salas con el gato morado y el lagarto verde, adyacentes entre sí en la fila superior, representarían a Catty y Bratty — colocadas, además, en la misma posición relativa que sus casas reales en Hometown.
+>
+> ![[roots_catty_bratty_room_houses_hometown_comparasion.png]]
+> *(Composición no oficial: las propias salas del tablero son oficiales, pero la superposición semitransparente con las casas reales de Catty y Bratty en Hometown es un montaje del vídeo para ilustrar la comparación.)*
+>
 > - La sala del enemigo pez (que puede volverse más resistente con una armadura, y cuya muerte "disgusta" a los lagartos amarillos vecinos) representaría a Undyne y Alphys.
+>
+> ![[roots_undyne_room_noofficial.png]]
+> *(No oficial) La sala del pez armado, con la silueta de Undyne superpuesta — la sala en sí es oficial, la silueta es un añadido del vídeo.*
+>
+> ![[roots_alphys_room_nooficial.png]]
+> *(No oficial) La sala vecina de los lagartos amarillos, con la silueta de Alphys superpuesta sobre uno de ellos.*
+>
 > - Las caras de gato blanco que solo atacan tras derrotar al "gato cantante" del piso superior (leído como Toriel, que también canta en el coro de la Iglesia) encajarían con la promesa que Sans le hace a Toriel en Undertale de no atacar al humano salvo que este llegue a hacerle daño a ella.
+>
+> ![[roots_toriel_room_nooficial.png]]
+> *(No oficial) El "gato cantante" del piso superior, con Toriel superpuesta junto a la sala — la sala en sí es oficial, la silueta es un montaje del vídeo.*
+>
+> El propio vídeo apunta que esa sala en solitario podría representar a los dos progenitores de Kris a la vez, no solo a Toriel — coincide, de hecho, con la lectura de la sala como la casa Dreemurr (ver el último punto de la lista):
+>
+> ![[roots_dadcat_room_nooficial.png]]
+> *(No oficial) Un segundo gato, con un diseño distinto al del "gato cantante", superpuesto en la misma sala — leído por el vídeo como una posible referencia a Asgore junto a Toriel.*
+>
 > - Los enemigos naranjas que escupen fuego, en la posición del hospital, encajarían con Rudy — coherente con que él mismo recomiende a Noelle usar Fireshock en vez de Iceshock tras la Ruta Rara.
 > - La sala del enemigo que copia los movimientos del jugador, situada donde estaría el Lago, se leería como una referencia a la misteriosa "canción al otro lado del Lago" (ver [[Lake]]).
 > - La casa Dreemurr ocuparía la única sala en solitario de la fila superior, y la escuela quedaría bloqueada por una pared de árboles con el mismo diseño que los de Hometown.
 >
-> No todo encaja igual de bien —la sala de Alphys/Undyne queda descolocada respecto a la de Catty/Bratty, y no hay ninguna sala clara para la Comisaría ni para Flower King—, pero el propio patrón de reciclar sprites de enemigo en vez de crear un diseño único por NPC coincide con la estética deliberadamente NES/8-bit del resto del Juego Original.
+> No todo encaja igual de bien —la sala de Alphys/Undyne queda descolocada respecto a la de Catty/Bratty, y no hay ninguna sala clara para la Comisaría ni para Flower King—, pero el propio patrón de reciclar sprites de enemigo en vez de crear un diseño único por NPC coincide con la estética deliberadamente NES/8-bit del resto del Juego Original. El propio vídeo señala, eso sí, que aunque no hay una sala identificada para Flower King (la identidad de Asgore en el mundo real), el combate final del tablero sí reutiliza el patrón de ataque de púas y pétalos amarillos del clásico combate contra Asgore en Undertale — su presencia podría estar en el propio combate, no en una sala:
+>
+> ![[roots_asgore_room_noofficial.png]]
+> *(No oficial) El combate final del tercer tablero, contra "OWEN", con la silueta de Asgore superpuesta para remarcar el parecido de su patrón de ataque con el combate original de Undertale.*
 >
 > *Nota de contraste: el vídeo que popularizó esta lectura la usaba como base para predecir que el Cap.5 traería un Mundo Oscuro a escala de todo Hometown (coincidiendo con el Festival), con el propio FRIEND —"la cola del infierno"— como jefe secreto del Cristal Oscuro del capítulo, enfrentado por Kris y Noelle juntos tras el final de la Ruta Rara. Con el Cap.5 ya publicado, sabemos que no fue así: el Mundo Oscuro del capítulo es la propia floristería de Asgore (ver [[Flowery]]), su jefe secreto confirmado es Pink (ver [[Mad Mew Mew (Pink)]]), y la Ruta Rara del Cap.5 se salta el Mundo Oscuro por completo, terminando directamente en el Lago (ver más arriba). Toby Fox ha insinuado que "Roots" podría seguir siendo el título de un tema todavía sin publicar para el Cap.6 o el Cap.7 (ver [[Profecía]]), así que la conexión entre BIT ROOTS y un futuro Mundo Oscuro de Hometown no está descartada del todo — solo pospuesta más allá de donde la situaba la teoría original.*
+>
+> ![[Organic_forest_tail_dialogue.png]]
+> *"Lost where the forest would grow, the children followed the pointed tail." — el motivo de la "cola" que la teoría original conectaba con FRIEND aparece también en este diálogo del Bosque Orgánico.*
 
 ## Curiosidades
 - Es uno de los pocos sistemas del juego que registra progreso de forma silenciosa e invisible para el jugador, sin ningún contador visible en pantalla — con la única excepción parcial del contador de bajas sin etiquetar de la Ruta Espada.
@@ -127,3 +163,8 @@ confianza: fuerte
 
 ## Submapa
 [[Submapas/Rutas.canvas|Abrir submapa gráfico]]
+
+## Vídeo relacionado
+Análisis en vídeo que profundiza sala a sala en la teoría del tablero BIT ROOTS como mapa simbólico de Hometown (ver "## Teorías" más arriba) — fuente de varias de las capturas comparativas de esta nota.
+
+{{youtube:n8WHKVwAw00}}
