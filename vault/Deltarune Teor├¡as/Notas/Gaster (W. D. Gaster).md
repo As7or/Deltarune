@@ -175,7 +175,12 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 > **Sin confirmación; su apariencia real, si es que la tiene, sigue siendo un misterio deliberado por parte del propio juego.**
 
 > [!question]- ¿Es el Forgotten Man?
-> Es la lectura más popular sobre la identidad del [[Forgotten Man]]: se mueve libremente entre el Mundo Claro y el Oscuro, habla en términos atemporales sobre el origen del mundo, encaja con la descripción de alguien "hecho añicos a través del espacio y el tiempo", y la sala en la que aparece en el Cap.1 comparte estructura con la sala de Mystery Man en Undertale. En contra: su forma de hablar en el Cap.3 es notablemente distinta a la de la Voz, lo que hace dudar a parte del fandom de que compartan identidad. Ver [[Forgotten Man]] para el desarrollo completo, incluidas las otras dos lecturas alternativas de quién es. **Teoría de fans, la más popular sobre la identidad del Forgotten Man; no confirmada.**
+> Es la lectura más popular sobre la identidad del [[Forgotten Man]]: se mueve libremente entre el Mundo Claro y el Oscuro, habla en términos atemporales sobre el origen del mundo, encaja con la descripción de alguien "hecho añicos a través del espacio y el tiempo", y la sala en la que aparece en el Cap.1 comparte estructura con la sala de Mystery Man en Undertale. En contra: su forma de hablar en el Cap.3 es notablemente distinta a la de la Voz, lo que hace dudar a parte del fandom de que compartan identidad. Ver [[Forgotten Man]] para el desarrollo completo, incluidas las otras dos lecturas alternativas de quién es.
+>
+> ![[man_Cliffs_screenshot_harvesting.png]]
+> *El Forgotten Man, en los Acantilados — la figura cuya identidad esta teoría intenta resolver.*
+>
+> **Teoría de fans, la más popular sobre la identidad del Forgotten Man; no confirmada.**
 
 > [!question]- ¿Es Deltarune el "experimento" de Gaster, y Undertale el resultado de una Ruta Rara?
 > Uniendo varias piezas —que Toby Fox llamó "experimento" a Deltarune antes de su lanzamiento, que la Voz/Gaster habla de "mostrar algo" al jugador, y que toda la premisa de Deltarune gira en torno a un "Ángel" que controla a Kris desde fuera— parte del fandom especula con una lectura meta: que Deltarune sería, dentro de su propia ficción, un experimento del propio Gaster para observar cómo se comporta "el jugador" bajo distintas condiciones, y que Undertale podría leerse retroactivamente como una simulación previa, o incluso como el resultado de una de sus "rutas raras". Es una teoría de las más especulativas de todas las que existen sobre él — bonita como lectura meta-narrativa, pero sin ningún apoyo textual directo dentro de ninguno de los dos juegos.

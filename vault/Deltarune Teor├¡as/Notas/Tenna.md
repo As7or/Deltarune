@@ -29,20 +29,20 @@ confianza: fuerte
 > [!tip]- Patrón de habla
 > En diálogo normal (no en combate), su texto se acompaña de "Word Art" —logotipos estilizados incrustados en las frases, llamados internamente `funnytext`— inspirados en el personaje P.T. Bridgeport de las tiras cómicas *Pogo*. En la versión japonesa tiene una coletilla adicional: sustituye la terminación de futuro しょう (*shou*) por "SHOW" en caracteres latinos. Comparte ese mismo tipo de tic verbal con Spamton, que en japonés sustituye です por "DEATH" y だい por "DIE".
 
-## Historia por capítulos
+## Trasfondo — La tele del salón
+Tenna es la televisión CRT del salón de la casa Dreemurr, la que entretenía tanto a los Dreemurr como a los Holiday. Asriel y Kris veían dibujos jugando, Toriel veía programas de cocina, y ambas familias se reunían siempre a su alrededor en los especiales de vacaciones.
 
-> [!example]+ Trasfondo — La tele del salón
-> Tenna es la televisión CRT del salón de la casa Dreemurr, la que entretenía tanto a los Dreemurr como a los Holiday. Asriel y Kris veían dibujos jugando, Toriel veía programas de cocina, y ambas familias se reunían siempre a su alrededor en los especiales de vacaciones.
->
-> ![[tenna_with_dreemur_and_holiday.webp]]
-> *Las familias Dreemurr y Holiday reunidas frente a Tenna en su época dorada.*
->
-> En el Mundo Claro, Kris y una chica llevaron un día un portátil a casa para jugar a médicos y madres — según Ramb, esos juegos de fantasía involucraban a Queen, King y al propio Tenna. En el Mundo Oscuro, la llegada de ese portátil hizo que Tenna y Spamton se conocieran y se convirtieran en socios de negocio durante la época de éxito de este último.
->
-> ![[tenna_history_spamton.webp]]
-> *Tenna y Spamton en su época de colaboración, antes de todo lo que vendría después.*
->
-> Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue la última en verla antes de que quedara desenchufada durante un largo periodo — polvorienta, sin usar, y puede que con quemado de pantalla. Toriel llegó a plantearse tirarla.
+![[tenna_with_dreemur_and_holiday.webp]]
+*Las familias Dreemurr y Holiday reunidas frente a Tenna en su época dorada.*
+
+En el Mundo Claro, Kris y una chica llevaron un día un portátil a casa para jugar a médicos y madres — según Ramb, esos juegos de fantasía involucraban a Queen, King y al propio Tenna. En el Mundo Oscuro, la llegada de ese portátil hizo que Tenna y Spamton se conocieran y se convirtieran en socios de negocio durante la época de éxito de este último.
+
+![[tenna_history_spamton.webp]]
+*Tenna y Spamton en su época de colaboración, antes de todo lo que vendría después.*
+
+Con el tiempo, ambas familias fueron viendo la tele cada vez menos. Toriel fue la última en verla antes de que quedara desenchufada durante un largo periodo — polvorienta, sin usar, y puede que con quemado de pantalla. Toriel llegó a plantearse tirarla.
+
+## Historia por capítulos
 
 > [!example]+ Capítulo 2 — Mencionado por Spamton
 > Tenna no aparece todavía, pero ya se le menciona indirectamente: si se elige "AMIGOS" al hablar con Spamton en su tienda, este despotrica sobre no necesitar amigos, incluidas las "CRTs", y advierte a Kris de no fiarse de nada que vea en la tele — una referencia directa a Tenna.
@@ -70,6 +70,9 @@ confianza: fuerte
 >
 > > [!example]- Escena secreta: el reencuentro con Spamton (rango S)
 > > Si se conserva el arma/armadura que da Spamton al derrotarlo en el Cap.2, es posible presenciar una escena oculta en la que Tenna espanta a unos ladrones mientras protege un Pipis, comentando en voz alta que está al límite y que ojalá tuviese a alguien a su lado. Spamton aparece entonces, sorprendido de que Tenna aún conserve el Pipis que en su día tuvieron juntos — pero Tenna, al levantar la cabeza, no lo reconoce y le rocía espuma, asustado, ya que la apariencia corrupta de Spamton NEO no se parece en nada a como era antes de su caída. Es la prueba visual más directa de que Tenna y Spamton sí llegaron a importarse de verdad en su época de socios, más allá de la rivalidad pública que muestran el resto del capítulo.
+> >
+> > ![[spamton_tenna.png]]
+> > *"[Trash heap]!!! YOU KEPT IT!!! YOU REALLY DO CARE!!!" — Spamton, al reconocer que Tenna aún conserva el Pipis, justo antes de que este lo rocíe con espuma sin reconocerlo.*
 >
 > > [!danger]- Ruta Espada del Cap.3 — La Room Z y el manhole
 > > Tenna aparece como NPC dentro del propio Juego Original, en el tablero de la Isla y en el "manhole dungeon", dando pistas sobre su relación con Spamton y con Kris. Tras alcanzar el nivel máximo, puede encontrársele lamentándose de su relación fallida con Spamton, incluida su reacción a la llamada telefónica que causó su ruina — y desea en voz alta que Kris nunca hubiera llevado el portátil a casa. Al notar la presencia de HERO_SWORD, se da la vuelta, insiste en que cumplió su parte del trato y suplica que no lo "apaguen" de nuevo; para avanzar, HERO_SWORD debe atacarlo y "matarlo" dentro del propio Juego Original.

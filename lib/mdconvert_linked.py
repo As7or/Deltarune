@@ -355,7 +355,16 @@ def depth_of(line):
 def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapter_class=None):
     header = lines[0][1]
     m = re.match(r"\[!(\w+)\]([+-]?)\s*(.*)", header)
-    ctype = m.group(1) if m else "info"
+    # Un bloque anidado (">" extra de profundidad dentro de un callout) sin
+    # marcador "[!tipo]" propio no es un callout "vacio": es una cita simple
+    # (p.ej. ">> texto citado"). Si se trata lines[0] como cabecera de todos
+    # modos, esa unica linea de contenido se descarta por completo (ctype cae
+    # a "info" sin match, pero el bucle de abajo arranca en i=1 y nunca llega
+    # a procesar lines[0]), dejando un callout completamente vacio en el HTML
+    # -- bug real detectado en Gaster.md/Profecía.md/Ralsei.md. Cuando no hay
+    # match se trata como cita ("quote") y se arranca el cuerpo en i=0 para
+    # que esa primera linea SI se procese como contenido normal.
+    ctype = m.group(1) if m else "quote"
     title = m.group(3) if m else ""
     icon, color = CALLOUT_ICONS.get(ctype, ("note", "#8a7a5c"))
     base_depth = lines[0][0]
@@ -364,7 +373,7 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapte
     # como para ocupar toda la pagina.
     force_small_here = (ctype == "tip")
     body_parts = []
-    i = 1
+    i = 1 if m else 0
     while i < len(lines):
         d, content = lines[i]
         if d > base_depth:
