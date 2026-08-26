@@ -28,9 +28,18 @@ confianza: strong
 >
 > Finally, it asks to name the Vessel (up to 9 characters, e.g. "DELTARUNE") and, afterward, the real name of whoever is playing (up to 12, capitals only) — breaking the fourth wall more directly than anywhere else in the game. Typing "GASTER" as either name resets the intro entirely, a direct nod to how, in Undertale, naming the fallen human that same way sent the player back to the prologue.
 >
+> ![[Vessel_naming_screenshot.webp]]
+> *The "NAME YOUR VESSEL" screen — the Vessel itself, still featureless, waiting for a name.*
+>
 > Just as the voice is about to say the chosen name out loud, the scene cuts abruptly to Kris's room, with Toriel shouting their name instead — as if the narration itself interrupted the voice before it could finish the sentence. Shortly after, the text style changes (lowercase, no glow, no ambient sound) to announce that the Vessel will be "discarded," because "no one can choose who they are in this world" [TODO: verify exact EN quote] — and the Player's connection is reassigned to Kris. That first Vessel's data doesn't fully disappear: it stays saved within the save file itself, never used again.
 >
+> ![[player_soul_discarded_voice.png]]
+> *"Will now be discarded." — the exact moment the first Vessel is discarded and the connection passes to Kris.*
+>
 > At the end of the chapter, after sealing the first Dark Fountain, Kris tears his own SOUL from his chest and throws it into a cage — the Player can move the SOUL inside the cage, but not Kris, making clear that it's the SOUL, not Kris, that they actually control.
+>
+> ![[player_kris_soul_cap1_final_scene.png]]
+> *Kris, now without the SOUL and with a red eye, right after sealing the first Dark Fountain in Ch.1.*
 
 > [!example]+ Chapter 2 — Snowgrave and the most-cited separation
 > If the Snowgrave Route is completed, Noelle directly questions whether it's really Kris doing what's happening — one of the few times a character verbalizes out loud the suspicion that someone else is behind Kris's decisions. At the end of the chapter, Kris tears out the SOUL again and acts alone, this time opening a new Dark Fountain with their own knife.
@@ -49,11 +58,19 @@ confianza: strong
 
 > [!example]+ Chapter 5 — New separations
 > The pattern repeats: Kris separates from the Player again while creating the Flower Kingdom's Fountain without Susie seeing, and at several other points during the chapter. In the church, Tasque Manager addresses Kris by name directly — one of the few times a cast member seems to recognize them as an individual, not just the Player's "Vessel."
+>
+> ![[player_kris_soul_cap5_darkfountain.webp]]
+> *Kris, alone in front of Flower King, creating the Flower Kingdom's Dark Fountain in Ch.5.*
 
 ## Catalog — every time Kris kicks us out of their body
 A quick, chapter-by-chapter rundown of every confirmed moment where Kris tears out the SOUL and acts without the Player:
 - **Ch.1**: at the end, after sealing the first Fountain, tears out the SOUL and throws it into a cage — wields a knife, smirks maliciously, and their eye flashes red (with a sprite recycled from Asgore in Undertale).
 - **Ch.2**: returning home after the Cyber World, instead of washing their hands they tear out the SOUL and throw it in the sink. If the Weird Route was completed, they tear it out again at the end of the chapter to open a new Fountain with their own knife.
+- **Ch.3**: alone at night in Toriel's living room, opens the TV's Dark Fountain with their own SOUL — the same moment Tenna later suspects was them, and that we in fact see happen with our own eyes (see [[Tenna]] and [[Roaring Knight]]).
+
+![[kris_open_dark_fountain_tv.gif]]
+*Kris, alone, opening the TV's Dark Fountain in Toriel's living room — Ch.3.*
+
 - **Ch.4 (normal route)**: hides it in a gift box in the guest room at Noelle's house before speaking with her alone; on the Weird Route, they also use it to travel alone through the air vents (see above) and end up kicking it inside a trash can.
 - **Ch.5**: tears it out again to create the Flower Kingdom's Fountain without Susie noticing, and at other scattered points in the chapter.
 
@@ -73,6 +90,8 @@ A quick, chapter-by-chapter rundown of every confirmed moment where Kris tears o
 > - Typing "GASTER" as the Vessel's or Player's own name resets the intro — the same trick as calling the fallen human "Gaster" in Undertale.
 > - Before Deltarune was even announced, the official Undertale Twitter account went blank and tweeted, in the same style as the Voice, that it had something to show that it found "VERY, VERY INTERESTING" [TODO: verify exact EN quote] — an almost literal quote from Gaster's Entry Number Seventeen in Undertale.
 > - According to the theory known as "Gaster's List," every name that gets a special response from the Voice when typed into the sequence belongs, almost without exception, to a real Lightner from Hometown — as if whoever is asking already knew, or was cataloguing, the real people of that world.
+>
+> 🎲 **The Voice also speaks during the battle against the Roaring Knight**, while Kris "holds their breath" underwater — in the same visual format it uses in the intro and on the Game Over screen (black background, a single red heart, all-caps white text). Unlike the clues above, this is direct dialogue inside a battle, not a file-naming coincidence. Full development, with screenshots, at [[Gaster (W. D. Gaster)]].
 >
 > **A widely held theory with substantial archive support, but never confirmed by the game itself or by Toby Fox.**
 >
@@ -134,6 +153,8 @@ A quick, chapter-by-chapter rundown of every confirmed moment where Kris tears o
 - [[Ángel|Angel]]
 - [[Gaster (W. D. Gaster)]]
 - [[Clam Guy]]
+- [[Roaring Knight]]
+- [[Tenna]]
 
 ## Submap
 [[Submapas/Jugador.canvas|Open graphical submap]]

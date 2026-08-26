@@ -165,6 +165,16 @@ This section brings together, chapter by chapter, everything within Deltarune it
 > *The grey floor of one of Mancountry's hidden areas, Ch.3.*
 >
 > *Rigor note: most of this list consists of numerical and file-naming coincidences, not dialogue or direct confirmation from the game — they fit the pattern already established in this note (666, grey, "forgetting"), but each isolated data point is weak on its own. They're included because they fit an already extensively documented pattern, not as new independent evidence.*
+>
+> Unlike everything above, the following is direct in-battle dialogue, not a file-naming coincidence: during the fight against the [[Roaring Knight]], while Kris "holds their breath" underwater — the only action available in the entire battle — the Voice speaks again, in the same visual format it uses in the Ch.1 intro and on the Game Over screen: black background, a single red heart, all-caps white text.
+>
+> ![[voice_knight_fight.png]]
+> *"IF YOU ARE SO DETERMINED TO TRY ONCE MORE" — the Voice, during the battle against the Knight.*
+>
+> ![[voice_knight_fight_almost_there.png]]
+> *"I FELT IT THERE, SHINING." — the second line of the same sequence, in the same spaced-out, poetic tone as the rest of its appearances.*
+>
+> The fandom reads this scene as one of the most direct pieces of evidence that the Voice isn't just an intro device but a constant presence throughout the whole game — further reinforcing the reading that it's the same entity that appears on the Ch.1 Game Over screen (see the [[Jugador|Player]] page).
 
 > [!example]+ Chapter 4
 > - There's an unused internal variable tied to Everyman specific to this chapter, with no known function — see [[Everyman]] for details.
@@ -231,6 +241,8 @@ This section brings together, chapter by chapter, everything within Deltarune it
 - [[Shelter]]
 - [[Profecía|Prophecy]]
 - [[Clam Guy]]
+- [[Roaring Knight]]
+- [[Jugador|Player]]
 
 ## Submap
 [[Submapas/Gaster (W. D. Gaster).canvas|Open graphical submap]]

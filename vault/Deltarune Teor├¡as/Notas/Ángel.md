@@ -22,6 +22,17 @@ confianza: fuerte
 > [!tip]- Ficha de personalidad
 > No tiene personalidad propia conocida — es, ante todo, un concepto religioso y profético sobre el que cada personaje proyecta su propia lectura: Alvin lo venera como guía espiritual, la Profecía lo describe casi como una amenaza a desterrar, y Catty lo resume con un entusiasmo casi de fan ("¡es tan mono, seguro!"), sin que ninguna de esas lecturas se confirme como la correcta.
 
+## El Ángel en Undertale — las dos lecturas de Gerson
+Mucho antes de que Deltarune existiera, Undertale ya tenía su propia versión de esta misma profecía. Gerson, el anciano tortuga de Waterfall, la resume con las dos lecturas que Deltarune parece heredar casi intactas:
+
+![[angel_gerson_undertale.png]]
+*"Legend has it, an 'angel' who has seen the surface will descend from above and bring us freedom." — la lectura benevolente, según Gerson.*
+
+![[angel_gerson_undertale_badangel.png]]
+*"A harbinger of destruction, waitin' to 'free' us from this mortal realm..." — la lectura opuesta, la del "Ángel de la Muerte", dicha por el mismo personaje casi en el mismo aliento.*
+
+Gerson nunca se decanta por ninguna de las dos: las presenta como igual de válidas, dejando abierta ya desde Undertale la misma ambigüedad que la propia Profecía de Deltarune reproduce con el Cielo del Ángel.
+
 ## Dónde aparece
 
 > [!example]+ Capítulo 1 — La Leyenda
@@ -32,18 +43,21 @@ confianza: fuerte
 >
 > En casa de Noelle, revisar su armario por segunda vez revela un par de alitas de ángel gastadas — ella explica que las tiene desde pequeña, de cuando hizo de ángel en la función navideña del pueblo, y que le gustaron tanto que se las quedó puestas.
 >
+> ![[angel_noelle_showing_wings_from_her_closet.webp]]
+> *"They're from when I was the angel in the Holiday Pageant." — Noelle, mostrando las alitas a Kris y Susie.*
+>
 > Catty, además, ofrece una "lectura" (Watch Service) en la iglesia describiendo al Ángel con un entusiasmo casi adolescente: "Dios mío, o sea, ¿el Ángel que nos vigila a todos? Tiene, o sea, esta profecía SUPER guay, predicha por el tiempo y el espacio..." — un contraste tonal deliberado con la solemnidad del resto del texto profético.
 >
-> ![[Catty_overworld.png]]
-> *Catty, cuyo entusiasmo hablando del Ángel contrasta con la solemnidad del resto del texto profético.*
+> ![[angel_catty_talking_about_angel.webp]]
+> *El diálogo real de Catty leyendo sobre el Ángel — el tono más informal y menos solemne de toda la Profecía.*
 
 ## Relaciones
 
 > [!quote]- Alvin
 > Cree firmemente en la fe y en la Profecía, y trata al Ángel con verdadero respeto religioso — reza por su guía para el resto del pueblo. En el Cap.5 llega a atribuirle los destrozos de la iglesia del capítulo anterior, describiéndolos como "vientos de gran cambio". [[Alvin]]
 >
-> ![[Alvin_overwolrd.webp]]
-> *Alvin, el párroco de Hometown, el creyente más devoto del Ángel de toda la nota.*
+> ![[angel_alvin_talking_of_angel.png]]
+> *Alvin, frente a la iglesia: "Let the Angel's power light your way." — el creyente más devoto del Ángel de toda la nota.*
 
 > [!quote]- Noelle
 > Conserva desde niña unas alitas de ángel gastadas, de cuando interpretó ese papel en la función navideña del pueblo — el vínculo más literal y menos discutido de toda la nota, sin ninguna carga metafórica de por medio. [[Noelle]]

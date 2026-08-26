@@ -28,9 +28,18 @@ confianza: fuerte
 >
 > Por último, pide nombrar al Vessel (máximo 9 caracteres, ej. "DELTARUNE") y, después, el nombre real de quien está jugando (máximo 12, solo mayúsculas) — rompiendo la cuarta pared de la forma más directa de todo el juego. Escribir "GASTER" como cualquiera de los dos nombres reinicia la introducción por completo, un guiño directo a que en Undertale ponerle ese mismo nombre al humano caído devolvía al jugador al prólogo.
 >
+> ![[Vessel_naming_screenshot.webp]]
+> *La pantalla "NAME YOUR VESSEL" — el propio Vessel, todavía sin rasgos, esperando nombre.*
+>
 > Justo cuando la voz está a punto de decir el nombre elegido en voz alta, la escena corta bruscamente al cuarto de Kris, con Toriel gritando su nombre en su lugar — como si la propia narración interrumpiera a la voz antes de que termine la frase. Poco después, el texto cambia de estilo (minúsculas, sin brillo, sin ambiente sonoro) para anunciar que el Vessel será "descartado", porque "nadie puede elegir quién es en este mundo" — y la conexión del Jugador pasa a asignarse a Kris. Los datos de ese primer Vessel no desaparecen del todo: quedan guardados dentro del propio archivo de guardado, sin que vuelvan a usarse.
 >
+> ![[player_soul_discarded_voice.png]]
+> *"Will now be discarded." — el instante exacto en el que el primer Vessel es descartado y la conexión pasa a Kris.*
+>
 > Al final del capítulo, tras sellar la primera Fuente Oscura, Kris se arranca su propia ALMA del pecho y la arroja a una jaula — el Jugador puede mover el ALMA dentro de la jaula, pero no a Kris, dejando claro que es al ALMA, no a Kris, a quien controla realmente.
+>
+> ![[player_kris_soul_cap1_final_scene.png]]
+> *Kris, ya sin el ALMA y con el ojo en rojo, justo después de sellar la primera Fuente Oscura del Cap.1.*
 
 > [!example]+ Capítulo 2 — Snowgrave y la separación más citada
 > Si se completa la Ruta Snowgrave, Noelle llega a cuestionar directamente si de verdad es Kris quien está haciendo lo que está pasando — una de las pocas veces en que un personaje verbaliza en voz alta la sospecha de que hay alguien más detrás de las decisiones de Kris. Al final del capítulo, Kris vuelve a arrancarse el ALMA y actúa en solitario, esta vez abriendo una nueva Fuente Oscura con su propio cuchillo.
@@ -49,11 +58,19 @@ confianza: fuerte
 
 > [!example]+ Capítulo 5 — Nuevas separaciones
 > El patrón se repite: Kris se separa del Jugador de nuevo al crear la Fuente del Reino de las Flores sin que Susie lo vea, y en distintos puntos más del capítulo. En la iglesia, Tasque Manager llega a dirigirse a Kris por su nombre directamente — una de las pocas veces que un personaje del elenco parece reconocerlo como individuo, no solo como el "Vessel" del Jugador.
+>
+> ![[player_kris_soul_cap5_darkfountain.webp]]
+> *Kris, solo frente a Flower King, creando la Fuente Oscura del Reino de las Flores en el Cap.5.*
 
 ## Catálogo — cada vez que Kris nos expulsa de su cuerpo
 Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en los que Kris se arranca el ALMA y actúa sin el Jugador:
 - **Cap.1**: al final, tras sellar la primera Fuente, se arranca el ALMA y la tira a una jaula — empuña un cuchillo, sonríe con malicia y su ojo destella en rojo (con un sprite reciclado de Asgore en Undertale).
 - **Cap.2**: al volver a casa tras el Mundo Cíber, en vez de lavarse las manos se arranca el ALMA y la tira al lavabo. Si se completó la Ruta Rara, vuelve a arrancársela al final del capítulo para abrir una nueva Fuente con su propio cuchillo.
+- **Cap.3**: de noche y completamente solo en el salón de Toriel, abre con su propio ALMA la Fuente Oscura de la televisión — el mismo momento que Tenna sospecha después que fue él, y que de hecho vemos ocurrir con nuestros propios ojos (ver [[Tenna]] y [[Roaring Knight]]).
+
+![[kris_open_dark_fountain_tv.gif]]
+*Kris, solo, abriendo la Fuente Oscura de la televisión en el salón de Toriel — Cap.3.*
+
 - **Cap.4 (ruta normal)**: la esconde en una caja de regalo del cuarto de invitados en casa de Noelle antes de hablar a solas con ella; en la Ruta Rara, además, la usa para viajar sola por los conductos de ventilación (ver más arriba) y termina pateándola dentro de una papelera.
 - **Cap.5**: se la vuelve a arrancar para crear la Fuente del Reino de las Flores sin que Susie se dé cuenta, y en otros puntos sueltos del capítulo.
 
@@ -73,6 +90,8 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 > - Escribir "GASTER" como nombre del Vessel o del propio Jugador reinicia la introducción — el mismo truco que en Undertale al llamar "Gaster" al humano caído.
 > - Antes del propio anuncio de Deltarune, la cuenta oficial de Undertale en Twitter se quedó en blanco y tuiteó, en el mismo estilo que la Voz, que tenía algo que enseñar que le parecía "MUY, MUY INTERESANTE" — una cita casi literal de la Entry Number Seventeen de Gaster en Undertale.
 > - Según la teoría conocida como "Gaster's List", cada nombre que recibe una respuesta especial de la Voz al escribirlo en la secuencia pertenece, casi sin excepción, a un Lightner real de Hometown — como si quien pregunta ya conociera, o estuviera catalogando, a la gente real de ese mundo.
+>
+> 🎲 **La Voz también habla durante el combate contra el Roaring Knight**, mientras Kris "aguanta la respiración" bajo el agua — con el mismo formato visual que usa en la introducción y en la pantalla de Game Over (fondo negro, un corazón rojo, texto en mayúsculas). A diferencia de las pistas anteriores, esto sí es diálogo directo dentro de un combate, no una coincidencia de archivo. Desarrollo completo, con capturas, en [[Gaster (W. D. Gaster)]].
 >
 > **Teoría muy extendida y con bastante apoyo de archivo, pero nunca confirmada por el propio juego ni por Toby Fox.**
 >
@@ -134,6 +153,8 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 - [[Ángel]]
 - [[Gaster (W. D. Gaster)]]
 - [[Clam Guy]]
+- [[Roaring Knight]]
+- [[Tenna]]
 
 ## Submapa
 [[Submapas/Jugador.canvas|Abrir submapa gráfico]]

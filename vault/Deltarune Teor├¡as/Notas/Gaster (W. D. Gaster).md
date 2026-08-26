@@ -165,6 +165,16 @@ Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Delta
 > *El suelo gris de una de las zonas ocultas de Mancountry, Cap.3.*
 >
 > *Nota de rigor: gran parte de esta lista son coincidencias numéricas y de nomenclatura de archivos, no diálogo ni confirmación directa del juego — encajan con el patrón ya establecido en esta nota (666, gris, "olvido"), pero cada dato aislado es débil por sí solo. Se incluyen porque encajan con un patrón ya extensamente documentado, no como pruebas nuevas independientes.*
+>
+> A diferencia de todo lo anterior, lo siguiente sí es diálogo directo dentro de un combate, no una coincidencia de archivo: durante el enfrentamiento contra el [[Roaring Knight]], mientras Kris "aguanta la respiración" bajo el agua —la única acción posible en todo el combate—, la Voz vuelve a hablar, en el mismo formato visual que usa en la introducción del Cap.1 y en la pantalla de Game Over: fondo negro, un único corazón rojo, texto blanco en mayúsculas.
+>
+> ![[voice_knight_fight.png]]
+> *"IF YOU ARE SO DETERMINED TO TRY ONCE MORE" — la Voz, durante el combate contra el Knight.*
+>
+> ![[voice_knight_fight_almost_there.png]]
+> *"I FELT IT THERE, SHINING." — la segunda línea de la misma secuencia, con el mismo tono espaciado y poético que el resto de sus apariciones.*
+>
+> El fandom lee esta escena como una de las pruebas más directas de que la Voz no es solo un recurso de la introducción, sino una presencia constante a lo largo de todo el juego — reforzando además la lectura de que es la misma entidad que aparece en la pantalla de Game Over del Cap.1 (ver ficha de [[Jugador]]).
 
 > [!example]+ Capítulo 4
 > - Existe una variable interna sin usar asociada a Everyman específica de este capítulo, sin función conocida — ver [[Everyman]] para el detalle.
@@ -231,6 +241,8 @@ Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Delta
 - [[Shelter]]
 - [[Profecía]]
 - [[Clam Guy]]
+- [[Roaring Knight]]
+- [[Jugador]]
 
 ## Submapa
 [[Submapas/Gaster (W. D. Gaster).canvas|Abrir submapa gráfico]]

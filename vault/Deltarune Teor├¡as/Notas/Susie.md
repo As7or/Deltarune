@@ -115,20 +115,20 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 > Es también quien acompaña a Noelle a su propia casa bajo la excusa de "estudiar", distrayéndola mientras Kris busca pistas sobre Dess. Termina siendo ella quien coge la guitarra de Dess y la toca frente a Noelle, en una de las escenas más tiernas del capítulo, hasta que [[Carol]] la confisca y expulsa a Susie de la casa.
 >
 > ![[kriss_susie_drink.gif]]
-> *Susie bebiendo con Kris en la iglesia — la escena de la mancha roja en su mano ocurre poco después de este momento.*
+> *Susie bebiendo con Kris en la iglesia — un momento distinto al de la mancha de sangre, más adelante en el capítulo.*
 >
-> Al final del capítulo, tras destrozar con su propia mano el último fragmento de la profecía (lo que le hace sangrar), asegura a Ralsei que entre los tres no dejarán que se cumpla.
+> Al final del capítulo, incapaz de aceptar cómo termina, destroza con su propia mano el último fragmento de la profecía —lo que le hace sangrar— y asegura a Ralsei que entre los tres no dejarán que se cumpla.
 >
 > ![[Susie_screenshot_bleeding.png]]
 > *La mano de Susie sangrando tras romper el tapiz de la Última Profecía — el momento más citado de su arco.*
 >
-> > [!danger]- Una posible pista sobre su sangre (Cap.4)
-> > En una escena de la iglesia, la mano de Susie aparece manchada de un líquido rojo tras beber de un ponche. El propio fandom debate si es sangre real —lo que reabriría la pregunta de si los monstruos de Deltarune pueden sangrar, a diferencia de Undertale— o simplemente el ponche rojo de la iglesia. Toby Fox no lo ha aclarado, y ambas lecturas tienen defensores dentro de la comunidad. La escena de su mano sangrando al romper la profecía, más adelante en el mismo capítulo, se suele traer a colación en esta misma discusión.
-> >
-> > ![[susie_bleeding.webp]]
-> > *La mano de Susie manchada de rojo, poco después de la escena en la que bebe con Kris en la iglesia.*
-> >
-> > 🎲 Un "espejo" curioso entre juegos: Undertale tiene su propia versión de esta misma anomalía. Un sprite de combate poco visto de [[Sans]], solo accesible en circunstancias muy concretas de la Ruta Genocida, lo muestra sangrando por la boca y con un corte en el torso — algo que, según las propias reglas de Undertale, no debería ser posible para ningún monstruo (se desvanecen en polvo al morir, no sangran, y menos aún un esqueleto). El fandom conecta ambas pistas como el mismo tipo de imposibilidad biológica repetida en los dos juegos: un monstruo "fuera de lugar" en cada uno, sangrando cuando no debería. Desarrollo completo en [[Conexión Undertale]].
+> ![[susie_bleeding.webp]]
+> *El instante justo después del golpe contra el tapiz: Susie se disculpa ante Kris y Ralsei ("I'm sorry, I--").*
+>
+> 🎲 Un "espejo" curioso entre juegos: Undertale tiene su propia versión de esta misma anomalía. Un sprite de combate poco visto de [[Sans]], solo accesible en circunstancias muy concretas de la Ruta Genocida, lo muestra sangrando por la boca y con un corte en el torso — algo que, según las propias reglas de Undertale, no debería ser posible para ningún monstruo (se desvanecen en polvo al morir, no sangran, y menos aún un esqueleto). El fandom conecta ambas pistas como el mismo tipo de imposibilidad biológica repetida en los dos juegos: un monstruo "fuera de lugar" en cada uno, sangrando justo en un momento de ruptura o rechazo —Susie, al negarse a aceptar cómo termina la Última Profecía—. Desarrollo completo en [[Conexión Undertale]].
+>
+> > [!danger]- Una posible pista adicional sobre su sangre (Cap.4)
+> > Antes de esta escena, tras beber con Kris en la iglesia, la mano de Susie también aparece manchada de un líquido rojo. El propio fandom debate si aquello ya era sangre real —lo que adelantaría la misma anomalía— o simplemente el ponche rojo de la iglesia. Toby Fox no lo ha aclarado, y ambas lecturas tienen defensores dentro de la comunidad; la escena posterior, sangrando de forma inequívoca al romper la profecía, es la que se suele traer a colación en esta misma discusión como el caso más claro.
 
 > [!example]+ Capítulo 5 — Festival Day (24 jun 2026)
 > En Castle Town, Susie se prepara para su cita en el Festival con Noelle con ayuda de Queen y Lancer; entre Lancer y Kris le confeccionan un "Traje para Machacar el Culo de tu Cita", aunque ella solo acepta ponerse el sombrero. Al salir del Mundo Oscuro el disfraz desaparece y se convierte en un montón de papeles sobre su cabeza, para su vergüenza.

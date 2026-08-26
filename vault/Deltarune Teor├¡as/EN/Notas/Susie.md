@@ -115,20 +115,20 @@ The game never confirms it directly, but several clues — not recognizing the c
 > She's also the one who accompanies Noelle home under the excuse of "studying," distracting her while Kris looks for clues about Dess. She ends up being the one who picks up Dess's guitar and plays it in front of Noelle, in one of the chapter's most tender scenes, until [[Carol]] confiscates it and throws Susie out of the house.
 >
 > ![[kriss_susie_drink.gif]]
-> *Susie drinking with Kris at the church — the scene with the red stain on her hand happens shortly after this moment.*
+> *Susie drinking with Kris at the church — a different moment from the bloodstain scene later in the chapter.*
 >
-> At the end of the chapter, after tearing apart the last fragment of the prophecy with her own hand (which makes her bleed), she assures Ralsei that the three of them won't let it come true.
+> At the end of the chapter, unable to accept how it ends, she tears apart the last fragment of the prophecy with her own hand — which makes her bleed — and assures Ralsei that the three of them won't let it come true.
 >
 > ![[Susie_screenshot_bleeding.png]]
 > *Susie's hand bleeding after tearing the Last Prophecy tapestry — the most-cited moment of her arc.*
 >
-> > [!danger]- A possible clue about her blood (Ch.4)
-> > In a scene at the church, Susie's hand appears stained with a red liquid after she drinks some punch. The fandom itself debates whether it's real blood — which would reopen the question of whether Deltarune's monsters can bleed, unlike in Undertale — or simply the church's red punch. Toby Fox hasn't clarified it, and both readings have supporters within the community. The scene of her hand bleeding when she tears the prophecy, later in the same chapter, is often brought up in this same discussion.
-> >
-> > ![[susie_bleeding.webp]]
-> > *Susie's hand stained red, shortly after the scene where she drinks with Kris at the church.*
-> >
-> > 🎲 A curious cross-game "mirror": Undertale has its own version of this same anomaly. A rarely-seen battle sprite of [[Sans]], only accessible under very specific Genocide Route circumstances, shows him bleeding from the mouth with a gash on his torso — something that, by Undertale's own rules, shouldn't be possible for any monster (they turn to dust when they die, they don't bleed, let alone a skeleton). The fandom connects both clues as the same kind of biological impossibility repeating across both games: an "out of place" monster in each one, bleeding when they shouldn't. Full development in [[Conexión Undertale]].
+> ![[susie_bleeding.webp]]
+> *The instant right after the blow against the tapestry: Susie apologizes to Kris and Ralsei ("I'm sorry, I--").*
+>
+> 🎲 A curious cross-game "mirror": Undertale has its own version of this same anomaly. A rarely-seen battle sprite of [[Sans]], only accessible under very specific Genocide Route circumstances, shows him bleeding from the mouth with a gash on his torso — something that, by Undertale's own rules, shouldn't be possible for any monster (they turn to dust when they die, they don't bleed, let alone a skeleton). The fandom connects both clues as the same kind of biological impossibility repeating across both games: an "out of place" monster in each one, bleeding right at a moment of breaking or refusal — Susie's, at refusing to accept how the Last Prophecy ends. Full development in [[Conexión Undertale]].
+>
+> > [!danger]- A possible additional clue about her blood (Ch.4)
+> > Before this scene, after drinking with Kris at the church, Susie's hand also appears stained with a red liquid. The fandom itself debates whether that was already real blood — which would foreshadow the same anomaly — or simply the church's red punch. Toby Fox hasn't clarified it, and both readings have supporters within the community; the later scene, bleeding unambiguously as she tears the prophecy, is the one usually brought up in this same discussion as the clearer case.
 
 > [!example]+ Chapter 5 — Festival Day (Jun 24, 2026)
 > In Castle Town, Susie gets ready for her date with Noelle at the Festival with help from Queen and Lancer; between Lancer and Kris they put together an [TODO: verify exact EN quote] "Outfit to Kick Your Date's Butt," though she only agrees to wear the hat. On leaving the Dark World, the outfit disappears and turns into a pile of papers on her head, to her embarrassment.

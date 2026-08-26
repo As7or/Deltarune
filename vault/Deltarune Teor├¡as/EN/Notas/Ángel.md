@@ -22,6 +22,17 @@ confianza: strong
 > [!tip]- Personality profile
 > It has no known personality of its own — it is, above all, a religious and prophetic concept onto which every character projects their own reading: Alvin worships it as a spiritual guide, the Prophecy describes it almost as a threat to be banished, and Catty sums it up with almost fangirl enthusiasm ([TODO: verify exact EN quote] "it's so cute, I bet!"), without any of those readings being confirmed as correct.
 
+## The Angel in Undertale — Gerson's two readings
+Long before Deltarune existed, Undertale already had its own version of this same prophecy. Gerson, the old turtle from Waterfall, sums it up with the two readings Deltarune seems to inherit almost intact:
+
+![[angel_gerson_undertale.png]]
+*"Legend has it, an 'angel' who has seen the surface will descend from above and bring us freedom." — the benevolent reading, according to Gerson.*
+
+![[angel_gerson_undertale_badangel.png]]
+*"A harbinger of destruction, waitin' to 'free' us from this mortal realm..." — the opposite reading, the "Angel of Death" one, said by the same character almost in the same breath.*
+
+Gerson never picks a side: he presents both as equally valid, leaving the same ambiguity open all the way back in Undertale that Deltarune's own Prophecy reproduces with the Angel's Heaven.
+
 ## Where it appears
 
 > [!example]+ Chapter 1 — The Legend
@@ -32,18 +43,21 @@ confianza: strong
 >
 > At Noelle's house, checking her closet a second time reveals a worn pair of angel wings — she explains she's had them since she was little, from when she played the angel in the town's Christmas pageant, and that she liked them so much she kept them on.
 >
+> ![[angel_noelle_showing_wings_from_her_closet.webp]]
+> *"They're from when I was the angel in the Holiday Pageant." — Noelle, showing the wings to Kris and Susie.*
+>
 > Catty also gives a "reading" (Watch Service) at the church, describing the Angel with almost teenage enthusiasm: [TODO: verify exact EN quote] "Oh my gosh, like, the Angel who watches over all of us? It has, like, this SUPER cool prophecy, predicted by time and space..." — a deliberate tonal contrast with the solemnity of the rest of the prophetic text.
 >
-> ![[Catty_overworld.png]]
-> *Catty, whose enthusiasm talking about the Angel contrasts with the solemnity of the rest of the prophetic text.*
+> ![[angel_catty_talking_about_angel.webp]]
+> *Catty's actual dialogue reading about the Angel — the most informal, least solemn tone in the entire Prophecy.*
 
 ## Relationships
 
 > [!quote]- Alvin
 > Firmly believes in the faith and the Prophecy, and treats the Angel with genuine religious respect — he prays for its guidance on behalf of the rest of the town. In Ch.5 he even attributes the previous chapter's church damage to it, describing it as [TODO: verify exact EN quote] "winds of great change." [[Alvin]]
 >
-> ![[Alvin_overwolrd.webp]]
-> *Alvin, Hometown's pastor, the most devout believer in the Angel in the whole note.*
+> ![[angel_alvin_talking_of_angel.png]]
+> *Alvin, outside the church: "Let the Angel's power light your way." — the most devout believer in the Angel in the whole note.*
 
 > [!quote]- Noelle
 > Has kept a worn pair of angel wings since she was a child, from when she played that role in the town's Christmas pageant — the most literal and least debated connection in the whole note, with no metaphorical weight attached. [[Noelle]]
