@@ -140,10 +140,7 @@ confianza: strong
 > ![[roots_asgore_room_noofficial.png]]
 > *(Unofficial) The third board's final fight, against "OWEN," with Asgore's silhouette overlaid to highlight how closely its attack pattern mirrors the original Undertale fight.*
 >
-> *Contrast note: the video that popularized this reading used it as the basis for predicting that Ch.5 would bring a Hometown-wide Dark World (coinciding with the Festival), with FRIEND itself — "the tail of hell" — as the chapter's Dark Crystal secret boss, fought by Kris and Noelle together after the Weird Route's ending. With Ch.5 now out, we know that's not what happened: the chapter's Dark World is Asgore's own flower shop (see [[Flowery]]), its confirmed secret boss is Pink (see [[Mad Mew Mew (Pink)]]), and Ch.5's Weird Route skips the Dark World entirely, ending straight at the Lake (see above). Toby Fox has hinted that "Roots" could still be the title of an unreleased track for Ch.6 or Ch.7 (see [[Profecía|Prophecy]]), so the connection between BIT ROOTS and a future Hometown Dark World isn't fully ruled out — just pushed further out than the original theory placed it.*
->
-> ![[Organic_forest_tail_dialogue.png]]
-> *"Lost where the forest would grow, the children followed the pointed tail." — the "tail" motif the original theory tied to FRIEND also shows up in this Organic Forest dialogue.*
+> *Contrast note: the video that popularized this reading used it as the basis for predicting that Ch.5 would bring a Hometown-wide Dark World (coinciding with the Festival), with FRIEND itself — "the tail of hell" — as the chapter's Dark Crystal secret boss, fought by Kris and Noelle together after the Weird Route's ending. With Ch.5 now out, we know that's not what happened: the chapter's Dark World is Asgore's own flower shop (see [[Flowery]]), its confirmed secret boss is Pink (see [[Mad Mew Mew (Pink)]]), and Ch.5's Weird Route skips the Dark World entirely, ending straight at the Lake (see above). Toby Fox has hinted that "Roots" could still be the title of an unreleased track for Ch.6 or Ch.7 (see [[Profecía|Prophecy]]), so the connection between BIT ROOTS and a future Hometown Dark World isn't fully ruled out — just pushed further out than the original theory placed it. The "tail" motif this theory tied to FRIEND, in fact, reappears in a dialogue from the Organic Forest — see [[FRIEND]].*
 
 ## Trivia
 - It's one of the few systems in the game that tracks progress silently and invisibly to the player, with no visible counter on screen — with the only partial exception being the Sword Route's unlabeled kill counter.
@@ -165,6 +162,8 @@ confianza: strong
 [[Submapas/Rutas.canvas|Open graphical submap]]
 
 ## Related video
-Video analysis that digs room-by-room into the BIT ROOTS board theory as a symbolic map of Hometown (see "## Theories" above) — the source of several of this note's comparison screenshots.
 
-{{youtube:n8WHKVwAw00}}
+> [!example]+0 Video analysis: BIT ROOTS as a map of Hometown
+> Video analysis that digs room-by-room into the BIT ROOTS board theory as a symbolic map of Hometown (see "## Theories" above) — the source of several of this note's comparison screenshots.
+>
+> {{youtube:n8WHKVwAw00}}

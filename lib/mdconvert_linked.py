@@ -354,7 +354,15 @@ def depth_of(line):
 
 def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapter_class=None):
     header = lines[0][1]
-    m = re.match(r"\[!(\w+)\]([+-]?)\s*(.*)", header)
+    # El "0" opcional justo despues de "+"/"-" (p.ej. "[!example]+0 Titulo")
+    # es una extension propia de este generador, no de la sintaxis Obsidian:
+    # desactiva la rotacion aleatoria de postit para ese callout en concreto.
+    # Se usa en callouts con contenido muy alto (p.ej. un iframe de YouTube)
+    # donde la rotacion hace que las esquinas se salgan visualmente de la
+    # tarjeta. El "+"/"-" en si (group 2) nunca se usa mas abajo -- es un
+    # resto cosmetico de la sintaxis de Obsidian que este generador ignora,
+    # ya que toda nota estatica se renderiza siempre "expandida".
+    m = re.match(r"\[!(\w+)\]([+-]?)(0)?\s*(.*)", header)
     # Un bloque anidado (">" extra de profundidad dentro de un callout) sin
     # marcador "[!tipo]" propio no es un callout "vacio": es una cita simple
     # (p.ej. ">> texto citado"). Si se trata lines[0] como cabecera de todos
@@ -365,7 +373,8 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapte
     # match se trata como cita ("quote") y se arranca el cuerpo en i=0 para
     # que esa primera linea SI se procese como contenido normal.
     ctype = m.group(1) if m else "quote"
-    title = m.group(3) if m else ""
+    no_rotate = bool(m.group(3)) if m else False
+    title = m.group(4) if m else ""
     icon, color = CALLOUT_ICONS.get(ctype, ("note", "#8a7a5c"))
     base_depth = lines[0][0]
     # "Ficha de personalidad" (callout tipo tip) es la unica seccion donde las
@@ -465,7 +474,7 @@ def render_callout_block(lines, sprites_prefix, depth=0, body_only=False, chapte
     except ImportError:
         rotation_for = lambda t: 0
         torn_variant_for = lambda t: 1
-    rot = rotation_for((title or ctype) + str(depth)) * (1.3 if depth > 0 else 1)
+    rot = 0 if no_rotate else rotation_for((title or ctype) + str(depth)) * (1.3 if depth > 0 else 1)
     torn_variant = torn_variant_for((title or ctype) + str(depth) + ctype)
     cls_extra = f" {chapter_class}" if chapter_class else ""
     cls_extra += f" callout-torn-{torn_variant}"
