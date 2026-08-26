@@ -219,13 +219,13 @@ He's the only one of the three protagonists whose title depends directly on whic
 *The icon used in the battle menu.*
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Asriel]]
 - [[Fuentes Oscuras|Dark Fountains]]
 - [[Kris]]
 - [[Susie]]
 - [[Flowery]]
 - [[FRIEND]]
-- [[Profecía|Prophecy]]
 
 ## Submap
 [[Submapas/Ralsei.canvas|Open graphical submap]]

@@ -122,9 +122,6 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 > ![[Susie_screenshot_bleeding.png]]
 > *La mano de Susie sangrando tras romper el tapiz de la Última Profecía — el momento más citado de su arco.*
 >
-> ![[susie_bleeding.webp]]
-> *El instante justo después del golpe contra el tapiz: Susie se disculpa ante Kris y Ralsei ("I'm sorry, I--").*
->
 > 🎲 Un "espejo" curioso entre juegos: Undertale tiene su propia versión de esta misma anomalía. Un sprite de combate poco visto de [[Sans]], solo accesible en circunstancias muy concretas de la Ruta Genocida, lo muestra sangrando por la boca y con un corte en el torso — algo que, según las propias reglas de Undertale, no debería ser posible para ningún monstruo (se desvanecen en polvo al morir, no sangran, y menos aún un esqueleto). El fandom conecta ambas pistas como el mismo tipo de imposibilidad biológica repetida en los dos juegos: un monstruo "fuera de lugar" en cada uno, sangrando justo en un momento de ruptura o rechazo —Susie, al negarse a aceptar cómo termina la Última Profecía—. Desarrollo completo en [[Conexión Undertale]].
 >
 > > [!danger]- Una posible pista adicional sobre su sangre (Cap.4)

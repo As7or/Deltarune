@@ -85,11 +85,11 @@ confianza: fuerte
 > Es llamativo que, de toda la Profecía, la única parte que se cumple de forma clara, directa y verificable a día de hoy sea justo la más absurda y menos trascendente — la barba de Jockington —, mientras que el resto de personajes (Gerson Boom incluido, con su "hay que leer entre líneas") insisten en que el texto profético admite muchas lecturas y no debe tomarse al pie de la letra. Una lectura de fandom ve aquí una broma deliberada de Toby Fox: demostrar que la Profecía sí puede cumplirse tal cual está escrita, pero eligiendo a propósito el fragmento con menos peso narrativo posible para hacerlo, dejando en el aire qué pasará el día que se cumpla literalmente una parte importante. Ver [[Profecía]] y [[Gerson Boom]].
 
 ## Relacionado
+- [[Profecía]]
 - [[Catti]]
 - [[Kris]]
 - [[Susie]]
 - [[Noelle]]
-- [[Profecía]]
 - [[Gerson Boom]]
 
 ## Submapa

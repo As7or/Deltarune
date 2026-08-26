@@ -109,6 +109,11 @@ confianza: oficial
 > ![[carol_call_dess_room.jpg]]
 > *La llamada de los conductos, desde el cuarto oscuro y preservado de Dess — "...I'll be... right there..." — la voz distorsionada que el ALMA de Kris oye a través de la rejilla.*
 >
+> Durante ese mismo recorrido por los conductos, el ALMA puede además asomarse a la cocina — donde se ve a la propia Carol en mitad de otra llamada. Si se intenta entrar a investigar, Kris atrapa el ALMA de inmediato y la encierra de nuevo en la caja de regalo del cuarto de invitados, cortando la exploración en seco. No es una llamada distinta ni añade diálogo nuevo, pero sí es la única vez en toda esta teoría en la que se ve a Carol al teléfono con los propios ojos, en vez de deducirlo solo por la coincidencia de tiempos.
+>
+> ![[soul_ventilation_kris_chocolate_interaction_cap4.jpeg]]
+> *El ALMA asomándose a la cocina a través de los conductos, con Carol al fondo, aparentemente al teléfono — Kris la atrapa de inmediato si se intenta entrar. Ver también [[Jugador]].*
+>
 > Existe además una **tercera llamada, esta sí prácticamente confirmada como suya**: tras sellarse las Fuentes del capítulo, Kris recibe un mensaje de voz que usa literalmente el sample de sonido de Carol (aunque sin su retrato en el cuadro de diálogo), confirmando que Noelle está deseando verle en el Festival al día siguiente — la misma frase de bienvenida que dice en persona más abajo, en la teoría del Ángel. Esta sí está prácticamente confirmada como ella por el propio sonido usado, a diferencia de las otras dos. **En conjunto: la llamada de los conductos y la de la ventana siguen sin confirmarse; la del Festival, por el contrario, sí usa el sonido real de Carol.**
 >
 > ![[Carol_call_weird_route.webp]]
@@ -154,6 +159,7 @@ confianza: oficial
 - [[Roaring Knight]]
 - [[Susie]]
 - [[Toriel]]
+- [[Jugador]]
 
 ## Submapa
 [[Submapas/Carol.canvas|Abrir submapa gráfico]]

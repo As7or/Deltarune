@@ -24,7 +24,15 @@ confianza: fuerte
 ## Dónde aparece
 
 > [!example]+ Capítulo 1 — La creación del Vessel (Goner Maker)
-> Antes de que exista Kris, y con la ventana del juego literalmente titulada "CONTACT", una voz sin cuerpo pregunta al Jugador si está "conectado". Aparece un ALMA roja, y la voz guía la construcción de un cuerpo —un "VESSEL"— eligiendo cabeza (8 opciones), cuerpo (6) y piernas (5): todas las piezas seleccionables aparecen en escala de grises. Pregunta también qué "regalo" debería tener (por defecto, MIND) y dos preguntas de sí/no sobre si se acepta "la posibilidad de dolor y convulsiones" — responder que no a cualquiera de las dos no cambia nada: la voz responde "ENTENDIDO" y continúa igualmente, sin dar opción real a retractarse.
+> Antes de que exista Kris, y con la ventana del juego literalmente titulada "CONTACT", una voz sin cuerpo pregunta al Jugador si está "conectado". Nada más confirmarlo, la voz anuncia "WE MAY BEGIN." y aparece un ALMA roja: la voz guía la construcción de un cuerpo —un "VESSEL"— eligiendo cabeza (8 opciones), cuerpo (6) y piernas (5): todas las piezas seleccionables aparecen en escala de grises. Pregunta también qué "regalo" debería tener (por defecto, MIND) y dos preguntas de sí/no sobre si se acepta "la posibilidad de dolor y convulsiones" — responder que no a cualquiera de las dos no cambia nada: la voz responde "ENTENDIDO" y continúa igualmente, sin dar opción real a retractarse.
+>
+> ![[Voice_screenshot_connection.png]]
+> *"WE MAY BEGIN." — la Voz, justo al confirmar la conexión, antes de empezar a construir el Vessel.*
+>
+> A mitad de la selección de piezas, la propia Voz marca el progreso: "THE HALFWAY MARK HAS BEEN ATTAINED."
+>
+> ![[Voice_screenshot_halfway_mark.png]]
+> *"THE HALFWAY MARK HAS BEEN ATTAINED." — la Voz, a mitad de la creación del Vessel.*
 >
 > Por último, pide nombrar al Vessel (máximo 9 caracteres, ej. "DELTARUNE") y, después, el nombre real de quien está jugando (máximo 12, solo mayúsculas) — rompiendo la cuarta pared de la forma más directa de todo el juego. Escribir "GASTER" como cualquiera de los dos nombres reinicia la introducción por completo, un guiño directo a que en Undertale ponerle ese mismo nombre al humano caído devolvía al jugador al prólogo.
 >
@@ -44,8 +52,13 @@ confianza: fuerte
 > [!example]+ Capítulo 2 — Snowgrave y la separación más citada
 > Si se completa la Ruta Snowgrave, Noelle llega a cuestionar directamente si de verdad es Kris quien está haciendo lo que está pasando — una de las pocas veces en que un personaje verbaliza en voz alta la sospecha de que hay alguien más detrás de las decisiones de Kris. Al final del capítulo, Kris vuelve a arrancarse el ALMA y actúa en solitario, esta vez abriendo una nueva Fuente Oscura con su propio cuchillo.
 
-> [!example]+ Capítulo 4 — la Ruta Rara y el ALMA "castigada"
-> Solo accesible si ya se completó la Ruta Rara del Cap.2. Kris usa el ALMA para viajar sola, a través de los conductos de ventilación, hasta la habitación de Noelle en su casa — mientras el cuerpo de Kris se queda en otro punto de la casa, completamente separado. Noelle cuenta que Kris fue a verla de noche para intentar arreglar lo ocurrido en la Ruta Rara del Cap.2, y que le sacó la espina clavada en el dedo (la contraparte en el Mundo Claro del ThornRing) — dice alegrarse de volver a oír su voz "seria y entre dientes", y pregunta si puede decir algo más: el Jugador elige entre "Que proceda" o "Por favor, no". Si se elige "Que proceda", el ALMA puede entrar de nuevo en la habitación y volver al cuerpo de Kris.
+> [!example]+ Capítulo 4 — los conductos de ventilación y el ALMA "castigada"
+> En la ruta normal, mientras Kris hace la llamada misteriosa a solas desde el armario, el Jugador puede mover el ALMA de forma independiente por los conductos de ventilación de casa de Noelle. Si se intenta acceder a la cocina, se puede ver a Carol en mitad de otra llamada — pero Kris atrapa el ALMA de inmediato y la vuelve a encerrar en la caja de regalo del cuarto de invitados, cortando la exploración en seco.
+>
+> ![[soul_ventilation_kris_chocolate_interaction_cap4.jpeg]]
+> *El ALMA asomándose a la cocina a través de los conductos, con Carol al fondo — si se intenta entrar, Kris la atrapa y la encierra de nuevo.*
+>
+> Solo accesible si ya se completó la Ruta Rara del Cap.2, existe además una segunda instancia de este mismo mecanismo: Kris usa el ALMA para viajar sola, de nuevo por los conductos de ventilación, hasta la habitación de Noelle en su casa — mientras el cuerpo de Kris se queda en otro punto de la casa, completamente separado. Noelle cuenta que Kris fue a verla de noche para intentar arreglar lo ocurrido en la Ruta Rara del Cap.2, y que le sacó la espina clavada en el dedo (la contraparte en el Mundo Claro del ThornRing) — dice alegrarse de volver a oír su voz "seria y entre dientes", y pregunta si puede decir algo más: el Jugador elige entre "Que proceda" o "Por favor, no". Si se elige "Que proceda", el ALMA puede entrar de nuevo en la habitación y volver al cuerpo de Kris.
 >
 > Antes de eso, Noelle pregunta en voz alta a quién le preocupa que oiga lo que está diciendo — mientras Kris intenta taparle la boca sin éxito. El Jugador puede elegir la opción "A mí", revelándose una vez más como una entidad separada directamente ante Noelle.
 >
@@ -62,7 +75,7 @@ confianza: fuerte
 > ![[player_kris_soul_cap5_darkfountain.webp]]
 > *Kris, solo frente a Flower King, creando la Fuente Oscura del Reino de las Flores en el Cap.5.*
 
-## Catálogo — cada vez que Kris nos expulsa de su cuerpo
+### Catálogo — cada vez que Kris nos expulsa de su cuerpo
 Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en los que Kris se arranca el ALMA y actúa sin el Jugador:
 - **Cap.1**: al final, tras sellar la primera Fuente, se arranca el ALMA y la tira a una jaula — empuña un cuchillo, sonríe con malicia y su ojo destella en rojo (con un sprite reciclado de Asgore en Undertale).
 - **Cap.2**: al volver a casa tras el Mundo Cíber, en vez de lavarse las manos se arranca el ALMA y la tira al lavabo. Si se completó la Ruta Rara, vuelve a arrancársela al final del capítulo para abrir una nueva Fuente con su propio cuchillo.
@@ -74,43 +87,10 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 - **Cap.4 (ruta normal)**: la esconde en una caja de regalo del cuarto de invitados en casa de Noelle antes de hablar a solas con ella; en la Ruta Rara, además, la usa para viajar sola por los conductos de ventilación (ver más arriba) y termina pateándola dentro de una papelera.
 - **Cap.5**: se la vuelve a arrancar para crear la Fuente del Reino de las Flores sin que Susie se dé cuenta, y en otros puntos sueltos del capítulo.
 
-## La Voz — ¿quién habla al principio?
-
-> [!info]+ Ficha rápida
-> 🎙️ Personaje aún sin ver, que se dirige directamente al Jugador durante la creación del Vessel en la introducción del Cap.1 — uno de los pocos personajes de todo el juego que reconoce activamente su existencia.
-> 🔠 Habla siempre en mayúsculas, con un ritmo lento y deliberado, en un tono formal y parco — el mismo estilo que usan los logros/trofeos de las versiones de PS4 y PS5.
-> 🕹️ Vuelve a hablar si se produce un Game Over en el Cap.1: reconoce que "parece que has llegado a un final" y pregunta si se quiere volver a intentar, asegurando que "el futuro está en tus manos".
-> 🗂️ La secuencia de creación del Vessel se llama internamente **GONERMAKER**, y el propio Vessel queda etiquetado en los archivos del juego como **"GONER"**.
-
-> [!question]+ ¿Es la Voz W. D. Gaster?
-> Una de las teorías más sólidas y con más pruebas de archivo de todo el juego — apodada por la comunidad "la Lista de Gaster":
-> - El propio nombre interno de la secuencia, **GONERMAKER**, y el Vessel etiquetado como **"GONER"**, conectan directamente con los "Goners" de Undertale (Goner Kid, Goner Clam Girl) — NPCs grises ya asociados a Gaster, que desaparecen con el mismo efecto de sonido que él y sus Seguidores.
-> - El Vessel se genera en escala de grises, igual que esos mismos NPCs justo antes de desaparecer.
-> - El tema de la introducción, "ANOTHER HIM", comparte leitmotiv con el "Tema de Gaster" (etiquetado internamente `mus_st_him` en Undertale) — ambos usan el mismo piano del banco de sonido de Chrono Trigger.
-> - Escribir "GASTER" como nombre del Vessel o del propio Jugador reinicia la introducción — el mismo truco que en Undertale al llamar "Gaster" al humano caído.
-> - Antes del propio anuncio de Deltarune, la cuenta oficial de Undertale en Twitter se quedó en blanco y tuiteó, en el mismo estilo que la Voz, que tenía algo que enseñar que le parecía "MUY, MUY INTERESANTE" — una cita casi literal de la Entry Number Seventeen de Gaster en Undertale.
-> - Según la teoría conocida como "Gaster's List", cada nombre que recibe una respuesta especial de la Voz al escribirlo en la secuencia pertenece, casi sin excepción, a un Lightner real de Hometown — como si quien pregunta ya conociera, o estuviera catalogando, a la gente real de ese mundo.
->
-> 🎲 **La Voz también habla durante el combate contra el Roaring Knight**, mientras Kris "aguanta la respiración" bajo el agua — con el mismo formato visual que usa en la introducción y en la pantalla de Game Over (fondo negro, un corazón rojo, texto en mayúsculas). A diferencia de las pistas anteriores, esto sí es diálogo directo dentro de un combate, no una coincidencia de archivo. Desarrollo completo, con capturas, en [[Gaster (W. D. Gaster)]].
->
-> **Teoría muy extendida y con bastante apoyo de archivo, pero nunca confirmada por el propio juego ni por Toby Fox.**
->
-> ![[gaster_gonerkid.webp]]
-> *Goner Kid, uno de los NPCs grises de Undertale ya asociados a Gaster — la misma estética que el propio Vessel del Jugador.*
->
-> ![[gaster_gonerclampgirl.webp]]
-> *Clam Girl transformándose en su versión gris, "Clam Goner", justo antes de desaparecer — el mismo patrón visual.*
-
-> [!question]- ¿Son la Voz y la "segunda voz" que descarta el Vessel la misma entidad?
-> No está del todo claro. Toda la evidencia de "Gaster's List" se apoya en la parte de la secuencia donde se construye el Vessel y se le pone nombre — pero el fragmento final, el que declara que el Vessel será "descartado" porque "nadie puede elegir quién es en este mundo", cambia de estilo de texto (minúsculas, sin brillo, sin ambiente) justo antes de asignar la conexión a Kris. Parte de la comunidad lee esto como una segunda entidad distinta interrumpiendo a la primera; otra parte lo lee como la misma Voz cambiando de registro para un anuncio más solemne. **Sin ninguna confirmación oficial en ningún sentido.**
-
-> [!question]- ¿Crea Gaster Vessels como parte de un experimento?
-> Una extensión más especulativa de la teoría anterior: si la Voz es Gaster, cabe la posibilidad de que el propio proceso de crear un Vessel no sea solo un guiño metanarrativo al jugador, sino un experimento real dentro de la ficción — Gaster generando cuerpos vacíos y monocromáticos (como los propios Goners) para alojar algo, con el Jugador como uno más de esos sujetos de prueba, y Kris como el resultado final ya "estabilizado" del proceso. Esto conectaría con la propia teoría, ya recogida en la nota de [[Clam Guy]], de que Susie podría estar ligada a Suzy —la Clam Girl que se transforma en su versión gris "Clam Goner" justo antes de desaparecer— como parte del mismo patrón de Gaster poseyendo o usando cuerpos ajenos como vasijas. **Teoría especulativa de fans, construida sobre otra teoría no confirmada — dos capas de "sin confirmar" apiladas.**
-
 ## Relaciones
 
 > [!quote]- Gaster (W. D. Gaster)
-> La teoría "Gaster's List" — apoyada en el nombre interno GONERMAKER, el Vessel etiquetado "GONER", la escala de grises compartida con los Goners, y el leitmotiv musical compartido — lo señala como la Voz que guía la creación del primer Vessel. [[Gaster (W. D. Gaster)]]
+> Quien guía la creación del primer Vessel en la introducción del Cap.1 —y quien vuelve a hablar durante el combate contra el Roaring Knight— es, casi con toda seguridad, la misma "Voz". La teoría "Gaster's List" (nombre interno GONERMAKER, el Vessel etiquetado "GONER", la escala de grises compartida con los Goners, el leitmotiv musical compartido) y todo el desarrollo completo de la Voz —incluidas sus capturas— viven en la propia nota de Gaster. [[Gaster (W. D. Gaster)]]
 
 > [!quote]- Clam Guy
 > Su vínculo con Clam Girl —transformándose en "Clam Goner" justo antes de desaparecer— comparte el mismo patrón visual y sonoro que el propio Vessel del Jugador, y alimenta la teoría de Gaster poseyendo o usando cuerpos ajenos como vasijas. [[Clam Guy]]
@@ -134,12 +114,18 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 
 > [!question]+ ¿Es el Jugador, en realidad, el Ángel de la Profecía?
 > La lectura más extendida: el Ángel no sería un personaje del elenco, sino una personificación narrativa de quien está al mando desde fuera de la ficción — es decir, la persona que juega. Encajaría con el propio diseño metanarrativo de la saga (la Voz inicial, el Vessel descartado, el propio nombre real que se pide al jugador) y con que la Profecía describa al Ángel como alguien con "un deseo que finalmente alcanzará una vez desterrado" — posiblemente el deseo de saber cómo termina la historia. Bajo esta lectura, "desterrar" al Ángel equivaldría a que el Jugador pierda el control sobre Kris al final de la serie. **Teoría fuerte y muy extendida, aunque el juego nunca lo confirma con estas palabras exactas — ver también la nota de [[Ángel]].**
+>
+> ![[3rd_Sanctuary_location_angel_prophecy.png]]
+> *"The Angel, banished, will finally meet with its desire." — la línea exacta de la Profecía que sostiene toda esta lectura.*
 
 > [!question]- ¿Es el Jugador, en realidad, Chara?
 > Dado que el final Genocida de Undertale es canon dentro de esa misma continuidad, y que Chara se despide de esa partida diciendo "no queda nada para nosotros aquí, borremos este mundo sin sentido y pasemos al siguiente", parte del fandom teoriza que Deltarune podría ser, literalmente, "el siguiente mundo" — con Kris como el nuevo Vessel de Chara/el Jugador. **Teoría de fans extendida, que depende de asumir qué final de Undertale se importó a la partida — sin confirmación directa dentro de Deltarune.**
 
 > [!question]- ¿Quién es la segunda voz que descarta al primer Vessel?
 > Al principio del Cap.1, una segunda entidad —distinta de la voz que guía la creación del primer Vessel— interrumpe el proceso, declara que ese Vessel será "descartado" y asigna la conexión del Jugador a Kris. Su identidad nunca se aclara: las teorías más citadas apuntan a Gaster, a la propia "Voz" que ya aparecía en Undertale, o a una entidad completamente nueva sin relación con personajes conocidos. En la versión japonesa, esta segunda voz habla en kanji y hiragana, un detalle que distintos análisis han usado para intentar identificarla, sin resultado concluyente. **Sin ninguna confirmación oficial.**
+>
+> ![[player_soul_discarded_voice.png]]
+> *"Will now be discarded." — el instante exacto en el que esta segunda voz descarta al primer Vessel.*
 
 ## Curiosidades
 - El nombre real que se le pide al Jugador durante la creación del primer Vessel se guarda dentro del archivo de guardado, aunque ese Vessel nunca vuelve a usarse tal cual.
@@ -155,6 +141,7 @@ Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en l
 - [[Clam Guy]]
 - [[Roaring Knight]]
 - [[Tenna]]
+- [[Carol]]
 
 ## Submapa
 [[Submapas/Jugador.canvas|Abrir submapa gráfico]]

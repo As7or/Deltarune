@@ -115,6 +115,7 @@ La vidriera 04 de la Última Profecía —"Si las Fuentes se liberan, el Rugido 
 - El propio Ralsei estuvo a punto de evitar que Berdly abriera una Fuente explicándole el Rugido — la misma explicación que, capítulos después, sigue sin disuadir al Caballero de seguir abriendo las suyas.
 
 ## Relacionado
+- [[Profecía]]
 - [[Roaring Knight]]
 - [[Kris]]
 - [[Susie]]
@@ -124,7 +125,6 @@ La vidriera 04 de la Última Profecía —"Si las Fuentes se liberan, el Rugido 
 - [[Berdly]]
 - [[Titan]]
 - [[Shelter]]
-- [[Profecía]]
 
 ## Submapa
 [[Submapas/Fuentes Oscuras.canvas|Abrir submapa gráfico]]

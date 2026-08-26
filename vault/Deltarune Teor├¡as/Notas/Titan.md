@@ -96,13 +96,13 @@ confianza: oficial
 - Es el segundo jefe final de un capítulo que no es el antagonista principal de este —el primero fue el propio Caballero Rugiente, derrotado antes que Tenna en el Cap.3.
 
 ## Relacionado
+- [[Profecía]]
 - [[Roaring Knight]]
 - [[Fuentes Oscuras]]
 - [[Gerson Boom]]
 - [[Ralsei]]
 - [[Susie]]
 - [[Kris]]
-- [[Profecía]]
 - [[Cristal Oscuro]]
 
 ## Submapa

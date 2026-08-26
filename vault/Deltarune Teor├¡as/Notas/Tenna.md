@@ -160,6 +160,7 @@ confianza: fuerte
   *Una de sus animaciones/poses menos convencionales, muy citada por el fandom.*
 
 ## Relacionado
+- [[Profecía]]
 - [[Spamton]]
 - [[Kris]]
 - [[Mike]]
@@ -167,7 +168,6 @@ confianza: fuerte
 - [[Ralsei]]
 - [[Susie]]
 - [[Roaring Knight]]
-- [[Profecía]]
 - [[Flowery]]
 
 ## Submapa

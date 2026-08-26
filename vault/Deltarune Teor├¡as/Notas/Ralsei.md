@@ -219,13 +219,13 @@ Es el único de los tres protagonistas cuyo título depende directamente de qué
 *El icono usado en el menú de combate.*
 
 ## Relacionado
+- [[Profecía]]
 - [[Asriel]]
 - [[Fuentes Oscuras]]
 - [[Kris]]
 - [[Susie]]
 - [[Flowery]]
 - [[FRIEND]]
-- [[Profecía]]
 
 ## Submapa
 [[Submapas/Ralsei.canvas|Abrir submapa gráfico]]

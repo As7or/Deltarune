@@ -96,13 +96,13 @@ confianza: official
 - It's the second final boss of a chapter that isn't its main antagonist — the first was the Roaring Knight himself, defeated before Tenna in Ch.3.
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Roaring Knight]]
 - [[Fuentes Oscuras|Dark Fountains]]
 - [[Gerson Boom]]
 - [[Ralsei]]
 - [[Susie]]
 - [[Kris]]
-- [[Profecía|Prophecy]]
 - [[Cristal Oscuro|Shadow Crystal]]
 
 ## Submap

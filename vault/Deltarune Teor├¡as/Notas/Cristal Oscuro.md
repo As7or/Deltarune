@@ -148,6 +148,7 @@ El Shadow Mantle es un objeto **distinto** a los Cristales Oscuros, pero pertene
 - Si se le entrega a Seam un Cristal de un capítulo posterior antes que uno anterior pendiente, él redirige al agujero de Castle Town — pero no es posible recuperar así Cristales de más de dos capítulos atrás.
 
 ## Relacionado
+- [[Profecía]]
 - [[Jevil]]
 - [[Spamton]]
 - [[Roaring Knight]]
@@ -156,7 +157,6 @@ El Shadow Mantle es un objeto **distinto** a los Cristales Oscuros, pero pertene
 - [[Seam]]
 - [[ERAM]]
 - [[Jugador]]
-- [[Profecía]]
 
 ## Submapa
 [[Submapas/Cristal Oscuro.canvas|Abrir submapa gráfico]]

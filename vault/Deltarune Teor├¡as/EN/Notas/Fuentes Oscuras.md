@@ -115,6 +115,7 @@ Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the R
 - Ralsei himself nearly stopped Berdly from opening a Fountain by explaining the Roaring to him — the same explanation that, chapters later, still doesn't stop the Knight from continuing to open his own.
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Roaring Knight]]
 - [[Kris]]
 - [[Susie]]
@@ -124,7 +125,6 @@ Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the R
 - [[Berdly]]
 - [[Titan]]
 - [[Shelter]]
-- [[Profecía|Prophecy]]
 
 ## Submap
 [[Submapas/Fuentes Oscuras.canvas|Open graphical submap]]

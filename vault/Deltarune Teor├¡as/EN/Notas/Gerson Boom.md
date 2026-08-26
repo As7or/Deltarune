@@ -228,10 +228,10 @@ The title "Dragon Blazers" may be a nod to the real 1992 video game *Soul Blazer
 *The axe's drawing among the floating tapestries of the 3rd Sanctuary — the only piece of the discarded tapestry naming Gerson "The Tortoise" that made it into the final version.*
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Susie]]
 - [[Alvin]]
 - [[Roaring Knight]]
-- [[Profecía|Prophecy]]
 - [[Jackenstein]]
 - [[Ralsei]]
 - [[Gaster (W. D. Gaster)]]

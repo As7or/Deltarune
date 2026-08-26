@@ -148,6 +148,7 @@ The Shadow Mantle is an item **distinct** from the Shadow Crystals, but belongs 
 - If a Crystal from a later chapter is handed to Seam before an earlier pending one, he redirects to the Castle Town hole — but it isn't possible to recover Crystals from more than two chapters back this way.
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Jevil]]
 - [[Spamton]]
 - [[Roaring Knight]]
@@ -156,7 +157,6 @@ The Shadow Mantle is an item **distinct** from the Shadow Crystals, but belongs 
 - [[Seam]]
 - [[ERAM]]
 - [[Jugador|Player]]
-- [[Profecía|Prophecy]]
 
 ## Submap
 [[Submapas/Cristal Oscuro.canvas|Open graphical submap]]

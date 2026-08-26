@@ -121,13 +121,39 @@ The day before Ch.1's release, Undertale's official Twitter accounts (English an
 ![[gaster_toby_fox_tweets_as_gaster.webp]]
 *A screenshot of the coded tweets from the Undertale account, the night before Ch.1's release.*
 
+## The intro Voice
+
+> [!info]+ Quick profile
+> 🎙️ A still-unseen character who speaks directly to the Player during the Vessel's creation in the Chapter 1 intro — one of the few characters in the whole game to actively acknowledge the Player's existence.
+> 🔠 Always speaks in all caps, at a slow, deliberate pace, in a formal, sparse tone — the same style used by the achievements/trophies on the PS4 and PS5 versions.
+> 🕹️ Speaks again if there's a Game Over in Chapter 1: "THEN THE WORLD WAS COVERED IN DARKNESS." and "YOUR LOSS HERE IS ALL BUT GUARANTEED." — the same dry, spaced-out tone as its other appearances.
+> 🗂️ The Vessel creation sequence is internally called **GONERMAKER**, and the Vessel itself is labeled in the game's files as **"GONER."**
+
+![[Voice_screenshot_darkness.png]]
+*"THEN THE WORLD WAS COVERED IN DARKNESS." — the Voice, on Chapter 1's Game Over screen.*
+
+![[Voice_screenshot_loss.png]]
+*"YOUR LOSS HERE IS ALL BUT GUARANTEED." — the same screen, a moment later.*
+
 ## Theories
 
 > [!question]+ Who are "the two of you" in Entry 17's final question?
 > That question is never answered within the game itself. The most widespread reading, with the most supporting clues, is that Gaster is addressing **Sans and Papyrus**: Sans has access to a "Gaster Blaster" as his own attack, there are blueprints and a covered machine in his house in Snowdin, and Sans's wrong-number song is looking for someone whose name starts with "G." Another, more minority reading argues that Gaster, Sans, and Papyrus are actually outsiders from another world — leaning on the fact that the Waterfall shopkeeper mentions the brothers "just showed up one day" in town, with no further explanation — which would fit with Gaster's own nature of "being outside of time and space."
 
 > [!question]+ Is the intro Voice Gaster himself?
-> This is, by far, the strongest of all the theories related to him. In favor: the tone and format of the tweets match, point by point, the Voice's within the game; both quote Entry 17 almost verbatim ("very, very interesting"); the "Vessel" created in the intro is internally labeled "Goner," the same term used for the rest of the grey characters tied to Gaster; and the Voice's font value is 666. Against it: it's never directly confirmed within the game itself, not even indirectly, by full name. **An extremely well-supported fan theory; not 100% confirmed by the script.**
+> This is, by far, the strongest of all the theories related to him — nicknamed by the community "the Gaster List":
+> - The sequence's own internal name, **GONERMAKER**, and the Vessel labeled **"GONER,"** connect directly to Undertale's "Goners" (Goner Kid, Goner Clam Girl) — grey NPCs already associated with Gaster (see sections above), who vanish with the same sound effect as him and his Followers.
+> - The Vessel is generated in grayscale, just like those same NPCs right before they disappear.
+> - The intro theme, "ANOTHER HIM," shares a leitmotif with the "Gaster Theme" (internally labeled `mus_st_him` in Undertale) — both use the same Chrono Trigger soundfont piano.
+> - Typing "GASTER" as the Vessel's or Player's own name resets the intro — the same trick as calling the fallen human "Gaster" in Undertale.
+> - The tone and format of the tweets from the night before Ch.1 (see section above) match, point by point, the Voice's within the game; both quote Entry 17 almost verbatim ("very, very interesting").
+> - The Voice's font value in the intro is 666.
+> - According to the theory known as "Gaster's List," every name that gets a special response from the Voice when typed into the sequence belongs, almost without exception, to a real Lightner from Hometown — as if whoever is asking already knew, or was cataloguing, the real people of that world.
+>
+> Against it: it's never directly confirmed within the game itself, not even indirectly, by full name. **An extremely well-supported fan theory; not 100% confirmed by the script.**
+
+> [!question]- Are the Voice and the "second voice" that discards the Vessel the same entity?
+> It's not entirely clear. All the "Gaster's List" evidence rests on the part of the sequence where the Vessel is built and named — but the final segment, the one declaring the Vessel will be "discarded" because "no one can choose who they are in this world," changes text style (lowercase, no glow, no ambience) right before assigning the connection to Kris. Part of the community reads this as a second, distinct entity interrupting the first; another part reads it as the same Voice shifting register for a more solemn announcement. **No official confirmation either way.** See [[Jugador|Player]] for the exact moment this happens.
 
 > [!question]- What is his true appearance?
 > None of his "visible" forms is confirmed as his real appearance: Mystery Man is a deformed, cracked sprite with no collision, more a broken silhouette than a finished design; REDACTED, his equivalent in Deltarune, is directly censored on screen; and neither one is ever shown in a normal playthrough without tricks. The most widespread reading is that he'd be a skeleton, to match Sans and Papyrus if they're his sons, but that's an inference from kinship, not a design confirmed in any game file. **Unconfirmed; his true appearance, if he has one, remains a deliberate mystery on the part of the game itself.**
@@ -136,7 +162,14 @@ The day before Ch.1's release, Undertale's official Twitter accounts (English an
 > This is the most popular reading of the [[Forgotten Man]]'s identity: he moves freely between the Light World and the Dark, speaks in timeless terms about the world's origin, fits the description of someone "shattered across space and time," and the room where he appears in Ch.1 shares its structure with Mystery Man's room in Undertale. Against it: his way of speaking in Ch.3 is noticeably different from the Voice's, which makes part of the fandom doubt they share an identity. See [[Forgotten Man]] for the full discussion, including the other two alternative readings of who he is. **A fan theory, the most popular one about the Forgotten Man's identity; unconfirmed.**
 
 > [!question]- Is Deltarune Gaster's "experiment," and is Undertale the result of a "weird route"?
-> Putting several pieces together — that Toby Fox called Deltarune an "experiment" before its release, that the Voice/Gaster talks about "showing something" to the player, and that Deltarune's entire premise revolves around an "Angel" controlling Kris from outside — part of the fandom speculates with a meta reading: that Deltarune would be, within its own fiction, an experiment by Gaster himself to observe how "the player" behaves under different conditions, and that Undertale could be read retroactively as a prior simulation, or even as the result of one of his "weird routes." It's one of the most speculative theories that exist about him — a nice meta-narrative reading, but with no direct textual support within either game. **A highly speculative fan theory; unconfirmed.**
+> Putting several pieces together — that Toby Fox called Deltarune an "experiment" before its release, that the Voice/Gaster talks about "showing something" to the player, and that Deltarune's entire premise revolves around an "Angel" controlling Kris from outside — part of the fandom speculates with a meta reading: that Deltarune would be, within its own fiction, an experiment by Gaster himself to observe how "the player" behaves under different conditions, and that Undertale could be read retroactively as a prior simulation, or even as the result of one of his "weird routes." It's one of the most speculative theories that exist about him — a nice meta-narrative reading, but with no direct textual support within either game.
+>
+> A more concrete extension of this same idea: if the Voice is Gaster, it's possible that the very process of creating a Vessel isn't just a metanarrative nod to the player, but a real experiment within the fiction — Gaster generating empty, monochrome bodies (like the Goners themselves) to house something, with the Player as just one more of those test subjects, and Kris as the process's final, already "stabilized" result. This would connect with the theory, already covered in the [[Clam Guy]] note, that Susie could be linked to Suzy — the Clam Girl who turns into her grey "Clam Goner" version right before disappearing (see section above) — as part of the same pattern of Gaster possessing or using other people's bodies as vessels.
+>
+> ![[Voice_screenshot_connection.png]]
+> *"WE MAY BEGIN." — the start of a Vessel's creation, under this reading, the launch of one more experiment.*
+>
+> **A highly speculative fan theory, with two layers of "unconfirmed" stacked on each other; unconfirmed.**
 
 ## References and clues by chapter (Deltarune)
 This section brings together, chapter by chapter, everything within Deltarune itself that has been connected to Gaster — to keep it clearly separate from the clues that come from Undertale (Followers, Mystery Man, Entry 17, Clam Girl), gathered above.
@@ -201,6 +234,9 @@ This section brings together, chapter by chapter, everything within Deltarune it
 > [!quote]- Clam Girl
 > Her dialogue about "Suzy" is the earliest, most surprising clue of Susie's existence, months before Deltarune was even announced. See the dedicated section above.
 
+> [!quote]- Player
+> Almost certainly the Voice that addresses the Player during the Vessel's creation in the Chapter 1 intro — the SOUL mechanic that Kris tears from their chest throughout the series is the whole basis of the Player's own note. [[Jugador|Player]]
+
 > [!quote]- Normal NPC
 > A possible Lightner counterpart of his within Deltarune — its internal file name, "normalnpc," is just as unconventional as the rest of the clues tied to Gaster. [[Normal NPC]]
 
@@ -231,6 +267,7 @@ This section brings together, chapter by chapter, everything within Deltarune it
 - There was an official Gaster collectible card that was pulled and replaced with Gerson Boom once the collection became an official license — Toby Fox himself hinted that this change means the original card isn't canon.
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Kris]]
 - [[Normal NPC]]
 - [[Conexión Undertale|Undertale Connection]]
@@ -239,7 +276,6 @@ This section brings together, chapter by chapter, everything within Deltarune it
 - [[Sans]]
 - [[FRIEND]]
 - [[Shelter]]
-- [[Profecía|Prophecy]]
 - [[Clam Guy]]
 - [[Roaring Knight]]
 - [[Jugador|Player]]

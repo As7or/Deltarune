@@ -214,9 +214,9 @@ confianza: fuerte
 *El Knight en combate.*
 
 ## Relacionado
+- [[Profecía]]
 - [[Dess]]
 - [[Fuentes Oscuras]]
-- [[Profecía]]
 - [[Kris]]
 - [[Noelle]]
 - [[Asriel]]

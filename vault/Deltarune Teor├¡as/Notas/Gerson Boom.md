@@ -228,10 +228,10 @@ El título "Dragon Blazers" podría ser un homenaje al videojuego real de 1992 *
 *El dibujo del hacha entre los tapices flotantes del 3er Santuario — lo único que llegó a la versión final del tapiz descartado que nombraba a Gerson "La Tortuga".*
 
 ## Relacionado
+- [[Profecía]]
 - [[Susie]]
 - [[Alvin]]
 - [[Roaring Knight]]
-- [[Profecía]]
 - [[Jackenstein]]
 - [[Ralsei]]
 - [[Gaster (W. D. Gaster)]]

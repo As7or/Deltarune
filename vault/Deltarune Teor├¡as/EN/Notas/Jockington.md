@@ -85,11 +85,11 @@ confianza: strong
 > It's striking that, of the entire Prophecy, the only part that comes true clearly, directly, and verifiably as of today is precisely the most absurd and least significant one — Jockington's beard — while the rest of the characters (Gerson Boom included, with his "you have to read between the lines") insist that the prophetic text admits many readings and shouldn't be taken literally. One fandom reading sees this as a deliberate joke by Toby Fox: proving that the Prophecy really can come true exactly as written, but deliberately choosing the fragment with the least possible narrative weight to do so, leaving it open what will happen the day an important part comes true literally. See [[Profecía|Prophecy]] and [[Gerson Boom]].
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Catti]]
 - [[Kris]]
 - [[Susie]]
 - [[Noelle]]
-- [[Profecía|Prophecy]]
 - [[Gerson Boom]]
 
 ## Submap

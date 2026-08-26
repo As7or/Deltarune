@@ -122,9 +122,6 @@ The game never confirms it directly, but several clues — not recognizing the c
 > ![[Susie_screenshot_bleeding.png]]
 > *Susie's hand bleeding after tearing the Last Prophecy tapestry — the most-cited moment of her arc.*
 >
-> ![[susie_bleeding.webp]]
-> *The instant right after the blow against the tapestry: Susie apologizes to Kris and Ralsei ("I'm sorry, I--").*
->
 > 🎲 A curious cross-game "mirror": Undertale has its own version of this same anomaly. A rarely-seen battle sprite of [[Sans]], only accessible under very specific Genocide Route circumstances, shows him bleeding from the mouth with a gash on his torso — something that, by Undertale's own rules, shouldn't be possible for any monster (they turn to dust when they die, they don't bleed, let alone a skeleton). The fandom connects both clues as the same kind of biological impossibility repeating across both games: an "out of place" monster in each one, bleeding right at a moment of breaking or refusal — Susie's, at refusing to accept how the Last Prophecy ends. Full development in [[Conexión Undertale]].
 >
 > > [!danger]- A possible additional clue about her blood (Ch.4)

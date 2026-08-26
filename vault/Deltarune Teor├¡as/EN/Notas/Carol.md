@@ -109,6 +109,11 @@ confianza: official
 > ![[carol_call_dess_room.jpg]]
 > *The vent call, from Dess's dark, preserved room — "...I'll be... right there..." — the distorted voice Kris's SOUL hears through the grate.*
 >
+> During that same trip through the vents, the SOUL can also peek into the kitchen — where Carol herself can be seen in the middle of another call. Trying to enter and investigate gets the SOUL caught by Kris right away, who locks it back in the guest room's gift box, cutting the exploration short. It's not a different call, and it adds no new dialogue, but it's the only time in this whole theory Carol is seen on the phone with your own eyes, instead of it only being inferred from the timing coincidence.
+>
+> ![[soul_ventilation_kris_chocolate_interaction_cap4.jpeg]]
+> *The SOUL peeking into the kitchen through the vents, with Carol in the background, apparently on the phone — Kris catches it right away if you try to enter. See also [[Jugador|Player]].*
+>
 > There's also a **third call, this one practically confirmed as hers**: after the chapter's Fountains are sealed, Kris receives a voicemail that literally uses Carol's voice sample (though without her portrait in the dialogue box), confirming that Noelle can't wait to see him at the Festival the next day — the same welcoming line she says in person further below, in the Angel theory. This one is practically confirmed as her because of the actual sound used, unlike the other two. **Overall: the vent call and the window call remain unconfirmed; the Festival one, by contrast, does use Carol's real sound.**
 >
 > ![[Carol_call_weird_route.webp]]
@@ -154,6 +159,7 @@ confianza: official
 - [[Roaring Knight]]
 - [[Susie]]
 - [[Toriel]]
+- [[Jugador|Player]]
 
 ## Submap
 [[Submapas/Carol.canvas|Open graphic submap]]

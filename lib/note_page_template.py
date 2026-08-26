@@ -16,7 +16,7 @@ PAGE_CSS = '''
   body{ margin:0; padding:20px 24px 60px; font-family:Georgia, serif; color:#2c2416; background:#e9dfc8; }
   h1{ font-size:22px; border-bottom:2px solid #8a6a3a; padding-bottom:6px;}
   h2{ font-size:17px; color:#5a4020; margin-top:22px; }
-  h3{ font-size:15px; color:#5a4020; }
+  h3{ font-size:15px; color:#5a4020; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:15.5px; line-height:1.6; margin:8px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
@@ -131,7 +131,7 @@ PAGE_CSS_PARCHMENT = '''
   }
   h1{ font-size:23px; color:#4a3418; border-bottom:2px solid #8a6a3a; padding-bottom:8px; letter-spacing:.03em; }
   h2{ font-size:17px; color:#5a4020; margin-top:24px; font-variant:small-caps; letter-spacing:.04em; }
-  h3{ font-size:15px; color:#5a4020; font-variant:small-caps; }
+  h3{ font-size:15px; color:#5a4020; font-variant:small-caps; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
@@ -269,7 +269,7 @@ PAGE_CSS_RUSTED = '''
   }
   h1{ font-size:21px; color:#f0dcc0; border-bottom:3px solid #b5622e; padding-bottom:8px; letter-spacing:.02em; text-transform:uppercase; text-shadow:0 0 10px rgba(200,100,40,0.3); }
   h2{ font-size:16px; color:#e0975a; margin-top:24px; text-transform:uppercase; letter-spacing:.05em; }
-  h3{ font-size:14px; color:#e0975a; }
+  h3{ font-size:14px; color:#e0975a; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:14.5px; line-height:1.65; margin:8px 0; color:#d9cdb2; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; filter:saturate(0.8) sepia(0.12); }
   figure{ margin:14px 0; text-align:center; }
@@ -385,7 +385,7 @@ PAGE_CSS_WET = '''
   }
   h1{ font-size:22px; color:#4a3d18; border-bottom:2px solid #a08840; padding-bottom:8px; }
   h2{ font-size:17px; color:#6b5828; margin-top:22px; }
-  h3{ font-size:15px; color:#6b5828; }
+  h3{ font-size:15px; color:#6b5828; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
@@ -468,7 +468,7 @@ PAGE_CSS_CRYSTAL = '''
   }
   h1{ font-size:22px; color:#eaf6ff; border-bottom:2px solid #7de8ff; padding-bottom:8px; text-shadow:0 0 8px rgba(125,232,255,0.4); }
   h2{ font-size:17px; color:#a8d8ff; margin-top:22px; }
-  h3{ font-size:15px; color:#a8d8ff; }
+  h3{ font-size:15px; color:#a8d8ff; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#d8ecff; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
@@ -542,7 +542,7 @@ PAGE_CSS_UNDERTALE = '''
   body{ margin:0; padding:24px 26px 60px; font-family:'Courier New',monospace; color:#ffffff; background:#000000; }
   h1{ font-size:20px; color:#ffffff; border-bottom:2px solid #ffffff; padding-bottom:8px; letter-spacing:.03em; }
   h2{ font-size:16px; color:#ffffff; margin-top:24px; letter-spacing:.03em; }
-  h3{ font-size:14px; color:#ffffff; }
+  h3{ font-size:14px; color:#ffffff; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:14.5px; line-height:1.7; margin:8px 0; color:#ffffff; }
   img{ max-width:100%; border-radius:0; display:block; margin:8px auto; image-rendering:pixelated; }
   figure{ margin:14px 0; text-align:center; }
@@ -617,7 +617,7 @@ PAGE_CSS_FOUNTAIN = '''
   }
   h1{ font-size:22px; color:#eaf6fc; border-bottom:2px solid #6fb8dc; padding-bottom:8px; text-shadow:0 0 10px rgba(111,184,220,0.4); }
   h2{ font-size:17px; color:#a8d4ec; margin-top:22px; }
-  h3{ font-size:15px; color:#a8d4ec; }
+  h3{ font-size:15px; color:#a8d4ec; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#dceef5; }
   img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
   figure{ margin:14px 0; text-align:center; }
@@ -709,7 +709,7 @@ PAGE_CSS_GASTER = '''
     text-shadow:1px 0 0 rgba(120,40,50,0.22), -1px 0 0 rgba(60,120,130,0.18);
   }
   h2{ font-size:16px; color:#9a9a92; margin-top:24px; letter-spacing:.03em; text-transform:uppercase; }
-  h3{ font-size:14px; color:#9a9a92; }
+  h3{ font-size:14px; color:#9a9a92; text-decoration:underline; text-underline-offset:3px; }
   p{ font-size:14.5px; line-height:1.7; margin:8px 0; color:#bcbcb4; }
   img{ max-width:100%; border-radius:1px; display:block; margin:8px auto; filter:grayscale(0.85) contrast(1.08) brightness(0.96); }
   figure{ margin:14px 0; text-align:center; }

@@ -214,9 +214,9 @@ confianza: strong
 *The Knight in battle.*
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Dess]]
 - [[Fuentes Oscuras|Dark Fountains]]
-- [[Profecía|Prophecy]]
 - [[Kris]]
 - [[Noelle]]
 - [[Asriel]]

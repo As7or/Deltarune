@@ -160,6 +160,7 @@ confianza: strong
   *One of his less conventional animations/poses, frequently cited by the fandom.*
 
 ## Related
+- [[Profecía|Prophecy]]
 - [[Spamton]]
 - [[Kris]]
 - [[Mike]]
@@ -167,7 +168,6 @@ confianza: strong
 - [[Ralsei]]
 - [[Susie]]
 - [[Roaring Knight]]
-- [[Profecía|Prophecy]]
 - [[Flowery]]
 
 ## Submap
