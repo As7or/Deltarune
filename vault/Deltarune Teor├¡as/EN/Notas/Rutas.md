@@ -99,7 +99,7 @@ confianza: strong
 > ![[Weird_Route_Crack.webp]]
 > *The red crack that visually represents this route in fan material — a fracture, not a path with a reward at the end.*
 
-> [!question]- 🎲 Is the third board (BIT ROOTS) a symbolic map of Hometown?
+> [!question]-0 🎲 Is the third board (BIT ROOTS) a symbolic map of Hometown?
 > "Roots" is a word that keeps resurfacing unexplained throughout the game: it's the title of Prophecy pane 32 (a house between two trees), of the "Digital Roots" ambience that plays in Queen's Mansion basement in Ch.2, and also of "BIT ROOTS," the track that plays specifically on this third board of the Original Game, right before the fight against ERAM (see [[Profecía|Prophecy]]). A very detailed video analysis, made before Ch.5's release, proposed that this board's layout isn't random, but a miniature symbolic map of Hometown, with each room representing a specific neighbor at roughly the position of their real house or business:
 >
 > ![[sword_route_map_roots.png]]

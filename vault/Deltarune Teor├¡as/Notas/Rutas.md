@@ -99,7 +99,7 @@ confianza: fuerte
 > ![[Weird_Route_Crack.webp]]
 > *La grieta roja que representa visualmente esta ruta en el material de fans — una fractura, no un camino con recompensa al final.*
 
-> [!question]- 🎲 ¿Es el tercer tablero (BIT ROOTS) un mapa simbólico de Hometown?
+> [!question]-0 🎲 ¿Es el tercer tablero (BIT ROOTS) un mapa simbólico de Hometown?
 > "Roots" es una palabra que reaparece sin explicarse por todo el juego: título de la vidriera 32 de la Profecía (una casa entre dos árboles), de la ambientación "Digital Roots" que suena en el sótano de la Mansión de Queen del Cap.2, y también del tema "BIT ROOTS" que suena precisamente en este tercer tablero del Juego Original, justo antes del combate contra ERAM (ver [[Profecía]]). Un análisis de vídeo muy detallado, previo a la publicación del Cap.5, propuso que el diseño de este tablero no es aleatorio, sino un mapa simbólico en miniatura de Hometown, con cada sala representando a un vecino concreto en la posición aproximada de su casa o negocio real:
 >
 > ![[sword_route_map_roots.png]]

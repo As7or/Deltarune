@@ -517,6 +517,15 @@
 > |  | Huge Watering Can | The green watering can |  |
 >
 
+## Related videos
+
+> [!example]-0 Reference videos used for this list
+> Two of the video analyses used as reference to identify Dark World objects and their Light World equivalents, chapter by chapter.
+>
+> {{youtube:mm42qbFGI-Y}}
+>
+> {{youtube:TekxUW3h90A}}
+
 ## Related
 - [[Rouxls Kaard]]
 - [[Pippins]]

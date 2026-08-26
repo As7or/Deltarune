@@ -100,11 +100,7 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 > Since the Chapter 5 revelation, it's no longer just theory: Pink confirms that the Eggs the Forgotten Man hands out are literally the "protein" FRIEND hunts. See [[Huevo|Egg]] for the full dialogue. [[Forgotten Man]]
 
 > [!quote]- Dess
-> An Organikk (a philosopher from the Second/Third Sanctuary) describes how children were "lost where the forest would grow," after they "followed the pointed tail" — FRIEND itself — a description that unsettlingly matches Dess's disappearance around the Shelter. In the Egg room of Chapter 4, Kris covers their own drawing with an image of a tree during an art-therapy session, which much of the fandom reads as Kris actively repressing the memory of that same incident.
->
-> ![[Organic_forest_tail_dialogue.png]]
-> *"Lost where the forest would grow, the children followed the pointed tail." — the Organikk's original dialogue in the Organic Forest, the source of the quote above. The same "tail" motif reappears in the "tail of hell" identification from the Last Prophecy (see "The 'tail of hell' prophecy" above).*
-> [[Dess]]
+> An Organikk (a philosopher from the Second/Third Sanctuary) describes how children were "lost where the forest would grow," after they "followed the pointed tail" — FRIEND itself — a description that unsettlingly matches Dess's disappearance around the Shelter. In the Egg room of Chapter 4, Kris covers their own drawing with an image of a tree during an art-therapy session, which much of the fandom reads as Kris actively repressing the memory of that same incident. [[Dess]]
 
 > [!quote]- Spamton
 > His yellow and pink eyes match the same colors (reversed) as Spamton's glasses in his NEO form. But the connection goes far beyond aesthetics: several pieces of his equipment — the Frayed Bowtie, the restored True Tie, and the Dealmaker itself — explicitly grant resistance to "Puppet/Cat"-type damage in their stats, something that only makes sense if Spamton had spent time actively protecting himself from a FRIEND attack. He's also described as smelling like meat, and the Pipis he carries are actually clams — both good sources of "protein." On top of that, the very blue circle from Cat Petterz 2 that gave rise to the Pipis item was a confirmed gift from Spamton to Noelle, which puts him with one foot already inside the same "rare pets" universe the fandom associates with FRIEND's origin. [[Spamton]]
@@ -130,6 +126,9 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 
 > [!question]- Did Kris, Asriel, Noelle, and Dess summon him as children, and is that why she disappeared?
 > The four were a close-knit group of childhood friends — Kris and Dess especially close, even sharing a band with Asriel — and Ramb recalls Kris playing "pretend" with a girl (probably Dess) using toy Darkners brought from home. Combining this with the Organikk's clue about children "led astray" toward where "the forest would grow," and with Kris actively repressing a memory related to a tree in the Chapter 4 Egg room, much of the fandom connects both clues to propose that the four (or at least several of them) were present the day Dess disappeared, possibly playing with something related to Darkners or to FRIEND himself, and that this is the exact origin of Kris's repressed trauma. There is no textual confirmation that the word "summon" is meant literally, nor of what really happened that day. **Fan theory, backed by several real textual clues, but highly speculative in its specific details; unconfirmed.**
+>
+> ![[Organic_forest_tail_dialogue.png]]
+> *"Lost where the forest would grow, the children followed the pointed tail." — the Organikk's original dialogue in the Organic Forest, the central textual clue behind this theory. The same "tail" motif reappears in the "tail of hell" identification from the Last Prophecy (see "The 'tail of hell' prophecy" above).*
 
 > [!question]- Is his stalking of Kris and the Knight tied to a promise to find Dess?
 > A reading from an analysis video (highly speculative, unconfirmed): FRIEND seems to stalk both Kris and the Roaring Knight throughout the game. The theory connects this to a possible promise between Kris and Asriel to find Dess, suggesting that FRIEND's presence in those moments isn't a coincidence. It's a weak connection, with no direct textual clue beyond the coincidence of settings — the best-supported theory about the link between FRIEND and Dess remains the one about their shared childhood (see above).

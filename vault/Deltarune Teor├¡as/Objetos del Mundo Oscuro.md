@@ -522,6 +522,15 @@ familia: na
 > |  | Huge Watering Can | La regadera verde |  |
 >
 
+## Vídeos relacionados
+
+> [!example]-0 Vídeos de referencia usados para esta lista
+> Dos de los análisis en vídeo usados como referencia para identificar los objetos del Mundo Oscuro y su equivalente en el Mundo Claro, capítulo a capítulo.
+>
+> {{youtube:mm42qbFGI-Y}}
+>
+> {{youtube:TekxUW3h90A}}
+
 ## Relacionado
 - [[Rouxls Kaard]]
 - [[Pippins]]
