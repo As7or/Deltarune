@@ -50,13 +50,10 @@ confianza: fuerte
 > *Kris, ya sin el ALMA y con el ojo en rojo, justo después de sellar la primera Fuente Oscura del Cap.1.*
 
 > [!example]+ Capítulo 2 — Snowgrave y la separación más citada
-> Al volver a casa tras el Mundo Cíber, en vez de lavarse las manos, **Kris se arranca el ALMA y la tira al lavabo**. Más adelante, si se completa la Ruta Snowgrave, Noelle llega a cuestionar directamente si de verdad es Kris quien está haciendo lo que está pasando — una de las pocas veces en que un personaje verbaliza en voz alta la sospecha de que hay alguien más detrás de las decisiones de Kris. Y si se completó la Ruta Rara, al final del capítulo **Kris vuelve a arrancarse el ALMA** y actúa en solitario, esta vez abriendo una nueva Fuente Oscura con su propio cuchillo.
-
-> [!example]+ Capítulo 3 — La Fuente Oscura de la televisión
-> De noche y completamente solo en el salón de Toriel, **Kris abre con su propio ALMA la Fuente Oscura de la televisión** — el mismo momento que Tenna sospecha después que fue él, y que de hecho vemos ocurrir con nuestros propios ojos (ver [[Tenna]] y [[Roaring Knight]]).
+> Al volver a casa tras el Mundo Cíber, en vez de lavarse las manos, **Kris se arranca el ALMA y la tira al lavabo**. Más adelante, si se completa la Ruta Snowgrave, Noelle llega a cuestionar directamente si de verdad es Kris quien está haciendo lo que está pasando — una de las pocas veces en que un personaje verbaliza en voz alta la sospecha de que hay alguien más detrás de las decisiones de Kris. Y si se completó la Ruta Rara, de noche y completamente solo en el salón de Toriel, **Kris vuelve a arrancarse el ALMA** y abre con ella la Fuente Oscura de la televisión — el mismo momento que Tenna sospecha después que fue él, y que de hecho vemos ocurrir con nuestros propios ojos (ver [[Tenna]] y [[Roaring Knight]]).
 >
 > ![[kris_open_dark_fountain_tv.gif]]
-> *Kris, solo, abriendo la Fuente Oscura de la televisión en el salón de Toriel — Cap.3.*
+> *Kris, solo, abriendo la Fuente Oscura de la televisión en el salón de Toriel — Cap.2, Ruta Rara.*
 
 > [!example]+ Capítulo 4 — los conductos de ventilación y el ALMA "castigada"
 > En la ruta normal, mientras Kris hace la llamada misteriosa a solas desde el armario, el Jugador puede mover el ALMA de forma independiente por los conductos de ventilación de casa de Noelle. Si se intenta acceder a la cocina, se puede ver a Carol en mitad de otra llamada — pero Kris atrapa el ALMA de inmediato y la vuelve a encerrar en la caja de regalo del cuarto de invitados, cortando la exploración en seco.

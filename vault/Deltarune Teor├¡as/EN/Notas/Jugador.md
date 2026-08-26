@@ -50,13 +50,10 @@ confianza: strong
 > *Kris, now without the SOUL and with a red eye, right after sealing the first Dark Fountain in Ch.1.*
 
 > [!example]+ Chapter 2 — Snowgrave and the most-cited separation
-> Returning home after the Cyber World, instead of washing their hands, **Kris tears out the SOUL and throws it in the sink**. Later, if the Snowgrave Route is completed, Noelle directly questions whether it's really Kris doing what's happening — one of the few times a character verbalizes out loud the suspicion that someone else is behind Kris's decisions. And if the Weird Route was completed, at the end of the chapter **Kris tears out the SOUL again** and acts alone, this time opening a new Dark Fountain with their own knife.
-
-> [!example]+ Chapter 3 — The TV's Dark Fountain
-> Alone at night in Toriel's living room, **Kris opens the TV's Dark Fountain with their own SOUL** — the same moment Tenna later suspects was them, and that we in fact see happen with our own eyes (see [[Tenna]] and [[Roaring Knight]]).
+> Returning home after the Cyber World, instead of washing their hands, **Kris tears out the SOUL and throws it in the sink**. Later, if the Snowgrave Route is completed, Noelle directly questions whether it's really Kris doing what's happening — one of the few times a character verbalizes out loud the suspicion that someone else is behind Kris's decisions. And if the Weird Route was completed, alone at night in Toriel's living room, **Kris tears out the SOUL again** and opens the TV's Dark Fountain with it — the same moment Tenna later suspects was them, and that we in fact see happen with our own eyes (see [[Tenna]] and [[Roaring Knight]]).
 >
 > ![[kris_open_dark_fountain_tv.gif]]
-> *Kris, alone, opening the TV's Dark Fountain in Toriel's living room — Ch.3.*
+> *Kris, alone, opening the TV's Dark Fountain in Toriel's living room — Ch.2, Weird Route.*
 
 > [!example]+ Chapter 4 — the air vents and the "punished" SOUL
 > On the normal route, while Kris makes the mysterious call alone from the closet, the Player can move the SOUL independently through the air vents of Noelle's house. Trying to enter the kitchen reveals Carol in the middle of another call — but Kris catches the SOUL right away and locks it back in the guest room's gift box, cutting the exploration short.

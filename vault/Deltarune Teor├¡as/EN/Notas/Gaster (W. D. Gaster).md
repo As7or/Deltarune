@@ -139,6 +139,9 @@ The day before Ch.1's release, Undertale's official Twitter accounts (English an
 
 > [!question]+ Who are "the two of you" in Entry 17's final question?
 > That question is never answered within the game itself. The most widespread reading, with the most supporting clues, is that Gaster is addressing **Sans and Papyrus**: Sans has access to a "Gaster Blaster" as his own attack, there are blueprints and a covered machine in his house in Snowdin, and Sans's wrong-number song is looking for someone whose name starts with "G." Another, more minority reading argues that Gaster, Sans, and Papyrus are actually outsiders from another world — leaning on the fact that the Waterfall shopkeeper mentions the brothers "just showed up one day" in town, with no further explanation — which would fit with Gaster's own nature of "being outside of time and space."
+>
+> ![[gaster_entry17.jpg]]
+> *Entry 17, with its unanswered final question — "what do you two think?" — the origin of this theory.*
 
 > [!question]+ Is the intro Voice Gaster himself?
 > This is, by far, the strongest of all the theories related to him — nicknamed by the community "the Gaster List":
@@ -150,13 +153,26 @@ The day before Ch.1's release, Undertale's official Twitter accounts (English an
 > - The Voice's font value in the intro is 666.
 > - According to the theory known as "Gaster's List," every name that gets a special response from the Voice when typed into the sequence belongs, almost without exception, to a real Lightner from Hometown — as if whoever is asking already knew, or was cataloguing, the real people of that world.
 >
+> ![[Vessel_naming_screenshot.webp]]
+> *The "NAME YOUR VESSEL" screen — typing "GASTER" here resets the intro entirely, one of the central clues behind this theory.*
+>
 > Against it: it's never directly confirmed within the game itself, not even indirectly, by full name. **An extremely well-supported fan theory; not 100% confirmed by the script.**
 
 > [!question]- Are the Voice and the "second voice" that discards the Vessel the same entity?
-> It's not entirely clear. All the "Gaster's List" evidence rests on the part of the sequence where the Vessel is built and named — but the final segment, the one declaring the Vessel will be "discarded" because "no one can choose who they are in this world," changes text style (lowercase, no glow, no ambience) right before assigning the connection to Kris. Part of the community reads this as a second, distinct entity interrupting the first; another part reads it as the same Voice shifting register for a more solemn announcement. **No official confirmation either way.** See [[Jugador|Player]] for the exact moment this happens.
+> It's not entirely clear. All the "Gaster's List" evidence rests on the part of the sequence where the Vessel is built and named — but the final segment, the one declaring the Vessel will be "discarded" because "no one can choose who they are in this world," changes text style (lowercase, no glow, no ambience) right before assigning the connection to Kris. Part of the community reads this as a second, distinct entity interrupting the first; another part reads it as the same Voice shifting register for a more solemn announcement.
+>
+> ![[player_soul_discarded_voice.png]]
+> *"Will now be discarded." — the exact moment of that style shift, right before the connection passes to Kris.*
+>
+> **No official confirmation either way.** See [[Jugador|Player]] for the exact moment this happens.
 
 > [!question]- What is his true appearance?
-> None of his "visible" forms is confirmed as his real appearance: Mystery Man is a deformed, cracked sprite with no collision, more a broken silhouette than a finished design; REDACTED, his equivalent in Deltarune, is directly censored on screen; and neither one is ever shown in a normal playthrough without tricks. The most widespread reading is that he'd be a skeleton, to match Sans and Papyrus if they're his sons, but that's an inference from kinship, not a design confirmed in any game file. **Unconfirmed; his true appearance, if he has one, remains a deliberate mystery on the part of the game itself.**
+> None of his "visible" forms is confirmed as his real appearance: Mystery Man is a deformed, cracked sprite with no collision, more a broken silhouette than a finished design; REDACTED, his equivalent in Deltarune, is directly censored on screen; and neither one is ever shown in a normal playthrough without tricks. The most widespread reading is that he'd be a skeleton, to match Sans and Papyrus if they're his sons, but that's an inference from kinship, not a design confirmed in any game file.
+>
+> ![[gaster_REDACTED_272.webp]]
+> *REDACTED, speaking in Wingdings — Gaster's only visible "appearance" within Deltarune, and still entirely censored.*
+>
+> **Unconfirmed; his true appearance, if he has one, remains a deliberate mystery on the part of the game itself.**
 
 > [!question]- Is he the Forgotten Man?
 > This is the most popular reading of the [[Forgotten Man]]'s identity: he moves freely between the Light World and the Dark, speaks in timeless terms about the world's origin, fits the description of someone "shattered across space and time," and the room where he appears in Ch.1 shares its structure with Mystery Man's room in Undertale. Against it: his way of speaking in Ch.3 is noticeably different from the Voice's, which makes part of the fandom doubt they share an identity. See [[Forgotten Man]] for the full discussion, including the other two alternative readings of who he is. **A fan theory, the most popular one about the Forgotten Man's identity; unconfirmed.**

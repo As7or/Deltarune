@@ -139,6 +139,9 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 
 > [!question]+ ¿Quiénes son "vosotros dos", en la pregunta final de la Entrada 17?
 > Esa pregunta nunca se responde en el propio juego. La lectura más extendida y con más pistas de fondo es que Gaster se dirige a **Sans y Papyrus**: Sans tiene acceso a un "Gaster Blaster" como ataque propio, hay planos y una máquina cubierta en su casa de Snowdin, y la canción del teléfono equivocado de Sans busca a alguien cuyo nombre empieza por "G". Otra lectura, más minoritaria, defiende que Gaster, Sans y Papyrus serían en realidad forasteros de otro mundo —apoyándose en que la tendera de Waterfall comenta que los hermanos "simplemente aparecieron un día" en la ciudad, sin más explicación—, lo que encajaría con la propia naturaleza de "estar fuera del tiempo y el espacio" que sufre Gaster.
+>
+> ![[gaster_entry17.jpg]]
+> *La Entrada 17, con su pregunta final sin responder — "¿qué opináis vosotros dos?" — el origen de esta teoría.*
 
 > [!question]+ ¿Es la Voz de la introducción el propio Gaster?
 > Es, con diferencia, la teoría más sólida de todas las relacionadas con él — apodada por la comunidad "la Lista de Gaster":
@@ -150,13 +153,26 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 > - El valor de tipografía de la Voz en la introducción es 666.
 > - Según la teoría conocida como "Gaster's List", cada nombre que recibe una respuesta especial de la Voz al escribirlo en la secuencia pertenece, casi sin excepción, a un Lightner real de Hometown — como si quien pregunta ya conociera, o estuviera catalogando, a la gente real de ese mundo.
 >
+> ![[Vessel_naming_screenshot.webp]]
+> *La pantalla "NAME YOUR VESSEL" — escribir "GASTER" aquí reinicia la introducción por completo, una de las pistas centrales de esta teoría.*
+>
 > En contra: nunca se confirma de forma directa dentro del propio juego, ni siquiera de forma indirecta con nombre y apellido. **Teoría de fans extremadamente bien fundamentada; no confirmada al 100% por el guion.**
 
 > [!question]- ¿Son la Voz y la "segunda voz" que descarta el Vessel la misma entidad?
-> No está del todo claro. Toda la evidencia de "Gaster's List" se apoya en la parte de la secuencia donde se construye el Vessel y se le pone nombre — pero el fragmento final, el que declara que el Vessel será "descartado" porque "nadie puede elegir quién es en este mundo", cambia de estilo de texto (minúsculas, sin brillo, sin ambiente) justo antes de asignar la conexión a Kris. Parte de la comunidad lee esto como una segunda entidad distinta interrumpiendo a la primera; otra parte lo lee como la misma Voz cambiando de registro para un anuncio más solemne. **Sin ninguna confirmación oficial en ningún sentido.** Ver [[Jugador]] para el momento exacto en el que ocurre.
+> No está del todo claro. Toda la evidencia de "Gaster's List" se apoya en la parte de la secuencia donde se construye el Vessel y se le pone nombre — pero el fragmento final, el que declara que el Vessel será "descartado" porque "nadie puede elegir quién es en este mundo", cambia de estilo de texto (minúsculas, sin brillo, sin ambiente) justo antes de asignar la conexión a Kris. Parte de la comunidad lee esto como una segunda entidad distinta interrumpiendo a la primera; otra parte lo lee como la misma Voz cambiando de registro para un anuncio más solemne.
+>
+> ![[player_soul_discarded_voice.png]]
+> *"Will now be discarded." — el instante exacto de ese cambio de estilo, justo antes de que la conexión pase a Kris.*
+>
+> **Sin ninguna confirmación oficial en ningún sentido.** Ver [[Jugador]] para el momento exacto en el que ocurre.
 
 > [!question]- ¿Cuál es su verdadera apariencia?
-> Ninguna de sus formas "visibles" está confirmada como su aspecto real: Mystery Man es un sprite deforme y agrietado sin colisión, más una silueta rota que un diseño terminado; REDACTED, su equivalente en Deltarune, está directamente censurado en pantalla; y ni uno ni otro llegan a mostrarse en una partida normal sin trucos. La lectura más extendida es que sería un esqueleto, a juego con Sans y Papyrus si estos son sus hijos, pero es una inferencia por parentesco, no un diseño confirmado en ningún archivo del juego. **Sin confirmación; su apariencia real, si es que la tiene, sigue siendo un misterio deliberado por parte del propio juego.**
+> Ninguna de sus formas "visibles" está confirmada como su aspecto real: Mystery Man es un sprite deforme y agrietado sin colisión, más una silueta rota que un diseño terminado; REDACTED, su equivalente en Deltarune, está directamente censurado en pantalla; y ni uno ni otro llegan a mostrarse en una partida normal sin trucos. La lectura más extendida es que sería un esqueleto, a juego con Sans y Papyrus si estos son sus hijos, pero es una inferencia por parentesco, no un diseño confirmado en ningún archivo del juego.
+>
+> ![[gaster_REDACTED_272.webp]]
+> *REDACTED, hablando en Wingdings — la única "aparición" visible de Gaster dentro de Deltarune, y aun así completamente censurada.*
+>
+> **Sin confirmación; su apariencia real, si es que la tiene, sigue siendo un misterio deliberado por parte del propio juego.**
 
 > [!question]- ¿Es el Forgotten Man?
 > Es la lectura más popular sobre la identidad del [[Forgotten Man]]: se mueve libremente entre el Mundo Claro y el Oscuro, habla en términos atemporales sobre el origen del mundo, encaja con la descripción de alguien "hecho añicos a través del espacio y el tiempo", y la sala en la que aparece en el Cap.1 comparte estructura con la sala de Mystery Man en Undertale. En contra: su forma de hablar en el Cap.3 es notablemente distinta a la de la Voz, lo que hace dudar a parte del fandom de que compartan identidad. Ver [[Forgotten Man]] para el desarrollo completo, incluidas las otras dos lecturas alternativas de quién es. **Teoría de fans, la más popular sobre la identidad del Forgotten Man; no confirmada.**
