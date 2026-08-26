@@ -121,6 +121,8 @@ El día antes del lanzamiento del Cap.1, las cuentas oficiales de Twitter de Und
 ![[gaster_toby_fox_tweets_as_gaster.webp]]
 *Captura de los tuits en clave de la cuenta de Undertale, la noche antes del lanzamiento del Cap.1.*
 
+El mismo patrón ha vuelto a repetirse en tuits mucho más recientes, de agosto de 2026, con el mismo tono espaciado y formal: *"The resonance has quickened. Will we [be] meeting like this more often? In that case, perhaps we need no preface."* — de nuevo sin firma clara, y de nuevo leído por buena parte del fandom como otro mensaje en clave de la misma Voz/Gaster, aunque sin ninguna confirmación oficial de quién está detrás.
+
 ## La Voz de la introducción
 
 > [!info]+ Ficha rápida
@@ -286,6 +288,7 @@ Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Delta
 - 🚫 Si escribes "GASTER" como nombre del vessel o del creador en la introducción, el juego se reinicia al principio del capítulo — igual que pasa en Undertale al llamar "Gaster" al humano caído.
 - 🔗 Comparte patrones de archivo con otros misterios menores: el mismo prefijo "-man" que Everyman, la misma ausencia total en pantalla que Papyrus, y el prefijo DEVICE_ que también usa FRIEND.
 - Existió una carta coleccionable oficial de Gaster que fue retirada y sustituida por Gerson Boom cuando la colección se volvió licencia oficial — el propio Toby Fox dejó caer que ese cambio implica que la carta original no es canon.
+- 🏴‍☠️ "Pirate Gaster" es un meme de fans nacido de un vídeo viral de finales de junio de 2026, sin ninguna base oficial: un fanmade que imagina a Gaster como capitán de un barco pirata (con la música "Pirate Dojo" del Cap.5 de fondo) junto a otros personajes misteriosos del juego — con [[Normal NPC]] en el papel de loro del capitán, un guiño de fans a la teoría de que repite frases ajenas (ver su nota). Puramente un chiste de fandom, no una teoría seria.
 
 ## Relacionado
 - [[Profecía]]

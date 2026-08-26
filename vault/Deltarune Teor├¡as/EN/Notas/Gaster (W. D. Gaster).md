@@ -121,6 +121,8 @@ The day before Ch.1's release, Undertale's official Twitter accounts (English an
 ![[gaster_toby_fox_tweets_as_gaster.webp]]
 *A screenshot of the coded tweets from the Undertale account, the night before Ch.1's release.*
 
+The same pattern has repeated in much more recent tweets, from August 2026, with the same spaced-out, formal tone: *"The resonance has quickened. Will we [be] meeting like this more often? In that case, perhaps we need no preface."* — again unsigned, and again read by much of the fandom as another coded message from that same Voice/Gaster, though with no official confirmation of who's behind it.
+
 ## The intro Voice
 
 > [!info]+ Quick profile
@@ -286,6 +288,7 @@ This section brings together, chapter by chapter, everything within Deltarune it
 - 🚫 If you type "GASTER" as the vessel's or creator's name in the intro, the game resets to the start of the chapter — just like happens in Undertale when you name the fallen human "Gaster."
 - 🔗 He shares file-naming patterns with other minor mysteries: the same "-man" prefix as Everyman, the same total absence on screen as Papyrus, and the DEVICE_ prefix also used by FRIEND.
 - There was an official Gaster collectible card that was pulled and replaced with Gerson Boom once the collection became an official license — Toby Fox himself hinted that this change means the original card isn't canon.
+- 🏴‍☠️ "Pirate Gaster" is a fan meme born from a viral video from late June 2026, with no official basis at all: a piece of fan animation imagining Gaster as the captain of a pirate ship (set to the Ch.5 "Pirate Dojo" track) alongside other mysterious characters from the game — with [[Normal NPC]] cast as the captain's parrot, a fan nod to the theory that he repeats other people's lines (see his note). Purely a fandom joke, not a serious theory.
 
 ## Related
 - [[Profecía|Prophecy]]

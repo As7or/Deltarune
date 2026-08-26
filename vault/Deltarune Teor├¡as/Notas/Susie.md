@@ -42,7 +42,7 @@ Compañera de clase de Kris, empieza el juego como la matona del colegio — gro
 > *Su talksprite, el retrato usado en los diálogos — aún sin capturar, hueco de imagen.*
 
 ## Posible vida familiar
-El juego nunca lo confirma directamente, pero varias pistas —no reconocer el concepto de "su propia habitación" (se sorprende de tener una cama propia en el castillo de Ralsei), comer cualquier cosa, no llamar nunca a sus padres— apuntan a una infancia inestable. En el Capítulo 4 el edificio de los apartamentos del este ya la incomoda ("qué aburrido", dice, para desviar la atención de Kris). En el Capítulo 5 lo confirma casi del todo: cuando le pide a Kris que la acompañe "a casa" y terminan frente a ese mismo bloque de apartamentos, ella solo responde "Kris, ya sabes... no es eso lo que quería decir, ¿no?" — dejando claro que sí vive ahí sola, pero sin querer admitirlo en voz alta.
+El juego nunca lo confirma directamente, pero varias pistas —no reconocer el concepto de "su propia habitación" (se sorprende de tener una cama propia en el castillo de Ralsei), comer cualquier cosa, no llamar nunca a sus padres— apuntan a una infancia inestable. En el Capítulo 4 el edificio de los apartamentos del este ya la incomoda ("qué aburrido", dice, para desviar la atención de Kris). En el Capítulo 5 lo confirma casi del todo: cuando le pide a Kris que la acompañe "a casa" y terminan frente a ese mismo bloque de apartamentos, ella solo responde "Kris, ya sabes... no es eso lo que quería decir, ¿no?" — dejando claro que sí vive ahí sola, pero sin querer admitirlo en voz alta. Ese mismo capítulo, si Kris le ofrece quedarse a dormir en su casa, Susie rechaza la opción y prefiere pasar la noche en Castle Town — el mismo patrón de evitar el propio hogar, ahora extendido también a la casa de sus amigos.
 
 ![[susie_room.png]]
 *Su cuarto en hometown*
@@ -146,6 +146,8 @@ El juego nunca lo confirma directamente, pero varias pistas —no reconocer el c
 >
 > ![[Susie_screenshot_home.png]]
 > *Susie agradeciendo a Kris que la "acompañe a casa" — una de las escenas que más apunta a su situación familiar real.*
+>
+> En algún momento del capítulo, Susie llega a disculparse con Kris por haberlo estampado contra las taquillas en el Cap.1 — un pequeño cierre narrativo a una de las primeras escenas del juego, coherente con lo mucho que ha cambiado su relación desde entonces.
 >
 > En el Reino de las Flores, Susie se muestra despectiva con [[Flowery]] al principio, aunque lo acaba llamando "capullo útil" cuando les da acceso a la regadera. Flowery le explica el menú de combate y la convence de ponerse lazos (algo que normalmente se niega a hacer), para desesperación de Ralsei. El grupo llega hasta lo alto del Castillo de Flores y se enfrenta a Flowery; Susie lo cura si está herido al inicio de su turno, queriendo derrotarlo "a su manera".
 >

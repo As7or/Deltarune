@@ -42,7 +42,7 @@ Kris's classmate, she starts the game as the school bully — rude, sarcastic, a
 > *Her talksprite, the portrait used in dialogue — not yet captured, image slot empty.*
 
 ## Possible family life
-The game never confirms it directly, but several clues — not recognizing the concept of "her own room" (she's surprised to have her own bed in Ralsei's castle), eating anything, never calling her parents — point to an unstable childhood. In Chapter 4, the east apartment building already makes her uneasy ("how boring," she says, to steer Kris's attention away). In Chapter 5 it's nearly confirmed outright: when she asks Kris to walk her "home" and they end up in front of that same apartment building, she only replies, [TODO: verify exact EN quote] "Kris, you know... that's not what I meant, is it?" — making it clear she does live there alone, without wanting to say so out loud.
+The game never confirms it directly, but several clues — not recognizing the concept of "her own room" (she's surprised to have her own bed in Ralsei's castle), eating anything, never calling her parents — point to an unstable childhood. In Chapter 4, the east apartment building already makes her uneasy ("how boring," she says, to steer Kris's attention away). In Chapter 5 it's nearly confirmed outright: when she asks Kris to walk her "home" and they end up in front of that same apartment building, she only replies, [TODO: verify exact EN quote] "Kris, you know... that's not what I meant, is it?" — making it clear she does live there alone, without wanting to say so out loud. That same chapter, if Kris offers to let her stay over at his house, Susie turns the option down and prefers to spend the night in Castle Town instead — the same pattern of avoiding her own home, now extended to her friends' homes too.
 
 ![[susie_room.png]]
 *Her room in Hometown.*
@@ -146,6 +146,8 @@ The game never confirms it directly, but several clues — not recognizing the c
 >
 > ![[Susie_screenshot_home.png]]
 > *Susie thanking Kris for "walking her home" — one of the scenes that most strongly hints at her real family situation.*
+>
+> At some point during the chapter, Susie ends up apologizing to Kris for slamming them against the lockers back in Ch.1 — a small narrative close to one of the game's earliest scenes, fitting how much their relationship has changed since then.
 >
 > In the Flower Kingdom, Susie is dismissive toward [[Flowery]] at first, though she ends up calling him a [TODO: verify exact EN quote] "useful jerk" once he gives them access to the watering can. Flowery explains the battle menu to her and talks her into wearing bows (something she normally refuses to do), to Ralsei's despair. The party reaches the top of the Flower Castle and faces Flowery; Susie heals him if he's hurt at the start of her turn, wanting to defeat him "her own way."
 >
