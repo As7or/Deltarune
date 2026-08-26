@@ -230,6 +230,9 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > - If one accepts the reading (argued by an analysis video, without textual confirmation) that Ralsei visually "inherits" Asriel's green due to his strong physical resemblance, the castle's ideal room would work as an inversion of the real-life envy: here Kris does have their own trophies, and the green no longer belongs to an absent sibling, but to a present friend.
 >
 > Added to this is a possible evolving reading throughout the story: in Ch.1, Kris gets sentimental drinking hot chocolate that reminds them of their relationship with Asriel; in Ch.4, on throwing Asriel's old clothes to the floor at the church, Kris states that those clothes "no longer have any power" over them. An analysis video connects this moment to Ch.3's own maturity arc (when Kris is "knighted" in Card Castle's chess) as a symbolic progression toward becoming independent of their sibling's shadow — consistent with the chapter's overall tone about overcoming nostalgia, but without any textual confirmation that this is the intended reading.
+>
+> ![[asriel_room.png]]
+> *The real room Kris shares with Asriel in Hometown: Asriel's bed (left), with trophies and photos on the shelf above, facing Kris's (right), with nothing of their own above it — the confirmed contrast this whole theory rests on.*
 
 > [!question]+ Vessel Theory
 > The most widespread reading: Kris doesn't fully control their own body — that the player, or something posing as the player, takes their place. The end of Chapter 1 is the most-cited proof.
@@ -243,11 +246,20 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 
 > [!question]- Who is "you" really?
 > The strongest suspicion is that the entity controlling Kris is connected to Chara — or at least to a force that has already been the protagonist of a story about someone able to control a monster/human child from outside.
+>
+> ![[player_kris_soul_cap1_final_scene.png]]
+> *The red SOUL taking control of Kris at the end of Ch.1 — the first moment "you" openly manifests over their body.*
 
 > [!question]- Is Kris the Knight themself?
 > At the end of Chapter 2, Kris opens a Dark Fountain on their own using their knife and, apparently, their own Determination — the same kind of will Queen suggests is needed for it. The game doesn't clarify whether this makes Kris a kind of Knight in their own right, in parallel with (or in conflict with) the theory that the Knight is Dess.
 >
-> 🎲 A 2026 reading (see [[Roaring Knight]]) proposes a third path: that Kris isn't the Knight alone, but half of a fusion with [[Noelle]] — the only other person the game itself has ever linked to the title of Knight, through Queen. Under that reading, this moment doesn't contradict or compete with the Dess theory on its own — it opens a third possibility: that more than one person may have "been" the Knight at different points in the story.
+> 🎲 **The "fused Knight" theory (Amalgam Knight)**, popularized in 2026 by a J.R. Fentady video (see [[Roaring Knight]]): proposes that the Knight isn't Kris alone, but the result of a fusion with [[Noelle]] — the only other person the game itself has ever linked to the title of Knight, through Queen — occurring during the scene where the two sink hand-in-hand into the lake at the end of Ch.5's Weird Route. Under that reading, this Ch.2 moment doesn't contradict or compete with the Dess theory on its own — it opens a third possibility: that more than one person may have "been" the Knight at different points in the story.
+> - For: the Knight shares poses and attacks with Kris, while their armor's silhouette resembles Noelle's "Shriek" form; they also wear reindeer horns, and their examine dialogue says Kris "couldn't learn anything" about them, leaving the door open to Kris already knowing them somehow. The most-cited clue, though, comes from the Shadow Mantle minigame itself in Ch.3: the enemy that copies the player's movements on screen is, in reality, a black deer sprite — read as a visual representation of the Knight and Kris being, deep down, the same entity.
+>
+> ![[black_deer.png]]
+> *The black deer sprite that copies the player's movements in the Shadow Mantle minigame (Ch.3) — the most-cited piece of evidence for the fused Knight theory.*
+>
+> - Against: the theory would need some form of time travel to work (something the game has never confirmed introducing), and it doesn't explain well why Kris would then follow the orders of a fused version of themself. There's also a claim circulating that the Knight's scream sounds like the Snowgrave sound effect, but that was already debunked in earlier analyses: the scream is actually a sped-up spoken voice, deep in tone, distinct from Kris's or Noelle's. **A very recent and elaborate fan theory, with no direct textual confirmation — it coexists with the Dess Knight theory without fully ruling it out.**
 
 > [!question]- The Hand Theory
 > A fan theory holding that Kris will lose an arm or a hand in a future chapter. Before Ch.5 it was pure visual speculation; since then several pieces of direct textual evidence have piled up, though it's still unconfirmed that Kris will actually lose the hand.
@@ -286,6 +298,8 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > *The Giant Hand puzzle in the acid river of Queen's Mansion (Ch.2).*
 >
 > - 🎲 Weakest piece: [[Sr. Cattenheimer|Mr. Cattenheimer]], a Hometown NPC, is the only named character already missing a hand on screen, and his house shares with the [[Shelter]] a 3-code lock — a design coincidence with no textual confirmation, see his note for the full detail.
+>
+> Taken together, it's no longer just visual speculation: there are at least three real lines of text ("you couldn't find your hand," "wakes up without a hand," Pink's cat bite) pointing in the same direction, plus a verifiable design clue (the Wingdings wordplay). Still, there is no confirmation that this will specifically happen to Kris within the main plot.
 
 > [!question]- Where was Kris the night between Ch.4 and Ch.5?
 > A time gap the fandom has been pointing out ever since it became known that Ch.5 starts directly at Festival dusk, skipping that night entirely. Several loose clues suggest Kris didn't stay quietly in bed:
@@ -300,7 +314,9 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 
 > [!question]- Did Kris have feelings for Noelle?
 > Using a Dark Crystal inside Noelle's house in Ch.4, Kris has a fleeting vision of the equivalent Light World — and sees Noelle leaning toward them, whispering something, apparently with a bouquet of flowers involved. Seam explains in Ch.5 that Dark Crystals contain "the power of broken dreams," and that dropping one would feel "like dropping someone's..." — deliberately leaving the sentence incomplete. Putting both things together, part of the fandom reads this vision as a broken dream of Kris's own related to Noelle, not just a neutral glimpse of the Light World. **Speculative fan theory: the vision and Seam's explanation are each confirmed separately, but the game never directly states that this particular crystal is Kris's "broken dream" or that it has to do with romantic feelings toward Noelle.**
-> - Taken together, it's no longer just visual speculation: there are at least three real lines of text ("you couldn't find your hand," "wakes up without a hand," Pink's cat bite) pointing in the same direction, plus a verifiable design clue (the Wingdings wordplay). Still, there is no confirmation that this will specifically happen to Kris within the main plot.
+>
+> ![[player_kris_soul_cap1_final_scene.png]]
+> *The same red SOUL behind this and every one of Kris's visions — the underlying question of whether these "broken dreams" reflect their own feelings, or those of whoever controls them.*
 
 ## In battle
 Leads the party in the Dark World (equipment, inventory, orders). As a human, they can't cast spells — instead they use ACTs, including some exclusive ones: **Encourage** (raises the party's defense, only unlockable against King), **Pirouette** (against Jevil, with a different effect each turn), **HealDeal** (accepts a deal from Spamton to heal), **Take House 2** (against Rouxls Kaard), **X-Slash/FriedPipis** (against Spamton NEO, Weird Route only), and several others specific to each boss. Their special attack X-Slash hits twice in the same turn and deals more damage than Fight.

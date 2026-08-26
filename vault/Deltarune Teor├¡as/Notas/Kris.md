@@ -230,6 +230,9 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > - Si se acepta la lectura (defendida por un vídeo de análisis, sin confirmación textual) de que Ralsei "hereda" visualmente el verde de Asriel por su gran parecido físico, el cuarto ideal del castillo funcionaría como una inversión de la envidia real: aquí Kris sí tiene sus propios trofeos, y el verde ya no pertenece a un hermano ausente, sino a un amigo presente.
 >
 > A esto se suma una posible lectura evolutiva a lo largo de la historia: en el Cap.1, Kris se pone sentimental al tomar un chocolate caliente que le recuerda su relación con Asriel; en el Cap.4, al tirar al suelo la ropa vieja de Asriel en la iglesia, Kris afirma que esa ropa "ya no tiene ningún poder" sobre él/ella. Un vídeo de análisis conecta este momento con el propio arco de madurez del Cap.3 (cuando Kris es nombrado "caballero" en el ajedrez de Card Castle) como una progresión simbólica hacia independizarse de la sombra de su hermano — coherente con el tono general del capítulo sobre superar la nostalgia, pero sin ninguna confirmación textual de que esa sea la intención.
+>
+> ![[asriel_room.png]]
+> *El cuarto real que Kris comparte con Asriel en Hometown: la cama de Asriel (izquierda), con sus trofeos y fotos en la estantería de arriba, frente a la de Kris (derecha), sin nada propio encima — el contraste confirmado que sostiene toda esta teoría.*
 
 > [!question]+ Teoría del Vessel
 > La lectura más extendida: Kris no controla del todo su propio cuerpo — que el jugador, o algo que se hace pasar por el jugador, ocupa su lugar. El final del Capítulo 1 es la prueba más citada.
@@ -243,11 +246,20 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 
 > [!question]- ¿Quién es "tú" realmente?
 > La sospecha más fuerte es que la entidad que controla a Kris guarda relación con Chara — o como mínimo con una fuerza que ya ha protagonizado antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.
+>
+> ![[player_kris_soul_cap1_final_scene.png]]
+> *El ALMA roja tomando el control de Kris al final del Cap.1 — el primer momento en el que "tú" se manifiesta abiertamente sobre su cuerpo.*
 
 > [!question]- ¿Es Kris el propio Knight?
 > Al final del Capítulo 2, Kris abre una Fuente Oscura por su cuenta usando su cuchillo y, aparentemente, su propia Determinación — el mismo tipo de voluntad que Queen sugiere que hace falta para ello. El juego no aclara si esto convierte a Kris en una especie de Knight por derecho propio, en paralelo (o en conflicto) con la teoría de que el Knight es Dess.
 >
-> 🎲 Una lectura de 2026 (ver [[Roaring Knight]]) propone una tercera vía: que Kris no sea el Knight en solitario, sino la mitad de una fusión con [[Noelle]] —la única otra persona a la que el propio juego ha vinculado alguna vez con el título de Caballero, a través de Queen—. Bajo esa lectura, este momento no contradice la teoría Dess ni la compite en solitario, sino que abre una tercera posibilidad: que más de una persona haya "sido" el Knight en distintos puntos de la historia.
+> 🎲 **Teoría del "Knight fusionado" (Amalgam Knight)**, popularizada en 2026 por un vídeo de J.R. Fentady (ver [[Roaring Knight]]): propone que el Knight no sea Kris en solitario, sino el resultado de una fusión con [[Noelle]] —la única otra persona a la que el propio juego ha vinculado alguna vez con el título de Caballero, a través de Queen—, ocurrida durante la escena en la que ambos se sumergen de la mano en el lago al final de la Ruta Rara del Cap.5. Bajo esa lectura, este momento del Cap.2 no contradice la teoría Dess ni la compite en solitario, sino que abre una tercera posibilidad: que más de una persona haya "sido" el Knight en distintos puntos de la historia.
+> - A favor: el Knight comparte poses y ataques con Kris, mientras que la silueta de su armadura recuerda a la de Noelle en su forma "Shriek"; además lleva cuernos de reno, y su diálogo de examinar dice que Kris "no pudo aprender nada" sobre él, dejando la puerta abierta a que ya lo conozca de algún modo. La pista más citada, eso sí, viene del propio minijuego del Manto de Sombra (Shadow Mantle) del Cap.3: el enemigo que copia los movimientos del jugador en pantalla es, en realidad, un sprite de un ciervo negro — leído como representación visual de que el Knight y Kris son, en el fondo, la misma entidad.
+>
+> ![[black_deer.png]]
+> *El sprite del ciervo negro que copia los movimientos del jugador en el minijuego del Manto de Sombra (Cap.3) — la pieza de evidencia más citada de la teoría del Knight fusionado.*
+>
+> - En contra: la teoría necesitaría algún tipo de viaje en el tiempo para funcionar (algo que el juego nunca ha introducido de forma confirmada), y no explica bien por qué Kris seguiría después las órdenes de una versión fusionada de sí mismo. También circula el argumento de que el grito del Knight suena parecido al sonido de Snowgrave, pero eso ya se descartó en análisis anteriores: el grito es, en realidad, una voz hablada acelerada, de tono grave, distinta a las de Kris y Noelle. **Teoría de fans muy reciente y elaborada, sin ninguna confirmación textual directa — convive con la teoría Dess Knight sin descartarla del todo.**
 
 > [!question]- Teoría de la mano
 > Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; desde entonces se han ido acumulando varias piezas de evidencia textual directa, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
@@ -286,6 +298,8 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > *Puzle de la Mano Gigante en el río de ácido de la Mansión de Queen (Cap.2).*
 >
 > - 🎲 Pieza más débil: [[Sr. Cattenheimer]], un NPC de Hometown, es el único personaje con nombre propio al que ya le falta una mano en pantalla, y su casa comparte con el [[Shelter]] un cerrojo de 3 códigos — una coincidencia de diseño sin ninguna confirmación textual, ver su nota para el detalle completo.
+>
+> En conjunto, ya no es solo especulación visual: hay al menos tres líneas de texto reales ("no pudiste encontrar tu mano", "se despierta sin una mano", la mordedura de gato de Pink) que apuntan en la misma dirección, además de una pista de diseño verificable (el juego de palabras Wingdings). Sigue sin haber, eso sí, ninguna confirmación de que le vaya a pasar a Kris específicamente dentro de la trama principal.
 
 > [!question]- ¿Dónde estuvo Kris la noche entre el Cap.4 y el Cap.5?
 > Un hueco temporal que el fandom lleva señalando desde que se supo que el Cap.5 empezaba directamente al anochecer del Festival, saltándose por completo esa noche. Varias pistas sueltas apuntan a que Kris no se quedó tranquilamente en la cama:
@@ -300,7 +314,9 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 
 > [!question]- ¿Le gustaba Noelle a Kris?
 > Al usar un Cristal Oscuro dentro de la casa de Noelle en el Cap.4, Kris tiene una visión fugaz del Mundo Claro equivalente — y ve a Noelle inclinada hacia él, susurrándole algo, aparentemente con un ramo de flores de por medio. Seam explica en el Cap.5 que los Cristales Oscuros contienen "el poder de los sueños rotos", y que tirar uno se sentiría "como tirar el/la... de alguien" — dejando la frase deliberadamente incompleta. Uniendo ambas cosas, parte del fandom lee esta visión como un sueño roto propio de Kris relacionado con Noelle, no solo un vistazo neutral al Mundo Claro. **Teoría de fans especulativa: la visión y la explicación de Seam están confirmadas por separado, pero el juego nunca afirma directamente que ese cristal en concreto sea "el sueño roto" de Kris ni que tenga que ver con un sentimiento romántico hacia Noelle.**
-> - En conjunto, ya no es solo especulación visual: hay al menos tres líneas de texto reales ("no pudiste encontrar tu mano", "se despierta sin una mano", la mordedura de gato de Pink) que apuntan en la misma dirección, además de una pista de diseño verificable (el juego de palabras Wingdings). Sigue sin haber, eso sí, ninguna confirmación de que le vaya a pasar a Kris específicamente dentro de la trama principal.
+>
+> ![[player_kris_soul_cap1_final_scene.png]]
+> *El mismo ALMA roja detrás de esta y de todas las visiones de Kris — la incógnita de fondo sobre si estos "sueños rotos" reflejan sus propios sentimientos o los de quien lo controla.*
 
 ## En combate
 Lleva el mando del grupo en el Mundo Oscuro (equipo, inventario, órdenes). Como humano, no puede lanzar hechizos — en su lugar usa ACTs, incluyendo algunos exclusivos: **Encourage** (sube la defensa del grupo, solo desbloqueable contra King), **Pirouette** (contra Jevil, con un efecto distinto cada turno), **HealDeal** (acepta un trato de Spamton para curarse), **Take House 2** (contra Rouxls Kaard), **X-Slash/FriedPipis** (contra Spamton NEO, solo Ruta Rara), y varios más específicos de cada jefe. Su ataque especial X-Slash golpea dos veces en un mismo turno y hace más daño que Luchar.
