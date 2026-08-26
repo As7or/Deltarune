@@ -135,6 +135,15 @@ confianza: strong
 > *Flowery's stat screen: LV99, 99 across the board, and even a "Guts: 🍩🍩🍩🍩🍩" that doesn't match any other stat in the game.*
 >
 > The parallel with Undertale's Flowey is direct: just as Flowey could manipulate save files and treat the game's own system as something within his reach to control from outside the normal rules, Flowery does the same but with numerical stats instead of the SAVE itself — he doesn't take them seriously as a system that limits him, but as a toy he can fill in as he pleases. It's fundamentally the same kind of jab at the game's own "fourth wall," just applied to stats instead of saving. **Confirmed in the game itself that he assigned the numbers himself; the reading that this is a deliberate nod to Flowey's behavior is interpretation, not a direct statement from Toby Fox.**
+>
+> ![[Equip_screenshot_Flowery.png]]
+> *His equipment screen during the short time he's in the party: the weapon "Winning Smile" and the armor "Petal Mantle" — matching spells of his own like Candelabra, My Jerona, and X to Dance.*
+
+> [!question]- Is his pose sprite a nod to Ronald McDonald and JoJo's Bizarre Adventure?
+> The pose Flowery strikes when he first shows up matches, almost stroke for stroke, the sprite of Jotaro Kujo from the JoJo's Bizarre Adventure arcade fighting game — and that same Jotaro sprite is, in turn, the basis for one of the most famous Ronald McDonald edits made for Mugen (a classic PC fighting-game engine for building custom characters, known for absurdly overpowered Ronald builds with a voice line for every move). The link to Ronald McDonald isn't a coincidence: in Undertale itself, Flowey's voice lines were already sampled from an old McDonald's ad ("Donald, that's a wonderful idea" → "THAT'S A WONDERFUL IDEA"), so this pose would add a second layer to the same joke, this time visual instead of audio. **Design coincidence flagged and corroborated by the game's datamining community; there's no direct confirmation from Toby Fox about the exact intent.**
+>
+> ![[Flowery_battle_idle.gif]]
+> *Flowery's battle pose sprite — the visual basis for this comparison to Jotaro and, through him, to the Ronald McDonald edits in Mugen.*
 
 > [!question]- What does the code "0915199X" mean?
 > The shelter code Flowery kept is "0915199X". The most widespread and best-supported reading is that "0915" is a direct nod to Undertale's release date (September 15). The final "X" deliberately leaves the year unconfirmed, within the 1990s — which has led to another, entirely unconfirmed, parallel theory that this full date might actually correspond to Asgore and Toriel's own wedding, the one the bouquet with the 7 Colored Flowers came from. Both readings can coexist without necessarily contradicting each other: the game may be winking at the player with Undertale's real release date while, within the fiction itself, that same date corresponds to a different event in Asgore's life. **The reference to Undertale (09/15) is practically confirmed by the design itself; the reading that it's the wedding date is fan theory, not confirmed.**
@@ -161,6 +170,10 @@ When he briefly joins the group in Chapter 5, the POWER menu gives him the title
 - Toby Fox voices him, just as he does Jevil, Queen, Spamton, and Tenna.
 - After clearing a certain climbing minigame in Chapter 5, Ralsei appears wearing a dress — Flowery calls him "princess" several times just to needle him.
 - He is the only final boss in all of Deltarune (through Chapter 5) who must be defeated non-violently instead of through damage.
+- The second board of Tenna's 8-bit minigame has a yellow flower cut in half as a photographable object; interacting with it reads "A flower. Half the petals are missing. Half the stem is missing. Half the middle is missing. Yet, it stands." — read by much of the fandom as a direct omen for Flowery himself (split in two by the Roaring Knight at the end of the chapter), and at the same time as a hint that he might still be "standing" in some form after that wound.
+
+![[3cap_game_flower_cut_in_half.jpeg]]
+*The flower cut in half from Tenna's minigame — "Yet, it stands."*
 
 ![[flowery_BromideR_item.png]]
 *The BromideR item, a collectible featuring his image within the game itself.*

@@ -136,6 +136,15 @@ confianza: fuerte
 > *La pantalla de estadísticas de Flowery: LV99, 99 en todo, y hasta un "Guts: 🍩🍩🍩🍩🍩" que no encaja con ninguna otra stat del juego.*
 >
 > El paralelismo con Flowey de Undertale es directo: igual que Flowey podía manipular partidas guardadas y tratar el propio sistema de juego como algo a su alcance controlar desde fuera de las reglas normales, Flowery hace lo mismo pero con las estadísticas numéricas en vez de con el propio SAVE — no se las toma en serio como un sistema que lo limita, sino como un juguete que puede rellenar a su antojo. Es, en el fondo, la misma clase de burla hacia la "cuarta pared" del propio juego, solo que aplicada a las stats en lugar de al guardado. **Confirmado en el propio juego que se asignó los números él mismo; la lectura de que esto es un guiño deliberado al comportamiento de Flowey es interpretación, no una declaración directa de Toby Fox.**
+>
+> ![[Equip_screenshot_Flowery.png]]
+> *Su pantalla de equipo durante el breve tiempo que está en el grupo: el arma "Winning Smile" y la armadura "Petal Mantle" — a juego con hechizos propios como Candelabra, My Jerona y X to Dance.*
+
+> [!question]- ¿Su sprite de pose es un guiño a Ronald McDonald y a JoJo's Bizarre Adventure?
+> La pose que hace Flowery al presentarse coincide, casi trazo por trazo, con el sprite de Jotaro Kujo del videojuego arcade de JoJo's Bizarre Adventure — y ese mismo sprite de Jotaro es, a su vez, la base de una de las ediciones más famosas de Ronald McDonald para Mugen (un motor de juego de PC clásico para crear luchadores personalizados, famoso por versiones desproporcionadamente rotas de Ronald con líneas de voz para cada movimiento). La conexión con Ronald McDonald no es casualidad: en el propio Undertale, las líneas de voz de Flowey ya estaban sampleadas de un viejo anuncio de McDonald's ("Donald, that's a wonderful idea" → "THAT'S A WONDERFUL IDEA"), así que esta pose añadiría una segunda capa al mismo chiste, esta vez visual en vez de sonora. **Coincidencia de diseño señalada y corroborada por la comunidad de datamining del juego; no hay confirmación directa de Toby Fox sobre la intención exacta.**
+>
+> ![[Flowery_battle_idle.gif]]
+> *El sprite de pose de Flowery en combate — la base visual de esta comparación con Jotaro y, a través de él, con las ediciones de Ronald McDonald en Mugen.*
 
 > [!question]- ¿Qué significa el código "0915199X"?
 > El código del refugio que Flowery guardaba es "0915199X". La lectura más extendida y mejor fundamentada es que "0915" es un guiño directo a la fecha de lanzamiento de Undertale (15 de septiembre). La "X" final deja el año deliberadamente sin confirmar, dentro de la década de 1990 — lo que ha llevado a otra teoría paralela, esta vez sin confirmación alguna, de que esa fecha completa podría corresponder en realidad a la propia boda de Asgore y Toriel, de la que salió el ramo con las 7 Flores de Colores. Ambas lecturas conviven sin contradecirse necesariamente: el juego puede estar guiñando el ojo al jugador con la fecha real de Undertale mientras, dentro de la propia ficción, esa misma fecha corresponde a un evento distinto de la vida de Asgore. **La referencia a Undertale (09/15) está prácticamente confirmada por el propio diseño; la lectura de que sea la fecha de la boda es teoría de fans, no confirmada.**
@@ -162,6 +171,10 @@ Cuando se une brevemente al grupo en el Cap.5, el menú POWER le asigna el títu
 - Toby Fox le pone voz, igual que a Jevil, Queen, Spamton y Tenna.
 - Superando cierto minijuego de escalada en el Cap.5, Ralsei aparece con un vestido — Flowery lo llama "princesa" varias veces solo para picarlo.
 - Es el único jefe final de todo Deltarune (hasta el Cap.5) que debe derrotarse de forma no violenta en vez de con daño.
+- En el segundo tablero del minijuego de 8 bits de Tenna hay una flor amarilla partida por la mitad como objeto fotografiable; al interactuar con ella, el texto dice "A flower. Half the petals are missing. Half the stem is missing. Half the middle is missing. Yet, it stands." — leído por buena parte del fandom como un presagio directo del propio Flowery (partido en dos por el Caballero Rugiente al final del capítulo) y, a la vez, como una pista de que podría seguir "en pie" de alguna forma tras esa herida.
+
+![[3cap_game_flower_cut_in_half.jpeg]]
+*La flor partida por la mitad del minijuego de Tenna — "Yet, it stands."*
 
 ![[flowery_BromideR_item.png]]
 *El objeto BromideR, un coleccionable con su imagen dentro del propio juego.*
