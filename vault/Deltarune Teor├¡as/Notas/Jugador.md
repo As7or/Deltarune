@@ -44,13 +44,19 @@ confianza: fuerte
 > ![[player_soul_discarded_voice.png]]
 > *"Will now be discarded." — el instante exacto en el que el primer Vessel es descartado y la conexión pasa a Kris.*
 >
-> Al final del capítulo, tras sellar la primera Fuente Oscura, Kris se arranca su propia ALMA del pecho y la arroja a una jaula — el Jugador puede mover el ALMA dentro de la jaula, pero no a Kris, dejando claro que es al ALMA, no a Kris, a quien controla realmente.
+> Al final del capítulo, tras sellar la primera Fuente Oscura, **Kris se arranca su propia ALMA del pecho y la arroja a una jaula** — el Jugador puede mover el ALMA dentro de la jaula, pero no a Kris, dejando claro que es al ALMA, no a Kris, a quien controla realmente.
 >
 > ![[player_kris_soul_cap1_final_scene.png]]
 > *Kris, ya sin el ALMA y con el ojo en rojo, justo después de sellar la primera Fuente Oscura del Cap.1.*
 
 > [!example]+ Capítulo 2 — Snowgrave y la separación más citada
-> Si se completa la Ruta Snowgrave, Noelle llega a cuestionar directamente si de verdad es Kris quien está haciendo lo que está pasando — una de las pocas veces en que un personaje verbaliza en voz alta la sospecha de que hay alguien más detrás de las decisiones de Kris. Al final del capítulo, Kris vuelve a arrancarse el ALMA y actúa en solitario, esta vez abriendo una nueva Fuente Oscura con su propio cuchillo.
+> Al volver a casa tras el Mundo Cíber, en vez de lavarse las manos, **Kris se arranca el ALMA y la tira al lavabo**. Más adelante, si se completa la Ruta Snowgrave, Noelle llega a cuestionar directamente si de verdad es Kris quien está haciendo lo que está pasando — una de las pocas veces en que un personaje verbaliza en voz alta la sospecha de que hay alguien más detrás de las decisiones de Kris. Y si se completó la Ruta Rara, al final del capítulo **Kris vuelve a arrancarse el ALMA** y actúa en solitario, esta vez abriendo una nueva Fuente Oscura con su propio cuchillo.
+
+> [!example]+ Capítulo 3 — La Fuente Oscura de la televisión
+> De noche y completamente solo en el salón de Toriel, **Kris abre con su propio ALMA la Fuente Oscura de la televisión** — el mismo momento que Tenna sospecha después que fue él, y que de hecho vemos ocurrir con nuestros propios ojos (ver [[Tenna]] y [[Roaring Knight]]).
+>
+> ![[kris_open_dark_fountain_tv.gif]]
+> *Kris, solo, abriendo la Fuente Oscura de la televisión en el salón de Toriel — Cap.3.*
 
 > [!example]+ Capítulo 4 — los conductos de ventilación y el ALMA "castigada"
 > En la ruta normal, mientras Kris hace la llamada misteriosa a solas desde el armario, el Jugador puede mover el ALMA de forma independiente por los conductos de ventilación de casa de Noelle. Si se intenta acceder a la cocina, se puede ver a Carol en mitad de otra llamada — pero Kris atrapa el ALMA de inmediato y la vuelve a encerrar en la caja de regalo del cuarto de invitados, cortando la exploración en seco.
@@ -58,7 +64,7 @@ confianza: fuerte
 > ![[soul_ventilation_kris_chocolate_interaction_cap4.jpeg]]
 > *El ALMA asomándose a la cocina a través de los conductos, con Carol al fondo — si se intenta entrar, Kris la atrapa y la encierra de nuevo.*
 >
-> Solo accesible si ya se completó la Ruta Rara del Cap.2, existe además una segunda instancia de este mismo mecanismo: Kris usa el ALMA para viajar sola, de nuevo por los conductos de ventilación, hasta la habitación de Noelle en su casa — mientras el cuerpo de Kris se queda en otro punto de la casa, completamente separado. Noelle cuenta que Kris fue a verla de noche para intentar arreglar lo ocurrido en la Ruta Rara del Cap.2, y que le sacó la espina clavada en el dedo (la contraparte en el Mundo Claro del ThornRing) — dice alegrarse de volver a oír su voz "seria y entre dientes", y pregunta si puede decir algo más: el Jugador elige entre "Que proceda" o "Por favor, no". Si se elige "Que proceda", el ALMA puede entrar de nuevo en la habitación y volver al cuerpo de Kris.
+> Solo accesible si ya se completó la Ruta Rara del Cap.2, existe además una segunda instancia de este mismo mecanismo: Kris usa el ALMA para viajar sola, de nuevo por los conductos de ventilación, hasta la habitación de Noelle en su casa — mientras el cuerpo de Kris se queda en otro punto de la casa, completamente separado. Noelle cuenta que Kris fue a verla de noche para intentar arreglar lo ocurrido en la Ruta Rara del Cap.2, y que le sacó la espina clavada en el dedo (la contraparte en el Mundo Claro del ThornRing) — dice alegrarse de volver a oír su voz "seria y entre dientes", y pregunta si puede decir algo más: el Jugador elige entre "Que proceda" o "Por favor, no". Si se elige "Que proceda", **el ALMA puede entrar de nuevo en la habitación y volver al cuerpo de Kris**.
 >
 > Antes de eso, Noelle pregunta en voz alta a quién le preocupa que oiga lo que está diciendo — mientras Kris intenta taparle la boca sin éxito. El Jugador puede elegir la opción "A mí", revelándose una vez más como una entidad separada directamente ante Noelle.
 >
@@ -70,22 +76,10 @@ confianza: fuerte
 > De camino de vuelta a la iglesia, Susie le pregunta a Kris qué ha pasado con Noelle: aparece un cuadro de elección con **cuatro opciones completamente en blanco**, mientras la lluvia desaparece, el sonido se corta y la pantalla se tiñe de rosa durante toda la elección — uno de los momentos más inquietantes y menos explicados de toda la Ruta Rara.
 
 > [!example]+ Capítulo 5 — Nuevas separaciones
-> El patrón se repite: Kris se separa del Jugador de nuevo al crear la Fuente del Reino de las Flores sin que Susie lo vea, y en distintos puntos más del capítulo. En la iglesia, Tasque Manager llega a dirigirse a Kris por su nombre directamente — una de las pocas veces que un personaje del elenco parece reconocerlo como individuo, no solo como el "Vessel" del Jugador.
+> El patrón se repite: **Kris vuelve a arrancarse el ALMA** para crear la Fuente del Reino de las Flores sin que Susie lo vea, y en distintos puntos más del capítulo. En la iglesia, Tasque Manager llega a dirigirse a Kris por su nombre directamente — una de las pocas veces que un personaje del elenco parece reconocerlo como individuo, no solo como el "Vessel" del Jugador.
 >
 > ![[player_kris_soul_cap5_darkfountain.webp]]
 > *Kris, solo frente a Flower King, creando la Fuente Oscura del Reino de las Flores en el Cap.5.*
-
-### Catálogo — cada vez que Kris nos expulsa de su cuerpo
-Un repaso rápido, capítulo a capítulo, de todos los momentos confirmados en los que Kris se arranca el ALMA y actúa sin el Jugador:
-- **Cap.1**: al final, tras sellar la primera Fuente, se arranca el ALMA y la tira a una jaula — empuña un cuchillo, sonríe con malicia y su ojo destella en rojo (con un sprite reciclado de Asgore en Undertale).
-- **Cap.2**: al volver a casa tras el Mundo Cíber, en vez de lavarse las manos se arranca el ALMA y la tira al lavabo. Si se completó la Ruta Rara, vuelve a arrancársela al final del capítulo para abrir una nueva Fuente con su propio cuchillo.
-- **Cap.3**: de noche y completamente solo en el salón de Toriel, abre con su propio ALMA la Fuente Oscura de la televisión — el mismo momento que Tenna sospecha después que fue él, y que de hecho vemos ocurrir con nuestros propios ojos (ver [[Tenna]] y [[Roaring Knight]]).
-
-![[kris_open_dark_fountain_tv.gif]]
-*Kris, solo, abriendo la Fuente Oscura de la televisión en el salón de Toriel — Cap.3.*
-
-- **Cap.4 (ruta normal)**: la esconde en una caja de regalo del cuarto de invitados en casa de Noelle antes de hablar a solas con ella; en la Ruta Rara, además, la usa para viajar sola por los conductos de ventilación (ver más arriba) y termina pateándola dentro de una papelera.
-- **Cap.5**: se la vuelve a arrancar para crear la Fuente del Reino de las Flores sin que Susie se dé cuenta, y en otros puntos sueltos del capítulo.
 
 ## Relaciones
 

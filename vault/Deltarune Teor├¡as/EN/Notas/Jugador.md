@@ -44,13 +44,19 @@ confianza: strong
 > ![[player_soul_discarded_voice.png]]
 > *"Will now be discarded." — the exact moment the first Vessel is discarded and the connection passes to Kris.*
 >
-> At the end of the chapter, after sealing the first Dark Fountain, Kris tears his own SOUL from his chest and throws it into a cage — the Player can move the SOUL inside the cage, but not Kris, making clear that it's the SOUL, not Kris, that they actually control.
+> At the end of the chapter, after sealing the first Dark Fountain, **Kris tears his own SOUL from his chest and throws it into a cage** — the Player can move the SOUL inside the cage, but not Kris, making clear that it's the SOUL, not Kris, that they actually control.
 >
 > ![[player_kris_soul_cap1_final_scene.png]]
 > *Kris, now without the SOUL and with a red eye, right after sealing the first Dark Fountain in Ch.1.*
 
 > [!example]+ Chapter 2 — Snowgrave and the most-cited separation
-> If the Snowgrave Route is completed, Noelle directly questions whether it's really Kris doing what's happening — one of the few times a character verbalizes out loud the suspicion that someone else is behind Kris's decisions. At the end of the chapter, Kris tears out the SOUL again and acts alone, this time opening a new Dark Fountain with their own knife.
+> Returning home after the Cyber World, instead of washing their hands, **Kris tears out the SOUL and throws it in the sink**. Later, if the Snowgrave Route is completed, Noelle directly questions whether it's really Kris doing what's happening — one of the few times a character verbalizes out loud the suspicion that someone else is behind Kris's decisions. And if the Weird Route was completed, at the end of the chapter **Kris tears out the SOUL again** and acts alone, this time opening a new Dark Fountain with their own knife.
+
+> [!example]+ Chapter 3 — The TV's Dark Fountain
+> Alone at night in Toriel's living room, **Kris opens the TV's Dark Fountain with their own SOUL** — the same moment Tenna later suspects was them, and that we in fact see happen with our own eyes (see [[Tenna]] and [[Roaring Knight]]).
+>
+> ![[kris_open_dark_fountain_tv.gif]]
+> *Kris, alone, opening the TV's Dark Fountain in Toriel's living room — Ch.3.*
 
 > [!example]+ Chapter 4 — the air vents and the "punished" SOUL
 > On the normal route, while Kris makes the mysterious call alone from the closet, the Player can move the SOUL independently through the air vents of Noelle's house. Trying to enter the kitchen reveals Carol in the middle of another call — but Kris catches the SOUL right away and locks it back in the guest room's gift box, cutting the exploration short.
@@ -58,7 +64,7 @@ confianza: strong
 > ![[soul_ventilation_kris_chocolate_interaction_cap4.jpeg]]
 > *The SOUL peeking into the kitchen through the vents, with Carol in the background — trying to enter gets it caught and locked away again.*
 >
-> Only accessible if the Chapter 2 Weird Route was already completed, there's a second instance of this same mechanic: Kris uses the SOUL to travel alone, again through the air vents, to Noelle's room at her house — while Kris's body stays behind elsewhere in the house, completely separate. Noelle says Kris came to see her at night to try to fix what happened on the Chapter 2 Weird Route, and that they pulled out the thorn stuck in her finger (the Light World counterpart of the ThornRing) — she says she's glad to hear their "serious, muttering" [TODO: verify exact EN quote] voice again, and asks if they can say something more: the Player chooses between "Let it happen" or "Please don't" [TODO: verify exact EN quote]. If "Let it happen" is chosen, the SOUL can re-enter the room and return to Kris's body.
+> Only accessible if the Chapter 2 Weird Route was already completed, there's a second instance of this same mechanic: Kris uses the SOUL to travel alone, again through the air vents, to Noelle's room at her house — while Kris's body stays behind elsewhere in the house, completely separate. Noelle says Kris came to see her at night to try to fix what happened on the Chapter 2 Weird Route, and that they pulled out the thorn stuck in her finger (the Light World counterpart of the ThornRing) — she says she's glad to hear their "serious, muttering" [TODO: verify exact EN quote] voice again, and asks if they can say something more: the Player chooses between "Let it happen" or "Please don't" [TODO: verify exact EN quote]. If "Let it happen" is chosen, **the SOUL can re-enter the room and return to Kris's body**.
 >
 > Before that, Noelle asks out loud who they're worried might hear what she's saying — while Kris tries unsuccessfully to cover her mouth. The Player can choose the option "Me" [TODO: verify exact EN quote], revealing itself once again as a separate entity directly in front of Noelle.
 >
@@ -70,22 +76,10 @@ confianza: strong
 > On the way back to the church, Susie asks Kris what happened with Noelle: a choice box appears with **four completely blank options**, while the rain disappears, the sound cuts out, and the screen turns pink for the entire choice — one of the most unsettling and least explained moments in the whole Weird Route.
 
 > [!example]+ Chapter 5 — New separations
-> The pattern repeats: Kris separates from the Player again while creating the Flower Kingdom's Fountain without Susie seeing, and at several other points during the chapter. In the church, Tasque Manager addresses Kris by name directly — one of the few times a cast member seems to recognize them as an individual, not just the Player's "Vessel."
+> The pattern repeats: **Kris tears out the SOUL again** while creating the Flower Kingdom's Fountain without Susie seeing, and at several other points during the chapter. In the church, Tasque Manager addresses Kris by name directly — one of the few times a cast member seems to recognize them as an individual, not just the Player's "Vessel."
 >
 > ![[player_kris_soul_cap5_darkfountain.webp]]
 > *Kris, alone in front of Flower King, creating the Flower Kingdom's Dark Fountain in Ch.5.*
-
-### Catalog — every time Kris kicks us out of their body
-A quick, chapter-by-chapter rundown of every confirmed moment where Kris tears out the SOUL and acts without the Player:
-- **Ch.1**: at the end, after sealing the first Fountain, tears out the SOUL and throws it into a cage — wields a knife, smirks maliciously, and their eye flashes red (with a sprite recycled from Asgore in Undertale).
-- **Ch.2**: returning home after the Cyber World, instead of washing their hands they tear out the SOUL and throw it in the sink. If the Weird Route was completed, they tear it out again at the end of the chapter to open a new Fountain with their own knife.
-- **Ch.3**: alone at night in Toriel's living room, opens the TV's Dark Fountain with their own SOUL — the same moment Tenna later suspects was them, and that we in fact see happen with our own eyes (see [[Tenna]] and [[Roaring Knight]]).
-
-![[kris_open_dark_fountain_tv.gif]]
-*Kris, alone, opening the TV's Dark Fountain in Toriel's living room — Ch.3.*
-
-- **Ch.4 (normal route)**: hides it in a gift box in the guest room at Noelle's house before speaking with her alone; on the Weird Route, they also use it to travel alone through the air vents (see above) and end up kicking it inside a trash can.
-- **Ch.5**: tears it out again to create the Flower Kingdom's Fountain without Susie noticing, and at other scattered points in the chapter.
 
 ## Relationships
 
