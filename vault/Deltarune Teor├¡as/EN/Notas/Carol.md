@@ -37,10 +37,14 @@ confianza: official
 
 > [!example]+ Chapter 4 — return to Noelle's house
 > She makes her first in-person appearance, coming home abruptly to Noelle's house right after Kris makes a mysterious call from the closet. She finds Susie playing Dess's guitar for Noelle, confiscates the instrument, inspects it, and orders Noelle to the kitchen — making clear how protective (and controlling) she is of anything related to her missing daughter.
-> ![[sussie_with_carol.png]]
-*Carol confronting Susie right after finding her with Dess's guitar.*
 >
->Despite the tension of the moment, she apologizes afterward to Kris for the rough experience and makes clear he'll always be welcome in her house — a notably different treatment from the one she gives Susie, whom she throws out without hesitation.
+> ![[sussie_with_carol.png]]
+> *Carol confronting Susie right after finding her with Dess's guitar.*
+>
+> Despite the tension of the moment, she apologizes afterward to Kris for the rough experience and makes clear he'll always be welcome in her house — a notably different treatment from the one she gives Susie, whom she throws out without hesitation.
+>
+> ![[Carol_you_are_welcome.png]]
+> *"As you know, YOU are welcome here any time." — Carol, apologizing to Kris.*
 >
 > In a flashback in this chapter (during Tenna's storyline), the Holiday and Dreemurr families are seen watching TV together at the Dreemurrs' house — until, one by one, they start vanishing from the scene. Carol is the second to fade away, right after Dess.
 >
@@ -92,15 +96,23 @@ confianza: official
 >
 > ![[dess_knight3.png]]
 
-> [!question]- Does she collaborate with the Knight without being him/her?
-> If the previous theory doesn't quite add up, an alternative reading —and one more widespread among those who reject that Carol literally is the Knight— is that she consciously collaborates with or covers for him: hiding clues, protecting information about the shelter, and acting with a familiarity toward the phenomenon that an ordinary mayor wouldn't have. Under this reading, her suspicious actions would still point to complicity without her needing to be the Knight's physical entity herself. **Fan theory, unconfirmed.**
+> [!question]- Does she collaborate with the Knight without being him/her, and is that why she investigates and hides the shelter?
+> If the previous theory doesn't quite add up, an alternative reading —and one more widespread among those who reject that Carol literally is the Knight— is that she consciously collaborates with or covers for him: hiding clues, protecting information about the shelter, and acting with a familiarity toward the phenomenon that an ordinary mayor wouldn't have. This reading connects directly with her own investigation: Carol personally investigates the southern part of town, blocked by flower boxes — almost certainly the Shelter. As mayor, she'd have legitimate access to both the police code and the church code, even without needing any complicity with the Knight; she herself is the one who controls the code for the town's Christmas tree, for instance. The mysterious call in Ch.4 specifically asks that Susie not get to see the code stored in Dess's guitar — if that call is Carol, hiding the code would stop being mere administrative caution and become an active attempt to keep the group from accessing the shelter. Under this reading, her suspicious actions would still point to complicity without her needing to be the Knight's physical entity herself; the simplest reading is that, whether or not she knows exactly what's inside, Carol suspects the shelter is connected to Dess's disappearance and would rather investigate it alone than let Susie or Kris get into something dangerous. **A combination of confirmed fact (she investigates the area) and fan theory (that she collaborates with or covers for the Knight, and the exact reason she hides the code).**
+>
+> ![[carol_investigation_shelter.webp]]
 
 > [!question]- Does she collaborate with Kris? Is she the mysterious caller?
 > Two distinct calls in Ch.4 need to be told apart, which the fandom often mixes up:
 > 1. **The vent call**: while Kris's SOUL travels through the vents of Noelle's house, it finds Kris already on the phone with someone unidentified, asking them to keep Susie from finding Dess's guitar. Carol arrives at the door seconds after that call ends — that timing coincidence is what most fuels the suspicion that it's her. This call, though, knows very specific things: that the church Fountain will open that night, that "the police officer" (almost certainly Undyne) will be sacrificed the following week, and it specifically asks that Susie not see the shelter code — motivations that fit both the Knight and Carol herself.
 > 2. **The window call**: later that night, at the end of the chapter, Kris gets a second, different call that only reminds him of a promise ("Kris... don't forget... you promised"). This is the one most often cited as a possible clue to the Knight himself, and the one mistakenly conflated with the first.
 >
+> ![[carol_call_dess_room.jpg]]
+> *The vent call, from Dess's dark, preserved room — "...I'll be... right there..." — the distorted voice Kris's SOUL hears through the grate.*
+>
 > There's also a **third call, this one practically confirmed as hers**: after the chapter's Fountains are sealed, Kris receives a voicemail that literally uses Carol's voice sample (though without her portrait in the dialogue box), confirming that Noelle can't wait to see him at the Festival the next day — the same welcoming line she says in person further below, in the Angel theory. This one is practically confirmed as her because of the actual sound used, unlike the other two. **Overall: the vent call and the window call remain unconfirmed; the Festival one, by contrast, does use Carol's real sound.**
+>
+> ![[Carol_call_weird_route.webp]]
+> *The Festival call, at the end of Ch.4's Weird Route — compared to the vent call above, the difference in voice is noticeable.*
 
 > [!question]- Does she know about the Angel (the player)?
 > The strongest piece doesn't come from any phone call, but from an in-person scene with no ambiguity about who's speaking: at her own house, next to the family display case/altar, Carol tells Kris "As you know, YOU are welcome here any time" — with the word "YOU" in red capitals, the exact same typographic style the mysterious call in Ch.4 uses to mark when it's addressing the Player rather than Kris. Unlike the call (see previous theory, with two distinct, unconfirmed speakers), this line is unquestionably hers. If that reading is correct, Carol would be one of the few characters —alongside the Voice, Ralsei, and, under certain readings, Sans— with some degree of awareness that someone is controlling Kris from outside.
@@ -115,11 +127,6 @@ confianza: official
 >
 > ![[Carol_and_Rudy_room.png]]
 > *Carol and Rudy's bedroom — the black katana, barely visible in the shadows, is one of the most-analyzed environmental details in the whole house.*
-
-> [!question]- Why does she investigate the southern area and hide the shelter codes?
-> Carol personally investigates the southern part of town, blocked by flower boxes — almost certainly the Shelter. As mayor, she'd have legitimate access to both the police code and the church code, even without needing any complicity with the Knight; she herself is the one who controls the code for the town's Christmas tree, for instance. The mysterious call in Ch.4 specifically asks that Susie not get to see the code stored in Dess's guitar — if that call is Carol, hiding the code would stop being mere administrative caution and become an active attempt to keep the group from accessing the shelter. The simplest reading is that, whether or not she knows exactly what's inside, Carol suspects the shelter is connected to Dess's disappearance and would rather investigate it alone than let Susie or Kris get into something dangerous. **A combination of confirmed fact (she investigates the area) and fan theory (the exact reason she hides the code).**
->
-> ![[carol_investigation_shelter.webp]]
 
 > [!question]- Does she work with Asgore for more than just the florist shop's rent?
 > ![[Asgore_y_Carol_corcho.webp]]

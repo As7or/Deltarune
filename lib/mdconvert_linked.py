@@ -14,6 +14,7 @@ CALLOUT_ICONS = {
     "quote": ("quote", "#6b3fa0"),
     "question": ("?", "#c9982e"),
     "prophecy": ("scroll", "#8a6a3a"),
+    "counter": ("swap", "#d9722a"),
 }
 
 # En "Objetos del Mundo Oscuro.md" cada "## Capítulo N — ..." agrupa varias

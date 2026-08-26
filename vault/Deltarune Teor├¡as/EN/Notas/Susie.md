@@ -100,12 +100,12 @@ The game never confirms it directly, but several clues — not recognizing the c
 > *Susie stepping between the Knight and Toriel, though she ends up incapacitated along with the rest of the party.*
 >
 > After the final confrontation, Ralsei and Susie comfort Tenna — but the scene is cut short when the Knight himself attacks Tenna and tries to take Toriel, only to be stopped by Undyne, who is kidnapped in her place. Susie chases the Knight back into the Light World all the way to the Shelter, pounds on the locked door with her fists, and ends up resealing the fountain without being able to get in.
+>
+> ![[Susie_screenshot_distrust.png]]
+> *Susie voicing her frustration at feeling "kept in the dark" by Ralsei — Tenna's Green Room, Ch.3.*
 
 > [!example]+ Chapter 4 — cracks in the trust
 > Her relationship with Ralsei grows strained: he becomes more independent and withdrawn, and although she's learned healing magic from him, she feels hers is inferior and starts to resent it. In the Dark Sanctuary she discovers tapestries with a more elaborate version of the prophecy and suspects Ralsei is hiding something from her — a suspicion confirmed when he reveals that Gerson can't be summoned again at the Second Sanctuary; Susie explodes at him, making him cry when he admits he's been withholding information.
->
-> ![[Susie_screenshot_distrust.png]]
-> *Susie voicing her frustration at feeling "kept in the dark" by Ralsei.*
 >
 > She meets the Old Man in the Sanctuary; at first he annoys her, but he ends up becoming one of her most heartfelt friendships of the chapter — he helps her get past her insecurity about her healing magic.
 >
@@ -192,6 +192,9 @@ The game never confirms it directly, but several clues — not recognizing the c
 
 > [!quote]- Lancer
 > One of her most genuine and least conflict-ridden bonds; they even form their own team in Ch.1. She carries him on her back when he starts turning to stone outside his native Dark World.
+>
+> ![[Susie_and_Lancer_overworld_high_five.gif]]
+> *Lancer and Susie high-fiving — the image that best sums up their friendship.*
 
 > [!quote]- Rudy
 > She meets him in Ch.2; he half-jokingly threatens to hit her if she hurts Noelle, and they end up getting along surprisingly well. In Ch.5 she sees him setting up the Festival lights for that year's Hometown royalty.
@@ -212,10 +215,11 @@ She has the party's highest HP and Attack — her role is to take hits and hit h
 
 > [!question]+ Is Susie "the girl" from the Last Prophecy?
 > At the end of Ch.4, the Last Prophecy speaks of a "first hero" (the cage), a "second hero" ("the girl, hope crossed in her heart" — assumed to be Susie by order of appearance), and "at the end, there was the girl" as a separate figure. Part of the fandom believes that final "the girl" is Susie again, not a third separate person, pointing out that the symbol accompanying that part of the prophecy is the Rude Buster's — Susie's signature attack — and that the same symbol decorates the rug in her room in Ralsei's castle, which he decorated himself. **Fan theory, unconfirmed by the game.**
+>
 > ![[profecy_susie.webp]]
-
-> [!question]- Counter-theory: that final "girl" would be Noelle, not Susie
-> Another part of the fandom points out that the figure in that final part of the prophecy wields a sword, a weapon that in the game is associated with the pencils that turn into swords inside the Dark World — and Noelle is the one who's constantly shown with pencils from Ch.1 onward ("did you lose your pencil again?"). [TODO: verify exact EN quote] Under this reading, Susie would be wrongly assuming "the girl" is her (hence why she tells Ralsei "you've got the wrong person" [TODO: verify exact EN quote] when he summarizes the prophecy to her), when the role might actually belong to Noelle. **Fan theory, weak and under active debate; no confirmation in the game.**
+>
+> > [!counter]- Counter-theory: that final "girl" would be Noelle, not Susie
+> > Another part of the fandom points out that the figure in that final part of the prophecy wields a sword, a weapon that in the game is associated with the pencils that turn into swords inside the Dark World — and Noelle is the one who's constantly shown with pencils from Ch.1 onward ("did you lose your pencil again?"). [TODO: verify exact EN quote] Under this reading, Susie would be wrongly assuming "the girl" is her (hence why she tells Ralsei "you've got the wrong person" [TODO: verify exact EN quote] when he summarizes the prophecy to her), when the role might actually belong to Noelle. **Fan theory, weak and under active debate; no confirmation in the game.**
 
 > [!question]+ Does Susie suspect Kris is the Roaring Knight?
 > In Ch.5, it's Kris — not the Knight — who creates the new Dark Fountain behind the flower shop, in front of Susie, although she never actually sees the scene happen directly. Combined with the fact that back in Ch.4 she already distrusted being kept in the dark (first about Ralsei, and according to this theory also about Kris) and that in Ch.2 the computer's Dark World may have been Kris's doing alone while the SOUL wasn't equipped, part of the fandom holds that Susie senses, without fully confirming it, that Kris plays an active role in creating Fountains and could be the Knight himself (or connected to him). Ralsei, according to this same theory, would already know everything and be staying quiet by choice. **Fan theory (the so-called "Kris-Knight theory"), strong but unconfirmed; the game deliberately leaves the Knight's identity ambiguous.**

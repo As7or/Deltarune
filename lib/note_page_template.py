@@ -58,6 +58,7 @@ PAGE_CSS = '''
   .callout-danger{ background:#f8d6d6; }
   .callout-quote{ background:#e6d9f5; }
   .callout-question{ background:#fbe3b0; }
+  .callout-counter{ background:#f7cd9c; }
 
   /* callout anidado: otro postit encima, mas pequeno y con mas sombra */
   .callout .callout{
@@ -191,6 +192,7 @@ PAGE_CSS_PARCHMENT = '''
   .callout-danger{ border-left-color:#b23c30; }
   .callout-quote{ border-left-color:#6b3fa0; }
   .callout-question{ border-left-color:#c9982e; }
+  .callout-counter{ border-left-color:#d9722a; }
 
   .callout .callout{
     margin:30px 14px 18px;
@@ -318,6 +320,7 @@ PAGE_CSS_RUSTED = '''
   .callout-danger{ background:radial-gradient(ellipse at 75% 20%, rgba(190,90,25,0.35) 0%, transparent 32%), linear-gradient(160deg,#4a2e28,#3a221e); }
   .callout-quote{ background:radial-gradient(ellipse at 25% 80%, rgba(160,70,20,0.28) 0%, transparent 32%), linear-gradient(160deg,#3d3548,#2c2736); }
   .callout-question{ background:linear-gradient(160deg,#4a3d20,#3a2f18); }
+  .callout-counter{ background:radial-gradient(ellipse at 50% 50%, rgba(230,120,20,0.45) 0%, transparent 40%), linear-gradient(160deg,#5a3d20,#3a2712); }
   .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(0,0,0,0.6); }
 
   .wikilink{ color:#e0975a; border-bottom:1px dotted #e0975a; text-decoration:none; cursor:pointer; }
@@ -415,6 +418,7 @@ PAGE_CSS_WET = '''
   .callout-example{ background:#f2ead0; }
   .callout-danger{ background:#ecd8c0; }
   .callout-quote{ background:#e6ddc8; }
+  .callout-counter{ background:#f0c896; }
   .callout-question{ background:#f0e4b8; }
   .callout .callout{ margin:14px 4px 6px; box-shadow:3px 6px 16px rgba(90,70,20,0.4); }
 
@@ -496,6 +500,7 @@ PAGE_CSS_CRYSTAL = '''
   .callout-danger{ background:linear-gradient(160deg, rgba(140,45,60,0.5), rgba(60,20,28,0.7)); }
   .callout-quote{ background:linear-gradient(160deg, rgba(90,60,150,0.5), rgba(40,25,65,0.7)); }
   .callout-question{ background:linear-gradient(160deg, rgba(120,95,30,0.5), rgba(55,42,15,0.7)); }
+  .callout-counter{ background:linear-gradient(160deg, rgba(200,110,20,0.55), rgba(90,50,10,0.7)); }
   .callout .callout{ margin:14px 4px 6px; box-shadow:0 0 22px rgba(90,120,255,0.28); }
 
   .wikilink{ color:#7de8ff; border-bottom:1px dotted #7de8ff; text-decoration:none; cursor:pointer; }
@@ -560,7 +565,7 @@ PAGE_CSS_UNDERTALE = '''
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.6; color:#ffffff; }
   .callout::before{ content:"*"; position:absolute; left:8px; top:14px; color:#ffffff; font-size:16px; }
   .callout-body{ padding-left:14px; }
-  .callout-info, .callout-tip, .callout-example, .callout-danger, .callout-quote, .callout-question{ background:#000000; }
+  .callout-info, .callout-tip, .callout-example, .callout-danger, .callout-quote, .callout-question, .callout-counter{ background:#000000; }
   .callout .callout{ margin:14px 2px 6px; border-width:2px; }
 
   .wikilink{ color:#ffff00; border-bottom:1px dotted #ffff00; text-decoration:none; cursor:pointer; }
@@ -646,6 +651,7 @@ PAGE_CSS_FOUNTAIN = '''
   .callout-danger{ background:linear-gradient(160deg,#702c35,#4d1a20); }
   .callout-quote{ background:linear-gradient(160deg,#502c70,#301a4d); }
   .callout-question{ background:linear-gradient(160deg,#70652c,#4d451a); }
+  .callout-counter{ background:linear-gradient(160deg,#8a5a20,#5c3a12); }
   .callout .callout{ margin:14px 4px 6px; box-shadow:0 0 22px rgba(60,130,170,0.3); }
 
   .wikilink{ color:#6fb8dc; border-bottom:1px dotted #6fb8dc; text-decoration:none; cursor:pointer; }
@@ -857,6 +863,7 @@ PAGE_CSS_GASTER = '''
   .callout-danger{ background:linear-gradient(155deg,#d2c0bc,#b09a95); }
   .callout-quote{ background:linear-gradient(155deg,#c8c4ce,#a8a3ae); }
   .callout-question{ background:linear-gradient(155deg,#d0ccb6,#b0ab92); }
+  .callout-counter{ background:linear-gradient(155deg,#e0b183,#c08a55); }
 
   .callout .callout{
     margin:16px 4px 8px;

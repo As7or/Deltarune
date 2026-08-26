@@ -290,6 +290,10 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > - Al recuperar el control de Kris al inicio de la Ruta Rara del Cap.5, la escena empieza con Kris entrando por la ventana de su propio cuarto, dejándose caer sin ningún cuidado, y arrastrándose hasta la jaula donde guarda el ALMA para devolvérsela al cuerpo — es decir, el ALMA llevaba ya un rato fuera y Kris fuera de casa antes de que el jugador retome el control.
 > - Esa misma noche (entre el final del Cap.4 y el inicio del Cap.5) aparecen las ruedas del coche de Toriel rajadas, sin que se aclare quién lo hizo ni por qué.
 > - Existe una animación de archivo, no accesible en una partida normal, en la que Kris se revuelve en la cama a mitad de la noche, se incorpora de un salto, camina de forma brusca hasta el centro de la habitación y levanta el brazo con violencia — cortada antes de mostrar el desenlace.
+>
+> ![[kris_cap4_night_what_he_did_last_scene_with_susie_window.png]]
+> *Izquierda: Kris de vuelta en su propia habitación, junto a la ventana, al recuperar el control al inicio de la Ruta Rara del Cap.5. Derecha: la casa a oscuras esa misma noche — el hueco temporal sobre el que especula toda esta teoría.*
+>
 > Ninguna de estas tres piezas está confirmada como parte de la misma noche exacta ni conectada explícitamente entre sí dentro del juego; es el fandom quien las une para especular sobre una ausencia nocturna de Kris entre capítulos. **Teoría de fans especulativa, construida sobre varias piezas de evidencia textual real pero nunca unidas explícitamente por el propio juego.**
 
 > [!question]- ¿Le gustaba Noelle a Kris?

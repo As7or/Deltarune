@@ -290,6 +290,10 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > - On regaining control of Kris at the start of Ch.5's Weird Route, the scene starts with Kris climbing in through their own bedroom window, dropping carelessly to the floor, and crawling to the cage where they keep the SOUL to put it back in their body — meaning the SOUL had already been out for a while, and Kris out of the house, before the player regains control.
 > - That same night (between the end of Ch.4 and the start of Ch.5) Toriel's car tires turn up slashed, without it being clarified who did it or why.
 > - There's an unused animation, not accessible in a normal playthrough, in which Kris tosses and turns in bed in the middle of the night, sits up with a jolt, walks abruptly to the center of the room, and raises their arm violently — cut before showing the outcome.
+>
+> ![[kris_cap4_night_what_he_did_last_scene_with_susie_window.png]]
+> *Left: Kris, back in their own room by the window, on regaining control at the start of Ch.5's Weird Route. Right: the house, dark, that same night — the time gap this whole theory speculates about.*
+>
 > None of these three pieces is confirmed as part of the exact same night nor explicitly connected to each other within the game; it's the fandom that links them to speculate about a nighttime absence of Kris's between chapters. **Speculative fan theory, built on several pieces of real textual evidence that the game itself never explicitly ties together.**
 
 > [!question]- Did Kris have feelings for Noelle?

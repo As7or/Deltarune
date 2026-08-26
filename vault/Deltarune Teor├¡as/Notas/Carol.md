@@ -37,18 +37,22 @@ confianza: oficial
 
 > [!example]+ Capítulo 4 — regreso a la casa de Noelle
 > Hace su primera aparición en persona, regresando abruptamente a la casa de Noelle justo después de que Kris haga una llamada misteriosa desde el armario. Encuentra a Susie tocando la guitarra de Dess para Noelle, le confisca el instrumento, la inspecciona y ordena a Noelle ir a la cocina — dejando claro lo protectora (y controladora) que es con cualquier cosa relacionada con su hija desaparecida.
-> ![[sussie_with_carol.png]]
-*Carol confrontando a Susie justo después de encontrarla con la guitarra de Dess.*
 >
->Pese a la tensión del momento, se disculpa después con Kris por el mal rato y le deja claro que siempre será bienvenido en su casa — un trato notablemente distinto al que le da a Susie, a quien echa sin contemplaciones.
+> ![[sussie_with_carol.png]]
+> *Carol confrontando a Susie justo después de encontrarla con la guitarra de Dess.*
+>
+> Pese a la tensión del momento, se disculpa después con Kris por el mal rato y le deja claro que siempre será bienvenido en su casa — un trato notablemente distinto al que le da a Susie, a quien echa sin contemplaciones.
+>
+> ![[Carol_you_are_welcome.png]]
+> *"As you know, YOU are welcome here any time." — Carol, disculpándose con Kris.*
 >
 > En un flashback de este capítulo (durante la trama de Tenna), se ve a las familias Holiday y Dreemurr viendo la tele juntas en casa de los Dreemurr — hasta que, una por una, empiezan a desaparecer de la escena. Carol es la segunda en desvanecerse, justo después de Dess.
 >
 > > [!danger]- Ruta Rara del Cap.4
 > > En esta ruta, Kris no llega a hacer la llamada misteriosa antes de que Susie encuentre la guitarra — se entera por ella misma, después de salir de la casa. Al final del capítulo, sin embargo, si se revisa el teléfono, los contactos recientes aparecen borrados, lo que sugiere que la llamada sí se hizo, solo que con la pantalla apagada. El mensaje que deja Carol al final de esta ruta —confirmando la asistencia de Kris al Festival y comentando que Noelle está deseando verlo— suena con su voz normal y reconocible, a diferencia del extraño distorsionador de voz de la llamada misteriosa en la ruta normal.
->
-> ![[Carol_call_weird_route.webp]]
-> *El mensaje de voz de Carol al final de la Ruta Rara del Cap.4 — la pista clave que distingue su voz real de la de la llamada misteriosa.*
+> >
+> > ![[Carol_call_weird_route.webp]]
+> > *El mensaje de voz de Carol al final de la Ruta Rara del Cap.4 — la pista clave que distingue su voz real de la de la llamada misteriosa.*
 
 
 
@@ -92,15 +96,23 @@ confianza: oficial
 >
 > ![[dess_knight3.png]]
 
-> [!question]- ¿Colabora con el Knight sin ser él/ella misma?
-> Si la teoría anterior no cuadra del todo, una lectura alternativa —y más extendida entre quienes rechazan que Carol sea literalmente el Knight— es que colabora con él o lo encubre conscientemente: oculta pistas, protege información sobre el refugio y actúa con una familiaridad con el fenómeno que no tendría una alcaldesa cualquiera. Bajo esta lectura, sus acciones sospechosas seguirían apuntando a complicidad sin necesidad de que ella sea la entidad física del Knight. **Teoría de fans, no confirmada.**
+> [!question]- ¿Colabora con el Knight sin ser él/ella misma, y por eso investiga y oculta el refugio?
+> Si la teoría anterior no cuadra del todo, una lectura alternativa —y más extendida entre quienes rechazan que Carol sea literalmente el Knight— es que colabora con él o lo encubre conscientemente: oculta pistas, protege información sobre el refugio y actúa con una familiaridad con el fenómeno que no tendría una alcaldesa cualquiera. Esta lectura conecta directamente con su propia investigación: Carol vigila personalmente la zona sur del pueblo, bloqueada por cajas de flores — casi con toda seguridad el Shelter. Como alcaldesa, tendría acceso legítimo tanto al código de la policía como al de la iglesia, incluso sin necesidad de ninguna complicidad con el Knight; ella misma es quien controla el código del pino navideño del pueblo, por ejemplo. La llamada misteriosa del Cap.4 pide expresamente que Susie no llegue a ver el código guardado en la guitarra de Dess — si esa llamada es Carol, ocultar el código dejaría de ser solo cautela administrativa y pasaría a ser un intento activo de que el grupo no acceda al refugio. Bajo esta lectura, sus acciones sospechosas seguirían apuntando a complicidad sin necesidad de que ella sea la entidad física del Knight; la explicación más sencilla es que, sepa o no lo que hay exactamente dentro, Carol sospecha que el refugio está relacionado con la desaparición de Dess y prefiere investigarlo ella sola antes que dejar que Susie o Kris se metan en algo peligroso. **Combinación de hecho confirmado (investiga la zona) y teoría de fans (que colabore o encubra al Knight, y el motivo exacto de por qué oculta el código).**
+>
+> ![[carol_investigation_shelter.webp]]
 
 > [!question]- ¿Colabora con Kris? ¿Es ella la llamada misteriosa?
 > Hay que distinguir **dos llamadas distintas** en el Cap.4, que el fandom mezcla a menudo:
 > 1. **La llamada de los conductos**: mientras el ALMA de Kris recorre los conductos de ventilación de casa de Noelle, encuentra a Kris ya al teléfono con alguien no identificado, que le está pidiendo evitar que Susie encuentre la guitarra de Dess. Carol llega a la puerta segundos después de que esa llamada termine — la coincidencia de tiempos es lo que más alimenta la sospecha de que sea ella. Esta llamada, eso sí, sabe cosas muy específicas: que la Fuente de la iglesia se abrirá esa noche, que "la policía" (casi con toda seguridad Undyne) será sacrificada la semana siguiente, y pide expresamente que Susie no vea el código del refugio — motivaciones que encajan tanto con el Knight como con la propia Carol.
 > 2. **La llamada de la ventana**: ya de noche, al final del capítulo, Kris recibe una segunda llamada distinta que solo le recuerda una promesa ("Kris... no lo olvides... lo prometiste"). Esta es la más citada como posible pista del propio Knight, y es la que se mezcla por error con la primera.
 >
+> ![[carol_call_dess_room.jpg]]
+> *La llamada de los conductos, desde el cuarto oscuro y preservado de Dess — "...I'll be... right there..." — la voz distorsionada que el ALMA de Kris oye a través de la rejilla.*
+>
 > Existe además una **tercera llamada, esta sí prácticamente confirmada como suya**: tras sellarse las Fuentes del capítulo, Kris recibe un mensaje de voz que usa literalmente el sample de sonido de Carol (aunque sin su retrato en el cuadro de diálogo), confirmando que Noelle está deseando verle en el Festival al día siguiente — la misma frase de bienvenida que dice en persona más abajo, en la teoría del Ángel. Esta sí está prácticamente confirmada como ella por el propio sonido usado, a diferencia de las otras dos. **En conjunto: la llamada de los conductos y la de la ventana siguen sin confirmarse; la del Festival, por el contrario, sí usa el sonido real de Carol.**
+>
+> ![[Carol_call_weird_route.webp]]
+> *La llamada del Festival, al final de la Ruta Rara del Cap.4 — comparada con la de los conductos de arriba, la diferencia de voz entre ambas es notable.*
 
 > [!question]- ¿Sabe del Ángel (el jugador)?
 > La pieza más sólida no viene de ninguna llamada, sino de una escena en persona, sin ambigüedad sobre quién habla: en su propia casa, junto a la vitrina/altar familiar, Carol le dice a Kris "Como ya sabes, TÚ eres bienvenido/a aquí siempre" — con la palabra "TÚ" en rojo y mayúsculas, exactamente el mismo estilo tipográfico que usa la llamada misteriosa del Cap.4 para remarcar cuándo se dirige al Jugador y no a Kris. A diferencia de la llamada (ver teoría anterior, con dos interlocutores distintos y ninguno confirmado), esta frase sí es indiscutiblemente suya. Si esa lectura es correcta, Carol sería de los pocos personajes —junto a la Voz, Ralsei y, bajo ciertas lecturas, Sans— con algún grado de conciencia de que hay alguien controlando a Kris desde fuera.
@@ -115,11 +127,6 @@ confianza: oficial
 >
 > ![[Carol_and_Rudy_room.png]]
 > *El dormitorio de Carol y Rudy — la katana negra, apenas visible entre las sombras, es uno de los detalles ambientales más analizados de toda la casa.*
-
-> [!question]- ¿Por qué investiga la zona sur y oculta los códigos del refugio?
-> Carol investiga personalmente la zona sur del pueblo, bloqueada por cajas de flores — casi con toda seguridad el Shelter. Como alcaldesa, tendría acceso legítimo tanto al código de la policía como al de la iglesia, incluso sin necesidad de ninguna complicidad con el Knight; ella misma es quien controla el código del pino navideño del pueblo, por ejemplo. La llamada misteriosa del Cap.4 pide expresamente que Susie no llegue a ver el código guardado en la guitarra de Dess — si esa llamada es Carol, ocultar el código dejaría de ser solo cautela administrativa y pasaría a ser un intento activo de que el grupo no acceda al refugio. La lectura más sencilla es que, sepa o no lo que hay exactamente dentro, Carol sospecha que el refugio está relacionado con la desaparición de Dess y prefiere investigarlo ella sola antes que dejar que Susie o Kris se metan en algo peligroso. **Combinación de hecho confirmado (investiga la zona) y teoría de fans (el motivo exacto de por qué oculta el código).**
->
-> ![[carol_investigation_shelter.webp]]
 
 > [!question]- ¿Trabaja con Asgore por algo más que el alquiler de la floristería?
 > ![[Asgore_y_Carol_corcho.webp]]
