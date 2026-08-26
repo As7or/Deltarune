@@ -1,1 +1,3582 @@
-{"nodes":[{"id":"g_king","type":"group","x":6657,"y":-5390,"width":903,"height":949,"color":"6","label":"King","background":"Sprites/King_Battle (2).gif"},{"id":"g18","type":"group","x":4310,"y":-2992,"width":560,"height":420,"color":"3","label":"Shelter","background":"Sprites/Shelter.png"},{"id":"g16","type":"group","x":1747,"y":-751,"width":560,"height":420,"color":"3","label":"Lake","background":"Sprites/Lake.png"},{"id":"g19","type":"group","x":1023,"y":1600,"width":700,"height":244,"color":"#6b7280","label":"Cristal Oscuro","background":"Sprites/ShadowCrystals.png"},{"id":"g10","type":"group","x":151,"y":-4680,"width":610,"height":350,"color":"#6b7280","label":"Conexión Undertale","background":"Sprites/Undertale_capsule_steam.jpg"},{"id":"g5","type":"group","x":2640,"y":-1386,"width":590,"height":566,"color":"#6b7280","label":"Forgotten Man","background":"Sprites/Man_overworld_tree.gif"},{"id":"g24","type":"group","x":5121,"y":-1704,"width":518,"height":636,"color":"6","label":"Tenna","background":"Sprites/Tenna_Overworld_gif.gif"},{"id":"g14","type":"group","x":7123,"y":151,"width":714,"height":439,"color":"6","label":"Mike","background":"Sprites/Mikeimpersonators.webp"},{"id":"g_papyrus","type":"group","x":561,"y":-6120,"width":399,"height":780,"color":"4","label":"Papyrus (never seen)","background":"Sprites/papyrus_shadow.png"},{"id":"g7","type":"group","x":1141,"y":56,"width":507,"height":609,"color":"#6b7280","label":"Roaring Knight","background":"Sprites/TheRoaringKnightDeltarune.webp"},{"id":"g_shuttah","type":"group","x":7837,"y":-2520,"width":483,"height":623,"color":"6","label":"Shuttah","background":"Sprites/Shuttah_battle_idle.gif"},{"id":"g_pink","type":"group","x":-2353,"y":403,"width":643,"height":465,"color":"6","label":"Mad Mew Mew (Pink)","background":"Sprites/Mad_Mew_Mew_Pink.gif"},{"id":"g_gerson","type":"group","x":-1545,"y":1485,"width":717,"height":392,"color":"4","label":"Gerson Boom","background":"Sprites/one-gerson-boom-vs-indie-cross-v0-bzhrfnmw63cf1.gif"},{"id":"g_lancer","type":"group","x":7320,"y":-3720,"width":480,"height":580,"color":"6","label":"Lancer","background":"Sprites/Lancer_Overworld.webp"},{"id":"g11","type":"group","x":3840,"y":665,"width":560,"height":494,"color":"#6b7280","label":"FRIEND","background":"Sprites/FRIEND_overworld_vision.gif"},{"id":"g_clamgirl","type":"group","x":5720,"y":-4915,"width":411,"height":673,"color":"4","label":"Clam Guy","background":"Sprites/gaster_Clam_Guy_overworld.png"},{"id":"g_seam","type":"group","x":3240,"y":1960,"width":600,"height":460,"color":"6","label":"Seam","background":"Sprites/Seam_Face.webp"},{"id":"g_titan","type":"group","x":2160,"y":1045,"width":480,"height":555,"color":"6","label":"Titan","background":"Sprites/Titan_battle_idle.gif"},{"id":"g_rouxls","type":"group","x":8640,"y":-3560,"width":400,"height":650,"color":"6","label":"Rouxls Kaard","background":"Sprites/Ruruskaado.webp"},{"id":"g6","type":"group","x":2113,"y":-2603,"width":307,"height":802,"color":"4","label":"Dess","background":"Sprites/Dess.png"},{"id":"g22","type":"group","x":1291,"y":-4440,"width":327,"height":727,"color":"4","label":"Rudy","background":"Sprites/Rudy_Overworld_1.png"},{"id":"g9","type":"group","x":320,"y":-80,"width":400,"height":400,"color":"#6b7280","label":"Profecía","background":"Sprites/Profecy.gif"},{"id":"g_ramb","type":"group","x":5880,"y":-2800,"width":417,"height":523,"color":"6","label":"Ramb","background":"Sprites/Ramb.webp"},{"id":"g21","type":"group","x":-2680,"y":-3846,"width":354,"height":600,"color":"4","label":"Asgore","background":"Sprites/Asgore_Dreemurr_overworld.webp"},{"id":"g23","type":"group","x":2126,"y":-4400,"width":301,"height":691,"color":"4","label":"Carol","background":"Sprites/Carol_Holiday.webp"},{"id":"g26","type":"group","x":4680,"y":-680,"width":425,"height":472,"color":"4","label":"Normal NPC","background":"Sprites/Deltarune_-_Sprite_-_Normal_NPC.webp"},{"id":"g12","type":"group","x":5300,"y":-122,"width":361,"height":546,"color":"6","label":"Spamton","background":"Sprites/spamton.gif"},{"id":"g13","type":"group","x":-365,"y":-3400,"width":299,"height":634,"color":"4","label":"Asriel","background":"Sprites/asriel_shadow.png"},{"id":"g_eram","type":"group","x":6139,"y":1060,"width":421,"height":438,"color":"6","label":"ERAM","background":"Sprites/shadow_mantle.gif"},{"id":"g15","type":"group","x":6687,"y":-1171,"width":493,"height":374,"color":"#6b7280","label":"Everyman","background":"Sprites/everyman.png"},{"id":"g4","type":"group","x":4330,"y":-5730,"width":260,"height":696,"color":"#6b7280","label":"Gaster (W. D. Gaster)","background":"Sprites/gaster.png"},{"id":"g_queen","type":"group","x":3040,"y":-3480,"width":300,"height":590,"color":"6","label":"Queen","background":"Sprites/Queen_deltarune.webp"},{"id":"g17","type":"group","x":-343,"y":-760,"width":411,"height":412,"color":"#6b7280","label":"Rutas","background":"Sprites/routes.png"},{"id":"g_sans","type":"group","x":-840,"y":-5200,"width":360,"height":440,"color":"4","label":"Sans","background":"Sprites/86374-and-sans-undertale-black-line-white-sprite.png"},{"id":"g_flowery","type":"group","x":-3720,"y":-4413,"width":240,"height":640,"color":"5","label":"Flowery","background":"Sprites/Flowery_Overworld-ezgif.com-webp-to-gif-converter.gif"},{"id":"g20","type":"group","x":-1840,"y":-4093,"width":271,"height":543,"color":"4","label":"Toriel","background":"Sprites/Toriel_Overworld.webp"},{"id":"g_fuentes","type":"group","x":-107,"y":1770,"width":420,"height":315,"color":"#6b7280","label":"Fuentes Oscuras","background":"Sprites/Dark_Fountain_screenshot.webp"},{"id":"g3","type":"group","x":520,"y":-1506,"width":260,"height":558,"color":"4","label":"Noelle","background":"Sprites/Noelle_overworld.png"},{"id":"g2","type":"group","x":-3499,"y":-2400,"width":260,"height":535,"color":"6","label":"Ralsei","background":"Sprites/Ralsei_overworld_hatless.png"},{"id":"g_jevil","type":"group","x":5120,"y":1498,"width":361,"height":380,"color":"6","label":"Jevil","background":"Sprites/Jevil.gif"},{"id":"g_pippins","type":"group","x":8057,"y":-1415,"width":320,"height":420,"color":"6","label":"Pippins","background":"Sprites/pippins.webp"},{"id":"g_catti","type":"group","x":-4770,"y":-1174,"width":300,"height":423,"color":"4","label":"Catti","background":"Sprites/Catti_overworld.webp"},{"id":"g_huevo","type":"group","x":3230,"y":-272,"width":420,"height":300,"color":"#6b7280","label":"Huevo","background":"Sprites/man_egg.png"},{"id":"g_cattenheimer","type":"group","x":-4470,"y":50,"width":300,"height":420,"color":"4","label":"Sr. Cattenheimer","background":"Sprites/Dad_Cat_overworld.webp"},{"id":"g1","type":"group","x":-192,"y":-2202,"width":260,"height":477,"color":"4","label":"Susie","background":"Sprites/Susie_overworld_eyes.png"},{"id":"g_napstablook","type":"group","x":-3359,"y":135,"width":240,"height":500,"color":"4","label":"Napstablook","background":"Sprites/Napstablook.webp"},{"id":"g_undyne","type":"group","x":-3799,"y":-937,"width":260,"height":460,"color":"4","label":"Undyne","background":"Sprites/Officer_Undyne_Overworld.webp"},{"id":"g_alphys","type":"group","x":-4600,"y":-3550,"width":260,"height":460,"color":"4","label":"Alphys","background":"Sprites/alphys_sprite_transparent_v2.png"},{"id":"g_alvin","type":"group","x":520,"y":760,"width":240,"height":489,"color":"4","label":"Alvin","background":"Sprites/Alvin_overwolrd.webp"},{"id":"g_berdly","type":"group","x":480,"y":-3661,"width":240,"height":481,"color":"4","label":"Berdly","background":"Sprites/Berdly_Overworld.webp"},{"id":"g25","type":"group","x":2542,"y":248,"width":330,"height":346,"color":"4","label":"Onionsan","background":"Sprites/Deltarune_-_Sprite_-_Onionsan_-_Kawaii.webp"},{"id":"g_pipis","type":"group","x":4120,"y":-1342,"width":390,"height":274,"color":"6","label":"Pipis","background":"Sprites/1406-pipis.png"},{"id":"g_jockington","type":"group","x":-4770,"y":-2294,"width":280,"height":340,"color":"4","label":"Jockington","background":"Sprites/Jockington_overworld.webp"},{"id":"g0","type":"group","x":-1145,"y":-1450,"width":212,"height":446,"color":"4","label":"Kris","background":"Sprites/Kris_overworld_static.png"},{"id":"g_7flores","type":"group","x":-2980,"y":-5130,"width":300,"height":300,"color":"5","label":"7 Flores de Colores","background":"Sprites/7_Colored_Flowers_screenshot_enemies.png"},{"id":"g_jackenstein","type":"group","x":-680,"y":718,"width":280,"height":300,"color":"6","label":"Jackenstein","background":"Sprites/Jackenstein_overworld_talk.gif"},{"id":"g_jugador","type":"group","x":-2480,"y":-1450,"width":254,"height":253,"color":"#6b7280","label":"Jugador","background":"Sprites/Kris_overworld_SOUL.png"},{"id":"g8","type":"group","x":-1837,"y":-554,"width":254,"height":144,"color":"#6b7280","label":"Ángel","background":"Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp"},{"id":"g_pink-cap","type":"text","text":"# 🟣 Darkner — **Mad Mew Mew (Pink)**\n**👪 Blook family**\n**🐱 Lightworld object: Mew Mew figure**\n**🌑 Flower Kingdom, Ch.5**\n## Fifth Shadow Crystal bearer, Ch.5.\n[[Mad Mew Mew (Pink)]]","x":-2340,"y":860,"width":340,"height":312,"color":"6"},{"id":"g_alvin-cap","type":"text","text":"# 🟢 Lightner — **Alvin**\n**🐢 Turtle**\n**👪 Boom family**\n**⛪ Church**\n## Hometown's parish priest; Gerson Boom's son.\n[[Alvin]]","x":491,"y":1240,"width":380,"height":280,"color":"4"},{"id":"g21-cap","type":"text","text":"# 🟢 Lightner — **Asgore**\n**🐐 Goat**\n**👪 Dreemurr family**\n**🌼 Flower King flower shop**\n## Kris and Asriel's father. Ch.5 tritagonist.\n[[Asgore]]","x":-2680,"y":-3236,"width":340,"height":296,"color":"4"},{"id":"g20-cap","type":"text","text":"# 🟢 Lightner — **Toriel**\n**🐐 Goat**\n**👪 Dreemurr family (former)**\n**🎒 School (teacher)**\n**⛪ Church**\n## Kris and Asriel's mother, Asgore's ex-wife.\n[[Toriel]]","x":-1880,"y":-3544,"width":340,"height":304,"color":"4"},{"id":"g_7flores-cap","type":"text","text":"# 🌱 Plant — **7 Colored Flowers**\n**🌸 Asgore and Toriel's wedding bouquet**\n## Aqua, Seth, Orange, Green, Yellow, and Blue — a mirror of the Undertale SOULs.\n[[7 Flores de Colores|7 Colored Flowers]]","x":-2980,"y":-4720,"width":300,"height":340,"color":"3"},{"id":"g_gerson-cap","type":"text","text":"# 🟢 Lightner — **Gerson Boom**\n**🐢 Turtle**\n**👪 Boom family**\n**🎓 School (teacher, deceased)**\n## Deceased Lightner, revived as the Old Man in Ch.4.\n[[Gerson Boom]]","x":-1585,"y":1880,"width":340,"height":340,"color":"4"},{"id":"g_berdly-cap","type":"text","text":"# 🟢 Lightner — **Berdly**\n**🐦 Bird (crow/jay)**\n**🎒 School**\n## Classmate; ally since Ch.2.\n[[Berdly]]","x":440,"y":-3201,"width":340,"height":261,"color":"4"},{"id":"g_sans-cap","type":"text","text":"# 🟢 Lightner — **Sans**\n**💀 Skeleton**\n**👪 Papyrus's brother**\n**🌭 Vendor (Festival)**\n## Skeleton newly arrived in Hometown; character from Undertale.\n[[Sans]]","x":-840,"y":-4760,"width":340,"height":330,"color":"4"},{"id":"g_papyrus-cap","type":"text","text":"# 🟢 Lightner — **Papyrus**\n**💀 Skeleton**\n**👪 Sans's brother**\n## Sans's brother; never appears in person.\n[[Papyrus]]","x":580,"y":-5340,"width":340,"height":270,"color":"4"},{"id":"g9-cap","type":"text","text":"# ⚪ Topic — **Prophecy**\n**📜 Object / text**\n## Announces a final sacrifice.\n[[Profecía|Prophecy]]","x":341,"y":310,"width":340,"height":210,"color":"4"},{"id":"g_jackenstein-cap","type":"text","text":"# 🟣 Darkner — **Jackenstein**\n**🎃 Library, Dark Sanctuary (Ch.4)**\n## His fight confirms that Kris's soul and the Player's are separate.\n[[Jackenstein]]","x":-680,"y":1020,"width":320,"height":220,"color":"6"},{"id":"g10-cap","type":"text","text":"# ⚪ Topic — **Undertale Connection**\n**🔗 Concept**\n## Parallel universe confirmed by Toby Fox.\n[[Conexión Undertale|Undertale Connection]]","x":280,"y":-4320,"width":340,"height":280},{"id":"g0-cap","type":"text","text":"# 🟢 Lightner — **Kris**\n**🧑 Human**\n**👪 Dreemurr family (adopted)**\n**🎒 School**\n**🎮 Fun Gang**\n## Who's really in control of Kris?\n[[Kris]]","x":-1200,"y":-1000,"width":340,"height":301,"color":"4"},{"id":"g_alphys-cap","type":"text","text":"# 🟢 Lightner — **Alphys**\n**🦎 Reptile**\n**🎒 School (teacher)**\n## Kris and Susie's teacher.\n[[Alphys]]","x":-4620,"y":-3100,"width":340,"height":230,"color":"4"},{"id":"g13-cap","type":"text","text":"# 🟢 Lightner — **Asriel**\n**🐐 Goat**\n**👪 Dreemurr family**\n**🎓 College**\n## Back since Ch.4.\n[[Asriel]]","x":-380,"y":-2760,"width":340,"height":268,"color":"4"},{"id":"g_flowery-cap","type":"text","text":"# 🌱 Plant — **Flowery**\n**🌼 Lightworld object: a golden flower**\n**🌑 Flower Kingdom, Ch.5**\n## Main antagonist and final boss of Ch.5.\n[[Flowery]]","x":-3760,"y":-3803,"width":340,"height":263,"color":"6"},{"id":"g_napstablook-cap","type":"text","text":"# 🟢 Lightner — **Napstablook**\n**👻 Ghost**\n**👪 Blook family**\n**👮 Police**\n## Hometown police officer, alongside Undyne.\n[[Napstablook]]","x":-3400,"y":640,"width":340,"height":307,"color":"4"},{"id":"g_catti-cap","type":"text","text":"# 🟢 Lightner — **Catti**\n**🐈 Cat**\n**👪 Catty's younger sister**\n**🎒 School**\n## Classmate; dating Jockington.\n[[Catti]]","x":-4800,"y":-760,"width":340,"height":320,"color":"4"},{"id":"g_undyne-cap","type":"text","text":"# 🟢 Lightner — **Undyne**\n**🐟 Fish**\n**👮 Police (chief)**\n## Police chief; kidnapped by the Knight in Ch.3.\n[[Undyne]]","x":-3820,"y":-480,"width":340,"height":279,"color":"4"},{"id":"g6-cap","type":"text","text":"# 🟢 Lightner — **Dess**\n**🦌 Reindeer**\n**👪 Holiday family**\n## Missing since before the game.\n[[Dess]]","x":2095,"y":-1836,"width":340,"height":256,"color":"4"},{"id":"g16-cap","type":"text","text":"# 🟡 Place — **Lake**\n## The great loose end of Ch.5.\n[[Lake]]","x":1760,"y":-355,"width":340,"height":173,"color":"3"},{"id":"g5-cap","type":"text","text":"# ⚪ Topic — **Forgotten Man**\n**👤 Enigmatic character**\n## Hands out an Egg every chapter; Kris is the only one who remembers him.\n[[Forgotten Man]]","x":2620,"y":-820,"width":340,"height":280},{"id":"g25-cap","type":"text","text":"# 🟢 Lightner — **Onionsan**\n**🦑 Cephalopod**\n## Lake NPC. Missing since Ch.4.\n[[Onionsan]]","x":2534,"y":600,"width":340,"height":262,"color":"4"},{"id":"g19-cap","type":"text","text":"# ⚪ Topic — **Shadow Crystal**\n**📦 5 objects, 1 per chapter (Ch.1-5)**\n**🗽 Theme: freedom**\n**💭 Ch.5: they're \"failed dreams\"**\n## Secret bosses seeking freedom — Seam keeps all 5.\n[[Cristal Oscuro|Shadow Crystal]]","x":1226,"y":1838,"width":340,"height":269,"color":"#6b7280"},{"id":"g_conexiones-cap","type":"text","text":"# Connections (detail)\n## Full explanation of every corkboard line.\n[[Conexiones del Corcho|Corkboard Connections]]","x":800,"y":3162,"width":380,"height":210,"color":"6b7280"},{"id":"hub","type":"text","text":"# Theory Corkboard\n**Deltarune**\n\nEach card = sprite/image + quick note.\nDouble-click the text below to open the full theory.\n\nSee `00 Índice.md` for the color legend.","x":1259,"y":3162,"width":401,"height":238,"color":"6"},{"id":"g7-cap","type":"text","text":"# ⚪ Topic — **Roaring Knight**\n**👤 Character (hidden identity)**\n## Is it Dess herself under the mask?\n[[Roaring Knight]]","x":1200,"y":668,"width":378,"height":232},{"id":"g1-cap","type":"text","text":"# 🟢 Lightner — **Susie**\n**🦎 Reptile**\n**🎒 School**\n**🎮 Fun Gang**\n## From bully to trustworthy friend.\n[[Susie]]","x":-240,"y":-1717,"width":340,"height":297,"color":"4"},{"id":"g3-cap","type":"text","text":"# 🟢 Lightner — **Noelle**\n**🦌 Reindeer**\n**👪 Holiday family**\n**🎒 School**\n**🎮 Fun Gang**\n## Dess's little sister.\n[[Noelle]]","x":489,"y":-968,"width":340,"height":288,"color":"4"},{"id":"g_queen-cap","type":"text","text":"# 🟣 Darkner — **Queen**\n**💻 Lightworld object: a laptop**\n**🌑 Cyber World (Mansion), Ch.2**\n## Tyrannical ruler of the Cyber World, Ch.2.\n[[Queen]]","x":3020,"y":-2900,"width":340,"height":270,"color":"6"},{"id":"g22-cap","type":"text","text":"# 🟢 Lightner — **Rudy**\n**🦌 Reindeer**\n**👪 Holiday family**\n## Dess and Noelle's father. Hospitalized.\n[[Rudy]]","x":1264,"y":-3779,"width":354,"height":259,"color":"4"},{"id":"g23-cap","type":"text","text":"# 🟢 Lightner — **Carol**\n**🦌 Reindeer**\n**👪 Holiday family**\n**🏛️ Town Hall**\n## Mayor. Dess and Noelle's mother.\n[[Carol]]","x":2080,"y":-3779,"width":354,"height":299,"color":"4"},{"id":"g_lancer-cap","type":"text","text":"# 🟣 Darkner — **Lancer**\n**👪 King and Queen's son**\n**🎴 Lightworld object: the Jack of Spades**\n**🌑 Card Kingdom, Ch.1**\n## Prince of the Card Kingdom; Susie's best friend.\n[[Lancer]]","x":7320,"y":-3140,"width":340,"height":320,"color":"6"},{"id":"g_rouxls-cap","type":"text","text":"# 🟣 Darkner — **Rouxls Kaard**\n**👪 Watches over Lancer as his tutor**\n**📜 Lightworld object: the rules card**\n**🌑 Card Kingdom, Ch.1**\n## Duke of Puzzles; Lancer's 'lesser dad'.\n[[Rouxls Kaard]]","x":8660,"y":-2920,"width":340,"height":330,"color":"6"},{"id":"g_pippins-cap","type":"text","text":"# 🟣 Darkner — **Pippins**\n**🎲 Lightworld object: dice**\n**🌑 TV World, Ch.3**\n## Common enemy of the TV World.\n[[Pippins]]","x":8057,"y":-995,"width":340,"height":271,"color":"6"},{"id":"g_eram-cap","type":"text","text":"# 🟣 Darkner — **ERAM**\n**🌑 Sword Route, Ch.3**\n## Secret boss of the Sword Route, Ch.3.\n[[ERAM]]","x":6160,"y":1500,"width":340,"height":240,"color":"6"},{"id":"g15-cap","type":"text","text":"# ⚪ Topic — **Everyman**\n**🥚 Cameo**\n## Easter egg carried over from Undertale.\n[[Everyman]]","x":6760,"y":-800,"width":340,"height":240},{"id":"g_shuttah-cap","type":"text","text":"# 🟣 Darkner — **Shuttah**\n**📸 Miniboss, Island Board (Ch.3)**\n## \"When its eyes close, memories are made in gray\"\n[[Shuttah]]","x":7920,"y":-1920,"width":300,"height":320,"color":"6"},{"id":"g_jevil-cap","type":"text","text":"# 🟣 Darkner — **Jevil**\n**🃏 Lightworld object: the Joker card**\n**🌑 Card Kingdom, Ch.1**\n## Secret boss of Ch.1, the joker card.\n[[Jevil]]","x":5140,"y":1880,"width":340,"height":292,"color":"6"},{"id":"g14-cap","type":"text","text":"# 🟣 Darkner — **Mike**\n**🎤 Lightworld object: a microphone**\n**🌑 Cyber World, Ch.2**\n## The most memed NPC of the Cyber World.\n[[Mike]]","x":7300,"y":600,"width":398,"height":267,"color":"6"},{"id":"g_king-cap","type":"text","text":"# 🟣 Darkner — **King**\n**👪 Lancer's father**\n**🎴 Lightworld object: the King of Spades**\n**🌑 Card Kingdom, Ch.1**\n## Lancer's father; Ch.1 antagonist.\n[[King]]","x":6657,"y":-4440,"width":340,"height":281,"color":"6"},{"id":"g4-cap","type":"text","text":"# ⚪ Topic — **Gaster (W. D. Gaster)**\n**🔮 Theory / character**\n## The Voice we never see.\n[[Gaster (W. D. Gaster)]]","x":4280,"y":-5040,"width":340,"height":240},{"id":"g12-cap","type":"text","text":"# 🟣 Darkner — **Spamton**\n**📨🚗 Lightworld object: a car dealership ad**\n**🌑 Cyber World, Ch.2**\n## Ruined salesman, bearer of a Shadow Crystal.\n[[Spamton]]","x":5300,"y":420,"width":348,"height":282,"color":"6"},{"id":"g_clamgirl-cap","type":"text","text":"# 🟢 Lightner — **Clam Guy**\n**🐚 Monster (clam)**\n## Returns from Undertale; shares a design with Clam Girl.\n[[Clam Guy]]","x":5789,"y":-4265,"width":331,"height":284,"color":"4"},{"id":"g_huevo-cap","type":"text","text":"# ⚪ Topic — **Egg**\n**📦 Object**\n## It's the 'protein' FRIEND is hunting — revealed by Pink, Ch.5.\n[[Huevo|Egg]]","x":3250,"y":20,"width":380,"height":262,"color":"6"},{"id":"g_pipis-cap","type":"text","text":"# 🟣 Darkner Object — **Pipis**\n**🦠 Lightworld object: a newly \"born\" virus**\n**🌑 Cyber World, Ch.2**\n## Spamton's eggs/clams; tied to Noelle, Tenna, and FRIEND.\n[[Pipis]]","x":4140,"y":-1060,"width":340,"height":331,"color":"6"},{"id":"g24-cap","type":"text","text":"# 🟣 Darkner — **Tenna**\n**📺 Lightworld object: the Dreemurrs' television**\n**🌑 TV World, Ch.3**\n## Director of TV Time. Secret pact with Kris.\n[[Tenna]]","x":5183,"y":-980,"width":425,"height":251,"color":"6"},{"id":"g_ramb-cap","type":"text","text":"# 🟣 Darkner — **Ramb**\n**🔌 Lightworld object: a power strip with K-type outlets**\n**🌑 TV World, Ch.3**\n## Power strip; bartender of the Green Room, Ch.3.\n[[Ramb]]","x":5960,"y":-2280,"width":340,"height":280,"color":"6"},{"id":"g18-cap","type":"text","text":"# 🟡 Place — **Shelter**\n**🔐 3 codes, 2 already known**\n**👤 Only Kris, Undyne, Carol, and the Knight go in**\n## Contains a Dark World — confirmed in Ch.3.\n[[Shelter]]","x":4265,"y":-2639,"width":439,"height":187,"color":"3"},{"id":"g11-cap","type":"text","text":"# ⚪ Topic — **FRIEND**\n**👤 Character / threat**\n## Feline pack hunting 'protein' — a real threat since Ch.5.\n[[FRIEND]]","x":3960,"y":1145,"width":340,"height":275},{"id":"g26-cap","type":"text","text":"# 🟢 Lightner — **Normal NPC**\n**🐦 Bird**\n## Resembles Gaster Follower #3.\n[[Normal NPC]]","x":4720,"y":-223,"width":340,"height":263,"color":"4"},{"id":"g17-cap","type":"text","text":"# ⚪ Topic — **Routes**\n**🎮 Game mechanic**\n## Pacifist/Violent, Sword Route, and Weird Route.\n[[Rutas|Routes]]","x":-303,"y":-346,"width":340,"height":246},{"id":"g2-cap","type":"text","text":"# 🟣 Darkner — **Ralsei**\n**👑 Self-proclaimed prince (Dark World)**\n**❓ Unconfirmed Lightworld object**\n**🌑 Constant, Ch.1-5**\n## Is he still Asriel after Ch.4?\n[[Ralsei]]","x":-3524,"y":-1867,"width":340,"height":305,"color":"6"},{"id":"g_jugador-cap","type":"text","text":"# ⚪ Topic — **Player**\n**🕹️ Metanarrative concept**\n## Controls Kris through the SOUL; an entity separate from him.\n[[Jugador|Player]]","x":-2480,"y":-1190,"width":254,"height":220,"color":"#6b7280"},{"id":"g8-cap","type":"text","text":"# ⚪ Topic — **Angel**\n**👼 Religious and prophetic figure**\n## Its Heaven must be \"banished\", according to the Prophecy.\n[[Ángel|Angel]]","x":-1870,"y":-304,"width":340,"height":278},{"id":"g_cattenheimer-cap","type":"text","text":"# 🟢 Lightner — **Mr. Cattenheimer**\n**🐈 Cat**\n**👪 Catty and Catti's father**\n**🖐️ Missing an arm**\n## His house hides a 3-code lock, just like the shelter.\n[[Sr. Cattenheimer|Mr. Cattenheimer]]","x":-4500,"y":470,"width":340,"height":300,"color":"4"},{"id":"g_jockington-cap","type":"text","text":"# 🟢 Lightner — **Jockington**\n**🐍 Snake**\n## Classmate; Catti's boyfriend.\n[[Jockington]]","x":-4790,"y":-1988,"width":340,"height":274,"color":"4"},{"id":"g_titan-cap","type":"text","text":"# ⚪ Topic — **Titan**\n**🌑 Primordial entity of darkness**\n## Final boss of Ch.4; announces \"the Roaring\" from the Prophecy.\n[[Titan]]","x":2214,"y":1600,"width":320,"height":250,"color":"6"},{"id":"g_seam-cap","type":"text","text":"# 🟣 Darkner — **Seam**\n**🧸 Lightworld object: a plush toy**\n**🌑 Card Kingdom, Ch.1**\n## Shopkeeper who receives the Shadow Crystals.\n[[Seam]]","x":3360,"y":2430,"width":340,"height":270,"color":"6"},{"id":"g_fuentes-cap","type":"text","text":"# ⚪ Topic — **Dark Fountains**\n**🌊 Shape each Dark World**\n**🔪 Any \"determined\" Lightner can open one**\n**🐉 Too many opened = the Roaring**\n## Ch.1 and the Shelter: the only two with no confirmed opener.\n[[Fuentes Oscuras|Dark Fountains]]","x":-137,"y":2095,"width":410,"height":320,"color":"#6b7280"}],"edges":[{"id":"e2","fromNode":"g4","fromSide":"left","toNode":"g10","toSide":"right","color":"3","label":"original character from UT"},{"id":"e4","fromNode":"g5","fromSide":"right","toNode":"g18","toSide":"left","color":"3","label":"same incident"},{"id":"e6","fromNode":"g6","fromSide":"bottom","toNode":"g16","toSide":"top","color":"1","label":"possible whereabouts (Ch.5)"},{"id":"e7","fromNode":"g6","fromSide":"right","toNode":"g18","toSide":"left","color":"1","label":"incident that made her disappear"},{"id":"e8","fromNode":"g6","fromSide":"left","toNode":"g3","toSide":"right","color":"4","label":"sisters"},{"id":"e10","fromNode":"g8","fromSide":"right","toNode":"g9","toSide":"left","color":"4","label":"prophesied figure, confirmed"},{"id":"e12","fromNode":"g9","fromSide":"left","toNode":"g17","toSide":"right","color":"4","label":"each route reinterprets the final sacrifice"},{"id":"e14","fromNode":"g10","fromSide":"bottom","toNode":"g0","toSide":"top","color":"4","label":"SOULs and the Vessel theory"},{"id":"e17","fromNode":"g12","fromSide":"bottom","toNode":"g19","toSide":"right","color":"4","label":"second confirmed bearer (Ch.2), as Spamton NEO"},{"id":"e18","fromNode":"g12","fromSide":"top","toNode":"g15","toSide":"bottom","color":"1","label":"cameos tied to merchandise"},{"id":"e20","fromNode":"g14","fromSide":"bottom","toNode":"g11","toSide":"right","color":"1","label":"minor mysterious NPC"},{"id":"e21","fromNode":"g14","fromSide":"top","toNode":"g15","toSide":"bottom","color":"1","label":"'easter egg' category"},{"id":"e22","fromNode":"g16","fromSide":"left","toNode":"g17","toSide":"right","color":"3","label":"ending exclusive to the weird route"},{"id":"e23","fromNode":"g16","fromSide":"top","toNode":"g3","toSide":"bottom","color":"3","label":"key scene of Ch.5"},{"id":"e25","fromNode":"g2","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"companion, link to the Vessel"},{"id":"0a3488579cc7d530","fromNode":"g3","fromSide":"left","toNode":"g1","toSide":"right","color":"4","label":"couple (confirmed Ch.5)"},{"id":"1c3a96f61f2d0fc8","fromNode":"g12","fromSide":"left","toNode":"g11","toSide":"right","color":"3","label":"team with Cat damage resistance; Pipis's blue circle was his gift to Noelle"},{"id":"e28","fromNode":"g3","fromSide":"left","toNode":"g8","toSide":"right","color":"3","label":"is she the Angel? (ARG clock)"},{"id":"e_noelle_jugador","fromNode":"g3","fromSide":"left","toNode":"g_jugador","toSide":"right","color":"4","label":"also perceives it"},{"id":"e1","fromNode":"g4","fromSide":"right","toNode":"g18","toSide":"top","color":"3","label":"tied to the incident"},{"id":"be8fbf331140a01a","fromNode":"g11","fromSide":"left","toNode":"g9","toSide":"bottom","color":"3","label":"The tail of Hell"},{"id":"5d928a6beb19dc98","fromNode":"g0","fromSide":"right","toNode":"g3","toSide":"left","color":"4","label":"Friends"},{"id":"e3","fromNode":"g5","fromSide":"left","toNode":"g0","toSide":"right","color":"3","label":"Kris's repressed trauma"},{"id":"ne0","fromNode":"g20","fromSide":"bottom","toNode":"g0","toSide":"top","color":"4","label":"mother"},{"id":"ne1","fromNode":"g20","fromSide":"bottom","toNode":"g13","toSide":"left","color":"4","label":"mother"},{"id":"ne2","fromNode":"g21","fromSide":"bottom","toNode":"g0","toSide":"top","color":"4","label":"father"},{"id":"ne4","fromNode":"g22","fromSide":"bottom","toNode":"g6","toSide":"top","color":"4","label":"father"},{"id":"ne5","fromNode":"g22","fromSide":"right","toNode":"g23","toSide":"left","fromEnd":"arrow","color":"4","label":"married"},{"id":"ne7","fromNode":"g23","fromSide":"bottom","toNode":"g6","toSide":"top","color":"4","label":"mother"},{"id":"ne8","fromNode":"g23","fromSide":"bottom","toNode":"g18","toSide":"top","color":"1","label":"investigates the area"},{"id":"ne9","fromNode":"g24","fromSide":"bottom","toNode":"g12","toSide":"top","fromEnd":"arrow","color":"4","label":"former partners, now rivals"},{"id":"ne10","fromNode":"g24","fromSide":"left","toNode":"g0","toSide":"top","color":"1","label":"secret pact"},{"id":"ne11","fromNode":"g24","fromSide":"left","toNode":"g20","toSide":"bottom","color":"1","label":"kept her locked up"},{"id":"ne12","fromNode":"g25","fromSide":"right","toNode":"g26","toSide":"left","color":"1","label":"murder?"},{"id":"ne13","fromNode":"g25","fromSide":"left","toNode":"g16","toSide":"bottom","color":"4","label":"appears at the lake"},{"id":"8152f82bf7e6605d","fromNode":"g26","fromSide":"left","toNode":"g16","toSide":"right","color":"4","label":"after Onionsan's disappearance"},{"id":"27d5de0830b5b5c0","fromNode":"g22","fromSide":"bottom","toNode":"g3","toSide":"top","color":"4","label":"father"},{"id":"7aca66e3a90bd2cd","fromNode":"g22","fromSide":"bottom","toNode":"g7","toSide":"top","color":"1","label":"knight?"},{"id":"4a906ee6c4514a83","fromNode":"g5","fromSide":"bottom","toNode":"g_huevo","toSide":"left","color":"3","label":"hands out an Egg every chapter"},{"id":"4d60ab9ac3014947","fromNode":"g21","fromSide":"right","toNode":"g20","toSide":"left","fromEnd":"arrow","color":"4","label":"Divorced"},{"id":"ne3","fromNode":"g21","fromSide":"bottom","toNode":"g18","toSide":"top","color":"1","label":"secret corkboard"},{"id":"0b13a9adf83d9a33","fromNode":"g24","fromSide":"right","toNode":"g14","toSide":"top","color":"4","label":"boss"},{"id":"42cdae9af19f6ab9","fromNode":"g14","fromSide":"left","toNode":"g12","toSide":"right","fromEnd":"arrow","color":"4","label":"friends"},{"id":"982ec9a34ea8e161","fromNode":"g20","fromSide":"top","toNode":"g10","toSide":"left","color":"4"},{"id":"a967caf660633fdf","fromNode":"g26","fromSide":"top","toNode":"g4","toSide":"bottom","color":"3","label":"follower?"},{"id":"ne_asgore_knight","fromNode":"g21","fromSide":"bottom","toNode":"g7","toSide":"top","color":"3","label":"kidnapped Ch.5"},{"id":"ne_kris_knight","fromNode":"g0","fromSide":"bottom","toNode":"g7","toSide":"top","color":"3","label":"complicity"},{"id":"1a50d95772118a7c","fromNode":"g23","fromSide":"bottom","toNode":"g3","toSide":"top","color":"4","label":"mother"},{"id":"e_gerson_susie","fromNode":"g_gerson","fromSide":"top","toNode":"g1","toSide":"bottom","color":"4","label":"mentor, Ch.4"},{"id":"e_gerson_prof","fromNode":"g_gerson","fromSide":"right","toNode":"g9","toSide":"left","color":"4","label":"wrote the Lord of the Hammer"},{"id":"e_gerson_knight","fromNode":"g_gerson","fromSide":"right","toNode":"g7","toSide":"left","color":"4","label":"revived by the Knight"},{"id":"e_flowery_asgore","fromNode":"g_flowery","fromSide":"right","toNode":"g21","toSide":"bottom","color":"4","label":"wants to make him happy"},{"id":"e_flowery_ralsei","fromNode":"g_flowery","fromSide":"bottom","toNode":"g2","toSide":"left","color":"4","label":"archrival"},{"id":"e_flowery_kris","fromNode":"g_flowery","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"final boss Ch.5"},{"id":"e_jevil_knight","fromNode":"g_jevil","fromSide":"left","toNode":"g7","toSide":"bottom","color":"3","label":"Shadow Crystal pattern"},{"id":"e_jevil_spamton","fromNode":"g_jevil","fromSide":"right","toNode":"g12","toSide":"left","color":"3","label":"both bear a Shadow Crystal"},{"id":"e_jevil_noelle","fromNode":"g_jevil","fromSide":"left","toNode":"g3","toSide":"right","color":"1","label":"does Devilsknife recognize her?"},{"id":"e_gaster_kris","fromNode":"g4","fromSide":"bottom","toNode":"g0","toSide":"top","color":"3","label":"does he create the Vessel?"},{"id":"e_kris_susie","fromNode":"g0","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"companions since Ch.1"},{"id":"e_noelle_kris_cap5","fromNode":"g3","fromSide":"top","toNode":"g0","toSide":"bottom","color":"4","label":"confronts him (Ch.5)"},{"id":"e_sans_toriel","fromNode":"g_sans","fromSide":"left","toNode":"g20","toSide":"top","color":"4","label":"became friends the night before Ch.1; they dance together at the Dreemurr house (Ch.4)"},{"id":"e_sans_kris","fromNode":"g_sans","fromSide":"bottom","toNode":"g0","toSide":"top","color":"4","label":"gives him a fake number; gets the key ice cream to reach the Lake (Ch.5)"},{"id":"e_sans_undertale","fromNode":"g_sans","fromSide":"right","toNode":"g10","toSide":"left","color":"4","label":"character returning from Undertale, practically unchanged"},{"id":"e_sans_gaster","fromNode":"g_sans","fromSide":"right","toNode":"g4","toSide":"left","color":"1","label":"share the mystery of the workshop/lab and the 'don't forget' drawing — doesn't confirm kinship"},{"id":"e_sans_papyrus","fromNode":"g_sans","fromSide":"right","toNode":"g_papyrus","toSide":"left","color":"4","label":"brothers — Sans systematically prevents Kris from meeting him"},{"id":"e_papyrus_gaster","fromNode":"g_papyrus","fromSide":"right","toNode":"g4","toSide":"left","color":"1","label":"share the same total on-screen absence; possible link to the inherited lab"},{"id":"e_papyrus_knight","fromNode":"g_papyrus","fromSide":"bottom","toNode":"g7","toSide":"top","color":"1","label":"fandom joke: 'we've already met him, he's the Knight' — with no serious basis"},{"id":"e_berdly_noelle","fromNode":"g_berdly","fromSide":"bottom","toNode":"g3","toSide":"top","color":"4","label":"study partners; he mistakenly believes she's in love with him"},{"id":"e_berdly_susie","fromNode":"g_berdly","fromSide":"bottom","toNode":"g1","toSide":"top","color":"4","label":"falls for her after she tells him she doesn't care whether he's smart or dumb"},{"id":"e_berdly_kris","fromNode":"g_berdly","fromSide":"bottom","toNode":"g0","toSide":"top","color":"4","label":"classmates and occasional rivals"},{"id":"e_jevil_cristal","fromNode":"g_jevil","fromSide":"bottom","toNode":"g19","toSide":"right","color":"4","label":"first known bearer (Ch.1)"},{"id":"e_knight_cristal","fromNode":"g7","fromSide":"bottom","toNode":"g19","toSide":"top","color":"4","label":"third bearer (Ch.3), the only one whose fight isn't hidden"},{"id":"e_gerson_cristal","fromNode":"g_gerson","fromSide":"bottom","toNode":"g19","toSide":"left","color":"4","label":"fourth bearer, as Hammer of Justice (Ch.4)"},{"id":"e_undyne_knight","fromNode":"g_undyne","fromSide":"right","toNode":"g7","toSide":"left","color":"4","label":"kidnapped by the Knight at the end of Ch.3"},{"id":"e_undyne_toriel","fromNode":"g_undyne","fromSide":"top","toNode":"g20","toSide":"left","color":"4","label":"tries to protect her from the Knight and is kidnapped instead"},{"id":"e_undyne_alphys","fromNode":"g_undyne","fromSide":"top","toNode":"g_alphys","toSide":"bottom","color":"4","label":"friendship that grows from scratch over the course of the game"},{"id":"e_undyne_asgore","fromNode":"g_undyne","fromSide":"top","toNode":"g21","toSide":"bottom","color":"3","label":"held the police chief position before her, with no explanation"},{"id":"e_alphys_kris","fromNode":"g_alphys","fromSide":"bottom","toNode":"g0","toSide":"top","color":"4","label":"his teacher; worried about his behavior"},{"id":"e_alphys_asgore","fromNode":"g_alphys","fromSide":"right","toNode":"g21","toSide":"left","color":"4","label":"friends; share a love of Mew Mew Kissy Cutie"},{"id":"e_alphys_pink","fromNode":"g_alphys","fromSide":"bottom","toNode":"g_pink","toSide":"top","color":"4","label":"gave Asgore the figure that becomes Pink"},{"id":"e_pink_asgore","fromNode":"g_pink","fromSide":"top","toNode":"g21","toSide":"right","color":"4","label":"keeps her figure as the shop's mascot, unaware of what it hides"},{"id":"e_pink_cristal","fromNode":"g_pink","fromSide":"bottom","toNode":"g19","toSide":"left","color":"4","label":"fifth known bearer (Ch.5), the most hidden of the five"},{"id":"e_pink_kris","fromNode":"g_pink","fromSide":"right","toNode":"g0","toSide":"left","color":"3","label":"parallel: both are a body shared with an outside entity"},{"id":"e_queen_berdly","fromNode":"g_queen","fromSide":"left","toNode":"g_berdly","toSide":"right","color":"4","label":"ally and victim in Ch.2 — she wires him up to control him"},{"id":"e_queen_noelle","fromNode":"g_queen","fromSide":"left","toNode":"g3","toSide":"right","color":"4","label":"kidnaps her upon arrival at the Cyber World (Ch.2)"},{"id":"e_queen_knight","fromNode":"g_queen","fromSide":"bottom","toNode":"g7","toSide":"top","color":"4","label":"her role model until Ralsei explains the Roaring to her"},{"id":"e_seam_jevil","fromNode":"g_seam","fromSide":"right","toNode":"g_jevil","toSide":"bottom","color":"4","label":"best friend and counterpart; the one who had to lock him up"},{"id":"e_seam_cristal","fromNode":"g_seam","fromSide":"left","toNode":"g19","toSide":"bottom","color":"4","label":"receives and studies each Shadow Crystal as it's obtained"},{"id":"e_ramb_kris","fromNode":"g_ramb","fromSide":"left","toNode":"g0","toSide":"top","color":"4","label":"treated him like a real toy as a child"},{"id":"e_napstablook_undyne","fromNode":"g_napstablook","fromSide":"left","toNode":"g_undyne","toSide":"bottom","color":"4","label":"police partners"},{"id":"e_napstablook_pink","fromNode":"g_napstablook","fromSide":"right","toNode":"g_pink","toSide":"left","color":"4","label":"cousins, live together in Blook House"},{"id":"e_catti_jockington","fromNode":"g_catti","fromSide":"top","toNode":"g_jockington","toSide":"bottom","color":"4","label":"couple since the hula-hoop day"},{"id":"e_catti_kris","fromNode":"g_catti","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"disapproves of him hanging out with Susie"},{"id":"e_jockington_susie","fromNode":"g_jockington","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"supports her friendship with Kris"},{"id":"e_ramb_tenna","fromNode":"g_ramb","fromSide":"left","toNode":"g24","toSide":"right","color":"4","label":"remember playing together as kids; 'two trapped in the past'"},{"id":"6dc36166046a5bda","fromNode":"g5","fromSide":"right","toNode":"g4","toSide":"bottom","color":"1","label":"possible identity"},{"id":"e19","fromNode":"g13","fromSide":"left","toNode":"g2","toSide":"top","color":"4","label":"theory of resemblance to Ralsei, unresolved"},{"id":"cd8f21ee232f964a","fromNode":"g13","fromSide":"left","toNode":"g0","toSide":"top","color":"4","label":"Siblings"},{"id":"6fae6b9ab70c750a","fromNode":"g13","fromSide":"right","toNode":"g6","toSide":"left","color":"3","label":"Lovers?"},{"id":"db8a142cf73c7380","fromNode":"g13","fromSide":"right","toNode":"g7","toSide":"top","color":"1","label":"Knight?"},{"id":"5a85d4e3239e5fc6","fromNode":"g21","fromSide":"bottom","toNode":"g13","toSide":"left","color":"4","label":"father"},{"id":"e_lancer_susie","fromNode":"g_lancer","fromSide":"bottom","toNode":"g1","toSide":"top","color":"4","label":"best friend — she carries him on her shoulders and protects him"},{"id":"e_lancer_king","fromNode":"g_lancer","fromSide":"top","toNode":"g_king","toSide":"bottom","color":"4","label":"father and son, distant relationship"},{"id":"e_lancer_queen","fromNode":"g_lancer","fromSide":"left","toNode":"g_queen","toSide":"right","color":"3","label":"mother — 'arbitrarily decided', never clarified"},{"id":"e_pippins_mike","fromNode":"g_pippins","fromSide":"bottom","toNode":"g14","toSide":"top","color":"4","label":"Battat (Small Mike) is a Pippins in a green disguise"},{"id":"e_pippins_tenna","fromNode":"g_pippins","fromSide":"left","toNode":"g24","toSide":"right","color":"4","label":"common enemy of his kingdom, the TV World"},{"id":"e_eram_friend","fromNode":"g_eram","fromSide":"left","toNode":"g11","toSide":"top","color":"3","label":"FRIEND appears as a support enemy in its fight — distinct entities"},{"id":"e_pipis_noelle","fromNode":"g_pipis","fromSide":"left","toNode":"g3","toSide":"top","color":"4","label":"Spamton sent her one before Ch.2 — they already knew each other"},{"id":"e_pipis_tenna","fromNode":"g_pipis","fromSide":"right","toNode":"g24","toSide":"bottom","color":"4","label":"keeps one hidden despite his public contempt for Spamton"},{"id":"e_pipis_friend","fromNode":"g_pipis","fromSide":"bottom","toNode":"g11","toSide":"top","color":"3","label":"possible source of the 'protein' that draws FRIEND"},{"id":"e_pipis_forgottenman","fromNode":"g_pipis","fromSide":"left","toNode":"g5","toSide":"right","color":"3","label":"same egg/protein theme tied to FRIEND"},{"id":"e_rouxls_king","fromNode":"g_rouxls","fromSide":"top","toNode":"g_king","toSide":"bottom","color":"4","label":"his lord in Ch.1, served with self-interested loyalty"},{"id":"e_rouxls_queen","fromNode":"g_rouxls","fromSide":"bottom","toNode":"g_queen","toSide":"top","color":"4","label":"tries to be her right hand in Ch.2"},{"id":"e_rouxls_tenna","fromNode":"g_rouxls","fromSide":"bottom","toNode":"g24","toSide":"top","color":"4","label":"tries to be his second-in-command in Ch.3; Tenna mocks him publicly"},{"id":"e_eram_ramb","fromNode":"g_eram","fromSide":"top","toNode":"g_ramb","toSide":"right","color":"4","label":"same final stretch of the Original Game in the Green Room"},{"id":"e_pipis_spamton","fromNode":"g_pipis","fromSide":"bottom","toNode":"g12","toSide":"left","color":"4","label":"they're literally his eggs; his iconic attack as NEO"},{"id":"e_eram_cristal","fromNode":"g_eram","fromSide":"left","toNode":"g19","toSide":"right","color":"3","label":"same thematic circle as the Shadow Crystals, though it carries the Shadow Mantle"},{"id":"6c3f8f0eca279a3c","fromNode":"g21","fromSide":"right","toNode":"g10","toSide":"left","color":"4"},{"id":"e13","fromNode":"g10","fromSide":"bottom","toNode":"g13","toSide":"top","color":"4","label":"shared character"},{"id":"e11","fromNode":"g_jugador","fromSide":"right","toNode":"g0","toSide":"bottom","fromEnd":"arrow","color":"3","label":"who controls whom?"},{"id":"e_king_knight","fromNode":"g_king","fromSide":"bottom","toNode":"g7","toSide":"right","color":"4","label":"serves the Roaring Knight after the Roaring arrives"},{"id":"e_king_jevil","fromNode":"g_king","fromSide":"bottom","toNode":"g_jevil","toSide":"right","color":"4","label":"Jevil spoke to him of the Knight's glory before his imprisonment"},{"id":"6b9d4c29b7e49e76","fromNode":"g23","fromSide":"bottom","toNode":"g7","toSide":"top","color":"1","label":"complicity"},{"id":"e_tenna_ralsei_susie","fromNode":"g24","fromSide":"top","toNode":"g1","toSide":"bottom","color":"4","label":"enjoys having them as contestants; Susie promises him a new owner"},{"id":"e_tenna_knight","fromNode":"g24","fromSide":"left","toNode":"g7","toSide":"left","color":"4","label":"deal to keep Lightners in exchange for ratings; cuts off his arms when he breaks it"},{"id":"e_kris_spamton","fromNode":"g0","fromSide":"left","toNode":"g12","toSide":"right","color":"4","label":"meet in the alley; left shaken after the battle against NEO"},{"id":"d00871177f643de8","fromNode":"g24","fromSide":"left","toNode":"g9","toSide":"right","color":"4","label":"Lord of Screen"},{"id":"e_asriel_angel","fromNode":"g13","fromSide":"bottom","toNode":"g_jugador","toSide":"top","color":"3","label":"\"you saw nothing\" = textual block by the Player"},{"id":"e_sans_lake","fromNode":"g_sans","fromSide":"right","toNode":"g16","toSide":"left","color":"4","label":"his ferris wheel only goes up halfway, never reaching a view of the Lake"},{"id":"e_alvin_gerson","fromNode":"g_alvin","fromSide":"left","toNode":"g_gerson","toSide":"right","color":"4","label":"son of"},{"id":"e_alvin_susie","fromNode":"g_alvin","fromSide":"top","toNode":"g1","toSide":"bottom","color":"4","label":"rewritten letter, Ch.4"},{"id":"e_alvin_asriel","fromNode":"g_alvin","fromSide":"top","toNode":"g13","toSide":"bottom","color":"4","label":"Asriel's false confessions"},{"id":"e_alvin_shelter","fromNode":"g_alvin","fromSide":"right","toNode":"g18","toSide":"left","color":"4","label":"warns to stay away, Ch.4"},{"id":"e_everyman_gaster","fromNode":"g15","fromSide":"left","toNode":"g4","toSide":"right","color":"1","label":"both 'strangeman'/'mysteryman' in the files"},{"id":"e_huevo_friend","fromNode":"g_huevo","fromSide":"right","toNode":"g11","toSide":"top","color":"4","label":"it's the 'protein' FRIEND is hunting"},{"id":"e_eram_kris","fromNode":"g_eram","fromSide":"left","toNode":"g0","toSide":"top","color":"4","label":"speaks to him with unsettling familiarity"},{"id":"756a13aa431c501f","fromNode":"g_huevo","fromSide":"right","toNode":"g_pipis","toSide":"left","fromEnd":"arrow","color":"1","label":"are they eggs?"},{"id":"e_friend_dess","fromNode":"g11","fromSide":"left","toNode":"g6","toSide":"right","color":"1","label":"did Kris, Asriel, Noelle, and she summon it as children?"},{"id":"e_gaster_friend","fromNode":"g4","fromSide":"bottom","toNode":"g11","toSide":"top","color":"1","label":"same DEVICE_ prefix in the files"},{"id":"e_gaster_profecia","fromNode":"g4","fromSide":"left","toNode":"g9","toSide":"top","color":"3","label":"the hymn quotes his Entry 17"},{"id":"e_spamton_eram","fromNode":"g12","fromSide":"top","toNode":"g_eram","toSide":"bottom","color":"1","label":"same musical motif (BIG SHOT/BURNING EYES)"},{"id":"e_undyne_shelter","fromNode":"g_undyne","fromSide":"top","toNode":"g18","toSide":"bottom","color":"4","label":"trapped here since the end of Ch.3"},{"id":"e-dess-knight","fromNode":"g6","fromSide":"right","toNode":"g7","toSide":"right","color":"3","label":"the Knight under the mask? (leading theory)"},{"id":"e-friend-knight","fromNode":"g11","fromSide":"left","toNode":"g7","toSide":"right","color":"3","label":"share a laugh sound file; same 'Strange Someone'?"},{"id":"e-asriel-noelle","fromNode":"g13","fromSide":"bottom","toNode":"g3","toSide":"top","color":"1","label":"did he create the Cyber World, not Dess?"},{"id":"e-huevo-kris","fromNode":"g_huevo","fromSide":"left","toNode":"g0","toSide":"right","color":"3","label":"child therapy room? (pre-confirmed by the May 2025 ARG)"},{"id":"e-shuttah-kris","fromNode":"g_shuttah","fromSide":"left","toNode":"g0","toSide":"right","color":"3","label":"uses its camera on the Island Board"},{"id":"e-shuttah-gaster","fromNode":"g_shuttah","fromSide":"top","toNode":"g4","toSide":"bottom","color":"1","label":"same gray/monochrome field as the Followers"},{"id":"e-eram-knight","fromNode":"g_eram","fromSide":"top","toNode":"g7","toSide":"bottom","color":"1","label":"same leitmotif and fire magic; a playable version of the Knight?"},{"id":"e-jackenstein-kris","fromNode":"g_jackenstein","fromSide":"top","toNode":"g0","toSide":"bottom","color":"4","label":"his fight distinguishes Kris's soul from the Player's"},{"id":"e-jackenstein-susie","fromNode":"g_jackenstein","fromSide":"right","toNode":"g1","toSide":"bottom","color":"4","label":"only she manages to fully heal him"},{"id":"e-jackenstein-gerson","fromNode":"g_jackenstein","fromSide":"left","toNode":"g_gerson","toSide":"top","color":"4","label":"the Old Man encourages Susie to heal him"},{"id":"e-susie-toriel","fromNode":"g1","fromSide":"left","toNode":"g20","toSide":"right","color":"4","label":"comforted her, crying in the cemetery upon arriving in Hometown"},{"id":"e-ramb-noelle","fromNode":"g_ramb","fromSide":"bottom","toNode":"g3","toSide":"top","color":"3","label":"as children, Darkner armies from Ch.1-2 as soldiers"},{"id":"7ac0525a8b3f2fe5","fromNode":"g_king","fromSide":"left","toNode":"g_queen","toSide":"right","fromEnd":"arrow","color":"3","label":"Ex?"},{"id":"e_clamgirl-susie","fromNode":"g_clamgirl","fromSide":"left","toNode":"g1","toSide":"left","color":"3","label":"Suzy = Susie?"},{"id":"e_clamgirl-gaster","fromNode":"g_clamgirl","fromSide":"left","toNode":"g4","toSide":"left","color":"3","label":"same \"Goner\" sound"},{"id":"e_clamguy-onionsan","fromNode":"g_clamgirl","fromSide":"bottom","toNode":"g25","toSide":"top","color":"4","label":"\"the thing\" from Ch.1"},{"id":"e_titan_knight","fromNode":"g_titan","fromSide":"left","toNode":"g7","toSide":"right","color":"4","label":"created by the Knight"},{"id":"e_titan_gerson","fromNode":"g_titan","fromSide":"bottom","toNode":"g_gerson","toSide":"top","color":"4","label":"defeated with his help"},{"id":"e_7flores_flowery","fromNode":"g_7flores","fromSide":"left","toNode":"g_flowery","toSide":"top","color":"4","label":"sisters from the bouquet"},{"id":"e_7flores_noelle","fromNode":"g_7flores","fromSide":"right","toNode":"g3","toSide":"left","color":"1","label":"Noelle = key, like Yellow? (Just-Ice)"},{"id":"5636151c3cea3d34","fromNode":"g_7flores","fromSide":"right","toNode":"g21","toSide":"top","color":"4","label":"their owner and caretaker"},{"id":"1f6d832a489cd144","fromNode":"g_7flores","fromSide":"right","toNode":"g20","toSide":"top","color":"4","label":"recipient of them at her wedding"},{"id":"deb8696513e10a0d","fromNode":"g_7flores","fromSide":"right","toNode":"g_berdly","toSide":"left","color":"4","label":"Seth's admiration"},{"id":"1eaeaae145d10b43","fromNode":"g_7flores","fromSide":"right","toNode":"g10","toSide":"left","color":"4","label":"7 souls from Undertale"},{"id":"e_huevo_pink","fromNode":"g_huevo","fromSide":"bottom","toNode":"g_pink","toSide":"top","color":"4","label":"revealed by Pink in a secret dialogue, Ch.5"},{"id":"e_friend_pink","fromNode":"g11","fromSide":"left","toNode":"g_pink","toSide":"right","color":"4","label":"Pink reveals they're a pack of cats hunting protein"},{"id":"5acb002c788080b1","fromNode":"g_titan","fromSide":"left","toNode":"g9","toSide":"right","fromEnd":"arrow","color":"4","label":"Catastrophe from the prophecy"},{"id":"e_7flores_pink","fromNode":"g_7flores","fromSide":"bottom","toNode":"g_pink","toSide":"top","color":"4","label":"live together at the Flower Kingdom Diner, where you can stay with different characters"},{"id":"e_profecia_g7","fromNode":"g9","fromSide":"bottom","toNode":"g7","toSide":"top","color":"4","label":"the Knight, always referred to by title"},{"id":"e_profecia_g17","fromNode":"g9","fromSide":"bottom","toNode":"g17","toSide":"top","color":"4","label":"each route reinterprets the final sacrifice"},{"id":"e_profecia_g4","fromNode":"g9","fromSide":"bottom","toNode":"g4","toSide":"top","color":"3","label":"\"the shadows cut deep\" (Entry 17)"},{"id":"e_profecia_g_titan","fromNode":"g9","fromSide":"bottom","toNode":"g_titan","toSide":"top","color":"4","label":"first textual mention of the Roaring"},{"id":"e_profecia_g1","fromNode":"g9","fromSide":"bottom","toNode":"g1","toSide":"top","color":"3","label":"\"the Girl, with hope crossed in her heart\""},{"id":"e_profecia_g0","fromNode":"g9","fromSide":"bottom","toNode":"g0","toSide":"top","color":"3","label":"\"the Cage, with SOUL and human parts\""},{"id":"e_profecia_g_gerson","fromNode":"g9","fromSide":"bottom","toNode":"g_gerson","toSide":"top","color":"4","label":"\"the turtle's axe\""},{"id":"e_profecia_g_jockington","fromNode":"g9","fromSide":"bottom","toNode":"g_jockington","toSide":"top","color":"4","label":"the only one named by his own name"},{"id":"e_profecia_g6","fromNode":"g9","fromSide":"bottom","toNode":"g6","toSide":"top","color":"3","label":"the Knight's black knife"},{"id":"e_profecia_g_queen","fromNode":"g9","fromSide":"bottom","toNode":"g_queen","toSide":"top","color":"4","label":"\"the Queen's carriage\" — confirmed, it's her car from Ch.2"},{"id":"e_profecia_g_lancer","fromNode":"g9","fromSide":"bottom","toNode":"g_lancer","toSide":"top","color":"1","label":"\"the one with the pointed head\" (unconfirmed)"},{"id":"e_profecia_g24","fromNode":"g9","fromSide":"bottom","toNode":"g24","toSide":"top","color":"4","label":"\"the Lord of Screens\", cut down by the Knight"},{"id":"e_profecia_g11","fromNode":"g9","fromSide":"bottom","toNode":"g11","toSide":"top","color":"3","label":"\"the tail of Hell\" (unconfirmed)"},{"id":"e_profecia_g21","fromNode":"g9","fromSide":"bottom","toNode":"g21","toSide":"top","color":"4","label":"\"The Flower Man, trapped in the asylum\" — confirmed"},{"id":"e_profecia_g18","fromNode":"g9","fromSide":"bottom","toNode":"g18","toSide":"top","color":"3","label":"\"asylum\" = shelter"},{"id":"e_lake_kris","fromNode":"g16","fromSide":"top","toNode":"g0","toSide":"bottom","color":"4","label":"dragged into the water by Noelle"},{"id":"e_lake_gaster","fromNode":"g16","fromSide":"bottom","toNode":"g4","toSide":"top","color":"1","label":"\"deeper, darker\" (Entry 17, unconfirmed)"},{"id":"e_lake_rudy","fromNode":"g16","fromSide":"left","toNode":"g22","toSide":"right","color":"4","label":"call about his fall at the Festival"},{"id":"e_lake_gerson","fromNode":"g16","fromSide":"bottom","toNode":"g_gerson","toSide":"top","color":"3","label":"\"can you hear its song from the depths?\""},{"id":"e_g_7flores_g0","fromNode":"g_7flores","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"Long before Ch."},{"id":"e_g_7flores_g2","fromNode":"g_7flores","fromSide":"right","toNode":"g2","toSide":"left","color":"4","label":"Green gives her a spontaneous hug during the..."},{"id":"e_g_7flores_g1","fromNode":"g_7flores","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"Green fist-bumps her in Ch."},{"id":"e_g_alphys_g20","fromNode":"g_alphys","fromSide":"right","toNode":"g20","toSide":"left","color":"4","label":"Friend and colleague at school; Toriel..."},{"id":"e_g21_g23","fromNode":"g21","fromSide":"right","toNode":"g23","toSide":"left","color":"4","label":"His landlady"},{"id":"e_g21_g22","fromNode":"g21","fromSide":"right","toNode":"g22","toSide":"left","color":"4","label":"Old friend from college, from back when..."},{"id":"e_g23_g0","fromNode":"g23","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"Surprisingly warm toward him in..."},{"id":"e_g_catti_g_napstablook","fromNode":"g_catti","fromSide":"right","toNode":"g_napstablook","toSide":"left","color":"4","label":"Crossed paths with Catti's family at a..."},{"id":"e_g6_g24","fromNode":"g6","fromSide":"right","toNode":"g24","toSide":"left","color":"4","label":"Tenna fondly remembers her as a..."},{"id":"e_g15_g11","fromNode":"g15","fromSide":"right","toNode":"g11","toSide":"left","color":"4","label":"Both belong to the \"Easter..."},{"id":"e_g11_g5","fromNode":"g11","fromSide":"right","toNode":"g5","toSide":"left","color":"4","label":"Since the revelation in Ch."},{"id":"e_g_flowery_g1","fromNode":"g_flowery","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"Has a genuinely trusting relationship with..."},{"id":"e_g_flowery_g7","fromNode":"g_flowery","fromSide":"right","toNode":"g7","toSide":"left","color":"4","label":"Confronts him directly in Ch."},{"id":"e_g_gerson_g3","fromNode":"g_gerson","fromSide":"right","toNode":"g3","toSide":"left","color":"4","label":"Although they never actually meet in person,..."},{"id":"e_g_jevil_g0","fromNode":"g_jevil","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"The group that frees him from his cell and..."},{"id":"e_g_jevil_g15","fromNode":"g_jevil","fromSide":"right","toNode":"g15","toSide":"left","color":"3","label":"Appears non-canonically as a cameo in..."},{"id":"e_g_jockington_g0","fromNode":"g_jockington","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"Unlike his girlfriend Catti, he supports..."},{"id":"e_g_jockington_g3","fromNode":"g_jockington","fromSide":"right","toNode":"g3","toSide":"left","color":"4","label":"Cross-country teammate alongside..."},{"id":"e_g_king_g0","fromNode":"g_king","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"Ramb reveals in Ch."},{"id":"e_g_king_g3","fromNode":"g_king","fromSide":"right","toNode":"g3","toSide":"left","color":"4","label":"Ramb reveals in Ch."},{"id":"e_g_king_g_seam","fromNode":"g_king","fromSide":"right","toNode":"g_seam","toSide":"left","color":"4","label":"It was Seam who had to lock up Jevil, his..."},{"id":"e_g0_g_alvin","fromNode":"g0","fromSide":"right","toNode":"g_alvin","toSide":"left","color":"4","label":"Has always been affectionate with his brother..."},{"id":"e_g0_g6","fromNode":"g0","fromSide":"right","toNode":"g6","toSide":"left","color":"4","label":"Were childhood friends"},{"id":"e_g0_g22","fromNode":"g0","fromSide":"right","toNode":"g22","toSide":"left","color":"4","label":"Fondly calls him \"the weird kid next..."},{"id":"e_g_lancer_g_rouxls","fromNode":"g_lancer","fromSide":"right","toNode":"g_rouxls","toSide":"left","color":"4","label":"His \"lesser dad\" (lesser dad, as he himself..."},{"id":"e_g_pink_g_seam","fromNode":"g_pink","fromSide":"right","toNode":"g_seam","toSide":"left","color":"4","label":"The one who manages the five Crystals..."},{"id":"e_g2_g1","fromNode":"g2","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"Starts out as pure patience in the face of her..."},{"id":"e_g_ramb_g19","fromNode":"g_ramb","fromSide":"right","toNode":"g19","toSide":"left","color":"4","label":"His line about the \"freedom\" that Kris..."},{"id":"e_g17_g8","fromNode":"g17","fromSide":"right","toNode":"g_jugador","toSide":"left","color":"4","label":"The hidden-route system itself,..."},{"id":"e_g17_g3","fromNode":"g17","fromSide":"right","toNode":"g3","toSide":"left","color":"4","label":"She is, by far, the most..."},{"id":"e_g22_g20","fromNode":"g22","fromSide":"right","toNode":"g20","toSide":"left","color":"4","label":"Also met her in college, the..."},{"id":"e_g24_g2","fromNode":"g24","fromSide":"right","toNode":"g2","toSide":"left","color":"4","label":"Enjoys having them as contestants on his..."},{"id":"e_g_titan_g2","fromNode":"g_titan","fromSide":"right","toNode":"g2","toSide":"left","color":"4","label":"The one who first explains it, already in..."},{"id":"e_g_titan_g1","fromNode":"g_titan","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"The two who defeat it together: Susie..."},{"id":"e_g_titan_g0","fromNode":"g_titan","fromSide":"right","toNode":"g0","toSide":"left","color":"4","label":"The two who defeat it together: Susie..."},{"id":"e_g_undyne_g1","fromNode":"g_undyne","fromSide":"right","toNode":"g1","toSide":"left","color":"4","label":"They don't interact much on screen,..."},{"id":"e_toriel_carol","fromNode":"g20","fromSide":"left","toNode":"g23","toSide":"right","color":"3","label":"family friends, not reconciled"},{"id":"e_angel_jugador","fromNode":"g8","fromSide":"bottom","toNode":"g_jugador","toSide":"top","color":"3","label":"are they the same figure? (unconfirmed)"},{"id":"e_jugador_gaster","fromNode":"g_jugador","fromSide":"left","toNode":"g4","toSide":"right","color":"3","label":"is it the Voice? — the \"Gaster's List\" theory"},{"id":"e_jugador_clamguy","fromNode":"g_jugador","fromSide":"bottom","toNode":"g_clamgirl","toSide":"top","color":"1","label":"same Goner/vessel pattern (unconfirmed)"},{"id":"e_ut_jugador","fromNode":"g10","fromSide":"top","toNode":"g_jugador","toSide":"bottom","color":"3","label":"the Vessel's creation reuses Gaster's aesthetic"},{"id":"e_ut_gerson","fromNode":"g10","fromSide":"right","toNode":"g_gerson","toSide":"left","color":"4","label":"already mentioned the Prophecy in UT"},{"id":"e_rutas_ramb","fromNode":"g17","fromSide":"bottom","toNode":"g_ramb","toSide":"top","color":"4","label":"grants access to the Sword Route"},{"id":"e_rutas_friend","fromNode":"g17","fromSide":"bottom","toNode":"g11","toSide":"top","color":"3","label":"bearer of the Shadow Mantle (not fully confirmed)"},{"id":"e_g_alvin_g8","fromNode":"g_alvin","fromSide":"right","toNode":"g8","toSide":"left","color":"4","label":"Firmly believes in faith and the Prophecy, and..."},{"id":"e24","fromNode":"g19","fromSide":"left","toNode":"g_jugador","toSide":"bottom","color":"3","label":"breaking free of the script"},{"id":"e_undyne_undertale","fromNode":"g_undyne","fromSide":"top","toNode":"g10","toSide":"bottom","color":"4","label":"UT police officer (Waterfall/Core) who returns to Hometown"},{"id":"e_alphys_undertale","fromNode":"g_alphys","fromSide":"top","toNode":"g10","toSide":"left","color":"4","label":"UT's Royal Scientist; still running the Royal Lab"},{"id":"e_napstablook_undertale","fromNode":"g_napstablook","fromSide":"top","toNode":"g10","toSide":"bottom","color":"4","label":"ghost from UT (Waterfall), now Pink's cousin"},{"id":"e_cattenheimer_catti","fromNode":"g_cattenheimer","fromSide":"bottom","toNode":"g_catti","toSide":"top","color":"4","label":"father of Catti (and Catty)"},{"id":"e_cattenheimer_shelter","fromNode":"g_cattenheimer","fromSide":"right","toNode":"g18","toSide":"left","color":"3","label":"🎲 his house uses the same 3-code lock as the shelter"},{"id":"e_cattenheimer_kris","fromNode":"g_cattenheimer","fromSide":"right","toNode":"g0","toSide":"left","color":"1","label":"🎲 missing an arm, as the Kris's Hand Theory points out"},{"id":"e_cattenheimer_pink","fromNode":"g_cattenheimer","fromSide":"top","toNode":"g_pink","toSide":"bottom","color":"1","label":"🎲 a speculative echo of Pink's warning about cats that bite hands"},{"id":"e_cristal_profecia","fromNode":"g19","fromSide":"top","toNode":"g9","toSide":"bottom","color":"4","label":"the Prophecy's crystal tapestries are immune to its vision effect"},{"id":"e_knight_shelter","fromNode":"g7","fromSide":"bottom","toNode":"g18","toSide":"top","color":"4","label":"drags his captives here: Undyne (Ch.3) and, presumably, Asgore (Ch.5)"},{"id":"e_alphys_shelter","fromNode":"g_alphys","fromSide":"right","toNode":"g18","toSide":"left","color":"4","label":"the only source confirming who has access: Undyne and the mayor"},{"id":"e_ralsei_profecia","fromNode":"g2","fromSide":"bottom","toNode":"g9","toSide":"top","color":"4","label":"summarizes it for Kris and Susie in Ch.1, and is the only Darkner who knows it in full"},{"id":"e_fuentes_knight","fromNode":"g_fuentes","fromSide":"top","toNode":"g7","toSide":"bottom","color":"4","label":"prime suspect: opens the Library, three Fountains in Ch.4, and one of the Ch.5 twins"},{"id":"e_fuentes_kris","fromNode":"g_fuentes","fromSide":"left","toNode":"g0","toSide":"right","color":"4","label":"personally opens the one in Toriel's living room (Ch.3) and the main one at Flower King (Ch.5)"},{"id":"e_fuentes_susie","fromNode":"g_fuentes","fromSide":"left","toNode":"g1","toSide":"right","color":"4","label":"opens her first own Fountain in the 2nd Sanctuary (Ch.4)"},{"id":"e_fuentes_ralsei","fromNode":"g_fuentes","fromSide":"left","toNode":"g2","toSide":"right","color":"4","label":"the only one who senses their presence before finding them; warns of the Roaring"},{"id":"e_fuentes_queen","fromNode":"g_fuentes","fromSide":"right","toNode":"g_queen","toSide":"left","color":"4","label":"explains the exact mechanics of how they open"},{"id":"e_fuentes_noelle","fromNode":"g_fuentes","fromSide":"left","toNode":"g3","toSide":"bottom","color":"3","label":"🎲 coerced by Queen into opening one, she refuses; the Cyber World revolves around her trauma without her ever opening it"},{"id":"e_fuentes_berdly","fromNode":"g_fuentes","fromSide":"left","toNode":"g_berdly","toSide":"bottom","color":"4","label":"about to open one inside the Cyber World as an apology to Noelle"},{"id":"e_fuentes_titan","fromNode":"g_fuentes","fromSide":"top","toNode":"g_titan","toSide":"bottom","color":"4","label":"born when a Fountain opens with far more intensity than normal"},{"id":"e_fuentes_shelter","fromNode":"g_fuentes","fromSide":"top","toNode":"g18","toSide":"bottom","color":"3","label":"🎲 hides the only Fountain whose opener is a total unknown, just like the one in Ch.1"},{"id":"e_fuentes_profecia","fromNode":"g_fuentes","fromSide":"top","toNode":"g9","toSide":"bottom","color":"4","label":"the Roaring they cause is textually prophesied in pane 04"},{"id":"e_cattenheimer_asgore","fromNode":"g_cattenheimer","fromSide":"right","toNode":"g21","toSide":"left","color":"4","label":"friends who get together for barbecues (newsletter art, not from the game)"},{"id":"e_cattenheimer_rudy","fromNode":"g_cattenheimer","fromSide":"right","toNode":"g22","toSide":"left","color":"4","label":"friends who get together for barbecues (newsletter art, not from the game)"},{"id":"e_forgottenman_papyrus","fromNode":"g5","fromSide":"bottom","toNode":"g_papyrus","toSide":"top","color":"1","label":"🎲 official Fangamer merch art: Papyrus next to a tree nearly identical to his"}]}
+{
+  "nodes": [
+    {
+      "id": "g_king",
+      "type": "group",
+      "x": 6657,
+      "y": -5390,
+      "width": 903,
+      "height": 949,
+      "color": "6",
+      "label": "King",
+      "background": "Sprites/King_Battle (2).gif"
+    },
+    {
+      "id": "g18",
+      "type": "group",
+      "x": 4310,
+      "y": -2992,
+      "width": 560,
+      "height": 420,
+      "color": "3",
+      "label": "Shelter",
+      "background": "Sprites/Shelter.png"
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "x": 1747,
+      "y": -751,
+      "width": 560,
+      "height": 420,
+      "color": "3",
+      "label": "Lake",
+      "background": "Sprites/Lake.png"
+    },
+    {
+      "id": "g19",
+      "type": "group",
+      "x": 1023,
+      "y": 1600,
+      "width": 700,
+      "height": 244,
+      "color": "#6b7280",
+      "label": "Cristal Oscuro",
+      "background": "Sprites/ShadowCrystals.png"
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "x": 151,
+      "y": -4680,
+      "width": 610,
+      "height": 350,
+      "color": "#6b7280",
+      "label": "Conexión Undertale",
+      "background": "Sprites/Undertale_capsule_steam.jpg"
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "x": 2640,
+      "y": -1386,
+      "width": 590,
+      "height": 566,
+      "color": "#6b7280",
+      "label": "Forgotten Man",
+      "background": "Sprites/Man_overworld_tree.gif"
+    },
+    {
+      "id": "g24",
+      "type": "group",
+      "x": 5121,
+      "y": -1704,
+      "width": 518,
+      "height": 636,
+      "color": "6",
+      "label": "Tenna",
+      "background": "Sprites/Tenna_Overworld_gif.gif"
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "x": 7123,
+      "y": 151,
+      "width": 714,
+      "height": 439,
+      "color": "6",
+      "label": "Mike",
+      "background": "Sprites/Mikeimpersonators.webp"
+    },
+    {
+      "id": "g_papyrus",
+      "type": "group",
+      "x": 561,
+      "y": -6120,
+      "width": 399,
+      "height": 780,
+      "color": "4",
+      "label": "Papyrus (never seen)",
+      "background": "Sprites/papyrus_shadow.png"
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "x": 1141,
+      "y": 56,
+      "width": 507,
+      "height": 609,
+      "color": "#6b7280",
+      "label": "Roaring Knight",
+      "background": "Sprites/TheRoaringKnightDeltarune.webp"
+    },
+    {
+      "id": "g_shuttah",
+      "type": "group",
+      "x": 7837,
+      "y": -2520,
+      "width": 483,
+      "height": 623,
+      "color": "6",
+      "label": "Shuttah",
+      "background": "Sprites/Shuttah_battle_idle.gif"
+    },
+    {
+      "id": "g_pink",
+      "type": "group",
+      "x": -2353,
+      "y": 403,
+      "width": 643,
+      "height": 465,
+      "color": "6",
+      "label": "Mad Mew Mew (Pink)",
+      "background": "Sprites/Mad_Mew_Mew_Pink.gif"
+    },
+    {
+      "id": "g_gerson",
+      "type": "group",
+      "x": -1545,
+      "y": 1485,
+      "width": 717,
+      "height": 392,
+      "color": "4",
+      "label": "Gerson Boom",
+      "background": "Sprites/one-gerson-boom-vs-indie-cross-v0-bzhrfnmw63cf1.gif"
+    },
+    {
+      "id": "g_lancer",
+      "type": "group",
+      "x": 7320,
+      "y": -3720,
+      "width": 480,
+      "height": 580,
+      "color": "6",
+      "label": "Lancer",
+      "background": "Sprites/Lancer_Overworld.webp"
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "x": 3840,
+      "y": 665,
+      "width": 560,
+      "height": 494,
+      "color": "#6b7280",
+      "label": "FRIEND",
+      "background": "Sprites/FRIEND_overworld_vision.gif"
+    },
+    {
+      "id": "g_clamgirl",
+      "type": "group",
+      "x": 5720,
+      "y": -4915,
+      "width": 411,
+      "height": 673,
+      "color": "4",
+      "label": "Clam Guy",
+      "background": "Sprites/gaster_Clam_Guy_overworld.png"
+    },
+    {
+      "id": "g_seam",
+      "type": "group",
+      "x": 3240,
+      "y": 1960,
+      "width": 600,
+      "height": 460,
+      "color": "6",
+      "label": "Seam",
+      "background": "Sprites/Seam_Face.webp"
+    },
+    {
+      "id": "g_titan",
+      "type": "group",
+      "x": 2160,
+      "y": 1045,
+      "width": 480,
+      "height": 555,
+      "color": "6",
+      "label": "Titan",
+      "background": "Sprites/Titan_battle_idle.gif"
+    },
+    {
+      "id": "g_rouxls",
+      "type": "group",
+      "x": 8640,
+      "y": -3560,
+      "width": 400,
+      "height": 650,
+      "color": "6",
+      "label": "Rouxls Kaard",
+      "background": "Sprites/Ruruskaado.webp"
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "x": 2113,
+      "y": -2603,
+      "width": 307,
+      "height": 802,
+      "color": "4",
+      "label": "Dess",
+      "background": "Sprites/Dess.png"
+    },
+    {
+      "id": "g22",
+      "type": "group",
+      "x": 1291,
+      "y": -4440,
+      "width": 327,
+      "height": 727,
+      "color": "4",
+      "label": "Rudy",
+      "background": "Sprites/Rudy_Overworld_1.png"
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "x": 320,
+      "y": -80,
+      "width": 400,
+      "height": 400,
+      "color": "#6b7280",
+      "label": "Profecía",
+      "background": "Sprites/Profecy.gif"
+    },
+    {
+      "id": "g_ramb",
+      "type": "group",
+      "x": 5880,
+      "y": -2800,
+      "width": 417,
+      "height": 523,
+      "color": "6",
+      "label": "Ramb",
+      "background": "Sprites/Ramb.webp"
+    },
+    {
+      "id": "g21",
+      "type": "group",
+      "x": -2680,
+      "y": -3846,
+      "width": 354,
+      "height": 600,
+      "color": "4",
+      "label": "Asgore",
+      "background": "Sprites/Asgore_Dreemurr_overworld.webp"
+    },
+    {
+      "id": "g23",
+      "type": "group",
+      "x": 2126,
+      "y": -4400,
+      "width": 301,
+      "height": 691,
+      "color": "4",
+      "label": "Carol",
+      "background": "Sprites/Carol_Holiday.webp"
+    },
+    {
+      "id": "g26",
+      "type": "group",
+      "x": 4680,
+      "y": -680,
+      "width": 425,
+      "height": 472,
+      "color": "4",
+      "label": "Normal NPC",
+      "background": "Sprites/Deltarune_-_Sprite_-_Normal_NPC.webp"
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "x": 5300,
+      "y": -122,
+      "width": 361,
+      "height": 546,
+      "color": "6",
+      "label": "Spamton",
+      "background": "Sprites/spamton.gif"
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "x": -365,
+      "y": -3400,
+      "width": 299,
+      "height": 634,
+      "color": "4",
+      "label": "Asriel",
+      "background": "Sprites/asriel_shadow.png"
+    },
+    {
+      "id": "g_eram",
+      "type": "group",
+      "x": 6139,
+      "y": 1060,
+      "width": 421,
+      "height": 438,
+      "color": "6",
+      "label": "ERAM",
+      "background": "Sprites/shadow_mantle.gif"
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "x": 6687,
+      "y": -1171,
+      "width": 493,
+      "height": 374,
+      "color": "#6b7280",
+      "label": "Everyman",
+      "background": "Sprites/everyman.png"
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "x": 4330,
+      "y": -5730,
+      "width": 260,
+      "height": 696,
+      "color": "#6b7280",
+      "label": "Gaster (W. D. Gaster)",
+      "background": "Sprites/gaster.png"
+    },
+    {
+      "id": "g_queen",
+      "type": "group",
+      "x": 3040,
+      "y": -3480,
+      "width": 300,
+      "height": 590,
+      "color": "6",
+      "label": "Queen",
+      "background": "Sprites/Queen_deltarune.webp"
+    },
+    {
+      "id": "g17",
+      "type": "group",
+      "x": -343,
+      "y": -760,
+      "width": 411,
+      "height": 412,
+      "color": "#6b7280",
+      "label": "Rutas",
+      "background": "Sprites/routes.png"
+    },
+    {
+      "id": "g_sans",
+      "type": "group",
+      "x": -840,
+      "y": -5200,
+      "width": 360,
+      "height": 440,
+      "color": "4",
+      "label": "Sans",
+      "background": "Sprites/86374-and-sans-undertale-black-line-white-sprite.png"
+    },
+    {
+      "id": "g_flowery",
+      "type": "group",
+      "x": -3720,
+      "y": -4413,
+      "width": 240,
+      "height": 640,
+      "color": "5",
+      "label": "Flowery",
+      "background": "Sprites/Flowery_Overworld-ezgif.com-webp-to-gif-converter.gif"
+    },
+    {
+      "id": "g20",
+      "type": "group",
+      "x": -1840,
+      "y": -4093,
+      "width": 271,
+      "height": 543,
+      "color": "4",
+      "label": "Toriel",
+      "background": "Sprites/Toriel_Overworld.webp"
+    },
+    {
+      "id": "g_fuentes",
+      "type": "group",
+      "x": -107,
+      "y": 1770,
+      "width": 420,
+      "height": 315,
+      "color": "#6b7280",
+      "label": "Fuentes Oscuras",
+      "background": "Sprites/Dark_Fountain_screenshot.webp"
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "x": 520,
+      "y": -1506,
+      "width": 260,
+      "height": 558,
+      "color": "4",
+      "label": "Noelle",
+      "background": "Sprites/Noelle_overworld.png"
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "x": -3499,
+      "y": -2400,
+      "width": 260,
+      "height": 535,
+      "color": "6",
+      "label": "Ralsei",
+      "background": "Sprites/Ralsei_overworld_hatless.png"
+    },
+    {
+      "id": "g_jevil",
+      "type": "group",
+      "x": 5120,
+      "y": 1498,
+      "width": 361,
+      "height": 380,
+      "color": "6",
+      "label": "Jevil",
+      "background": "Sprites/Jevil.gif"
+    },
+    {
+      "id": "g_pippins",
+      "type": "group",
+      "x": 8057,
+      "y": -1415,
+      "width": 320,
+      "height": 420,
+      "color": "6",
+      "label": "Pippins",
+      "background": "Sprites/pippins.webp"
+    },
+    {
+      "id": "g_catti",
+      "type": "group",
+      "x": -4770,
+      "y": -1174,
+      "width": 300,
+      "height": 423,
+      "color": "4",
+      "label": "Catti",
+      "background": "Sprites/Catti_overworld.webp"
+    },
+    {
+      "id": "g_huevo",
+      "type": "group",
+      "x": 3230,
+      "y": -272,
+      "width": 420,
+      "height": 300,
+      "color": "#6b7280",
+      "label": "Huevo",
+      "background": "Sprites/man_egg.png"
+    },
+    {
+      "id": "g_cattenheimer",
+      "type": "group",
+      "x": -4470,
+      "y": 50,
+      "width": 300,
+      "height": 420,
+      "color": "4",
+      "label": "Sr. Cattenheimer",
+      "background": "Sprites/Dad_Cat_overworld.webp"
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "x": -192,
+      "y": -2202,
+      "width": 260,
+      "height": 477,
+      "color": "4",
+      "label": "Susie",
+      "background": "Sprites/Susie_overworld_eyes.png"
+    },
+    {
+      "id": "g_napstablook",
+      "type": "group",
+      "x": -3359,
+      "y": 135,
+      "width": 240,
+      "height": 500,
+      "color": "4",
+      "label": "Napstablook",
+      "background": "Sprites/Napstablook.webp"
+    },
+    {
+      "id": "g_undyne",
+      "type": "group",
+      "x": -3799,
+      "y": -937,
+      "width": 260,
+      "height": 460,
+      "color": "4",
+      "label": "Undyne",
+      "background": "Sprites/Officer_Undyne_Overworld.webp"
+    },
+    {
+      "id": "g_alphys",
+      "type": "group",
+      "x": -4600,
+      "y": -3550,
+      "width": 260,
+      "height": 460,
+      "color": "4",
+      "label": "Alphys",
+      "background": "Sprites/alphys_sprite_transparent_v2.png"
+    },
+    {
+      "id": "g_alvin",
+      "type": "group",
+      "x": 520,
+      "y": 760,
+      "width": 240,
+      "height": 489,
+      "color": "4",
+      "label": "Alvin",
+      "background": "Sprites/Alvin_overwolrd.webp"
+    },
+    {
+      "id": "g_berdly",
+      "type": "group",
+      "x": 480,
+      "y": -3661,
+      "width": 240,
+      "height": 481,
+      "color": "4",
+      "label": "Berdly",
+      "background": "Sprites/Berdly_Overworld.webp"
+    },
+    {
+      "id": "g25",
+      "type": "group",
+      "x": 2542,
+      "y": 248,
+      "width": 330,
+      "height": 346,
+      "color": "4",
+      "label": "Onionsan",
+      "background": "Sprites/Deltarune_-_Sprite_-_Onionsan_-_Kawaii.webp"
+    },
+    {
+      "id": "g_pipis",
+      "type": "group",
+      "x": 4120,
+      "y": -1342,
+      "width": 390,
+      "height": 274,
+      "color": "6",
+      "label": "Pipis",
+      "background": "Sprites/1406-pipis.png"
+    },
+    {
+      "id": "g_jockington",
+      "type": "group",
+      "x": -4770,
+      "y": -2294,
+      "width": 280,
+      "height": 340,
+      "color": "4",
+      "label": "Jockington",
+      "background": "Sprites/Jockington_overworld.webp"
+    },
+    {
+      "id": "g0",
+      "type": "group",
+      "x": -1145,
+      "y": -1450,
+      "width": 212,
+      "height": 446,
+      "color": "4",
+      "label": "Kris",
+      "background": "Sprites/Kris_overworld_static.png"
+    },
+    {
+      "id": "g_7flores",
+      "type": "group",
+      "x": -2980,
+      "y": -5130,
+      "width": 300,
+      "height": 300,
+      "color": "5",
+      "label": "7 Flores de Colores",
+      "background": "Sprites/7_Colored_Flowers_screenshot_enemies.png"
+    },
+    {
+      "id": "g_jackenstein",
+      "type": "group",
+      "x": -680,
+      "y": 718,
+      "width": 280,
+      "height": 300,
+      "color": "6",
+      "label": "Jackenstein",
+      "background": "Sprites/Jackenstein_overworld_talk.gif"
+    },
+    {
+      "id": "g_jugador",
+      "type": "group",
+      "x": -2480,
+      "y": -1450,
+      "width": 254,
+      "height": 253,
+      "color": "#6b7280",
+      "label": "Jugador",
+      "background": "Sprites/Kris_overworld_SOUL.png"
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "x": -1837,
+      "y": -554,
+      "width": 254,
+      "height": 144,
+      "color": "#6b7280",
+      "label": "Ángel",
+      "background": "Sprites/The_Legend_screenshot_Angel%27s_Heaven.webp"
+    },
+    {
+      "id": "g_pink-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Mad Mew Mew (Pink)**\n**👪 Blook family**\n**🐱 Lightworld object: Mew Mew figure**\n**🌑 Flower Kingdom, Ch.5**\n## Fifth Shadow Crystal bearer, Ch.5.\n[[Mad Mew Mew (Pink)]]",
+      "x": -2340,
+      "y": 860,
+      "width": 340,
+      "height": 312,
+      "color": "6"
+    },
+    {
+      "id": "g_alvin-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Alvin**\n**🐢 Turtle**\n**👪 Boom family**\n**⛪ Church**\n## Hometown's parish priest; Gerson Boom's son.\n[[Alvin]]",
+      "x": 491,
+      "y": 1240,
+      "width": 380,
+      "height": 280,
+      "color": "4"
+    },
+    {
+      "id": "g21-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Asgore**\n**🐐 Goat**\n**👪 Dreemurr family**\n**🌼 Flower King flower shop**\n## Kris and Asriel's father. Ch.5 tritagonist.\n[[Asgore]]",
+      "x": -2680,
+      "y": -3236,
+      "width": 340,
+      "height": 296,
+      "color": "4"
+    },
+    {
+      "id": "g20-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Toriel**\n**🐐 Goat**\n**👪 Dreemurr family (former)**\n**🎒 School (teacher)**\n**⛪ Church**\n## Kris and Asriel's mother, Asgore's ex-wife.\n[[Toriel]]",
+      "x": -1880,
+      "y": -3544,
+      "width": 340,
+      "height": 304,
+      "color": "4"
+    },
+    {
+      "id": "g_7flores-cap",
+      "type": "text",
+      "text": "# 🌱 Plant — **7 Colored Flowers**\n**🌸 Asgore and Toriel's wedding bouquet**\n## Aqua, Seth, Orange, Green, Yellow, and Blue — a mirror of the Undertale SOULs.\n[[7 Flores de Colores|7 Colored Flowers]]",
+      "x": -2980,
+      "y": -4720,
+      "width": 300,
+      "height": 340,
+      "color": "3"
+    },
+    {
+      "id": "g_gerson-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Gerson Boom**\n**🐢 Turtle**\n**👪 Boom family**\n**🎓 School (teacher, deceased)**\n## Deceased Lightner, revived as the Old Man in Ch.4.\n[[Gerson Boom]]",
+      "x": -1585,
+      "y": 1880,
+      "width": 340,
+      "height": 340,
+      "color": "4"
+    },
+    {
+      "id": "g_berdly-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Berdly**\n**🐦 Bird (crow/jay)**\n**🎒 School**\n## Classmate; ally since Ch.2.\n[[Berdly]]",
+      "x": 440,
+      "y": -3201,
+      "width": 340,
+      "height": 261,
+      "color": "4"
+    },
+    {
+      "id": "g_sans-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Sans**\n**💀 Skeleton**\n**👪 Papyrus's brother**\n**🌭 Vendor (Festival)**\n## Skeleton newly arrived in Hometown; character from Undertale.\n[[Sans]]",
+      "x": -840,
+      "y": -4760,
+      "width": 340,
+      "height": 330,
+      "color": "4"
+    },
+    {
+      "id": "g_papyrus-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Papyrus**\n**💀 Skeleton**\n**👪 Sans's brother**\n## Sans's brother; never appears in person.\n[[Papyrus]]",
+      "x": 580,
+      "y": -5340,
+      "width": 340,
+      "height": 270,
+      "color": "4"
+    },
+    {
+      "id": "g9-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Prophecy**\n**📜 Object / text**\n## Announces a final sacrifice.\n[[Profecía|Prophecy]]",
+      "x": 341,
+      "y": 310,
+      "width": 340,
+      "height": 210,
+      "color": "4"
+    },
+    {
+      "id": "g_jackenstein-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Jackenstein**\n**🎃 Library, Dark Sanctuary (Ch.4)**\n## His fight confirms that Kris's soul and the Player's are separate.\n[[Jackenstein]]",
+      "x": -680,
+      "y": 1020,
+      "width": 320,
+      "height": 220,
+      "color": "6"
+    },
+    {
+      "id": "g10-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Undertale Connection**\n**🔗 Concept**\n## Parallel universe confirmed by Toby Fox.\n[[Conexión Undertale|Undertale Connection]]",
+      "x": 280,
+      "y": -4320,
+      "width": 340,
+      "height": 280
+    },
+    {
+      "id": "g0-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Kris**\n**🧑 Human**\n**👪 Dreemurr family (adopted)**\n**🎒 School**\n**🎮 Fun Gang**\n## Who's really in control of Kris?\n[[Kris]]",
+      "x": -1200,
+      "y": -1000,
+      "width": 340,
+      "height": 301,
+      "color": "4"
+    },
+    {
+      "id": "g_alphys-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Alphys**\n**🦎 Reptile**\n**🎒 School (teacher)**\n## Kris and Susie's teacher.\n[[Alphys]]",
+      "x": -4620,
+      "y": -3100,
+      "width": 340,
+      "height": 230,
+      "color": "4"
+    },
+    {
+      "id": "g13-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Asriel**\n**🐐 Goat**\n**👪 Dreemurr family**\n**🎓 College**\n## Back since Ch.4.\n[[Asriel]]",
+      "x": -380,
+      "y": -2760,
+      "width": 340,
+      "height": 268,
+      "color": "4"
+    },
+    {
+      "id": "g_flowery-cap",
+      "type": "text",
+      "text": "# 🌱 Plant — **Flowery**\n**🌼 Lightworld object: a golden flower**\n**🌑 Flower Kingdom, Ch.5**\n## Main antagonist and final boss of Ch.5.\n[[Flowery]]",
+      "x": -3760,
+      "y": -3803,
+      "width": 340,
+      "height": 263,
+      "color": "6"
+    },
+    {
+      "id": "g_napstablook-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Napstablook**\n**👻 Ghost**\n**👪 Blook family**\n**👮 Police**\n## Hometown police officer, alongside Undyne.\n[[Napstablook]]",
+      "x": -3400,
+      "y": 640,
+      "width": 340,
+      "height": 307,
+      "color": "4"
+    },
+    {
+      "id": "g_catti-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Catti**\n**🐈 Cat**\n**👪 Catty's younger sister**\n**🎒 School**\n## Classmate; dating Jockington.\n[[Catti]]",
+      "x": -4800,
+      "y": -760,
+      "width": 340,
+      "height": 320,
+      "color": "4"
+    },
+    {
+      "id": "g_undyne-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Undyne**\n**🐟 Fish**\n**👮 Police (chief)**\n## Police chief; kidnapped by the Knight in Ch.3.\n[[Undyne]]",
+      "x": -3820,
+      "y": -480,
+      "width": 340,
+      "height": 279,
+      "color": "4"
+    },
+    {
+      "id": "g6-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Dess**\n**🦌 Reindeer**\n**👪 Holiday family**\n## Missing since before the game.\n[[Dess]]",
+      "x": 2095,
+      "y": -1836,
+      "width": 340,
+      "height": 256,
+      "color": "4"
+    },
+    {
+      "id": "g16-cap",
+      "type": "text",
+      "text": "# 🟡 Place — **Lake**\n## The great loose end of Ch.5.\n[[Lake]]",
+      "x": 1760,
+      "y": -355,
+      "width": 340,
+      "height": 173,
+      "color": "3"
+    },
+    {
+      "id": "g5-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Forgotten Man**\n**👤 Enigmatic character**\n## Hands out an Egg every chapter; Kris is the only one who remembers him.\n[[Forgotten Man]]",
+      "x": 2620,
+      "y": -820,
+      "width": 340,
+      "height": 280
+    },
+    {
+      "id": "g25-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Onionsan**\n**🦑 Cephalopod**\n## Lake NPC. Missing since Ch.4.\n[[Onionsan]]",
+      "x": 2534,
+      "y": 600,
+      "width": 340,
+      "height": 262,
+      "color": "4"
+    },
+    {
+      "id": "g19-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Shadow Crystal**\n**📦 5 objects, 1 per chapter (Ch.1-5)**\n**🗽 Theme: freedom**\n**💭 Ch.5: they're \"failed dreams\"**\n## Secret bosses seeking freedom — Seam keeps all 5.\n[[Cristal Oscuro|Shadow Crystal]]",
+      "x": 1226,
+      "y": 1838,
+      "width": 340,
+      "height": 269,
+      "color": "#6b7280"
+    },
+    {
+      "id": "g_conexiones-cap",
+      "type": "text",
+      "text": "# Connections (detail)\n## Full explanation of every corkboard line.\n[[Conexiones del Corcho|Corkboard Connections]]",
+      "x": 800,
+      "y": 3162,
+      "width": 380,
+      "height": 210,
+      "color": "6b7280"
+    },
+    {
+      "id": "hub",
+      "type": "text",
+      "text": "# Theory Corkboard\n**Deltarune**\n\nEach card = sprite/image + quick note.\nDouble-click the text below to open the full theory.\n\nSee `00 Índice.md` for the color legend.",
+      "x": 1259,
+      "y": 3162,
+      "width": 401,
+      "height": 238,
+      "color": "6"
+    },
+    {
+      "id": "g7-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Roaring Knight**\n**👤 Character (hidden identity)**\n## Is it Dess herself under the mask?\n[[Roaring Knight]]",
+      "x": 1200,
+      "y": 668,
+      "width": 378,
+      "height": 232
+    },
+    {
+      "id": "g1-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Susie**\n**🦎 Reptile**\n**🎒 School**\n**🎮 Fun Gang**\n## From bully to trustworthy friend.\n[[Susie]]",
+      "x": -240,
+      "y": -1717,
+      "width": 340,
+      "height": 297,
+      "color": "4"
+    },
+    {
+      "id": "g3-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Noelle**\n**🦌 Reindeer**\n**👪 Holiday family**\n**🎒 School**\n**🎮 Fun Gang**\n## Dess's little sister.\n[[Noelle]]",
+      "x": 489,
+      "y": -968,
+      "width": 340,
+      "height": 288,
+      "color": "4"
+    },
+    {
+      "id": "g_queen-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Queen**\n**💻 Lightworld object: a laptop**\n**🌑 Cyber World (Mansion), Ch.2**\n## Tyrannical ruler of the Cyber World, Ch.2.\n[[Queen]]",
+      "x": 3020,
+      "y": -2900,
+      "width": 340,
+      "height": 270,
+      "color": "6"
+    },
+    {
+      "id": "g22-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Rudy**\n**🦌 Reindeer**\n**👪 Holiday family**\n## Dess and Noelle's father. Hospitalized.\n[[Rudy]]",
+      "x": 1264,
+      "y": -3779,
+      "width": 354,
+      "height": 259,
+      "color": "4"
+    },
+    {
+      "id": "g23-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Carol**\n**🦌 Reindeer**\n**👪 Holiday family**\n**🏛️ Town Hall**\n## Mayor. Dess and Noelle's mother.\n[[Carol]]",
+      "x": 2080,
+      "y": -3779,
+      "width": 354,
+      "height": 299,
+      "color": "4"
+    },
+    {
+      "id": "g_lancer-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Lancer**\n**👪 King and Queen's son**\n**🎴 Lightworld object: the Jack of Spades**\n**🌑 Card Kingdom, Ch.1**\n## Prince of the Card Kingdom; Susie's best friend.\n[[Lancer]]",
+      "x": 7320,
+      "y": -3140,
+      "width": 340,
+      "height": 320,
+      "color": "6"
+    },
+    {
+      "id": "g_rouxls-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Rouxls Kaard**\n**👪 Watches over Lancer as his tutor**\n**📜 Lightworld object: the rules card**\n**🌑 Card Kingdom, Ch.1**\n## Duke of Puzzles; Lancer's 'lesser dad'.\n[[Rouxls Kaard]]",
+      "x": 8660,
+      "y": -2920,
+      "width": 340,
+      "height": 330,
+      "color": "6"
+    },
+    {
+      "id": "g_pippins-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Pippins**\n**🎲 Lightworld object: dice**\n**🌑 TV World, Ch.3**\n## Common enemy of the TV World.\n[[Pippins]]",
+      "x": 8057,
+      "y": -995,
+      "width": 340,
+      "height": 271,
+      "color": "6"
+    },
+    {
+      "id": "g_eram-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **ERAM**\n**🌑 Sword Route, Ch.3**\n## Secret boss of the Sword Route, Ch.3.\n[[ERAM]]",
+      "x": 6160,
+      "y": 1500,
+      "width": 340,
+      "height": 240,
+      "color": "6"
+    },
+    {
+      "id": "g15-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Everyman**\n**🥚 Cameo**\n## Easter egg carried over from Undertale.\n[[Everyman]]",
+      "x": 6760,
+      "y": -800,
+      "width": 340,
+      "height": 240
+    },
+    {
+      "id": "g_shuttah-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Shuttah**\n**📸 Miniboss, Island Board (Ch.3)**\n## \"When its eyes close, memories are made in gray\"\n[[Shuttah]]",
+      "x": 7920,
+      "y": -1920,
+      "width": 300,
+      "height": 320,
+      "color": "6"
+    },
+    {
+      "id": "g_jevil-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Jevil**\n**🃏 Lightworld object: the Joker card**\n**🌑 Card Kingdom, Ch.1**\n## Secret boss of Ch.1, the joker card.\n[[Jevil]]",
+      "x": 5140,
+      "y": 1880,
+      "width": 340,
+      "height": 292,
+      "color": "6"
+    },
+    {
+      "id": "g14-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Mike**\n**🎤 Lightworld object: a microphone**\n**🌑 Cyber World, Ch.2**\n## The most memed NPC of the Cyber World.\n[[Mike]]",
+      "x": 7300,
+      "y": 600,
+      "width": 398,
+      "height": 267,
+      "color": "6"
+    },
+    {
+      "id": "g_king-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **King**\n**👪 Lancer's father**\n**🎴 Lightworld object: the King of Spades**\n**🌑 Card Kingdom, Ch.1**\n## Lancer's father; Ch.1 antagonist.\n[[King]]",
+      "x": 6657,
+      "y": -4440,
+      "width": 340,
+      "height": 281,
+      "color": "6"
+    },
+    {
+      "id": "g4-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Gaster (W. D. Gaster)**\n**🔮 Theory / character**\n## The Voice we never see.\n[[Gaster (W. D. Gaster)]]",
+      "x": 4280,
+      "y": -5040,
+      "width": 340,
+      "height": 240
+    },
+    {
+      "id": "g12-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Spamton**\n**📨🚗 Lightworld object: a car dealership ad**\n**🌑 Cyber World, Ch.2**\n## Ruined salesman, bearer of a Shadow Crystal.\n[[Spamton]]",
+      "x": 5300,
+      "y": 420,
+      "width": 348,
+      "height": 282,
+      "color": "6"
+    },
+    {
+      "id": "g_clamgirl-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Clam Guy**\n**🐚 Monster (clam)**\n## Returns from Undertale; shares a design with Clam Girl.\n[[Clam Guy]]",
+      "x": 5789,
+      "y": -4265,
+      "width": 331,
+      "height": 284,
+      "color": "4"
+    },
+    {
+      "id": "g_huevo-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Egg**\n**📦 Object**\n## It's the 'protein' FRIEND is hunting — revealed by Pink, Ch.5.\n[[Huevo|Egg]]",
+      "x": 3250,
+      "y": 20,
+      "width": 380,
+      "height": 262,
+      "color": "6"
+    },
+    {
+      "id": "g_pipis-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner Object — **Pipis**\n**🦠 Lightworld object: a newly \"born\" virus**\n**🌑 Cyber World, Ch.2**\n## Spamton's eggs/clams; tied to Noelle, Tenna, and FRIEND.\n[[Pipis]]",
+      "x": 4140,
+      "y": -1060,
+      "width": 340,
+      "height": 331,
+      "color": "6"
+    },
+    {
+      "id": "g24-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Tenna**\n**📺 Lightworld object: the Dreemurrs' television**\n**🌑 TV World, Ch.3**\n## Director of TV Time. Secret pact with Kris.\n[[Tenna]]",
+      "x": 5183,
+      "y": -980,
+      "width": 425,
+      "height": 251,
+      "color": "6"
+    },
+    {
+      "id": "g_ramb-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Ramb**\n**🔌 Lightworld object: a power strip with K-type outlets**\n**🌑 TV World, Ch.3**\n## Power strip; bartender of the Green Room, Ch.3.\n[[Ramb]]",
+      "x": 5960,
+      "y": -2280,
+      "width": 340,
+      "height": 280,
+      "color": "6"
+    },
+    {
+      "id": "g18-cap",
+      "type": "text",
+      "text": "# 🟡 Place — **Shelter**\n**🔐 3 codes, 2 already known**\n**👤 Only Kris, Undyne, Carol, and the Knight go in**\n## Contains a Dark World — confirmed in Ch.3.\n[[Shelter]]",
+      "x": 4265,
+      "y": -2639,
+      "width": 439,
+      "height": 187,
+      "color": "3"
+    },
+    {
+      "id": "g11-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **FRIEND**\n**👤 Character / threat**\n## Feline pack hunting 'protein' — a real threat since Ch.5.\n[[FRIEND]]",
+      "x": 3960,
+      "y": 1145,
+      "width": 340,
+      "height": 275
+    },
+    {
+      "id": "g26-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Normal NPC**\n**🐦 Bird**\n## Resembles Gaster Follower #3.\n[[Normal NPC]]",
+      "x": 4720,
+      "y": -223,
+      "width": 340,
+      "height": 263,
+      "color": "4"
+    },
+    {
+      "id": "g17-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Routes**\n**🎮 Game mechanic**\n## Pacifist/Violent, Sword Route, and Weird Route.\n[[Rutas|Routes]]",
+      "x": -303,
+      "y": -346,
+      "width": 340,
+      "height": 246
+    },
+    {
+      "id": "g2-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Ralsei**\n**👑 Self-proclaimed prince (Dark World)**\n**❓ Unconfirmed Lightworld object**\n**🌑 Constant, Ch.1-5**\n## Is he still Asriel after Ch.4?\n[[Ralsei]]",
+      "x": -3524,
+      "y": -1867,
+      "width": 340,
+      "height": 305,
+      "color": "6"
+    },
+    {
+      "id": "g_jugador-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Player**\n**🕹️ Metanarrative concept**\n## Controls Kris through the SOUL; an entity separate from him.\n[[Jugador|Player]]",
+      "x": -2480,
+      "y": -1190,
+      "width": 254,
+      "height": 220,
+      "color": "#6b7280"
+    },
+    {
+      "id": "g8-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Angel**\n**👼 Religious and prophetic figure**\n## Its Heaven must be \"banished\", according to the Prophecy.\n[[Ángel|Angel]]",
+      "x": -1870,
+      "y": -304,
+      "width": 340,
+      "height": 278
+    },
+    {
+      "id": "g_cattenheimer-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Mr. Cattenheimer**\n**🐈 Cat**\n**👪 Catty and Catti's father**\n**🖐️ Missing an arm**\n## His house hides a 3-code lock, just like the shelter.\n[[Sr. Cattenheimer|Mr. Cattenheimer]]",
+      "x": -4500,
+      "y": 470,
+      "width": 340,
+      "height": 300,
+      "color": "4"
+    },
+    {
+      "id": "g_jockington-cap",
+      "type": "text",
+      "text": "# 🟢 Lightner — **Jockington**\n**🐍 Snake**\n## Classmate; Catti's boyfriend.\n[[Jockington]]",
+      "x": -4790,
+      "y": -1988,
+      "width": 340,
+      "height": 274,
+      "color": "4"
+    },
+    {
+      "id": "g_titan-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Titan**\n**🌑 Primordial entity of darkness**\n## Final boss of Ch.4; announces \"the Roaring\" from the Prophecy.\n[[Titan]]",
+      "x": 2214,
+      "y": 1600,
+      "width": 320,
+      "height": 250,
+      "color": "6"
+    },
+    {
+      "id": "g_seam-cap",
+      "type": "text",
+      "text": "# 🟣 Darkner — **Seam**\n**🧸 Lightworld object: a plush toy**\n**🌑 Card Kingdom, Ch.1**\n## Shopkeeper who receives the Shadow Crystals.\n[[Seam]]",
+      "x": 3360,
+      "y": 2430,
+      "width": 340,
+      "height": 270,
+      "color": "6"
+    },
+    {
+      "id": "g_fuentes-cap",
+      "type": "text",
+      "text": "# ⚪ Topic — **Dark Fountains**\n**🌊 Shape each Dark World**\n**🔪 Any \"determined\" Lightner can open one**\n**🐉 Too many opened = the Roaring**\n## Ch.1 and the Shelter: the only two with no confirmed opener.\n[[Fuentes Oscuras|Dark Fountains]]",
+      "x": -137,
+      "y": 2095,
+      "width": 410,
+      "height": 320,
+      "color": "#6b7280"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e2",
+      "fromNode": "g4",
+      "fromSide": "left",
+      "toNode": "g10",
+      "toSide": "right",
+      "color": "3",
+      "label": "original character from UT"
+    },
+    {
+      "id": "e4",
+      "fromNode": "g5",
+      "fromSide": "right",
+      "toNode": "g18",
+      "toSide": "left",
+      "color": "3",
+      "label": "same incident"
+    },
+    {
+      "id": "e6",
+      "fromNode": "g6",
+      "fromSide": "bottom",
+      "toNode": "g16",
+      "toSide": "top",
+      "color": "1",
+      "label": "possible whereabouts (Ch.5)"
+    },
+    {
+      "id": "e7",
+      "fromNode": "g6",
+      "fromSide": "right",
+      "toNode": "g18",
+      "toSide": "left",
+      "color": "1",
+      "label": "incident that made her disappear"
+    },
+    {
+      "id": "e8",
+      "fromNode": "g6",
+      "fromSide": "left",
+      "toNode": "g3",
+      "toSide": "right",
+      "color": "4",
+      "label": "sisters"
+    },
+    {
+      "id": "e10",
+      "fromNode": "g8",
+      "fromSide": "right",
+      "toNode": "g9",
+      "toSide": "left",
+      "color": "4",
+      "label": "prophesied figure, confirmed"
+    },
+    {
+      "id": "e12",
+      "fromNode": "g9",
+      "fromSide": "left",
+      "toNode": "g17",
+      "toSide": "right",
+      "color": "4",
+      "label": "each route reinterprets the final sacrifice"
+    },
+    {
+      "id": "e14",
+      "fromNode": "g10",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "SOULs and the Vessel theory"
+    },
+    {
+      "id": "e17",
+      "fromNode": "g12",
+      "fromSide": "bottom",
+      "toNode": "g19",
+      "toSide": "right",
+      "color": "4",
+      "label": "second confirmed bearer (Ch.2), as Spamton NEO"
+    },
+    {
+      "id": "e18",
+      "fromNode": "g12",
+      "fromSide": "top",
+      "toNode": "g15",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "cameos tied to merchandise"
+    },
+    {
+      "id": "e20",
+      "fromNode": "g14",
+      "fromSide": "bottom",
+      "toNode": "g11",
+      "toSide": "right",
+      "color": "1",
+      "label": "minor mysterious NPC"
+    },
+    {
+      "id": "e21",
+      "fromNode": "g14",
+      "fromSide": "top",
+      "toNode": "g15",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "'easter egg' category"
+    },
+    {
+      "id": "e22",
+      "fromNode": "g16",
+      "fromSide": "left",
+      "toNode": "g17",
+      "toSide": "right",
+      "color": "3",
+      "label": "ending exclusive to the weird route"
+    },
+    {
+      "id": "e23",
+      "fromNode": "g16",
+      "fromSide": "top",
+      "toNode": "g3",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "key scene of Ch.5"
+    },
+    {
+      "id": "e25",
+      "fromNode": "g2",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "companion, link to the Vessel"
+    },
+    {
+      "id": "0a3488579cc7d530",
+      "fromNode": "g3",
+      "fromSide": "left",
+      "toNode": "g1",
+      "toSide": "right",
+      "color": "4",
+      "label": "couple (confirmed Ch.5)"
+    },
+    {
+      "id": "1c3a96f61f2d0fc8",
+      "fromNode": "g12",
+      "fromSide": "left",
+      "toNode": "g11",
+      "toSide": "right",
+      "color": "3",
+      "label": "team with Cat damage resistance; Pipis's blue circle was his gift to Noelle"
+    },
+    {
+      "id": "e28",
+      "fromNode": "g3",
+      "fromSide": "left",
+      "toNode": "g8",
+      "toSide": "right",
+      "color": "3",
+      "label": "is she the Angel? (ARG clock)"
+    },
+    {
+      "id": "e_noelle_jugador",
+      "fromNode": "g3",
+      "fromSide": "left",
+      "toNode": "g_jugador",
+      "toSide": "right",
+      "color": "4",
+      "label": "also perceives it"
+    },
+    {
+      "id": "e1",
+      "fromNode": "g4",
+      "fromSide": "right",
+      "toNode": "g18",
+      "toSide": "top",
+      "color": "3",
+      "label": "tied to the incident"
+    },
+    {
+      "id": "be8fbf331140a01a",
+      "fromNode": "g11",
+      "fromSide": "left",
+      "toNode": "g9",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "The tail of Hell"
+    },
+    {
+      "id": "5d928a6beb19dc98",
+      "fromNode": "g0",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "color": "4",
+      "label": "Friends"
+    },
+    {
+      "id": "e3",
+      "fromNode": "g5",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "right",
+      "color": "3",
+      "label": "Kris's repressed trauma"
+    },
+    {
+      "id": "ne0",
+      "fromNode": "g20",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "mother"
+    },
+    {
+      "id": "ne1",
+      "fromNode": "g20",
+      "fromSide": "bottom",
+      "toNode": "g13",
+      "toSide": "left",
+      "color": "4",
+      "label": "mother"
+    },
+    {
+      "id": "ne2",
+      "fromNode": "g21",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "father"
+    },
+    {
+      "id": "ne4",
+      "fromNode": "g22",
+      "fromSide": "bottom",
+      "toNode": "g6",
+      "toSide": "top",
+      "color": "4",
+      "label": "father"
+    },
+    {
+      "id": "ne5",
+      "fromNode": "g22",
+      "fromSide": "right",
+      "toNode": "g23",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "color": "4",
+      "label": "married"
+    },
+    {
+      "id": "ne7",
+      "fromNode": "g23",
+      "fromSide": "bottom",
+      "toNode": "g6",
+      "toSide": "top",
+      "color": "4",
+      "label": "mother"
+    },
+    {
+      "id": "ne8",
+      "fromNode": "g23",
+      "fromSide": "bottom",
+      "toNode": "g18",
+      "toSide": "top",
+      "color": "1",
+      "label": "investigates the area"
+    },
+    {
+      "id": "ne9",
+      "fromNode": "g24",
+      "fromSide": "bottom",
+      "toNode": "g12",
+      "toSide": "top",
+      "fromEnd": "arrow",
+      "color": "4",
+      "label": "former partners, now rivals"
+    },
+    {
+      "id": "ne10",
+      "fromNode": "g24",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "1",
+      "label": "secret pact"
+    },
+    {
+      "id": "ne11",
+      "fromNode": "g24",
+      "fromSide": "left",
+      "toNode": "g20",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "kept her locked up"
+    },
+    {
+      "id": "ne12",
+      "fromNode": "g25",
+      "fromSide": "right",
+      "toNode": "g26",
+      "toSide": "left",
+      "color": "1",
+      "label": "murder?"
+    },
+    {
+      "id": "ne13",
+      "fromNode": "g25",
+      "fromSide": "left",
+      "toNode": "g16",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "appears at the lake"
+    },
+    {
+      "id": "8152f82bf7e6605d",
+      "fromNode": "g26",
+      "fromSide": "left",
+      "toNode": "g16",
+      "toSide": "right",
+      "color": "4",
+      "label": "after Onionsan's disappearance"
+    },
+    {
+      "id": "27d5de0830b5b5c0",
+      "fromNode": "g22",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "4",
+      "label": "father"
+    },
+    {
+      "id": "7aca66e3a90bd2cd",
+      "fromNode": "g22",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "1",
+      "label": "knight?"
+    },
+    {
+      "id": "4a906ee6c4514a83",
+      "fromNode": "g5",
+      "fromSide": "bottom",
+      "toNode": "g_huevo",
+      "toSide": "left",
+      "color": "3",
+      "label": "hands out an Egg every chapter"
+    },
+    {
+      "id": "4d60ab9ac3014947",
+      "fromNode": "g21",
+      "fromSide": "right",
+      "toNode": "g20",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "color": "4",
+      "label": "Divorced"
+    },
+    {
+      "id": "ne3",
+      "fromNode": "g21",
+      "fromSide": "bottom",
+      "toNode": "g18",
+      "toSide": "top",
+      "color": "1",
+      "label": "secret corkboard"
+    },
+    {
+      "id": "0b13a9adf83d9a33",
+      "fromNode": "g24",
+      "fromSide": "right",
+      "toNode": "g14",
+      "toSide": "top",
+      "color": "4",
+      "label": "boss"
+    },
+    {
+      "id": "42cdae9af19f6ab9",
+      "fromNode": "g14",
+      "fromSide": "left",
+      "toNode": "g12",
+      "toSide": "right",
+      "fromEnd": "arrow",
+      "color": "4",
+      "label": "friends"
+    },
+    {
+      "id": "982ec9a34ea8e161",
+      "fromNode": "g20",
+      "fromSide": "top",
+      "toNode": "g10",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "a967caf660633fdf",
+      "fromNode": "g26",
+      "fromSide": "top",
+      "toNode": "g4",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "follower?"
+    },
+    {
+      "id": "ne_asgore_knight",
+      "fromNode": "g21",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "3",
+      "label": "kidnapped Ch.5"
+    },
+    {
+      "id": "ne_kris_knight",
+      "fromNode": "g0",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "3",
+      "label": "complicity"
+    },
+    {
+      "id": "1a50d95772118a7c",
+      "fromNode": "g23",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "4",
+      "label": "mother"
+    },
+    {
+      "id": "e_gerson_susie",
+      "fromNode": "g_gerson",
+      "fromSide": "top",
+      "toNode": "g1",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "mentor, Ch.4"
+    },
+    {
+      "id": "e_gerson_prof",
+      "fromNode": "g_gerson",
+      "fromSide": "right",
+      "toNode": "g9",
+      "toSide": "left",
+      "color": "4",
+      "label": "wrote the Lord of the Hammer"
+    },
+    {
+      "id": "e_gerson_knight",
+      "fromNode": "g_gerson",
+      "fromSide": "right",
+      "toNode": "g7",
+      "toSide": "left",
+      "color": "4",
+      "label": "revived by the Knight"
+    },
+    {
+      "id": "e_flowery_asgore",
+      "fromNode": "g_flowery",
+      "fromSide": "right",
+      "toNode": "g21",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "wants to make him happy"
+    },
+    {
+      "id": "e_flowery_ralsei",
+      "fromNode": "g_flowery",
+      "fromSide": "bottom",
+      "toNode": "g2",
+      "toSide": "left",
+      "color": "4",
+      "label": "archrival"
+    },
+    {
+      "id": "e_flowery_kris",
+      "fromNode": "g_flowery",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "final boss Ch.5"
+    },
+    {
+      "id": "e_jevil_knight",
+      "fromNode": "g_jevil",
+      "fromSide": "left",
+      "toNode": "g7",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "Shadow Crystal pattern"
+    },
+    {
+      "id": "e_jevil_spamton",
+      "fromNode": "g_jevil",
+      "fromSide": "right",
+      "toNode": "g12",
+      "toSide": "left",
+      "color": "3",
+      "label": "both bear a Shadow Crystal"
+    },
+    {
+      "id": "e_jevil_noelle",
+      "fromNode": "g_jevil",
+      "fromSide": "left",
+      "toNode": "g3",
+      "toSide": "right",
+      "color": "1",
+      "label": "does Devilsknife recognize her?"
+    },
+    {
+      "id": "e_gaster_kris",
+      "fromNode": "g4",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "3",
+      "label": "does he create the Vessel?"
+    },
+    {
+      "id": "e_kris_susie",
+      "fromNode": "g0",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "companions since Ch.1"
+    },
+    {
+      "id": "e_noelle_kris_cap5",
+      "fromNode": "g3",
+      "fromSide": "top",
+      "toNode": "g0",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "confronts him (Ch.5)"
+    },
+    {
+      "id": "e_sans_toriel",
+      "fromNode": "g_sans",
+      "fromSide": "left",
+      "toNode": "g20",
+      "toSide": "top",
+      "color": "4",
+      "label": "became friends the night before Ch.1; they dance together at the Dreemurr house (Ch.4)"
+    },
+    {
+      "id": "e_sans_kris",
+      "fromNode": "g_sans",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "gives him a fake number; gets the key ice cream to reach the Lake (Ch.5)"
+    },
+    {
+      "id": "e_sans_undertale",
+      "fromNode": "g_sans",
+      "fromSide": "right",
+      "toNode": "g10",
+      "toSide": "left",
+      "color": "4",
+      "label": "character returning from Undertale, practically unchanged"
+    },
+    {
+      "id": "e_sans_gaster",
+      "fromNode": "g_sans",
+      "fromSide": "right",
+      "toNode": "g4",
+      "toSide": "left",
+      "color": "1",
+      "label": "share the mystery of the workshop/lab and the 'don't forget' drawing — doesn't confirm kinship"
+    },
+    {
+      "id": "e_sans_papyrus",
+      "fromNode": "g_sans",
+      "fromSide": "right",
+      "toNode": "g_papyrus",
+      "toSide": "left",
+      "color": "4",
+      "label": "brothers — Sans systematically prevents Kris from meeting him"
+    },
+    {
+      "id": "e_papyrus_gaster",
+      "fromNode": "g_papyrus",
+      "fromSide": "right",
+      "toNode": "g4",
+      "toSide": "left",
+      "color": "1",
+      "label": "share the same total on-screen absence; possible link to the inherited lab"
+    },
+    {
+      "id": "e_papyrus_knight",
+      "fromNode": "g_papyrus",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "1",
+      "label": "fandom joke: 'we've already met him, he's the Knight' — with no serious basis"
+    },
+    {
+      "id": "e_berdly_noelle",
+      "fromNode": "g_berdly",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "4",
+      "label": "study partners; he mistakenly believes she's in love with him"
+    },
+    {
+      "id": "e_berdly_susie",
+      "fromNode": "g_berdly",
+      "fromSide": "bottom",
+      "toNode": "g1",
+      "toSide": "top",
+      "color": "4",
+      "label": "falls for her after she tells him she doesn't care whether he's smart or dumb"
+    },
+    {
+      "id": "e_berdly_kris",
+      "fromNode": "g_berdly",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "classmates and occasional rivals"
+    },
+    {
+      "id": "e_jevil_cristal",
+      "fromNode": "g_jevil",
+      "fromSide": "bottom",
+      "toNode": "g19",
+      "toSide": "right",
+      "color": "4",
+      "label": "first known bearer (Ch.1)"
+    },
+    {
+      "id": "e_knight_cristal",
+      "fromNode": "g7",
+      "fromSide": "bottom",
+      "toNode": "g19",
+      "toSide": "top",
+      "color": "4",
+      "label": "third bearer (Ch.3), the only one whose fight isn't hidden"
+    },
+    {
+      "id": "e_gerson_cristal",
+      "fromNode": "g_gerson",
+      "fromSide": "bottom",
+      "toNode": "g19",
+      "toSide": "left",
+      "color": "4",
+      "label": "fourth bearer, as Hammer of Justice (Ch.4)"
+    },
+    {
+      "id": "e_undyne_knight",
+      "fromNode": "g_undyne",
+      "fromSide": "right",
+      "toNode": "g7",
+      "toSide": "left",
+      "color": "4",
+      "label": "kidnapped by the Knight at the end of Ch.3"
+    },
+    {
+      "id": "e_undyne_toriel",
+      "fromNode": "g_undyne",
+      "fromSide": "top",
+      "toNode": "g20",
+      "toSide": "left",
+      "color": "4",
+      "label": "tries to protect her from the Knight and is kidnapped instead"
+    },
+    {
+      "id": "e_undyne_alphys",
+      "fromNode": "g_undyne",
+      "fromSide": "top",
+      "toNode": "g_alphys",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "friendship that grows from scratch over the course of the game"
+    },
+    {
+      "id": "e_undyne_asgore",
+      "fromNode": "g_undyne",
+      "fromSide": "top",
+      "toNode": "g21",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "held the police chief position before her, with no explanation"
+    },
+    {
+      "id": "e_alphys_kris",
+      "fromNode": "g_alphys",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "his teacher; worried about his behavior"
+    },
+    {
+      "id": "e_alphys_asgore",
+      "fromNode": "g_alphys",
+      "fromSide": "right",
+      "toNode": "g21",
+      "toSide": "left",
+      "color": "4",
+      "label": "friends; share a love of Mew Mew Kissy Cutie"
+    },
+    {
+      "id": "e_alphys_pink",
+      "fromNode": "g_alphys",
+      "fromSide": "bottom",
+      "toNode": "g_pink",
+      "toSide": "top",
+      "color": "4",
+      "label": "gave Asgore the figure that becomes Pink"
+    },
+    {
+      "id": "e_pink_asgore",
+      "fromNode": "g_pink",
+      "fromSide": "top",
+      "toNode": "g21",
+      "toSide": "right",
+      "color": "4",
+      "label": "keeps her figure as the shop's mascot, unaware of what it hides"
+    },
+    {
+      "id": "e_pink_cristal",
+      "fromNode": "g_pink",
+      "fromSide": "bottom",
+      "toNode": "g19",
+      "toSide": "left",
+      "color": "4",
+      "label": "fifth known bearer (Ch.5), the most hidden of the five"
+    },
+    {
+      "id": "e_pink_kris",
+      "fromNode": "g_pink",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "3",
+      "label": "parallel: both are a body shared with an outside entity"
+    },
+    {
+      "id": "e_queen_berdly",
+      "fromNode": "g_queen",
+      "fromSide": "left",
+      "toNode": "g_berdly",
+      "toSide": "right",
+      "color": "4",
+      "label": "ally and victim in Ch.2 — she wires him up to control him"
+    },
+    {
+      "id": "e_queen_noelle",
+      "fromNode": "g_queen",
+      "fromSide": "left",
+      "toNode": "g3",
+      "toSide": "right",
+      "color": "4",
+      "label": "kidnaps her upon arrival at the Cyber World (Ch.2)"
+    },
+    {
+      "id": "e_queen_knight",
+      "fromNode": "g_queen",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "4",
+      "label": "her role model until Ralsei explains the Roaring to her"
+    },
+    {
+      "id": "e_seam_jevil",
+      "fromNode": "g_seam",
+      "fromSide": "right",
+      "toNode": "g_jevil",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "best friend and counterpart; the one who had to lock him up"
+    },
+    {
+      "id": "e_seam_cristal",
+      "fromNode": "g_seam",
+      "fromSide": "left",
+      "toNode": "g19",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "receives and studies each Shadow Crystal as it's obtained"
+    },
+    {
+      "id": "e_ramb_kris",
+      "fromNode": "g_ramb",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "treated him like a real toy as a child"
+    },
+    {
+      "id": "e_napstablook_undyne",
+      "fromNode": "g_napstablook",
+      "fromSide": "left",
+      "toNode": "g_undyne",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "police partners"
+    },
+    {
+      "id": "e_napstablook_pink",
+      "fromNode": "g_napstablook",
+      "fromSide": "right",
+      "toNode": "g_pink",
+      "toSide": "left",
+      "color": "4",
+      "label": "cousins, live together in Blook House"
+    },
+    {
+      "id": "e_catti_jockington",
+      "fromNode": "g_catti",
+      "fromSide": "top",
+      "toNode": "g_jockington",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "couple since the hula-hoop day"
+    },
+    {
+      "id": "e_catti_kris",
+      "fromNode": "g_catti",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "disapproves of him hanging out with Susie"
+    },
+    {
+      "id": "e_jockington_susie",
+      "fromNode": "g_jockington",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "supports her friendship with Kris"
+    },
+    {
+      "id": "e_ramb_tenna",
+      "fromNode": "g_ramb",
+      "fromSide": "left",
+      "toNode": "g24",
+      "toSide": "right",
+      "color": "4",
+      "label": "remember playing together as kids; 'two trapped in the past'"
+    },
+    {
+      "id": "6dc36166046a5bda",
+      "fromNode": "g5",
+      "fromSide": "right",
+      "toNode": "g4",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "possible identity"
+    },
+    {
+      "id": "e19",
+      "fromNode": "g13",
+      "fromSide": "left",
+      "toNode": "g2",
+      "toSide": "top",
+      "color": "4",
+      "label": "theory of resemblance to Ralsei, unresolved"
+    },
+    {
+      "id": "cd8f21ee232f964a",
+      "fromNode": "g13",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "Siblings"
+    },
+    {
+      "id": "6fae6b9ab70c750a",
+      "fromNode": "g13",
+      "fromSide": "right",
+      "toNode": "g6",
+      "toSide": "left",
+      "color": "3",
+      "label": "Lovers?"
+    },
+    {
+      "id": "db8a142cf73c7380",
+      "fromNode": "g13",
+      "fromSide": "right",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "1",
+      "label": "Knight?"
+    },
+    {
+      "id": "5a85d4e3239e5fc6",
+      "fromNode": "g21",
+      "fromSide": "bottom",
+      "toNode": "g13",
+      "toSide": "left",
+      "color": "4",
+      "label": "father"
+    },
+    {
+      "id": "e_lancer_susie",
+      "fromNode": "g_lancer",
+      "fromSide": "bottom",
+      "toNode": "g1",
+      "toSide": "top",
+      "color": "4",
+      "label": "best friend — she carries him on her shoulders and protects him"
+    },
+    {
+      "id": "e_lancer_king",
+      "fromNode": "g_lancer",
+      "fromSide": "top",
+      "toNode": "g_king",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "father and son, distant relationship"
+    },
+    {
+      "id": "e_lancer_queen",
+      "fromNode": "g_lancer",
+      "fromSide": "left",
+      "toNode": "g_queen",
+      "toSide": "right",
+      "color": "3",
+      "label": "mother — 'arbitrarily decided', never clarified"
+    },
+    {
+      "id": "e_pippins_mike",
+      "fromNode": "g_pippins",
+      "fromSide": "bottom",
+      "toNode": "g14",
+      "toSide": "top",
+      "color": "4",
+      "label": "Battat (Small Mike) is a Pippins in a green disguise"
+    },
+    {
+      "id": "e_pippins_tenna",
+      "fromNode": "g_pippins",
+      "fromSide": "left",
+      "toNode": "g24",
+      "toSide": "right",
+      "color": "4",
+      "label": "common enemy of his kingdom, the TV World"
+    },
+    {
+      "id": "e_eram_friend",
+      "fromNode": "g_eram",
+      "fromSide": "left",
+      "toNode": "g11",
+      "toSide": "top",
+      "color": "3",
+      "label": "FRIEND appears as a support enemy in its fight — distinct entities"
+    },
+    {
+      "id": "e_pipis_noelle",
+      "fromNode": "g_pipis",
+      "fromSide": "left",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "4",
+      "label": "Spamton sent her one before Ch.2 — they already knew each other"
+    },
+    {
+      "id": "e_pipis_tenna",
+      "fromNode": "g_pipis",
+      "fromSide": "right",
+      "toNode": "g24",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "keeps one hidden despite his public contempt for Spamton"
+    },
+    {
+      "id": "e_pipis_friend",
+      "fromNode": "g_pipis",
+      "fromSide": "bottom",
+      "toNode": "g11",
+      "toSide": "top",
+      "color": "3",
+      "label": "possible source of the 'protein' that draws FRIEND"
+    },
+    {
+      "id": "e_pipis_forgottenman",
+      "fromNode": "g_pipis",
+      "fromSide": "left",
+      "toNode": "g5",
+      "toSide": "right",
+      "color": "3",
+      "label": "same egg/protein theme tied to FRIEND"
+    },
+    {
+      "id": "e_rouxls_king",
+      "fromNode": "g_rouxls",
+      "fromSide": "top",
+      "toNode": "g_king",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "his lord in Ch.1, served with self-interested loyalty"
+    },
+    {
+      "id": "e_rouxls_queen",
+      "fromNode": "g_rouxls",
+      "fromSide": "bottom",
+      "toNode": "g_queen",
+      "toSide": "top",
+      "color": "4",
+      "label": "tries to be her right hand in Ch.2"
+    },
+    {
+      "id": "e_rouxls_tenna",
+      "fromNode": "g_rouxls",
+      "fromSide": "bottom",
+      "toNode": "g24",
+      "toSide": "top",
+      "color": "4",
+      "label": "tries to be his second-in-command in Ch.3; Tenna mocks him publicly"
+    },
+    {
+      "id": "e_eram_ramb",
+      "fromNode": "g_eram",
+      "fromSide": "top",
+      "toNode": "g_ramb",
+      "toSide": "right",
+      "color": "4",
+      "label": "same final stretch of the Original Game in the Green Room"
+    },
+    {
+      "id": "e_pipis_spamton",
+      "fromNode": "g_pipis",
+      "fromSide": "bottom",
+      "toNode": "g12",
+      "toSide": "left",
+      "color": "4",
+      "label": "they're literally his eggs; his iconic attack as NEO"
+    },
+    {
+      "id": "e_eram_cristal",
+      "fromNode": "g_eram",
+      "fromSide": "left",
+      "toNode": "g19",
+      "toSide": "right",
+      "color": "3",
+      "label": "same thematic circle as the Shadow Crystals, though it carries the Shadow Mantle"
+    },
+    {
+      "id": "6c3f8f0eca279a3c",
+      "fromNode": "g21",
+      "fromSide": "right",
+      "toNode": "g10",
+      "toSide": "left",
+      "color": "4"
+    },
+    {
+      "id": "e13",
+      "fromNode": "g10",
+      "fromSide": "bottom",
+      "toNode": "g13",
+      "toSide": "top",
+      "color": "4",
+      "label": "shared character"
+    },
+    {
+      "id": "e11",
+      "fromNode": "g_jugador",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "bottom",
+      "fromEnd": "arrow",
+      "color": "3",
+      "label": "who controls whom?"
+    },
+    {
+      "id": "e_king_knight",
+      "fromNode": "g_king",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "right",
+      "color": "4",
+      "label": "serves the Roaring Knight after the Roaring arrives"
+    },
+    {
+      "id": "e_king_jevil",
+      "fromNode": "g_king",
+      "fromSide": "bottom",
+      "toNode": "g_jevil",
+      "toSide": "right",
+      "color": "4",
+      "label": "Jevil spoke to him of the Knight's glory before his imprisonment"
+    },
+    {
+      "id": "6b9d4c29b7e49e76",
+      "fromNode": "g23",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "1",
+      "label": "complicity"
+    },
+    {
+      "id": "e_tenna_ralsei_susie",
+      "fromNode": "g24",
+      "fromSide": "top",
+      "toNode": "g1",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "enjoys having them as contestants; Susie promises him a new owner"
+    },
+    {
+      "id": "e_tenna_knight",
+      "fromNode": "g24",
+      "fromSide": "left",
+      "toNode": "g7",
+      "toSide": "left",
+      "color": "4",
+      "label": "deal to keep Lightners in exchange for ratings; cuts off his arms when he breaks it"
+    },
+    {
+      "id": "e_kris_spamton",
+      "fromNode": "g0",
+      "fromSide": "left",
+      "toNode": "g12",
+      "toSide": "right",
+      "color": "4",
+      "label": "meet in the alley; left shaken after the battle against NEO"
+    },
+    {
+      "id": "d00871177f643de8",
+      "fromNode": "g24",
+      "fromSide": "left",
+      "toNode": "g9",
+      "toSide": "right",
+      "color": "4",
+      "label": "Lord of Screen"
+    },
+    {
+      "id": "e_asriel_angel",
+      "fromNode": "g13",
+      "fromSide": "bottom",
+      "toNode": "g_jugador",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"you saw nothing\" = textual block by the Player"
+    },
+    {
+      "id": "e_sans_lake",
+      "fromNode": "g_sans",
+      "fromSide": "right",
+      "toNode": "g16",
+      "toSide": "left",
+      "color": "4",
+      "label": "his ferris wheel only goes up halfway, never reaching a view of the Lake"
+    },
+    {
+      "id": "e_alvin_gerson",
+      "fromNode": "g_alvin",
+      "fromSide": "left",
+      "toNode": "g_gerson",
+      "toSide": "right",
+      "color": "4",
+      "label": "son of"
+    },
+    {
+      "id": "e_alvin_susie",
+      "fromNode": "g_alvin",
+      "fromSide": "top",
+      "toNode": "g1",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "rewritten letter, Ch.4"
+    },
+    {
+      "id": "e_alvin_asriel",
+      "fromNode": "g_alvin",
+      "fromSide": "top",
+      "toNode": "g13",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "Asriel's false confessions"
+    },
+    {
+      "id": "e_alvin_shelter",
+      "fromNode": "g_alvin",
+      "fromSide": "right",
+      "toNode": "g18",
+      "toSide": "left",
+      "color": "4",
+      "label": "warns to stay away, Ch.4"
+    },
+    {
+      "id": "e_everyman_gaster",
+      "fromNode": "g15",
+      "fromSide": "left",
+      "toNode": "g4",
+      "toSide": "right",
+      "color": "1",
+      "label": "both 'strangeman'/'mysteryman' in the files"
+    },
+    {
+      "id": "e_huevo_friend",
+      "fromNode": "g_huevo",
+      "fromSide": "right",
+      "toNode": "g11",
+      "toSide": "top",
+      "color": "4",
+      "label": "it's the 'protein' FRIEND is hunting"
+    },
+    {
+      "id": "e_eram_kris",
+      "fromNode": "g_eram",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "4",
+      "label": "speaks to him with unsettling familiarity"
+    },
+    {
+      "id": "756a13aa431c501f",
+      "fromNode": "g_huevo",
+      "fromSide": "right",
+      "toNode": "g_pipis",
+      "toSide": "left",
+      "fromEnd": "arrow",
+      "color": "1",
+      "label": "are they eggs?"
+    },
+    {
+      "id": "e_friend_dess",
+      "fromNode": "g11",
+      "fromSide": "left",
+      "toNode": "g6",
+      "toSide": "right",
+      "color": "1",
+      "label": "did Kris, Asriel, Noelle, and she summon it as children?"
+    },
+    {
+      "id": "e_gaster_friend",
+      "fromNode": "g4",
+      "fromSide": "bottom",
+      "toNode": "g11",
+      "toSide": "top",
+      "color": "1",
+      "label": "same DEVICE_ prefix in the files"
+    },
+    {
+      "id": "e_gaster_profecia",
+      "fromNode": "g4",
+      "fromSide": "left",
+      "toNode": "g9",
+      "toSide": "top",
+      "color": "3",
+      "label": "the hymn quotes his Entry 17"
+    },
+    {
+      "id": "e_spamton_eram",
+      "fromNode": "g12",
+      "fromSide": "top",
+      "toNode": "g_eram",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "same musical motif (BIG SHOT/BURNING EYES)"
+    },
+    {
+      "id": "e_undyne_shelter",
+      "fromNode": "g_undyne",
+      "fromSide": "top",
+      "toNode": "g18",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "trapped here since the end of Ch.3"
+    },
+    {
+      "id": "e-dess-knight",
+      "fromNode": "g6",
+      "fromSide": "right",
+      "toNode": "g7",
+      "toSide": "right",
+      "color": "3",
+      "label": "the Knight under the mask? (leading theory)"
+    },
+    {
+      "id": "e-friend-knight",
+      "fromNode": "g11",
+      "fromSide": "left",
+      "toNode": "g7",
+      "toSide": "right",
+      "color": "3",
+      "label": "share a laugh sound file; same 'Strange Someone'?"
+    },
+    {
+      "id": "e-asriel-noelle",
+      "fromNode": "g13",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "1",
+      "label": "did he create the Cyber World, not Dess?"
+    },
+    {
+      "id": "e-huevo-kris",
+      "fromNode": "g_huevo",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "right",
+      "color": "3",
+      "label": "child therapy room? (pre-confirmed by the May 2025 ARG)"
+    },
+    {
+      "id": "e-shuttah-kris",
+      "fromNode": "g_shuttah",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "right",
+      "color": "3",
+      "label": "uses its camera on the Island Board"
+    },
+    {
+      "id": "e-shuttah-gaster",
+      "fromNode": "g_shuttah",
+      "fromSide": "top",
+      "toNode": "g4",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "same gray/monochrome field as the Followers"
+    },
+    {
+      "id": "e-eram-knight",
+      "fromNode": "g_eram",
+      "fromSide": "top",
+      "toNode": "g7",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "same leitmotif and fire magic; a playable version of the Knight?"
+    },
+    {
+      "id": "e-jackenstein-kris",
+      "fromNode": "g_jackenstein",
+      "fromSide": "top",
+      "toNode": "g0",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "his fight distinguishes Kris's soul from the Player's"
+    },
+    {
+      "id": "e-jackenstein-susie",
+      "fromNode": "g_jackenstein",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "only she manages to fully heal him"
+    },
+    {
+      "id": "e-jackenstein-gerson",
+      "fromNode": "g_jackenstein",
+      "fromSide": "left",
+      "toNode": "g_gerson",
+      "toSide": "top",
+      "color": "4",
+      "label": "the Old Man encourages Susie to heal him"
+    },
+    {
+      "id": "e-susie-toriel",
+      "fromNode": "g1",
+      "fromSide": "left",
+      "toNode": "g20",
+      "toSide": "right",
+      "color": "4",
+      "label": "comforted her, crying in the cemetery upon arriving in Hometown"
+    },
+    {
+      "id": "e-ramb-noelle",
+      "fromNode": "g_ramb",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "3",
+      "label": "as children, Darkner armies from Ch.1-2 as soldiers"
+    },
+    {
+      "id": "7ac0525a8b3f2fe5",
+      "fromNode": "g_king",
+      "fromSide": "left",
+      "toNode": "g_queen",
+      "toSide": "right",
+      "fromEnd": "arrow",
+      "color": "3",
+      "label": "Ex?"
+    },
+    {
+      "id": "e_clamgirl-susie",
+      "fromNode": "g_clamgirl",
+      "fromSide": "left",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "3",
+      "label": "Suzy = Susie?"
+    },
+    {
+      "id": "e_clamgirl-gaster",
+      "fromNode": "g_clamgirl",
+      "fromSide": "left",
+      "toNode": "g4",
+      "toSide": "left",
+      "color": "3",
+      "label": "same \"Goner\" sound"
+    },
+    {
+      "id": "e_clamguy-onionsan",
+      "fromNode": "g_clamgirl",
+      "fromSide": "bottom",
+      "toNode": "g25",
+      "toSide": "top",
+      "color": "4",
+      "label": "\"the thing\" from Ch.1"
+    },
+    {
+      "id": "e_titan_knight",
+      "fromNode": "g_titan",
+      "fromSide": "left",
+      "toNode": "g7",
+      "toSide": "right",
+      "color": "4",
+      "label": "created by the Knight"
+    },
+    {
+      "id": "e_titan_gerson",
+      "fromNode": "g_titan",
+      "fromSide": "bottom",
+      "toNode": "g_gerson",
+      "toSide": "top",
+      "color": "4",
+      "label": "defeated with his help"
+    },
+    {
+      "id": "e_7flores_flowery",
+      "fromNode": "g_7flores",
+      "fromSide": "left",
+      "toNode": "g_flowery",
+      "toSide": "top",
+      "color": "4",
+      "label": "sisters from the bouquet"
+    },
+    {
+      "id": "e_7flores_noelle",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "color": "1",
+      "label": "Noelle = key, like Yellow? (Just-Ice)"
+    },
+    {
+      "id": "5636151c3cea3d34",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g21",
+      "toSide": "top",
+      "color": "4",
+      "label": "their owner and caretaker"
+    },
+    {
+      "id": "1f6d832a489cd144",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g20",
+      "toSide": "top",
+      "color": "4",
+      "label": "recipient of them at her wedding"
+    },
+    {
+      "id": "deb8696513e10a0d",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g_berdly",
+      "toSide": "left",
+      "color": "4",
+      "label": "Seth's admiration"
+    },
+    {
+      "id": "1eaeaae145d10b43",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g10",
+      "toSide": "left",
+      "color": "4",
+      "label": "7 souls from Undertale"
+    },
+    {
+      "id": "e_huevo_pink",
+      "fromNode": "g_huevo",
+      "fromSide": "bottom",
+      "toNode": "g_pink",
+      "toSide": "top",
+      "color": "4",
+      "label": "revealed by Pink in a secret dialogue, Ch.5"
+    },
+    {
+      "id": "e_friend_pink",
+      "fromNode": "g11",
+      "fromSide": "left",
+      "toNode": "g_pink",
+      "toSide": "right",
+      "color": "4",
+      "label": "Pink reveals they're a pack of cats hunting protein"
+    },
+    {
+      "id": "5acb002c788080b1",
+      "fromNode": "g_titan",
+      "fromSide": "left",
+      "toNode": "g9",
+      "toSide": "right",
+      "fromEnd": "arrow",
+      "color": "4",
+      "label": "Catastrophe from the prophecy"
+    },
+    {
+      "id": "e_7flores_pink",
+      "fromNode": "g_7flores",
+      "fromSide": "bottom",
+      "toNode": "g_pink",
+      "toSide": "top",
+      "color": "4",
+      "label": "live together at the Flower Kingdom Diner, where you can stay with different characters"
+    },
+    {
+      "id": "e_profecia_g7",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top",
+      "color": "4",
+      "label": "the Knight, always referred to by title"
+    },
+    {
+      "id": "e_profecia_g17",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g17",
+      "toSide": "top",
+      "color": "4",
+      "label": "each route reinterprets the final sacrifice"
+    },
+    {
+      "id": "e_profecia_g4",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g4",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"the shadows cut deep\" (Entry 17)"
+    },
+    {
+      "id": "e_profecia_g_titan",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g_titan",
+      "toSide": "top",
+      "color": "4",
+      "label": "first textual mention of the Roaring"
+    },
+    {
+      "id": "e_profecia_g1",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g1",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"the Girl, with hope crossed in her heart\""
+    },
+    {
+      "id": "e_profecia_g0",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"the Cage, with SOUL and human parts\""
+    },
+    {
+      "id": "e_profecia_g_gerson",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g_gerson",
+      "toSide": "top",
+      "color": "4",
+      "label": "\"the turtle's axe\""
+    },
+    {
+      "id": "e_profecia_g_jockington",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g_jockington",
+      "toSide": "top",
+      "color": "4",
+      "label": "the only one named by his own name"
+    },
+    {
+      "id": "e_profecia_g6",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g6",
+      "toSide": "top",
+      "color": "3",
+      "label": "the Knight's black knife"
+    },
+    {
+      "id": "e_profecia_g_queen",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g_queen",
+      "toSide": "top",
+      "color": "4",
+      "label": "\"the Queen's carriage\" — confirmed, it's her car from Ch.2"
+    },
+    {
+      "id": "e_profecia_g_lancer",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g_lancer",
+      "toSide": "top",
+      "color": "1",
+      "label": "\"the one with the pointed head\" (unconfirmed)"
+    },
+    {
+      "id": "e_profecia_g24",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g24",
+      "toSide": "top",
+      "color": "4",
+      "label": "\"the Lord of Screens\", cut down by the Knight"
+    },
+    {
+      "id": "e_profecia_g11",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g11",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"the tail of Hell\" (unconfirmed)"
+    },
+    {
+      "id": "e_profecia_g21",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g21",
+      "toSide": "top",
+      "color": "4",
+      "label": "\"The Flower Man, trapped in the asylum\" — confirmed"
+    },
+    {
+      "id": "e_profecia_g18",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g18",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"asylum\" = shelter"
+    },
+    {
+      "id": "e_lake_kris",
+      "fromNode": "g16",
+      "fromSide": "top",
+      "toNode": "g0",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "dragged into the water by Noelle"
+    },
+    {
+      "id": "e_lake_gaster",
+      "fromNode": "g16",
+      "fromSide": "bottom",
+      "toNode": "g4",
+      "toSide": "top",
+      "color": "1",
+      "label": "\"deeper, darker\" (Entry 17, unconfirmed)"
+    },
+    {
+      "id": "e_lake_rudy",
+      "fromNode": "g16",
+      "fromSide": "left",
+      "toNode": "g22",
+      "toSide": "right",
+      "color": "4",
+      "label": "call about his fall at the Festival"
+    },
+    {
+      "id": "e_lake_gerson",
+      "fromNode": "g16",
+      "fromSide": "bottom",
+      "toNode": "g_gerson",
+      "toSide": "top",
+      "color": "3",
+      "label": "\"can you hear its song from the depths?\""
+    },
+    {
+      "id": "e_g_7flores_g0",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "Long before Ch."
+    },
+    {
+      "id": "e_g_7flores_g2",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g2",
+      "toSide": "left",
+      "color": "4",
+      "label": "Green gives her a spontaneous hug during the..."
+    },
+    {
+      "id": "e_g_7flores_g1",
+      "fromNode": "g_7flores",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "Green fist-bumps her in Ch."
+    },
+    {
+      "id": "e_g_alphys_g20",
+      "fromNode": "g_alphys",
+      "fromSide": "right",
+      "toNode": "g20",
+      "toSide": "left",
+      "color": "4",
+      "label": "Friend and colleague at school; Toriel..."
+    },
+    {
+      "id": "e_g21_g23",
+      "fromNode": "g21",
+      "fromSide": "right",
+      "toNode": "g23",
+      "toSide": "left",
+      "color": "4",
+      "label": "His landlady"
+    },
+    {
+      "id": "e_g21_g22",
+      "fromNode": "g21",
+      "fromSide": "right",
+      "toNode": "g22",
+      "toSide": "left",
+      "color": "4",
+      "label": "Old friend from college, from back when..."
+    },
+    {
+      "id": "e_g23_g0",
+      "fromNode": "g23",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "Surprisingly warm toward him in..."
+    },
+    {
+      "id": "e_g_catti_g_napstablook",
+      "fromNode": "g_catti",
+      "fromSide": "right",
+      "toNode": "g_napstablook",
+      "toSide": "left",
+      "color": "4",
+      "label": "Crossed paths with Catti's family at a..."
+    },
+    {
+      "id": "e_g6_g24",
+      "fromNode": "g6",
+      "fromSide": "right",
+      "toNode": "g24",
+      "toSide": "left",
+      "color": "4",
+      "label": "Tenna fondly remembers her as a..."
+    },
+    {
+      "id": "e_g15_g11",
+      "fromNode": "g15",
+      "fromSide": "right",
+      "toNode": "g11",
+      "toSide": "left",
+      "color": "4",
+      "label": "Both belong to the \"Easter..."
+    },
+    {
+      "id": "e_g11_g5",
+      "fromNode": "g11",
+      "fromSide": "right",
+      "toNode": "g5",
+      "toSide": "left",
+      "color": "4",
+      "label": "Since the revelation in Ch."
+    },
+    {
+      "id": "e_g_flowery_g1",
+      "fromNode": "g_flowery",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "Has a genuinely trusting relationship with..."
+    },
+    {
+      "id": "e_g_flowery_g7",
+      "fromNode": "g_flowery",
+      "fromSide": "right",
+      "toNode": "g7",
+      "toSide": "left",
+      "color": "4",
+      "label": "Confronts him directly in Ch."
+    },
+    {
+      "id": "e_g_gerson_g3",
+      "fromNode": "g_gerson",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "color": "4",
+      "label": "Although they never actually meet in person,..."
+    },
+    {
+      "id": "e_g_jevil_g0",
+      "fromNode": "g_jevil",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "The group that frees him from his cell and..."
+    },
+    {
+      "id": "e_g_jevil_g15",
+      "fromNode": "g_jevil",
+      "fromSide": "right",
+      "toNode": "g15",
+      "toSide": "left",
+      "color": "3",
+      "label": "Appears non-canonically as a cameo in..."
+    },
+    {
+      "id": "e_g_jockington_g0",
+      "fromNode": "g_jockington",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "Unlike his girlfriend Catti, he supports..."
+    },
+    {
+      "id": "e_g_jockington_g3",
+      "fromNode": "g_jockington",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "color": "4",
+      "label": "Cross-country teammate alongside..."
+    },
+    {
+      "id": "e_g_king_g0",
+      "fromNode": "g_king",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "Ramb reveals in Ch."
+    },
+    {
+      "id": "e_g_king_g3",
+      "fromNode": "g_king",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "color": "4",
+      "label": "Ramb reveals in Ch."
+    },
+    {
+      "id": "e_g_king_g_seam",
+      "fromNode": "g_king",
+      "fromSide": "right",
+      "toNode": "g_seam",
+      "toSide": "left",
+      "color": "4",
+      "label": "It was Seam who had to lock up Jevil, his..."
+    },
+    {
+      "id": "e_g0_g_alvin",
+      "fromNode": "g0",
+      "fromSide": "right",
+      "toNode": "g_alvin",
+      "toSide": "left",
+      "color": "4",
+      "label": "Has always been affectionate with his brother..."
+    },
+    {
+      "id": "e_g0_g6",
+      "fromNode": "g0",
+      "fromSide": "right",
+      "toNode": "g6",
+      "toSide": "left",
+      "color": "4",
+      "label": "Were childhood friends"
+    },
+    {
+      "id": "e_g0_g22",
+      "fromNode": "g0",
+      "fromSide": "right",
+      "toNode": "g22",
+      "toSide": "left",
+      "color": "4",
+      "label": "Fondly calls him \"the weird kid next..."
+    },
+    {
+      "id": "e_g_lancer_g_rouxls",
+      "fromNode": "g_lancer",
+      "fromSide": "right",
+      "toNode": "g_rouxls",
+      "toSide": "left",
+      "color": "4",
+      "label": "His \"lesser dad\" (lesser dad, as he himself..."
+    },
+    {
+      "id": "e_g_pink_g_seam",
+      "fromNode": "g_pink",
+      "fromSide": "right",
+      "toNode": "g_seam",
+      "toSide": "left",
+      "color": "4",
+      "label": "The one who manages the five Crystals..."
+    },
+    {
+      "id": "e_g2_g1",
+      "fromNode": "g2",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "Starts out as pure patience in the face of her..."
+    },
+    {
+      "id": "e_g_ramb_g19",
+      "fromNode": "g_ramb",
+      "fromSide": "right",
+      "toNode": "g19",
+      "toSide": "left",
+      "color": "4",
+      "label": "His line about the \"freedom\" that Kris..."
+    },
+    {
+      "id": "e_g17_g8",
+      "fromNode": "g17",
+      "fromSide": "right",
+      "toNode": "g_jugador",
+      "toSide": "left",
+      "color": "4",
+      "label": "The hidden-route system itself,..."
+    },
+    {
+      "id": "e_g17_g3",
+      "fromNode": "g17",
+      "fromSide": "right",
+      "toNode": "g3",
+      "toSide": "left",
+      "color": "4",
+      "label": "She is, by far, the most..."
+    },
+    {
+      "id": "e_g22_g20",
+      "fromNode": "g22",
+      "fromSide": "right",
+      "toNode": "g20",
+      "toSide": "left",
+      "color": "4",
+      "label": "Also met her in college, the..."
+    },
+    {
+      "id": "e_g24_g2",
+      "fromNode": "g24",
+      "fromSide": "right",
+      "toNode": "g2",
+      "toSide": "left",
+      "color": "4",
+      "label": "Enjoys having them as contestants on his..."
+    },
+    {
+      "id": "e_g_titan_g2",
+      "fromNode": "g_titan",
+      "fromSide": "right",
+      "toNode": "g2",
+      "toSide": "left",
+      "color": "4",
+      "label": "The one who first explains it, already in..."
+    },
+    {
+      "id": "e_g_titan_g1",
+      "fromNode": "g_titan",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "The two who defeat it together: Susie..."
+    },
+    {
+      "id": "e_g_titan_g0",
+      "fromNode": "g_titan",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "4",
+      "label": "The two who defeat it together: Susie..."
+    },
+    {
+      "id": "e_g_undyne_g1",
+      "fromNode": "g_undyne",
+      "fromSide": "right",
+      "toNode": "g1",
+      "toSide": "left",
+      "color": "4",
+      "label": "They don't interact much on screen,..."
+    },
+    {
+      "id": "e_toriel_carol",
+      "fromNode": "g20",
+      "fromSide": "left",
+      "toNode": "g23",
+      "toSide": "right",
+      "color": "3",
+      "label": "family friends, not reconciled"
+    },
+    {
+      "id": "e_angel_jugador",
+      "fromNode": "g8",
+      "fromSide": "bottom",
+      "toNode": "g_jugador",
+      "toSide": "top",
+      "color": "3",
+      "label": "are they the same figure? (unconfirmed)"
+    },
+    {
+      "id": "e_jugador_gaster",
+      "fromNode": "g_jugador",
+      "fromSide": "left",
+      "toNode": "g4",
+      "toSide": "right",
+      "color": "3",
+      "label": "is it the Voice? — the \"Gaster's List\" theory"
+    },
+    {
+      "id": "e_jugador_clamguy",
+      "fromNode": "g_jugador",
+      "fromSide": "bottom",
+      "toNode": "g_clamgirl",
+      "toSide": "top",
+      "color": "1",
+      "label": "same Goner/vessel pattern (unconfirmed)"
+    },
+    {
+      "id": "e_ut_jugador",
+      "fromNode": "g10",
+      "fromSide": "top",
+      "toNode": "g_jugador",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "the Vessel's creation reuses Gaster's aesthetic"
+    },
+    {
+      "id": "e_ut_gerson",
+      "fromNode": "g10",
+      "fromSide": "right",
+      "toNode": "g_gerson",
+      "toSide": "left",
+      "color": "4",
+      "label": "already mentioned the Prophecy in UT"
+    },
+    {
+      "id": "e_rutas_ramb",
+      "fromNode": "g17",
+      "fromSide": "bottom",
+      "toNode": "g_ramb",
+      "toSide": "top",
+      "color": "4",
+      "label": "grants access to the Sword Route"
+    },
+    {
+      "id": "e_rutas_friend",
+      "fromNode": "g17",
+      "fromSide": "bottom",
+      "toNode": "g11",
+      "toSide": "top",
+      "color": "3",
+      "label": "bearer of the Shadow Mantle (not fully confirmed)"
+    },
+    {
+      "id": "e_g_alvin_g8",
+      "fromNode": "g_alvin",
+      "fromSide": "right",
+      "toNode": "g8",
+      "toSide": "left",
+      "color": "4",
+      "label": "Firmly believes in faith and the Prophecy, and..."
+    },
+    {
+      "id": "e24",
+      "fromNode": "g19",
+      "fromSide": "left",
+      "toNode": "g_jugador",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "breaking free of the script"
+    },
+    {
+      "id": "e_undyne_undertale",
+      "fromNode": "g_undyne",
+      "fromSide": "top",
+      "toNode": "g10",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "UT police officer (Waterfall/Core) who returns to Hometown"
+    },
+    {
+      "id": "e_alphys_undertale",
+      "fromNode": "g_alphys",
+      "fromSide": "top",
+      "toNode": "g10",
+      "toSide": "left",
+      "color": "4",
+      "label": "UT's Royal Scientist; still running the Royal Lab"
+    },
+    {
+      "id": "e_napstablook_undertale",
+      "fromNode": "g_napstablook",
+      "fromSide": "top",
+      "toNode": "g10",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "ghost from UT (Waterfall), now Pink's cousin"
+    },
+    {
+      "id": "e_cattenheimer_catti",
+      "fromNode": "g_cattenheimer",
+      "fromSide": "bottom",
+      "toNode": "g_catti",
+      "toSide": "top",
+      "color": "4",
+      "label": "father of Catti (and Catty)"
+    },
+    {
+      "id": "e_cattenheimer_shelter",
+      "fromNode": "g_cattenheimer",
+      "fromSide": "right",
+      "toNode": "g18",
+      "toSide": "left",
+      "color": "3",
+      "label": "🎲 his house uses the same 3-code lock as the shelter"
+    },
+    {
+      "id": "e_cattenheimer_kris",
+      "fromNode": "g_cattenheimer",
+      "fromSide": "right",
+      "toNode": "g0",
+      "toSide": "left",
+      "color": "1",
+      "label": "🎲 missing an arm, as the Kris's Hand Theory points out"
+    },
+    {
+      "id": "e_cattenheimer_pink",
+      "fromNode": "g_cattenheimer",
+      "fromSide": "top",
+      "toNode": "g_pink",
+      "toSide": "bottom",
+      "color": "1",
+      "label": "🎲 a speculative echo of Pink's warning about cats that bite hands"
+    },
+    {
+      "id": "e_cristal_profecia",
+      "fromNode": "g19",
+      "fromSide": "top",
+      "toNode": "g9",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "the Prophecy's crystal tapestries are immune to its vision effect"
+    },
+    {
+      "id": "e_knight_shelter",
+      "fromNode": "g7",
+      "fromSide": "bottom",
+      "toNode": "g18",
+      "toSide": "top",
+      "color": "4",
+      "label": "drags his captives here: Undyne (Ch.3) and, presumably, Asgore (Ch.5)"
+    },
+    {
+      "id": "e_alphys_shelter",
+      "fromNode": "g_alphys",
+      "fromSide": "right",
+      "toNode": "g18",
+      "toSide": "left",
+      "color": "4",
+      "label": "the only source confirming who has access: Undyne and the mayor"
+    },
+    {
+      "id": "e_ralsei_profecia",
+      "fromNode": "g2",
+      "fromSide": "bottom",
+      "toNode": "g9",
+      "toSide": "top",
+      "color": "4",
+      "label": "summarizes it for Kris and Susie in Ch.1, and is the only Darkner who knows it in full"
+    },
+    {
+      "id": "e_fuentes_knight",
+      "fromNode": "g_fuentes",
+      "fromSide": "top",
+      "toNode": "g7",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "prime suspect: opens the Library, three Fountains in Ch.4, and one of the Ch.5 twins"
+    },
+    {
+      "id": "e_fuentes_kris",
+      "fromNode": "g_fuentes",
+      "fromSide": "left",
+      "toNode": "g0",
+      "toSide": "right",
+      "color": "4",
+      "label": "personally opens the one in Toriel's living room (Ch.3) and the main one at Flower King (Ch.5)"
+    },
+    {
+      "id": "e_fuentes_susie",
+      "fromNode": "g_fuentes",
+      "fromSide": "left",
+      "toNode": "g1",
+      "toSide": "right",
+      "color": "4",
+      "label": "opens her first own Fountain in the 2nd Sanctuary (Ch.4)"
+    },
+    {
+      "id": "e_fuentes_ralsei",
+      "fromNode": "g_fuentes",
+      "fromSide": "left",
+      "toNode": "g2",
+      "toSide": "right",
+      "color": "4",
+      "label": "the only one who senses their presence before finding them; warns of the Roaring"
+    },
+    {
+      "id": "e_fuentes_queen",
+      "fromNode": "g_fuentes",
+      "fromSide": "right",
+      "toNode": "g_queen",
+      "toSide": "left",
+      "color": "4",
+      "label": "explains the exact mechanics of how they open"
+    },
+    {
+      "id": "e_fuentes_noelle",
+      "fromNode": "g_fuentes",
+      "fromSide": "left",
+      "toNode": "g3",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "🎲 coerced by Queen into opening one, she refuses; the Cyber World revolves around her trauma without her ever opening it"
+    },
+    {
+      "id": "e_fuentes_berdly",
+      "fromNode": "g_fuentes",
+      "fromSide": "left",
+      "toNode": "g_berdly",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "about to open one inside the Cyber World as an apology to Noelle"
+    },
+    {
+      "id": "e_fuentes_titan",
+      "fromNode": "g_fuentes",
+      "fromSide": "top",
+      "toNode": "g_titan",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "born when a Fountain opens with far more intensity than normal"
+    },
+    {
+      "id": "e_fuentes_shelter",
+      "fromNode": "g_fuentes",
+      "fromSide": "top",
+      "toNode": "g18",
+      "toSide": "bottom",
+      "color": "3",
+      "label": "🎲 hides the only Fountain whose opener is a total unknown, just like the one in Ch.1"
+    },
+    {
+      "id": "e_fuentes_profecia",
+      "fromNode": "g_fuentes",
+      "fromSide": "top",
+      "toNode": "g9",
+      "toSide": "bottom",
+      "color": "4",
+      "label": "the Roaring they cause is textually prophesied in pane 04"
+    },
+    {
+      "id": "e_cattenheimer_asgore",
+      "fromNode": "g_cattenheimer",
+      "fromSide": "right",
+      "toNode": "g21",
+      "toSide": "left",
+      "color": "4",
+      "label": "friends who get together for barbecues (newsletter art, not from the game)"
+    },
+    {
+      "id": "e_cattenheimer_rudy",
+      "fromNode": "g_cattenheimer",
+      "fromSide": "right",
+      "toNode": "g22",
+      "toSide": "left",
+      "color": "4",
+      "label": "friends who get together for barbecues (newsletter art, not from the game)"
+    },
+    {
+      "id": "e_forgottenman_papyrus",
+      "fromNode": "g5",
+      "fromSide": "bottom",
+      "toNode": "g_papyrus",
+      "toSide": "top",
+      "color": "1",
+      "label": "🎲 official Fangamer merch art: Papyrus next to a tree nearly identical to his"
+    },
+    {
+      "id": "8f9fca32716e894f",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "3",
+      "label": "the second hero? (design data, unconfirmed)"
+    }
+  ]
+}

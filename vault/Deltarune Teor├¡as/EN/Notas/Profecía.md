@@ -328,6 +328,7 @@ The final block, much shorter and more intimate in tone than the rest — closes
 - [[Gaster (W. D. Gaster)]]
 - [[Titan]]
 - [[Susie]]
+- [[Noelle]]
 - [[Kris]]
 - [[Gerson Boom]]
 - [[Jockington]]

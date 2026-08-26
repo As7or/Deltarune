@@ -242,6 +242,7 @@ No aparece con título hasta el Cap.2, donde empieza como "Snowcaster" ("Puede q
 ## Relacionado
 - [[Dess]]
 - [[Lake]]
+- [[Profecía]]
 - [[Ángel]]
 - [[Jugador]]
 - [[Kris]]

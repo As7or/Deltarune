@@ -242,6 +242,7 @@ She doesn't appear with a title until Chapter 2, where she starts as "Snowcaster
 ## Related
 - [[Dess]]
 - [[Lake]]
+- [[Profecía|Prophecy]]
 - [[Ángel|Angel]]
 - [[Jugador|Player]]
 - [[Kris]]

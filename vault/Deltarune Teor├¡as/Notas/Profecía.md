@@ -359,6 +359,7 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 - [[Gaster (W. D. Gaster)]]
 - [[Titan]]
 - [[Susie]]
+- [[Noelle]]
 - [[Kris]]
 - [[Gerson Boom]]
 - [[Jockington]]

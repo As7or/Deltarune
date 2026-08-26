@@ -3568,6 +3568,15 @@
       "toSide": "top",
       "color": "1",
       "label": "🎲 dibujo oficial de merchandising de Fangamer: Papyrus junto a un árbol casi idéntico al suyo"
+    },
+    {
+      "id": "bf716afbb42f324d",
+      "fromNode": "g9",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "color": "3",
+      "label": "¿el segundo héroe? (datos de diseño, sin confirmar)"
     }
   ]
 }
