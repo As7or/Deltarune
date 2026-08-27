@@ -58,18 +58,20 @@ confianza: strong
 >
 > If Tenna hasn't been taken to Mettaton, he can present himself to King and Lancer as their new court jester; King is initially unimpressed by his jokes, but after watching him comically trip, he admits, laughing along with Lancer, that [TODO: verify exact EN quote] "he likes this one."
 >
-> In that same cell he has a rare moment of introspection, speaking of himself almost in the register of legend: *"A single scarred king... that rendered the whole kingdom..."* [TODO: verify full quote] — a more poetic preview of the real origin of his scar, which the game fully reveals in Ch.5.
->
-> ![[king_scar_scene_explanation.png]]
-> *"A single scarred king... that rendered the whole kingdom..." — King, already imprisoned, speaking of himself almost like a legend.*
->
-> Queen also visits him in this cell during Ch.4, and in front of the party the two of them openly affirm that they were together and that Lancer is their son — the most direct confirmation in the whole game of Lancer's origin, even more explicit than the "ex-husband, or whatever he is" line from Ch.5.
+> Queen also visits him in his cell during Ch.4, and in front of the party the two of them openly affirm that they were together and that Lancer is their son — the most direct confirmation in the whole game of Lancer's origin, even more explicit than the "ex-husband, or whatever he is" line from Ch.5.
 >
 > ![[queen_king_interaction.png]]
 > *"His Mother" — Queen, at the King's cell with the party present, confirming she's Lancer's mother.*
 
 > [!example]+ Chapter 5 — the scar and the real origin of the abandonment
-> The concrete origin of his tragedy is finally revealed: his physical card was accidentally torn when a Lightner's hand slipped while they were playing with it, which led to the whole deck being discarded and the Card Kingdom ending up forgotten in an unused classroom. That same tear manifests in the Dark World as the visible scar on his cheek — which he now openly shows off, though deep down he still feels guilty that his people were abandoned because of him. If no Darkner has been recruited in Cyber City, Queen comes up to play with a hoop and stick and calls him, with bittersweet humor, her [TODO: verify exact EN quote] "ex-husband, or whatever he is" — the most direct confirmation that the two had some kind of romantic relationship before the events of the game.
+> The concrete origin of his tragedy is finally revealed: his physical card was accidentally torn when a Lightner's hand slipped while they were playing with it, which led to the whole deck being discarded and the Card Kingdom ending up forgotten in an unused classroom. That same tear manifests in the Dark World as the visible scar on his cheek — which he now openly shows off, though deep down he still feels guilty that his people were abandoned because of him.
+>
+> Imprisoned, he speaks of himself almost in the register of legend: *"A single scarred king... that rendered the whole kingdom..."* [TODO: verify full quote] — his own, more poetic way of summing up that same tragedy in front of the party.
+>
+> ![[king_scar_scene_explanation.png]]
+> *"A single scarred king... that rendered the whole kingdom..." — King summing up, almost like a legend, the origin of his own scar.*
+>
+> If no Darkner has been recruited in Cyber City, Queen comes up to play with a hoop and stick and calls him, with bittersweet humor, her [TODO: verify exact EN quote] "ex-husband, or whatever he is" — the most direct confirmation that the two had some kind of romantic relationship before the events of the game.
 
 ## Relationships
 
