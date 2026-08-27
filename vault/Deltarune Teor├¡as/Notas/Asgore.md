@@ -37,6 +37,9 @@ confianza: oficial
 
 > [!example]+ Capítulo 2 — Pepinillos gratis en la tienda de Sans
 > La floristería aparece cerrada, pero Asgore aparece al día siguiente en la tienda de comestibles de Sans, mientras este bromea con Toriel. Intenta hablar con ella —le pregunta qué flores le recordarían a cuando se conocieron— y ella lo rechaza con delicadeza, aunque le promete que hablarán de Asriel cuando "vuelva la semana que viene". Sans le aconseja, medio en broma, que "hable con sus plantas", y Asgore se va con unos pepinillos gratis que Sans le regala.
+>
+> ![[asgore_store_toriel_cap2.webp]]
+> *Asgore y Toriel coincidiendo en la tienda de Sans, con Kris presente.*
 
 > [!example]+ Capítulo 4 — El rechazo tras el sermón
 > Tras el sermón de Alvin en la iglesia, Asgore intenta reconciliarse con Toriel — ella vuelve a rechazarlo, esta vez con más frialdad que en el Cap.2. La floristería sigue cerrada, pero inspeccionando la puerta trasera se ve, a través de una ventana del sótano, un corcho de investigación cubierto de documentos — el mismo tipo de corcho que también tiene Carol (ver [[Shelter]]).

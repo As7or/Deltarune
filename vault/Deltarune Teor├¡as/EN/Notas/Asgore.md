@@ -37,6 +37,9 @@ confianza: official
 
 > [!example]+ Chapter 2 — Free pickles at Sans's shop
 > The flower shop appears closed, but Asgore shows up the next day at Sans's grocery store, while Sans is joking around with Toriel. He tries to talk to her — asking what flowers would remind her of when they first met — and she gently turns him down, though she promises they'll talk about Asriel when he's "back next week." Sans half-jokingly advises him to "talk to his plants," and Asgore leaves with some free pickles Sans gives him.
+>
+> ![[asgore_store_toriel_cap2.webp]]
+> *Asgore and Toriel crossing paths at Sans's shop, with Kris present.*
 
 > [!example]+ Chapter 4 — The rejection after the sermon
 > After Alvin's sermon at the church, Asgore tries to reconcile with Toriel — she turns him down again, this time more coldly than in Ch.2. The flower shop is still closed, but inspecting the back door reveals, through a basement window, a research corkboard covered in documents — the same kind of corkboard Carol also has (see [[Shelter]]).

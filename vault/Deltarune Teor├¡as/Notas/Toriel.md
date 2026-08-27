@@ -49,11 +49,8 @@ confianza: oficial
 >
 > Si esa misma noche Kris la llama todavía con la bola de basura puesta, Toriel reacciona con un incrédulo "¿Qué? ¿Eres 'normal'?" — dejando claro que la explicación de Alphys no la ha convencido del todo.
 >
-> ![[toriel_you_are_normal_cap2.webp]]
-> *"¿Qué? ¿Eres 'normal'?" — Toriel al teléfono, con la bola de basura todavía sobre la cabeza de Kris.*
->
 > ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
-> *En ese mismo tipo de llamada, sus cuernos llegan a asomar por encima del cuadro de diálogo.*
+> *"¿Qué? ¿Eres 'normal'?" — Toriel al teléfono, con sus cuernos asomando por encima del cuadro de diálogo.*
 >
 > En el epílogo del capítulo, si Kris y Susie visitan la casa de los Dreemurr, Toriel las recibe e invita a Susie a quedarse a comer pastel.
 

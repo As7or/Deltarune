@@ -69,19 +69,18 @@ confianza: strong
 
 ## Theories
 
-> [!question]- 🥛 Is Alphys the one leaving food by the alley's trash can?
-> In Hometown's alley, where Alphys can be found after school hours in Ch.1 and Ch.2, there's a small bowl of food on the ground — right next to the trash can "full of well-kept flowers" and the [[Everyman]] graffiti. The fandom connects this detail to [[FRIEND]], the feline entity stalking the game: if someone leaves food there regularly, Alphys is the most obvious suspect, being the only person known to frequent that alley. **Speculative fan theory: the bowl is never explained in-game, and there's no confirmation it's related to FRIEND or that Alphys is the one who leaves it there.**
+> [!question]- 🐈‍⬛ The milk bowl, her cat "MewMew," and a possible connection to FRIEND
+> Confirmed in the game's own dialogue: the food bowl in Hometown's alley — next to the trash can "full of well-kept flowers" and the [[Everyman]] graffiti — belongs to Alphys's own "assumed cat," which she's named **"MewMew"**: a direct nod to "Mew Mew Kissy Cutie," the anime she still adores in Deltarune. Kris can even talk to her about it if asked.
 >
 > ![[everyman_wall_paint.png]]
-> *The bowl is visible on the ground, to the left of Alphys and Kris, in the same alley where the Everyman graffiti appears.*
-
-> [!question]- 🐈‍⬛ Is she the hidden creator behind the mod that evokes FRIEND in Cat Petterz 2?
-> FRIEND's full silhouette — a black shape with five feline legs — closely resembles Endogeny, the dog amalgamate from Undertale that Alphys herself created by fusing the Underground's named dogs; the community wiki notes the structural resemblance between the two, swapping only canine for feline (see [[FRIEND]]). Outside the game, in Noelle's real-life blog during the Spamton Sweepstakes, the entry about Cat Petterz 2 ("/catpetterz/") mentions, as an example of "how far things can go" with pet modding, a mod by a user named **"Mewmewqueen"** — literally "Mew Mew queen" — titled **"Sympton family pack."** Both names point directly at two of Alphys's already-confirmed hobbies: 📼 "Mew Mew Kissy Cutie," the anime she still adores in Deltarune, and 📺 "The Symptons," the sitcom whose DVD collection she lends to Kris (see Trivia). Add to that the food bowl in the alley, and much of the fandom speculates that Alphys could secretly be the person behind "Mewmewqueen" — and that her taste, both in and out of the fiction, for raising and modding rare pets might not be a coincidence next to FRIEND's own design.
+> *"MewMew"'s milk bowl is visible on the ground, to the left of Alphys and Kris, in the same alley where the Everyman graffiti appears.*
+>
+> That's where the confirmed part ends and speculation begins. FRIEND's full silhouette — a black shape with five feline legs — closely resembles Endogeny, the dog amalgamate from Undertale that Alphys herself created by fusing the Underground's named dogs; the community wiki notes the structural resemblance between the two, swapping only canine for feline. Outside the game, in Noelle's real-life blog during the Spamton Sweepstakes, the entry about Cat Petterz 2 ("/catpetterz/") mentions, as an example of "how far things can go" with pet modding, a mod by a user named **"Mewmewqueen"** — literally "Mew Mew queen" — titled **"Sympton family pack."** Both names point straight back at Alphys again: 📼 "Mew Mew Kissy Cutie" (the same hobby her cat is named after) and 📺 "The Symptons," the sitcom whose DVD collection she lends to Kris (see Trivia). Between the real cat named "MewMew," the confirmed food bowl, and the "Mewmewqueen" mod, much of the fandom speculates that Alphys could secretly be the person behind that username — and that her taste, both in and out of the fiction, for raising and modding rare pets might not be a coincidence next to FRIEND's own design.
 >
 > ![[alphys_friend_theory_comparation_amalgamate.png]]
 > *A fan-made comparison: two versions of Alphys, each pointing to the amalgamate she'd evoke in her respective game — Endogeny in Undertale, and FRIEND's feline silhouette in Deltarune.*
 >
-> **Highly speculative fan theory: neither the game nor the real blog ever confirms that "Mewmewqueen" is Alphys — it's a connection built on shared names and hobbies, not a textual reveal.**
+> **Partly confirmed: the milk bowl and the name "MewMew" are in the game's own dialogue. The connection to FRIEND and to "Mewmewqueen" from the real blog remains fandom speculation, with no direct textual confirmation.**
 
 ## Trivia
 - She lends Kris her home DVD collection of "The Symptons," the sitcom about a middle-class monster family.

@@ -49,11 +49,8 @@ confianza: official
 >
 > If Kris calls her that same night still wearing the trash ball, Toriel reacts with an incredulous "What? You are 'normal'?" — making it clear Alphys's explanation hasn't fully convinced her.
 >
-> ![[toriel_you_are_normal_cap2.webp]]
-> *"What? You are 'normal'?" — Toriel on the phone, with the trash ball still on Kris's head.*
->
 > ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
-> *During that same kind of call, her horns can be seen peeking above the dialogue box.*
+> *"What? You are 'normal'?" — Toriel on the phone, with her horns peeking above the dialogue box.*
 >
 > In the chapter's epilogue, if Kris and Susie visit the Dreemurr house, Toriel welcomes them in and invites Susie to stay for cake.
 
