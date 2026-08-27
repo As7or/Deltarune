@@ -75,9 +75,13 @@ confianza: fuerte
 > *Asgore, cargando con la autoculpa que el fandom conecta con su salida de la policía.*
 
 ## Curiosidades
+- 🎲 En la lectura del vídeo "Roots" que compara el tablero de la Profecía sala a sala con Hometown (ver [[Rutas]]), la sala del enemigo pez armado —cuya muerte "disgusta" a los lagartos amarillos vecinos— se identifica con Undyne, junto a la sala vecina que representaría a Alphys.
 - La cinta policial que bloquea la carretera junto a la comisaría dice "¡NGAHHHHH!!!" — su grito de guerra de Undertale.
 - Su línea "Nada que reportar, ¿eh? En momentos así... los mocosos como tú deberían estar jugando videojuegos" es una referencia a una frase del Capitán Strong en EarthBound.
 - Si se le ofrece ayuda porque "nunca pasa nada" en Hometown, sugiere en broma que alguien atraque el banco del pueblo para poder placarlo — al recordar que Hometown no tiene banco, cambia la petición a que construyan uno directamente.
+
+![[roots_undyne_room_noofficial.png]]
+*(No oficial) La sala del pez armado del tablero de la Profecía, con la silueta de Undyne superpuesta — la sala en sí es oficial, la silueta es un añadido del vídeo "Roots" (ver [[Rutas]]).*
 
 ## Relacionado
 - [[Roaring Knight]]

@@ -105,6 +105,9 @@ confianza: strong
 
 > [!question]+ Is the Weird Route/Sword what "produces" or unlocks Undertale?
 > One of the fandom's most widespread theories (documented even in press coverage of Ch.5): taking the Weird Route/Sword all the way to the end — including the Twisted Sword, the strongest weapon in the game to date, only obtainable by NOT following Noelle to the Lake — could be exactly what's needed for the player to finally meet W.D. Gaster, the Undertale scientist never seen in person in Deltarune. A more extreme variant, also cited in theory forums and wikis, proposes that Deltarune takes place *before* Undertale but only exists *because* Sans, at some later point, fixes his time machine and travels back to prevent the war between humans and monsters — meaning Deltarune's very existence would be a later consequence of Undertale's events, not simply a chronological "before." Neither variant is confirmed by Toby Fox; both are speculative readings built on the deliberate ambiguity over which order the two games actually occur in.
+>
+> ![[gaster.png]]
+> *W.D. Gaster, the Undertale scientist this theory proposes as the Weird/Sword Route's ultimate payoff — never seen in person within Deltarune to date.*
 
 > [!question]- Does he know more than he lets on about Kris?
 > In Undertale, Sans is famous for being aware of the player's resets and timelines. Carrying that same sensitivity over to Deltarune feeds the theory that Sans might perceive, even partially, the Player/Angel's influence over Kris — his line "...take it easy, ok, kid?" in the Weird Route of Ch.5 reads, under this interpretation, as a conscious warning rather than a random kind remark.

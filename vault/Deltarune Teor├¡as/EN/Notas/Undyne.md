@@ -75,9 +75,13 @@ confianza: strong
 > *Asgore, carrying the self-blame the fandom connects to his leaving the police.*
 
 ## Trivia
+- 🎲 In the "Roots" video reading that compares the Prophecy board room-by-room with Hometown (see [[Rutas|Routes]]), the room with the armored fish enemy — whose death "upsets" the neighboring yellow lizards — is identified with Undyne, next to the neighboring room that would represent Alphys.
 - The police tape blocking the road next to the station reads "NGAHHHHH!!!" — her battle cry from Undertale.
 - Her line "[TODO: verify exact EN quote] Nothing to report, huh? At times like this... punks like you should be off playing video games" is a reference to a line from Captain Strong in EarthBound.
 - If offered help because "nothing ever happens" in Hometown, she jokingly suggests someone rob the town bank so she can tackle them — then, remembering Hometown doesn't have a bank, changes the request to just building one.
+
+![[roots_undyne_room_noofficial.png]]
+*(Unofficial) The armored fish room from the Prophecy board, with Undyne's silhouette overlaid — the room itself is official, the silhouette is an addition from the "Roots" video (see [[Rutas|Routes]]).*
 
 ## Related
 - [[Roaring Knight]]

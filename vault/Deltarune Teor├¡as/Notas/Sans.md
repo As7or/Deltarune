@@ -105,6 +105,9 @@ confianza: fuerte
 
 > [!question]+ ¿Es la Ruta Rara/Espada lo que "produce" o desbloquea Undertale?
 > Una de las teorías más extendidas del fandom (documentada incluso en cobertura de prensa del Cap.5): llevar la Ruta Rara/Espada hasta el final —incluida la Espada Retorcida, el arma más fuerte del juego hasta la fecha, solo obtenible si NO se sigue a Noelle al Lago— podría ser justo lo necesario para que el jugador llegue por fin a encontrarse con W.D. Gaster, el científico de Undertale nunca visto en persona en Deltarune. Una variante más extrema, también citada en foros y wikis de teorías, plantea que Deltarune transcurre *antes* de Undertale pero solo existe *porque* Sans, en algún punto posterior, arregla su máquina del tiempo y viaja atrás para evitar la guerra entre humanos y monstruos — es decir, que la propia existencia de Deltarune sería una consecuencia posterior a los hechos de Undertale, no un simple "antes" cronológico. Ninguna de las dos variantes está confirmada por Toby Fox; son lecturas especulativas que se apoyan en la ambigüedad deliberada sobre en qué orden ocurren realmente ambos juegos.
+>
+> ![[gaster.png]]
+> *W.D. Gaster, el científico de Undertale que esta teoría propone como la recompensa final de la Ruta Rara/Espada — nunca visto en persona dentro de Deltarune hasta la fecha.*
 
 > [!question]- ¿Sabe más de lo que aparenta sobre Kris?
 > En Undertale, Sans es célebre por ser consciente de los resets y las líneas temporales del jugador. Trasladar esa misma sensibilidad a Deltarune alimenta la teoría de que Sans podría percibir, aunque sea parcialmente, la influencia del Jugador/Ángel sobre Kris — su comentario "tómatelo con calma, ¿vale?" en la Ruta Rara del Cap.5 se lee, bajo esta lectura, como una advertencia consciente más que una frase amable al azar.
