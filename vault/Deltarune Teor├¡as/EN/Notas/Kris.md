@@ -320,6 +320,25 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 >
 > ![[kris_theory_loves_noelle_glass_broken_dream_flowers.png]]
 > *The vision in full, line by line: "You held the crystal up to your eye. For some strange reason, for a brief moment, it looked like... everyone else disappeared... and you saw Noelle smiling at you, with arms full of flowers."*
+>
+> Ch.5 itself adds several more pieces to the theory, this time outside the Dark Crystals:
+>
+> - **The photo album.** Early in the chapter, while looking through the bookshelf at home, Kris can examine an album of old Festival photos — and right as the text starts reading "(You and Noelle...)", the player themself slams the album shut before the sentence can finish.
+>
+> ![[kris_noelle_theory.png]]
+> *"(You and Noelle...)" — the album closes right there, leaving the line unfinished.*
+>
+> - **The Festival King and Queen vote.** Voting Kris for King and Noelle for Queen has Kris deliberately misspell both their names on the ballot — a gesture Noelle recognizes instantly: as kids, the two of them already voted for each other at a past Festival, names misspelled the same way, and still lost to their respective siblings. Noelle cried that time, and the fandom connects the misspelling itself to a kind of private ritual between them, picked back up now as adults. Accepting this vote is also what unlocks Noelle agreeing to ride the Ferris wheel with Kris later in the Festival.
+>
+> ![[kris_noelle_theory_vote_memory_when_they_vote_themselves.png]]
+> *Noelle, already crowned alongside Kris and the rest of the group: "(I still think they deserve to win...)"*
+>
+> - **The Ferris wheel, with Susie along too.** If all three ride together, Kris recalls a childhood memory: Toriel pulled one of his ears, Asgore laughed, Toriel did the same to Asgore, Rudy laughed, and Carol pulled Rudy's ear — a kind of family chain of joking punishment. Back in the present, Noelle tries to repeat the gesture on Kris, but stops right before actually pulling.
+>
+> ![[kris_noelle_theory_ferry_remember_festival.png]]
+> *"(Noelle, confused, holds onto your other ear, but doesn't pull it.)"*
+>
+> None of these three scenes is documented in detail on the community's major wikis yet — the English wiki itself openly notes it's still missing the Ch.5 Festival's optional interactions — though it does independently confirm the vote's base mechanic: the deliberately misspelled names, the childhood memory of a past Festival, and that accepting that vote unlocks the Ferris wheel. The rest of the detail comes straight from the actual playthrough. **Still a fan theory: the game never uses the word "in love" and never confirms an explicit romantic feeling, but the accumulation of scenes — the crystal, the album closed on purpose, the shared voting ritual going back to childhood, and the interrupted gesture on the Ferris wheel — make it, as of now, one of the readings best supported by the game's own text.**
 
 ## In battle
 Leads the party in the Dark World (equipment, inventory, orders). As a human, they can't cast spells — instead they use ACTs, including some exclusive ones: **Encourage** (raises the party's defense, only unlockable against King), **Pirouette** (against Jevil, with a different effect each turn), **HealDeal** (accepts a deal from Spamton to heal), **Take House 2** (against Rouxls Kaard), **X-Slash/FriedPipis** (against Spamton NEO, Weird Route only), and several others specific to each boss. Their special attack X-Slash hits twice in the same turn and deals more damage than Fight.

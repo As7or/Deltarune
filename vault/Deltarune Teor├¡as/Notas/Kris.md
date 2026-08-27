@@ -320,6 +320,25 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 >
 > ![[kris_theory_loves_noelle_glass_broken_dream_flowers.png]]
 > *La visión completa, diálogo a diálogo: "Sostuviste el cristal frente a tu ojo. Por alguna extraña razón, por un breve instante, pareció que... todos los demás desaparecían... y viste a Noelle sonriéndote, con los brazos llenos de flores."*
+>
+> El propio Cap.5 añade varias piezas más a la teoría, esta vez fuera de los Cristales Oscuros:
+>
+> - **El álbum de fotos.** Al principio del capítulo, revisando la estantería de casa, Kris puede examinar un álbum con fotos de festivales antiguos — y justo cuando el texto empieza a decir "(Tú y Noelle...)", el propio jugador cierra el álbum de golpe antes de que la frase llegue a completarse.
+>
+> ![[kris_noelle_theory.png]]
+> *"(Tú y Noelle...)" — el álbum se cierra ahí mismo, dejando la frase sin terminar.*
+>
+> - **La votación de Rey y Reina del Festival.** Si se vota a Kris como Rey y a Noelle como Reina, Kris escribe sus nombres mal a propósito en la papeleta — un gesto que Noelle reconoce al instante: de pequeños ya se votaron el uno al otro en un Festival pasado, con los nombres mal escritos igual que ahora, y aun así perdieron frente a sus respectivos hermanos. Aquella vez Noelle lloró, y el fandom conecta el gesto de escribir mal los nombres con una especie de ritual privado entre ambos, retomado ahora de adultos. Aceptar esta votación es además lo que desbloquea que Noelle acceda a subir con Kris a la noria más tarde en el Festival.
+>
+> ![[kris_noelle_theory_vote_memory_when_they_vote_themselves.png]]
+> *Noelle, ya coronada junto a Kris y el resto del grupo: "(Sigo pensando que ellos merecían ganar...)"*
+>
+> - **La noria, con Susie también presente.** Si suben los tres juntos, Kris recuerda una escena de la infancia: Toriel le tiró de una oreja, Asgore se rió, Toriel le hizo lo mismo a Asgore, Rudy se rió, y Carol le tiró de la oreja a Rudy — una especie de cadena familiar de castigo en broma. De vuelta en el presente, Noelle intenta repetir el gesto con Kris, pero se detiene justo antes de llegar a tirar.
+>
+> ![[kris_noelle_theory_ferry_remember_festival.png]]
+> *"(Noelle, confusa, sujeta tu otra oreja, pero no llega a tirar de ella.)"*
+>
+> Ninguna de estas tres escenas está todavía documentada en detalle por las wikis principales de la comunidad —la propia wiki en inglés reconoce abiertamente que le faltan las interacciones opcionales del Festival del Cap.5—, aunque sí confirma de forma independiente la mecánica base de la votación: los nombres mal escritos a propósito, el recuerdo de un Festival pasado de niños, y que aceptar esa votación desbloquea la noria. El resto de detalles procede directamente de la partida jugada. **Sigue siendo una teoría de fans: el juego nunca usa la palabra "enamorado" ni confirma un sentimiento romántico explícito, pero la acumulación de escenas —el cristal, el álbum cerrado a propósito, el ritual de votación compartido desde la infancia, y el gesto interrumpido de la noria— la convierten, a día de hoy, en una de las lecturas mejor sostenidas por el propio texto del juego.**
 
 ## En combate
 Lleva el mando del grupo en el Mundo Oscuro (equipo, inventario, órdenes). Como humano, no puede lanzar hechizos — en su lugar usa ACTs, incluyendo algunos exclusivos: **Encourage** (sube la defensa del grupo, solo desbloqueable contra King), **Pirouette** (contra Jevil, con un efecto distinto cada turno), **HealDeal** (acepta un trato de Spamton para curarse), **Take House 2** (contra Rouxls Kaard), **X-Slash/FriedPipis** (contra Spamton NEO, solo Ruta Rara), y varios más específicos de cada jefe. Su ataque especial X-Slash golpea dos veces en un mismo turno y hace más daño que Luchar.
