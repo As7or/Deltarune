@@ -223,8 +223,23 @@ Compañera de clase de Kris y Susie, vecina de Kris desde la infancia. Tímida, 
 > [!question]- ¿Quién es "ella" en "¿Cuánto tardó en sonreír?"
 > Desde la Spamton Sweepstakes de mayo de 2025 existe una página real (deltarune.com/chapter4/thankyou/) con la pregunta exacta "How long did it take her to smile?", que pide un email y una respuesta numérica; toda respuesta válida generaba un correo de confirmación en blanco, seguido de meses de silencio. En noviembre de 2025 la página reabrió con la misma pregunta — esta vez, quien mandaba algo parecido a una respuesta razonable recibía un correo con una pista críptica del estilo "so, she never stopped smiling" o "so, before the sun went down", junto a la frase "Move forward with this answer". Tras el anuncio del Cap.5, el sitio volvió a abrirse una tercera vez con una pregunta distinta ("¿Dónde tendrá lugar?"), aparentemente accesible solo para quien ya hubiera recibido esa frase antes — durante esa ventana el propio sitio llegó a mostrar el contador "1.571 participantes disponibles, 1.229 respuestas recibidas". La comunidad interpreta mayoritariamente que "ella" es Noelle, ligada a su Ruta Rara, aunque también hay quien apunta a Dess — sin ninguna confirmación oficial de a qué personaje se refiere ni de cuál es la respuesta "correcta". **Puzzle ARG real y verificable en su mecánica; la identidad de "ella" y el significado de las pistas siguen sin confirmación oficial.**
 
-## Apodo del menú de estadísticas
-No aparece con título hasta el Cap.2, donde empieza como "Snowcaster" ("Puede que sepa usar algunos movimientos guays"). Sube a "Frostmancer" ("Congela al enemigo") la primera vez que usa el hechizo IceShock — ganar este título es, de hecho, lo que sube su nivel de 1 a 2, ya que Noelle es la única del grupo que entra directamente a LV1. En la Ruta Rara sube a "Ice Trancer" ("Recibe dolor para hacerse más fuerte") al equiparle el ThornRing a la fuerza; el título se queda así aunque se aborte la ruta después, salvo que se sustituya por "Moss Neutral" si Kris encuentra musgo con ella en el equipo (algo que no puede pasar dentro de la propia Ruta Rara). Su único título de Cap.5, "Mistletoe" ("Hoy las cosas se pusieron serias"), no es alcanzable en una partida normal porque Noelle no llega a aparecer en el Mundo Oscuro de ese capítulo — solo se puede ver editando el archivo de guardado.
+## Apodo del menú de estadísticas 🕵️‍♀️📛
+
+📁 *A diferencia de los demás, Noelle empieza el expediente en blanco — su primera ficha no llega hasta el Cap.2.*
+
+### Cap.1 — sin título todavía
+Noelle no tiene apodo propio hasta el Cap.2.
+
+### Cap.2 — el hielo y el salto de nivel
+{{tag:❄️|"Snowcaster"|Puede que sepa usar algunos movimientos guays. Título inicial.}} {{tag:🥶|"Frostmancer"|Congela al enemigo. Al usar el hechizo IceShock por primera vez.}}
+
+⭐ *Ganar "Frostmancer" es, de hecho, lo que sube el nivel de Noelle de 1 a 2 — es la única del grupo que entra directamente a LV1.*
+
+### Ruta Rara — dolor forzado o musgo
+{{tag:🥀|"Ice Trancer"|Recibe dolor para hacerse más fuerte. Al equiparle el ThornRing a la fuerza — se mantiene aunque se aborte la ruta después.}} {{tag:🌿|"Moss Neutral"|Sustituye a "Ice Trancer" si Kris encuentra musgo con ella en el equipo — algo que no puede pasar dentro de la propia Ruta Rara.}}
+
+### Cap.5 — un título inalcanzable
+{{tag:🌙|"Mistletoe"|Hoy las cosas se pusieron serias. Solo visible editando el archivo de guardado — Noelle no llega a aparecer en el Mundo Oscuro de ese capítulo en una partida normal.}}
 
 ## Curiosidades
 - Su mote de blog "holidaygirl1225" confirma el tema navideño hasta en los detalles.

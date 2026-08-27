@@ -207,8 +207,21 @@ confianza: fuerte
 > ![[Susie_and_Kris_overworld_knife_reveal.gif]]
 > *El cuchillo que Kris lleva encima constantemente — el objeto del Mundo Claro que esta teoría propone como la contraparte de Ralsei.*
 
-## Apodo del menú de estadísticas
-Es el único de los tres protagonistas cuyo título depende directamente de qué bufanda lleva puesta, además de las decisiones y el progreso del capítulo. En el Cap.1 es "Lonely Prince" ("Ser del Mundo Oscuro. No tiene súbditos") con la Bufanda Roja, "Fluffy Prince" ("Sin fuerza, pero con buenos poderes curativos") con la DaintyScarf, o "Prickly Prince" ("Hace daño con su bufanda áspera") con Ragger — el mismo Ragger que, según él mismo admite, "se siente bien" cuando ataca. Tras la foto en el lago de ácido de la Mansión de Queen en el Cap.2, su título cambia según la pose de Kris en la foto: "Hug Prince" si lo abraza, "Pose Prince" con la señal de paz, "Rude Prince" con un gesto grosero, o "Blank Prince" si no se posa — y el abrazo, en concreto, desbloquea además una escena real: Ralsei abraza a Kris tras derrotar a Spamton NEO. El más comentado por el fandom es "Horse" ("Es un caballo"), que se gana durante el segundo minijuego de vaqueros del Cap.3 mientras sigue escondido tras las cortinas, y que pasa a "Ex-Horse" ("Fue un caballo en algún momento") al salir de ellas. En el Cap.5 empieza como "Artemisia" ("Va bien con el té") y sube a "Dark Vine" ("Riega sus propias espinas") tras enfrentarse a Flowery y las 7 Flores.
+## Apodo del menú de estadísticas 🕵️‍♂️📛
+
+📁 *Es el único de los tres protagonistas cuyo título depende directamente de qué bufanda lleva puesta, además de las decisiones y el progreso del capítulo.*
+
+### Cap.1 — según la bufanda
+{{tag:👑|"Lonely Prince"|Ser del Mundo Oscuro. No tiene súbditos. Con la Bufanda Roja.}} {{tag:🩹|"Fluffy Prince"|Sin fuerza, pero con buenos poderes curativos. Con la DaintyScarf.}} {{tag:🌵|"Prickly Prince"|Hace daño con su bufanda áspera. Con Ragger — que, según el propio Ralsei, "se siente bien" cuando ataca.}}
+
+### Cap.2 — la foto del lago de ácido
+{{tag:🤗|"Hug Prince"|Si Kris lo abraza en la foto — desbloquea además una escena real: Ralsei abraza a Kris tras derrotar a Spamton NEO.}} {{tag:✌️|"Pose Prince"|Con la señal de paz.}} {{tag:😏|"Rude Prince"|Con un gesto grosero.}} {{tag:⬜|"Blank Prince"|Si no se posa.}}
+
+### Cap.3 — el más comentado del fandom
+{{tag:🐴|"Horse"|Es un caballo. Se gana durante el segundo minijuego de vaqueros mientras sigue escondido tras las cortinas.}} {{tag:🐎|"Ex-Horse"|Fue un caballo en algún momento. Al salir de las cortinas.}}
+
+### Cap.5 — la ruta de las vides
+{{tag:🍵|"Artemisia"|Va bien con el té. Título inicial.}} {{tag:🥀|"Dark Vine"|Riega sus propias espinas. Tras enfrentarse a Flowery y las 7 Flores.}}
 
 ## Curiosidades
 - Desde el Cap.2, su túnica cambia de detalles: los brazos dejan de estar ocultos bajo la tela, y el emblema del pecho pasa de un corazón a una pica invertida en parte de sus sprites (más fiel al concepto original de Temmie Chang), aunque la mayoría de sus sprites de combate y overworld siguen usando el corazón.

@@ -223,8 +223,23 @@ Classmate of Kris and Susie, Kris's neighbor since childhood. Shy, kind, and pro
 > [!question]- Who is "she" in "How long did it take her to smile?"
 > Since the May 2025 Spamton Sweepstakes there's been a real page (deltarune.com/chapter4/thankyou/) with the exact question "How long did it take her to smile?", asking for an email and a numeric answer; every valid submission generated a blank confirmation email, followed by months of silence. In November 2025 the page reopened with the same question — this time, whoever submitted something like a reasonable answer received an email with a cryptic hint along the lines of "so, she never stopped smiling" or "so, before the sun went down," along with the phrase "Move forward with this answer." After the Chapter 5 announcement, the site opened a third time with a different question ("Where will it take place?"), apparently accessible only to those who had already received that phrase before — during that window the site itself displayed a counter reading "1,571 participants available, 1,229 responses received." The community mostly interprets "she" as Noelle, tied to her Weird Route, though some point to Dess as well — with no official confirmation of which character it refers to or what the "correct" answer is. **A real ARG puzzle, verifiable in its mechanics; the identity of "she" and the meaning of the hints remain officially unconfirmed.**
 
-## Stat menu nickname
-She doesn't appear with a title until Chapter 2, where she starts as "Snowcaster" ("Might know some cool moves"). She levels up to "Frostmancer" ("Freezes the enemy") the first time she uses the IceShock spell — earning this title is, in fact, what raises her level from 1 to 2, since Noelle is the only party member who starts directly at LV1. In the Weird Route she levels up to "Ice Trancer" ("Takes pain to grow stronger") when the ThornRing is forced onto her; the title stays even if the route is aborted afterward, unless it's replaced with "Moss Neutral" if Kris finds moss with her in the party (something that can't happen within the Weird Route itself). Her only Chapter 5 title, "Mistletoe" ("Today things got serious"), can't be reached in a normal playthrough because Noelle never appears in that chapter's Dark World — it can only be seen by editing the save file.
+## Stat menu nickname 🕵️‍♀️📛
+
+📁 *Unlike the others, Noelle's file starts blank — her first tag doesn't show up until Chapter 2.*
+
+### Ch.1 — no title yet
+Noelle doesn't have a title of her own until Chapter 2.
+
+### Ch.2 — ice and the level jump
+{{tag:❄️|"Snowcaster"|Might know some cool moves. Starting title.}} {{tag:🥶|"Frostmancer"|Freezes the enemy. The first time she uses the IceShock spell.}}
+
+⭐ *Earning "Frostmancer" is, in fact, what raises Noelle's level from 1 to 2 — she's the only party member who starts directly at LV1.*
+
+### Weird Route — forced pain or moss
+{{tag:🥀|"Ice Trancer"|Takes pain to grow stronger. When the ThornRing is forced onto her — stays even if the route is aborted afterward.}} {{tag:🌿|"Moss Neutral"|Replaces "Ice Trancer" if Kris finds moss with her in the party — something that can't happen within the Weird Route itself.}}
+
+### Ch.5 — an unreachable title
+{{tag:🌙|"Mistletoe"|Today things got serious. Only visible by editing the save file — Noelle never appears in that chapter's Dark World in a normal playthrough.}}
 
 ## Trivia
 - Her blog handle "holidaygirl1225" confirms the Christmas theme down to the last detail.

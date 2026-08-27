@@ -225,8 +225,23 @@ She has the party's highest HP and Attack — her role is to take hits and hit h
 >
 > ![[susie_suspect_kriss.png]]
 
-## Stat-menu nickname
-She starts Ch.1 as "Mean Girl" ([TODO: verify exact EN quote] "Does nothing but fight"), and moves to "Dark Knight" ([TODO: verify exact EN quote] "Deals damage with dark energy") after freeing Kris and Ralsei in the Card Castle basement — a title that stays the default at the start of Ch.2 and Ch.3. In Ch.2 she can upgrade to "Healing Master" ([TODO: verify exact EN quote] "Can use the ultimate healing. Losers!") by learning UltimatHeal, or to "Moss Enjoyer" if she tries the moss in Cyber City with Kris — this latter choice has consequences that carry over into Ch.3 and Ch.4 in Kris's titles. In Ch.4 she can unlock "Axe of Justice" ([TODO: verify exact EN quote] "Face destiny with the blade") after getting the JusticeAxe from the Hammer of Justice. In Ch.5 she starts as "Violent Violet" ([TODO: verify exact EN quote] "For that special someone") and moves up to "Dark Vine" after facing Flowery and the 7 Flowers alongside the rest of the party.
+## Stat-menu nickname 🕵️‍♀️📛
+
+📁 *Her title in the POWER menu changes with the chapter's decisions and progress — one more case-file tag per route she takes.*
+
+### Ch.1 — the fight and the rescue
+{{tag:😈|"Mean Girl"|[TODO: verify exact EN quote] Does nothing but fight.}} {{tag:⚔️|"Dark Knight"|[TODO: verify exact EN quote] Deals damage with dark energy. Earned by freeing Kris and Ralsei in the Card Castle basement — stays the default at the start of Ch.2 and Ch.3.}}
+
+### Ch.2 — healing or moss
+{{tag:💚|"Healing Master"|[TODO: verify exact EN quote] Can use the ultimate healing. Losers! By learning UltimatHeal.}} {{tag:🌿|"Moss Enjoyer"|If she tries the moss in Cyber City with Kris.}}
+
+🔗 *The moss choice has consequences that carry over into [[Kris]]'s titles in Ch.3 and Ch.4.*
+
+### Ch.4 — the axe
+{{tag:🪓|"Axe of Justice"|[TODO: verify exact EN quote] Face destiny with the blade. After getting the JusticeAxe from the Hammer of Justice.}}
+
+### Ch.5 — the vine route
+{{tag:💜|"Violent Violet"|[TODO: verify exact EN quote] For that special someone. Starting title.}} {{tag:🥀|"Dark Vine"|After facing Flowery and the 7 Flowers alongside the rest of the party.}}
 
 ## Trivia
 - In Undertale, a "Suzy" was already mentioned through a minor NPC ([[Clam Guy]]), as an early nod to her existence — months before Deltarune was even announced.

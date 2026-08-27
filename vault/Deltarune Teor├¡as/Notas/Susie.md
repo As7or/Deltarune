@@ -225,8 +225,23 @@ Tiene el HP y el Ataque más altos del grupo — su rol es aguantar golpes y peg
 >
 > ![[susie_suspect_kriss.png]]
 
-## Apodo del menú de estadísticas
-Empieza el Cap.1 como "Mean Girl" ("No hace nada más que pelear"), y pasa a "Dark Knight" ("Hace daño con energía oscura") tras liberar a Kris y Ralsei en el sótano del Castillo de Cartas — título que se mantiene por defecto al empezar los Caps.2 y 3. En el Cap.2 puede subir a "Healing Master" ("Puede usar la curación definitiva. ¡Perdedores!") al aprender UltimatHeal, o a "Moss Enjoyer" si prueba el musgo de Cyber City junto a Kris — esta última elección tiene consecuencias que se arrastran hasta el Cap.3 y el Cap.4 en los títulos de Kris. En el Cap.4 puede desbloquear "Axe of Justice" ("Afronta el destino con la hoja") tras conseguir el JusticeAxe del Hammer of Justice. En el Cap.5 empieza como "Violent Violet" ("Para esa persona especial") y sube a "Dark Vine" tras enfrentarse a Flowery y las 7 Flores junto al resto del grupo.
+## Apodo del menú de estadísticas 🕵️‍♀️📛
+
+📁 *Su título en el menú POWER cambia con las decisiones y el progreso del capítulo — otra ficha más de expediente por cada ruta que toma.*
+
+### Cap.1 — la pelea y la liberación
+{{tag:😈|"Mean Girl"|No hace nada más que pelear.}} {{tag:⚔️|"Dark Knight"|Hace daño con energía oscura. Se gana al liberar a Kris y Ralsei en el sótano del Castillo de Cartas, y se mantiene por defecto al empezar los Caps.2 y 3.}}
+
+### Cap.2 — curación o musgo
+{{tag:💚|"Healing Master"|Puede usar la curación definitiva. ¡Perdedores! Al aprender UltimatHeal.}} {{tag:🌿|"Moss Enjoyer"|Si prueba el musgo de Cyber City junto a Kris.}}
+
+🔗 *La elección del musgo tiene consecuencias que se arrastran hasta los títulos de [[Kris]] en el Cap.3 y el Cap.4.*
+
+### Cap.4 — el hacha
+{{tag:🪓|"Axe of Justice"|Afronta el destino con la hoja. Tras conseguir el JusticeAxe del Hammer of Justice.}}
+
+### Cap.5 — la ruta de las vides
+{{tag:💜|"Violent Violet"|Para esa persona especial. Título inicial.}} {{tag:🥀|"Dark Vine"|Tras enfrentarse a Flowery y las 7 Flores junto al resto del grupo.}}
 
 ## Curiosidades
 - En Undertale ya se mencionaba a una "Suzy" a través de un NPC secundario ([[Clam Guy]]), como guiño previo a su existencia — meses antes de que Deltarune se anunciara siquiera.

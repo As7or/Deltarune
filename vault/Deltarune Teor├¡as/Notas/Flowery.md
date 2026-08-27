@@ -164,8 +164,12 @@ confianza: fuerte
 > ![[flowery_goodbye_scene_alusion_ralsei.jpg]]
 > *"Maybe in another life, we could have... been friends..." — el momento que resume toda esta lectura.*
 
-## Apodo del menú de estadísticas
-Cuando se une brevemente al grupo en el Cap.5, el menú POWER le asigna el título "Roommate" ("Compañero de piso"), con la descripción "Your dad's his best friend" ("Tu padre es su mejor amigo") — un resumen literal de cómo se ha colado en la vida de Asgore mientras vivía escondido en la tienda de flores, y el mismo chiste que da nombre a su tema musical, "Your Dad's Best Friend" (a su vez un guiño directo a "Your Best Friend", el tema de combate de Flowey en Undertale). Es su único título conocido — no cambia con las decisiones del jugador como sí pasa con Kris, Susie, Ralsei o Noelle.
+## Apodo del menú de estadísticas 🕵️📛
+
+📁 *Su único título conocido — a diferencia de Kris, Susie, Ralsei o Noelle, no cambia con las decisiones del jugador.*
+
+### Cap.5 — su único paso por el grupo
+{{tag:🏠|"Roommate"|"Your dad's his best friend" ("Tu padre es su mejor amigo") — resumen literal de cómo se ha colado en la vida de Asgore mientras vivía escondido en la tienda de flores. El mismo chiste que da nombre a su tema musical, "Your Dad's Best Friend" (guiño directo a "Your Best Friend", el tema de combate de Flowey en Undertale).}}
 
 ## Curiosidades
 - Toby Fox le pone voz, igual que a Jevil, Queen, Spamton y Tenna.

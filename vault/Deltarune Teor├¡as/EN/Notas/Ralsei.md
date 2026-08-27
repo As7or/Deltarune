@@ -207,8 +207,21 @@ confianza: strong
 > ![[Susie_and_Kris_overworld_knife_reveal.gif]]
 > *The knife Kris carries around at all times — the Light World object this theory proposes as Ralsei's counterpart.*
 
-## Stats-menu nickname
-He's the only one of the three protagonists whose title depends directly on which scarf he's wearing, in addition to the chapter's decisions and progress. In Ch.1 he's "Lonely Prince" ("A being of the Dark World. Has no subjects.") [TODO: verify exact EN quote] with the Red Scarf, "Fluffy Prince" ("No strength, but good healing powers.") [TODO: verify exact EN quote] with the DaintyScarf, or "Prickly Prince" ("Hurts with his rough scarf.") [TODO: verify exact EN quote] with Ragger — the same Ragger who, by his own admission, "feels good" [TODO: verify exact EN quote] when it attacks. After the photo at the acid lake in Queen's Mansion in Ch.2, his title changes depending on Kris's pose in the photo: "Hug Prince" if they hug him, "Pose Prince" with the peace sign, "Rude Prince" with a rude gesture, or "Blank Prince" if no pose is struck — and the hug, specifically, also unlocks a real scene: Ralsei hugs Kris after defeating Spamton NEO. The fandom's most talked-about one is "Horse" ("It's a horse.") [TODO: verify exact EN quote], earned during Ch.3's second cowboy minigame while he's still hidden behind the curtains, which becomes "Ex-Horse" ("Was a horse at some point.") [TODO: verify exact EN quote] once he steps out of them. In Ch.5 he starts as "Artemisia" ("Goes well with tea.") [TODO: verify exact EN quote] and upgrades to "Dark Vine" ("Waters its own thorns.") [TODO: verify exact EN quote] after facing Flowery and the 7 Flowers.
+## Stats-menu nickname 🕵️‍♂️📛
+
+📁 *He's the only one of the three protagonists whose title depends directly on which scarf he's wearing, in addition to the chapter's decisions and progress.*
+
+### Ch.1 — depending on the scarf
+{{tag:👑|"Lonely Prince"|[TODO: verify exact EN quote] A being of the Dark World. Has no subjects. With the Red Scarf.}} {{tag:🩹|"Fluffy Prince"|[TODO: verify exact EN quote] No strength, but good healing powers. With the DaintyScarf.}} {{tag:🌵|"Prickly Prince"|[TODO: verify exact EN quote] Hurts with his rough scarf. With Ragger — who, by his own admission, [TODO: verify exact EN quote] "feels good" when it attacks.}}
+
+### Ch.2 — the acid-lake photo
+{{tag:🤗|"Hug Prince"|If Kris hugs him in the photo — also unlocks a real scene: Ralsei hugs Kris after defeating Spamton NEO.}} {{tag:✌️|"Pose Prince"|With the peace sign.}} {{tag:😏|"Rude Prince"|With a rude gesture.}} {{tag:⬜|"Blank Prince"|If no pose is struck.}}
+
+### Ch.3 — the fandom's favorite
+{{tag:🐴|"Horse"|[TODO: verify exact EN quote] It's a horse. Earned during the second cowboy minigame while he's still hidden behind the curtains.}} {{tag:🐎|"Ex-Horse"|[TODO: verify exact EN quote] Was a horse at some point. Once he steps out of them.}}
+
+### Ch.5 — the vine route
+{{tag:🍵|"Artemisia"|[TODO: verify exact EN quote] Goes well with tea. Starting title.}} {{tag:🥀|"Dark Vine"|[TODO: verify exact EN quote] Waters its own thorns. After facing Flowery and the 7 Flowers.}}
 
 ## Trivia
 - Since Ch.2, details of his robe change: his arms stop being hidden under the cloth, and the chest emblem changes from a heart to an inverted spade in some of his sprites (closer to Temmie Chang's original concept), though most of his battle and overworld sprites still use the heart.

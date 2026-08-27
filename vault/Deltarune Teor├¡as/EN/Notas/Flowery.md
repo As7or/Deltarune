@@ -163,8 +163,12 @@ confianza: strong
 > ![[flowery_goodbye_scene_alusion_ralsei.jpg]]
 > *"Maybe in another life, we could have... been friends..." — the moment that sums up this whole reading.*
 
-## Stats-menu nickname
-When he briefly joins the group in Chapter 5, the POWER menu gives him the title "Roommate," with the description "Your dad's his best friend" — a literal summary of how he's wormed his way into Asgore's life while living hidden in the flower shop, and the same joke that names his musical theme, "Your Dad's Best Friend" (itself a direct nod to "Your Best Friend," Flowey's battle theme in Undertale). It's his only known title — it doesn't change with the player's choices the way Kris's, Susie's, Ralsei's, or Noelle's do.
+## Stats-menu nickname 🕵️📛
+
+📁 *His only known title — unlike Kris, Susie, Ralsei, or Noelle, it doesn't change with the player's choices.*
+
+### Ch.5 — his one time in the party
+{{tag:🏠|"Roommate"|"Your dad's his best friend" — a literal summary of how he's wormed his way into Asgore's life while living hidden in the flower shop. The same joke that names his musical theme, "Your Dad's Best Friend" (a direct nod to "Your Best Friend," Flowey's battle theme in Undertale).}}
 
 ## Trivia
 - Toby Fox voices him, just as he does Jevil, Queen, Spamton, and Tenna.
