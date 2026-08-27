@@ -148,6 +148,12 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 > ![[FRIEND_coaster_battle_unused.png]]
 > *Scrapped FRIEND-related content that never made it into the final game — one more example of how little has been revealed about him even behind the scenes.*
 
+> [!question]- 🐈‍⬛ Does [[Alphys]] have anything to do with his design or origin?
+> His full silhouette — black, with five feline legs — closely resembles Endogeny, the dog amalgamate Alphys created in Undertale by fusing the Underground's named dogs; the community wiki notes the structural resemblance between the two, swapping only canine for feline. Outside the game, the entry in Noelle's real-life blog about Cat Petterz 2 ("/catpetterz/", during the Spamton Sweepstakes) mentions a mod by a user named **"Mewmewqueen"** titled **"Sympton family pack"** — two names that link directly to two of Alphys's already-confirmed hobbies: "Mew Mew Kissy Cutie" and "The Symptons." Add to that the cat food bowl next to her in Hometown's alley (see [[Alphys]]), and the fandom speculates that Alphys could be the hidden creator behind "Mewmewqueen" — and, by extension, a possible influence (within the game's own internal logic) behind FRIEND's feline design. **Highly speculative fan theory: there's no textual confirmation that "Mewmewqueen" is Alphys.**
+>
+> ![[alphys_friend_theory_comparation_amalgamate.png]]
+> *A fan-made comparison between Alphys and her possible creations: Endogeny in Undertale, and FRIEND's feline silhouette in Deltarune.*
+
 ## Trivia
 - An item called "SMILE," sold by a vending machine in the S-rank locker room, might be related to FRIEND through its association with smiling — and it disappears upon completing the Sword Route.
 - His internal names in the game's files are DEVICE_FRIEND and IMAGE_FRIEND — the DEVICE_ prefix is also used for objects related to the intro and the Voice, which feeds the theory that the two are connected.
@@ -161,6 +167,7 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 - [[Forgotten Man]]
 - [[Huevo|Egg]]
 - [[Everyman]]
+- [[Alphys]]
 - [[Spamton]]
 - [[Roaring Knight]]
 - [[Mike]]

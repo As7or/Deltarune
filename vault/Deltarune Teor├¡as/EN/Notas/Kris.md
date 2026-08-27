@@ -355,12 +355,18 @@ One of the earliest sketches of Kris is from 2014 or 2015, shared by Toby Fox on
 ![[Kris_artwork.png]]
 *Concept sketch of Kris by Toby Fox, from 2014 or 2015.*
 
-## POWER menu nickname
-Kris's title in the POWER menu changes constantly depending on the route, choices, and even certain optional secrets — they are, by far, the character with the most distinct titles in the whole game. It starts as "Human" ([TODO: verify exact EN quote] "No description fits better") in Ch.1, and changes to "Leader" after learning of the Prophecy. The most famous of all is "Bed Inspector" ([TODO: verify exact EN quote] "Inspects all beds for no apparent reason"), earned by checking all four beds in Hathy's room at Card Castle — and which can be "kept" in Ch.2 if the same habit is repeated at the beds of Ralsei, Susie, Lancer, Clover, and Noelle; the game even warns in advance that the title will be lost if this isn't done. Other memorable titles by chapter:
-- Ch.2: "Tactician" by default, or "Moss Finder" if moss is found in Cyber City together with Susie.
-- Ch.3: "Blazer" / "Ice Blazer" on the Sword Route, or "Enjoying" (young life) after getting the Egg — this last one is the only title in the whole game that, in the Japanese version, places the level on the left instead of the right, precisely to make it look like a system error.
-- Ch.4: "Dark Hero" by default, or "Dark Bead" ([TODO: verify exact EN quote] "Broken, but still won't let go") during the Weird Route.
-- Ch.5: starts as "Blue Rose" ([TODO: verify exact EN quote] "Quiet, but a flirt"); changes to "Dark Rose" ([TODO: verify exact EN quote] "Conveys a farewell") when facing Flowery and the 7 Flowers, to "Pink Rose" after defeating Pink, or to "Shattered Rose" ([TODO: verify exact EN quote] "Only one knows the meaning of the rose") if the Weird Route is aborted right at the start of the chapter. Entering the room with the Forgotten Man resets the level to 1 and removes the title entirely while receiving the Egg.
+## POWER menu nickname 🕵️‍♂️📛
+
+📁 *Like any good case file, Kris's title in the POWER menu is a clue that never stops changing — depending on the route, choices, and even certain optional secrets. They are, by far, the character with the most distinct titles in the whole game.*
+
+- 🧍 **Ch.1 — "Human"** · *([TODO: verify exact EN quote] "No description fits better.")*
+- 👑 **After learning of the Prophecy — "Leader"**
+- 🛏️🔎 **Ch.2 — "Bed Inspector"** *(the most famous title in the game)* · *([TODO: verify exact EN quote] "Inspects all beds for no apparent reason.")* Earned by checking all four beds in Hathy's room at Card Castle — and it can be "kept" by repeating the same habit at the beds of Ralsei, Susie, Lancer, Clover, and Noelle. ⚠️ The game warns in advance that the title will be lost if this isn't done.
+- ⚙️ **Ch.2 (alternate) — "Tactician"** by default, or 🌿 "Moss Finder" if moss is found in Cyber City together with Susie.
+- 🔥🧊 **Ch.3 — "Blazer" / "Ice Blazer"** on the Sword Route, or 😌 "Enjoying" *(young life)* after getting the Egg — the only title in the whole game that, in the Japanese version, places the level on the left instead of the right, precisely to make it look like a system error!
+- 🌑 **Ch.4 — "Dark Hero"** by default, or 🧷 "Dark Bead" *([TODO: verify exact EN quote] "Broken, but still won't let go")* during the Weird Route.
+- 🌹 **Ch.5, the rose route:** "Blue Rose" *([TODO: verify exact EN quote] "Quiet, but a flirt")* → 🥀 "Dark Rose" *([TODO: verify exact EN quote] "Conveys a farewell")* when facing Flowery and the 7 Flowers → 💗 "Pink Rose" after defeating Pink → 💔 "Shattered Rose" *([TODO: verify exact EN quote] "Only one knows the meaning of the rose")* if the Weird Route is aborted right at the start of the chapter.
+- 0️⃣ **Full reset.** Entering the room with the Forgotten Man resets the level to 1 and removes the title entirely while receiving the Egg.
 
 ## Trivia
 - The only party member without a "pain" sprite when taking damage.

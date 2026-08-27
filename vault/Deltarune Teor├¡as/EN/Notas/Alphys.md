@@ -67,6 +67,22 @@ confianza: strong
 > [!quote]- Mad Mew Mew (Pink)
 > She gave Asgore the Mew Mew action figure that he keeps in his shop as a mascot — the same object that, in the Dark World of Ch.5, becomes the secret boss Pink. [[Mad Mew Mew (Pink)]]
 
+## Theories
+
+> [!question]- 🥛 Is Alphys the one leaving food by the alley's trash can?
+> In Hometown's alley, where Alphys can be found after school hours in Ch.1 and Ch.2, there's a small bowl of food on the ground — right next to the trash can "full of well-kept flowers" and the [[Everyman]] graffiti. The fandom connects this detail to [[FRIEND]], the feline entity stalking the game: if someone leaves food there regularly, Alphys is the most obvious suspect, being the only person known to frequent that alley. **Speculative fan theory: the bowl is never explained in-game, and there's no confirmation it's related to FRIEND or that Alphys is the one who leaves it there.**
+>
+> ![[everyman_wall_paint.png]]
+> *The bowl is visible on the ground, to the left of Alphys and Kris, in the same alley where the Everyman graffiti appears.*
+
+> [!question]- 🐈‍⬛ Is she the hidden creator behind the mod that evokes FRIEND in Cat Petterz 2?
+> FRIEND's full silhouette — a black shape with five feline legs — closely resembles Endogeny, the dog amalgamate from Undertale that Alphys herself created by fusing the Underground's named dogs; the community wiki notes the structural resemblance between the two, swapping only canine for feline (see [[FRIEND]]). Outside the game, in Noelle's real-life blog during the Spamton Sweepstakes, the entry about Cat Petterz 2 ("/catpetterz/") mentions, as an example of "how far things can go" with pet modding, a mod by a user named **"Mewmewqueen"** — literally "Mew Mew queen" — titled **"Sympton family pack."** Both names point directly at two of Alphys's already-confirmed hobbies: 📼 "Mew Mew Kissy Cutie," the anime she still adores in Deltarune, and 📺 "The Symptons," the sitcom whose DVD collection she lends to Kris (see Trivia). Add to that the food bowl in the alley, and much of the fandom speculates that Alphys could secretly be the person behind "Mewmewqueen" — and that her taste, both in and out of the fiction, for raising and modding rare pets might not be a coincidence next to FRIEND's own design.
+>
+> ![[alphys_friend_theory_comparation_amalgamate.png]]
+> *A fan-made comparison: two versions of Alphys, each pointing to the amalgamate she'd evoke in her respective game — Endogeny in Undertale, and FRIEND's feline silhouette in Deltarune.*
+>
+> **Highly speculative fan theory: neither the game nor the real blog ever confirms that "Mewmewqueen" is Alphys — it's a connection built on shared names and hobbies, not a textual reveal.**
+
 ## Trivia
 - She lends Kris her home DVD collection of "The Symptons," the sitcom about a middle-class monster family.
 - Her gift to Asgore — the Mew Mew figure that gives rise to Pink in Ch.5 — unknowingly makes her the indirect origin of one of the most talked-about secret bosses in the whole game.
@@ -84,6 +100,8 @@ confianza: strong
 - [[Berdly]]
 - [[Toriel]]
 - [[Shelter]]
+- [[FRIEND]]
+- [[Everyman]]
 
 ## Submap
 [[Submapas/Alphys.canvas|Open graphical submap]]

@@ -355,12 +355,18 @@ Uno de los primeros bocetos de Kris es de 2014 o 2015, compartido por Toby Fox e
 ![[Kris_artwork.png]]
 *Boceto conceptual de Kris de Toby Fox, de 2014 o 2015.*
 
-## Apodo del menú de estadísticas
-El título de Kris en el menú POWER cambia constantemente según la ruta, las decisiones y hasta ciertos secretos opcionales — es, con diferencia, el personaje con más títulos distintos de todo el juego. Empieza como "Human" ("Ninguna descripción sirve mejor") en el Cap.1, y pasa a "Leader" tras conocer la Profecía. El más famoso de todos es "Bed Inspector" ("Inspecciona todas las camas sin razón aparente"), que se gana revisando las cuatro camas del cuarto de Hathy en el Castillo de Cartas — y que se puede "mantener" en el Cap.2 si se repite la misma manía en las camas de Ralsei, Susie, Lancer, Clover y Noelle; el juego incluso avisa por adelantado de que se perderá el título si no se hace. Otros títulos memorables por capítulo:
-- Cap.2: "Tactician" por defecto, o "Moss Finder" si encuentra musgo en Cyber City junto a Susie.
-- Cap.3: "Blazer" / "Ice Blazer" en la Ruta de la Espada, o "Enjoying" (la vida joven) tras conseguir el Huevo — este último es el único título de todo el juego que en la versión japonesa coloca el nivel a la izquierda en vez de a la derecha, precisamente para que parezca un error de sistema.
-- Cap.4: "Dark Hero" por defecto, o "Dark Bead" ("Roto, pero sigue sin soltarse") durante la Ruta Rara.
-- Cap.5: empieza como "Blue Rose" ("Callado, pero ligón"); cambia a "Dark Rose" ("Transmite una despedida") al enfrentarse a Flowery y las 7 Flores, a "Pink Rose" tras derrotar a Pink, o a "Shattered Rose" ("Solo uno conoce el significado de la rosa") si se aborta la Ruta Rara nada más empezar el capítulo. Entrar en la habitación con el Forgotten Man resetea el nivel a 1 y elimina el título por completo mientras se recibe el Huevo.
+## Apodo del menú de estadísticas 🕵️‍♂️📛
+
+📁 *Como en cualquier buen expediente, el título de Kris en el menú POWER es una pista que no deja de cambiar — según la ruta, las decisiones y hasta ciertos secretos opcionales. Es, con diferencia, el personaje con más títulos distintos de todo el juego.*
+
+- 🧍 **Cap.1 — "Human"** · *"Ninguna descripción sirve mejor."*
+- 👑 **Tras conocer la Profecía — "Leader"**
+- 🛏️🔎 **Cap.2 — "Bed Inspector"** *(el título más famoso del juego)* · *"Inspecciona todas las camas sin razón aparente."* Se gana revisando las cuatro camas del cuarto de Hathy en el Castillo de Cartas — y se puede "mantener" repitiendo la misma manía en las camas de Ralsei, Susie, Lancer, Clover y Noelle. ⚠️ El propio juego avisa por adelantado de que se perderá si no se hace.
+- ⚙️ **Cap.2 (alternativo) — "Tactician"** por defecto, o 🌿 "Moss Finder" si encuentra musgo en Cyber City junto a Susie.
+- 🔥🧊 **Cap.3 — "Blazer" / "Ice Blazer"** en la Ruta de la Espada, o 😌 "Enjoying" *(la vida joven)* tras conseguir el Huevo — el único título de todo el juego que en la versión japonesa coloca el nivel a la izquierda en vez de a la derecha, ¡simulando un error de sistema a propósito!
+- 🌑 **Cap.4 — "Dark Hero"** por defecto, o 🧷 "Dark Bead" *("Roto, pero sigue sin soltarse")* durante la Ruta Rara.
+- 🌹 **Cap.5, la ruta de las rosas:** "Blue Rose" *("Callado, pero ligón")* → 🥀 "Dark Rose" *("Transmite una despedida")* al enfrentarse a Flowery y las 7 Flores → 💗 "Pink Rose" tras derrotar a Pink → 💔 "Shattered Rose" *("Solo uno conoce el significado de la rosa")* si se aborta la Ruta Rara nada más empezar el capítulo.
+- 0️⃣ **Reinicio total.** Entrar en la habitación con el Forgotten Man resetea el nivel a 1 y elimina el título por completo mientras se recibe el Huevo.
 
 ## Curiosidades
 - Es el único miembro del grupo sin un sprite de "dolor" al recibir daño.

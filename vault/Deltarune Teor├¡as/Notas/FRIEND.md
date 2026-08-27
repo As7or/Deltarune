@@ -148,6 +148,12 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 > ![[FRIEND_coaster_battle_unused.png]]
 > *Contenido descartado ligado a FRIEND que nunca llegó a la versión final del juego — un ejemplo más de lo poco que se ha revelado de él incluso detrás de cámaras.*
 
+> [!question]- 🐈‍⬛ ¿Tiene [[Alphys]] algo que ver con su diseño o su origen?
+> Su silueta completa —negra, de cinco patas felinas— recuerda mucho a Endogeny, el amalgama-perro que Alphys creó en Undertale fusionando a los perros con nombre propio del Underground; la wiki de la comunidad señala el parecido de estructura entre ambos, cambiando solo lo canino por lo felino. Fuera del juego, la entrada del blog real de Noelle sobre Cat Petterz 2 ("/catpetterz/", durante la Spamton Sweepstakes) menciona un mod de un usuario llamado **"Mewmewqueen"** titulado **"Sympton family pack"** — dos nombres que enlazan directamente con dos aficiones ya confirmadas de Alphys: "Mew Mew Kissy Cutie" y "Los Symptons". Sumado a que hay un cuenco de comida para gatos junto a ella en el callejón de Hometown (ver [[Alphys]]), el fandom especula con que Alphys podría ser la creadora oculta detrás de "Mewmewqueen" — y, por extensión, una posible influencia (dentro de la propia lógica del juego) tras el diseño felino de FRIEND. **Teoría de fans muy especulativa: no hay ninguna confirmación textual de que "Mewmewqueen" sea Alphys.**
+>
+> ![[alphys_friend_theory_comparation_amalgamate.png]]
+> *Comparación elaborada por el fandom entre Alphys y sus posibles creaciones: Endogeny en Undertale, y la silueta felina de FRIEND en Deltarune.*
+
 ## Curiosidades
 - Un objeto llamado "SMILE", vendido por una máquina expendedora en el vestuario de rango S, podría estar relacionado con FRIEND por su asociación con sonreír — y desaparece al completar la Ruta Espada.
 - Sus nombres internos en los archivos del juego son DEVICE_FRIEND e IMAGE_FRIEND — el prefijo DEVICE_ se usa también para objetos relacionados con la introducción y la Voz, lo que alimenta la teoría de que ambos están conectados.
@@ -161,6 +167,7 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 - [[Forgotten Man]]
 - [[Huevo]]
 - [[Everyman]]
+- [[Alphys]]
 - [[Spamton]]
 - [[Roaring Knight]]
 - [[Mike]]
