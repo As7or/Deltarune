@@ -333,7 +333,7 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > ![[kris_noelle_theory_vote_memory_when_they_vote_themselves.png]]
 > *Noelle, already crowned alongside Kris and the rest of the group: "(I still think they deserve to win...)"*
 >
-> - **The Ferris wheel, with Susie along too.** If all three ride together, Kris recalls a childhood memory: Toriel pulled one of his ears, Asgore laughed, Toriel did the same to Asgore, Rudy laughed, and Carol pulled Rudy's ear — a kind of family chain of joking punishment. Back in the present, Noelle tries to repeat the gesture on Kris, but stops right before actually pulling.
+> - **The Ferris wheel, with Susie along too.** If all three ride together, Kris recalls a childhood memory: Toriel pulled one of his ears, Asgore laughed, Toriel did the same to Asgore, Rudy laughed, Carol pulled Rudy's ear, and Noelle pulled Kris's ear too — a kind of family chain of joking punishment that as kids reached the two of them as well. Back in the present, Noelle holds onto Kris's other ear as if to repeat that childhood gesture, but this time stops right before actually pulling.
 >
 > ![[kris_noelle_theory_ferry_remember_festival.png]]
 > *"(Noelle, confused, holds onto your other ear, but doesn't pull it.)"*

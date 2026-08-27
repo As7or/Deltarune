@@ -333,7 +333,7 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > ![[kris_noelle_theory_vote_memory_when_they_vote_themselves.png]]
 > *Noelle, ya coronada junto a Kris y el resto del grupo: "(Sigo pensando que ellos merecían ganar...)"*
 >
-> - **La noria, con Susie también presente.** Si suben los tres juntos, Kris recuerda una escena de la infancia: Toriel le tiró de una oreja, Asgore se rió, Toriel le hizo lo mismo a Asgore, Rudy se rió, y Carol le tiró de la oreja a Rudy — una especie de cadena familiar de castigo en broma. De vuelta en el presente, Noelle intenta repetir el gesto con Kris, pero se detiene justo antes de llegar a tirar.
+> - **La noria, con Susie también presente.** Si suben los tres juntos, Kris recuerda una escena de la infancia: Toriel le tiró de una oreja, Asgore se rió, Toriel le hizo lo mismo a Asgore, Rudy se rió, Carol le tiró de la oreja a Rudy, y Noelle le tiró la oreja a Kris — una especie de cadena familiar de castigo en broma que de niños llegó también a ellos dos. De vuelta en el presente, Noelle sujeta la otra oreja de Kris como para repetir aquel gesto de la infancia, pero esta vez se detiene justo antes de llegar a tirar.
 >
 > ![[kris_noelle_theory_ferry_remember_festival.png]]
 > *"(Noelle, confusa, sujeta tu otra oreja, pero no llega a tirar de ella.)"*

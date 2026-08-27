@@ -34,17 +34,26 @@ confianza: oficial
 > [!example]+ Capítulo 1 — La despedida en el colegio
 > Despierta a Kris por la mañana y lo lleva al colegio en su furgoneta con normalidad —llegan tarde—, comentándole de paso que Asriel tiene previsto visitarles "la semana que viene". Se despide de Kris con un abrazo a la entrada antes de que cada uno vaya a su clase.
 >
+> ![[toriel_waking_up_kris_cap1.png]]
+> *"Te esperaré fuera, ¿vale?" — Toriel en la habitación de Kris, despertándolo para ir al colegio.*
+>
 > Por la noche, si Kris no la ha llamado antes, es ella quien llama por teléfono: se la nota preocupada pero se alegra al saber que Kris ha pasado el rato con "un amigo", y le deja quedarse fuera un poco más tarde de lo habitual.
 
 > [!example]+ Capítulo 2 — Los huevos con Sans, el aula de Alphys y el pastel
 > En la tienda de Sans, Toriel entra a buscar los huevos que se había dejado, y ambos intercambian una ronda larga de chistes sobre huevos — hasta que Asgore irrumpe en la tienda bromeando con que él es su "eggs-marido" ("eggs-husband"). Tras un silencio incómodo, Asgore le pregunta qué harán cuando Asriel vuelva a casa; Toriel responde que deberían hablarlo juntos pronto, antes de salir de la tienda.
 >
+> ![[asgore_store_toriel_cap2.webp]]
+> *"Sí, deberíamos hablarlo todos juntos pronto." — Toriel respondiendo a Asgore en la tienda de Sans, con Kris presente.*
+>
 > Más tarde, si Kris se acerca al pasillo del colegio con la "bola de basura" del Cap.2, puede escuchar a escondidas a Toriel preguntándole a Alphys si Kris ha estado "haciendo algo raro" — Alphys responde que es uno de sus alumnos favoritos y, al fijarse en la bola de basura que lleva en la cabeza, zanja el tema diciendo que es "normal". Toriel se queda algo más tranquila, aunque admite estar "un poco preocupada últimamente". En otra conversación, le pide a Kris que no deje que la costumbre de Susie de comerse las tizas les "influya".
 >
 > Si esa misma noche Kris la llama todavía con la bola de basura puesta, Toriel reacciona con un incrédulo "¿Qué? ¿Eres 'normal'?" — dejando claro que la explicación de Alphys no la ha convencido del todo.
 >
+> ![[toriel_you_are_normal_cap2.webp]]
+> *"¿Qué? ¿Eres 'normal'?" — Toriel al teléfono, con la bola de basura todavía sobre la cabeza de Kris.*
+>
 > ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
-> *Toriel, incrédula por teléfono ("¿Qué? ¿Eres 'normal'?"), con sus cuernos asomando por encima del cuadro de diálogo.*
+> *En ese mismo tipo de llamada, sus cuernos llegan a asomar por encima del cuadro de diálogo.*
 >
 > En el epílogo del capítulo, si Kris y Susie visitan la casa de los Dreemurr, Toriel las recibe e invita a Susie a quedarse a comer pastel.
 

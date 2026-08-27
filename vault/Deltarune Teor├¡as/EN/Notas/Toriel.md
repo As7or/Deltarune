@@ -34,12 +34,26 @@ confianza: official
 > [!example]+ Chapter 1 — The goodbye at school
 > She wakes Kris up in the morning and drives him to school in her van as usual — they're running late — mentioning along the way that Asriel plans to visit them "next week." She says goodbye to Kris with a hug at the entrance before each of them heads to class.
 >
+> ![[toriel_waking_up_kris_cap1.png]]
+> *"I will wait outside for you, alright?" — Toriel in Kris's room, waking him up for school.*
+>
 > At night, if Kris hasn't called her first, she's the one who calls: she sounds worried but is relieved to learn Kris has been spending time with "a friend," and lets him stay out a bit later than usual.
 
 > [!example]+ Chapter 2 — The eggs with Sans, Alphys's classroom, and the cake
 > At Sans's shop, Toriel comes in looking for the eggs she'd left behind, and the two trade a long round of egg jokes — until Asgore bursts into the shop joking that he's her "eggs-husband." After an awkward silence, Asgore asks her what they'll do when Asriel comes home; Toriel replies that they should talk about it together soon, before leaving the shop.
 >
+> ![[asgore_store_toriel_cap2.webp]]
+> *"Yes, we should all discuss that together soon." — Toriel answering Asgore at Sans's shop, with Kris present.*
+>
 > Later, if Kris approaches the school hallway with the Ch.2 "trash ball," he can overhear Toriel asking Alphys whether Kris has been "doing anything weird" — Alphys replies that he's one of her favorite students and, noticing the trash ball he's wearing on his head, settles the matter by saying it's "normal." Toriel calms down a bit, though she admits to being "a little worried lately." In another conversation, she asks Kris not to let Susie's habit of eating chalk "rub off on them."
+>
+> If Kris calls her that same night still wearing the trash ball, Toriel reacts with an incredulous "What? You are 'normal'?" — making it clear Alphys's explanation hasn't fully convinced her.
+>
+> ![[toriel_you_are_normal_cap2.webp]]
+> *"What? You are 'normal'?" — Toriel on the phone, with the trash ball still on Kris's head.*
+>
+> ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
+> *During that same kind of call, her horns can be seen peeking above the dialogue box.*
 >
 > In the chapter's epilogue, if Kris and Susie visit the Dreemurr house, Toriel welcomes them in and invites Susie to stay for cake.
 
