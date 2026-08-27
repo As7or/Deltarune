@@ -260,6 +260,9 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > *The black deer sprite that copies the player's movements in the Shadow Mantle minigame (Ch.3) — the most-cited piece of evidence for the fused Knight theory.*
 >
 > - Against: the theory would need some form of time travel to work (something the game has never confirmed introducing), and it doesn't explain well why Kris would then follow the orders of a fused version of themself. There's also a claim circulating that the Knight's scream sounds like the Snowgrave sound effect, but that was already debunked in earlier analyses: the scream is actually a sped-up spoken voice, deep in tone, distinct from Kris's or Noelle's. **A very recent and elaborate fan theory, with no direct textual confirmation — it coexists with the Dess Knight theory without fully ruling it out.**
+>
+> {{youtube:aTvd-KTXF24}}
+> *Analysis video that lays out the "fused Knight" (Amalgam Knight) theory between Kris and Noelle in detail.*
 
 > [!question]- The Hand Theory
 > A fan theory holding that Kris will lose an arm or a hand in a future chapter. Before Ch.5 it was pure visual speculation; since then several pieces of direct textual evidence have piled up, though it's still unconfirmed that Kris will actually lose the hand.

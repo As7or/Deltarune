@@ -120,9 +120,15 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 > He's been theorized as a possible final antagonist behind much of the past's mysterious events — including Dess's disappearance (and her possible transformation into the Roaring Knight) — and Kris's own trauma. It's one of the fandom's most widespread theories, but still has no direct textual confirmation.
 >
 > 🎲 Before Ch.5's release, one very elaborate video analysis (see [[Rutas]]) went as far as proposing FRIEND as that chapter's Dark Crystal secret boss, fought by Kris and Noelle together. That's not what happened: Ch.5's confirmed secret boss is Pink (see [[Mad Mew Mew (Pink)]]), not FRIEND. That doesn't rule out FRIEND mattering later on — Toby Fox has hinted "Roots" could still be the title of a Ch.6 or Ch.7 track — but the specific timing that theory proposed has already come and gone unconfirmed.
+>
+> ![[ERAM_FRIEND_attack.png]]
+> *FRIEND multiplied as a support enemy during the fight against ERAM — the clearest in-game proof that he's not just an atmospheric cameo, but a threat capable of real damage.*
 
 > [!question]- Is FRIEND the "Strange Someone"?
 > Given his visible connection to Spamton (glasses/colors) and his constant presence in the game's darkest moments, it's been proposed that FRIEND could be the same mysterious figure who pushed Jevil and Spamton into madness — and who would also have tried (unsuccessfully) to do the same to Gerson Boom. This is further supported by a scene with Tenna, who mentions that a "heavy hitter" [TODO: verify exact EN quote] she worked with received a call with no one on the other end. A strong theory due to the accumulation of clues, but none directly confirmed.
+>
+> ![[FRIEND_overworld_smile.png]]
+> *His smiling face with yellow and pink eyes — the same colors, in reverse order, as Spamton's glasses, the visual basis of this theory.*
 
 > [!question]- Did Kris, Asriel, Noelle, and Dess summon him as children, and is that why she disappeared?
 > The four were a close-knit group of childhood friends — Kris and Dess especially close, even sharing a band with Asriel — and Ramb recalls Kris playing "pretend" with a girl (probably Dess) using toy Darkners brought from home. Combining this with the Organikk's clue about children "led astray" toward where "the forest would grow," and with Kris actively repressing a memory related to a tree in the Chapter 4 Egg room, much of the fandom connects both clues to propose that the four (or at least several of them) were present the day Dess disappeared, possibly playing with something related to Darkners or to FRIEND himself, and that this is the exact origin of Kris's repressed trauma. There is no textual confirmation that the word "summon" is meant literally, nor of what really happened that day. **Fan theory, backed by several real textual clues, but highly speculative in its specific details; unconfirmed.**
@@ -132,9 +138,15 @@ See [[Huevo|Egg]] for the full transcript of this scene.
 
 > [!question]- Is his stalking of Kris and the Knight tied to a promise to find Dess?
 > A reading from an analysis video (highly speculative, unconfirmed): FRIEND seems to stalk both Kris and the Roaring Knight throughout the game. The theory connects this to a possible promise between Kris and Asriel to find Dess, suggesting that FRIEND's presence in those moments isn't a coincidence. It's a weak connection, with no direct textual clue beyond the coincidence of settings — the best-supported theory about the link between FRIEND and Dess remains the one about their shared childhood (see above).
+>
+> ![[FRIEND_overworld_vision.gif]]
+> *FRIEND in his full form — the five-legged black silhouette that stalks from the shadows, the image behind this whole reading.*
 
 > [!question]- Why so much mystery around him?
 > Unlike Knight or Voice, who do have direct narrative presence, FRIEND is deliberately built as the least explained element of the game: no dialogue, no clear scenes, almost all of his development comes through external nods (Cat Petterz 2, the Spamton Sweepstakes) rather than within the game itself. Many fans read this as an intentional narrative choice by Toby Fox — leaving the game's most real and physically dangerous threat (he attacks and deals real damage) as the least explained of all, heightening the player's sense of not knowing and being defenseless against him.
+>
+> ![[FRIEND_coaster_battle_unused.png]]
+> *Scrapped FRIEND-related content that never made it into the final game — one more example of how little has been revealed about him even behind the scenes.*
 
 ## Trivia
 - An item called "SMILE," sold by a vending machine in the S-rank locker room, might be related to FRIEND through its association with smiling — and it disappears upon completing the Sword Route.

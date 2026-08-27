@@ -120,9 +120,15 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 > Se le ha teorizado como posible antagonista final que estaría detrás de gran parte de los eventos misteriosos del pasado —incluida la desaparición de Dess (y su posible transformación en el Caballero Rugiente)— y del propio trauma de Kris. Es una de las teorías más extendidas del fandom, pero sigue sin ninguna confirmación textual directa.
 >
 > 🎲 Antes de la publicación del Cap.5, una lectura de vídeo muy elaborada (ver [[Rutas]]) llegó a proponer a FRIEND como jefe secreto del Cristal Oscuro de ese capítulo, enfrentado por Kris y Noelle juntos. No fue así: el jefe secreto confirmado del Cap.5 es Pink (ver [[Mad Mew Mew (Pink)]]), no FRIEND. Eso no descarta que FRIEND acabe siendo relevante más adelante —Toby Fox ha insinuado que "Roots" podría seguir siendo el título de un tema para el Cap.6 o el Cap.7—, pero la fecha concreta que proponía esa teoría ya ha pasado sin confirmarse.
+>
+> ![[ERAM_FRIEND_attack.png]]
+> *FRIEND multiplicado como enemigo de apoyo durante el combate contra ERAM — la prueba más clara dentro del propio juego de que no es solo un cameo atmosférico, sino una amenaza capaz de hacer daño real.*
 
 > [!question]- ¿Es FRIEND el "Strange Someone"?
 > Dada su conexión visible con Spamton (gafas/colores) y su presencia constante en los momentos más oscuros del juego, se ha propuesto que FRIEND podría ser la misma figura misteriosa que empujó a Jevil y Spamton a la locura — y que también habría intentado (sin éxito) hacer lo mismo con Gerson Boom. Se apoya además en una escena de Tenna, quien comenta que un "peso pesado" con el que trabajaba recibió una llamada sin que hubiera nadie al otro lado. Teoría fuerte por la acumulación de pistas, pero ninguna confirmada de forma directa.
+>
+> ![[FRIEND_overworld_smile.png]]
+> *Su cara sonriente con ojos amarillo y rosa — los mismos colores, en orden invertido, que las gafas de Spamton, la base visual de esta teoría.*
 
 > [!question]- ¿Lo invocaron Kris, Asriel, Noelle y Dess de niños, y por eso desapareció ella?
 > Los cuatro eran un grupo cerrado de amigos de la infancia —Kris y Dess especialmente cercanos, compartiendo incluso banda de música con Asriel—, y Ramb recuerda a Kris jugando a "hacer creer" con una chica (probablemente Dess) usando Darkners de juguete traídos de casa. Combinando esto con la pista del Organikk sobre niños "llevados por mal camino" hacia donde "crecería el bosque", y con que Kris reprime activamente un recuerdo relacionado con un árbol en la sala del Huevo del Cap.4, buena parte del fandom conecta ambas pistas para proponer que los cuatro (o al menos varios de ellos) estuvieron presentes el día en que Dess desapareció, posiblemente jugando con algo relacionado con Darkners o con el propio FRIEND, y que ese es el origen exacto del trauma reprimido de Kris. No hay ninguna confirmación textual de que la palabra "invocar" sea literal ni de qué ocurrió realmente ese día. **Teoría de fans, con varias pistas textuales reales que la sostienen, pero altamente especulativa en los detalles concretos; no confirmada.**
@@ -132,9 +138,15 @@ Ver [[Huevo]] para la transcripción completa de esta escena.
 
 > [!question]- ¿Su acecho a Kris y al Caballero está ligado a la promesa de encontrar a Dess?
 > Lectura de un vídeo de análisis (muy especulativa, no confirmada): FRIEND parece acechar tanto a Kris como al propio Caballero Rugiente a lo largo del juego. La teoría conecta esto con una posible promesa entre Kris y Asriel de encontrar a Dess, sugiriendo que la presencia de FRIEND en esos momentos no sería casual. Es una conexión débil, sin ninguna pista textual directa más allá de la coincidencia de escenarios — la teoría mejor sustentada sobre el vínculo entre FRIEND y Dess sigue siendo la de la infancia compartida (ver arriba).
+>
+> ![[FRIEND_overworld_vision.gif]]
+> *FRIEND en su forma completa — la silueta negra de cinco patas que acecha desde las sombras, la imagen que sostiene toda esta lectura.*
 
 > [!question]- ¿Por qué tanto misterio en torno a él?
 > A diferencia de Knight o Voice, que sí llegan a tener presencia narrativa directa, FRIEND se construye deliberadamente como el elemento menos explicado del juego: sin diálogo, sin escenas claras, casi todo su desarrollo llega a través de guiños externos (Cat Petterz 2, la Spamton Sweepstakes) en vez de dentro del propio juego. Muchos fans leen esto como una decisión narrativa intencionada de Toby Fox — dejar la amenaza más real y físicamente peligrosa del juego (ataca y hace daño real) como la menos explicada de todas, aumentando la sensación de desconocimiento e indefensión del jugador frente a ella.
+>
+> ![[FRIEND_coaster_battle_unused.png]]
+> *Contenido descartado ligado a FRIEND que nunca llegó a la versión final del juego — un ejemplo más de lo poco que se ha revelado de él incluso detrás de cámaras.*
 
 ## Curiosidades
 - Un objeto llamado "SMILE", vendido por una máquina expendedora en el vestuario de rango S, podría estar relacionado con FRIEND por su asociación con sonreír — y desaparece al completar la Ruta Espada.

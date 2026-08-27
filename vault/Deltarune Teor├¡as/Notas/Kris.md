@@ -260,6 +260,9 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > *El sprite del ciervo negro que copia los movimientos del jugador en el minijuego del Manto de Sombra (Cap.3) — la pieza de evidencia más citada de la teoría del Knight fusionado.*
 >
 > - En contra: la teoría necesitaría algún tipo de viaje en el tiempo para funcionar (algo que el juego nunca ha introducido de forma confirmada), y no explica bien por qué Kris seguiría después las órdenes de una versión fusionada de sí mismo. También circula el argumento de que el grito del Knight suena parecido al sonido de Snowgrave, pero eso ya se descartó en análisis anteriores: el grito es, en realidad, una voz hablada acelerada, de tono grave, distinta a las de Kris y Noelle. **Teoría de fans muy reciente y elaborada, sin ninguna confirmación textual directa — convive con la teoría Dess Knight sin descartarla del todo.**
+>
+> {{youtube:aTvd-KTXF24}}
+> *Vídeo de análisis que desarrolla en detalle la teoría del "Knight fusionado" (Amalgam Knight) entre Kris y Noelle.*
 
 > [!question]- Teoría de la mano
 > Teoría de fans que sostiene que Kris perderá un brazo o una mano en un capítulo futuro. Antes del Cap.5 era pura especulación visual; desde entonces se han ido acumulando varias piezas de evidencia textual directa, aunque sigue sin confirmarse que Kris vaya a perder la mano de verdad.
