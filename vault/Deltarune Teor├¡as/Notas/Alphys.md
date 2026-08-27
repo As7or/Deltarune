@@ -31,6 +31,9 @@ confianza: fuerte
 
 > [!example]+ Capítulo 1 y 2 — La profesora
 > Da clase con normalidad y puede encontrársela en el callejón entre los edificios de apartamentos tras horas de escuela, donde admite haberse preocupado al ver que Kris y Susie no volvían a clase.
+>
+> ![[everyman_wall_paint.png]]
+> *Alphys en el callejón de Hometown, junto al grafiti de Everyman y la papelera llena de flores bien cuidadas que puede examinarse en esa misma escena.*
 
 > [!example]+ Capítulo 4 — La invitación de Undyne
 > Se revela que Undyne la invitó a la iglesia la noche anterior, señal de que su amistad sigue avanzando por su cuenta pese a la ausencia casi total de contacto previo entre ambas antes del juego.

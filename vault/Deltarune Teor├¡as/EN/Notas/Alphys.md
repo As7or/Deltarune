@@ -37,6 +37,9 @@ confianza: strong
 
 > [!example]+ Chapters 1 and 2 — The teacher
 > She teaches class as usual and can be found in the alley between the apartment buildings after school hours, where she admits she was worried when Kris and Susie didn't come back to class.
+>
+> ![[everyman_wall_paint.png]]
+> *Alphys in Hometown's alley, next to the Everyman graffiti and the trash can full of well-kept flowers that can be examined in that same scene.*
 
 > [!example]+ Chapter 4 — Undyne's invitation
 > It's revealed that Undyne invited her to the church the night before, a sign that their friendship keeps progressing on its own despite the near-total lack of prior contact between them before the game.

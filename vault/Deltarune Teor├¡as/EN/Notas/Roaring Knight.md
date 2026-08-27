@@ -206,6 +206,9 @@ confianza: strong
 > *Contrast note: part of this theory speculates that [[Dess]] drowned trying to cross the Lake, which would explain Noelle's obsession with reaching the other side. This vault documents a much better-founded clue about her fate — the unused Wingdings text that explicitly describes her as alive, trapped, not drowned (see [[Dess]]) — so this specific part directly conflicts with the strongest clue already available and should be treated as unconfirmed speculation, not as a verified fact.*
 >
 > This reading doesn't replace the Dess, Asriel, or Rudy theories above — in fact it's compatible with the idea, already present in this vault, that Kris is "the Knight himself" in some sense (see [[Kris]]); here he simply wouldn't be acting alone. **A speculative fan theory, popularized in 2026 — it combines some real mechanical clues (the attacks that avoid Kris in combat, the Knight's strength outside the Dark World, the only two names the game itself ever links to the Knight) with unverified audio and map-color readings, and with at least one point that contradicts a stronger clue already documented in this vault.**
+>
+> {{youtube:aTvd-KTXF24}}
+> *Analysis video that lays out the Kris-and-Noelle amalgam theory in detail.*
 
 ## Trivia
 - Theory videos about the Knight's identity tend to mention Rudy as part of the recurring "it's actually [unexpected name]" joke — though, unlike other names used that way, Rudy's candidacy has ended up becoming one of the most developed theories in the whole community (see [[Rudy]]), not just a punchline.

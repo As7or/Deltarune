@@ -206,6 +206,9 @@ confianza: fuerte
 > *Nota de contraste: una parte de esta teoría especula con que [[Dess]] se ahogase intentando cruzar el Lago, lo que explicaría la obsesión de Noelle con llegar al otro lado. Este vault documenta una pista mucho mejor fundamentada sobre su destino —el texto sin usar en Wingdings que la describe explícitamente con vida, atrapada, no ahogada (ver [[Dess]])—, así que esta parte concreta entra en conflicto directo con la pista más sólida ya disponible y debería tratarse como especulación sin confirmar, no como dato verídico.*
 >
 > Esta lectura no sustituye a las teorías de Dess, Asriel o Rudy de más arriba — de hecho es compatible con la idea, ya presente en este vault, de que Kris sea "el propio Knight" en algún sentido (ver [[Kris]]); aquí simplemente no actuaría solo. **Teoría de fans especulativa, popularizada en 2026 — combina algunas pistas mecánicas reales (los ataques que evitan a Kris en combate, la fuerza del Knight fuera del Mundo Oscuro, los dos únicos nombres que el propio juego asocia al Caballero) con lecturas de audio y de color de mapa sin verificar, y con al menos un punto que contradice una pista más sólida ya documentada en este vault.**
+>
+> {{youtube:aTvd-KTXF24}}
+> *Vídeo de análisis que desarrolla en detalle la teoría de la amalgama entre Kris y Noelle.*
 
 ## Curiosidades
 - Los vídeos de teorías sobre la identidad del Knight tienden a mencionar a Rudy como parte del chiste recurrente de "en realidad es [nombre inesperado]" — aunque, a diferencia de otros nombres usados así, la candidatura de Rudy ha acabado consolidándose como una de las teorías con más desarrollo propio de toda la comunidad (ver [[Rudy]]), no solo como broche de humor.
