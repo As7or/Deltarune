@@ -249,7 +249,7 @@ familia: na
 > | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | El cuarto de Kris y Asriel | ![[asriel_room.png\|50]] |
 > | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | Un maratón de películas de monstruos gigantes | ![[Tv_dreemur.png\|50]] |
 > | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | El canal de videos musicales | ![[Tv_dreemur.png\|50]] |
-> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[the_great_door_lightworld.png\|50]] |
+> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Cerca de la puerta abierta de la casa (puerta abierta = frío) | ![[dreemur_door.png\|50]] |
 > | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reposiciones del programa de vaquero de Asgore | ![[Tv_dreemur.png\|50]] |
 > | ![[Mancountry_location_Forgotten_Island.png\|50]] | Mancountry | En lo profundo del sofá 🔵 | ![[Couch_lightworld.png\|50]] |
 >
@@ -316,7 +316,7 @@ familia: na
 > |  | Odd Controller | El mando pirata debajo de la cama de Asriel |  |
 > |  | The Pipes | La fontanería de la casa 🔵 |  |
 > | ![[Toriel_overworld_Chairiel.png\|50]] | Toriel's Throne | Chairiel (la silla de Toriel) | ![[Toriel_throne.png\|50]] |
-> | ![[great_door_cap3_dark.png\|50]] | The Great Door | La puerta principal de la casa | ![[the_great_door_lightworld.png\|50]] |
+> | ![[great_door_cap3_dark.png\|50]] | The Great Door | La puerta principal de la casa | ![[dreemur_door.png\|50]] |
 >
 
 ## Capítulo 4 — Iglesia y Santuario Oscuro

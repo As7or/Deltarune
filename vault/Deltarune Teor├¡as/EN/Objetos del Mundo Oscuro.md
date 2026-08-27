@@ -244,7 +244,7 @@
 > | ![[440px-Green_Room_location.png.webp\|50]] | Green Room | Kris and Asriel's room | ![[asriel_room.png\|50]] |
 > | ![[600px-Monster_Movie_screenshot.png.webp\|50]] | Monster Movie | A giant monster movie marathon | ![[Tv_dreemur.png\|50]] |
 > | ![[440px-TV_World_location_Concert.png.webp\|50]] | Rock Concert | The music video channel | ![[Tv_dreemur.png\|50]] |
-> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Near the house's open door (open door = cold) | ![[the_great_door_lightworld.png\|50]] |
+> | ![[440px-Cold_Place_location.png.webp\|50]] | Cold Place | Near the house's open door (open door = cold) | ![[dreemur_door.png\|50]] |
 > | ![[Rasei_Rancher.png\|50]] | Ralsei Rancher | Reruns of Asgore's cowboy show | ![[Tv_dreemur.png\|50]] |
 > | ![[Mancountry_location_Forgotten_Island.png\|50]] | Mancountry | Deep inside the couch 🔵 | ![[Couch_lightworld.png\|50]] |
 >
@@ -311,7 +311,7 @@
 > |  | Odd Controller | The bootleg controller under Asriel's bed |  |
 > |  | The Pipes | The house's plumbing 🔵 |  |
 > | ![[Toriel_overworld_Chairiel.png\|50]] | Toriel's Throne | Chairiel (Toriel's chair) | ![[Toriel_throne.png\|50]] |
-> | ![[great_door_cap3_dark.png\|50]] | The Great Door | The house's front door | ![[the_great_door_lightworld.png\|50]] |
+> | ![[great_door_cap3_dark.png\|50]] | The Great Door | The house's front door | ![[dreemur_door.png\|50]] |
 >
 
 ## Chapter 4 — Church and Dark Sanctuary
