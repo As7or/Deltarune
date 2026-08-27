@@ -41,6 +41,11 @@ confianza: oficial
 >
 > Más tarde, si Kris se acerca al pasillo del colegio con la "bola de basura" del Cap.2, puede escuchar a escondidas a Toriel preguntándole a Alphys si Kris ha estado "haciendo algo raro" — Alphys responde que es uno de sus alumnos favoritos y, al fijarse en la bola de basura que lleva en la cabeza, zanja el tema diciendo que es "normal". Toriel se queda algo más tranquila, aunque admite estar "un poco preocupada últimamente". En otra conversación, le pide a Kris que no deje que la costumbre de Susie de comerse las tizas les "influya".
 >
+> Si esa misma noche Kris la llama todavía con la bola de basura puesta, Toriel reacciona con un incrédulo "¿Qué? ¿Eres 'normal'?" — dejando claro que la explicación de Alphys no la ha convencido del todo.
+>
+> ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
+> *Toriel, incrédula por teléfono ("¿Qué? ¿Eres 'normal'?"), con sus cuernos asomando por encima del cuadro de diálogo.*
+>
 > En el epílogo del capítulo, si Kris y Susie visitan la casa de los Dreemurr, Toriel las recibe e invita a Susie a quedarse a comer pastel.
 
 > [!example]+ Capítulo 3 — Encerrada por Tenna
@@ -62,11 +67,6 @@ confianza: oficial
 >
 > Con la lluvia, cancela el ensayo y se refugia en la tienda de Sans, sin saber que Kris y Susie la están buscando por si el Caballero la hubiera secuestrado de nuevo. Al escampar, lo invita a su casa —se lo pasa tan bien con él que la charla se alarga— y termina invitándolo a quedarse. Cuando Kris y Susie regresan de noche, la encuentran bailando el jitterbug con él, ya con una copa de vino de más — les presenta a Sans entre risas y ofrece a Susie quedarse a dormir en la antigua cama de Asriel, algo que esta declina, visiblemente incómoda, antes de irse.
 >
-> En algún punto del capítulo, sus cuernos llegan a verse asomando por encima del cuadro de diálogo durante una llamada de teléfono.
->
-> ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
-> *Los cuernos de Toriel, visibles por encima del cuadro de diálogo durante una llamada.*
-
 > [!example]+ Capítulo 5 — La resaca de la mañana siguiente
 > A la mañana siguiente de la noche con Sans, Toriel amanece dormida sobre "Chairiel" (su sillón favorito de toda la vida) con una resaca evidente; al oír los pasos de Kris, pide que le preparen una tostada de miel.
 >

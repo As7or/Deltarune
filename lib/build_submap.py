@@ -182,7 +182,8 @@ PAGE_CSS = '''
       radial-gradient(circle at 80% 10%, rgba(0,0,0,0.12) 0, transparent 35%),
       radial-gradient(circle at 60% 75%, rgba(0,0,0,0.14) 0, transparent 45%),
       radial-gradient(circle at 30% 85%, rgba(255,255,255,0.035) 0, transparent 40%),
-      repeating-radial-gradient(circle at 50% 50%, rgba(60,38,12,0.12) 0px, transparent 2px, transparent 6px);
+      url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27224%27%20height%3D%27224%27%3E%3Cfilter%20id%3D%27c%27%20x%3D%270%27%20y%3D%270%27%20width%3D%27100%25%27%20height%3D%27100%25%27%20color-interpolation-filters%3D%27sRGB%27%3E%3CfeTurbulence%20type%3D%27fractalNoise%27%20baseFrequency%3D%270.05%27%20numOctaves%3D%275%27%20seed%3D%277%27%20stitchTiles%3D%27stitch%27%2F%3E%3CfeColorMatrix%20type%3D%27matrix%27%20values%3D%270.34%200%200%200%200.19%20%200.29%200%200%200%200.18%20%200.24%200%200%200%200.15%20%200%200%200%200%201%27%2F%3E%3C%2Ffilter%3E%3Crect%20width%3D%27100%25%27%20height%3D%27100%25%27%20filter%3D%27url%28%23c%29%27%2F%3E%3C%2Fsvg%3E");
+    background-size: auto, auto, auto, auto, 224px 224px;
   }
   #viewport.panning{ cursor:grabbing; }
   /* --- fondos tematicos para el submapa cuyo nodo central es una de las

@@ -62,11 +62,6 @@ confianza: official
 >
 > With the rain, she cancels practice and takes shelter at Sans's shop, unaware that Kris and Susie are looking for her in case the Knight had kidnapped her again. Once it clears up, she invites him to her house — she's having such a good time with him that the conversation runs long — and ends up inviting him to stay. When Kris and Susie get back at night, they find her dancing the jitterbug with him, already a glass of wine too many in — she introduces him to Sans amid laughter and offers to let Susie sleep in Asriel's old bed, which Susie declines, visibly uncomfortable, before leaving.
 >
-> At one point in the chapter, her horns can be seen peeking above the dialogue box during a phone call.
->
-> ![[Toriel's_horns_Cell_Phone_call_screenshot.png]]
-> *Toriel's horns, visible above the dialogue box during a phone call.*
-
 > [!example]+ Chapter 5 — The next morning's hangover
 > The morning after her night with Sans, Toriel wakes up asleep on "Chairiel" (her lifelong favorite armchair) with an obvious hangover; hearing Kris's footsteps, she asks for a honey toast to be made for her.
 >
