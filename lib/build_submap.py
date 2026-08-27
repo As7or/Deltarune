@@ -876,7 +876,7 @@ const viewport = document.getElementById('viewport');
 let zoom = 0.85, panX = 60, panY = 60;
 const MIN_ZOOM = 0.25, MAX_ZOOM = 2.5;
 
-function applyTransform(){{ board.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{zoom}})`; }}
+function applyTransform(){{ board.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{zoom}})`; viewport.style.backgroundPosition = `${{panX}}px ${{panY}}px`; }}
 applyTransform();
 
 viewport.addEventListener('wheel', (e) => {{

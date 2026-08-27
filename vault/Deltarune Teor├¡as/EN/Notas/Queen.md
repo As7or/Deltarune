@@ -2,7 +2,7 @@
 tipo: character
 mundo: darkner
 especie: object (a laptop)
-familia: N/A
+familia: "Lancer (son)"
 confianza: strong
 ---
 
@@ -67,6 +67,11 @@ confianza: strong
 >
 > ![[Queen_screenshot_room_Chapter_4.png]]
 > *Queen's room in Ralsei's castle, already during Ch.4.*
+>
+> During this same chapter she also visits the King in his cell; in front of the party, the two of them openly affirm that they were together and that Lancer is their son — the most direct confirmation in the whole game of Lancer's origin.
+>
+> ![[queen_king_interaction.png]]
+> *"His Mother" — Queen, at the King's cell with the party present, confirming she's Lancer's mother.*
 
 > [!example]+ Chapter 5 — Festival Day
 > Appears after the credits, helping Susie decorate Castle Town for Noelle's arrival. She lives in her own room on the third floor of Ralsei's castle, hung between two enormous speakers in true Ch.2 style, drinking acid through a straw that she offers (unsuccessfully) to the party. If no Darkner was recruited from the Cyber World, her room appears almost empty, with only her and Trashy for company; she asks the party for any "Cyber Boy" they find so she can turn it into a Darkner, and even offers to pay to use Kris's phone to play and "make friends" with Flappy Bird. She can also appear in Lancer's room, where she teases that Ralsei doesn't have "any Meat or Fruit on the walls of his Castle." [TODO: verify exact EN quote]
@@ -98,7 +103,7 @@ confianza: strong
 > Her obsession with creating her own Dark Fountain comes from watching him create his — he is, in a sense, her role model until Ralsei explains to her what Roaring actually involves. [[Roaring Knight]]
 
 > [!quote]- King
-> They fondly nickname each other "Queenie Beanie" and "Kingy Wingy" upon reuniting in Castle Town — one of the few genuinely affectionate bonds Queen shows — and he gives her advice on raising Lancer. According to Ramb, as kids Queen was the laptop that Kris and "a girl" used to play doctor with, with the King on Kris's side and Queen on hers — the only known detail about their shared history before the game. [[King]]
+> They fondly nickname each other "Queenie Beanie" and "Kingy Wingy" upon reuniting in Castle Town — one of the few genuinely affectionate bonds Queen shows — and he gives her advice on raising Lancer. In Ch.4, the two of them confirm to the party, at the King's cell, that they were together and that Lancer is their son. According to Ramb, as kids Queen was the laptop that Kris and "a girl" used to play doctor with, with the King on Kris's side and Queen on hers — the only known detail about their shared history before the game. [[King]]
 
 > [!quote]- Rouxls Kaard
 > He doesn't seem to know her personally beyond one joke: he tells the King he's sorry that Queen has "a new man," leaving both Queen and the King completely baffled about who he means. [[Rouxls Kaard]]

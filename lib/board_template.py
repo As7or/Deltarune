@@ -457,6 +457,7 @@ const MIN_ZOOM = 0.15, MAX_ZOOM = 2.5;
 
 function applyTransform(){{
   board.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{zoom}})`;
+  viewport.style.backgroundPosition = `${{panX}}px ${{panY}}px`;
 }}
 applyTransform();
 

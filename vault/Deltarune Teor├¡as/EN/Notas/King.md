@@ -57,6 +57,16 @@ confianza: strong
 > Now imprisoned, he offers new dialogue if asked about the "Jester": he confesses he never actually met the Roaring Knight in person, and that everything he knows was told to him by Jevil before Jevil's descent into madness. He speaks of him with unexpected fondness: [TODO: verify exact EN quote] *"It was he, the clown, who told me of the Knight's brilliance... of the glory of the fountains, and of how I would come to power. A funny little man. How his jokes and his dances made us laugh. A shame he had to be deceived and cast aside by his closest companion, the magician Seam, whose smile has been gone ever since that day."* — showing sympathy both for Jevil and for Seam's own anguish at having to lock up his friend.
 >
 > If Tenna hasn't been taken to Mettaton, he can present himself to King and Lancer as their new court jester; King is initially unimpressed by his jokes, but after watching him comically trip, he admits, laughing along with Lancer, that [TODO: verify exact EN quote] "he likes this one."
+>
+> In that same cell he has a rare moment of introspection, speaking of himself almost in the register of legend: *"A single scarred king... that rendered the whole kingdom..."* [TODO: verify full quote] — a more poetic preview of the real origin of his scar, which the game fully reveals in Ch.5.
+>
+> ![[king_scar_scene_explanation.png]]
+> *"A single scarred king... that rendered the whole kingdom..." — King, already imprisoned, speaking of himself almost like a legend.*
+>
+> Queen also visits him in this cell during Ch.4, and in front of the party the two of them openly affirm that they were together and that Lancer is their son — the most direct confirmation in the whole game of Lancer's origin, even more explicit than the "ex-husband, or whatever he is" line from Ch.5.
+>
+> ![[queen_king_interaction.png]]
+> *"His Mother" — Queen, at the King's cell with the party present, confirming she's Lancer's mother.*
 
 > [!example]+ Chapter 5 — the scar and the real origin of the abandonment
 > The concrete origin of his tragedy is finally revealed: his physical card was accidentally torn when a Lightner's hand slipped while they were playing with it, which led to the whole deck being discarded and the Card Kingdom ending up forgotten in an unused classroom. That same tear manifests in the Dark World as the visible scar on his cheek — which he now openly shows off, though deep down he still feels guilty that his people were abandoned because of him. If no Darkner has been recruited in Cyber City, Queen comes up to play with a hoop and stick and calls him, with bittersweet humor, her [TODO: verify exact EN quote] "ex-husband, or whatever he is" — the most direct confirmation that the two had some kind of romantic relationship before the events of the game.
@@ -73,7 +83,7 @@ confianza: strong
 > Before his imprisonment, it was Jevil who told him about the Roaring Knight's glory — the spark that ignited King's villainy. In Ch.4, he speaks of him with fondness and respect despite everything that happened. [[Jevil]]
 
 > [!quote]- Queen
-> Possible ex-partner — they call each other "Kingy Wingy" and "Queenie Beanie," and she buys him supplies after his imprisonment. In Ch.5 she openly calls him her "ex-husband, or whatever he is." [[Queen]]
+> Confirmed ex-partner — they call each other "Kingy Wingy" and "Queenie Beanie," and she buys him supplies after his imprisonment. In Ch.4, the two of them affirm to the party that they were together and that Lancer is their son; in Ch.5 she also openly calls him her "ex-husband, or whatever he is." [[Queen]]
 
 > [!quote]- Kris and Noelle
 > Ramb reveals in Ch.3 that as kids they played house with King and Queen's Light World objects, even taking a whole laptop home just for that. [[Kris]] [[Noelle]]

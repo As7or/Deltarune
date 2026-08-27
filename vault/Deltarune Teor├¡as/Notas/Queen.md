@@ -2,7 +2,7 @@
 tipo: personaje
 mundo: darkner
 especie: objeto (un portátil)
-familia: N/A
+familia: "Lancer (hijo)"
 confianza: fuerte
 ---
 
@@ -67,6 +67,11 @@ confianza: fuerte
 >
 > ![[Queen_screenshot_room_Chapter_4.png]]
 > *La habitación de Queen en el castillo de Ralsei, ya durante el Cap.4.*
+>
+> Durante este mismo capítulo también visita al Rey en su celda; frente al grupo, ambos afirman abiertamente que estuvieron juntos y que Lancer es hijo de los dos — la confirmación más directa en todo el juego sobre el origen de Lancer.
+>
+> ![[queen_king_interaction.png]]
+> *"* His Mother" — Queen, ante la celda del Rey y con el grupo presente, confirmando que es la madre de Lancer.*
 
 > [!example]+ Capítulo 5 — Festival Day
 > Aparece tras los créditos, ayudando a Susie a decorar Castle Town para la llegada de Noelle. Vive en su propia habitación en la tercera planta del castillo de Ralsei, colgada entre dos altavoces enormes al más puro estilo Cap.2, bebiendo ácido con una pajita que ofrece (sin éxito) al grupo. Si no se reclutó a ningún Darkner del Cyber World, su habitación aparece prácticamente vacía, con ella y Trashy como única compañía; pide al grupo cualquier "Chico Cíber" que encuentren para convertirlo en Darkner, e incluso ofrece pagar por usar el móvil de Kris para jugar y "hacerse amiga" del Flappy Bird. También puede aparecer en la habitación de Lancer, donde se burla de que Ralsei no tenga "ni Carne ni Fruta en las paredes de su Castillo".
@@ -98,7 +103,7 @@ confianza: fuerte
 > Su obsesión por crear una Fuente Oscura propia nace de presenciarlo crear la suya — es, en cierto modo, su modelo a seguir hasta que Ralsei le explica lo que realmente implica el Roaring. [[Roaring Knight]]
 
 > [!quote]- Rey
-> Se apodan cariñosamente "Queenie Beanie" y "Kingy Wingy" el uno al otro al reencontrarse en Castle Town —uno de los pocos vínculos genuinamente afectuosos que muestra Queen—, y él le da consejos sobre cómo criar a Lancer. Según Ramb, de niños Queen era el portátil con el que Kris y "una chica" jugaban a médicos, con el Rey del lado de Kris y Queen del de ella — el único dato conocido sobre su historia compartida antes del juego. [[King]]
+> Se apodan cariñosamente "Queenie Beanie" y "Kingy Wingy" el uno al otro al reencontrarse en Castle Town —uno de los pocos vínculos genuinamente afectuosos que muestra Queen—, y él le da consejos sobre cómo criar a Lancer. En el Cap.4, ambos confirman ante el grupo, en la celda del Rey, que estuvieron juntos y que Lancer es hijo de ambos. Según Ramb, de niños Queen era el portátil con el que Kris y "una chica" jugaban a médicos, con el Rey del lado de Kris y Queen del de ella — el único dato conocido sobre su historia compartida antes del juego. [[King]]
 
 > [!quote]- Rouxls Kaard
 > No parece conocerla en persona más allá de una broma: le dice al Rey que siente lo de que Queen tenga "un nuevo hombre", dejando tanto a Queen como al Rey completamente desconcertados sobre a quién se refiere. [[Rouxls Kaard]]

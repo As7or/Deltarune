@@ -57,6 +57,16 @@ confianza: fuerte
 > Ya encarcelado, ofrece nuevo diálogo si se le pregunta sobre el "Bufón": confiesa que nunca llegó a conocer al Caballero Rugiente en persona, y que todo lo que sabe se lo contó Jevil antes de su locura. Habla de él con un cariño inesperado: *"Fue él, el payaso, quien me habló de la brillantez del Caballero... de la gloria de las fuentes, y de cómo yo llegaría al poder. Un hombrecillo gracioso. Cómo nos hacían reír sus bromas y sus bailes. Una lástima que tuviera que ser engañado y apartado por su compañero más cercano, el mago Seam, cuya sonrisa se apagó desde aquel día."* — mostrando simpatía tanto por Jevil como por la propia angustia de Seam al tener que encerrar a su amigo.
 >
 > Si Tenna no ha sido llevado con Mettaton, puede presentarse ante King y Lancer como su nuevo bufón de la corte; King se muestra al principio nada impresionado por sus chistes, pero tras verlo tropezar cómicamente admite, entre risas junto a Lancer, que "este le cae bien".
+>
+> En esa misma celda tiene un raro momento de introspección, hablando de sí mismo casi en clave de leyenda: *"A single scarred king... that rendered the whole kingdom..."* [TODO: verificar cita completa] — un adelanto, en tono más poético, del origen real de su cicatriz que el juego termina de revelar por completo en el Cap.5.
+>
+> ![[king_scar_scene_explanation.png]]
+> *"A single scarred king... that rendered the whole kingdom..." — King, ya encarcelado, hablando de sí mismo casi como una leyenda.*
+>
+> Queen también lo visita en esta celda durante el Cap.4, y frente al grupo ambos afirman abiertamente que estuvieron juntos y que Lancer es hijo de los dos — la confirmación más directa en todo el juego sobre el origen de Lancer, incluso más explícita que el "exmarido, o lo que sea que sea" del Cap.5.
+>
+> ![[queen_king_interaction.png]]
+> *"* His Mother" — Queen, ante la celda del Rey y con el grupo presente, confirmando que es la madre de Lancer.*
 
 > [!example]+ Capítulo 5 — la cicatriz y el origen real del abandono
 > Se revela por fin el origen concreto de su tragedia: su carta física se rasgó por accidente cuando la mano de un Lightner resbaló mientras jugaban con ella, lo que llevó a que se descartara toda la baraja y a que el Reino de las Cartas terminara olvidado en un aula sin usar. Esa misma rasgadura se manifiesta en el Mundo Oscuro como la cicatriz visible en su mejilla — de la que ahora presume abiertamente, aunque en el fondo sigue sintiéndose culpable de que su gente fuera abandonada por su culpa. Queen, si no se ha reclutado a ningún Darkner en Cyber City, se le acerca a jugar con un aro y un palo y le llama, con humor agridulce, su "exmarido, o lo que sea que sea" — la confirmación más directa de que ambos tuvieron algún tipo de relación romántica antes de los hechos del juego.
@@ -73,7 +83,7 @@ confianza: fuerte
 > Antes de su encierro, fue Jevil quien le contó sobre la gloria del Caballero Rugiente — la chispa que encendió la villanía de King. En el Cap.4, habla de él con cariño y respeto pese a todo lo ocurrido. [[Jevil]]
 
 > [!quote]- Queen
-> Posible expareja — se llaman mutuamente "Kingy Wingy" y "Queenie Beanie", y ella le compra provisiones tras su encarcelamiento. En el Cap.5 le llama abiertamente su "exmarido, o lo que sea que sea". [[Queen]]
+> Expareja confirmada — se llaman mutuamente "Kingy Wingy" y "Queenie Beanie", y ella le compra provisiones tras su encarcelamiento. En el Cap.4, ambos afirman ante el grupo que estuvieron juntos y que Lancer es hijo de los dos; en el Cap.5 ella le llama además abiertamente su "exmarido, o lo que sea que sea". [[Queen]]
 
 > [!quote]- Kris y Noelle
 > Ramb revela en el Cap.3 que de niños jugaban a las casitas con los objetos de Mundo Claro de King y Queen, llegando a llevarse un portátil a casa entero solo para eso. [[Kris]] [[Noelle]]
