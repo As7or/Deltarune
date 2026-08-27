@@ -315,8 +315,8 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > [!question]- ¿Le gustaba Noelle a Kris?
 > Al usar un Cristal Oscuro dentro de la casa de Noelle en el Cap.4, Kris tiene una visión fugaz del Mundo Claro equivalente — y ve a Noelle inclinada hacia él, susurrándole algo, aparentemente con un ramo de flores de por medio. Seam explica en el Cap.5 que los Cristales Oscuros contienen "el poder de los sueños rotos", y que tirar uno se sentiría "como tirar el/la... de alguien" — dejando la frase deliberadamente incompleta. Uniendo ambas cosas, parte del fandom lee esta visión como un sueño roto propio de Kris relacionado con Noelle, no solo un vistazo neutral al Mundo Claro. **Teoría de fans especulativa: la visión y la explicación de Seam están confirmadas por separado, pero el juego nunca afirma directamente que ese cristal en concreto sea "el sueño roto" de Kris ni que tenga que ver con un sentimiento romántico hacia Noelle.**
 >
-> ![[player_kris_soul_cap1_final_scene.png]]
-> *El mismo ALMA roja detrás de esta y de todas las visiones de Kris — la incógnita de fondo sobre si estos "sueños rotos" reflejan sus propios sentimientos o los de quien lo controla.*
+> ![[kris_theory_loves_noelle_glass_broken_dream_flowers.png]]
+> *La visión completa, diálogo a diálogo: "Sostuviste el cristal frente a tu ojo. Por alguna extraña razón, por un breve instante, pareció que... todos los demás desaparecían... y viste a Noelle sonriéndote, con los brazos llenos de flores."*
 
 ## En combate
 Lleva el mando del grupo en el Mundo Oscuro (equipo, inventario, órdenes). Como humano, no puede lanzar hechizos — en su lugar usa ACTs, incluyendo algunos exclusivos: **Encourage** (sube la defensa del grupo, solo desbloqueable contra King), **Pirouette** (contra Jevil, con un efecto distinto cada turno), **HealDeal** (acepta un trato de Spamton para curarse), **Take House 2** (contra Rouxls Kaard), **X-Slash/FriedPipis** (contra Spamton NEO, solo Ruta Rara), y varios más específicos de cada jefe. Su ataque especial X-Slash golpea dos veces en un mismo turno y hace más daño que Luchar.

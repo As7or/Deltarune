@@ -315,8 +315,8 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > [!question]- Did Kris have feelings for Noelle?
 > Using a Dark Crystal inside Noelle's house in Ch.4, Kris has a fleeting vision of the equivalent Light World — and sees Noelle leaning toward them, whispering something, apparently with a bouquet of flowers involved. Seam explains in Ch.5 that Dark Crystals contain "the power of broken dreams," and that dropping one would feel "like dropping someone's..." — deliberately leaving the sentence incomplete. Putting both things together, part of the fandom reads this vision as a broken dream of Kris's own related to Noelle, not just a neutral glimpse of the Light World. **Speculative fan theory: the vision and Seam's explanation are each confirmed separately, but the game never directly states that this particular crystal is Kris's "broken dream" or that it has to do with romantic feelings toward Noelle.**
 >
-> ![[player_kris_soul_cap1_final_scene.png]]
-> *The same red SOUL behind this and every one of Kris's visions — the underlying question of whether these "broken dreams" reflect their own feelings, or those of whoever controls them.*
+> ![[kris_theory_loves_noelle_glass_broken_dream_flowers.png]]
+> *The vision in full, line by line: "You held the crystal up to your eye. For some strange reason, for a brief moment, it looked like... everyone else disappeared... and you saw Noelle smiling at you, with arms full of flowers."*
 
 ## In battle
 Leads the party in the Dark World (equipment, inventory, orders). As a human, they can't cast spells — instead they use ACTs, including some exclusive ones: **Encourage** (raises the party's defense, only unlockable against King), **Pirouette** (against Jevil, with a different effect each turn), **HealDeal** (accepts a deal from Spamton to heal), **Take House 2** (against Rouxls Kaard), **X-Slash/FriedPipis** (against Spamton NEO, Weird Route only), and several others specific to each boss. Their special attack X-Slash hits twice in the same turn and deals more damage than Fight.
