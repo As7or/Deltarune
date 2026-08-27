@@ -1082,6 +1082,37 @@ SHARED_CSS_EXTRA = '''
   .prophecy-scroll .wikilink{ color:#7a2e22 !important; border-bottom:1px dotted #7a2e22 !important; }
   .prophecy-scroll a.wikilink:hover{ background:rgba(122,46,34,0.12); }
 
+  /* --- "fichas de evidencia" para apodos/titulos cortos (p.ej. la seccion
+     "Apodo del menu de estadisticas" de cada personaje): generadas por el
+     token {{tag:icono|titulo|subtitulo}} en inline_md() (mdconvert_linked.py).
+     Va en el CSS compartido -no en el de cada tema- para que se vea igual
+     sin importar el tema visual de esa nota (postit, Gaster, Cristal...):
+     tiene su propio fondo tipo cartulina y un "ojal" perforado a la
+     izquierda, como una etiqueta de equipaje o de pruebas policiales. --- */
+  .stat-tag{
+    display:inline-flex; align-items:center; gap:9px;
+    margin:5px 9px 5px 0; padding:7px 15px 7px 25px;
+    background:linear-gradient(155deg,#f6efd8,#e3d3a0);
+    border:1.5px dashed #a8895a; border-radius:4px;
+    box-shadow:1px 3px 7px rgba(60,45,15,0.3);
+    position:relative; vertical-align:middle;
+  }
+  .stat-tag::before{
+    content:""; position:absolute; left:9px; top:50%; margin-top:-5px;
+    width:10px; height:10px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #fffdf6, #cbb27a 55%, #8a6a3a 100%);
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,0.25), 0 1px 1px rgba(0,0,0,0.35);
+  }
+  .stat-tag-icon{ font-size:16px; line-height:1; filter:drop-shadow(0 1px 1px rgba(0,0,0,0.25)); }
+  .stat-tag-text{ display:inline-flex; flex-direction:column; line-height:1.25; }
+  .stat-tag-title{
+    font-family:'Courier New', monospace; font-weight:700; font-size:12px;
+    letter-spacing:.03em; text-transform:uppercase; color:#4a3418;
+  }
+  .stat-tag-sub{
+    font-family:Georgia, serif; font-style:italic; font-size:11px; color:#6b5c46; margin-top:1px;
+  }
+
   /* --- lightbox: clic en cualquier imagen para verla a tamano completo --- */
   img{ cursor: zoom-in; }
   #lightbox-overlay{

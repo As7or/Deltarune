@@ -1,4 +1,4 @@
-import re, os, html, urllib.parse, unicodedata
+import re, os, html, urllib.parse, unicodedata, zlib
 
 def slugify(name):
     """Quita acentos/diacríticos del nombre para usarlo como nombre de archivo
@@ -169,6 +169,27 @@ def inline_md(text, sprites_prefix, force_small=False, respect_size=True):
                  f'allowfullscreen loading="lazy"></iframe></div>')
         return stash(embed)
     text = re.sub(r"\{\{youtube:\s*([A-Za-z0-9_-]+)\s*\}\}", youtube_sub, text)
+
+    # Etiqueta tipo "ficha de evidencia" para listas de apodos/titulos cortos
+    # (p.ej. la seccion "Apodo del menu de estadisticas" de cada personaje):
+    # {{tag:icono|titulo}} o {{tag:icono|titulo|subtitulo}}. El CSS vive en
+    # SHARED_CSS_EXTRA (note_page_template.py) para que se vea igual en los
+    # 8 temas visuales de nota sin duplicarlo. La rotacion es deterministica
+    # (segun el titulo) para que cada ficha se vea "clavada" en un angulo
+    # ligeramente distinto sin cambiar entre reconstrucciones del sitio.
+    def tag_sub(m):
+        icon = m.group(1).strip()
+        title = m.group(2).strip()
+        sub = (m.group(3) or "").strip()
+        rot = round(((zlib.crc32(title.encode("utf-8")) % 700) - 350) / 100.0 * 0.9, 2)
+        sub_html = f'<span class="stat-tag-sub">{html.escape(sub)}</span>' if sub else ""
+        return stash(
+            f'<span class="stat-tag" style="transform:rotate({rot}deg);">'
+            f'<span class="stat-tag-icon">{html.escape(icon)}</span>'
+            f'<span class="stat-tag-text"><span class="stat-tag-title">{html.escape(title)}</span>{sub_html}</span>'
+            f'</span>'
+        )
+    text = re.sub(r"\{\{tag:([^|{}]+)\|([^|{}]+)(?:\|([^{}]+))?\}\}", tag_sub, text)
 
     def wikilink_sub(m):
         inner = m.group(1)
