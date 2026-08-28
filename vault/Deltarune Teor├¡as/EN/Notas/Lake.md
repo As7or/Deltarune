@@ -107,6 +107,9 @@ confianza: strong
 
 > [!question]+ What really happened to Onionsan?
 > He disappears right when the Normal NPC starts occupying his spot in Ch.4, and a Pipis mentions that the takoyaki the Normal NPC sells [TODO: verify exact EN quote] "tastes like raw onion" — a fairly direct insinuation, though never explicitly confirmed, that Onionsan himself might have ended up turned into an ingredient. **Widely spread fan theory, backed by a real line of dialogue but without direct textual confirmation.**
+>
+> ![[Normal_NPC_screenshot_lake.png]]
+> *The Normal NPC, already occupying the spot where Onionsan used to be — the visual basis for this theory.*
 
 > [!question]+ "Farther and farther, grayer" — color as a danger meter
 > During the submersion in the Ch.5 Weird Route, the screen progressively saturates/darkens the further you advance toward the center of the Lake, with every press of "Continue" briefly resetting the colors to normal before they intensify again. The visual effect functions almost like a meter of "how much is left before the point of no return" — the farther from shore, the more the scene's real color is lost. **Description of a visual effect confirmed within the game itself; the reading that it represents a symbolic "meter" is interpretation.**
@@ -116,6 +119,9 @@ confianza: strong
 
 > [!question]- What's on the other side / beneath the surface?
 > The biggest loose end in the series to date. The scene's official theme name itself, "The Other Side of the Lake", confirms that a destination on the other side narratively exists — matching the theory that Ch.7's "Side B" takes place precisely there. It isn't known whether there's a Dark Fountain hidden under the water, nor how this connects to Dess's disappearance. The community speculates with all kinds of theories, none confirmed.
+>
+> ![[lake_noelle_and_kriss_drowning.png]]
+> *Kris and Noelle, already submerged beneath the surface — the exact moment the game leaves open the question of what's on the other side.*
 >
 > 🎲 A 2026 reading (see [[Roaring Knight]]) points out that the never-reached strip on the far side of the Lake is shown in white — an unusual color for a map boundary, which are normally black — and compares it to the Underground barrier in Undertale, which Alphys explains requires at least one human soul and one monster soul to cross. Under that reading, the Lake would have the same kind of barrier, and crossing it would require a similar combination of souls. It's a striking hypothesis but built on the color of a map boundary, with no line of dialogue confirming it within Deltarune itself — very speculative on its own.
 
@@ -130,6 +136,9 @@ confianza: strong
 > - 🎲 According to a 2026 theory (see [[Roaring Knight]]), approaching the Lake barrier at the end of the Ch.2 Weird Route (Snowgrave) plays a modified version of the music that accompanies the fight against Endogeny, one of Undertale's True Lab amalgams — a possible additional strand in this same musical thread, though for now unconfirmed against the game's actual audio files.
 >
 > Put all together, the fandom's reading is that the "song from the depths" Gerson mentions, the one Onionsan hears at night, the one Susie and Kris share at the Lake, and the Riverman himself singing in Undertale, could be variations of one same background melody associated with Gaster — present in both games long before anyone knew they were connected. **A very dense fan theory with a fair amount of real file-based support (sound clues, internal names, shared leitmotifs), but the conclusion that it all forms one single, deliberate musical thread remains interpretation, not a direct statement from Toby Fox.**
+>
+> ![[Hammer_of_Justice_soundtrack.png]]
+> *[TODO: verify exact EN quote] "(The toll of justice rings...)" — Gerson Boom, right before asking if you can hear "its song, singing from the depths."*
 
 ## Trivia
 - It's the only place in the game, to date, where completing a route generates a save file with a different suffix ("_b") instead of a normal completion FILE.

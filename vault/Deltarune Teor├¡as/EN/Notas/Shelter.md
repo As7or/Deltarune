@@ -106,9 +106,18 @@ Confirmed in Ch.3: beneath the closed door there's a Dark World of its own, of w
 
 > [!question]+ What really happened at the Shelter?
 > It's, together with the Lake, the biggest loose end in the entire series looking ahead to future chapters: it's unknown what specific incident happened here, exactly how it relates to Dess's disappearance, and what role the Roaring Knight will play, having brought both Undyne and, presumably, Asgore here. No specific theory has enough support yet — it's open ground.
+>
+> ![[Dark_Fountain_screenshot_shelter.png]]
+> *Susie in front of a strange dark formation near the Shelter area — one of the few visual clues that the place might hide more than just a locked door.*
 
 > [!question]- The pattern of the two captures
 > The Roaring Knight has brought its only two confirmed victims to date to the Shelter: Undyne (Ch.3) and, presumably, Asgore (Ch.5) — in both cases, after switching targets at the last moment (Toriel → Undyne; the rest of the party → Asgore). It's too repeated a pattern to be a coincidence, though the game hasn't yet explained what the Knight is trying to achieve by taking them specifically here.
+>
+> ![[Knight_screenshot_Undyne_captured.png]]
+> *Undyne, captured at the end of Ch.3.*
+>
+> ![[Knight_screenshot_Asgore_captured.png]]
+> *Asgore, captured in an almost identical way at the end of Ch.5 — the same pattern, repeated two chapters later.*
 
 > [!question]- 🎲 "Depths" and "Hell": the nod from the thank-you survey
 > In the third round of the game development's own "Thank You" survey, participant responses related to "Shelter", "Depths", or "Hell" all received exactly the same hidden reply from the team — suggesting the three concepts are connected somehow in the development's own mind. "Depths" and "Hell" had already been connected before through Jevil's line [TODO: verify exact EN quote] "the Roar bubbles up from the depths" (see [[Cristal Oscuro|Shadow Crystal]]), and "Depth" also appears in the recurring internal file name IMAGE_DEPTH. This is a datamine/development-based data point, not confirmation within the game itself, so it counts as a speculative reading.
@@ -118,12 +127,21 @@ Confirmed in Ch.3: beneath the closed door there's a Dark World of its own, of w
 
 > [!question]- 🎲 The number 1225 and the Holiday family
 > The partial code found on Dess's guitar, "122", is interpreted almost universally as the start of "1225" — and that same number reappears repeatedly throughout the game in contexts tied to Noelle and the Cyber World, in addition to being used to open a secret room in the Ch.3 Dark World's plush machine and the path to the Christmas tree where Tenna was hiding Toriel. The family surname, "Holiday", and 1225's own Christmas meaning (December 25th) make the fandom read it as a deliberate numeric motif tied to this family — but the game never explains why that specific number opens the Shelter in particular.
+>
+> ![[The_Dreemurrs_and_Holiday_Families.webp]]
+> *The silhouettes of both the Dreemurr and Holiday families, gathered in front of the TV — the scene that fuels the Christmas (12/25) reading of the number 1225 the most.*
 
 > [!question]- 🎲 Is it related to Gaster?
 > The musical coincidence (`mus_smile` at 15%, the same speed and the same file as in Undertale's Entry 17) is real and verifiable, and it's reinforced by the fact that the same sound also appears in the Holiday Mansion's basement — but at no point does the game confirm in text that Gaster has anything to do with the Shelter. For now, it's a reading based on sound and file clues, not dialogue.
+>
+> ![[gaster.png]]
+> *Gaster, the source of the musical clue (`mus_smile` at 15%) that some connect to the Shelter door.*
 
 > [!question]- 🎲 Is it Asriel investigating alongside Carol?
 > There's a minority branch of the Asriel theory (see [[Roaring Knight]]) that imagines him secretly collaborating with Carol to search for Dess on his own — it would explain why Carol investigates the area so insistently. It rests on a single thread of community speculation, with no direct textual clue.
+>
+> ![[asriel_shadow.png]]
+> *Asriel, in his most elusive form — the very character this minority branch of the theory rests on.*
 
 ## Trivia
 - It's one of the few places in the game locked in a completely physical way (a door with an electronic lock) instead of narratively.

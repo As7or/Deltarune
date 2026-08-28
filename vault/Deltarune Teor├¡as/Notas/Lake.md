@@ -107,6 +107,9 @@ confianza: fuerte
 
 > [!question]+ ¿Qué le pasó realmente a Onionsan?
 > Desaparece justo cuando el Normal NPC empieza a ocupar su lugar en el Cap.4, y un Pipis comenta que el takoyaki que vende el Normal NPC "sabe a cebolla cruda" — una insinuación bastante directa, aunque nunca confirmada de forma explícita, de que el propio Onionsan podría haber acabado convertido en ingrediente. **Teoría de fans ampliamente extendida, apoyada en una línea de diálogo real pero sin confirmación textual directa.**
+>
+> ![[Normal_NPC_screenshot_lake.png]]
+> *El Normal NPC, ocupando ya el sitio donde antes estaba Onionsan — la base visual de esta teoría.*
 
 > [!question]+ "Cada vez más lejos, más gris" — el color como medidor de peligro
 > Durante la sumersión de la Ruta Rara del Cap.5, la pantalla se va saturando/oscureciendo progresivamente cuanto más se avanza hacia el centro del Lago, con cada pulsación de "Continuar" reseteando brevemente los colores a la normalidad antes de que vuelvan a intensificarse. El efecto visual funciona casi como un medidor de "cuánto queda para el punto de no retorno" — cuanto más lejos de la orilla, más se pierde el color real de la escena. **Descripción de un efecto visual confirmado en el propio juego; la lectura de que representa un "medidor" simbólico es interpretación.**
@@ -116,6 +119,9 @@ confianza: fuerte
 
 > [!question]- ¿Qué hay al otro lado / bajo la superficie?
 > El mayor cabo suelto de la serie hasta la fecha. El propio nombre oficial del tema de la escena, "The Other Side of the Lake", confirma que existe narrativamente un destino al otro lado — coincidiendo con la teoría de que el "Lado B" del Cap.7 tiene lugar precisamente ahí. No se sabe si hay una Fuente Oscura escondida bajo el agua, ni cómo se conecta esto con la desaparición de Dess. La comunidad especula con todo tipo de teorías, ninguna confirmada.
+>
+> ![[lake_noelle_and_kriss_drowning.png]]
+> *Kris y Noelle, ya sumergidos bajo la superficie — el momento exacto en el que el juego deja la pregunta abierta sobre qué hay al otro lado.*
 >
 > 🎲 Una lectura de 2026 (ver [[Roaring Knight]]) señala que la franja al otro lado del Lago, a la que nunca se llega, se muestra en blanco — un color inusual para un límite de mapa, que normalmente serían negros — y la compara con la barrera del Subsuelo en Undertale, que Alphys explica que necesita al menos un alma humana y una de monstruo para cruzarse. Bajo esa lectura, el Lago tendría el mismo tipo de barrera, y cruzarlo requeriría una combinación de almas similar. Es una hipótesis llamativa pero construida sobre el color de un límite del mapa, sin ninguna línea de diálogo que lo confirme dentro de Deltarune — muy especulativa por sí sola.
 
@@ -130,6 +136,9 @@ confianza: fuerte
 > - 🎲 Según una teoría de 2026 (ver [[Roaring Knight]]), al acercarse a la barrera del Lago durante el final de la Ruta Rara (Snowgrave) del Cap.2 sonaría una versión modificada de la música que acompaña el combate contra Endogeny, una de las amalgamas del Verdadero Laboratorio de Undertale — un posible hilo más dentro de este mismo tejido musical, aunque de momento sin confirmar contra el archivo de audio real del juego.
 >
 > Puestas todas juntas, la lectura que hace el fandom es que la "canción desde las profundidades" que menciona Gerson, la que oye Onionsan de noche, la que comparten Susie y Kris en el Lago, y el propio Riverman cantando en Undertale, podrían ser variaciones de una misma melodía de fondo asociada a Gaster — presente en ambos juegos mucho antes de que nadie supiera que estaban conectados. **Teoría de fans muy densa y con bastante apoyo de archivo real (pistas de sonido, nombres internos, leitmotifs compartidos), pero la conclusión de que todo forma un único hilo musical deliberado sigue siendo interpretación, no una declaración directa de Toby Fox.**
+>
+> ![[Hammer_of_Justice_soundtrack.png]]
+> *"(El repique de la justicia suena...)" — Gerson Boom, justo antes de preguntar si se puede oír "su canción, cantando desde las profundidades".*
 
 ## Curiosidades
 - Es el único lugar del juego, hasta la fecha, donde completar una ruta genera un archivo de guardado con un sufijo distinto ("_b") en vez de una FILE de finalización normal.

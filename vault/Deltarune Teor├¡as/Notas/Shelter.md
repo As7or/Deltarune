@@ -106,9 +106,18 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 > [!question]+ ¿Qué pasó realmente en el Refugio?
 > Es, junto al Lago, el mayor cabo suelto de toda la serie de cara a los capítulos por venir: se desconoce qué incidente concreto ocurrió aquí, cómo se relaciona exactamente con la desaparición de Dess, y qué papel jugará el Caballero Rugiente al haber llevado hasta aquí tanto a Undyne como, presumiblemente, a Asgore. Ninguna teoría concreta tiene respaldo suficiente todavía — es terreno abierto.
+>
+> ![[Dark_Fountain_screenshot_shelter.png]]
+> *Susie frente a una extraña formación oscura cerca de la zona del Refugio — una de las pocas pistas visuales de que el lugar podría esconder algo más que una simple puerta cerrada.*
 
 > [!question]- El patrón de las dos capturas
 > El Caballero Rugiente ha llevado hasta el Refugio a sus dos únicas víctimas confirmadas hasta la fecha: Undyne (Cap.3) y, presumiblemente, Asgore (Cap.5) — en ambos casos, tras cambiar de objetivo en el último momento (Toriel → Undyne; el resto del grupo → Asgore). Es un patrón demasiado repetido para ser casualidad, aunque el juego no ha explicado todavía qué busca conseguir el Knight llevándoselos precisamente aquí.
+>
+> ![[Knight_screenshot_Undyne_captured.png]]
+> *Undyne, capturada al final del Cap.3.*
+>
+> ![[Knight_screenshot_Asgore_captured.png]]
+> *Asgore, capturado de forma casi idéntica al final del Cap.5 — el mismo patrón, repetido dos capítulos después.*
 
 > [!question]- 🎲 "Depths" y "Hell": el guiño de la encuesta de agradecimiento
 > En la tercera ronda de la encuesta "Thank You" del propio desarrollo del juego, las respuestas de los participantes relacionadas con "Shelter", "Depths" o "Hell" recibieron exactamente la misma respuesta oculta por parte del equipo — sugiriendo que los tres conceptos están conectados de algún modo en la mente del propio desarrollo. "Depths" y "Hell" ya se habían conectado antes a través de la frase de Jevil "el Rugido burbujea desde las profundidades" (ver [[Cristal Oscuro]]), y "Depth" también aparece en el nombre interno del archivo recurrente IMAGE_DEPTH. Es un dato de datamine/desarrollo, no una confirmación dentro del propio juego, así que se trata de una lectura especulativa.
@@ -118,12 +127,21 @@ Confirmado en el Cap.3: bajo la puerta cerrada hay un Mundo Oscuro propio, del q
 
 > [!question]- 🎲 El número 1225 y la familia Holiday
 > El código parcial hallado en la guitarra de Dess, "122", se interpreta casi universalmente como el inicio de "1225" — y ese mismo número reaparece repetidas veces a lo largo del juego en contextos ligados a Noelle y al Mundo Cíber, además de usarse para abrir una sala secreta en la máquina de peluches del Mundo Oscuro del Cap.3 y el camino hasta el árbol de Navidad donde Tenna escondía a Toriel. El apellido de la familia, "Holiday" ("fiesta/festivo"), y el propio significado navideño de 1225 (25 de diciembre) hacen que el fandom lo lea como un motivo numérico deliberado ligado a esta familia — pero el juego nunca explica por qué ese número concreto abre precisamente el Refugio.
+>
+> ![[The_Dreemurrs_and_Holiday_Families.webp]]
+> *Las siluetas de ambas familias, Dreemurr y Holiday, reunidas frente al televisor — la escena que más alimenta la lectura navideña (25/12) del número 1225.*
 
 > [!question]- 🎲 ¿Está relacionado con Gaster?
 > La coincidencia musical (`mus_smile` al 15%, la misma velocidad y el mismo archivo que en la Entrada 17 de Undertale) es real y verificable, y se refuerza porque el mismo sonido aparece también en el sótano de la Mansión Holiday — pero en ningún momento el juego confirma en texto que Gaster tenga algo que ver con el Refugio. Es, de momento, una lectura basada en pistas de sonido y archivo, no en diálogo.
+>
+> ![[gaster.png]]
+> *Gaster, la fuente de la pista musical (`mus_smile` al 15%) que algunos conectan con la puerta del Refugio.*
 
 > [!question]- 🎲 ¿Es Asriel quien investiga junto a Carol?
 > Existe una rama minoritaria de la teoría Asriel (ver [[Roaring Knight]]) que lo imagina colaborando en secreto con Carol para buscar a Dess por su cuenta — explicaría por qué Carol investiga la zona con tanta insistencia. Descansa en un solo hilo de especulación de la comunidad, sin ninguna pista textual directa.
+>
+> ![[asriel_shadow.png]]
+> *Asriel, en su forma más esquiva — el propio personaje en el que se apoya esta rama minoritaria de la teoría.*
 
 ## Curiosidades
 - Es uno de los pocos lugares del juego bloqueado de forma completamente física (puerta con cerradura electrónica) en vez de narrativa.
