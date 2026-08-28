@@ -307,9 +307,45 @@ The final block, much shorter and more intimate in tone than the rest — closes
 
 > [!question]+ Who really wrote the Prophecy?
 > The textual match with Gaster's Entry 17 has led part of the fandom to wonder whether the Prophecy itself was written, inspired, or altered by the same entity behind the Voice. A strong theory given the near-literal quote, but without direct confirmation within the game itself.
+>
+> ![[prophecy_Him_increased_contrast.webp]]
+> *The image tied to "shadows cut deep" in the hymn — the same line that connects the Prophecy to Gaster.*
 
 > [!question]- Why is Jockington the only one named?
 > Of the entire legend, Jockington is the only character explicitly mentioned by their own name — neither the Knight nor Queen are. There's no official explanation for why he specifically was chosen as the only named reference within the prophetic text.
+>
+> ![[21_jockington_grows_the_beard.gif]]
+> *Pane 21, the only one of the 35 that names a character directly by name.*
+
+> [!question]- Why does Ralsei only mention "two heroes" in Ch.1, if the full Prophecy says "three"?
+> When Ralsei summarizes the Legend to Kris and Susie right after meeting them (see "Where it appears," above), he literally says that "two HEROES of LIGHT" will fulfill the prophecy — but the full text, and the Ch.4 panes themselves (Block 2, panes 07-13), are unambiguous: there are **three** heroes, numbered First, Second, and Third. The discrepancy sits in the game's own text — it isn't a translation error introduced by this vault.
+>
+> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
+> *Ralsei talking about "two heroes of light" in Ch.1...*
+>
+> ![[06_con_esperanzas_y_suenos_tres_heroes.gif]]
+> *...against the Prophecy's own full text, which unambiguously announces "Three Heroes at the World's End."*
+>
+> The fandom has no official explanation, but the most common reading is that Ralsei, as the Prince of Darkness himself, excludes himself when talking about the "heroes of light" who are yet to arrive — counting only Kris and Susie as the ones still missing to join him, without counting himself even though he's also one of the three per the full text. A more speculative reading is that Ralsei simply doesn't know the complete version of the prophecy as it's later revealed on the Ch.4 panes, and recites an incomplete version from memory. **No official confirmation of which reading is correct.**
+
+> [!question]- 🎲 Did the Prophecy already happen once, with a different group?
+> A fan theory proposes that the Prophecy's trio doesn't necessarily describe the current party, but an earlier expedition made up of Kris, [[Dess]], and [[Asriel]]. The central argument is that the Prophecy describes "the girl" fighting with a sword — a weapon that fits neither Susie's axe nor Noelle's ice magic, but fits Dess better, who as a kid played with toy bats and swords and disappeared in the forest while following a trail of roots (see [[Dess]], theory "Did Dess get lost in the forest following 'the tail'?").
+>
+> ![[sword_route_map_roots.png]]
+> *The map Dess followed before disappearing — the same kind of "roots" that name pane 32 of the Prophecy, further below.*
+>
+> If this reading is correct, the adventure Kris and Susie's group is living through today would, at bottom, be an echo of another one that already happened years earlier with a different cast — with Asgore publicly taking the blame for Dess's disappearance, and Kris actively avoiding a return to the [[Shelter]] for reasons the game never fully explains. **Fan theory, with no direct textual confirmation — the game never explicitly states that an earlier expedition took place.**
+
+> [!question]- 🎲 Is "ROOTS" a future Dark World beneath Hometown?
+> "ROOTS" comes up several times outside of any clear narrative context (see the analysis of pane 32, further below) — and part of the fandom reads it as the name of a still-unrevealed Dark World that would exist beneath Hometown itself. The most common reading ties its entrance to Queen's Mansion basement — where the Ch.2 track "Digital Roots" plays — and to the Holiday house's own basement, since the pane shows a house between two trees, the same kind of image that already appears in the background of pane 05.
+>
+> ![[Basement_queen_mansion.webp]]
+> *Queen's Mansion basement, where "Digital Roots" plays — one of the entry points the fandom floats for a future Dark World called ROOTS.*
+>
+> ![[32_roots_raices.gif]]
+> *The "Roots" pane itself — the most direct textual clue of all, and the one that names the whole theory.*
+>
+> **Pure fan speculation built on scattered clues (soundtrack track names, a pre-Ch.4 ARG, and this pane) — the game never confirms the existence of any Dark World by that name.**
 
 ## Trivia
 - One of the songs Kris can play on the piano at Noelle's house in Ch.4 is internally named "kris_piano_last_prophecy."

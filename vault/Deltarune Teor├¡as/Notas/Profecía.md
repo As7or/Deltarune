@@ -338,9 +338,45 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 
 > [!question]+ ¿Quién escribió realmente la Profecía?
 > La coincidencia textual con la Entry 17 de Gaster ha llevado a parte del fandom a preguntarse si la propia Profecía fue escrita, inspirada o alterada por la misma entidad detrás de la Voz. Teoría fuerte por la cita casi literal, pero sin confirmación directa dentro del propio juego.
+>
+> ![[prophecy_Him_increased_contrast.webp]]
+> *La imagen asociada a "las sombras cortan profundo" en el himno — la misma línea que conecta la Profecía con Gaster.*
 
 > [!question]- ¿Por qué solo se nombra a Jockington?
 > De toda la leyenda, Jockington es el único personaje mencionado explícitamente por su nombre propio — ni el Caballero ni Queen lo son. No hay una explicación oficial de por qué se eligió precisamente a él como única referencia nominal dentro del texto profético.
+>
+> ![[21_jockington_grows_the_beard.gif]]
+> *La vidriera 21, la única de las 35 que nombra a un personaje directamente por su nombre.*
+
+> [!question]- ¿Por qué Ralsei solo habla de "dos héroes" en el Cap.1, si la Profecía completa dice "tres"?
+> Cuando Ralsei resume la Leyenda a Kris y Susie nada más conocerse (ver "Dónde aparece", arriba), dice literalmente que "dos HÉROES de LUZ" cumplirán la profecía — pero el texto completo, y las propias vidrieras del Cap.4 (Bloque 2, vidrieras 07-13), son inequívocas: son **tres** héroes, numerados como Primero, Segundo y Tercero. La discrepancia está en el propio texto in-game, no es un error de traducción de este vault.
+>
+> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
+> *Ralsei hablando de "dos héroes de luz" en el Cap.1...*
+>
+> ![[06_con_esperanzas_y_suenos_tres_heroes.gif]]
+> *...frente al propio texto completo de la Profecía, que anuncia sin ambigüedad "tres Héroes al Fin del Mundo".*
+>
+> El fandom no tiene una explicación oficial, pero la lectura más extendida es que Ralsei, como el propio Príncipe de la Oscuridad, se excluye a sí mismo al hablar de los "héroes de luz" que están por llegar — contaría solo a Kris y Susie como los que faltan por reunirse con él, sin incluirse en la cuenta pese a ser también uno de los tres según el texto completo. Otra lectura, más especulativa, es que Ralsei simplemente no conoce la versión completa de la profecía tal y como se revela después en los tapices del Cap.4, y resume de memoria una versión incompleta. **Sin confirmación oficial de cuál es la correcta.**
+
+> [!question]- 🎲 ¿Ya sucedió la Profecía antes, con otro grupo?
+> Una teoría de fans propone que el trío de la Profecía no describe necesariamente al grupo actual, sino una expedición anterior formada por Kris, [[Dess]] y [[Asriel]]. El argumento central es que la Profecía describe a "la chica" combatiendo con espada — un arma que no encaja ni con el hacha de Susie ni con la magia de hielo de Noelle, pero que sí encaja mejor con Dess, quien de niña jugaba con bates y espadas de juguete y desapareció en el bosque siguiendo precisamente un camino de raíces (ver [[Dess]], teoría "¿Se perdió Dess en el bosque siguiendo 'la cola'?").
+>
+> ![[sword_route_map_roots.png]]
+> *El mapa que Dess siguió antes de desaparecer — el mismo tipo de "raíces" que da nombre a la vidriera 32 de la Profecía, más abajo.*
+>
+> Si la lectura es correcta, la aventura que hoy vive el grupo de Kris y Susie sería, en el fondo, un eco de otra ya ocurrida años antes con un reparto distinto — con Asgore cargando la culpa pública de la desaparición de Dess, y Kris evitando activamente volver al [[Shelter]] por motivos que el juego nunca explica del todo. **Teoría de fans, sin confirmación textual directa — el juego nunca llega a decir explícitamente que hubo una expedición previa.**
+
+> [!question]- 🎲 ¿Es "ROOTS" un futuro Mundo Oscuro bajo Hometown?
+> "ROOTS" aparece mencionado varias veces fuera de cualquier contexto narrativo claro (ver el análisis de la vidriera 32, más abajo) — y parte del fandom lo interpreta como el nombre de un Mundo Oscuro todavía sin revelar, que existiría bajo el propio Hometown. La lectura más extendida conecta su entrada con el sótano de la Mansión de Queen —donde suena precisamente el tema "Digital Roots" del Cap.2— y con el sótano de la propia casa de los Holiday, dado que la vidriera muestra una casa entre dos árboles, la misma clase de imagen que ya aparece de fondo en la vidriera 05.
+>
+> ![[Basement_queen_mansion.webp]]
+> *El sótano de la Mansión de Queen, donde suena "Digital Roots" — uno de los puntos de entrada que baraja el fandom para un futuro Mundo Oscuro llamado ROOTS.*
+>
+> ![[32_roots_raices.gif]]
+> *La propia vidriera "Roots" — la pista textual más directa de todas, y la que da nombre a toda la teoría.*
+>
+> **Pura especulación de fans basada en pistas dispersas (nombres de temas musicales, un ARG previo al Cap.4, y esta vidriera) — el juego nunca confirma la existencia de ningún Mundo Oscuro con ese nombre.**
 
 ## Curiosidades
 - Una de las canciones que Kris puede tocar al piano en casa de Noelle en el Cap.4 se llama internamente "kris_piano_last_prophecy".
