@@ -876,8 +876,17 @@ const board = document.getElementById('board');
 const viewport = document.getElementById('viewport');
 let zoom = 0.85, panX = 60, panY = 60;
 const MIN_ZOOM = 0.25, MAX_ZOOM = 2.5;
+const BOARD_W = {board_w}, BOARD_H = {board_h};
+const PAN_MARGIN = 400;
 
-function applyTransform(){{ board.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{zoom}})`; viewport.style.backgroundPosition = `${{panX}}px ${{panY}}px`; viewport.style.backgroundSize = `auto, auto, auto, auto, auto, ${{300*zoom}}px ${{300*zoom}}px`; }}
+function clampPan(){{
+  const vw = viewport.clientWidth, vh = viewport.clientHeight;
+  const bw = BOARD_W * zoom, bh = BOARD_H * zoom;
+  panX = Math.min(vw + PAN_MARGIN, Math.max(-bw - PAN_MARGIN, panX));
+  panY = Math.min(vh + PAN_MARGIN, Math.max(-bh - PAN_MARGIN, panY));
+}}
+
+function applyTransform(){{ clampPan(); board.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{zoom}})`; viewport.style.backgroundPosition = `${{panX}}px ${{panY}}px`; viewport.style.backgroundSize = `auto, auto, auto, auto, auto, ${{300*zoom}}px ${{300*zoom}}px`; }}
 applyTransform();
 
 viewport.addEventListener('wheel', (e) => {{

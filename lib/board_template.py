@@ -455,8 +455,18 @@ const viewport = document.getElementById('viewport');
 let zoom = 0.55, panX = 60, panY = 60;
 let pinnedNodeId = null;
 const MIN_ZOOM = 0.15, MAX_ZOOM = 2.5;
+const BOARD_W = {board_w}, BOARD_H = {board_h};
+const PAN_MARGIN = 400;
+
+function clampPan(){{
+  const vw = viewport.clientWidth, vh = viewport.clientHeight;
+  const bw = BOARD_W * zoom, bh = BOARD_H * zoom;
+  panX = Math.min(vw + PAN_MARGIN, Math.max(-bw - PAN_MARGIN, panX));
+  panY = Math.min(vh + PAN_MARGIN, Math.max(-bh - PAN_MARGIN, panY));
+}}
 
 function applyTransform(){{
+  clampPan();
   board.style.transform = `translate(${{panX}}px, ${{panY}}px) scale(${{zoom}})`;
   viewport.style.backgroundPosition = `${{panX}}px ${{panY}}px`;
   viewport.style.backgroundSize = `auto, auto, auto, auto, auto, auto, ${{46*zoom}}px ${{46*zoom}}px, ${{38*zoom}}px ${{38*zoom}}px, ${{52*zoom}}px ${{52*zoom}}px, ${{41*zoom}}px ${{41*zoom}}px, ${{33*zoom}}px ${{33*zoom}}px, ${{44*zoom}}px ${{44*zoom}}px, ${{300*zoom}}px ${{300*zoom}}px`;
