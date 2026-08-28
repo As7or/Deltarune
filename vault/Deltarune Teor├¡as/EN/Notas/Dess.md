@@ -108,9 +108,15 @@ confianza: strong
 
 > [!question]- The Holiday family's disappearance pattern
 > According to the official wiki, members of the Holiday family disappear one after another from the town's everyday life: first Dess, then Carol, Asgore, Noelle, and finally Rudy (the fifth). This pattern — which includes Asgore, unrelated to the Holidays — reinforces Dess's centrality as the first link in something much bigger happening to the whole town, not just her family.
+>
+> ![[The_Dreemurrs_and_Holiday_Families.webp]]
+> *The Dreemurr and Holiday families together — before they started disappearing, one by one, from the town's everyday life.*
 
 > [!question]- "Lost Girl" / "Find Her" — is the song about Noelle or Dess?
 > "Lost Girl," one of the game's most-repeated leitmotifs, was officially presented as "Noelle's theme" in a September 2019 Toby Fox tweet, but in a second tweet immediately after, he himself clarified that [TODO: verify exact EN quote] "it's actually the kind of song that gets used over and over throughout the game, even when she's not around" — leaving the door open for it to actually be more associated with Dess than with Noelle. This is reinforced by the 2022 Spamton Sweepstakes: entering the code "D" (not "December") into the search bar on Noelle's blog unlocks a secret page about Dess's red guitar that plays a track literally named "findher.ogg," an instrumental variation of "Lost Girl" itself. The fandom's reading is that the title "Lost Girl" wouldn't (only) mean Noelle lost in the Cyber World, but Dess, truly lost. **A fan theory with an unusually solid real basis (official tweets + an audio file with an explicit name), but with no textual confirmation within the game itself.**
+>
+> ![[dess_guitar.png]]
+> *Dess's red guitar — the same instrument "findher.ogg," the instrumental variation of "Lost Girl" hidden in the 2022 Spamton Sweepstakes, points back to.*
 
 > [!question]- The cryptid sighting with Asriel
 > In a blog entry from Noelle presented as a "cryptid sighting report" (Spamton Sweepstakes, 2022), she tells how, as a kid, she saw "ICEE" (a cryptid nicknamed that) winking at her from a dark box; only her sister believed her. A later update to the post adds that her sister burned the box to "kill it," and that it was then that "Asi" — Asriel's confirmed nickname — identified the creature and said they should bury the box, digging a hole in the cemetery; Dess, seeing that Noelle was afraid a zombie would come out, hit the box and threw it away. It's the most direct clue that exists of Dess and Asriel spending time together as kids, long before any theory about a possible romantic relationship between them (see [[Asriel]]).
@@ -120,6 +126,9 @@ confianza: strong
 
 > [!question]- 🎲 Did Dess get lost in the forest following "the tail"?
 > The ROOTS room (Ch.4) contains a deliberately scrambled sentence, spoken by an Organikk philosopher, that can be rearranged as [TODO: verify exact EN quote] "lost where the forest would grow, the children followed the marked tail" — and both a prophetic panel ("the tail of hell will drag itself along") and a battle line from the Organikks themselves ("the tail that must not be followed") repeat the same image of a dangerous "tail." FRIEND is the most-cited candidate for that "tail of hell," in part because of its articulated, ball-jointed body design, consistent with the visual style described in those texts. Under this reading, Dess (and possibly a younger Kris) could have gotten lost as kids in a real forest following FRIEND, in a way similar to how the children in the ROOTS room follow "the tail" — which would directly connect her disappearance to the Shelter itself, since FRIEND also appears in the Sword Route of Ch.3 within that same area. **A fan theory with good textual grounding in the ROOTS room and the prophetic panels, but with no direct confirmation that Dess is one of those children.**
+>
+> ![[sword_route_map_roots.png]]
+> *The Ch.4 ROOTS room (Sword Route), where an Organikk philosopher speaks the line that, rearranged, tells of lost children following "the tail."*
 
 ## Trivia
 - The hidden response to entering "1225" as an answer on a real 2025 promotional page was a paraphrase of Maslow's "law of the instrument" ([TODO: verify exact EN quote] "when the only tool you have is a hammer, everything looks like a nail") — a direct textual nod to Dess tied to that same number.

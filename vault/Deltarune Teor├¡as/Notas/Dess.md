@@ -108,9 +108,15 @@ confianza: fuerte
 
 > [!question]- El patrón de desapariciones de los Holiday
 > Según la wiki oficial, los miembros de la familia Holiday desaparecen uno detrás de otro de la vida cotidiana del pueblo: primero Dess, después Carol, Asgore, Noelle, y finalmente Rudy (el quinto). Este patrón —que incluye a Asgore, ajeno a los Holiday— refuerza la centralidad de Dess como el primer eslabón de algo mucho más grande que le ocurre a todo el pueblo, no solo a su familia.
+>
+> ![[The_Dreemurrs_and_Holiday_Families.webp]]
+> *Las familias Dreemurr y Holiday reunidas — antes de que empezaran, una por una, a desaparecer de la vida cotidiana del pueblo.*
 
 > [!question]- "Lost Girl" / "Find Her" — ¿la canción es de Noelle o de Dess?
 > "Lost Girl", uno de los leitmotivs más repetidos del juego, se presentó oficialmente como "el tema de Noelle" en un tweet de Toby Fox de septiembre de 2019, pero en un segundo tweet inmediatamente después él mismo matizó que "en realidad es el tipo de canción que se usa una y otra vez por todo el juego, incluso cuando ella no está cerca" — dejando la puerta abierta a que en realidad esté más asociada a Dess que a Noelle. Esto se refuerza con la Spamton Sweepstakes de 2022: al introducir el código "D" (no "December") en el buscador del blog de Noelle, se accede a una página secreta sobre la guitarra roja de Dess que reproduce un tema llamado literalmente "findher.ogg" ("encuéntrala"), una variación instrumental de la propia "Lost Girl". La lectura del fandom es que el título de la Lost Girl ("chica perdida") no sería (solo) Noelle perdida en el Mundo Cíber, sino Dess, perdida de verdad. **Teoría de fans con una base real inusualmente sólida (tweets oficiales + archivo de audio con nombre explícito), pero sin ninguna confirmación textual dentro del propio juego.**
+>
+> ![[dess_guitar.png]]
+> *La guitarra roja de Dess — el mismo instrumento al que remite "findher.ogg", la variación instrumental de "Lost Girl" escondida en la Spamton Sweepstakes de 2022.*
 
 > [!question]- El avistamiento de críptidos junto a Asriel
 > En una entrada del blog de Noelle presentada como "reporte de avistamiento de críptidos" (Spamton Sweepstakes, 2022), ella cuenta que de niña vio a "ICEE" (un críptido apodado así) guiñándole un ojo desde una caja a oscuras; solo su hermana la creyó. La actualización posterior del post añade que su hermana quemó la caja para "matarlo", y que fue entonces cuando "Asi" —apodo confirmado de Asriel— identificó al ser y dijo que debían enterrar la caja, cavando un agujero en el cementerio; Dess, al ver que Noelle tenía miedo de que saliera un zombi, golpeó la caja y la tiró. Es la pista más directa que existe de que Dess y Asriel pasaban tiempo juntos de niños, mucho antes de cualquier teoría sobre su posible relación romántica (ver [[Asriel]]).
@@ -120,6 +126,9 @@ confianza: fuerte
 
 > [!question]- 🎲 ¿Se perdió Dess en el bosque siguiendo "la cola"?
 > La sala ROOTS (Cap.4) contiene una frase deliberadamente desordenada, pronunciada por un filósofo Organikk, que se puede reordenar como "perdidos donde crecería el bosque, los niños siguieron la cola señalada" — y tanto un panel profético ("la cola del infierno se arrastrará") como una línea de combate de los propios Organikks ("la cola que no debe seguirse") repiten la misma imagen de una "cola" peligrosa. FRIEND es el candidato más citado para esa "cola del infierno", en parte por su diseño de cuerpo articulado en bolas, coherente con el estilo visual descrito en esos textos. Bajo esta lectura, Dess (y posiblemente un Kris más joven) podrían haberse perdido de niños en un bosque real siguiendo a FRIEND, de forma parecida a como los niños de la sala ROOTS siguen "la cola" — lo que conectaría directamente su desaparición con el propio Shelter, ya que FRIEND aparece también en la Ruta Espada del Cap.3 dentro de esa misma zona. **Teoría de fans, con buena base textual en la sala ROOTS y los paneles proféticos, pero sin ninguna confirmación directa de que Dess sea uno de esos niños.**
+>
+> ![[sword_route_map_roots.png]]
+> *La sala ROOTS del Cap.4 (Ruta Espada), donde un filósofo Organikk pronuncia la frase que, reordenada, habla de niños perdidos siguiendo "la cola".*
 
 ## Curiosidades
 - La respuesta oculta a introducir "1225" como respuesta en una página promocional real de 2025 fue una paráfrasis de la "ley del instrumento" de Maslow ("cuando lo único que tienes es un martillo, todo parece un clavo") — un guiño textual directo a Dess relacionado con ese mismo número.
