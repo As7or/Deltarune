@@ -461,8 +461,8 @@ const PAN_MARGIN = 420;
 function clampPan(){{
   const vw = viewport.clientWidth, vh = viewport.clientHeight;
   const bw = BOARD_W * zoom, bh = BOARD_H * zoom;
-  panX = Math.min(vw + PAN_MARGIN, Math.max(-bw - PAN_MARGIN, panX));
-  panY = Math.min(vh + PAN_MARGIN, Math.max(-bh - PAN_MARGIN, panY));
+  panX = Math.min(PAN_MARGIN, Math.max(vw - bw - PAN_MARGIN, panX));
+  panY = Math.min(PAN_MARGIN, Math.max(vh - bh - PAN_MARGIN, panY));
 }}
 
 function applyTransform(){{
