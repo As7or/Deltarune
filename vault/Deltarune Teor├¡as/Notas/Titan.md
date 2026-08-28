@@ -77,9 +77,16 @@ confianza: oficial
 
 > [!question]+ ¿Tendría cada Mundo Oscuro su propio Titán distinto?
 > La propia wiki oficial apunta a que la forma del Titán del Cap.4 podría ser única de ese Santuario en concreto, y que otros Titanes —de haberlos en otros Mundos Oscuros— podrían adoptar formas completamente distintas según el mundo que los genere. Sin confirmación, ya que de momento solo se ha visto uno.
+>
+> ![[440px-Card_Castle_location.png.webp]]
+> ![[440px-Cyber_City_location.png.webp]]
+> *El Castillo de Cartas del Cap.1 y la Ciudad Cyber del Cap.2 — dos Mundos Oscuros con estéticas radicalmente distintas entre sí y respecto al 3er Santuario del Cap.4, lo que apoya la idea de que un Titán propio de cada mundo podría verse igual de distinto.*
 
 > [!question]- ¿Pueden los Titan Spawn convertirse en Titanes?
 > No está claro si los Titan Spawn son crías reales del Titán que podrían crecer hasta convertirse en uno, o si son una especie completamente distinta — el propio Titán del Cap.4 parece formarse casi de golpe en cuanto se crea la Fuente, sin pasar por ninguna fase intermedia visible. **Teoría de fans, sin confirmar.**
+>
+> ![[Titan_Spawn_battle_idle.gif]]
+> *Un Titan Spawn en su forma embrionaria — no está claro si, de sobrevivir, podría llegar a desarrollarse hasta convertirse en un Titán adulto.*
 
 > [!question]- 🎲 Las dos figuras que flanquean al Titán en la ilustración profética
 > En el dibujo de la Última Profecía que ilustra el Rugido (arriba del todo de esta nota), el Titán central aparece flanqueado por dos siluetas idénticas y simétricas, con una corona de púas en la cabeza y unos brazos angulares en forma de ala — un diseño que coincide de forma llamativa con la silueta oficial del propio Caballero Rugiente. Es una lectura visual, no confirmada por ningún texto del juego, pero el parecido es difícil de pasar por alto: compárese directamente con el retrato de perfil del Caballero.

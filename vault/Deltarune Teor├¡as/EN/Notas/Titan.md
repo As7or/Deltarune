@@ -77,9 +77,16 @@ confianza: official
 
 > [!question]+ Would each Dark World have its own distinct Titan?
 > The official wiki itself suggests that the Ch.4 Titan's form might be unique to that particular Sanctuary, and that other Titans — if any exist in other Dark Worlds — could take on completely different forms depending on the world that generates them. Unconfirmed, since only one has been seen so far.
+>
+> ![[440px-Card_Castle_location.png.webp]]
+> ![[440px-Cyber_City_location.png.webp]]
+> *Ch.1's Card Castle and Ch.2's Cyber City — two Dark Worlds with wildly different aesthetics from each other and from Ch.4's 3rd Sanctuary, which supports the idea that a Titan native to each world could look just as different.*
 
 > [!question]- Can Titan Spawn become Titans?
 > It's unclear whether the Titan Spawn are actual offspring of the Titan that could grow into one, or whether they're a completely different species — the Ch.4 Titan itself seems to form almost instantly as soon as the Fountain is created, without going through any visible intermediate stage. **Fan theory, unconfirmed.**
+>
+> ![[Titan_Spawn_battle_idle.gif]]
+> *A Titan Spawn in its embryonic form — it's unclear whether, if it survived, it could eventually develop into a full-grown Titan.*
 
 > [!question]- 🎲 The two figures flanking the Titan in the prophetic illustration
 > In the Ultimate Prophecy's drawing depicting the Roaring (at the very top of this note), the central Titan appears flanked by two identical, symmetrical silhouettes, with a spiked crown on their heads and angular wing-shaped arms — a design that strikingly matches the Roaring Knight's own official silhouette. It's a visual reading, not confirmed by any text in the game, but the resemblance is hard to overlook: compare it directly with the Knight's profile portrait.
