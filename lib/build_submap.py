@@ -877,7 +877,7 @@ const viewport = document.getElementById('viewport');
 let zoom = 0.85, panX = 60, panY = 60;
 const MIN_ZOOM = 0.25, MAX_ZOOM = 2.5;
 const BOARD_W = {board_w}, BOARD_H = {board_h};
-const PAN_MARGIN = 400;
+const PAN_MARGIN = 420;
 
 function clampPan(){{
   const vw = viewport.clientWidth, vh = viewport.clientHeight;
