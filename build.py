@@ -45,6 +45,17 @@ CRYSTAL_NOTES = {"Cristal Oscuro"}
 UNDERTALE_NOTES = {"Conexión Undertale"}
 FOUNTAIN_NOTES = {"Fuentes Oscuras"}
 GASTER_NOTES = {"Gaster (W. D. Gaster)"}
+# Mismo criterio que el corcho (categoria "mundo" del canvas, no el color
+# crudo): todos los Darkner y las dos Plantas, generado con
+#   [it['note'] for it in items if 'Darkner' in it['tag']] / 'Planta' in it['tag']
+# Si se añade un personaje nuevo a esa categoria en el canvas, hay que
+# añadir aqui tambien el nombre de su nota para que herede el tema.
+DARKNER_NOTES = {
+    "ERAM", "Jackenstein", "Jevil", "King", "Lancer", "Mad Mew Mew (Pink)",
+    "Mike", "Pipis", "Pippins", "Queen", "Ralsei", "Ramb", "Rouxls Kaard",
+    "Seam", "Shuttah", "Spamton", "Tenna",
+}
+PLANTA_NOTES = {"7 Flores de Colores", "Flowery"}
 
 
 def find_vault_root(path):
@@ -175,6 +186,8 @@ def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
             "undertale" if stem in UNDERTALE_NOTES else
             "fountain" if stem in FOUNTAIN_NOTES else
             "gaster" if stem in GASTER_NOTES else
+            "darkner" if stem in DARKNER_NOTES else
+            "planta" if stem in PLANTA_NOTES else
             "postit"
         )
         # Titulo visible de la pagina (pestaña del navegador): en ES siempre

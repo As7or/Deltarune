@@ -919,6 +919,203 @@ PAGE_CSS_GASTER = '''
   .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
 '''
 
+# --- Darkner: la nota se ve como una tira de negativo fotografico -- mismo
+# lenguaje visual que la tarjeta del corcho (perforados de carrete a los
+# lados, base ambar oscura), pero aqui fijos a los bordes de toda la pagina
+# en vez de solo la tarjeta. Las imagenes se ven a color normal.
+PAGE_CSS_DARKNER = '''
+  body{
+    margin:0; padding:24px 40px 60px; font-family:'Segoe UI', Georgia, serif; color:#e6dcf4;
+    background: linear-gradient(165deg, #3a2c66 0%, #241a45 45%, #140d29 100%);
+  }
+  body::before, body::after{
+    content:""; position:fixed; top:0; bottom:0; width:18px; z-index:50; pointer-events:none;
+    background-color:#4a3a7a;
+    background-image: radial-gradient(circle at 9px 9.5px, #120b24 4px, transparent 4.4px);
+    background-repeat: repeat-y;
+    background-size: 18px 19px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+  }
+  body::before{ left:0; }
+  body::after{ right:0; }
+  h1{ font-size:22px; color:#f0e6f7; border-bottom:2px solid #9a7ad9; padding-bottom:8px; }
+  h2{ font-size:17px; color:#cbb8e8; margin-top:22px; }
+  h3{ font-size:15px; color:#cbb8e8; text-decoration:underline; text-underline-offset:3px; }
+  p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#e6dcf4; }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
+  figure{ margin:14px 0; text-align:center; }
+  figcaption{ font-size:12.5px; font-style:italic; color:#a894c9; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 4px 16px rgba(0,0,0,0.5); }
+  .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
+  .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
+  table.note-table{ width:100%; max-width:700px; border-collapse:collapse; margin:12px auto; background:rgba(26,17,42,0.7); }
+  table.note-table th, table.note-table td{ border:1px solid rgba(154,122,217,0.35); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#e6dcf4; }
+  table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
+  table.note-table .inline-img-small{ height:110px; }
+
+  /* --- fotograma de negativo recortado: cada postit es un cuadro de la
+     tira, con su propia mini fila de perforados arriba y abajo --- */
+  .callout{
+    position:relative;
+    background: linear-gradient(155deg, #453576 0%, #241a45 100%);
+    padding:22px 20px 24px; margin:26px 18px 30px;
+    border:1px solid rgba(154,122,217,0.4);
+    box-shadow:0 4px 18px rgba(0,0,0,0.5), inset 0 1px 0 rgba(210,190,240,0.08);
+  }
+  .callout::before, .callout::after{
+    content:""; position:absolute; left:14px; right:14px; height:9px;
+    background-image: radial-gradient(circle at 4.5px 4.5px, #120b24 3px, transparent 3.3px);
+    background-repeat: repeat-x; background-size:14px 9px; background-color:#4a3a7a;
+    opacity:.85;
+  }
+  .callout::before{ top:0; }
+  .callout::after{ bottom:0; }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#c9a0f0; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#e6dcf4; }
+  .callout-info{ background:linear-gradient(155deg,#2a3a6a,#161f38); }
+  .callout-tip{ background:linear-gradient(155deg,#2a5a5a,#163030); }
+  .callout-example{ background:linear-gradient(155deg,#453576,#241a45); }
+  .callout-danger{ background:linear-gradient(155deg,#6b1a3a,#3c0e20); }
+  .callout-quote{ background:linear-gradient(155deg,#5a2a7a,#301645); }
+  .callout-question{ background:linear-gradient(155deg,#4a3a6a,#241e38); }
+  .callout-counter{ background:linear-gradient(155deg,#6a3a8a,#3a1e4c); }
+  .callout .callout{ margin:16px 8px 8px; box-shadow:0 4px 16px rgba(0,0,0,0.55); }
+
+  .wikilink{ color:#c9a0f0; border-bottom:1px dotted #c9a0f0; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(154,122,217,0.15); }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
+  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:rgba(35,24,58,0.7); border:1px solid rgba(154,122,217,0.4); border-radius:12px; padding:4px 12px; font-size:11px; color:#e6dcf4; font-family:'Segoe UI',sans-serif; }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#c9a0f0; }
+  .fm-badge b{ font-weight:700; color:#c9a0f0; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
+  .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .fm-badge[data-key="tipo"]{ border-left:3px solid #9a7ad9; }
+  .fm-badge[data-key="mundo"]{ border-left:3px solid #c05a8e; }
+  .fm-badge[data-key="especie"]{ border-left:3px solid #8ab060; }
+  .fm-badge[data-key="familia"]{ border-left:3px solid #e07de0; }
+  .fm-badge[data-key="grupo"]{ border-left:3px solid #f0d060; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#e08080; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:rgba(35,24,58,0.8); border:1px solid rgba(154,122,217,0.4); border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#c9a0f0 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.35);
+  }
+  .submap-link:hover{ filter:brightness(1.15); }
+  .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
+  .link-chip{ display:inline-block; background:rgba(35,24,58,0.8); border:1px solid rgba(154,122,217,0.35); border-radius:8px; padding:5px 13px; box-shadow:1px 2px 6px rgba(0,0,0,0.35); }
+  .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
+  .note-list{ margin:8px 0; padding-left:22px; }
+  .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; color:#e6dcf4; }
+  .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border-radius:4px; overflow:hidden; border:1px solid rgba(154,122,217,0.35); }
+  .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+'''
+
+# --- Planta: la nota se ve escrita en papel vegetal traslucido -- mismo
+# lenguaje visual que la tarjeta del corcho (fondo verde salvia palido,
+# textura de fibra), en vez del pergamino/postit oscuro de otros temas.
+PAGE_CSS_PLANTA = '''
+  body{
+    margin:0; padding:24px 26px 60px; font-family:Georgia, serif; color:#2f4a24;
+    background: linear-gradient(165deg, #edf3e3 0%, #dbe6cd 100%);
+    background-image:
+      repeating-linear-gradient(97deg, rgba(255,255,255,.45) 0 1px, transparent 1px 7px),
+      repeating-linear-gradient(9deg, rgba(110,130,80,.05) 0 2px, transparent 2px 11px);
+  }
+  h1{ font-size:22px; color:#2f4a24; border-bottom:2px solid #6e8a4a; padding-bottom:6px; }
+  h2{ font-size:17px; color:#4a6b3a; margin-top:22px; }
+  h3{ font-size:15px; color:#4a6b3a; text-decoration:underline; text-underline-offset:3px; }
+  p{ font-size:15.5px; line-height:1.6; margin:8px 0; color:#3a5030; }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; }
+  figure{ margin:14px 0; text-align:center; }
+  figcaption{ font-size:12.5px; font-style:italic; color:#6a7f56; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:3px; box-shadow:0 2px 8px rgba(60,80,40,0.22); }
+  .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
+  .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
+  table.note-table{ width:100%; max-width:700px; border-collapse:collapse; margin:12px auto; background:rgba(255,255,255,0.5); }
+  table.note-table th, table.note-table td{ border:1px solid #c3d2ac; padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#3a5030; }
+  table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
+  table.note-table .inline-img-small{ height:110px; }
+
+  /* --- hoja de papel vegetal apilada, semitraslucida, con la fibra
+     asomando por debajo del texto --- */
+  .callout{
+    position:relative; overflow:hidden;
+    background: linear-gradient(160deg, rgba(240,246,232,.92) 0%, rgba(214,228,198,.88) 100%);
+    padding:16px 18px 18px; margin:22px 14px 26px;
+    box-shadow:2px 6px 12px rgba(60,80,40,0.22), inset 0 0 16px rgba(255,255,255,.5);
+    border-radius:2px 10px 2px 10px;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+  }
+  .callout::before{
+    content:""; position:absolute; inset:0; pointer-events:none; opacity:.6;
+    background:
+      repeating-linear-gradient(100deg, rgba(255,255,255,.35) 0 1px, transparent 1px 6px),
+      repeating-linear-gradient(12deg, rgba(110,130,80,.06) 0 2px, transparent 2px 9px);
+  }
+  .callout-title{ position:relative; font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:#3a5030; }
+  .callout-body{ position:relative; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#3a5030; }
+  .callout-info{ background:linear-gradient(160deg,rgba(216,232,240,.9),rgba(190,214,224,.85)); }
+  .callout-tip{ background:linear-gradient(160deg,rgba(220,236,208,.92),rgba(196,220,180,.86)); }
+  .callout-example{ background:linear-gradient(160deg,rgba(240,236,208,.92),rgba(224,216,176,.86)); }
+  .callout-danger{ background:linear-gradient(160deg,rgba(240,214,208,.92),rgba(220,182,174,.86)); }
+  .callout-quote{ background:linear-gradient(160deg,rgba(224,216,236,.92),rgba(200,190,220,.86)); }
+  .callout-question{ background:linear-gradient(160deg,rgba(240,228,180,.92),rgba(222,204,148,.86)); }
+  .callout-counter{ background:linear-gradient(160deg,rgba(240,206,158,.92),rgba(222,176,124,.86)); }
+  .callout .callout{ margin:14px 4px 6px; box-shadow:3px 7px 14px rgba(60,80,40,0.28); }
+  .callout .note-list li{ color:#3a5030; }
+
+  .wikilink{ color:#4a6b3a; border-bottom:1px dotted #4a6b3a; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(110,138,74,0.14); }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
+  .fm-badge{
+    position:relative; display:inline-flex; align-items:baseline; gap:5px;
+    background:linear-gradient(180deg, #fbfef6, #e3edd4);
+    border:1px solid #b8cc9c; border-radius:13px; padding:4px 12px 4px 10px;
+    font-size:11px; color:#3a5030; font-family:'Segoe UI',sans-serif;
+  }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#6e8a4a; flex-shrink:0; }
+  .fm-badge b{ font-weight:700; color:#2f4a24; text-transform:uppercase; font-size:9.5px; letter-spacing:.03em; margin-right:5px; }
+  .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .fm-badge[data-key="tipo"]{ border-left:3px solid #a8672e; }
+  .fm-badge[data-key="mundo"]{ border-left:3px solid #3a7ba0; }
+  .fm-badge[data-key="especie"]{ border-left:3px solid #4a8a5a; }
+  .fm-badge[data-key="familia"]{ border-left:3px solid #9a4a7a; }
+  .fm-badge[data-key="grupo"]{ border-left:3px solid #c9982e; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:rgba(255,255,255,.7); border:1px solid #b8cc9c; border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#4a6b3a !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(60,80,40,0.2);
+  }
+  .submap-link:hover{ filter:brightness(1.06); }
+  .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
+  .link-chip{
+    display:inline-block; background:rgba(255,255,255,.7); border:1px solid #b8cc9c; border-radius:8px;
+    padding:5px 13px; box-shadow:1px 2px 4px rgba(60,80,40,0.18);
+  }
+  .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
+  .note-list{ margin:8px 0; padding-left:22px; }
+  .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; color:#3a5030; }
+  .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border-radius:6px; overflow:hidden; box-shadow:0 3px 10px rgba(60,80,40,0.25); }
+  .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+'''
+
 # --- CSS compartido por TODOS los temas: no depende de colores de cada tema,
 # asi que se anade una sola vez en vez de duplicarlo 7 veces. Cubre: colores
 # reales de fiabilidad en la columna "Identidad real" (antes solo emoji),
@@ -1173,6 +1370,8 @@ THEME_CSS = {
     "undertale": PAGE_CSS_UNDERTALE,
     "fountain": PAGE_CSS_FOUNTAIN,
     "gaster": PAGE_CSS_GASTER,
+    "darkner": PAGE_CSS_DARKNER,
+    "planta": PAGE_CSS_PLANTA,
 }
 
 # Identidad del sitio que debe aparecer en la pestaña del navegador de TODAS
