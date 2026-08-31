@@ -745,6 +745,25 @@ function openNote(noteStem, label){{
   panel.classList.add('open');
   overlay.classList.add('open');
 }}
+// Si dentro de la nota abierta se hace clic en un wikilink a OTRA nota, el
+// iframe navega solo (es un <a href> normal) sin pasar por openNote() -- así
+// que sin esto la pestañita de arriba se queda pegada al nombre de la nota
+// anterior. El evento 'load' del iframe no es fiable para este caso (no
+// siempre salta cuando la navegación la dispara un clic DENTRO del propio
+// iframe), así que en su lugar comprobamos por sondeo, mientras el panel
+// esté abierto, si el <title> real del iframe (que ya lleva el nombre de la
+// nota, ver note_page_template.py) ha cambiado, y resincronizamos la
+// pestañita con él.
+setInterval(function(){{
+  if(!panel.classList.contains('open')) return;
+  try {{
+    var t = frame.contentDocument && frame.contentDocument.title;
+    if(t){{
+      var name = t.split(' — ')[0];
+      if(noteTitleBar.textContent !== name) noteTitleBar.textContent = name;
+    }}
+  }} catch(e){{}}
+}}, 400);
 function closeNote(){{
   panel.classList.remove('open');
   overlay.classList.remove('open');
@@ -768,7 +787,7 @@ def render_ui_strings(lang):
     render_lang_switch(). 'lang' es 'es' o 'en'."""
     if lang == "en":
         return dict(
-            page_title="Main Corkboard — Deltarune Theories 🕵️",
+            page_title="Deltarune Theories Corkboard 🕵️",
             pipis_alt="Pipis, looking at the corkboard with an exasperated face",
             legend_lightner="Lightner", legend_darkner="Darkner", legend_plant="Plant",
             legend_place="Place", legend_topic="Topic / Other",
@@ -789,7 +808,7 @@ def render_ui_strings(lang):
             no_note_prefix="There is no note yet for",
         )
     return dict(
-        page_title="Corcho Principal — Deltarune Teorías 🕵️",
+        page_title="Corcho de Teorías de Deltarune 🕵️",
         pipis_alt="Pipis, mirando el corcho con cara de exasperación",
         legend_lightner="Lightner", legend_darkner="Darkner", legend_plant="Planta",
         legend_place="Lugar", legend_topic="Tema / Other",

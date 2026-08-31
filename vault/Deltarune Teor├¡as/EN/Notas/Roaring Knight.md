@@ -1,7 +1,7 @@
 ---
 tipo: character
-mundo: lightner (confirmed by Susie, who sees his silhouette in the Light World)
-especie: unknown — Susie confirms "he's a Lightner"
+mundo: lightner (under a mask)
+especie: unknown (exact identity unconfirmed — see Theories)
 familia: N/A
 confianza: strong
 ---

@@ -517,6 +517,7 @@ PAGE_CSS = '''
 SUBMAP_UI = {
     "es": {
         "submap_title_prefix": "Submapa",
+        "site_suffix": " — Corcho de Teorías de Deltarune",
         "back_link": "← Corcho principal",
         "zoomhint": "Rueda = zoom &middot; arrastra el fondo para moverte &middot; clic en una nota = abrir su pagina",
         "note_title_default": "Nota",
@@ -531,6 +532,7 @@ SUBMAP_UI = {
     },
     "en": {
         "submap_title_prefix": "Submap",
+        "site_suffix": " — Deltarune Theories Corkboard",
         "back_link": "← Main Corkboard",
         "zoomhint": "Wheel = zoom &middot; drag the background to move &middot; click a note to open its page",
         "note_title_default": "Note",
@@ -817,7 +819,7 @@ def build_submap(canvas_path, title_name, lang="es"):
 <html lang="{lang}">
 <head>
 <meta charset="UTF-8">
-<title>{ui["submap_title_prefix"]} — {html.escape(title_name)}</title>
+<title>{ui["submap_title_prefix"]} — {html.escape(title_name)}{ui["site_suffix"]}</title>
 <style>{PAGE_CSS}</style>
 </head>
 <body>
@@ -1045,6 +1047,22 @@ function openNote(noteStem, label){{
   else {{ frame.src = 'data:text/html;charset=utf-8,' + encodeURIComponent('<body style="font-family:sans-serif;padding:20px;color:#555">{ui["no_note_prefix"]} <b>'+label+'</b>.</body>'); }}
   panel.classList.add('open'); overlay.classList.add('open');
 }}
+// Igual que en el corcho principal: si dentro de la nota abierta se hace clic
+// en un wikilink a otra nota, el iframe navega solo y la pestañita se queda
+// pegada al nombre de la nota anterior. El evento 'load' no es fiable para
+// una navegación disparada DESDE DENTRO del propio iframe, así que sondeamos
+// mientras el panel esté abierto y resincronizamos con el <title> real del
+// iframe en cuanto cambie.
+setInterval(function(){{
+  if(!panel.classList.contains('open') || frame.style.display === 'none') return;
+  try {{
+    var t = frame.contentDocument && frame.contentDocument.title;
+    if(t){{
+      var name = t.split(' — ')[0];
+      if(noteTitleBar.textContent !== name) noteTitleBar.textContent = name;
+    }}
+  }} catch(e){{}}
+}}, 400);
 function openPostit(content){{
   noteTitleBar.textContent = content.title;
   frame.style.display = 'none';

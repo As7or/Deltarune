@@ -1175,10 +1175,20 @@ THEME_CSS = {
     "gaster": PAGE_CSS_GASTER,
 }
 
+# Identidad del sitio que debe aparecer en la pestaña del navegador de TODAS
+# las paginas (corcho, notas, submapas) para que se reconozca de un vistazo
+# entre varias pestañas abiertas -- antes cada nota mostraba solo su propio
+# nombre a secas ("Roaring Knight"), sin ninguna marca de sitio.
+SITE_SUFFIX = {
+    "es": " — Corcho de Teorías de Deltarune",
+    "en": " — Deltarune Theories Corkboard",
+}
+
 def render_page(title_escaped, body_html, theme="postit", lang="es"):
     css = THEME_CSS.get(theme, PAGE_CSS)
+    full_title = title_escaped + SITE_SUFFIX.get(lang, SITE_SUFFIX["es"])
     return PAGE_TMPL.format(
-        title=title_escaped, css=css, shared_css=SHARED_CSS_EXTRA,
+        title=full_title, css=css, shared_css=SHARED_CSS_EXTRA,
         body=body_html, shared_body=SHARED_BODY_EXTRA, lang=lang,
     )
 

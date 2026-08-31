@@ -1,7 +1,7 @@
 ---
 tipo: personaje
-mundo: lightner (confirmado por Susie, que ve su silueta en el Mundo Claro)
-especie: desconocida — Susie confirma que "es un Lightner"
+mundo: lightner (bajo máscara)
+especie: desconocida (identidad exacta sin confirmar — ver Teorías)
 familia: N/A
 confianza: fuerte
 ---
