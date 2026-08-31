@@ -329,18 +329,24 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
                 fallback = (left, top)
         return fallback
 
-    def on_card(it, box_w, box_h, x_bias=0.0, y_bias=-0.22):
-        """Centra una decoracion ENCIMA de la propia tarjeta -- como un
-        sello estampado sobre la foto, o un pin clavado en ella -- en vez
-        de dejarla junto al borde. Se usa para los sellos y la cruz: contra
-        el corcho oscuro no se leian, pero sobre el fondo claro de la nota
-        sí. y_bias<0 la sube hacia la zona de la imagen, para no tapar el
-        titulo/resumen de abajo; x_bias<0/>0 la desplaza hacia la izquierda
-        o derecha (0 = centrada)."""
+    def on_card(it, x_bias=0.0, y_bias=-0.22):
+        """Punto ENCIMA de la propia tarjeta donde centrar una decoracion --
+        como un sello estampado sobre la foto, o un pin clavado en ella --
+        en vez de dejarla junto al borde. Se usa para los sellos y la cruz:
+        contra el corcho oscuro no se leian, pero sobre el fondo claro de la
+        nota sí. y_bias<0 la sube hacia la zona de la imagen, para no tapar
+        el titulo/resumen de abajo; x_bias<0/>0 la desplaza hacia la
+        izquierda o derecha (0 = centrada). Devuelve el CENTRO (no la
+        esquina): el elemento se centra sobre ese punto con
+        transform:translate(-50%,-50%), asi que queda perfectamente
+        centrado pase lo que pese su ancho real (los sellos usan
+        width:fit-content, y su ancho varia segun el texto -- "CAPTURADA"
+        no mide lo mismo que "¿DÓNDE ESTÁ?" -- por lo que centrar a ojo con
+        un ancho fijo los dejaba descuadrados)."""
         ox, oy = it["px"], it["py"]
         halfw = it.get("_render_w", 150) / 2
         halfh = it.get("_render_h", 150) / 2
-        return ox + halfw * x_bias - box_w / 2, oy + halfh * y_bias - box_h / 2
+        return ox + halfw * x_bias, oy + halfh * y_bias
 
     # ---- Cristal Oscuro: foto del objeto pegada al borde de cada jefe que
     #      lo suelta (a la derecha por defecto; a otro lado si ahi choca
@@ -363,8 +369,9 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
 
     # ---- Desaparecidos / no vistos aun: sello rojo, ESTAMPADO encima de la
     #      propia foto de la tarjeta -- contra el corcho no se leia, pero
-    #      sobre el fondo claro de la nota sí destaca. ----
-    STAMP_BOX = (100, 32)
+    #      sobre el fondo claro de la nota sí destaca. Se centra con
+    #      translate(-50%,-50%) en vez de un ancho fijo, porque el sello usa
+    #      width:fit-content y su ancho real varia segun el texto. ----
     STAMP_Y_BIAS = -0.08  # casi centrado en la tarjeta, con solo un pelin hacia arriba
 
     def _stamp_rot(rng, nid=None):
@@ -382,11 +389,11 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"missing-{nid}")
-        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        cx, cy = on_card(it, y_bias=STAMP_Y_BIAS)
         rot = _stamp_rot(rng, nid)
         txt = _stamp_text("missing", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Papyrus y Asriel: el misterio no es que hayan desaparecido, es que
@@ -396,11 +403,11 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"where-{nid}")
-        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        cx, cy = on_card(it, y_bias=STAMP_Y_BIAS)
         rot = _stamp_rot(rng, nid)
         txt = _stamp_text("where", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Capturados por el Caballero: mismo estampado que "desaparecido" ----
@@ -409,28 +416,27 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"captured-{nid}")
-        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        cx, cy = on_card(it, y_bias=STAMP_Y_BIAS)
         rot = _stamp_rot(rng, nid)
         txt = _stamp_text("captured", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-captured" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-captured" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Muerto (Gerson): cruz clavada en la esquina superior izquierda de
-    #      la propia foto, como un pin mas -- contra el corcho oscuro no se
-    #      veia (marron sobre marron); sobre la tarjeta sí destaca. Mas
-    #      larga verticalmente para que se note que es una cruz de tumba y
-    #      no una simple "+". ----
-    CROSS_BOX = (28, 58)
+    # ---- Muerto (Gerson): cruz clavada bien metida en la esquina superior
+    #      izquierda de la propia foto, como un pin mas -- contra el corcho
+    #      oscuro no se veia (marron sobre marron); sobre la tarjeta sí
+    #      destaca. Mas larga verticalmente para que se note que es una cruz
+    #      de tumba y no una simple "+". ----
     for nid in DEAD_CROSS_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"cross-{nid}")
-        left, top = on_card(it, *CROSS_BOX, x_bias=-0.5, y_bias=-0.55)
+        cx, cy = on_card(it, x_bias=-0.65, y_bias=-0.7)
         rot = rng.uniform(-10, 10)
         out.append(
-            f'<div class="doodle doodle-cross" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<div class="doodle doodle-cross" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">'
             f'<svg viewBox="0 0 24 56">'
             f'<rect x="9.3" y="2" width="5.4" height="48" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
             f'<rect x="2" y="13" width="20" height="5.4" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
@@ -445,11 +451,11 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"dead-{nid}")
-        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        cx, cy = on_card(it, y_bias=STAMP_Y_BIAS)
         rot = _stamp_rot(rng)
         txt = _stamp_text("dead", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-dead" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-dead" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----
@@ -555,6 +561,12 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         "Shelter": 230, "Lake": 230, "Cristal Oscuro": 230,
         "Conexión Undertale": 230, "Profecía": 210, "Fuentes Oscuras": 220,
     }
+    # Ajustes de tamaño puntuales para tarjetas normales (no cambian su tema
+    # visual, solo el ancho -- la altura sigue el aspecto real de la imagen).
+    CARD_WIDTH_OVERRIDE = {
+        "Gerson Boom": 190,  # mas grande
+        "Alvin": 115,        # mas pequeña
+    }
 
     news_html = ""
     hub = data.get("hub")
@@ -611,7 +623,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         x, y = it["px"], it["py"]
 
         aspect = (it["h"] / it["w"]) if it.get("w") and it.get("h") else 0.8
-        this_card_w = BIG_CARD_WIDTHS.get(it["label"], card_w)
+        this_card_w = BIG_CARD_WIDTHS.get(it["label"], CARD_WIDTH_OVERRIDE.get(it["label"], card_w))
         this_inner_w = this_card_w - 12
         # para los nodos grandes no forzamos el tope de 230: dejamos que la
         # altura seguida el aspecto real de la imagen de fondo (sin recorte
