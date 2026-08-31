@@ -387,7 +387,8 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 
   /* ---- Decoracion ambiental: solo post-its de investigador con contenido
      real, y el rincon de Gaster convertido en foco de paranoia ---- */
-  .doodle{{ position:absolute; pointer-events:none; }}
+  .doodle{{ position:absolute; pointer-events:none; transition:opacity .12s ease; }}
+  .doodle.doodle-hidden{{ opacity:0 !important; }}
   .doodle-arrow{{
     z-index:1; height:3.5px; border-radius:2px; transform-origin:0 50%;
     background: linear-gradient(90deg, transparent 0%, rgba(40,32,24,.65) 18%, rgba(40,32,24,.65) 100%);
@@ -442,26 +443,17 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     font-size:8.5px; color:#4a3d28; letter-spacing:.2px;
   }}
   .doodle-stamp{{
-    z-index:4; width:fit-content; padding:8px 15px;
-    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:17px;
-    letter-spacing:2.2px; text-transform:uppercase; color:#a8281e;
-    border:5px solid #a8281e; outline:2px solid #a8281e; outline-offset:4px;
-    border-radius:1px; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.5));
-    background-image:
-      radial-gradient(circle at 12% 22%, rgba(255,255,255,.6) .7px, transparent 1.3px),
-      radial-gradient(circle at 68% 12%, rgba(255,255,255,.55) .6px, transparent 1.1px),
-      radial-gradient(circle at 32% 82%, rgba(255,255,255,.55) .7px, transparent 1.3px),
-      radial-gradient(circle at 86% 68%, rgba(255,255,255,.5) .6px, transparent 1.1px),
-      radial-gradient(circle at 50% 46%, rgba(255,255,255,.45) .6px, transparent 1.1px),
-      radial-gradient(circle at 8% 62%, rgba(255,255,255,.45) .6px, transparent 1.1px),
-      radial-gradient(circle at 92% 38%, rgba(255,255,255,.45) .6px, transparent 1.1px);
-    background-size: 6px 6px, 7px 7px, 5px 5px, 8px 8px, 6px 6px, 7px 7px, 6px 6px;
-    mix-blend-mode:multiply;
+    z-index:4; width:fit-content; padding:5px 10px;
+    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:14px;
+    letter-spacing:1.6px; text-transform:uppercase; color:#c81208;
+    background:rgba(249,242,221,.9);
+    border:4px solid #c81208; outline:2px solid #c81208; outline-offset:3px;
+    border-radius:1px; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.55));
     text-shadow: .5px 0 0 currentColor, -.5px 0 0 currentColor, 0 .5px 0 currentColor, 0 -.4px 0 currentColor;
     clip-path: polygon(1% 7%, 4% 0%, 96% 1%, 99% 8%, 98% 92%, 95% 100%, 3% 99%, 0% 93%);
   }}
-  .doodle-stamp.stamp-captured{{ color:#8a4a1c; border-color:#8a4a1c; outline-color:#8a4a1c; }}
-  .doodle-stamp.stamp-dead{{ color:#6b1e18; border-color:#6b1e18; outline-color:#6b1e18; }}
+  .doodle-stamp.stamp-captured{{ color:#c05a05; background:rgba(249,240,220,.9); border-color:#c05a05; outline-color:#c05a05; }}
+  .doodle-stamp.stamp-dead{{ color:#8f0d33; background:rgba(247,235,232,.9); border-color:#8f0d33; outline-color:#8f0d33; }}
   .doodle-cross{{ z-index:4; width:34px; height:42px; }}
   .doodle-cross svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.65)); }}
   .gaster-vignette{{
@@ -977,6 +969,23 @@ document.querySelectorAll('.node').forEach(n=>{{
     n.style.transition='none';
   }});
 }});
+
+// Ocultar sellos/cruces/posits de una nota mientras el cursor esta encima:
+// al hacer hover la tarjeta se agranda (scale 1.14) y la decoracion, que no
+// es hija suya, se quedaria "flotando" desalineada -- mejor ocultarla.
+(function(){{
+  const byOwner = {{}};
+  document.querySelectorAll('[data-owner]').forEach(d=>{{
+    const k = d.dataset.owner;
+    (byOwner[k] = byOwner[k] || []).push(d);
+  }});
+  document.querySelectorAll('.node[data-id]').forEach(n=>{{
+    const decos = byOwner[n.dataset.id];
+    if(!decos) return;
+    n.addEventListener('mouseenter', ()=> decos.forEach(d=> d.classList.add('doodle-hidden')));
+    n.addEventListener('mouseleave', ()=> decos.forEach(d=> d.classList.remove('doodle-hidden')));
+  }});
+}})();
 
 viewport.addEventListener('mousedown', e=>{{
   mode = 'pan';

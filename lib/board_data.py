@@ -345,24 +345,31 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         left, top = attach_clear(it, CRYSTAL_SIDES, *CRYSTAL_BOX)
         rot = rng.uniform(-8, 8)
         out.append(
-            f'<div class="doodle doodle-note item-photo" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<div class="doodle doodle-note item-photo" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
             f'<img src="{crystal_src}" alt="" loading="lazy"><span class="cap">{html.escape(crystal_cap)}</span></div>'
         )
 
     # ---- Desaparecidos / no vistos aun: sello rojo, ESTAMPADO encima de la
     #      propia foto de la tarjeta -- contra el corcho no se leia, pero
     #      sobre el fondo claro de la nota sí destaca. ----
-    STAMP_BOX = (118, 38)
+    STAMP_BOX = (100, 32)
+
+    def _stamp_rot(rng):
+        """Rotacion irregular tipo sello real: cambia de signo y de
+        magnitud de una nota a otra, en vez de una inclinacion uniforme
+        que hace que todos los sellos parezcan calcados."""
+        return rng.choice((-1, 1)) * rng.uniform(7, 23)
+
     for nid in MISSING_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"missing-{nid}")
         left, top = on_card(it, *STAMP_BOX)
-        rot = rng.uniform(-22, -12)
+        rot = _stamp_rot(rng)
         txt = _stamp_text("missing", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-missing" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Capturados por el Caballero: mismo estampado que "desaparecido" ----
@@ -372,10 +379,10 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             continue
         rng = random.Random(f"captured-{nid}")
         left, top = on_card(it, *STAMP_BOX)
-        rot = rng.uniform(-22, -12)
+        rot = _stamp_rot(rng)
         txt = _stamp_text("captured", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-captured" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-captured" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Muerto (Gerson): cruz clavada encima de la propia foto, como un
@@ -390,7 +397,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         left, top = on_card(it, *CROSS_BOX, y_bias=-0.15)
         rot = rng.uniform(-10, 10)
         out.append(
-            f'<div class="doodle doodle-cross" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<div class="doodle doodle-cross" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
             f'<svg viewBox="0 0 26 32">'
             f'<rect x="10.3" y="2" width="5.4" height="24" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
             f'<rect x="2" y="9.5" width="22" height="5.4" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
@@ -406,10 +413,10 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             continue
         rng = random.Random(f"dead-{nid}")
         left, top = on_card(it, *STAMP_BOX)
-        rot = rng.uniform(-22, -12)
+        rot = _stamp_rot(rng)
         txt = _stamp_text("dead", nid, lang)
         out.append(
-            f'<div class="doodle doodle-stamp stamp-dead" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-dead" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----
