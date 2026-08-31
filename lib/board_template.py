@@ -60,7 +60,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .thumb img{{ width:100%; height:100%; object-fit:contain; display:block; image-rendering:pixelated; }}
 
   .news-clip{{
-    position:absolute; width:560px; z-index:3; transform:rotate(-0.8deg);
+    position:absolute; width:820px; z-index:3; transform:rotate(-0.8deg);
     background:
       repeating-linear-gradient(0deg, rgba(0,0,0,.03) 0px, rgba(0,0,0,.03) 1px, transparent 1px, transparent 3px),
       radial-gradient(circle at 8% 12%, rgba(0,0,0,.05) 0, transparent 1px),
@@ -69,38 +69,38 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
       radial-gradient(circle at 88% 55%, rgba(0,0,0,.045) 0, transparent 1px),
       #ece5d3;
     background-size: auto, 5px 5px, 6px 6px, 5px 5px, 6px 6px, auto;
-    box-shadow:3px 8px 16px rgba(0,0,0,.5);
-    padding:16px 20px 16px;
+    box-shadow:4px 11px 22px rgba(0,0,0,.5);
+    padding:22px 28px 22px;
     font-family: Georgia, 'Times New Roman', serif;
     color:#241f16;
     clip-path: polygon(0% 1.5%, 6% 0%, 22% 1%, 40% 0.3%, 58% 1%, 76% 0.2%, 92% 1%, 100% 0%,
       99% 12%, 100% 30%, 98.5% 48%, 100% 66%, 99% 84%, 100% 97%,
       92% 100%, 74% 98.7%, 56% 100%, 38% 98.7%, 20% 100%, 3% 98.5%, 0% 88%, 1.2% 70%, 0% 52%, 1.2% 34%, 0% 16%);
   }}
-  .news-clip .pin{{ position:absolute; top:-9px; left:50%; transform:translateX(-50%); width:15px; height:15px; z-index:5; }}
+  .news-clip .pin{{ position:absolute; top:-12px; left:50%; transform:translateX(-50%); width:20px; height:20px; z-index:5; }}
   .news-clip .pin svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 2px 1px rgba(0,0,0,0.4)); }}
   .news-clip .news-masthead{{
-    display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:6px;
-    border-top:3px double #241f16; border-bottom:3px double #241f16;
-    padding:5px 0; margin-bottom:12px;
+    display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:8px;
+    border-top:4px double #241f16; border-bottom:4px double #241f16;
+    padding:7px 0; margin-bottom:17px;
   }}
   .news-clip .news-eyebrow{{
-    font-family:'Segoe UI', Tahoma, sans-serif; font-size:10px; letter-spacing:.16em; text-transform:uppercase;
+    font-family:'Segoe UI', Tahoma, sans-serif; font-size:13px; letter-spacing:.16em; text-transform:uppercase;
     color:#8a2f22; font-weight:bold;
   }}
   .news-clip .news-dateline{{
-    font-family:Georgia, serif; font-style:italic; font-size:10px; color:#5a5142;
+    font-family:Georgia, serif; font-style:italic; font-size:13px; color:#5a5142;
   }}
-  .news-clip .news-cols{{ display:flex; gap:18px; }}
-  .news-clip .news-col{{ flex:1 1 0; min-width:0; border-left:1px solid rgba(0,0,0,.18); padding-left:16px; }}
+  .news-clip .news-cols{{ display:flex; gap:26px; }}
+  .news-clip .news-col{{ flex:1 1 0; min-width:0; border-left:1px solid rgba(0,0,0,.18); padding-left:23px; }}
   .news-clip .news-col:first-child{{ border-left:none; padding-left:0; }}
   .news-clip .news-heading{{
-    font-size:14.5px; font-weight:bold; line-height:1.15; margin-bottom:6px;
-    font-variant:small-caps; letter-spacing:.02em; border-bottom:1px solid rgba(36,31,22,.25); padding-bottom:4px;
+    font-size:20px; font-weight:bold; line-height:1.15; margin-bottom:9px;
+    font-variant:small-caps; letter-spacing:.02em; border-bottom:1px solid rgba(36,31,22,.25); padding-bottom:6px;
   }}
-  .news-clip .news-body p{{ font-size:10.5px; line-height:1.42; margin:0 0 7px; text-align:justify; }}
-  .news-clip .news-body p:first-letter{{ font-size:1.7em; font-weight:bold; float:left; line-height:.8; padding-right:2px; }}
-  .news-clip .news-link{{ font-family:'Segoe UI', Tahoma, sans-serif; font-size:10px; color:#8a2f22; text-decoration:none; font-weight:bold; }}
+  .news-clip .news-body p{{ font-size:14px; line-height:1.42; margin:0 0 9px; text-align:justify; }}
+  .news-clip .news-body p:first-letter{{ font-size:1.7em; font-weight:bold; float:left; line-height:.8; padding-right:3px; }}
+  .news-clip .news-link{{ font-family:'Segoe UI', Tahoma, sans-serif; font-size:13px; color:#8a2f22; text-decoration:none; font-weight:bold; }}
   .news-clip .news-link:hover{{ text-decoration:underline; }}
   .noimg{{ color:#999; font-size:10px; padding:20px 0; }}
   .tag{{ font-size:8.5px; color:#8a7a5c; margin-top:5px; text-transform:uppercase; letter-spacing:.02em; }}
@@ -442,11 +442,11 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     font-size:8.5px; color:#4a3d28; letter-spacing:.2px;
   }}
   .doodle-stamp{{
-    z-index:2; width:fit-content; padding:7px 13px;
-    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:14px;
-    letter-spacing:2px; text-transform:uppercase; color:#a8281e;
-    border:3px solid #a8281e; outline:1px solid #a8281e; outline-offset:3px;
-    border-radius:1px;
+    z-index:4; width:fit-content; padding:8px 15px;
+    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:17px;
+    letter-spacing:2.2px; text-transform:uppercase; color:#a8281e;
+    border:5px solid #a8281e; outline:2px solid #a8281e; outline-offset:4px;
+    border-radius:1px; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.5));
     background-image:
       radial-gradient(circle at 12% 22%, rgba(255,255,255,.6) .7px, transparent 1.3px),
       radial-gradient(circle at 68% 12%, rgba(255,255,255,.55) .6px, transparent 1.1px),
@@ -462,7 +462,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   }}
   .doodle-stamp.stamp-captured{{ color:#8a4a1c; border-color:#8a4a1c; outline-color:#8a4a1c; }}
   .doodle-stamp.stamp-dead{{ color:#6b1e18; border-color:#6b1e18; outline-color:#6b1e18; }}
-  .doodle-cross{{ z-index:2; width:36px; height:44px; }}
+  .doodle-cross{{ z-index:4; width:34px; height:42px; }}
   .doodle-cross svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.65)); }}
   .gaster-vignette{{
     z-index:0; border-radius:50%; filter:blur(2px);

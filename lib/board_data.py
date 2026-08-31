@@ -249,7 +249,9 @@ DEAD_STAMP_NIDS = {"g_flowery"}                                      # Flowery: 
 _STAMP_TXT = {
     "missing":  {"es": "DESAPARECIDO", "en": "MISSING"},
     "captured": {"es": "CAPTURADO", "en": "CAPTURED"},
-    "dead":     {"es": "MUERTO", "en": "DEAD"},
+    # Flowery: no es una muerte confirmada, es una teoria -- el sello lleva
+    # interrogacion en vez de darlo por hecho.
+    "dead":     {"es": "¿MUERTO?", "en": "DEAD?"},
 }
 FEMININE_NIDS = {"g6", "g_undyne"}  # Dess, Undyne: en español el sello concuerda en genero
 
@@ -258,7 +260,9 @@ def _stamp_text(kind, nid, lang):
     if lang == "en":
         return _STAMP_TXT[kind]["en"]
     base = _STAMP_TXT[kind]["es"]
-    return base[:-1] + "A" if nid in FEMININE_NIDS else base
+    if kind != "dead" and nid in FEMININE_NIDS:
+        return base[:-1] + "A"
+    return base
 
 
 def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Sprites/"):
@@ -315,6 +319,17 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
                 fallback = (left, top)
         return fallback
 
+    def on_card(it, box_w, box_h, y_bias=-0.22):
+        """Centra una decoracion ENCIMA de la propia tarjeta -- como un
+        sello estampado sobre la foto, o un pin clavado en ella -- en vez
+        de dejarla junto al borde. Se usa para los sellos y la cruz: contra
+        el corcho oscuro no se leian, pero sobre el fondo claro de la nota
+        sí. y_bias<0 la sube hacia la zona de la imagen, para no tapar el
+        titulo/resumen de abajo."""
+        ox, oy = it["px"], it["py"]
+        halfh = it.get("_render_h", 150) / 2
+        return ox - box_w / 2, oy + halfh * y_bias - box_h / 2
+
     # ---- Cristal Oscuro: foto del objeto pegada al borde de cada jefe que
     #      lo suelta (a la derecha por defecto; a otro lado si ahi choca
     #      con una tarjeta vecina) ----
@@ -334,67 +349,64 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             f'<img src="{crystal_src}" alt="" loading="lazy"><span class="cap">{html.escape(crystal_cap)}</span></div>'
         )
 
-    # ---- Desaparecidos / no vistos aun: sello rojo, pegado al borde
-    #      izquierdo (abajo de la esquina del pin). Puede rozar/tapar un
-    #      poco la tarjeta -- es un sello, se admite que pise el borde. ----
-    STAMP_BOX = (108, 34)
+    # ---- Desaparecidos / no vistos aun: sello rojo, ESTAMPADO encima de la
+    #      propia foto de la tarjeta -- contra el corcho no se leia, pero
+    #      sobre el fondo claro de la nota sí destaca. ----
+    STAMP_BOX = (118, 38)
     for nid in MISSING_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"missing-{nid}")
-        left, top = attach(it, "l-top", *STAMP_BOX)
-        rot = rng.uniform(-14, 14)
+        left, top = on_card(it, *STAMP_BOX)
+        rot = rng.uniform(-22, -12)
         txt = _stamp_text("missing", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-missing" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Capturados por el Caballero: mismo enganche que "desaparecido" ----
+    # ---- Capturados por el Caballero: mismo estampado que "desaparecido" ----
     for nid in CAPTURED_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"captured-{nid}")
-        left, top = attach(it, "l-top", *STAMP_BOX)
-        rot = rng.uniform(-14, 14)
+        left, top = on_card(it, *STAMP_BOX)
+        rot = rng.uniform(-22, -12)
         txt = _stamp_text("captured", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-captured" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Muerto (Gerson): cruz de tumba pegada al borde izquierdo (abajo)
-    #      -- en el lado opuesto al posit del Cristal Oscuro para que en
-    #      Gerson no se pisen entre si. Piedra clara con borde oscuro y
-    #      montoncito de tierra debajo para que se note bien sobre el corcho
-    #      oscuro (antes era marron sobre marron y se perdia). ----
-    CROSS_BOX = (36, 44)
-    CROSS_SIDES = ["l-bottom", "r-bottom", "l-top", "r-top"]
+    # ---- Muerto (Gerson): cruz clavada encima de la propia foto, como un
+    #      pin mas -- contra el corcho oscuro no se veia (marron sobre
+    #      marron); sobre la tarjeta sí destaca. ----
+    CROSS_BOX = (34, 42)
     for nid in DEAD_CROSS_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"cross-{nid}")
-        left, top = attach_clear(it, CROSS_SIDES, *CROSS_BOX)
+        left, top = on_card(it, *CROSS_BOX, y_bias=-0.15)
         rot = rng.uniform(-10, 10)
         out.append(
             f'<div class="doodle doodle-cross" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
             f'<svg viewBox="0 0 26 32">'
-            f'<ellipse cx="13" cy="29" rx="11" ry="3" fill="#0c0a06" opacity=".55"/>'
             f'<rect x="10.3" y="2" width="5.4" height="24" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
             f'<rect x="2" y="9.5" width="22" height="5.4" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
             f'</svg></div>'
         )
 
-    # ---- Muerto (Flowery): sello de "MUERTO" -- no lleva cruz de tumba
-    #      porque es una flor, no una lapida ----
+    # ---- Muerto (Flowery): sello de "¿MUERTO?" -- no lleva cruz de tumba
+    #      porque es una flor, no una lapida; y lleva interrogacion porque
+    #      es teoria, no un hecho confirmado ----
     for nid in DEAD_STAMP_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"dead-{nid}")
-        left, top = attach(it, "l-top", *STAMP_BOX)
-        rot = rng.uniform(-14, 14)
+        left, top = on_card(it, *STAMP_BOX)
+        rot = rng.uniform(-22, -12)
         txt = _stamp_text("dead", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-dead" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
