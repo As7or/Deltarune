@@ -973,13 +973,17 @@ PAGE_CSS_DARKNER = '''
   .callout::after{ bottom:0; }
   .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#c9a0f0; }
   .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#e6dcf4; }
-  .callout-info{ background:linear-gradient(155deg,#2a3a6a,#161f38); }
-  .callout-tip{ background:linear-gradient(155deg,#2a5a5a,#163030); }
-  .callout-example{ background:linear-gradient(155deg,#453576,#241a45); }
-  .callout-danger{ background:linear-gradient(155deg,#6b1a3a,#3c0e20); }
-  .callout-quote{ background:linear-gradient(155deg,#5a2a7a,#301645); }
-  .callout-question{ background:linear-gradient(155deg,#4a3a6a,#241e38); }
-  .callout-counter{ background:linear-gradient(155deg,#6a3a8a,#3a1e4c); }
+  /* Cada tipo conserva su color propio de siempre (el mismo que en el resto
+     de temas: azul info, verde tip/personalidad, amarillo question/teorias,
+     naranja counter...) pero difuminado en degradado hacia el tono violeta
+     del negativo, en vez de ir todo al mismo morado plano. */
+  .callout-info{ background:linear-gradient(155deg, rgba(58,123,213,0.42) 0%, rgba(20,13,41,0.78) 100%); }
+  .callout-tip{ background:linear-gradient(155deg, rgba(46,139,87,0.42) 0%, rgba(20,13,41,0.78) 100%); }
+  .callout-example{ background:linear-gradient(155deg, rgba(138,106,58,0.42) 0%, rgba(20,13,41,0.78) 100%); }
+  .callout-danger{ background:linear-gradient(155deg, rgba(178,60,48,0.46) 0%, rgba(20,13,41,0.78) 100%); }
+  .callout-quote{ background:linear-gradient(155deg, rgba(107,63,160,0.5) 0%, rgba(20,13,41,0.78) 100%); }
+  .callout-question{ background:linear-gradient(155deg, rgba(201,152,46,0.46) 0%, rgba(20,13,41,0.78) 100%); }
+  .callout-counter{ background:linear-gradient(155deg, rgba(217,114,42,0.48) 0%, rgba(20,13,41,0.78) 100%); }
   .callout .callout{ margin:16px 8px 8px; box-shadow:0 4px 16px rgba(0,0,0,0.55); }
 
   .wikilink{ color:#c9a0f0; border-bottom:1px dotted #c9a0f0; text-decoration:none; cursor:pointer; }
