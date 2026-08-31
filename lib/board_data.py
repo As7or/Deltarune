@@ -4,7 +4,7 @@ Lee el canvas principal (00 Corcho Principal.canvas) y genera:
   - las conexiones entre ellos (edges)
   - el HTML de las tarjetas del corcho, listo para insertar en la plantilla
 """
-import json, os, re, html, random, urllib.parse, unicodedata, subprocess, tempfile
+import json, os, re, html, random, math, urllib.parse, unicodedata, subprocess, tempfile
 
 def slugify(name):
     nfkd = unicodedata.normalize('NFKD', name)
@@ -213,117 +213,127 @@ EN_TITLE_OVERRIDES = {
 
 
 # ---------------------------------------------------------------------------
-# Decoracion ambiental del corcho principal: anotaciones a rotulador, circulos
-# organicos, post-its sueltos, manchas de cafe y chinchetas "perdidas"
-# esparcidas por los huecos del tablero, para que se sienta mas vivo y menos
-# vacio. Puramente cosmetico (pointer-events:none) y determinista (semillas
-# fijas), asi que el resultado es estable entre builds mientras no cambien
-# las posiciones de los nodos.
+# Decoracion ambiental del corcho principal: SOLO dos cosas.
+#   1) El rincon de Gaster, convertido en un foco de paranoia: mas hilos rojos
+#      sueltos, arañazos, chinchetas sin nota, cinta rota y notas inquietantes.
+#   2) Un puñado de post-its con anotaciones REALES de investigador, ancladas
+#      a los nodos con el gancho de teoria mas jugoso -- no relleno generico.
+# Puramente cosmetico (pointer-events:none) y determinista (semillas fijas),
+# asi que el resultado es estable entre builds mientras no cambien las
+# posiciones de los nodos.
 # ---------------------------------------------------------------------------
-DOODLE_PHRASES = {
-    "es": [
-        "¿y si no es casualidad?", "revisar esto otra vez", "no encaja del todo...",
-        "¿quién más lo sabe?", "esto lo cambia todo", "falta una pieza",
-        "¿coincidencia? no lo creo", "seguir este hilo", "comprobar con el canvas original",
-        "demasiadas pistas sueltas", "todo apunta a lo mismo", "releer la teoría",
-    ],
-    "en": [
-        "what if it's not a coincidence?", "double-check this", "doesn't quite add up...",
-        "who else knows?", "this changes everything", "missing piece",
-        "coincidence? don't think so", "follow this thread", "check against the source",
-        "too many loose threads", "it all points to the same thing", "reread the theory",
-    ],
-}
-GASTER_PHRASES = {
-    "es": ["¿nos está observando?", "no dejéis de investigar", "¿y si es él?", "¿quién es realmente?", "algo no cuadra aquí"],
-    "en": ["is he watching us?", "keep digging", "what if it's him?", "who is he, really?", "something's off here"],
+# Citas reales asociadas a Gaster/Undertale, tal cual aparecen en el juego
+# (en ingles en las dos versiones del sitio -- es el "codigo" que los fans
+# descifran, la traduccion solo va en el tooltip). "text" se muestra en
+# Wingdings; "gloss" es lo que se lee al pasar el raton por encima.
+GASTER_QUOTES = [
+    {"text": "Entry Number 17", "gloss_es": "17ª entrada de Gaster", "gloss_en": "Gaster's 17th entry"},
+    {"text": "Don't forget.", "gloss_es": "no lo olvides", "gloss_en": "don't forget"},
+    {"text": "Darker yet darker...", "gloss_es": "cada vez más oscuro...", "gloss_en": "darker yet darker..."},
+    {"text": "Entry Number 20", "gloss_es": "20ª entrada de Gaster", "gloss_en": "Gaster's 20th entry"},
+]
+
+# nid -> (texto ES, texto EN). Un comentario de investigador de verdad, no una
+# frase generica: cada uno apunta a un gancho de teoria concreto de esa nota.
+INSIGHT_NOTES = {
+    "g0":            ("¿dónde está su ALMA?", "where's his SOUL?"),
+    "g7":            ("mismo pelo que Dess...", "same hair as Dess..."),
+    "g9":            ("¿quién es el sacrificio?", "who's the sacrifice?"),
+    "g_huevo":       ("solo Kris lo recuerda. ¿por qué?", "only Kris remembers it. why?"),
+    "g_titan":       ("¿el Rugido es él... o algo peor?", "is the Roar him... or worse?"),
+    "g_fuentes":     ("nadie las abrió. ¿entonces cómo?", "nobody opened them. so how?"),
+    "g2":            ("una cabra que jura no serlo", "a goat that swears it isn't one"),
+    "g_jevil":       ("sabe cosas que no debería saber", "knows things he shouldn't know"),
+    "g16":           ("demasiado sin resolver aquí", "too much left unresolved here"),
 }
 
 def _build_board_decorations(items, board_w, board_h, lang):
-    phrases = DOODLE_PHRASES.get(lang, DOODLE_PHRASES["es"])
-    gaster_phrases = GASTER_PHRASES.get(lang, GASTER_PHRASES["es"])
+    by_id = {it["id"]: it for it in items}
     node_pts = [(it["px"], it["py"]) for it in items]
-
-    rng = random.Random("board-decor-v1")
-    candidates = []
-    step = 235
-    y = 150
-    while y < board_h - 150:
-        row_offset = rng.uniform(-50, 50)
-        x = 150
-        while x < board_w - 150:
-            jx = x + row_offset + rng.uniform(-55, 55)
-            jy = y + rng.uniform(-55, 55)
-            candidates.append((jx, jy))
-            x += step
-        y += step
-    rng.shuffle(candidates)
-
-    def far_enough(p, chosen, min_node=170, min_between=205):
-        for (nx, ny) in node_pts:
-            if (p[0] - nx) ** 2 + (p[1] - ny) ** 2 < min_node ** 2:
-                return False
-        for (cx, cy) in chosen:
-            if (p[0] - cx) ** 2 + (p[1] - cy) ** 2 < min_between ** 2:
-                return False
-        return True
-
-    chosen = []
-    for p in candidates:
-        if len(chosen) >= 22:
-            break
-        if far_enough(p, chosen):
-            chosen.append(p)
-
-    kinds = (["circle", "arrow", "note", "stain", "pin"] * 6)
     out = []
-    phrase_i = 0
-    for i, (x, y) in enumerate(chosen):
-        seed = random.Random(f"decor-{i}")
-        kind = kinds[i % len(kinds)]
-        rot = seed.uniform(-18, 18)
-        if kind == "circle":
-            size = seed.randint(80, 150)
-            h = size * seed.uniform(.72, .95)
-            ink = "ink-red" if seed.random() < 0.4 else "ink-black"
-            out.append(f'<div class="doodle doodle-circle {ink}" style="left:{x-size/2:.0f}px; top:{y-h/2:.0f}px; width:{size}px; height:{h:.0f}px; transform:rotate({rot:.1f}deg);"></div>')
-        elif kind == "arrow":
-            length = seed.randint(70, 150)
-            ink = "ink-red" if seed.random() < 0.35 else "ink-black"
-            out.append(f'<div class="doodle doodle-arrow {ink}" style="left:{x:.0f}px; top:{y:.0f}px; width:{length}px; transform:rotate({rot*2:.1f}deg);"></div>')
-        elif kind == "note":
-            phrase = phrases[phrase_i % len(phrases)]; phrase_i += 1
-            bg = seed.choice(["#fff7c4", "#ffd9d9", "#d9ecff", "#e2ffd9"])
-            tape = seed.random() < 0.5
-            out.append(f'<div class="doodle doodle-note{" tape" if tape else ""}" style="left:{x:.0f}px; top:{y:.0f}px; background:{bg}; transform:rotate({rot*0.6:.1f}deg);">{html.escape(phrase)}</div>')
-        elif kind == "stain":
-            size = seed.randint(110, 200)
-            out.append(f'<div class="doodle doodle-stain" style="left:{x-size/2:.0f}px; top:{y-size/2:.0f}px; width:{size}px; height:{size}px;"></div>')
-        else:
-            out.append(f'<div class="doodle doodle-pin-lone" style="left:{x:.0f}px; top:{y:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
 
-    # ---- Rincon de Gaster: mas deteriorado, mas paranoico ----
+    # ---- Post-its de investigador: solo en los nodos mas jugosos ----
+    inote_i = 0
+    for nid, (txt_es, txt_en) in INSIGHT_NOTES.items():
+        it = by_id.get(nid)
+        if not it:
+            continue
+        text = txt_es if lang != "en" else txt_en
+        nx0, ny0 = it["px"], it["py"]
+        irng = random.Random(f"insight-{nid}")
+        placed = None
+        for _try in range(6):
+            ang_deg = irng.uniform(0, 360)
+            dist = irng.uniform(130, 175)
+            dx = math.cos(math.radians(ang_deg)) * dist
+            dy = math.sin(math.radians(ang_deg)) * dist
+            cand = (nx0 + dx, ny0 + dy)
+            ok = all((cand[0]-px)**2 + (cand[1]-py)**2 > 150**2 for (px, py) in node_pts)
+            if ok:
+                placed = cand
+                break
+        if not placed:
+            placed = (nx0 + 150, ny0 - 150)
+        px, py = placed
+        bg = irng.choice(["#fff7c4", "#ffd9d9", "#d9ecff", "#e2ffd9"])
+        tape = irng.random() < 0.4
+        rot = irng.uniform(-9, 9)
+        out.append(
+            f'<div class="doodle doodle-note insight-note{" tape" if tape else ""}" '
+            f'style="left:{px:.0f}px; top:{py:.0f}px; background:{bg}; transform:rotate({rot:.1f}deg);">'
+            f'{html.escape(text)}</div>'
+        )
+        inote_i += 1
+
+    # ---- Rincon de Gaster: foco de paranoia y deterioro ----
     gaster_it = next((it for it in items if it["label"] == "Gaster (W. D. Gaster)"), None)
     if gaster_it:
         gx, gy = gaster_it["px"], gaster_it["py"]
-        grng = random.Random("gaster-paranoia-v1")
-        vw, vh = 640, 500
+        grng = random.Random("gaster-paranoia-v2")
+        vw, vh = 760, 600
         out.append(f'<div class="doodle gaster-vignette" style="left:{gx-vw/2:.0f}px; top:{gy-vh/2:.0f}px; width:{vw}px; height:{vh}px;"></div>')
-        for i in range(5):
+
+        # hilos rojos disparados en todas direcciones, mas densos que antes
+        for i in range(10):
             ang = grng.uniform(0, 360)
-            length = grng.randint(90, 190)
+            length = grng.randint(80, 220)
             out.append(f'<div class="doodle doodle-arrow ink-red gaster-string" style="left:{gx:.0f}px; top:{gy:.0f}px; width:{length}px; transform:rotate({ang:.1f}deg);"></div>')
-        gp_i = 0
+
+        # arañazos frenéticos agrupados (deterioro)
+        scratch_base = grng.uniform(0, 360)
+        scratch_dist = grng.randint(70, 130)
+        sang = math.radians(grng.uniform(0, 360))
+        scx = gx + math.cos(sang) * scratch_dist
+        scy = gy + math.sin(sang) * scratch_dist
         for i in range(3):
-            dx = grng.choice([-1, 1]) * grng.randint(110, 230)
-            dy = grng.choice([-1, 1]) * grng.randint(120, 210)
+            out.append(f'<div class="doodle gaster-scratch" style="left:{scx:.0f}px; top:{scy+i*7:.0f}px; width:64px; transform:rotate({scratch_base+i*4:.1f}deg);"></div>')
+
+        # cinta rota / resto de recorte arrancado
+        tdx = grng.choice([-1, 1]) * grng.randint(150, 260)
+        tdy = grng.choice([-1, 1]) * grng.randint(60, 140)
+        out.append(f'<div class="doodle gaster-tape" style="left:{gx+tdx:.0f}px; top:{gy+tdy:.0f}px; transform:rotate({grng.uniform(-30,30):.1f}deg);"></div>')
+
+        # chinchetas muertas (sin nota, hilo cortado)
+        for i in range(4):
+            dx = grng.choice([-1, 1]) * grng.randint(140, 260)
+            dy = grng.choice([-1, 1]) * grng.randint(130, 230)
+            out.append(f'<div class="doodle doodle-pin-lone" style="left:{gx+dx:.0f}px; top:{gy+dy:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
+
+        # notas de Gaster: citas reales del juego, en Wingdings, como
+        # negativos pegados con celo o chincheta (la traduccion solo sale
+        # al pasar el raton por encima, como un mensaje cifrado de verdad)
+        for i, q in enumerate(GASTER_QUOTES):
+            dx = grng.choice([-1, 1]) * grng.randint(120, 260)
+            dy = grng.choice([-1, 1]) * grng.randint(130, 240)
             nx, ny = gx + dx, gy + dy
-            if i < len(gaster_phrases) and grng.random() < 0.8:
-                phrase = gaster_phrases[gp_i % len(gaster_phrases)]; gp_i += 1
-                rot = grng.uniform(-14, 14)
-                out.append(f'<div class="doodle doodle-note gaster-note" style="left:{nx:.0f}px; top:{ny:.0f}px; transform:rotate({rot:.1f}deg);">{html.escape(phrase)}</div>')
-            else:
-                out.append(f'<div class="doodle doodle-pin-lone" style="left:{nx:.0f}px; top:{ny:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
+            rot = grng.uniform(-16, 16)
+            gloss = q["gloss_es"] if lang != "en" else q["gloss_en"]
+            tape = grng.random() < 0.5
+            out.append(
+                f'<div class="doodle doodle-note gaster-note{" tape" if tape else ""}" '
+                f'style="left:{nx:.0f}px; top:{ny:.0f}px; transform:rotate({rot:.1f}deg);" '
+                f'title="{html.escape(gloss)}">{html.escape(q["text"])}</div>'
+            )
 
     return "\n".join(out)
 
@@ -546,11 +556,22 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
     </div>
   </div>''')
         else:
+            # Por categoria (segun el tag "mundo" tecleado en el canvas, no el
+            # color crudo -- Titan es un caso donde no coinciden): los
+            # Lightner se quedan con la tarjeta clasica; los Darkner pasan a
+            # verse como un negativo fotografico; las Plantas, como papel
+            # vegetal traslucido. Lugares y Temas ya con tema propio no pasan
+            # por aqui.
+            extra_card_cls = ""
+            if "Darkner" in it["tag"]:
+                extra_card_cls = " darkner-card"
+            elif "Planta" in it["tag"]:
+                extra_card_cls = " planta-card"
             node_html.append(f'''
   <div class="node" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
-    <div class="card" style="border-top:5px solid {it['color']};">
+    <div class="card{extra_card_cls}" style="border-top:5px solid {it['color']};">
       <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
       <div class="tag">{tag}</div>
       <div class="title">{title}</div>

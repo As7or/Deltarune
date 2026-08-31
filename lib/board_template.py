@@ -331,17 +331,9 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-gaster .title{{ position:relative; z-index:2; color:#2c2c24; }}
   .node-gaster .summary{{ position:relative; z-index:2; color:#4a4a40; }}
 
-  /* ---- Decoracion ambiental: anotaciones a rotulador, circulos organicos,
-     post-its sueltos y chinchetas dispersas por el corcho ---- */
+  /* ---- Decoracion ambiental: solo post-its de investigador con contenido
+     real, y el rincon de Gaster convertido en foco de paranoia ---- */
   .doodle{{ position:absolute; pointer-events:none; }}
-  .doodle-circle{{
-    z-index:1; box-sizing:border-box;
-    border:3.5px solid rgba(40,32,24,.62);
-    background: rgba(40,32,24,.05);
-    border-radius: 46% 54% 42% 58% / 55% 45% 58% 42%;
-    filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
-  }}
-  .doodle-circle.ink-red{{ border-color: rgba(190,66,52,.68); background: rgba(190,66,52,.06); }}
   .doodle-arrow{{
     z-index:1; height:3.5px; border-radius:2px; transform-origin:0 50%;
     background: linear-gradient(90deg, transparent 0%, rgba(40,32,24,.65) 18%, rgba(40,32,24,.65) 100%);
@@ -371,23 +363,69 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     background:linear-gradient(rgba(255,255,255,.6), rgba(240,240,235,.4));
     box-shadow:0 1px 2px rgba(0,0,0,.25);
   }}
-  .doodle-note.gaster-note{{ background:#d9d6c9; color:#2c2c24; }}
-  .doodle-stain{{
-    z-index:1; border-radius:50%;
-    background:radial-gradient(circle, transparent 48%, rgba(225,195,145,.16) 54%, rgba(225,195,145,.24) 60%, rgba(225,195,145,.08) 68%, transparent 76%);
+  .doodle-note.insight-note{{ font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:11px; }}
+  .doodle-note.gaster-note{{
+    font-family:'Wingdings','Wingdings 2','Wingdings 3',sans-serif;
+    font-size:15px; letter-spacing:1px; line-height:1.4; text-align:center;
+    background: linear-gradient(155deg, #2e2138 0%, #170f1c 100%);
+    color:#e7d8f2; cursor:help; pointer-events:auto;
+    box-shadow:2px 5px 10px rgba(0,0,0,.5), inset 0 0 14px rgba(140,60,25,.3);
   }}
   .doodle-pin-lone{{ z-index:2; width:13px; height:13px; }}
   .doodle-pin-lone svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 2px 1px rgba(0,0,0,.4)); }}
   .gaster-vignette{{
     z-index:0; border-radius:50%; filter:blur(2px);
-    background:radial-gradient(ellipse, rgba(8,6,5,.6) 0%, rgba(8,6,5,.32) 45%, transparent 72%);
+    background:radial-gradient(ellipse, rgba(8,6,5,.68) 0%, rgba(8,6,5,.38) 42%, transparent 72%);
   }}
   .doodle-arrow.gaster-string{{
     height:5px !important;
-    background: repeating-linear-gradient(90deg, rgba(190,66,52,.78) 0 9px, transparent 9px 15px) !important;
+    background: repeating-linear-gradient(90deg, rgba(190,66,52,.8) 0 9px, transparent 9px 15px) !important;
     filter:none;
   }}
   .doodle-arrow.gaster-string::after{{ display:none; }}
+  .gaster-scratch{{
+    z-index:1; height:2px; border-radius:1px; transform-origin:0 50%;
+    background: linear-gradient(90deg, transparent 0%, rgba(15,11,8,.55) 15%, rgba(15,11,8,.55) 100%);
+  }}
+  .gaster-tape{{
+    z-index:2; width:64px; height:20px; border-radius:1px;
+    background:linear-gradient(rgba(255,255,255,.5), rgba(235,235,225,.3));
+    box-shadow:0 1px 3px rgba(0,0,0,.4);
+    clip-path: polygon(0% 15%, 8% 0%, 92% 4%, 100% 20%, 96% 55%, 100% 82%, 90% 100%, 15% 96%, 0% 78%, 6% 45%);
+  }}
+
+  /* ---- Darkner (categoria): la tarjeta se ve como un negativo fotografico ---- */
+  .darkner-card{{
+    position:relative; overflow:hidden;
+    background: linear-gradient(155deg, #241c2c 0%, #170f1c 100%);
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 16px rgba(0,0,0,.5);
+  }}
+  .darkner-card::after{{
+    content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+    background:rgba(140,60,25,.16); mix-blend-mode:multiply;
+  }}
+  .darkner-card .thumb{{ background-color:#170f1c; position:relative; z-index:0; }}
+  .darkner-card .thumb img{{ filter: invert(1) hue-rotate(180deg) saturate(1.15) contrast(1.05); }}
+  .darkner-card .tag{{ position:relative; z-index:2; color:#c9a8e0; }}
+  .darkner-card .title{{ position:relative; z-index:2; color:#f0e6f7; }}
+  .darkner-card .summary{{ position:relative; z-index:2; color:#c3b6cf; }}
+
+  /* ---- Planta (categoria): tarjeta de papel vegetal traslucido ---- */
+  .planta-card{{
+    position:relative; overflow:hidden;
+    background: linear-gradient(160deg, rgba(233,240,222,.93) 0%, rgba(206,222,193,.88) 100%);
+    box-shadow:2px 5px 9px rgba(0,0,0,.32), inset 0 0 18px rgba(255,255,255,.5);
+  }}
+  .planta-card::before{{
+    content:""; position:absolute; inset:0; z-index:1; pointer-events:none; opacity:.55;
+    background:
+      repeating-linear-gradient(96deg, rgba(255,255,255,.3) 0 1px, transparent 1px 6px),
+      repeating-linear-gradient(8deg, rgba(110,130,80,.07) 0 2px, transparent 2px 10px);
+  }}
+  .planta-card .thumb{{ background:transparent; position:relative; z-index:0; mix-blend-mode:multiply; }}
+  .planta-card .tag{{ position:relative; z-index:2; color:#4a6b3a; }}
+  .planta-card .title{{ position:relative; z-index:2; color:#2f4a24; }}
+  .planta-card .summary{{ position:relative; z-index:2; color:#4a5f3e; }}
 
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }}
