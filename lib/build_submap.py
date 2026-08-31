@@ -734,7 +734,7 @@ def build_submap(canvas_path, title_name, lang="es"):
     }
     PLANTA_STEMS = {"7 Flores de Colores", "Flowery"}
     FRIEND_STEMS = {"FRIEND"}
-    FORGOTTEN_STEMS = {"Forgotten Man", "Huevo"}
+    FORGOTTEN_STEMS = {"Forgotten Man", "Huevo", "Everyman"}
     RUTAS_STEMS = {"Rutas"}
     # Si el propio centro del submapa es una de esas 6 notas especiales, todo
     # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).

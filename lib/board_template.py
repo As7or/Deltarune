@@ -417,7 +417,6 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     background:linear-gradient(rgba(255,255,255,.6), rgba(240,240,235,.4));
     box-shadow:0 1px 2px rgba(0,0,0,.25);
   }}
-  .doodle-note.insight-note{{ font-family:Georgia,'Times New Roman',serif; font-style:italic; font-size:11px; }}
   .doodle-note.gaster-note{{
     font-family:'Wingdings','Wingdings 2','Wingdings 3',sans-serif;
     font-size:15px; letter-spacing:1px; line-height:1.4; text-align:center;
@@ -427,6 +426,31 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   }}
   .doodle-pin-lone{{ z-index:2; width:13px; height:13px; }}
   .doodle-pin-lone svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 2px 1px rgba(0,0,0,.4)); }}
+
+  /* ---- Posits de estado narrativo: foto del Cristal Oscuro, sellos de
+     desaparecido/capturado, cruz del que ya ha muerto ---- */
+  .doodle-note.item-photo{{
+    background:#f2ead6; padding:6px 6px 17px; max-width:70px; text-align:center;
+  }}
+  .doodle-note.item-photo img{{
+    width:100%; height:46px; object-fit:contain; display:block;
+    filter:drop-shadow(0 1px 2px rgba(0,0,0,.35));
+  }}
+  .doodle-note.item-photo .cap{{
+    position:absolute; left:2px; right:2px; bottom:4px;
+    font-family:'Segoe Print','Comic Sans MS',cursive,sans-serif;
+    font-size:8.5px; color:#4a3d28; letter-spacing:.2px;
+  }}
+  .doodle-stamp{{
+    z-index:2; padding:5px 10px; border:3px solid rgba(178,40,30,.82); border-radius:3px;
+    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:13px;
+    letter-spacing:1.5px; color:rgba(178,40,30,.88); background:rgba(255,255,255,.05);
+    text-transform:uppercase; mix-blend-mode:multiply;
+    text-shadow:0 0 1px rgba(178,40,30,.35);
+  }}
+  .doodle-stamp.stamp-captured{{ border-color:rgba(168,84,28,.85); color:rgba(168,84,28,.9); }}
+  .doodle-cross{{ z-index:2; width:24px; height:30px; }}
+  .doodle-cross svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 3px 2px rgba(0,0,0,.4)); }}
   .gaster-vignette{{
     z-index:0; border-radius:50%; filter:blur(2px);
     background:radial-gradient(ellipse, rgba(8,6,5,.68) 0%, rgba(8,6,5,.38) 42%, transparent 72%);

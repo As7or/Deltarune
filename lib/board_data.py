@@ -216,11 +216,11 @@ EN_TITLE_OVERRIDES = {
 
 
 # ---------------------------------------------------------------------------
-# Decoracion ambiental del corcho principal: SOLO dos cosas.
+# Decoracion ambiental del corcho principal:
 #   1) El rincon de Gaster, convertido en un foco de paranoia: mas hilos rojos
 #      sueltos, arañazos, chinchetas sin nota, cinta rota y notas inquietantes.
-#   2) Un puñado de post-its con anotaciones REALES de investigador, ancladas
-#      a los nodos con el gancho de teoria mas jugoso -- no relleno generico.
+#   2) Posits/sellos de estado narrativo (Cristal Oscuro, desaparecido,
+#      capturado, muerto) anclados junto al nodo correspondiente.
 # Puramente cosmetico (pointer-events:none) y determinista (semillas fijas),
 # asi que el resultado es estable entre builds mientras no cambien las
 # posiciones de los nodos.
@@ -236,57 +236,100 @@ GASTER_QUOTES = [
     {"text": "Entry Number 20", "gloss_es": "Entrada 20", "gloss_en": "Entry 20"},
 ]
 
-# nid -> (texto ES, texto EN). Un comentario de investigador de verdad, no una
-# frase generica: cada uno apunta a un gancho de teoria concreto de esa nota.
-INSIGHT_NOTES = {
-    "g0":            ("¿dónde está su ALMA?", "where's his SOUL?"),
-    "g7":            ("mismo pelo que Dess...", "same hair as Dess..."),
-    "g9":            ("¿quién es el sacrificio?", "who's the sacrifice?"),
-    "g_huevo":       ("solo Kris lo recuerda. ¿por qué?", "only Kris remembers it. why?"),
-    "g_titan":       ("¿el Rugido es él... o algo peor?", "is the Roar him... or worse?"),
-    "g_fuentes":     ("nadie las abrió. ¿entonces cómo?", "nobody opened them. so how?"),
-    "g2":            ("una cabra que jura no serlo", "a goat that swears it isn't one"),
-    "g_jevil":       ("sabe cosas que no debería saber", "knows things he shouldn't know"),
-    "g16":           ("demasiado sin resolver aquí", "too much left unresolved here"),
+# Posits de estado narrativo: en vez de los comentarios de investigador
+# genericos (retirados por ahora, solo se queda el rincon de Gaster), cada
+# personaje en un estado narrativo concreto lleva un posit/sello que lo dice
+# directamente. Anclados junto al nodo, nunca encima de la tarjeta.
+DARK_CRYSTAL_NIDS = {"g_jevil", "g12", "g7", "g_gerson", "g_pink"}   # Jevil, Spamton, Roaring Knight, Gerson Boom, Mad Mew Mew (Pink): los 5 jefes que sueltan un Cristal Oscuro
+MISSING_NIDS = {"g_papyrus", "g13", "g6"}                            # Papyrus (nunca visto), Asriel, Dess: desaparecidos o aun no vistos
+CAPTURED_NIDS = {"g21", "g_undyne"}                                  # Asgore, Undyne: capturados por el Caballero
+DEAD_CROSS_NIDS = {"g_gerson"}                                       # Gerson Boom: el unico portador de Cristal que ya esta muerto
+
+_STAMP_TXT = {
+    "missing":  {"es": "DESAPARECIDO", "en": "MISSING"},
+    "captured": {"es": "CAPTURADO", "en": "CAPTURED"},
 }
 
-def _build_board_decorations(items, board_w, board_h, lang):
+
+def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Sprites/"):
     by_id = {it["id"]: it for it in items}
     node_pts = [(it["px"], it["py"]) for it in items]
     out = []
 
-    # ---- Post-its de investigador: solo en los nodos mas jugosos ----
-    inote_i = 0
-    for nid, (txt_es, txt_en) in INSIGHT_NOTES.items():
-        it = by_id.get(nid)
-        if not it:
-            continue
-        text = txt_es if lang != "en" else txt_en
-        nx0, ny0 = it["px"], it["py"]
-        irng = random.Random(f"insight-{nid}")
+    def place_near(ox, oy, seed, base_ang=None, dist_range=(120, 175), min_dist=150):
+        rng = random.Random(seed)
         placed = None
-        for _try in range(6):
-            ang_deg = irng.uniform(0, 360)
-            dist = irng.uniform(130, 175)
-            dx = math.cos(math.radians(ang_deg)) * dist
-            dy = math.sin(math.radians(ang_deg)) * dist
-            cand = (nx0 + dx, ny0 + dy)
-            ok = all((cand[0]-px)**2 + (cand[1]-py)**2 > 150**2 for (px, py) in node_pts)
-            if ok:
+        for _try in range(8):
+            ang = (base_ang + rng.uniform(-30, 30)) if base_ang is not None else rng.uniform(0, 360)
+            dist = rng.uniform(*dist_range)
+            cand = (ox + math.cos(math.radians(ang)) * dist, oy + math.sin(math.radians(ang)) * dist)
+            if all((cand[0]-px)**2 + (cand[1]-py)**2 > min_dist**2 for (px, py) in node_pts):
                 placed = cand
                 break
         if not placed:
-            placed = (nx0 + 150, ny0 - 150)
-        px, py = placed
-        bg = irng.choice(["#fff7c4", "#ffd9d9", "#d9ecff", "#e2ffd9"])
-        tape = irng.random() < 0.4
-        rot = irng.uniform(-9, 9)
+            base = base_ang if base_ang is not None else 0
+            placed = (ox + math.cos(math.radians(base)) * dist_range[1], oy + math.sin(math.radians(base)) * dist_range[1])
+        return placed, rng
+
+    # ---- Cristal Oscuro: foto del objeto junto a cada jefe que lo suelta ----
+    crystal_src = sprites_prefix + urllib.parse.quote("Shadow_Crystal_item.webp")
+    crystal_cap = "Shadow Crystal" if lang == "en" else "Cristal Oscuro"
+    for nid in DARK_CRYSTAL_NIDS:
+        it = by_id.get(nid)
+        if not it:
+            continue
+        ox, oy = it["px"], it["py"]
+        # Gerson tambien lleva la cruz de "muerto" -- la alejamos hacia arriba
+        # para que el posit del cristal y la cruz no se pisen entre si.
+        base_ang = 270 if nid in DEAD_CROSS_NIDS else None
+        (px, py), rng = place_near(ox, oy, f"crystal-{nid}", base_ang=base_ang)
+        rot = rng.uniform(-10, 10)
         out.append(
-            f'<div class="doodle doodle-note insight-note{" tape" if tape else ""}" '
-            f'style="left:{px:.0f}px; top:{py:.0f}px; background:{bg}; transform:rotate({rot:.1f}deg);">'
-            f'{html.escape(text)}</div>'
+            f'<div class="doodle doodle-note item-photo" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<img src="{crystal_src}" alt="" loading="lazy"><span class="cap">{html.escape(crystal_cap)}</span></div>'
         )
-        inote_i += 1
+
+    # ---- Desaparecidos / no vistos aun: sello rojo ----
+    for nid in MISSING_NIDS:
+        it = by_id.get(nid)
+        if not it:
+            continue
+        ox, oy = it["px"], it["py"]
+        # el sello es mas ancho que un post-it normal (palabra larga en
+        # mayusculas) -- mas distancia y radio de choque para que no invada
+        # ninguna tarjeta vecina.
+        (px, py), rng = place_near(ox, oy, f"missing-{nid}", dist_range=(195, 250), min_dist=210)
+        rot = rng.uniform(-18, 18)
+        txt = _STAMP_TXT["missing"]["en"] if lang == "en" else _STAMP_TXT["missing"]["es"]
+        out.append(
+            f'<div class="doodle doodle-stamp stamp-missing" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+        )
+
+    # ---- Capturados por el Caballero: sello ----
+    for nid in CAPTURED_NIDS:
+        it = by_id.get(nid)
+        if not it:
+            continue
+        ox, oy = it["px"], it["py"]
+        (px, py), rng = place_near(ox, oy, f"captured-{nid}", dist_range=(195, 250), min_dist=210)
+        rot = rng.uniform(-18, 18)
+        txt = _STAMP_TXT["captured"]["en"] if lang == "en" else _STAMP_TXT["captured"]["es"]
+        out.append(
+            f'<div class="doodle doodle-stamp stamp-captured" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+        )
+
+    # ---- Muerto: cruz de tumba ----
+    for nid in DEAD_CROSS_NIDS:
+        it = by_id.get(nid)
+        if not it:
+            continue
+        ox, oy = it["px"], it["py"]
+        (px, py), rng = place_near(ox, oy, f"cross-{nid}", base_ang=90)
+        rot = rng.uniform(-12, 12)
+        out.append(
+            f'<div class="doodle doodle-cross" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<svg viewBox="0 0 20 26"><rect x="8" y="1" width="4" height="24" rx="1" fill="#7a6a52"/><rect x="1" y="7" width="18" height="4" rx="1" fill="#7a6a52"/></svg></div>'
+        )
 
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----
     gaster_it = next((it for it in items if it["label"] == "Gaster (W. D. Gaster)"), None)
@@ -488,7 +531,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
       <div class="sheet">
         <div class="tear left t1"></div><div class="tear left t2"></div>
         <div class="tear right t1"></div><div class="tear right t2"></div>
-        <div class="{thumb_class}" style="height:{max(60,thumb_h*0.55):.0f}px;">{img_tag}</div>
+        <div class="{thumb_class}" style="height:{max(95,thumb_h*0.82):.0f}px;">{img_tag}</div>
         <div class="title">{title}</div>
         <div class="summary">{summary}</div>
       </div>
@@ -573,7 +616,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
       <div class="summary">{summary}</div>
     </div>
   </div>''')
-        elif it["label"] in ("Forgotten Man", "Huevo"):
+        elif it["label"] in ("Forgotten Man", "Huevo", "Everyman"):
             # Diseno "olvidado": foto vieja y desteñida en una caja polvorienta,
             # con telarana en la esquina y el borde inferior rasgado a mano.
             node_html.append(f'''
@@ -631,7 +674,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         for e in edges
     )
 
-    decorations_html = _build_board_decorations(items, board_w, board_h, lang)
+    decorations_html = _build_board_decorations(items, board_w, board_h, lang, sprites_prefix=sprites_prefix)
 
     return "\n".join(node_html) + news_html + decorations_html, links_js, board_w, board_h, ""
 

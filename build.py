@@ -60,7 +60,7 @@ PLANTA_NOTES = {"7 Flores de Colores", "Flowery"}
 # Darkner al uso). Forgotten Man / Huevo: diseño de objeto olvidado, viejo y
 # polvoriento. Rutas: pantalla de terminal verde, estilo menu de Reflejo.
 FRIEND_NOTES = {"FRIEND"}
-FORGOTTEN_NOTES = {"Forgotten Man", "Huevo"}
+FORGOTTEN_NOTES = {"Forgotten Man", "Huevo", "Everyman"}
 RUTAS_NOTES = {"Rutas"}
 
 
