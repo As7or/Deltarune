@@ -477,7 +477,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
 
         if it["label"] == "Profecía":
             node_html.append(f'''
-  <div class="node node-scroll" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-scroll" data-id="{nid}" data-note="{note_attr}" data-theme="parchment" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="scroll">
@@ -494,7 +494,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Lake":
             node_html.append(f'''
-  <div class="node node-wet" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-wet" data-id="{nid}" data-note="{note_attr}" data-theme="wet" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card wet-card" style="border-top:5px solid {it['color']};">
@@ -507,7 +507,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Shelter":
             node_html.append(f'''
-  <div class="node node-rusted" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-rusted" data-id="{nid}" data-note="{note_attr}" data-theme="rusted" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card rusted-card" style="border-top:5px solid {it['color']};">
@@ -521,7 +521,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Cristal Oscuro":
             node_html.append(f'''
-  <div class="node node-crystal" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-crystal" data-id="{nid}" data-note="{note_attr}" data-theme="crystal" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card crystal-card" style="border-top:5px solid {it['color']};">
@@ -534,7 +534,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Conexión Undertale":
             node_html.append(f'''
-  <div class="node node-undertale" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-undertale" data-id="{nid}" data-note="{note_attr}" data-theme="undertale" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card undertale-card" style="border-top:5px solid {it['color']};">
@@ -546,7 +546,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Fuentes Oscuras":
             node_html.append(f'''
-  <div class="node node-fountain" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-fountain" data-id="{nid}" data-note="{note_attr}" data-theme="fountain" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card fountain-card" style="border-top:5px solid {it['color']};">
@@ -559,7 +559,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
   </div>''')
         elif it["label"] == "Gaster (W. D. Gaster)":
             node_html.append(f'''
-  <div class="node node-gaster" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node node-gaster" data-id="{nid}" data-note="{note_attr}" data-theme="gaster" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card gaster-card" style="border-top:5px solid {it['color']};">
@@ -578,12 +578,15 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
             # vegetal traslucido. Lugares y Temas ya con tema propio no pasan
             # por aqui.
             extra_card_cls = ""
+            node_theme = "postit"
             if "Darkner" in it["tag"]:
                 extra_card_cls = " darkner-card"
+                node_theme = "darkner"
             elif "Planta" in it["tag"]:
                 extra_card_cls = " planta-card"
+                node_theme = "planta"
             node_html.append(f'''
-  <div class="node" data-id="{nid}" data-note="{note_attr}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+  <div class="node" data-id="{nid}" data-note="{note_attr}" data-theme="{node_theme}" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
     {submap_badge}
     <div class="card{extra_card_cls}" style="border-top:5px solid {it['color']};">

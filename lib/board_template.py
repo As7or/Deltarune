@@ -214,14 +214,56 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     background:#3a2f22; color:#f3ead6; padding:14px 20px;
     display:flex; justify-content:space-between; align-items:center; gap:10px;
     border-radius:inherit; border-bottom-left-radius:0; border-bottom-right-radius:0;
+    transition:background .2s ease, color .2s ease;
   }}
   #note-panel .note-header .btns{{ display:flex; gap:8px; }}
   #note-panel .note-header button{{
     background:none; border:1px solid #f3ead6; color:#f3ead6; border-radius:4px;
     padding:4px 10px; cursor:pointer; font-size:13px; white-space:nowrap;
+    transition:border-color .2s ease, color .2s ease;
   }}
   #note-panel .note-header button.active{{ background:#f3ead6; color:#3a2f22; }}
   #note-panel iframe{{ width:100%; height:calc(100% - 49px); border:none; }}
+
+  /* Cabecera del panel de nota: cambia de color segun el tema de la nota que
+     esta mostrando dentro (mismos acentos que su pagina de nota real), para
+     que no se quede siempre con el marco "corcho clasico" marron aunque la
+     nota de dentro sea, p.ej., un negativo de Darkner. */
+  #note-panel[data-theme="parchment"] .note-header{{ background:#5a4020; color:#f3ead6; }}
+  #note-panel[data-theme="parchment"] .note-header button{{ border-color:#f3ead6; color:#f3ead6; }}
+  #note-panel[data-theme="parchment"] .note-header button.active{{ background:#f3ead6; color:#5a4020; }}
+
+  #note-panel[data-theme="rusted"] .note-header{{ background:#3a2416; color:#f0dcc0; }}
+  #note-panel[data-theme="rusted"] .note-header button{{ border-color:#b5622e; color:#f0dcc0; }}
+  #note-panel[data-theme="rusted"] .note-header button.active{{ background:#b5622e; color:#2b1408; }}
+
+  #note-panel[data-theme="wet"] .note-header{{ background:#6b5828; color:#f3ead6; }}
+  #note-panel[data-theme="wet"] .note-header button{{ border-color:#f3ead6; color:#f3ead6; }}
+  #note-panel[data-theme="wet"] .note-header button.active{{ background:#f3ead6; color:#4a3d18; }}
+
+  #note-panel[data-theme="crystal"] .note-header{{ background:#1c1440; color:#eaf6ff; }}
+  #note-panel[data-theme="crystal"] .note-header button{{ border-color:#7de8ff; color:#eaf6ff; }}
+  #note-panel[data-theme="crystal"] .note-header button.active{{ background:#7de8ff; color:#0d0a24; }}
+
+  #note-panel[data-theme="undertale"] .note-header{{ background:#000; color:#fff; }}
+  #note-panel[data-theme="undertale"] .note-header button{{ border-color:#fff; color:#fff; }}
+  #note-panel[data-theme="undertale"] .note-header button.active{{ background:#fff; color:#000; }}
+
+  #note-panel[data-theme="fountain"] .note-header{{ background:#123042; color:#eaf6fc; }}
+  #note-panel[data-theme="fountain"] .note-header button{{ border-color:#6fb8dc; color:#eaf6fc; }}
+  #note-panel[data-theme="fountain"] .note-header button.active{{ background:#6fb8dc; color:#0a1c26; }}
+
+  #note-panel[data-theme="gaster"] .note-header{{ background:#1c1c19; color:#e8e8e2; }}
+  #note-panel[data-theme="gaster"] .note-header button{{ border-color:#5a5a54; color:#e8e8e2; }}
+  #note-panel[data-theme="gaster"] .note-header button.active{{ background:#5a5a54; color:#141412; }}
+
+  #note-panel[data-theme="darkner"] .note-header{{ background:#241a45; color:#f0e6f7; }}
+  #note-panel[data-theme="darkner"] .note-header button{{ border-color:#9a7ad9; color:#f0e6f7; }}
+  #note-panel[data-theme="darkner"] .note-header button.active{{ background:#9a7ad9; color:#140d29; }}
+
+  #note-panel[data-theme="planta"] .note-header{{ background:#4a6b3a; color:#edf3e3; }}
+  #note-panel[data-theme="planta"] .note-header button{{ border-color:#edf3e3; color:#edf3e3; }}
+  #note-panel[data-theme="planta"] .note-header button.active{{ background:#edf3e3; color:#2f4a24; }}
   #overlay{{ position:fixed; inset:0; background:rgba(0,0,0,0.35); opacity:0; pointer-events:none; transition:opacity .28s ease; z-index:90; }}
   #overlay.open{{ opacity:1; pointer-events:auto; }}
 
@@ -400,13 +442,13 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .darkner-card{{
     position:relative; overflow:hidden;
     padding-left:15px; padding-right:15px;
-    background: linear-gradient(165deg, #7a3018 0%, #4a1c0e 55%, #2a1109 100%);
+    background: linear-gradient(165deg, #4a3a7a 0%, #291f4d 55%, #160f2e 100%);
     box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 16px rgba(0,0,0,.45);
   }}
   .darkner-card::before, .darkner-card::after{{
     content:""; position:absolute; top:0; bottom:0; width:14px; z-index:3; pointer-events:none;
-    background-color:#8a3a1e;
-    background-image: radial-gradient(circle at 7px 7.5px, #1d0e07 3.2px, transparent 3.5px);
+    background-color:#4a3a7a;
+    background-image: radial-gradient(circle at 7px 7.5px, #140d29 3.2px, transparent 3.5px);
     background-repeat: repeat-y;
     background-size: 14px 15px;
     box-shadow: inset 0 0 4px rgba(0,0,0,.5);
@@ -415,12 +457,12 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .darkner-card::after{{ right:0; }}
   .darkner-card .thumb, .darkner-card .thumb-dark{{
     position:relative; z-index:2;
-    background: radial-gradient(ellipse 90% 70% at 50% 30%, #5a2412 0%, #3c1810 65%, #2a1109 100%);
+    background: radial-gradient(ellipse 90% 70% at 50% 30%, #3a2c66 0%, #241a45 65%, #160f2e 100%);
   }}
-  .darkner-card .noimg{{ color:#c99a7c; }}
-  .darkner-card .tag{{ position:relative; z-index:2; color:#f0c9a8; }}
-  .darkner-card .title{{ position:relative; z-index:2; color:#fbe8d8; }}
-  .darkner-card .summary{{ position:relative; z-index:2; color:#e3c3aa; }}
+  .darkner-card .noimg{{ color:#b09fd6; }}
+  .darkner-card .tag{{ position:relative; z-index:2; color:#c9a8e8; }}
+  .darkner-card .title{{ position:relative; z-index:2; color:#f0e6f7; }}
+  .darkner-card .summary{{ position:relative; z-index:2; color:#c3b3d9; }}
 
   /* ---- Planta (categoria): tarjeta de papel vegetal traslucido ---- */
   .planta-card{{
@@ -811,12 +853,13 @@ window.addEventListener('mouseup', ()=>{{
       const note = dragEl.dataset.note;
       const title = dragEl.querySelector('.title').textContent;
       const nid = dragEl.dataset.id;
+      const theme = dragEl.dataset.theme || 'postit';
       pinnedNodeId = nid;
       applyNetworkHighlight(nid);
       if(note){{
-        openNote(note, title);
+        openNote(note, title, theme);
       }} else {{
-        openNote(null, title);
+        openNote(null, title, theme);
       }}
     }}
   }}
@@ -843,8 +886,9 @@ function setPanelMode(mode){{
 modeSideBtn.addEventListener('click', ()=> setPanelMode('mode-side'));
 modeCenterBtn.addEventListener('click', ()=> setPanelMode('mode-center'));
 
-function openNote(noteStem, label){{
+function openNote(noteStem, label, theme){{
   noteTitleBar.textContent = label;
+  panel.dataset.theme = theme || 'postit';
   if(noteStem){{
     frame.src = 'notes/' + encodeURIComponent(noteStem) + '.html';
   }} else {{

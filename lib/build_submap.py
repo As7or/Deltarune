@@ -278,11 +278,49 @@ PAGE_CSS = '''
     box-shadow:0 24px 70px rgba(0,0,0,0.55); transition:opacity .2s ease, transform .2s ease;
   }
   #note-panel.mode-center.open{ opacity:1; pointer-events:auto; transform:translate(-50%,-50%) scale(1); }
-  #note-panel .note-header{ background:#3a2f22; color:#f3ead6; padding:14px 20px; display:flex; justify-content:space-between; align-items:center; gap:10px; }
+  #note-panel .note-header{ background:#3a2f22; color:#f3ead6; padding:14px 20px; display:flex; justify-content:space-between; align-items:center; gap:10px; transition:background .2s ease, color .2s ease; }
   #note-panel .note-header .btns{ display:flex; gap:8px; }
-  #note-panel .note-header button{ background:none; border:1px solid #f3ead6; color:#f3ead6; border-radius:4px; padding:4px 10px; cursor:pointer; font-size:13px; white-space:nowrap; }
+  #note-panel .note-header button{ background:none; border:1px solid #f3ead6; color:#f3ead6; border-radius:4px; padding:4px 10px; cursor:pointer; font-size:13px; white-space:nowrap; transition:border-color .2s ease, color .2s ease; }
   #note-panel .note-header button.active{ background:#f3ead6; color:#3a2f22; }
   #note-panel iframe{ width:100%; height:calc(100% - 49px); border:none; }
+
+  /* Cabecera del panel de nota a juego con el tema de lo que hay dentro,
+     igual que en el corcho principal. */
+  #note-panel[data-theme="parchment"] .note-header{ background:#5a4020; color:#f3ead6; }
+  #note-panel[data-theme="parchment"] .note-header button{ border-color:#f3ead6; color:#f3ead6; }
+  #note-panel[data-theme="parchment"] .note-header button.active{ background:#f3ead6; color:#5a4020; }
+
+  #note-panel[data-theme="rusted"] .note-header{ background:#3a2416; color:#f0dcc0; }
+  #note-panel[data-theme="rusted"] .note-header button{ border-color:#b5622e; color:#f0dcc0; }
+  #note-panel[data-theme="rusted"] .note-header button.active{ background:#b5622e; color:#2b1408; }
+
+  #note-panel[data-theme="wet"] .note-header{ background:#6b5828; color:#f3ead6; }
+  #note-panel[data-theme="wet"] .note-header button{ border-color:#f3ead6; color:#f3ead6; }
+  #note-panel[data-theme="wet"] .note-header button.active{ background:#f3ead6; color:#4a3d18; }
+
+  #note-panel[data-theme="crystal"] .note-header{ background:#1c1440; color:#eaf6ff; }
+  #note-panel[data-theme="crystal"] .note-header button{ border-color:#7de8ff; color:#eaf6ff; }
+  #note-panel[data-theme="crystal"] .note-header button.active{ background:#7de8ff; color:#0d0a24; }
+
+  #note-panel[data-theme="undertale"] .note-header{ background:#000; color:#fff; }
+  #note-panel[data-theme="undertale"] .note-header button{ border-color:#fff; color:#fff; }
+  #note-panel[data-theme="undertale"] .note-header button.active{ background:#fff; color:#000; }
+
+  #note-panel[data-theme="fountain"] .note-header{ background:#123042; color:#eaf6fc; }
+  #note-panel[data-theme="fountain"] .note-header button{ border-color:#6fb8dc; color:#eaf6fc; }
+  #note-panel[data-theme="fountain"] .note-header button.active{ background:#6fb8dc; color:#0a1c26; }
+
+  #note-panel[data-theme="gaster"] .note-header{ background:#1c1c19; color:#e8e8e2; }
+  #note-panel[data-theme="gaster"] .note-header button{ border-color:#5a5a54; color:#e8e8e2; }
+  #note-panel[data-theme="gaster"] .note-header button.active{ background:#5a5a54; color:#141412; }
+
+  #note-panel[data-theme="darkner"] .note-header{ background:#241a45; color:#f0e6f7; }
+  #note-panel[data-theme="darkner"] .note-header button{ border-color:#9a7ad9; color:#f0e6f7; }
+  #note-panel[data-theme="darkner"] .note-header button.active{ background:#9a7ad9; color:#140d29; }
+
+  #note-panel[data-theme="planta"] .note-header{ background:#4a6b3a; color:#edf3e3; }
+  #note-panel[data-theme="planta"] .note-header button{ border-color:#edf3e3; color:#edf3e3; }
+  #note-panel[data-theme="planta"] .note-header button.active{ background:#edf3e3; color:#2f4a24; }
   #note-panel .postit-body{
     position:relative;
     width:100%; height:calc(100% - 49px); overflow-y:auto; overflow-x:hidden; box-sizing:border-box;
@@ -660,6 +698,25 @@ def build_submap(canvas_path, title_name, lang="es"):
         "Conexión Undertale": "viewport-undertale", "Fuentes Oscuras": "viewport-fountain",
         "Profecía": "viewport-parchment", "Gaster": "viewport-gaster",
     }
+    # Mismo slug de tema que usa la pagina de nota real (note_page_template.py
+    # / THEME_CSS) -- se usa para que la cabecera del panel de nota (arriba
+    # del iframe) cambie de color a juego con lo que hay dentro, en vez de
+    # quedarse siempre con el marco marron clasico.
+    THEME_SLUG = {
+        "Shelter": "rusted", "Lake": "wet", "Cristal Oscuro": "crystal",
+        "Conexión Undertale": "undertale", "Fuentes Oscuras": "fountain",
+        "Profecía": "parchment", "Gaster": "gaster",
+    }
+    # Mismos personajes que DARKNER_NOTES/PLANTA_NOTES en build.py (categoria
+    # "mundo" del canvas): si se añade un Darkner o Planta nuevo alli, hay que
+    # añadirlo tambien aqui para que su cabecera de submapa no se quede en el
+    # marron por defecto.
+    DARKNER_STEMS = {
+        "ERAM", "Jackenstein", "Jevil", "King", "Lancer", "Mad Mew Mew (Pink)",
+        "Mike", "Pipis", "Pippins", "Queen", "Ralsei", "Ramb", "Rouxls Kaard",
+        "Seam", "Shuttah", "Spamton", "Tenna",
+    }
+    PLANTA_STEMS = {"7 Flores de Colores", "Flowery"}
     # Si el propio centro del submapa es una de esas 6 notas especiales, todo
     # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).
     center_title_raw = next((it["title"] for it in items if it["is_center"]), "")
@@ -696,6 +753,14 @@ def build_submap(canvas_path, title_name, lang="es"):
         thumb_h = 150 if is_center else 100
         title_base = re.split(r"\s+[—–-]\s+", it["title"])[0].strip() if it["title"] else ""
         theme = title_base if title_base in SPECIAL_THEMES else None
+        if theme:
+            node_theme = THEME_SLUG[theme]
+        elif note_attr in DARKNER_STEMS:
+            node_theme = "darkner"
+        elif note_attr in PLANTA_STEMS:
+            node_theme = "planta"
+        else:
+            node_theme = "postit"
 
         # Burbuja de CONEXION (su titulo coincide con una nota real, p.ej.
         # "Susie" dentro del submapa de Noelle) -> se comporta igual que el
@@ -723,7 +788,7 @@ def build_submap(canvas_path, title_name, lang="es"):
 
         opennote_flag = "1" if opens_full_note else "0"
         pin = '<div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>'
-        base_attrs = f'data-id="{nid}" data-note="{note_attr}" data-center="{opennote_flag}"'
+        base_attrs = f'data-id="{nid}" data-note="{note_attr}" data-center="{opennote_flag}" data-theme="{node_theme}"'
         pos_style = f'left:{x-width/2:.0f}px; top:{y-(160 if is_center else 105):.0f}px; width:{width}px; transform:rotate({rot:.1f}deg);'
 
         if theme == "Profecía":
@@ -1010,14 +1075,15 @@ window.addEventListener('mouseup', ()=>{{
       const nid = dragEl.dataset.id;
       const isCenter = dragEl.dataset.center === '1';
       const note = dragEl.dataset.note;
+      const theme = dragEl.dataset.theme || 'postit';
       const t = dragEl.querySelector('.title');
       const label = t ? t.textContent : '{html.escape(title_name)}';
       if(isCenter){{
-        if(note){{ openNote(note, label); }} else {{ openNote(null, label); }}
+        if(note){{ openNote(note, label, theme); }} else {{ openNote(null, label, theme); }}
       }} else if(NODE_CONTENT[nid]){{
         openPostit(NODE_CONTENT[nid]);
       }} else if(note){{
-        openNote(note, label);
+        openNote(note, label, theme);
       }}
     }}
   }}
@@ -1039,8 +1105,9 @@ function setPanelMode(m){{
 }}
 modeSideBtn.addEventListener('click', ()=>setPanelMode('mode-side'));
 modeCenterBtn.addEventListener('click', ()=>setPanelMode('mode-center'));
-function openNote(noteStem, label){{
+function openNote(noteStem, label, theme){{
   noteTitleBar.textContent = label;
+  panel.dataset.theme = theme || 'postit';
   frame.style.display = 'block';
   postitBody.style.display = 'none';
   if(noteStem){{ frame.src = '../notes/' + encodeURIComponent(noteStem) + '.html'; }}
@@ -1065,6 +1132,7 @@ setInterval(function(){{
 }}, 400);
 function openPostit(content){{
   noteTitleBar.textContent = content.title;
+  panel.dataset.theme = 'postit';
   frame.style.display = 'none';
   frame.src = 'about:blank';
   postitBody.style.display = 'block';
