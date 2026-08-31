@@ -253,81 +253,120 @@ _STAMP_TXT = {
 
 def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Sprites/"):
     by_id = {it["id"]: it for it in items}
-    node_pts = [(it["px"], it["py"]) for it in items]
+    node_pts = [(it["px"], it["py"]) for it in items]  # usado por el rincon de Gaster, mas abajo
     out = []
 
-    def place_near(ox, oy, seed, base_ang=None, dist_range=(120, 175), min_dist=150):
-        rng = random.Random(seed)
-        placed = None
-        for _try in range(8):
-            ang = (base_ang + rng.uniform(-30, 30)) if base_ang is not None else rng.uniform(0, 360)
-            dist = rng.uniform(*dist_range)
-            cand = (ox + math.cos(math.radians(ang)) * dist, oy + math.sin(math.radians(ang)) * dist)
-            if all((cand[0]-px)**2 + (cand[1]-py)**2 > min_dist**2 for (px, py) in node_pts):
-                placed = cand
-                break
-        if not placed:
-            base = base_ang if base_ang is not None else 0
-            placed = (ox + math.cos(math.radians(base)) * dist_range[1], oy + math.sin(math.radians(base)) * dist_range[1])
-        return placed, rng
+    # Rectangulo real (aprox) ocupado por cada tarjeta, para comprobar
+    # colisiones de verdad contra vecinas -- no solo contra la propia.
+    def card_rect(it2, pad=0):
+        ox2, oy2 = it2["px"], it2["py"]
+        halfw2 = it2.get("_render_w", 150) / 2 + pad
+        halfh2 = it2.get("_render_h", 150) / 2 + pad
+        return (ox2 - halfw2, oy2 - halfh2, ox2 + halfw2, oy2 + halfh2)
 
-    # ---- Cristal Oscuro: foto del objeto junto a cada jefe que lo suelta ----
+    all_card_rects = [(it2["id"], card_rect(it2)) for it2 in items]
+
+    def rects_overlap(a, b):
+        return not (a[2] <= b[0] or b[2] <= a[0] or a[3] <= b[1] or b[3] <= a[1])
+
+    def attach(it, side, box_w, box_h, gap=7):
+        """Calcula la posicion (left, top) de una decoracion pegada al borde
+        de la tarjeta de 'it', por fuera (nunca encima). Usa el hueco real
+        de la tarjeta guardado en it['_render_w']/it['_render_h']."""
+        ox, oy = it["px"], it["py"]
+        halfw = it.get("_render_w", 150) / 2
+        halfh = it.get("_render_h", 150) / 2
+        if side == "r-bottom":
+            return ox + halfw + gap, oy + halfh - box_h * 0.65
+        if side == "r-top":
+            return ox + halfw + gap, oy - halfh + box_h * 0.15
+        if side == "l-bottom":
+            return ox - halfw - gap - box_w, oy + halfh - box_h * 0.65
+        return ox - halfw - gap - box_w, oy - halfh + box_h * 0.35  # "l-top"
+
+    def attach_clear(it, sides, box_w, box_h, gap=7, rot_pad=16):
+        """Prueba los lados en 'sides' en orden y devuelve el primero que no
+        invada ninguna tarjeta vecina (segun card_rect); si ninguno queda
+        libre, se queda con el primero de la lista como respaldo. rot_pad
+        añade margen extra porque la decoracion final lleva una pequeña
+        rotacion aleatoria."""
+        own_id = it["id"]
+        fallback = None
+        for side in sides:
+            left, top = attach(it, side, box_w, box_h, gap=gap)
+            cand = (left - rot_pad, top - rot_pad, left + box_w + rot_pad, top + box_h + rot_pad)
+            collides = any(
+                nid2 != own_id and rects_overlap(cand, r2)
+                for nid2, r2 in all_card_rects
+            )
+            if not collides:
+                return left, top
+            if fallback is None:
+                fallback = (left, top)
+        return fallback
+
+    # ---- Cristal Oscuro: foto del objeto pegada al borde de cada jefe que
+    #      lo suelta (a la derecha por defecto; a otro lado si ahi choca
+    #      con una tarjeta vecina) ----
     crystal_src = sprites_prefix + urllib.parse.quote("Shadow_Crystal_item.webp")
     crystal_cap = "Shadow Crystal" if lang == "en" else "Cristal Oscuro"
+    CRYSTAL_BOX = (70, 80)
+    CRYSTAL_SIDES = ["r-bottom", "r-top", "l-bottom", "l-top"]
     for nid in DARK_CRYSTAL_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
-        ox, oy = it["px"], it["py"]
-        # Gerson tambien lleva la cruz de "muerto" -- la alejamos hacia arriba
-        # para que el posit del cristal y la cruz no se pisen entre si.
-        base_ang = 270 if nid in DEAD_CROSS_NIDS else None
-        (px, py), rng = place_near(ox, oy, f"crystal-{nid}", base_ang=base_ang)
-        rot = rng.uniform(-10, 10)
+        rng = random.Random(f"crystal-{nid}")
+        left, top = attach_clear(it, CRYSTAL_SIDES, *CRYSTAL_BOX)
+        rot = rng.uniform(-8, 8)
         out.append(
-            f'<div class="doodle doodle-note item-photo" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<div class="doodle doodle-note item-photo" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
             f'<img src="{crystal_src}" alt="" loading="lazy"><span class="cap">{html.escape(crystal_cap)}</span></div>'
         )
 
-    # ---- Desaparecidos / no vistos aun: sello rojo ----
+    # ---- Desaparecidos / no vistos aun: sello rojo, pegado al borde
+    #      izquierdo por defecto (abajo de la esquina del pin) ----
+    STAMP_BOX = (108, 34)
+    STAMP_SIDES = ["l-top", "r-top", "l-bottom", "r-bottom"]
     for nid in MISSING_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
-        ox, oy = it["px"], it["py"]
-        # el sello es mas ancho que un post-it normal (palabra larga en
-        # mayusculas) -- mas distancia y radio de choque para que no invada
-        # ninguna tarjeta vecina.
-        (px, py), rng = place_near(ox, oy, f"missing-{nid}", dist_range=(195, 250), min_dist=210)
-        rot = rng.uniform(-18, 18)
+        rng = random.Random(f"missing-{nid}")
+        left, top = attach_clear(it, STAMP_SIDES, *STAMP_BOX)
+        rot = rng.uniform(-14, 14)
         txt = _STAMP_TXT["missing"]["en"] if lang == "en" else _STAMP_TXT["missing"]["es"]
         out.append(
-            f'<div class="doodle doodle-stamp stamp-missing" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-missing" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Capturados por el Caballero: sello ----
+    # ---- Capturados por el Caballero: mismo enganche que "desaparecido" ----
     for nid in CAPTURED_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
-        ox, oy = it["px"], it["py"]
-        (px, py), rng = place_near(ox, oy, f"captured-{nid}", dist_range=(195, 250), min_dist=210)
-        rot = rng.uniform(-18, 18)
+        rng = random.Random(f"captured-{nid}")
+        left, top = attach_clear(it, STAMP_SIDES, *STAMP_BOX)
+        rot = rng.uniform(-14, 14)
         txt = _STAMP_TXT["captured"]["en"] if lang == "en" else _STAMP_TXT["captured"]["es"]
         out.append(
-            f'<div class="doodle doodle-stamp stamp-captured" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+            f'<div class="doodle doodle-stamp stamp-captured" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Muerto: cruz de tumba ----
+    # ---- Muerto: cruz de tumba pegada al borde izquierdo (abajo) -- en el
+    #      lado opuesto al posit del Cristal Oscuro para que en Gerson no se
+    #      pisen entre si ----
+    CROSS_BOX = (24, 30)
+    CROSS_SIDES = ["l-bottom", "r-bottom", "l-top", "r-top"]
     for nid in DEAD_CROSS_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
-        ox, oy = it["px"], it["py"]
-        (px, py), rng = place_near(ox, oy, f"cross-{nid}", base_ang=90)
-        rot = rng.uniform(-12, 12)
+        rng = random.Random(f"cross-{nid}")
+        left, top = attach_clear(it, CROSS_SIDES, *CROSS_BOX)
+        rot = rng.uniform(-10, 10)
         out.append(
-            f'<div class="doodle doodle-cross" style="left:{px:.0f}px; top:{py:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<div class="doodle doodle-cross" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
             f'<svg viewBox="0 0 20 26"><rect x="8" y="1" width="4" height="24" rx="1" fill="#7a6a52"/><rect x="1" y="7" width="18" height="4" rx="1" fill="#7a6a52"/></svg></div>'
         )
 
@@ -513,6 +552,12 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         summary = html.escape(it["summary"])
         approx_card_h = thumb_h + 60
         thumb_class = "thumb thumb-dark" if it.get("dark") else "thumb"
+        # Se guarda el hueco real ocupado por la tarjeta (ancho/alto
+        # aproximados ya renderizados) para que los posits de estado
+        # narrativo de _build_board_decorations puedan engancharse a su
+        # borde exacto en vez de adivinar una distancia generica.
+        it["_render_w"] = this_card_w
+        it["_render_h"] = approx_card_h
 
         submap_badge = ""
         if it.get("submap"):

@@ -587,10 +587,10 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     position:relative; z-index:2;
     filter: grayscale(.55) sepia(.35) contrast(.88) brightness(.82);
   }}
-  .node-forgotten .noimg{{ color:#8a8070; }}
-  .node-forgotten .tag{{ position:relative; z-index:2; color:#8a7a52; }}
-  .node-forgotten .title{{ position:relative; z-index:2; color:#3a3226; text-shadow:0 1px 0 rgba(255,255,255,.18); }}
-  .node-forgotten .summary{{ position:relative; z-index:2; color:#544c3c; }}
+  .node-forgotten .noimg{{ color:#c9bd9a; }}
+  .node-forgotten .tag{{ position:relative; z-index:2; color:#cdbf98; }}
+  .node-forgotten .title{{ position:relative; z-index:2; color:#f2ead4; text-shadow:0 1px 2px rgba(0,0,0,.55); }}
+  .node-forgotten .summary{{ position:relative; z-index:2; color:#dcd0af; text-shadow:0 1px 2px rgba(0,0,0,.5); }}
   .node-forgotten .torn-strip{{
     height:11px; margin:-1px 6px 0;
     background: linear-gradient(165deg, #6b6255 0%, #453f34 100%);
