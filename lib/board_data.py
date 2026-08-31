@@ -227,10 +227,10 @@ EN_TITLE_OVERRIDES = {
 # descifran, la traduccion solo va en el tooltip). "text" se muestra en
 # Wingdings; "gloss" es lo que se lee al pasar el raton por encima.
 GASTER_QUOTES = [
-    {"text": "Entry Number 17", "gloss_es": "17ª entrada de Gaster", "gloss_en": "Gaster's 17th entry"},
+    {"text": "Entry Number 17", "gloss_es": "Entrada 17", "gloss_en": "Entry 17"},
     {"text": "Don't forget.", "gloss_es": "no lo olvides", "gloss_en": "don't forget"},
     {"text": "Darker yet darker...", "gloss_es": "cada vez más oscuro...", "gloss_en": "darker yet darker..."},
-    {"text": "Entry Number 20", "gloss_es": "20ª entrada de Gaster", "gloss_en": "Gaster's 20th entry"},
+    {"text": "Entry Number 20", "gloss_es": "Entrada 20", "gloss_en": "Entry 20"},
 ]
 
 # nid -> (texto ES, texto EN). Un comentario de investigador de verdad, no una
@@ -321,11 +321,21 @@ def _build_board_decorations(items, board_w, board_h, lang):
 
         # notas de Gaster: citas reales del juego, en Wingdings, como
         # negativos pegados con celo o chincheta (la traduccion solo sale
-        # al pasar el raton por encima, como un mensaje cifrado de verdad)
+        # al pasar el raton por encima, como un mensaje cifrado de verdad).
+        # Radio amplio + comprobacion contra TODOS los nodos (incluida la
+        # propia tarjeta de Gaster) para que ninguna nota tape la cara.
         for i, q in enumerate(GASTER_QUOTES):
-            dx = grng.choice([-1, 1]) * grng.randint(120, 260)
-            dy = grng.choice([-1, 1]) * grng.randint(130, 240)
-            nx, ny = gx + dx, gy + dy
+            placed = None
+            for _try in range(8):
+                ang = grng.uniform(0, 360)
+                dist = grng.uniform(230, 340)
+                cand = (gx + math.cos(math.radians(ang)) * dist, gy + math.sin(math.radians(ang)) * dist)
+                if all((cand[0]-px)**2 + (cand[1]-py)**2 > 195**2 for (px, py) in node_pts):
+                    placed = cand
+                    break
+            if not placed:
+                placed = (gx + 300, gy - 300)
+            nx, ny = placed
             rot = grng.uniform(-16, 16)
             gloss = q["gloss_es"] if lang != "en" else q["gloss_en"]
             tape = grng.random() < 0.5

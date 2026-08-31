@@ -394,21 +394,29 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     clip-path: polygon(0% 15%, 8% 0%, 92% 4%, 100% 20%, 96% 55%, 100% 82%, 90% 100%, 15% 96%, 0% 78%, 6% 45%);
   }}
 
-  /* ---- Darkner (categoria): la tarjeta se ve como un negativo fotografico ---- */
+  /* ---- Darkner (categoria): tira de negativo fotografico -- el marco y los
+     perforados de carrete son del negativo, pero la imagen se ve a color
+     normal (no invertida) ---- */
   .darkner-card{{
     position:relative; overflow:hidden;
-    background: linear-gradient(155deg, #241c2c 0%, #170f1c 100%);
-    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 16px rgba(0,0,0,.5);
+    padding-left:15px; padding-right:15px;
+    background: linear-gradient(165deg, #7a3018 0%, #4a1c0e 55%, #2a1109 100%);
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 16px rgba(0,0,0,.45);
   }}
-  .darkner-card::after{{
-    content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
-    background:rgba(140,60,25,.16); mix-blend-mode:multiply;
+  .darkner-card::before, .darkner-card::after{{
+    content:""; position:absolute; top:0; bottom:0; width:14px; z-index:3; pointer-events:none;
+    background-color:#8a3a1e;
+    background-image: radial-gradient(circle at 7px 7.5px, #1d0e07 3.2px, transparent 3.5px);
+    background-repeat: repeat-y;
+    background-size: 14px 15px;
+    box-shadow: inset 0 0 4px rgba(0,0,0,.5);
   }}
-  .darkner-card .thumb{{ background-color:#170f1c; position:relative; z-index:0; }}
-  .darkner-card .thumb img{{ filter: invert(1) hue-rotate(180deg) saturate(1.15) contrast(1.05); }}
-  .darkner-card .tag{{ position:relative; z-index:2; color:#c9a8e0; }}
-  .darkner-card .title{{ position:relative; z-index:2; color:#f0e6f7; }}
-  .darkner-card .summary{{ position:relative; z-index:2; color:#c3b6cf; }}
+  .darkner-card::before{{ left:0; }}
+  .darkner-card::after{{ right:0; }}
+  .darkner-card .thumb{{ position:relative; z-index:2; }}
+  .darkner-card .tag{{ position:relative; z-index:2; color:#f0c9a8; }}
+  .darkner-card .title{{ position:relative; z-index:2; color:#fbe8d8; }}
+  .darkner-card .summary{{ position:relative; z-index:2; color:#e3c3aa; }}
 
   /* ---- Planta (categoria): tarjeta de papel vegetal traslucido ---- */
   .planta-card{{

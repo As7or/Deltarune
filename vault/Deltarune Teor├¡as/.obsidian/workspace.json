@@ -11,14 +11,17 @@
             "id": "06f07da71b66f89e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Notas/├üngel.md",
-                "mode": "source",
-                "source": false
+                "file": "00 Corcho Principal.canvas",
+                "viewState": {
+                  "x": 38.93795709217093,
+                  "y": -560.5221981829471,
+                  "zoom": -1.2215005032221604
+                }
               },
-              "icon": "lucide-file",
-              "title": "├üngel"
+              "icon": "lucide-layout-dashboard",
+              "title": "00 Corcho Principal"
             }
           }
         ]
@@ -96,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas/├üngel.md",
+                "file": "00 Corcho Principal.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
