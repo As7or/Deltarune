@@ -331,6 +331,64 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .node-gaster .title{{ position:relative; z-index:2; color:#2c2c24; }}
   .node-gaster .summary{{ position:relative; z-index:2; color:#4a4a40; }}
 
+  /* ---- Decoracion ambiental: anotaciones a rotulador, circulos organicos,
+     post-its sueltos y chinchetas dispersas por el corcho ---- */
+  .doodle{{ position:absolute; pointer-events:none; }}
+  .doodle-circle{{
+    z-index:1; box-sizing:border-box;
+    border:3.5px solid rgba(40,32,24,.62);
+    background: rgba(40,32,24,.05);
+    border-radius: 46% 54% 42% 58% / 55% 45% 58% 42%;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+  }}
+  .doodle-circle.ink-red{{ border-color: rgba(190,66,52,.68); background: rgba(190,66,52,.06); }}
+  .doodle-arrow{{
+    z-index:1; height:3.5px; border-radius:2px; transform-origin:0 50%;
+    background: linear-gradient(90deg, transparent 0%, rgba(40,32,24,.65) 18%, rgba(40,32,24,.65) 100%);
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+  }}
+  .doodle-arrow::after{{
+    content:""; position:absolute; right:-2px; top:50%; transform:translateY(-50%);
+    width:0; height:0; border-top:6.5px solid transparent; border-bottom:6.5px solid transparent;
+    border-left:10px solid rgba(40,32,24,.65);
+  }}
+  .doodle-arrow.ink-red{{ background: linear-gradient(90deg, transparent 0%, rgba(190,66,52,.72) 18%, rgba(190,66,52,.72) 100%); }}
+  .doodle-arrow.ink-red::after{{ border-left-color: rgba(190,66,52,.72); }}
+  .doodle-note{{
+    z-index:2; font-family:'Segoe Print','Comic Sans MS', cursive, sans-serif;
+    font-size:11.5px; line-height:1.3; padding:9px 11px 12px; max-width:118px;
+    color:#3a2f1a; box-shadow:2px 5px 10px rgba(0,0,0,.35);
+  }}
+  .doodle-note::before{{
+    content:""; position:absolute; top:-7px; left:50%; transform:translateX(-50%);
+    width:13px; height:13px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, #ffb3b3, #c73434 70%);
+    box-shadow:0 1px 2px rgba(0,0,0,.5);
+  }}
+  .doodle-note.tape::before{{
+    width:46px; height:16px; border-radius:1px; top:-10px;
+    transform:translateX(-50%) rotate(-3deg);
+    background:linear-gradient(rgba(255,255,255,.6), rgba(240,240,235,.4));
+    box-shadow:0 1px 2px rgba(0,0,0,.25);
+  }}
+  .doodle-note.gaster-note{{ background:#d9d6c9; color:#2c2c24; }}
+  .doodle-stain{{
+    z-index:1; border-radius:50%;
+    background:radial-gradient(circle, transparent 48%, rgba(225,195,145,.16) 54%, rgba(225,195,145,.24) 60%, rgba(225,195,145,.08) 68%, transparent 76%);
+  }}
+  .doodle-pin-lone{{ z-index:2; width:13px; height:13px; }}
+  .doodle-pin-lone svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 2px 1px rgba(0,0,0,.4)); }}
+  .gaster-vignette{{
+    z-index:0; border-radius:50%; filter:blur(2px);
+    background:radial-gradient(ellipse, rgba(8,6,5,.6) 0%, rgba(8,6,5,.32) 45%, transparent 72%);
+  }}
+  .doodle-arrow.gaster-string{{
+    height:5px !important;
+    background: repeating-linear-gradient(90deg, rgba(190,66,52,.78) 0 9px, transparent 9px 15px) !important;
+    filter:none;
+  }}
+  .doodle-arrow.gaster-string::after{{ display:none; }}
+
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }}
   .node-scroll .roll{{ position:relative; height:22px; width:100%; z-index:2;

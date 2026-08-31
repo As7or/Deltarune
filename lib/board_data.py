@@ -212,6 +212,122 @@ EN_TITLE_OVERRIDES = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Decoracion ambiental del corcho principal: anotaciones a rotulador, circulos
+# organicos, post-its sueltos, manchas de cafe y chinchetas "perdidas"
+# esparcidas por los huecos del tablero, para que se sienta mas vivo y menos
+# vacio. Puramente cosmetico (pointer-events:none) y determinista (semillas
+# fijas), asi que el resultado es estable entre builds mientras no cambien
+# las posiciones de los nodos.
+# ---------------------------------------------------------------------------
+DOODLE_PHRASES = {
+    "es": [
+        "¿y si no es casualidad?", "revisar esto otra vez", "no encaja del todo...",
+        "¿quién más lo sabe?", "esto lo cambia todo", "falta una pieza",
+        "¿coincidencia? no lo creo", "seguir este hilo", "comprobar con el canvas original",
+        "demasiadas pistas sueltas", "todo apunta a lo mismo", "releer la teoría",
+    ],
+    "en": [
+        "what if it's not a coincidence?", "double-check this", "doesn't quite add up...",
+        "who else knows?", "this changes everything", "missing piece",
+        "coincidence? don't think so", "follow this thread", "check against the source",
+        "too many loose threads", "it all points to the same thing", "reread the theory",
+    ],
+}
+GASTER_PHRASES = {
+    "es": ["¿nos está observando?", "no dejéis de investigar", "¿y si es él?", "¿quién es realmente?", "algo no cuadra aquí"],
+    "en": ["is he watching us?", "keep digging", "what if it's him?", "who is he, really?", "something's off here"],
+}
+
+def _build_board_decorations(items, board_w, board_h, lang):
+    phrases = DOODLE_PHRASES.get(lang, DOODLE_PHRASES["es"])
+    gaster_phrases = GASTER_PHRASES.get(lang, GASTER_PHRASES["es"])
+    node_pts = [(it["px"], it["py"]) for it in items]
+
+    rng = random.Random("board-decor-v1")
+    candidates = []
+    step = 235
+    y = 150
+    while y < board_h - 150:
+        row_offset = rng.uniform(-50, 50)
+        x = 150
+        while x < board_w - 150:
+            jx = x + row_offset + rng.uniform(-55, 55)
+            jy = y + rng.uniform(-55, 55)
+            candidates.append((jx, jy))
+            x += step
+        y += step
+    rng.shuffle(candidates)
+
+    def far_enough(p, chosen, min_node=170, min_between=205):
+        for (nx, ny) in node_pts:
+            if (p[0] - nx) ** 2 + (p[1] - ny) ** 2 < min_node ** 2:
+                return False
+        for (cx, cy) in chosen:
+            if (p[0] - cx) ** 2 + (p[1] - cy) ** 2 < min_between ** 2:
+                return False
+        return True
+
+    chosen = []
+    for p in candidates:
+        if len(chosen) >= 22:
+            break
+        if far_enough(p, chosen):
+            chosen.append(p)
+
+    kinds = (["circle", "arrow", "note", "stain", "pin"] * 6)
+    out = []
+    phrase_i = 0
+    for i, (x, y) in enumerate(chosen):
+        seed = random.Random(f"decor-{i}")
+        kind = kinds[i % len(kinds)]
+        rot = seed.uniform(-18, 18)
+        if kind == "circle":
+            size = seed.randint(80, 150)
+            h = size * seed.uniform(.72, .95)
+            ink = "ink-red" if seed.random() < 0.4 else "ink-black"
+            out.append(f'<div class="doodle doodle-circle {ink}" style="left:{x-size/2:.0f}px; top:{y-h/2:.0f}px; width:{size}px; height:{h:.0f}px; transform:rotate({rot:.1f}deg);"></div>')
+        elif kind == "arrow":
+            length = seed.randint(70, 150)
+            ink = "ink-red" if seed.random() < 0.35 else "ink-black"
+            out.append(f'<div class="doodle doodle-arrow {ink}" style="left:{x:.0f}px; top:{y:.0f}px; width:{length}px; transform:rotate({rot*2:.1f}deg);"></div>')
+        elif kind == "note":
+            phrase = phrases[phrase_i % len(phrases)]; phrase_i += 1
+            bg = seed.choice(["#fff7c4", "#ffd9d9", "#d9ecff", "#e2ffd9"])
+            tape = seed.random() < 0.5
+            out.append(f'<div class="doodle doodle-note{" tape" if tape else ""}" style="left:{x:.0f}px; top:{y:.0f}px; background:{bg}; transform:rotate({rot*0.6:.1f}deg);">{html.escape(phrase)}</div>')
+        elif kind == "stain":
+            size = seed.randint(110, 200)
+            out.append(f'<div class="doodle doodle-stain" style="left:{x-size/2:.0f}px; top:{y-size/2:.0f}px; width:{size}px; height:{size}px;"></div>')
+        else:
+            out.append(f'<div class="doodle doodle-pin-lone" style="left:{x:.0f}px; top:{y:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
+
+    # ---- Rincon de Gaster: mas deteriorado, mas paranoico ----
+    gaster_it = next((it for it in items if it["label"] == "Gaster (W. D. Gaster)"), None)
+    if gaster_it:
+        gx, gy = gaster_it["px"], gaster_it["py"]
+        grng = random.Random("gaster-paranoia-v1")
+        vw, vh = 640, 500
+        out.append(f'<div class="doodle gaster-vignette" style="left:{gx-vw/2:.0f}px; top:{gy-vh/2:.0f}px; width:{vw}px; height:{vh}px;"></div>')
+        for i in range(5):
+            ang = grng.uniform(0, 360)
+            length = grng.randint(90, 190)
+            out.append(f'<div class="doodle doodle-arrow ink-red gaster-string" style="left:{gx:.0f}px; top:{gy:.0f}px; width:{length}px; transform:rotate({ang:.1f}deg);"></div>')
+        gp_i = 0
+        for i in range(3):
+            dx = grng.choice([-1, 1]) * grng.randint(110, 230)
+            dy = grng.choice([-1, 1]) * grng.randint(120, 210)
+            nx, ny = gx + dx, gy + dy
+            if i < len(gaster_phrases) and grng.random() < 0.8:
+                phrase = gaster_phrases[gp_i % len(gaster_phrases)]; gp_i += 1
+                rot = grng.uniform(-14, 14)
+                out.append(f'<div class="doodle doodle-note gaster-note" style="left:{nx:.0f}px; top:{ny:.0f}px; transform:rotate({rot:.1f}deg);">{html.escape(phrase)}</div>')
+            else:
+                out.append(f'<div class="doodle doodle-pin-lone" style="left:{nx:.0f}px; top:{ny:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
+
+    return "\n".join(out)
+
+
 def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sprites_dir=None, thumbs_out_dir=None, sprites_prefix="Sprites/", lang="es"):
     """A partir de {"items","edges"} genera (nodes_html, links_js, board_w, board_h)."""
     items = data["items"]
@@ -447,5 +563,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
         for e in edges
     )
 
-    return "\n".join(node_html) + news_html, links_js, board_w, board_h, ""
+    decorations_html = _build_board_decorations(items, board_w, board_h, lang)
+
+    return "\n".join(node_html) + news_html + decorations_html, links_js, board_w, board_h, ""
 
