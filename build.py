@@ -82,11 +82,26 @@ def find_vault_root(path):
             print(f"   - descartado: {old_path}")
             print(f"     conservado: {kept_path}")
 
-    # buscar la carpeta que tiene Notas/ dentro (puede estar anidada)
+    # buscar la carpeta que tiene Notas/ dentro (puede estar anidada). Puede
+    # haber más de un candidato -- p. ej. una carpeta duplicada/rota que se
+    # coló en el repo por error (mismo nombre del vault pero mal codificado)
+    # y que también tiene su propia Notas/ pero sin el .canvas principal. En
+    # ese caso nos quedamos con el candidato que sí tenga un .canvas junto a
+    # su Notas/, en vez de reventar con el primero que pille os.walk (que no
+    # tiene un orden garantizado).
+    candidates = []
     for dirpath, dirnames, _ in os.walk(root):
         if "Notas" in dirnames:
-            return dirpath
-    raise SystemExit(f"No se encontró ninguna carpeta 'Notas' dentro de {path}")
+            candidates.append(dirpath)
+    if not candidates:
+        raise SystemExit(f"No se encontró ninguna carpeta 'Notas' dentro de {path}")
+    if len(candidates) == 1:
+        return candidates[0]
+    with_canvas = [c for c in candidates if any(f.endswith(".canvas") for f in os.listdir(c))]
+    if len(with_canvas) == 1:
+        print(f"Aviso: se encontraron {len(candidates)} carpetas con 'Notas' dentro (probablemente una carpeta duplicada/rota colada por error). Se usó la que sí tiene el .canvas principal: {with_canvas[0]}")
+        return with_canvas[0]
+    return candidates[0]
 
 
 def find_main_canvas(vault_dir):
