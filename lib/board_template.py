@@ -413,7 +413,11 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   }}
   .darkner-card::before{{ left:0; }}
   .darkner-card::after{{ right:0; }}
-  .darkner-card .thumb{{ position:relative; z-index:2; }}
+  .darkner-card .thumb, .darkner-card .thumb-dark{{
+    position:relative; z-index:2;
+    background: radial-gradient(ellipse 90% 70% at 50% 30%, #5a2412 0%, #3c1810 65%, #2a1109 100%);
+  }}
+  .darkner-card .noimg{{ color:#c99a7c; }}
   .darkner-card .tag{{ position:relative; z-index:2; color:#f0c9a8; }}
   .darkner-card .title{{ position:relative; z-index:2; color:#fbe8d8; }}
   .darkner-card .summary{{ position:relative; z-index:2; color:#e3c3aa; }}

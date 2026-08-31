@@ -322,19 +322,24 @@ def _build_board_decorations(items, board_w, board_h, lang):
         # notas de Gaster: citas reales del juego, en Wingdings, como
         # negativos pegados con celo o chincheta (la traduccion solo sale
         # al pasar el raton por encima, como un mensaje cifrado de verdad).
-        # Radio amplio + comprobacion contra TODOS los nodos (incluida la
-        # propia tarjeta de Gaster) para que ninguna nota tape la cara.
+        # Un angulo base distinto por nota (arriba-izq, abajo, izquierda,
+        # DERECHA) para que se repartan alrededor en vez de amontonarse
+        # todas al mismo lado -- con jitter + comprobacion contra todos los
+        # nodos (incluida la propia tarjeta de Gaster) para que ninguna
+        # tape la cara.
+        base_angles = [215, 120, 165, 350]
         for i, q in enumerate(GASTER_QUOTES):
+            base_ang = base_angles[i % len(base_angles)]
             placed = None
             for _try in range(8):
-                ang = grng.uniform(0, 360)
+                ang = base_ang + grng.uniform(-22, 22)
                 dist = grng.uniform(230, 340)
                 cand = (gx + math.cos(math.radians(ang)) * dist, gy + math.sin(math.radians(ang)) * dist)
                 if all((cand[0]-px)**2 + (cand[1]-py)**2 > 195**2 for (px, py) in node_pts):
                     placed = cand
                     break
             if not placed:
-                placed = (gx + 300, gy - 300)
+                placed = (gx + math.cos(math.radians(base_ang)) * 340, gy + math.sin(math.radians(base_ang)) * 340)
             nx, ny = placed
             rot = grng.uniform(-16, 16)
             gloss = q["gloss_es"] if lang != "en" else q["gloss_en"]
