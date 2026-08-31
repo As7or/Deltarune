@@ -102,12 +102,21 @@ La vidriera 04 de la Última Profecía —"Si las Fuentes se liberan, el Rugido 
 
 > [!question]+ 🎲 ¿Quién abrió la Fuente del Cap.1?
 > Es la pregunta más debatida de toda la mecánica: ni el propio juego ni la wiki oficial confirman quién abrió la Fuente del armario del colegio. Los dos sospechosos principales son **Kris** (que ya demuestra saber abrir Fuentes por su cuenta desde el Cap.2, y cuyo cuerpo sin ALMA actúa de forma sospechosa en varias escenas nocturnas) y **el Caballero Rugiente** (sospechoso por defecto de toda Fuente irregular). El argumento más citado a favor de Kris es que el juego nunca explica cómo abrir una Fuente hasta que Queen lo hace en el Cap.2 — después de que la del Cap.1 ya exista —, lo que algunos leen como una pista de que Kris ya sabía hacerlo de antes. El argumento en contra es que Ralsei solo detecta la Fuente de la Biblioteca al llegar a ella con el grupo, sin avisar antes durante la visita a Castle Town, lo que podría significar que esa Fuente concreta aún no estaba abierta — o que Ralsei no fue del todo sincero. Sigue sin resolución.
+>
+> ![[closet_image.png]]
+> *El armario de material del colegio, escenario del Cap.1 — el único caso de toda la mecánica en el que nadie confirma quién abrió la Fuente.*
 
 > [!question]- 🎲 Las Fuentes gemelas del Cap.5 y la teoría "Kris es el Caballero"
 > El detalle más citado del fandom tras el Cap.5: la segunda Fuente de Flower King, la que abre el Caballero para secuestrar a Asgore, es visualmente idéntica a la que Kris acababa de abrir segundos antes — mismo tamaño, mismo aspecto, sin ninguna variación reconocible. Quienes defienden que el Caballero y Kris son, de algún modo, la misma entidad (o que comparten una voluntad idéntica) señalan este detalle como la prueba visual más fuerte hasta la fecha; los escépticos responden que, simplemente, todas las Fuentes de un mismo tipo de Mundo Oscuro podrían compartir el mismo aspecto por defecto, sin que eso implique nada sobre quién las abre. Relacionado con la teoría de cooperación Kris-Caballero ya recogida en [[Roaring Knight]].
+>
+> ![[kris_Knight_overworld_knighting.gif]]
+> *Kris y el Caballero, ligados incluso en tono de broma dentro del propio juego — la base visual que alimenta la teoría de que son, de algún modo, la misma entidad.*
 
 > [!question]- 🎲 La Fuente del Shelter, el gran cabo suelto
 > A diferencia de cualquier otra, nadie ha visto nunca el momento en que se abre, nadie sabe quién lo hizo, y nunca se ha sellado ni explorado más allá de un vistazo a la forma Darkner de Undyne. Es, junto con la incógnita del Cap.1, de los mayores misterios sin resolver de toda la serie — ver [[Shelter]] para el desarrollo completo de todas las teorías que la rodean.
+>
+> ![[carol_investigation_shelter.webp]]
+> *Carol investigando el Shelter — la única Fuente Oscura de todo el juego cuyo origen sigue siendo un misterio total.*
 
 ## Curiosidades
 - La wiki oficial numera las Fuentes por orden de aparición en pantalla (hasta 7 distintas solo en el Cap.4, contando reaperturas), un criterio distinto al orden cronológico de "quién la abrió y cuándo" que usa esta nota.

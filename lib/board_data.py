@@ -243,12 +243,22 @@ GASTER_QUOTES = [
 DARK_CRYSTAL_NIDS = {"g_jevil", "g12", "g7", "g_gerson", "g_pink"}   # Jevil, Spamton, Roaring Knight, Gerson Boom, Mad Mew Mew (Pink): los 5 jefes que sueltan un Cristal Oscuro
 MISSING_NIDS = {"g_papyrus", "g13", "g6"}                            # Papyrus (nunca visto), Asriel, Dess: desaparecidos o aun no vistos
 CAPTURED_NIDS = {"g21", "g_undyne"}                                  # Asgore, Undyne: capturados por el Caballero
-DEAD_CROSS_NIDS = {"g_gerson"}                                       # Gerson Boom: el unico portador de Cristal que ya esta muerto
+DEAD_CROSS_NIDS = {"g_gerson"}                                       # Gerson Boom: cruz de tumba (ya revivido como Old Man, pero sigue siendo un Lightner fallecido)
+DEAD_STAMP_NIDS = {"g_flowery"}                                      # Flowery: sello de "muerto" (no cruz -- es una flor, no una tumba)
 
 _STAMP_TXT = {
     "missing":  {"es": "DESAPARECIDO", "en": "MISSING"},
     "captured": {"es": "CAPTURADO", "en": "CAPTURED"},
+    "dead":     {"es": "MUERTO", "en": "DEAD"},
 }
+FEMININE_NIDS = {"g6", "g_undyne"}  # Dess, Undyne: en español el sello concuerda en genero
+
+
+def _stamp_text(kind, nid, lang):
+    if lang == "en":
+        return _STAMP_TXT[kind]["en"]
+    base = _STAMP_TXT[kind]["es"]
+    return base[:-1] + "A" if nid in FEMININE_NIDS else base
 
 
 def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Sprites/"):
@@ -325,17 +335,17 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         )
 
     # ---- Desaparecidos / no vistos aun: sello rojo, pegado al borde
-    #      izquierdo por defecto (abajo de la esquina del pin) ----
+    #      izquierdo (abajo de la esquina del pin). Puede rozar/tapar un
+    #      poco la tarjeta -- es un sello, se admite que pise el borde. ----
     STAMP_BOX = (108, 34)
-    STAMP_SIDES = ["l-top", "r-top", "l-bottom", "r-bottom"]
     for nid in MISSING_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"missing-{nid}")
-        left, top = attach_clear(it, STAMP_SIDES, *STAMP_BOX)
+        left, top = attach(it, "l-top", *STAMP_BOX)
         rot = rng.uniform(-14, 14)
-        txt = _STAMP_TXT["missing"]["en"] if lang == "en" else _STAMP_TXT["missing"]["es"]
+        txt = _stamp_text("missing", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-missing" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
@@ -346,17 +356,19 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"captured-{nid}")
-        left, top = attach_clear(it, STAMP_SIDES, *STAMP_BOX)
+        left, top = attach(it, "l-top", *STAMP_BOX)
         rot = rng.uniform(-14, 14)
-        txt = _STAMP_TXT["captured"]["en"] if lang == "en" else _STAMP_TXT["captured"]["es"]
+        txt = _stamp_text("captured", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-captured" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Muerto: cruz de tumba pegada al borde izquierdo (abajo) -- en el
-    #      lado opuesto al posit del Cristal Oscuro para que en Gerson no se
-    #      pisen entre si ----
-    CROSS_BOX = (24, 30)
+    # ---- Muerto (Gerson): cruz de tumba pegada al borde izquierdo (abajo)
+    #      -- en el lado opuesto al posit del Cristal Oscuro para que en
+    #      Gerson no se pisen entre si. Piedra clara con borde oscuro y
+    #      montoncito de tierra debajo para que se note bien sobre el corcho
+    #      oscuro (antes era marron sobre marron y se perdia). ----
+    CROSS_BOX = (36, 44)
     CROSS_SIDES = ["l-bottom", "r-bottom", "l-top", "r-top"]
     for nid in DEAD_CROSS_NIDS:
         it = by_id.get(nid)
@@ -367,7 +379,25 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         rot = rng.uniform(-10, 10)
         out.append(
             f'<div class="doodle doodle-cross" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
-            f'<svg viewBox="0 0 20 26"><rect x="8" y="1" width="4" height="24" rx="1" fill="#7a6a52"/><rect x="1" y="7" width="18" height="4" rx="1" fill="#7a6a52"/></svg></div>'
+            f'<svg viewBox="0 0 26 32">'
+            f'<ellipse cx="13" cy="29" rx="11" ry="3" fill="#0c0a06" opacity=".55"/>'
+            f'<rect x="10.3" y="2" width="5.4" height="24" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
+            f'<rect x="2" y="9.5" width="22" height="5.4" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
+            f'</svg></div>'
+        )
+
+    # ---- Muerto (Flowery): sello de "MUERTO" -- no lleva cruz de tumba
+    #      porque es una flor, no una lapida ----
+    for nid in DEAD_STAMP_NIDS:
+        it = by_id.get(nid)
+        if not it:
+            continue
+        rng = random.Random(f"dead-{nid}")
+        left, top = attach(it, "l-top", *STAMP_BOX)
+        rot = rng.uniform(-14, 14)
+        txt = _stamp_text("dead", nid, lang)
+        out.append(
+            f'<div class="doodle doodle-stamp stamp-dead" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----

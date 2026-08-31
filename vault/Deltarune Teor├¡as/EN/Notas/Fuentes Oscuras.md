@@ -102,12 +102,21 @@ Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the R
 
 > [!question]+ 🎲 Who opened the Chapter 1 Fountain?
 > It's the most debated question in the entire mechanic: neither the game itself nor the official wiki confirms who opened the school locker Fountain. The two main suspects are **Kris** (who already demonstrates the ability to open Fountains on his own from Chapter 2 onward, and whose SOUL-less body acts suspiciously in several nighttime scenes) and **the Roaring Knight** (the default suspect for any irregular Fountain). The most-cited argument for Kris is that the game never explains how to open a Fountain until Queen does so in Chapter 2 — after the Chapter 1 one already exists — which some read as a clue that Kris already knew how beforehand. The counterargument is that Ralsei only detects the Library Fountain upon reaching it with the group, without warning beforehand during the Castle Town visit, which could mean that particular Fountain wasn't yet open — or that Ralsei wasn't entirely honest. Still unresolved.
+>
+> ![[closet_image.png]]
+> *The school's supply closet, the Chapter 1 setting — the only case in the entire mechanic where nobody confirms who opened the Fountain.*
 
 > [!question]- 🎲 The twin Fountains of Chapter 5 and the "Kris is the Knight" theory
 > The most-cited detail from the fandom after Chapter 5: the second Flower King Fountain, the one the Knight opens to kidnap Asgore, is visually identical to the one Kris had just opened seconds earlier — same size, same look, no recognizable variation. Those who argue that the Knight and Kris are, in some way, the same entity (or share an identical will) point to this detail as the strongest visual evidence to date; skeptics respond that all Fountains of the same Dark World type might simply share the same default look, without that implying anything about who opens them. Related to the Kris-Knight cooperation theory already covered in [[Roaring Knight]].
+>
+> ![[kris_Knight_overworld_knighting.gif]]
+> *Kris and the Knight, tied together even in a joking moment within the game itself — the visual basis fueling the theory that they're, in some way, the same entity.*
 
 > [!question]- 🎲 The Shelter's Fountain, the big loose end
 > Unlike any other, no one has ever seen the moment it opens, no one knows who did it, and it has never been sealed or explored beyond a glimpse of Undyne's Darkner form. It is, along with the Chapter 1 unknown, one of the biggest unresolved mysteries in the whole series — see [[Shelter]] for the full breakdown of every theory surrounding it.
+>
+> ![[carol_investigation_shelter.webp]]
+> *Carol investigating the Shelter — the only Dark Fountain in the whole game whose origin remains a total mystery.*
 
 ## Trivia
 - The official wiki numbers the Fountains by order of on-screen appearance (up to 7 different ones in Chapter 4 alone, counting reopenings), a different criterion from the chronological "who opened it and when" order this note uses.

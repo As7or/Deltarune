@@ -442,15 +442,28 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     font-size:8.5px; color:#4a3d28; letter-spacing:.2px;
   }}
   .doodle-stamp{{
-    z-index:2; padding:5px 10px; border:3px solid rgba(178,40,30,.82); border-radius:3px;
-    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:13px;
-    letter-spacing:1.5px; color:rgba(178,40,30,.88); background:rgba(255,255,255,.05);
-    text-transform:uppercase; mix-blend-mode:multiply;
-    text-shadow:0 0 1px rgba(178,40,30,.35);
+    z-index:2; width:fit-content; padding:7px 13px;
+    font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:14px;
+    letter-spacing:2px; text-transform:uppercase; color:#a8281e;
+    border:3px solid #a8281e; outline:1px solid #a8281e; outline-offset:3px;
+    border-radius:1px;
+    background-image:
+      radial-gradient(circle at 12% 22%, rgba(255,255,255,.6) .7px, transparent 1.3px),
+      radial-gradient(circle at 68% 12%, rgba(255,255,255,.55) .6px, transparent 1.1px),
+      radial-gradient(circle at 32% 82%, rgba(255,255,255,.55) .7px, transparent 1.3px),
+      radial-gradient(circle at 86% 68%, rgba(255,255,255,.5) .6px, transparent 1.1px),
+      radial-gradient(circle at 50% 46%, rgba(255,255,255,.45) .6px, transparent 1.1px),
+      radial-gradient(circle at 8% 62%, rgba(255,255,255,.45) .6px, transparent 1.1px),
+      radial-gradient(circle at 92% 38%, rgba(255,255,255,.45) .6px, transparent 1.1px);
+    background-size: 6px 6px, 7px 7px, 5px 5px, 8px 8px, 6px 6px, 7px 7px, 6px 6px;
+    mix-blend-mode:multiply;
+    text-shadow: .5px 0 0 currentColor, -.5px 0 0 currentColor, 0 .5px 0 currentColor, 0 -.4px 0 currentColor;
+    clip-path: polygon(1% 7%, 4% 0%, 96% 1%, 99% 8%, 98% 92%, 95% 100%, 3% 99%, 0% 93%);
   }}
-  .doodle-stamp.stamp-captured{{ border-color:rgba(168,84,28,.85); color:rgba(168,84,28,.9); }}
-  .doodle-cross{{ z-index:2; width:24px; height:30px; }}
-  .doodle-cross svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 3px 2px rgba(0,0,0,.4)); }}
+  .doodle-stamp.stamp-captured{{ color:#8a4a1c; border-color:#8a4a1c; outline-color:#8a4a1c; }}
+  .doodle-stamp.stamp-dead{{ color:#6b1e18; border-color:#6b1e18; outline-color:#6b1e18; }}
+  .doodle-cross{{ z-index:2; width:36px; height:44px; }}
+  .doodle-cross svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.65)); }}
   .gaster-vignette{{
     z-index:0; border-radius:50%; filter:blur(2px);
     background:radial-gradient(ellipse, rgba(8,6,5,.68) 0%, rgba(8,6,5,.38) 42%, transparent 72%);
