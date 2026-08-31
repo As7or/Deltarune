@@ -389,6 +389,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
      real, y el rincon de Gaster convertido en foco de paranoia ---- */
   .doodle{{ position:absolute; pointer-events:none; transition:opacity .12s ease; }}
   .doodle.doodle-hidden{{ opacity:0 !important; }}
+  .doodle.dimmed{{ opacity:.22 !important; }}
   .doodle-arrow{{
     z-index:1; height:3.5px; border-radius:2px; transform-origin:0 50%;
     background: linear-gradient(90deg, transparent 0%, rgba(40,32,24,.65) 18%, rgba(40,32,24,.65) 100%);
@@ -446,15 +447,15 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     z-index:4; width:fit-content; padding:5px 10px;
     font-family:'Arial Black','Impact',sans-serif; font-weight:900; font-size:14px;
     letter-spacing:1.6px; text-transform:uppercase; color:#c81208;
-    background:rgba(249,242,221,.9);
+    background:rgba(249,242,221,.16);
     border:4px solid #c81208; outline:2px solid #c81208; outline-offset:3px;
-    border-radius:1px; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.55));
+    border-radius:1px; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.65));
     text-shadow: .5px 0 0 currentColor, -.5px 0 0 currentColor, 0 .5px 0 currentColor, 0 -.4px 0 currentColor;
     clip-path: polygon(1% 7%, 4% 0%, 96% 1%, 99% 8%, 98% 92%, 95% 100%, 3% 99%, 0% 93%);
   }}
-  .doodle-stamp.stamp-captured{{ color:#c05a05; background:rgba(249,240,220,.9); border-color:#c05a05; outline-color:#c05a05; }}
-  .doodle-stamp.stamp-dead{{ color:#8f0d33; background:rgba(247,235,232,.9); border-color:#8f0d33; outline-color:#8f0d33; }}
-  .doodle-cross{{ z-index:4; width:34px; height:42px; }}
+  .doodle-stamp.stamp-captured{{ color:#c05a05; background:rgba(249,240,220,.16); border-color:#c05a05; outline-color:#c05a05; }}
+  .doodle-stamp.stamp-dead{{ color:#8f0d33; background:rgba(247,235,232,.16); border-color:#8f0d33; outline-color:#8f0d33; }}
+  .doodle-cross{{ z-index:4; width:28px; height:58px; }}
   .doodle-cross svg{{ width:100%; height:100%; display:block; filter:drop-shadow(1px 3px 3px rgba(0,0,0,.65)); }}
   .gaster-vignette{{
     z-index:0; border-radius:50%; filter:blur(2px);
@@ -917,10 +918,22 @@ function draw(){{
 window.addEventListener('resize', draw);
 draw();
 
+// mapa nota -> sus decoraciones (sellos, cruces, fotos de objeto, rincon de
+// Gaster...), para poder atenuarlas/ocultarlas en bloque junto con la nota
+// a la que pertenecen en vez de dejarlas siempre encima de todo.
+const decoByOwner = {{}};
+document.querySelectorAll('[data-owner]').forEach(d=>{{
+  const k = d.dataset.owner;
+  (decoByOwner[k] = decoByOwner[k] || []).push(d);
+}});
+
 // pasar el raton por una nota ilumina toda su red de conexiones (como conectar
 // pistas en un corcho de investigacion): las cuerdas ajenas se atenuan. Al
 // hacer clic y abrir la nota, ese resaltado se queda fijado hasta que se
 // cierra el panel o se abre otra nota — no hace falta mantener el raton encima.
+// Las decoraciones de las notas atenuadas se atenuan tambien -- si no, un
+// sello o la esquina de Gaster se quedaban brillando por encima de notas ya
+// mandadas a segundo plano.
 function applyNetworkHighlight(nid){{
   const mine = nodeGroups[nid] || [];
   if(!mine.length) return;
@@ -933,10 +946,17 @@ function applyNetworkHighlight(nid){{
     const otherEl = document.querySelector(`[data-id="${{other}}"]`);
     if(otherEl) otherEl.classList.remove('dimmed');
   }});
+  document.querySelectorAll('.node[data-id]').forEach(n=>{{
+    const decos = decoByOwner[n.dataset.id];
+    if(!decos) return;
+    const isDimmed = n.classList.contains('dimmed');
+    decos.forEach(d=> d.classList.toggle('dimmed', isDimmed));
+  }});
 }}
 function clearNetworkHighlight(){{
   document.querySelectorAll('.string-group').forEach(g=> g.style.opacity = '');
   document.querySelectorAll('.node').forEach(other=> other.classList.remove('dimmed'));
+  document.querySelectorAll('.doodle.dimmed').forEach(d=> d.classList.remove('dimmed'));
 }}
 
 document.querySelectorAll('.node').forEach(n=>{{
@@ -973,19 +993,13 @@ document.querySelectorAll('.node').forEach(n=>{{
 // Ocultar sellos/cruces/posits de una nota mientras el cursor esta encima:
 // al hacer hover la tarjeta se agranda (scale 1.14) y la decoracion, que no
 // es hija suya, se quedaria "flotando" desalineada -- mejor ocultarla.
-(function(){{
-  const byOwner = {{}};
-  document.querySelectorAll('[data-owner]').forEach(d=>{{
-    const k = d.dataset.owner;
-    (byOwner[k] = byOwner[k] || []).push(d);
-  }});
-  document.querySelectorAll('.node[data-id]').forEach(n=>{{
-    const decos = byOwner[n.dataset.id];
-    if(!decos) return;
-    n.addEventListener('mouseenter', ()=> decos.forEach(d=> d.classList.add('doodle-hidden')));
-    n.addEventListener('mouseleave', ()=> decos.forEach(d=> d.classList.remove('doodle-hidden')));
-  }});
-}})();
+// Reutiliza el mismo mapa nota -> decoraciones que el resaltado de red.
+document.querySelectorAll('.node[data-id]').forEach(n=>{{
+  const decos = decoByOwner[n.dataset.id];
+  if(!decos) return;
+  n.addEventListener('mouseenter', ()=> decos.forEach(d=> d.classList.add('doodle-hidden')));
+  n.addEventListener('mouseleave', ()=> decos.forEach(d=> d.classList.remove('doodle-hidden')));
+}});
 
 viewport.addEventListener('mousedown', e=>{{
   mode = 'pan';

@@ -241,26 +241,36 @@ GASTER_QUOTES = [
 # personaje en un estado narrativo concreto lleva un posit/sello que lo dice
 # directamente. Anclados junto al nodo, nunca encima de la tarjeta.
 DARK_CRYSTAL_NIDS = {"g_jevil", "g12", "g7", "g_gerson", "g_pink"}   # Jevil, Spamton, Roaring Knight, Gerson Boom, Mad Mew Mew (Pink): los 5 jefes que sueltan un Cristal Oscuro
-MISSING_NIDS = {"g_papyrus", "g13", "g6"}                            # Papyrus (nunca visto), Asriel, Dess: desaparecidos o aun no vistos
+MISSING_NIDS = {"g6"}                                                # Dess: desaparecida antes del juego -- sello "DESAPARECIDA"
+WHERE_IS_NIDS = {"g_papyrus", "g13"}                                 # Papyrus (nunca visto), Asriel: en vez de "desaparecido", el misterio es DONDE estan
 CAPTURED_NIDS = {"g21", "g_undyne"}                                  # Asgore, Undyne: capturados por el Caballero
 DEAD_CROSS_NIDS = {"g_gerson"}                                       # Gerson Boom: cruz de tumba (ya revivido como Old Man, pero sigue siendo un Lightner fallecido)
 DEAD_STAMP_NIDS = {"g_flowery"}                                      # Flowery: sello de "muerto" (no cruz -- es una flor, no una tumba)
 
 _STAMP_TXT = {
     "missing":  {"es": "DESAPARECIDO", "en": "MISSING"},
+    # Papyrus y Asriel: el misterio no es que hayan desaparecido sin mas --
+    # es que nadie sabe donde estan (Papyrus nunca aparece en persona; Asriel
+    # vuelve pero su paradero real es ambiguo). Sin genero porque la frase ya
+    # es neutra en español.
+    "where":    {"es": "¿DÓNDE ESTÁ?", "en": "WHERE IS HE?"},
     "captured": {"es": "CAPTURADO", "en": "CAPTURED"},
     # Flowery: no es una muerte confirmada, es una teoria -- el sello lleva
     # interrogacion en vez de darlo por hecho.
     "dead":     {"es": "¿MUERTO?", "en": "DEAD?"},
 }
 FEMININE_NIDS = {"g6", "g_undyne"}  # Dess, Undyne: en español el sello concuerda en genero
+# Dess concuerda en genero segun FEMININE_NIDS, pero ademas su sello va
+# inclinado hacia el lado contrario al resto (para que no queden todos
+# calcados con la misma inclinacion "tipica").
+STAMP_ROT_SIGN_OVERRIDE = {"g6": 1}
 
 
 def _stamp_text(kind, nid, lang):
     if lang == "en":
         return _STAMP_TXT[kind]["en"]
     base = _STAMP_TXT[kind]["es"]
-    if kind != "dead" and nid in FEMININE_NIDS:
+    if kind not in ("dead", "where") and nid in FEMININE_NIDS:
         return base[:-1] + "A"
     return base
 
@@ -319,16 +329,18 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
                 fallback = (left, top)
         return fallback
 
-    def on_card(it, box_w, box_h, y_bias=-0.22):
+    def on_card(it, box_w, box_h, x_bias=0.0, y_bias=-0.22):
         """Centra una decoracion ENCIMA de la propia tarjeta -- como un
         sello estampado sobre la foto, o un pin clavado en ella -- en vez
         de dejarla junto al borde. Se usa para los sellos y la cruz: contra
         el corcho oscuro no se leian, pero sobre el fondo claro de la nota
         sí. y_bias<0 la sube hacia la zona de la imagen, para no tapar el
-        titulo/resumen de abajo."""
+        titulo/resumen de abajo; x_bias<0/>0 la desplaza hacia la izquierda
+        o derecha (0 = centrada)."""
         ox, oy = it["px"], it["py"]
+        halfw = it.get("_render_w", 150) / 2
         halfh = it.get("_render_h", 150) / 2
-        return ox - box_w / 2, oy + halfh * y_bias - box_h / 2
+        return ox + halfw * x_bias - box_w / 2, oy + halfh * y_bias - box_h / 2
 
     # ---- Cristal Oscuro: foto del objeto pegada al borde de cada jefe que
     #      lo suelta (a la derecha por defecto; a otro lado si ahi choca
@@ -353,21 +365,40 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     #      propia foto de la tarjeta -- contra el corcho no se leia, pero
     #      sobre el fondo claro de la nota sí destaca. ----
     STAMP_BOX = (100, 32)
+    STAMP_Y_BIAS = -0.08  # casi centrado en la tarjeta, con solo un pelin hacia arriba
 
-    def _stamp_rot(rng):
+    def _stamp_rot(rng, nid=None):
         """Rotacion irregular tipo sello real: cambia de signo y de
         magnitud de una nota a otra, en vez de una inclinacion uniforme
-        que hace que todos los sellos parezcan calcados."""
-        return rng.choice((-1, 1)) * rng.uniform(7, 23)
+        que hace que todos los sellos parezcan calcados. Un nid puede
+        forzar el lado (ver STAMP_ROT_SIGN_OVERRIDE) para que no coincida
+        con el de sus vecinos."""
+        forced = STAMP_ROT_SIGN_OVERRIDE.get(nid)
+        sign = forced if forced is not None else rng.choice((-1, 1))
+        return sign * rng.uniform(7, 23)
 
     for nid in MISSING_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"missing-{nid}")
-        left, top = on_card(it, *STAMP_BOX)
-        rot = _stamp_rot(rng)
+        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        rot = _stamp_rot(rng, nid)
         txt = _stamp_text("missing", nid, lang)
+        out.append(
+            f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
+        )
+
+    # ---- Papyrus y Asriel: el misterio no es que hayan desaparecido, es que
+    #      nadie sabe donde estan -- mismo estampado, texto distinto ----
+    for nid in WHERE_IS_NIDS:
+        it = by_id.get(nid)
+        if not it:
+            continue
+        rng = random.Random(f"where-{nid}")
+        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        rot = _stamp_rot(rng, nid)
+        txt = _stamp_text("where", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-missing" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
@@ -378,29 +409,31 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"captured-{nid}")
-        left, top = on_card(it, *STAMP_BOX)
-        rot = _stamp_rot(rng)
+        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
+        rot = _stamp_rot(rng, nid)
         txt = _stamp_text("captured", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-captured" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{txt}</div>'
         )
 
-    # ---- Muerto (Gerson): cruz clavada encima de la propia foto, como un
-    #      pin mas -- contra el corcho oscuro no se veia (marron sobre
-    #      marron); sobre la tarjeta sí destaca. ----
-    CROSS_BOX = (34, 42)
+    # ---- Muerto (Gerson): cruz clavada en la esquina superior izquierda de
+    #      la propia foto, como un pin mas -- contra el corcho oscuro no se
+    #      veia (marron sobre marron); sobre la tarjeta sí destaca. Mas
+    #      larga verticalmente para que se note que es una cruz de tumba y
+    #      no una simple "+". ----
+    CROSS_BOX = (28, 58)
     for nid in DEAD_CROSS_NIDS:
         it = by_id.get(nid)
         if not it:
             continue
         rng = random.Random(f"cross-{nid}")
-        left, top = on_card(it, *CROSS_BOX, y_bias=-0.15)
+        left, top = on_card(it, *CROSS_BOX, x_bias=-0.5, y_bias=-0.55)
         rot = rng.uniform(-10, 10)
         out.append(
             f'<div class="doodle doodle-cross" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
-            f'<svg viewBox="0 0 26 32">'
-            f'<rect x="10.3" y="2" width="5.4" height="24" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
-            f'<rect x="2" y="9.5" width="22" height="5.4" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
+            f'<svg viewBox="0 0 24 56">'
+            f'<rect x="9.3" y="2" width="5.4" height="48" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
+            f'<rect x="2" y="13" width="20" height="5.4" rx="1.5" fill="#e4ddc6" stroke="#2a2118" stroke-width="1.2"/>'
             f'</svg></div>'
         )
 
@@ -412,7 +445,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"dead-{nid}")
-        left, top = on_card(it, *STAMP_BOX)
+        left, top = on_card(it, *STAMP_BOX, y_bias=STAMP_Y_BIAS)
         rot = _stamp_rot(rng)
         txt = _stamp_text("dead", nid, lang)
         out.append(
@@ -422,16 +455,17 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----
     gaster_it = next((it for it in items if it["label"] == "Gaster (W. D. Gaster)"), None)
     if gaster_it:
+        gid = gaster_it["id"]
         gx, gy = gaster_it["px"], gaster_it["py"]
         grng = random.Random("gaster-paranoia-v2")
         vw, vh = 760, 600
-        out.append(f'<div class="doodle gaster-vignette" style="left:{gx-vw/2:.0f}px; top:{gy-vh/2:.0f}px; width:{vw}px; height:{vh}px;"></div>')
+        out.append(f'<div class="doodle gaster-vignette" data-owner="{gid}" style="left:{gx-vw/2:.0f}px; top:{gy-vh/2:.0f}px; width:{vw}px; height:{vh}px;"></div>')
 
         # hilos rojos disparados en todas direcciones, mas densos que antes
         for i in range(10):
             ang = grng.uniform(0, 360)
             length = grng.randint(80, 220)
-            out.append(f'<div class="doodle doodle-arrow ink-red gaster-string" style="left:{gx:.0f}px; top:{gy:.0f}px; width:{length}px; transform:rotate({ang:.1f}deg);"></div>')
+            out.append(f'<div class="doodle doodle-arrow ink-red gaster-string" data-owner="{gid}" style="left:{gx:.0f}px; top:{gy:.0f}px; width:{length}px; transform:rotate({ang:.1f}deg);"></div>')
 
         # arañazos frenéticos agrupados (deterioro)
         scratch_base = grng.uniform(0, 360)
@@ -440,18 +474,18 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         scx = gx + math.cos(sang) * scratch_dist
         scy = gy + math.sin(sang) * scratch_dist
         for i in range(3):
-            out.append(f'<div class="doodle gaster-scratch" style="left:{scx:.0f}px; top:{scy+i*7:.0f}px; width:64px; transform:rotate({scratch_base+i*4:.1f}deg);"></div>')
+            out.append(f'<div class="doodle gaster-scratch" data-owner="{gid}" style="left:{scx:.0f}px; top:{scy+i*7:.0f}px; width:64px; transform:rotate({scratch_base+i*4:.1f}deg);"></div>')
 
         # cinta rota / resto de recorte arrancado
         tdx = grng.choice([-1, 1]) * grng.randint(150, 260)
         tdy = grng.choice([-1, 1]) * grng.randint(60, 140)
-        out.append(f'<div class="doodle gaster-tape" style="left:{gx+tdx:.0f}px; top:{gy+tdy:.0f}px; transform:rotate({grng.uniform(-30,30):.1f}deg);"></div>')
+        out.append(f'<div class="doodle gaster-tape" data-owner="{gid}" style="left:{gx+tdx:.0f}px; top:{gy+tdy:.0f}px; transform:rotate({grng.uniform(-30,30):.1f}deg);"></div>')
 
         # chinchetas muertas (sin nota, hilo cortado)
         for i in range(4):
             dx = grng.choice([-1, 1]) * grng.randint(140, 260)
             dy = grng.choice([-1, 1]) * grng.randint(130, 230)
-            out.append(f'<div class="doodle doodle-pin-lone" style="left:{gx+dx:.0f}px; top:{gy+dy:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
+            out.append(f'<div class="doodle doodle-pin-lone" data-owner="{gid}" style="left:{gx+dx:.0f}px; top:{gy+dy:.0f}px;"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>')
 
         # notas de Gaster: citas reales del juego, en Wingdings, como
         # negativos pegados con celo o chincheta (la traduccion solo sale
@@ -479,7 +513,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             gloss = q["gloss_es"] if lang != "en" else q["gloss_en"]
             tape = grng.random() < 0.5
             out.append(
-                f'<div class="doodle doodle-note gaster-note{" tape" if tape else ""}" '
+                f'<div class="doodle doodle-note gaster-note{" tape" if tape else ""}" data-owner="{gid}" '
                 f'style="left:{nx:.0f}px; top:{ny:.0f}px; transform:rotate({rot:.1f}deg);" '
                 f'title="{html.escape(gloss)}">{html.escape(q["text"])}</div>'
             )
