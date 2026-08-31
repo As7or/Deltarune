@@ -81,6 +81,9 @@ EDGE_COLOR_MAP = {
     "1": "#b23c30", "2": "#c97a3d", "3": "#c9982e",
     "4": "#2e8b46", "5": "#3a9aa6", "6": "#6b3fa0", None: "#8a7a5c",
 }
+# Temas ⚪ que comparten el mismo diseño de pergamino/scroll de Profecía --
+# misma pinta de rollo de papiro, solo cambia el texto de dentro.
+PARCHMENT_LABELS = {"Profecía", "Roaring Knight", "Titan", "Ángel"}
 
 
 def _note_for_label(label, note_stems):
@@ -475,7 +478,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
             submap_badge = (f'<a class="submap-badge" href="{submap_url}" '
                              f'title="{submap_tooltip}" onmousedown="event.stopPropagation()">🗺️</a>')
 
-        if it["label"] == "Profecía":
+        if it["label"] in PARCHMENT_LABELS:
             node_html.append(f'''
   <div class="node node-scroll" data-id="{nid}" data-note="{note_attr}" data-theme="parchment" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
     <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
@@ -570,16 +573,42 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
       <div class="summary">{summary}</div>
     </div>
   </div>''')
+        elif it["label"] in ("Forgotten Man", "Huevo"):
+            # Diseno "olvidado": foto vieja y desteñida en una caja polvorienta,
+            # con telarana en la esquina y el borde inferior rasgado a mano.
+            node_html.append(f'''
+  <div class="node node-forgotten" data-id="{nid}" data-note="{note_attr}" data-theme="forgotten" style="left:{x-this_card_w/2:.0f}px; top:{y-approx_card_h/2:.0f}px; width:{this_card_w}px; transform:rotate({rot:.1f}deg);">
+    <div class="pin"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="#c73434"/><circle cx="8" cy="8" r="2.4" fill="#ffb3b3"/></svg></div>
+    {submap_badge}
+    <div class="card forgotten-card" style="border-top:5px solid {it['color']};">
+      <div class="dust-motes"></div>
+      <div class="cracks"></div>
+      <div class="cobweb"></div>
+      <div class="{thumb_class}" style="height:{thumb_h:.0f}px;">{img_tag}</div>
+      <div class="tag">{tag}</div>
+      <div class="title">{title}</div>
+      <div class="summary">{summary}</div>
+    </div>
+    <div class="torn-strip"></div>
+  </div>''')
         else:
             # Por categoria (segun el tag "mundo" tecleado en el canvas, no el
             # color crudo -- Titan es un caso donde no coinciden): los
             # Lightner se quedan con la tarjeta clasica; los Darkner pasan a
             # verse como un negativo fotografico; las Plantas, como papel
             # vegetal traslucido. Lugares y Temas ya con tema propio no pasan
-            # por aqui.
+            # por aqui. FRIEND es el mismo negativo de los Darkner pero en
+            # negro (es una amenaza real, no un Darkner al uso); Rutas usa el
+            # aspecto de terminal/mecanica de juego en verde fosforo.
             extra_card_cls = ""
             node_theme = "postit"
-            if "Darkner" in it["tag"]:
+            if it["label"] == "FRIEND":
+                extra_card_cls = " friend-card"
+                node_theme = "friend"
+            elif it["label"] == "Rutas":
+                extra_card_cls = " rutas-card"
+                node_theme = "rutas"
+            elif "Darkner" in it["tag"]:
                 extra_card_cls = " darkner-card"
                 node_theme = "darkner"
             elif "Planta" in it["tag"]:

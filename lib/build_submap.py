@@ -321,6 +321,18 @@ PAGE_CSS = '''
   #note-panel[data-theme="planta"] .note-header{ background:#4a6b3a; color:#edf3e3; }
   #note-panel[data-theme="planta"] .note-header button{ border-color:#edf3e3; color:#edf3e3; }
   #note-panel[data-theme="planta"] .note-header button.active{ background:#edf3e3; color:#2f4a24; }
+
+  #note-panel[data-theme="friend"] .note-header{ background:#1c1c1c; color:#f0ece0; }
+  #note-panel[data-theme="friend"] .note-header button{ border-color:#c23838; color:#f0ece0; }
+  #note-panel[data-theme="friend"] .note-header button.active{ background:#c23838; color:#0a0a0a; }
+
+  #note-panel[data-theme="forgotten"] .note-header{ background:#544c3c; color:#efe8d4; }
+  #note-panel[data-theme="forgotten"] .note-header button{ border-color:#c9bd9a; color:#efe8d4; }
+  #note-panel[data-theme="forgotten"] .note-header button.active{ background:#c9bd9a; color:#3a3226; }
+
+  #note-panel[data-theme="rutas"] .note-header{ background:#050805; color:#4dff6a; font-family:'Courier New',monospace; }
+  #note-panel[data-theme="rutas"] .note-header button{ border-color:#3ddc55; color:#4dff6a; font-family:'Courier New',monospace; }
+  #note-panel[data-theme="rutas"] .note-header button.active{ background:#3ddc55; color:#020402; }
   #note-panel .postit-body{
     position:relative;
     width:100%; height:calc(100% - 49px); overflow-y:auto; overflow-x:hidden; box-sizing:border-box;
@@ -692,7 +704,10 @@ def build_submap(canvas_path, title_name, lang="es"):
     # Nodos con el mismo tema visual especial que sus tarjetas en el corcho
     # principal (Shelter, Lago, Cristal Oscuro, Conexion Undertale, Profecia,
     # Fuentes Oscuras) -- se detectan por titulo exacto de la burbuja/centro.
-    SPECIAL_THEMES = {"Shelter", "Lake", "Cristal Oscuro", "Conexión Undertale", "Profecía", "Fuentes Oscuras", "Gaster"}
+    SPECIAL_THEMES = {
+        "Shelter", "Lake", "Cristal Oscuro", "Conexión Undertale", "Profecía", "Fuentes Oscuras", "Gaster",
+        "Roaring Knight", "Titan", "Ángel",
+    }
     THEME_VIEWPORT_CLASS = {
         "Shelter": "viewport-rusted", "Lake": "viewport-wet", "Cristal Oscuro": "viewport-crystal",
         "Conexión Undertale": "viewport-undertale", "Fuentes Oscuras": "viewport-fountain",
@@ -706,6 +721,7 @@ def build_submap(canvas_path, title_name, lang="es"):
         "Shelter": "rusted", "Lake": "wet", "Cristal Oscuro": "crystal",
         "Conexión Undertale": "undertale", "Fuentes Oscuras": "fountain",
         "Profecía": "parchment", "Gaster": "gaster",
+        "Roaring Knight": "parchment", "Titan": "parchment", "Ángel": "parchment",
     }
     # Mismos personajes que DARKNER_NOTES/PLANTA_NOTES en build.py (categoria
     # "mundo" del canvas): si se añade un Darkner o Planta nuevo alli, hay que
@@ -717,6 +733,9 @@ def build_submap(canvas_path, title_name, lang="es"):
         "Seam", "Shuttah", "Spamton", "Tenna",
     }
     PLANTA_STEMS = {"7 Flores de Colores", "Flowery"}
+    FRIEND_STEMS = {"FRIEND"}
+    FORGOTTEN_STEMS = {"Forgotten Man", "Huevo"}
+    RUTAS_STEMS = {"Rutas"}
     # Si el propio centro del submapa es una de esas 6 notas especiales, todo
     # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).
     center_title_raw = next((it["title"] for it in items if it["is_center"]), "")
@@ -755,6 +774,12 @@ def build_submap(canvas_path, title_name, lang="es"):
         theme = title_base if title_base in SPECIAL_THEMES else None
         if theme:
             node_theme = THEME_SLUG[theme]
+        elif note_attr in FRIEND_STEMS:
+            node_theme = "friend"
+        elif note_attr in FORGOTTEN_STEMS:
+            node_theme = "forgotten"
+        elif note_attr in RUTAS_STEMS:
+            node_theme = "rutas"
         elif note_attr in DARKNER_STEMS:
             node_theme = "darkner"
         elif note_attr in PLANTA_STEMS:
@@ -791,7 +816,7 @@ def build_submap(canvas_path, title_name, lang="es"):
         base_attrs = f'data-id="{nid}" data-note="{note_attr}" data-center="{opennote_flag}" data-theme="{node_theme}"'
         pos_style = f'left:{x-width/2:.0f}px; top:{y-(160 if is_center else 105):.0f}px; width:{width}px; transform:rotate({rot:.1f}deg);'
 
-        if theme == "Profecía":
+        if theme in ("Profecía", "Roaring Knight", "Titan", "Ángel"):
             node_html.append(f'''
   <div class="node node-scroll" {base_attrs} style="{pos_style}">
     {pin}

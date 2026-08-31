@@ -264,6 +264,18 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   #note-panel[data-theme="planta"] .note-header{{ background:#4a6b3a; color:#edf3e3; }}
   #note-panel[data-theme="planta"] .note-header button{{ border-color:#edf3e3; color:#edf3e3; }}
   #note-panel[data-theme="planta"] .note-header button.active{{ background:#edf3e3; color:#2f4a24; }}
+
+  #note-panel[data-theme="friend"] .note-header{{ background:#1c1c1c; color:#f0ece0; }}
+  #note-panel[data-theme="friend"] .note-header button{{ border-color:#c23838; color:#f0ece0; }}
+  #note-panel[data-theme="friend"] .note-header button.active{{ background:#c23838; color:#0a0a0a; }}
+
+  #note-panel[data-theme="forgotten"] .note-header{{ background:#544c3c; color:#efe8d4; }}
+  #note-panel[data-theme="forgotten"] .note-header button{{ border-color:#c9bd9a; color:#efe8d4; }}
+  #note-panel[data-theme="forgotten"] .note-header button.active{{ background:#c9bd9a; color:#3a3226; }}
+
+  #note-panel[data-theme="rutas"] .note-header{{ background:#050805; color:#4dff6a; font-family:'Courier New',monospace; }}
+  #note-panel[data-theme="rutas"] .note-header button{{ border-color:#3ddc55; color:#4dff6a; font-family:'Courier New',monospace; }}
+  #note-panel[data-theme="rutas"] .note-header button.active{{ background:#3ddc55; color:#020402; }}
   #overlay{{ position:fixed; inset:0; background:rgba(0,0,0,0.35); opacity:0; pointer-events:none; transition:opacity .28s ease; z-index:90; }}
   #overlay.open{{ opacity:1; pointer-events:auto; }}
 
@@ -480,6 +492,110 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .planta-card .tag{{ position:relative; z-index:2; color:#4a6b3a; }}
   .planta-card .title{{ position:relative; z-index:2; color:#2f4a24; }}
   .planta-card .summary{{ position:relative; z-index:2; color:#4a5f3e; }}
+
+  /* ---- FRIEND: el mismo negativo de carrete de los Darkner, pero en negro
+     -- no es un Darkner al uso, es una amenaza real que caza en manada,
+     asi que el acento pasa de morado a un rojo apagado ---- */
+  .friend-card{{
+    position:relative; overflow:hidden;
+    padding-left:15px; padding-right:15px;
+    background: linear-gradient(165deg, #3a3a3a 0%, #1c1c1c 55%, #0a0a0a 100%);
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 16px rgba(0,0,0,.6);
+  }}
+  .friend-card::before, .friend-card::after{{
+    content:""; position:absolute; top:0; bottom:0; width:14px; z-index:3; pointer-events:none;
+    background-color:#3a3a3a;
+    background-image: radial-gradient(circle at 7px 7.5px, #0a0a0a 3.2px, transparent 3.5px);
+    background-repeat: repeat-y;
+    background-size: 14px 15px;
+    box-shadow: inset 0 0 4px rgba(0,0,0,.6);
+  }}
+  .friend-card::before{{ left:0; }}
+  .friend-card::after{{ right:0; }}
+  .friend-card .thumb, .friend-card .thumb-dark{{
+    position:relative; z-index:2;
+    background: radial-gradient(ellipse 90% 70% at 50% 30%, #2e2e2e 0%, #1a1a1a 65%, #0a0a0a 100%);
+    filter: grayscale(1) contrast(1.1);
+  }}
+  .friend-card .noimg{{ color:#9a9a94; }}
+  .friend-card .tag{{ position:relative; z-index:2; color:#c23838; }}
+  .friend-card .title{{ position:relative; z-index:2; color:#f0ece0; }}
+  .friend-card .summary{{ position:relative; z-index:2; color:#b5b0a6; }}
+
+  /* ---- Forgotten Man / Huevo: caja vieja y polvorienta, foto desteñida,
+     telarana en la esquina, cristal agrietado y el borde inferior rasgado
+     a mano -- lo opuesto al resto del corcho, cuidado con mimo ---- */
+  .node-forgotten .forgotten-card{{
+    position:relative; overflow:hidden;
+    background: linear-gradient(165deg, #8a8070 0%, #6b6255 55%, #453f34 100%);
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 20px rgba(30,26,18,.55);
+  }}
+  .node-forgotten .dust-motes{{
+    content:""; position:absolute; inset:0; z-index:3; pointer-events:none; opacity:.85;
+    background-image:
+      radial-gradient(circle at 18% 22%, rgba(255,255,255,.55) .7px, transparent 1.1px),
+      radial-gradient(circle at 62% 12%, rgba(255,255,255,.4) .6px, transparent 1px),
+      radial-gradient(circle at 82% 38%, rgba(255,255,255,.5) .8px, transparent 1.2px),
+      radial-gradient(circle at 30% 58%, rgba(255,255,255,.35) .6px, transparent 1px),
+      radial-gradient(circle at 70% 70%, rgba(255,255,255,.45) .7px, transparent 1.1px),
+      radial-gradient(circle at 12% 85%, rgba(255,255,255,.3) .6px, transparent 1px),
+      radial-gradient(circle at 90% 90%, rgba(255,255,255,.4) .7px, transparent 1.1px),
+      radial-gradient(circle at 45% 40%, rgba(255,255,255,.3) .5px, transparent .9px);
+  }}
+  .node-forgotten .cracks{{
+    content:""; position:absolute; inset:0; z-index:3; pointer-events:none;
+    background-image:
+      linear-gradient(105deg, transparent 46%, rgba(20,16,10,.3) 47%, transparent 48.5%),
+      linear-gradient(58deg, transparent 63%, rgba(20,16,10,.24) 64%, transparent 65.5%),
+      linear-gradient(140deg, transparent 20%, rgba(20,16,10,.22) 21%, transparent 22.5%);
+  }}
+  .node-forgotten .cobweb{{
+    position:absolute; top:-2px; left:-2px; width:48px; height:48px; z-index:4; pointer-events:none;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background:
+      repeating-conic-gradient(from 0deg at 0 0, rgba(230,226,210,.55) 0deg 1.4deg, transparent 1.4deg 12deg),
+      radial-gradient(circle at 0 0, transparent 9px, rgba(230,226,210,.4) 9.6px, transparent 10.2px),
+      radial-gradient(circle at 0 0, transparent 20px, rgba(230,226,210,.32) 20.6px, transparent 21.2px),
+      radial-gradient(circle at 0 0, transparent 33px, rgba(230,226,210,.24) 33.6px, transparent 34.2px);
+    opacity:.9;
+  }}
+  .node-forgotten .thumb, .node-forgotten .thumb-dark{{
+    position:relative; z-index:2;
+    filter: grayscale(.55) sepia(.35) contrast(.88) brightness(.82);
+  }}
+  .node-forgotten .noimg{{ color:#8a8070; }}
+  .node-forgotten .tag{{ position:relative; z-index:2; color:#8a7a52; }}
+  .node-forgotten .title{{ position:relative; z-index:2; color:#3a3226; text-shadow:0 1px 0 rgba(255,255,255,.18); }}
+  .node-forgotten .summary{{ position:relative; z-index:2; color:#544c3c; }}
+  .node-forgotten .torn-strip{{
+    height:11px; margin:-1px 6px 0;
+    background: linear-gradient(165deg, #6b6255 0%, #453f34 100%);
+    box-shadow:0 4px 6px -2px rgba(0,0,0,.35);
+    clip-path: polygon(0% 0%,4% 100%,8% 0%,12% 100%,16% 0%,20% 100%,24% 0%,28% 100%,
+      32% 0%,36% 100%,40% 0%,44% 100%,48% 0%,52% 100%,56% 0%,60% 100%,
+      64% 0%,68% 100%,72% 0%,76% 100%,80% 0%,84% 100%,88% 0%,92% 100%,96% 0%,100% 100%);
+  }}
+
+  /* ---- Rutas: pantalla de terminal en verde fosforo, como el menu de
+     Reflejo -- caja negra, borde verde, texto monoespaciado con brillo ---- */
+  .rutas-card{{
+    position:relative; overflow:hidden;
+    background:#050805;
+    border:1px solid #2e6e35;
+    box-shadow:3px 6px 10px var(--cork-shadow), inset 0 0 14px rgba(61,220,85,.1);
+  }}
+  .rutas-card::before{{
+    content:""; position:absolute; inset:0; z-index:3; pointer-events:none;
+    background: repeating-linear-gradient(0deg, rgba(61,220,85,.06) 0px, rgba(61,220,85,.06) 1px, transparent 1px, transparent 3px);
+  }}
+  .rutas-card .thumb, .rutas-card .thumb-dark{{
+    position:relative; z-index:2; background:#020402;
+    filter: grayscale(1) brightness(.95) sepia(1) hue-rotate(70deg) saturate(4.5) contrast(1.1);
+  }}
+  .rutas-card .noimg{{ color:#2fae44; font-family:'Courier New',monospace; }}
+  .rutas-card .tag{{ position:relative; z-index:2; color:#3ddc55; font-family:'Courier New',monospace; text-transform:uppercase; letter-spacing:.03em; }}
+  .rutas-card .title{{ position:relative; z-index:2; color:#4dff6a; font-family:'Courier New',monospace; text-shadow:0 0 6px rgba(60,255,90,.55); }}
+  .rutas-card .summary{{ position:relative; z-index:2; color:#2fae44; font-family:'Courier New',monospace; }}
 
   /* ---- Profecía: pergamino enrollado ---- */
   .node-scroll .scroll{{ position:relative; filter:drop-shadow(0 8px 12px rgba(0,0,0,.4)); }}

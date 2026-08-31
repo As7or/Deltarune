@@ -1120,6 +1120,297 @@ PAGE_CSS_PLANTA = '''
   .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
 '''
 
+# --- FRIEND: el mismo negativo de carrete que los Darkner (mismos perforados,
+# misma estructura), pero en negro -- no es un Darkner al uso, es la amenaza
+# real que caza en manada desde el Cap.5, asi que el acento pasa del morado
+# a un rojo apagado, como ojos en la oscuridad. ---
+PAGE_CSS_FRIEND = '''
+  body{
+    margin:0; padding:24px 40px 60px; font-family:'Segoe UI', Georgia, serif; color:#dcd8ce;
+    background: linear-gradient(165deg, #2b2b2b 0%, #171717 45%, #0a0a0a 100%);
+  }
+  body::before, body::after{
+    content:""; position:fixed; top:0; bottom:0; width:18px; z-index:50; pointer-events:none;
+    background-color:#2b2b2b;
+    background-image: radial-gradient(circle at 9px 9.5px, #060606 4px, transparent 4.4px);
+    background-repeat: repeat-y;
+    background-size: 18px 19px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.6);
+  }
+  body::before{ left:0; }
+  body::after{ right:0; }
+  h1{ font-size:22px; color:#f0ece0; border-bottom:2px solid #c23838; padding-bottom:8px; }
+  h2{ font-size:17px; color:#c9c4b8; margin-top:22px; }
+  h3{ font-size:15px; color:#c9c4b8; text-decoration:underline; text-underline-offset:3px; }
+  p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#dcd8ce; }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; filter:grayscale(.3); }
+  figure{ margin:14px 0; text-align:center; }
+  figcaption{ font-size:12.5px; font-style:italic; color:#9a958a; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:2px; box-shadow:0 4px 16px rgba(0,0,0,0.6); }
+  .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
+  .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
+  table.note-table{ width:100%; max-width:700px; border-collapse:collapse; margin:12px auto; background:rgba(16,16,16,0.7); }
+  table.note-table th, table.note-table td{ border:1px solid rgba(194,56,56,0.35); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#dcd8ce; }
+  table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
+  table.note-table .inline-img-small{ height:110px; }
+
+  /* --- mismo fotograma de negativo recortado que Darkner, en negro --- */
+  .callout{
+    position:relative;
+    background: linear-gradient(155deg, #363636 0%, #171717 100%);
+    padding:22px 20px 24px; margin:26px 18px 30px;
+    border:1px solid rgba(194,56,56,0.35);
+    box-shadow:0 4px 18px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.06);
+  }
+  .callout::before, .callout::after{
+    content:""; position:absolute; left:14px; right:14px; height:9px;
+    background-image: radial-gradient(circle at 4.5px 4.5px, #060606 3px, transparent 3.3px);
+    background-repeat: repeat-x; background-size:14px 9px; background-color:#2b2b2b;
+    opacity:.85;
+  }
+  .callout::before{ top:0; }
+  .callout::after{ bottom:0; }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.04em; color:#e05a5a; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#dcd8ce; }
+  /* mismo criterio que Darkner: cada tipo conserva su color propio, difuminado
+     hacia el negro en vez del violeta. */
+  .callout-info{ background:linear-gradient(155deg, rgba(58,123,213,0.4) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout-tip{ background:linear-gradient(155deg, rgba(46,139,87,0.4) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout-example{ background:linear-gradient(155deg, rgba(138,106,58,0.4) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout-danger{ background:linear-gradient(155deg, rgba(194,56,56,0.5) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout-quote{ background:linear-gradient(155deg, rgba(107,63,160,0.42) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout-question{ background:linear-gradient(155deg, rgba(201,152,46,0.44) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout-counter{ background:linear-gradient(155deg, rgba(217,114,42,0.46) 0%, rgba(8,8,8,0.82) 100%); }
+  .callout .callout{ margin:16px 8px 8px; box-shadow:0 4px 16px rgba(0,0,0,0.6); }
+
+  .wikilink{ color:#e05a5a; border-bottom:1px dotted #e05a5a; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(194,56,56,0.15); }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
+  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:rgba(20,20,20,0.7); border:1px solid rgba(194,56,56,0.4); border-radius:12px; padding:4px 12px; font-size:11px; color:#dcd8ce; font-family:'Segoe UI',sans-serif; }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#e05a5a; }
+  .fm-badge b{ font-weight:700; color:#e05a5a; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
+  .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .fm-badge[data-key="tipo"]{ border-left:3px solid #c23838; }
+  .fm-badge[data-key="mundo"]{ border-left:3px solid #c05a8e; }
+  .fm-badge[data-key="especie"]{ border-left:3px solid #8ab060; }
+  .fm-badge[data-key="familia"]{ border-left:3px solid #e07de0; }
+  .fm-badge[data-key="grupo"]{ border-left:3px solid #f0d060; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.15); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#e08080; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:rgba(20,20,20,0.8); border:1px solid rgba(194,56,56,0.4); border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#e05a5a !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(0,0,0,0.4);
+  }
+  .submap-link:hover{ filter:brightness(1.2); }
+  .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
+  .link-chip{ display:inline-block; background:rgba(20,20,20,0.8); border:1px solid rgba(194,56,56,0.35); border-radius:8px; padding:5px 13px; box-shadow:1px 2px 6px rgba(0,0,0,0.4); }
+  .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
+  .note-list{ margin:8px 0; padding-left:22px; }
+  .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; color:#dcd8ce; }
+  .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border-radius:4px; overflow:hidden; border:1px solid rgba(194,56,56,0.35); }
+  .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+'''
+
+# --- Forgotten Man / Huevo: nota metida en una caja vieja y olvidada en un
+# trastero -- foto desteñida, polvo flotando, telaraña en la esquina, cristal
+# agrietado y postits con esquinas rotas. Lo opuesto al resto del corcho. ---
+PAGE_CSS_FORGOTTEN = '''
+  body{
+    margin:0; padding:24px 40px 60px; font-family:Georgia, serif; color:#4a4232;
+    background: linear-gradient(165deg, #a89c86 0%, #857a66 55%, #574f3f 100%);
+  }
+  body::before{
+    content:""; position:fixed; inset:0; z-index:50; pointer-events:none; opacity:.5;
+    background-image:
+      radial-gradient(circle at 8% 12%, rgba(255,255,255,.5) .8px, transparent 1.3px),
+      radial-gradient(circle at 34% 6%, rgba(255,255,255,.4) .7px, transparent 1.1px),
+      radial-gradient(circle at 62% 15%, rgba(255,255,255,.45) .8px, transparent 1.3px),
+      radial-gradient(circle at 88% 9%, rgba(255,255,255,.35) .7px, transparent 1.1px),
+      radial-gradient(circle at 14% 38%, rgba(255,255,255,.4) .7px, transparent 1.1px),
+      radial-gradient(circle at 76% 34%, rgba(255,255,255,.4) .8px, transparent 1.2px),
+      radial-gradient(circle at 45% 55%, rgba(255,255,255,.35) .7px, transparent 1.1px),
+      radial-gradient(circle at 22% 72%, rgba(255,255,255,.4) .8px, transparent 1.2px),
+      radial-gradient(circle at 80% 68%, rgba(255,255,255,.35) .7px, transparent 1.1px),
+      radial-gradient(circle at 55% 88%, rgba(255,255,255,.4) .8px, transparent 1.2px),
+      radial-gradient(circle at 92% 92%, rgba(255,255,255,.35) .7px, transparent 1.1px);
+    background-size: 900px 1100px;
+    background-repeat: repeat;
+  }
+  /* telaraña en la esquina superior izquierda, colgando de la pagina */
+  body::after{
+    content:""; position:fixed; top:0; left:0; width:120px; height:120px; z-index:51; pointer-events:none;
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background:
+      repeating-conic-gradient(from 0deg at 0 0, rgba(238,232,212,.5) 0deg 1deg, transparent 1deg 11deg),
+      radial-gradient(circle at 0 0, transparent 22px, rgba(238,232,212,.38) 22.6px, transparent 23.2px),
+      radial-gradient(circle at 0 0, transparent 48px, rgba(238,232,212,.3) 48.6px, transparent 49.2px),
+      radial-gradient(circle at 0 0, transparent 80px, rgba(238,232,212,.22) 80.6px, transparent 81.2px);
+    opacity:.8;
+  }
+  h1{ font-size:22px; color:#3a3226; border-bottom:2px solid #8a7a52; padding-bottom:8px; }
+  h2{ font-size:17px; color:#5c5340; margin-top:22px; }
+  h3{ font-size:15px; color:#5c5340; text-decoration:underline; text-underline-offset:3px; }
+  p{ font-size:15.5px; line-height:1.65; margin:8px 0; color:#4a4232; }
+  img{ max-width:100%; border-radius:2px; display:block; margin:8px auto; filter:grayscale(.5) sepia(.35) contrast(.88) brightness(.86); }
+  figure{ margin:14px 0; text-align:center; }
+  figcaption{ font-size:12.5px; font-style:italic; color:#77694e; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border-radius:1px; box-shadow:0 4px 14px rgba(30,26,15,0.4); }
+  .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
+  .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
+  table.note-table{ width:100%; max-width:700px; border-collapse:collapse; margin:12px auto; background:rgba(87,79,63,0.3); }
+  table.note-table th, table.note-table td{ border:1px solid rgba(138,122,82,0.4); padding:6px; font-size:13px; text-align:center; vertical-align:top; color:#4a4232; }
+  table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
+  table.note-table .inline-img-small{ height:110px; }
+
+  /* --- postit como un recorte de carton viejo, esquinas mordidas y grieta
+     de cristal cruzandolo, como si llevara años criando polvo en una caja --- */
+  .callout{
+    position:relative; overflow:hidden;
+    background: linear-gradient(160deg, #cbbfa2 0%, #a9997a 100%);
+    padding:20px 20px 22px; margin:28px 16px 32px;
+    box-shadow:0 5px 16px rgba(30,26,15,0.4), inset 0 0 22px rgba(60,50,30,.18);
+    clip-path: polygon(2% 0%, 96% 0%, 100% 6%, 100% 100%, 4% 100%, 0% 92%);
+  }
+  .callout::before{
+    content:""; position:absolute; inset:0; pointer-events:none; opacity:.7; z-index:1;
+    background-image:
+      linear-gradient(108deg, transparent 44%, rgba(40,32,18,.22) 45%, transparent 46.5%),
+      linear-gradient(52deg, transparent 66%, rgba(40,32,18,.18) 67%, transparent 68.5%),
+      radial-gradient(circle at 12% 18%, rgba(255,255,255,.4) .6px, transparent 1px),
+      radial-gradient(circle at 70% 30%, rgba(255,255,255,.35) .6px, transparent 1px),
+      radial-gradient(circle at 40% 70%, rgba(255,255,255,.3) .6px, transparent 1px),
+      radial-gradient(circle at 85% 80%, rgba(255,255,255,.35) .6px, transparent 1px);
+  }
+  .callout-title{ position:relative; z-index:2; font-weight:bold; margin-bottom:8px; font-size:14px; text-transform:uppercase; letter-spacing:.03em; color:#453d2c; }
+  .callout-body{ position:relative; z-index:2; }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.5; color:#453d2c; }
+  .callout-info{ background:linear-gradient(160deg, rgba(150,166,178,.5), rgba(101,113,122,.45)); }
+  .callout-tip{ background:linear-gradient(160deg, rgba(150,178,140,.5), rgba(101,122,90,.45)); }
+  .callout-example{ background:linear-gradient(160deg, rgba(203,191,162,.6), rgba(169,153,122,.55)); }
+  .callout-danger{ background:linear-gradient(160deg, rgba(178,120,110,.5), rgba(122,80,72,.45)); }
+  .callout-quote{ background:linear-gradient(160deg, rgba(160,140,178,.5), rgba(110,94,122,.45)); }
+  .callout-question{ background:linear-gradient(160deg, rgba(196,172,110,.55), rgba(150,128,74,.5)); }
+  .callout-counter{ background:linear-gradient(160deg, rgba(196,142,96,.55), rgba(150,100,60,.5)); }
+  .callout .callout{ margin:16px 8px 8px; box-shadow:0 4px 14px rgba(30,26,15,0.42); }
+
+  .wikilink{ color:#6b5a34; border-bottom:1px dotted #6b5a34; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(138,122,82,0.18); }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
+  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:rgba(169,153,122,0.35); border:1px solid rgba(138,122,82,0.5); border-radius:10px; padding:4px 12px; font-size:11px; color:#4a4232; font-family:'Segoe UI',sans-serif; }
+  .fm-badge::before{ content:""; width:6px; height:6px; border-radius:50%; background:#8a7a52; }
+  .fm-badge b{ font-weight:700; color:#5c5340; text-transform:uppercase; font-size:9.5px;  margin-right:5px;}
+  .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .fm-badge[data-key="tipo"]{ border-left:3px solid #8a7a52; }
+  .fm-badge[data-key="mundo"]{ border-left:3px solid #c05a8e; }
+  .fm-badge[data-key="especie"]{ border-left:3px solid #8ab060; }
+  .fm-badge[data-key="familia"]{ border-left:3px solid #9a6e8e; }
+  .fm-badge[data-key="grupo"]{ border-left:3px solid #c9982e; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#8a2020; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:rgba(169,153,122,0.35); border:1px solid rgba(138,122,82,0.5); border-radius:8px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#5c5340 !important;
+    text-decoration:none; box-shadow:1px 3px 8px rgba(30,26,15,0.3);
+  }
+  .submap-link:hover{ filter:brightness(1.08); }
+  .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
+  .link-chip{ display:inline-block; background:rgba(169,153,122,0.35); border:1px solid rgba(138,122,82,0.45); border-radius:8px; padding:5px 13px; box-shadow:1px 2px 6px rgba(30,26,15,0.25); }
+  .link-chip a.wikilink{ font-size:13.5px; font-weight:600; border-bottom:none; }
+  .note-list{ margin:8px 0; padding-left:22px; }
+  .note-list li{ font-size:15px; line-height:1.55; margin:4px 0; color:#4a4232; }
+  .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border-radius:2px; overflow:hidden; box-shadow:0 3px 12px rgba(30,26,15,0.4); filter:grayscale(.3) sepia(.2); }
+  .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+'''
+
+# --- Rutas: pantalla de terminal en verde fosforo, calcada de la caja de
+# dialogo clasica de Undertale (misma familia visual que PAGE_CSS_UNDERTALE)
+# pero con el color del menu de Reflejo -- verde sobre negro, con scanlines
+# de CRT. ---
+PAGE_CSS_RUTAS = '''
+  body{ margin:0; padding:24px 26px 60px; font-family:'Courier New',monospace; color:#4dff6a; background:#030503; }
+  body::after{
+    content:""; position:fixed; inset:0; z-index:50; pointer-events:none;
+    background:repeating-linear-gradient(0deg, rgba(61,220,85,.05) 0px, rgba(61,220,85,.05) 1px, transparent 1px, transparent 3px);
+  }
+  h1{ font-size:20px; color:#4dff6a; border-bottom:2px solid #2e6e35; padding-bottom:8px; letter-spacing:.03em; text-transform:uppercase; text-shadow:0 0 8px rgba(61,220,85,.4); }
+  h2{ font-size:16px; color:#3ddc55; margin-top:24px; letter-spacing:.03em; text-transform:uppercase; }
+  h3{ font-size:14px; color:#3ddc55; text-decoration:underline; text-underline-offset:3px; }
+  p{ font-size:14.5px; line-height:1.7; margin:8px 0; color:#4dff6a; }
+  img{ max-width:100%; border-radius:0; display:block; margin:8px auto; image-rendering:pixelated; filter:grayscale(1) brightness(.95) sepia(1) hue-rotate(70deg) saturate(3.5); }
+  figure{ margin:14px 0; text-align:center; }
+  figcaption{ font-size:12px; font-style:italic; color:#2fae44; margin-top:4px; }
+  .inline-img{ width:100%; height:auto; display:block; margin:8px auto; border:2px solid #2e6e35; }
+  .inline-img-alpha{ width:auto; max-width:230px; max-height:280px; margin:8px auto; box-shadow:none; background:none; }
+  .inline-img-small{ width:auto; height:110px; max-width:100%; display:block; margin:6px auto; box-shadow:none; }
+  figure.fig-alpha img{ box-shadow:none; width:auto; max-width:230px; max-height:280px; margin:0 auto; }
+  table.note-table{ width:100%; max-width:700px; border-collapse:collapse; margin:12px auto; background:#020402; }
+  table.note-table th, table.note-table td{ border:1px solid #2e6e35; padding:6px; font-size:12.5px; text-align:center; vertical-align:top; color:#4dff6a; }
+  table.note-table .inline-img{ width:auto; max-width:100%; height:230px; margin:6px auto; box-shadow:none; }
+  table.note-table .inline-img-small{ height:110px; }
+
+  /* --- caja del menu de "elige el objetivo del reflejo", en verde --- */
+  .callout{
+    position:relative; background:#040704; padding:16px 20px; margin:22px 4px 26px;
+    border:2px solid #2e6e35; border-radius:2px;
+    box-shadow:0 0 16px rgba(61,220,85,.12) inset;
+  }
+  .callout-title{ font-weight:bold; margin-bottom:8px; font-size:13px; text-transform:uppercase; letter-spacing:.06em; color:#4dff6a; text-shadow:0 0 6px rgba(61,220,85,.4); }
+  .callout-body p{ margin:5px 0; font-size:14.5px; line-height:1.6; color:#4dff6a; }
+  .callout::before{ content:"▸"; position:absolute; left:8px; top:14px; color:#3ddc55; font-size:14px; }
+  .callout-body{ padding-left:14px; }
+  .callout-info, .callout-tip, .callout-example, .callout-danger, .callout-quote, .callout-question, .callout-counter{ background:#040704; }
+  .callout .callout{ margin:14px 2px 6px; border-width:1px; }
+
+  .wikilink{ color:#a8ffb8; border-bottom:1px dotted #a8ffb8; text-decoration:none; cursor:pointer; }
+  a.wikilink:hover{ background:rgba(61,220,85,0.15); }
+  .fm-bar{ display:flex; flex-wrap:wrap; gap:8px; margin:2px 0 20px; }
+  .fm-badge{ display:inline-flex; align-items:baseline; gap:5px; background:#020402; border:1px solid #2e6e35; border-radius:0; padding:4px 11px; font-size:10.5px; color:#4dff6a; font-family:'Courier New',monospace; }
+  .fm-badge b{ font-weight:700; color:#a8ffb8; text-transform:uppercase; font-size:9px;  margin-right:5px;}
+  .fm-badge em{ font-style:normal; }
+  .fm-icon{ font-size:12px; margin-right:1px; }
+  .fm-badge[data-key="tipo"]{ border-left:3px solid #a8ffb8; }
+  .fm-badge[data-key="mundo"]{ border-left:3px solid #3ddc55; }
+  .fm-badge[data-key="especie"]{ border-left:3px solid #2e6e35; }
+  .fm-badge[data-key="familia"]{ border-left:3px solid #7de8ff; }
+  .fm-badge[data-key="grupo"]{ border-left:3px solid #d8ff4d; }
+  .fm-badge[data-key="estado"]{
+    border:2px solid #8a2020; background:rgba(140,20,20,0.12); font-weight:700;
+    text-transform:uppercase; letter-spacing:.04em; transform:rotate(-2deg);
+    box-shadow:0 0 0 1px rgba(140,20,20,0.25) inset;
+  }
+  .fm-badge[data-key="estado"] em{ color:#e08080; }
+  .submap-link{
+    display:inline-flex; align-items:center; gap:6px; margin:14px 0 6px;
+    background:#020402; border:1px solid #2e6e35; border-radius:2px;
+    padding:8px 16px; font-size:14px; font-weight:600; color:#4dff6a !important;
+    text-decoration:none; box-shadow:0 0 10px rgba(61,220,85,.15);
+  }
+  .submap-link:hover{ filter:brightness(1.2); }
+  .link-row{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 16px; }
+  .link-chip{ display:inline-block; background:#020402; border:1px solid #2e6e35; border-radius:0; padding:5px 13px; }
+  .link-chip a.wikilink{ font-size:13px; font-weight:600; border-bottom:none; }
+  .note-list{ margin:8px 0; padding-left:22px; }
+  .note-list li{ font-size:14.5px; line-height:1.6; margin:4px 0; color:#4dff6a; }
+  .note-list li::marker{ color:#3ddc55; }
+  .yt-embed{ position:relative; width:100%; max-width:560px; aspect-ratio:16/9; margin:14px auto; border:2px solid #2e6e35; overflow:hidden; }
+  .yt-embed iframe{ position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+'''
+
 # --- CSS compartido por TODOS los temas: no depende de colores de cada tema,
 # asi que se anade una sola vez en vez de duplicarlo 7 veces. Cubre: colores
 # reales de fiabilidad en la columna "Identidad real" (antes solo emoji),
@@ -1376,6 +1667,9 @@ THEME_CSS = {
     "gaster": PAGE_CSS_GASTER,
     "darkner": PAGE_CSS_DARKNER,
     "planta": PAGE_CSS_PLANTA,
+    "friend": PAGE_CSS_FRIEND,
+    "forgotten": PAGE_CSS_FORGOTTEN,
+    "rutas": PAGE_CSS_RUTAS,
 }
 
 # Identidad del sitio que debe aparecer en la pestaña del navegador de TODAS

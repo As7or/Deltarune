@@ -38,7 +38,7 @@ import build_submap
 # Notas a las que aplicar el tema "pergamino" en vez del postit normal.
 # Añade aquí el nombre exacto de la nota (sin .md) si quieres el mismo efecto
 # para otras notas especiales.
-PARCHMENT_NOTES = {"Profecía"}
+PARCHMENT_NOTES = {"Profecía", "Roaring Knight", "Titan", "Ángel"}
 WET_NOTES = {"Lake"}
 RUSTED_NOTES = {"Shelter"}
 CRYSTAL_NOTES = {"Cristal Oscuro"}
@@ -56,6 +56,12 @@ DARKNER_NOTES = {
     "Seam", "Shuttah", "Spamton", "Tenna",
 }
 PLANTA_NOTES = {"7 Flores de Colores", "Flowery"}
+# FRIEND: mismo negativo de los Darkner pero en negro (amenaza real, no un
+# Darkner al uso). Forgotten Man / Huevo: diseño de objeto olvidado, viejo y
+# polvoriento. Rutas: pantalla de terminal verde, estilo menu de Reflejo.
+FRIEND_NOTES = {"FRIEND"}
+FORGOTTEN_NOTES = {"Forgotten Man", "Huevo"}
+RUTAS_NOTES = {"Rutas"}
 
 
 def find_vault_root(path):
@@ -186,6 +192,9 @@ def build_lang(vault_dir, notes_dir, submaps_dir, main_canvas, out_dir, lang,
             "undertale" if stem in UNDERTALE_NOTES else
             "fountain" if stem in FOUNTAIN_NOTES else
             "gaster" if stem in GASTER_NOTES else
+            "friend" if stem in FRIEND_NOTES else
+            "forgotten" if stem in FORGOTTEN_NOTES else
+            "rutas" if stem in RUTAS_NOTES else
             "darkner" if stem in DARKNER_NOTES else
             "planta" if stem in PLANTA_NOTES else
             "postit"
