@@ -87,6 +87,9 @@ confianza: strong
 
 > [!question]- Is Asriel the Angel, via Undertale?
 > A minority reading connects the Angel directly to Asriel: in Undertale's own mythology, "the Angel" is one "who has seen the surface" and "will return" to empty the Underground — a description that fits Asriel himself, who did see the surface as a child and did return (though in a very different way than the original prophecy implies). **A minority theory, based on the parallel with Undertale's mythology, not on any direct clue from Deltarune.**
+>
+> ![[angel_asriel_theory.gif]]
+> *Asriel's silhouette in his god form, arms spread between beams of light — the image the fandom associates with the Angel's description.*
 
 > [!question]- Is Noelle the Angel?
 > During the 2022 Spamton Sweepstakes, one of the real prizes was a white wristwatch engraved with the name "Noelle Holiday"; in its description, Spamton presents it as a jewel that belonged to someone "rich and powerful," and caps off the joke with [TODO: verify exact EN quote] "if you need proof, there's the Angel's name with torn wings right there." The watch matches the design of the Silver Ring that Noelle has equipped in the game — the same item needed to unlock the darkest dialogue at the end of the Snowgrave Route — which has reinforced this theory for years. It's also supported by the fact that Noelle has kept real angel wings since she was a child — from when she played that role in the town's Christmas pageant — though that particular clue seems more like a thematic nod than proof of identity.

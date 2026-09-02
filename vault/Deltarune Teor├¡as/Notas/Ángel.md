@@ -87,6 +87,9 @@ confianza: fuerte
 
 > [!question]- ¿Es Asriel el Ángel, por la vía de Undertale?
 > Una lectura minoritaria conecta al Ángel directamente con Asriel: en la propia mitología de Undertale, "el Ángel" es quien "ha visto la Superficie" y "regresará" para vaciar el Subsuelo — una descripción que encaja con el propio Asriel, que sí vio la superficie de niño y regresó (aunque de una forma muy distinta a la que la profecía original insinúa). **Teoría minoritaria, basada en el paralelismo con la mitología de Undertale, no en ninguna pista directa de Deltarune.**
+>
+> ![[angel_asriel_theory.gif]]
+> *La silueta de Asriel en su forma de dios, con los brazos abiertos entre haces de luz — la imagen que el fandom asocia con la descripción del Ángel.*
 
 > [!question]- ¿Es Noelle el Ángel?
 > Durante la Spamton Sweepstakes de 2022, uno de los premios reales fue un reloj de pulsera blanco grabado con el nombre "Noelle Holiday"; en su descripción, Spamton lo presenta como una joya que perteneció a alguien "rico y poderoso", y remata la broma con "si necesitas pruebas, ahí tienes el nombre del Ángel con las alas rasgadas". El reloj coincide en diseño con el Anillo de Plata que Noelle lleva equipado en el juego —el mismo objeto necesario para desbloquear los diálogos más oscuros del final de la Ruta Snowgrave—, lo que ha reforzado durante años esta teoría. Se apoya además en que Noelle guarda desde niña unas alitas de ángel de verdad —de cuando interpretó ese papel en la función navideña del pueblo—, aunque esa pista concreta parece más un guiño temático que una prueba de identidad.
