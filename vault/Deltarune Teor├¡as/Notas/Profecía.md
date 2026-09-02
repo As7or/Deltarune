@@ -6,8 +6,8 @@ familia: na
 confianza: oficial
 ---
 
-![[Profecy.gif]]
 *La Última Profecía, tal y como se revela en los tapices de cristal del Cap.4.*
+![[Profecy.gif]]
 
 > [!info]+ Datos rápidos
 > 📜 Texto profético presente literalmente dentro del juego, encontrado como tapices de cristal en los Santuarios Oscuros del Cap.4.
@@ -39,29 +39,29 @@ confianza: oficial
 > [!example]+ Capítulo 1 — Primera mención
 > Ralsei la resume a Kris y Susie nada más conocerse: "Hay una LEYENDA en esta tierra. Una LEYENDA de que un día, dos HÉROES de LUZ llegarán, y cumplirán la antigua profecía, predicha por el tiempo y el espacio."
 >
-> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 > *Ralsei resumiendo la Leyenda a Kris y Susie en su castillo, Cap.1.*
+> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 
 > [!example]+ Capítulo 4 — Los tapices de cristal
 > Se revelan fragmentos adicionales en los Santuarios Oscuros en forma de tapices de cristal flotantes repartidos por todo el escenario, cada uno acompañado de una imagen. También se revela en el Mundo Claro como un himno cantado en la iglesia y en una "lectura" que ofrece Catty.
 >
-> ![[prophecy_3rd_Sanctuary_location_entrance.png]]
 > *La entrada al 3er Santuario Oscuro, donde se encuentran varios de estos tapices.*
+> ![[prophecy_3rd_Sanctuary_location_entrance.png]]
 >
-> ![[prophecy_3_heores.png]]
 > *Los tres héroes de la Profecía juntos, tal y como se revelan en los tapices.*
+> ![[prophecy_3_heores.png]]
 >
-> ![[prophecy_Hymn_soundtrack.png]]
 > *El himno de la Profecía, cantado en la iglesia del Mundo Claro durante el Cap.4.*
+> ![[prophecy_Hymn_soundtrack.png]]
 >
-> ![[Prophecy_screenshot_Earth.png]]
 > *Una de las escenas asociadas a la Profecía, con la Tierra como imagen central.*
+> ![[Prophecy_screenshot_Earth.png]]
 >
 > > [!danger]- Detalle curioso
 > > El himno de la Profecía contiene la frase "las sombras cortan profundo" — casi una cita literal de una de las líneas asociadas a la Entry Number Seventeen de W.D. Gaster en Undertale, lo cual muchos leen como una firma indirecta suya sobre el propio texto profético.
 > >
-> > ![[prophecy_Him_increased_contrast.webp]]
 > > *La imagen asociada a esa misma línea, con el contraste aumentado para hacerla más visible.*
+> > ![[prophecy_Him_increased_contrast.webp]]
 
 ## La Ruta Rara la reinterpreta
 
@@ -113,8 +113,8 @@ Esta primera tanda es, en esencia, una reformulación en verso de la "Leyenda de
 Este es, con diferencia, el bloque más importante para las teorías del vault: la Profecía numera explícitamente a los tres héroes como Primero, Segundo y Tercero, y describe a cada uno con una imagen concreta — algo que la versión en prosa del Cap.1 nunca hace.
 
 > [!example]- 07 — "The Third Hero. The Prince, alone in deepest dark"
-> ![[07_el_tercer_heroe_el_principe.gif]]
 > *"El Tercer Héroe. El Príncipe, solo en la más profunda oscuridad."*
+> ![[07_el_tercer_heroe_el_principe.gif]]
 > El "príncipe de la oscuridad" del texto en prosa, identificado aquí como el **tercer** héroe — casi con total seguridad [[Ralsei]].
 
 > [!example]- 08 — "The Prince, alone in deepest dark..."
@@ -122,8 +122,8 @@ Este es, con diferencia, el bloque más importante para las teorías del vault: 
 > Continuación/variante de la vidriera anterior, con la imagen ya sin el encabezado "Tercer Héroe".
 
 > [!example]- 09 — "The First Hero. The Cage, with human SOUL and parts!"
-> ![[09_the_first_hero_the_cage_with_human_soul_and_parts.gif]]
 > *"El Primer Héroe. La Jaula, con ALMA y partes humanas."*
+> ![[09_the_first_hero_the_cage_with_human_soul_and_parts.gif]]
 > Describe al **primer** héroe —el "humano" del texto en prosa— no como una persona, sino como **"la Jaula"**: un cuerpo que contiene un ALMA humana. Es una de las líneas más citadas de todo el juego para las teorías sobre [[Kris]] y su relación con el Jugador — la imagen de un cuerpo como contenedor/jaula de un ALMA ajena encaja de forma casi demasiado literal con la propia mecánica de Kris arrancándose el ALMA del pecho al final de varios capítulos.
 
 > [!example]- 10 — "The Cage, with human SOUL and parts!"
@@ -131,13 +131,13 @@ Este es, con diferencia, el bloque más importante para las teorías del vault: 
 > Repetición/variante de la vidriera anterior.
 
 > [!example]- 11 — "And last, was the girl. At last, was the girl."
-> ![[11_and_last_was_the_girl_at_last_was_the_girl.gif]]
 > *"Y por último, estaba la chica. Al fin, estaba la chica."*
+> ![[11_and_last_was_the_girl_at_last_was_the_girl.gif]]
 > El doble verso ("and last" / "at last") es la línea que sostiene toda la teoría de si "la chica" final es la misma que "la chica" del Segundo Héroe o una tercera persona distinta — ver la teoría ya documentada en [[Susie]].
 
 > [!example]- 12 — "The Second Hero. The Girl, with hope crossed on her heart."
-> ![[12_the_second_hero_the_girl_with_hope_crossed_on_her_heart.gif]]
 > *"El Segundo Héroe. La Chica, con esperanza cruzada en el corazón."*
+> ![[12_the_second_hero_the_girl_with_hope_crossed_on_her_heart.gif]]
 > Describe al **segundo** héroe —"el monstruo" del texto en prosa— como una chica con "esperanza cruzada en el corazón". Esta es exactamente la línea que la nota de [[Susie]] ya usa como base de la teoría "¿Es Susie la chica de la Última Profecía?": el símbolo que acompaña a esta vidriera es el mismo Rude Buster que decora la alfombra de su habitación.
 
 > [!example]- 13 — "The Girl, with hope crossed on her heart."
@@ -149,33 +149,33 @@ Este es, con diferencia, el bloque más importante para las teorías del vault: 
 Bloque de coplas pareadas que anuncian, en clave muy simbólica, los enfrentamientos contra el Caballero Rugiente y varios de los antagonistas de capítulo ya conocidos.
 
 > [!example]- 14 — "They'll hear the ring of Heaven's call."
-> ![[14_theyll_hear_the_ring_of_heavens_call.gif]]
 > *"Oirán el timbre de la llamada del Cielo."*
+> ![[14_theyll_hear_the_ring_of_heavens_call.gif]]
 > Posible conexión con el "Cielo del Ángel" que hay que desterrar según el texto en prosa — ver [[Ángel]].
 
 > [!example]- 15 — "They'll see the tail of Hell take crawl."
-> ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
 > *"Verán la cola del Infierno arrastrarse."*
+> ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
 > **Corrección de transcripción**: la palabra real es "tail" (cola), no "trail" (rastro) — el propio OCR con el que se generó esta sección lo leyó mal la primera vez. Con "cola" de por medio, la conexión que hace el fandom es directa: la "Cola del Infierno" (*Tail of Hell*) es como se apoda popularmente a [[FRIEND]], la entidad felina que acecha al grupo desde las sombras durante varios capítulos — su nombre interno en los archivos del juego (`IMAGE_FRIEND`, `DEVICE_FRIEND`) y su diseño hecho de círculos encajan con esa imagen de "cola" serpenteante. **Teoría de fans muy extendida, no confirmada con nombre propio dentro del juego.**
 
 > [!example]- 16 — "The Knight which makes with blackened knife."
-> ![[16_the_knight_which_makes_with_blackened_knife.gif]]
 > *"El Caballero que actúa con cuchillo ennegrecido."*
+> ![[16_the_knight_which_makes_with_blackened_knife.gif]]
 > Referencia directa al [[Roaring Knight]] y a su arma — coincide con las teorías que vinculan el "Cuchillo Negro" del Caballero con [[Dess]] (ver la nota de Dess, teoría "¿Es Dess el Caballero Rugiente?").
 
 > [!example]- 17 — "Shall duel with heroes strife by strife."
-> ![[17_shall_duel_with_heroes_strife_by_strife.gif]]
 > *"Duelará con los héroes, lucha tras lucha."*
+> ![[17_shall_duel_with_heroes_strife_by_strife.gif]]
 > Pareja de la vidriera anterior — anuncia los enfrentamientos progresivos contra el Caballero a lo largo de varios capítulos.
 
 > [!example]- 18 — "The Queen's chariot cannot be stopped."
-> ![[18_the_queens_chariot_cannot_be_stopped.gif]]
 > *"El carro de la Reina no puede ser detenido."*
+> ![[18_the_queens_chariot_cannot_be_stopped.gif]]
 > **Confirmado**: no es una lectura especulativa — la propia imagen del tapiz muestra a [[Queen]] literalmente dentro de su coche del Mundo Cíber, el mismo que se ve conduciendo por Ciudad Castillo en el Cap.2. Esta vidriera sigue además la misma convención de nombrado interno de archivo ("boss") que las de Tenna y Asgore (ver vidriera 19 y 20), confirmando que cada una retrata al antagonista principal de su capítulo correspondiente.
 
 > [!example]- 19 — "The Lord of Screens cleaved red by blade."
-> ![[19_the_lord_of_screens_cleaved_red_by_blade.gif]]
 > *"El Señor de las Pantallas partido en rojo por la espada."*
+> ![[19_the_lord_of_screens_cleaved_red_by_blade.gif]]
 > Es [[Tenna]], directora de *TV Time* y gobernante del Mundo TV — el "Señor de las Pantallas" literal. "Partido en rojo por la espada" encaja con el momento en que el Caballero Rugiente le corta los brazos tras derrotarlo en el Cap.3, dejándolo sangrando. Una de las identificaciones más sólidas de todo este bloque.
 
 ### Bloque 4 — Guiños cotidianos y acertijos (vidrieras 20-24)
@@ -183,8 +183,8 @@ Bloque de coplas pareadas que anuncian, en clave muy simbólica, los enfrentamie
 El tono cambia por completo: de las grandes batallas a predicciones domésticas y casi absurdas — el propio contraste es parte de la broma.
 
 > [!example]- 20 — "The Flower Man, trapped in asylum."
-> ![[20_the_flower_man_trapped_in_asylum.gif]]
 > *"El Hombre Flor, atrapado en el asilo."*
+> ![[20_the_flower_man_trapped_in_asylum.gif]]
 > **Confirmado**: es [[Asgore]], mostrado en el propio tapiz con las manos alrededor de una única flor y, curiosamente, con una corona — algo que no tiene en el Mundo Claro. El nombre interno de archivo de esta vidriera sigue la misma convención "boss" que las de Queen y Tenna (vidrieras 18 y 19), confirmando que retrata al antagonista principal de su capítulo — en este caso, del Cap.5 (Flowery/Flower Kingdom).
 >
 > "Asilo" es la pieza que conecta varias cosas del vault entre sí:
@@ -193,22 +193,22 @@ El tono cambia por completo: de las grandes batallas a predicciones domésticas 
 > - Se conecta también con **el libro de Gerson**: [[Gerson Boom]] es autor de la novela *Lord of the Hammer*, inspirada directamente en esta misma Profecía — y sus títulos de capítulo son un espejo casi literal de los capítulos reales del propio **videojuego** ("Capítulo 4, Los Juicios del Martillo Sagrado"; "Capítulo 5, El Campo de Rosa y Oro"). Es decir: la Profecía no solo predice los sucesos de Deltarune — dentro de la propia ficción, ya existe un libro escrito por otro personaje que la reinterpreta capítulo a capítulo, casi como un Deltarune dentro de Deltarune.
 
 > [!example]- 21 — "Jockington grows the beard."
-> ![[21_jockington_grows_the_beard.gif]]
 > *"Jockington se deja crecer la barba."*
+> ![[21_jockington_grows_the_beard.gif]]
 > **Esta es la línea que confirma el dato ya recogido en Datos rápidos**: Jockington es el único personaje mencionado por su nombre propio en toda la Última Profecía — y encima por algo tan mundano como dejarse barba. Ver [[Jockington]].
 
 > [!example]- 22 — "The pointy-headed will say \"toothpaste,\" and then \"boy.\""
-> ![[22_the_pointy_headed_will_say_toothpaste_and_then_boy.gif]]
 > *"El de cabeza puntiaguda dirá 'pasta de dientes', y luego 'chico'."*
+> ![[22_the_pointy_headed_will_say_toothpaste_and_then_boy.gif]]
 > Lectura razonada: "cabeza puntiaguda" encaja con el diseño de [[Lancer]] mejor que con cualquier otro Darkner — existe incluso un sprite suelto en el vault (`lancer_Darkner_face_profecy.png`) que parece confirmar esta misma asociación visual. **Sin confirmación textual directa.**
 
 > [!example]- 23 — "A conundrum's first four tones."
-> ![[23_a_conundrums_first_four_tones.gif]]
 > *"Los primeros cuatro tonos de un acertijo."*
+> ![[23_a_conundrums_first_four_tones.gif]]
 
 > [!example]- 24 — "A conundrum's last four tones."
-> ![[24_a_conundrums_last_four_tones.gif]]
 > *"Los últimos cuatro tonos de un acertijo."*
+> ![[24_a_conundrums_last_four_tones.gif]]
 > Pareja de la vidriera anterior — probablemente una referencia a algún minijuego o puzle musical del propio Cap.4, sin identificar con certeza.
 
 ### Bloque 5 — La Última Profecía: el final (vidrieras 25-31)
@@ -216,36 +216,36 @@ El tono cambia por completo: de las grandes batallas a predicciones domésticas 
 El tono vuelve a cambiar, ahora hacia el clímax — el bloque que da nombre a la propia "Última Profecía" (Last Prophecy) como sección diferenciada dentro del conjunto.
 
 > [!example]- 25 — "The Last Prophecy. The Story's End."
-> ![[25_the_last_prophecy_the_storys_end.gif]]
 > *"La Última Profecía. El Final de la Historia."*
+> ![[25_the_last_prophecy_the_storys_end.gif]]
 > Título de apertura de este segundo bloque — es, literalmente, la vidriera que le da nombre a esta nota.
 
 > [!example]- 26 — "And then, when all hope is lost for the tale"
-> ![[26_and_then_when_all_hope_is_lost_for_the_tale.gif]]
 > *"Y entonces, cuando toda esperanza esté perdida para el relato"*
+> ![[26_and_then_when_all_hope_is_lost_for_the_tale.gif]]
 
 > [!example]- 27 — "The final tragedy unveils."
-> ![[27_the_final_tragedy_unveils.gif]]
 > *"La tragedia final se revela."*
+> ![[27_the_final_tragedy_unveils.gif]]
 > Pareja de la vidriera anterior.
 
 > [!example]- 28 — "To save the worlds, there is only one way."
-> ![[28_to_save_the_worlds_there_is_only_one_way.gif]]
 > *"Para salvar los mundos, solo hay un camino."*
+> ![[28_to_save_the_worlds_there_is_only_one_way.gif]]
 
 > [!example]- 29 — "Only then, will the worlds be saved."
-> ![[29_only_then_will_the_worlds_be_saved.gif]]
 > *"Solo entonces, los mundos serán salvados."*
+> ![[29_only_then_will_the_worlds_be_saved.gif]]
 > Pareja de la vidriera anterior.
 
 > [!example]- 30 — "Axe carved by the tortoise's grand hammer."
-> ![[30_axe_carved_by_the_tortoises_grand_hammer.gif]]
 > *"Hacha tallada por el gran martillo de la tortuga."*
+> ![[30_axe_carved_by_the_tortoises_grand_hammer.gif]]
 > **Confirmado por diseño**: "la tortuga" es [[Gerson Boom]] — es literalmente una tortuga, y su arma como Hammer of Justice es, precisamente, un hacha/martillo. Existe incluso un sprite dedicado a esta vidriera en el vault (`gerson_3rd_Sanctuary_location_prophecy_axe.png`). Es una de las conexiones más sólidas de todo este análisis.
 
 > [!example]- 31 — "Coldwater fell from the top of the sky."
-> ![[31_goldwater_fell_from_the_top_of_the_sky.gif]]
 > *"Agua fría cayó de lo alto del cielo."*
+> ![[31_goldwater_fell_from_the_top_of_the_sky.gif]]
 > **Corrección de transcripción**: la palabra real es "Coldwater" (agua fría), no "Goldwater" — confirmado por el propio Toby Fox, que parafraseó esta vidriera (una de las que en su momento estuvo descartada/sin usar) en un newsletter oficial como "Cold water falls from the top of the sky". Sin identificación clara de a qué suceso concreto se refiere dentro de la trama.
 
 ### Bloque 6 — Epílogo (vidrieras 32-35)
@@ -253,8 +253,8 @@ El tono vuelve a cambiar, ahora hacia el clímax — el bloque que da nombre a l
 El bloque final, mucho más breve y de tono más íntimo que el resto — cierra la secuencia centrándose en "la chica" en vez de en ningún conflicto.
 
 > [!example]- 32 — "Roots"
-> ![[32_roots_raices.gif]]
 > *"Raíces."*
+> ![[32_roots_raices.gif]]
 > Vidriera corta pero con mucho detrás. La imagen muestra una casa entre dos árboles — el mismo par de árboles que puede distinguirse, en segundo plano, en la vidriera 05 ("La Luz y la Oscuridad, ambas ardiendo"), lo que ha llevado a parte del fandom a conectar el concepto de "raíces" con la casa de los Holiday o con el propio [[Shelter]].
 >
 > "Roots" no es exclusivo de esta vidriera: es también el título de dos temas de la banda sonora ("Digital Roots", que suena en el sótano de la Mansión de Queen en el Cap.2, y "BIT ROOTS", que suena en la mazmorra final de MANTLE en el Cap.3+4), y una de las palabras posibles en el minijuego de "corregir ortografía" de Bibliox en el Cap.4. Ya se había insinuado meses antes del lanzamiento del Cap.4, en la página `/lostwheretheforestwouldgrow/` de las Spamton Sweepstakes — el propio nombre de esa URL ("donde el bosque perdido crecería") encaja con la imagen de los dos árboles. Toby Fox ha llegado a insinuar que "Roots" podría ser también el título de un tema todavía sin publicar para el Cap.6 o el Cap.7.
@@ -264,15 +264,15 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 > 🎲 El tablero BIT ROOTS de la Ruta Espada (Cap.3) tiene su propia teoría de fans sobre qué podría representar exactamente este lugar — ver [[Rutas]].
 
 > [!example]- 33 — "Gallery"
-> ![[33_gallery_galeria.gif]]
 > *"Galería."*
+> ![[33_gallery_galeria.gif]]
 > Es, literalmente, el nombre del propio pasillo de vidrieras: un larguísimo corredor lleno de tapices de cristal, situado justo a la derecha de la vidriera "Love finds its way to the girl" (34). Ahí se esconde el Huevo secreto del Cap.4 —hay que fijarse en qué ventana "se ve distinta" de las demás y entrar por ella— y, en la esquina superior izquierda de esa misma sala, hay un libro "peculiar" que se puede leer para conseguir pistas adicionales sobre el trasfondo del mundo de Deltarune.
 >
 > Por la salida, la propia Galería conecta directamente con el estudio de [[Gerson Boom]] — el mismo Gerson autor de *Lord of the Hammer*, la novela inspirada en esta Profecía (ver vidriera 20, más arriba). La cercanía física entre la Galería, su libro misterioso y el estudio del único personaje del juego conocido por escribir ficción basada en la Profecía no parece casual, aunque el juego no llega a confirmar explícitamente que el libro de la Galería sea obra suya.
 
 > [!example]- 34 — "Love finds its way to the girl."
-> ![[34_love_finds_its_way_to_the_girl.gif]]
 > *"El amor encuentra su camino hacia la chica."*
+> ![[34_love_finds_its_way_to_the_girl.gif]]
 > Vuelve a centrarse en "la chica" del bloque de los tres héroes — refuerza la lectura de que su historia personal (posiblemente la de [[Susie]] con [[Noelle]]) es el cierre emocional elegido para toda la secuencia, por encima del propio conflicto con el Caballero.
 
 > [!example]- 35 — "The Girl"
@@ -308,8 +308,8 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 > [!quote]- Susie
 > La vidriera 12 describe al Segundo Héroe como "la Chica, con esperanza cruzada en el corazón" — la línea exacta en la que se apoya la teoría de si Susie es "la chica" de la Profecía. Es también quien físicamente rompe uno de los tapices con la mano, hasta hacerse sangre, en el momento más citado de su arco del Cap.4. [[Susie]]
 >
-> ![[prophecy_broking_by_susie.jpeg]]
 > *Susie rompiendo uno de los tapices de la Profecía con la mano.*
+> ![[prophecy_broking_by_susie.jpeg]]
 
 > [!quote]- Kris
 > La vidriera 09 describe al Primer Héroe como "la Jaula, con ALMA y partes humanas" — una de las descripciones más citadas para las teorías sobre la naturaleza de Kris como cuerpo/contenedor de un ALMA ajena. [[Kris]]
@@ -339,42 +339,42 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 > [!question]+ ¿Quién escribió realmente la Profecía?
 > La coincidencia textual con la Entry 17 de Gaster ha llevado a parte del fandom a preguntarse si la propia Profecía fue escrita, inspirada o alterada por la misma entidad detrás de la Voz. Teoría fuerte por la cita casi literal, pero sin confirmación directa dentro del propio juego.
 >
-> ![[prophecy_Him_increased_contrast.webp]]
 > *La imagen asociada a "las sombras cortan profundo" en el himno — la misma línea que conecta la Profecía con Gaster.*
+> ![[prophecy_Him_increased_contrast.webp]]
 
 > [!question]- ¿Por qué solo se nombra a Jockington?
 > De toda la leyenda, Jockington es el único personaje mencionado explícitamente por su nombre propio — ni el Caballero ni Queen lo son. No hay una explicación oficial de por qué se eligió precisamente a él como única referencia nominal dentro del texto profético.
 >
-> ![[21_jockington_grows_the_beard.gif]]
 > *La vidriera 21, la única de las 35 que nombra a un personaje directamente por su nombre.*
+> ![[21_jockington_grows_the_beard.gif]]
 
 > [!question]- ¿Por qué Ralsei solo habla de "dos héroes" en el Cap.1, si la Profecía completa dice "tres"?
 > Cuando Ralsei resume la Leyenda a Kris y Susie nada más conocerse (ver "Dónde aparece", arriba), dice literalmente que "dos HÉROES de LUZ" cumplirán la profecía — pero el texto completo, y las propias vidrieras del Cap.4 (Bloque 2, vidrieras 07-13), son inequívocas: son **tres** héroes, numerados como Primero, Segundo y Tercero. La discrepancia está en el propio texto in-game, no es un error de traducción de este vault.
 >
-> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 > *Ralsei hablando de "dos héroes de luz" en el Cap.1...*
+> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 >
-> ![[06_con_esperanzas_y_suenos_tres_heroes.gif]]
 > *...frente al propio texto completo de la Profecía, que anuncia sin ambigüedad "tres Héroes al Fin del Mundo".*
+> ![[06_con_esperanzas_y_suenos_tres_heroes.gif]]
 >
 > El fandom no tiene una explicación oficial, pero la lectura más extendida es que Ralsei, como el propio Príncipe de la Oscuridad, se excluye a sí mismo al hablar de los "héroes de luz" que están por llegar — contaría solo a Kris y Susie como los que faltan por reunirse con él, sin incluirse en la cuenta pese a ser también uno de los tres según el texto completo. Otra lectura, más especulativa, es que Ralsei simplemente no conoce la versión completa de la profecía tal y como se revela después en los tapices del Cap.4, y resume de memoria una versión incompleta. **Sin confirmación oficial de cuál es la correcta.**
 
 > [!question]- 🎲 ¿Ya sucedió la Profecía antes, con otro grupo?
 > Una teoría de fans propone que el trío de la Profecía no describe necesariamente al grupo actual, sino una expedición anterior formada por Kris, [[Dess]] y [[Asriel]]. El argumento central es que la Profecía describe a "la chica" combatiendo con espada — un arma que no encaja ni con el hacha de Susie ni con la magia de hielo de Noelle, pero que sí encaja mejor con Dess, quien de niña jugaba con bates y espadas de juguete y desapareció en el bosque siguiendo precisamente un camino de raíces (ver [[Dess]], teoría "¿Se perdió Dess en el bosque siguiendo 'la cola'?").
 >
-> ![[sword_route_map_roots.png]]
 > *El mapa que Dess siguió antes de desaparecer — el mismo tipo de "raíces" que da nombre a la vidriera 32 de la Profecía, más abajo.*
+> ![[sword_route_map_roots.png]]
 >
 > Si la lectura es correcta, la aventura que hoy vive el grupo de Kris y Susie sería, en el fondo, un eco de otra ya ocurrida años antes con un reparto distinto — con Asgore cargando la culpa pública de la desaparición de Dess, y Kris evitando activamente volver al [[Shelter]] por motivos que el juego nunca explica del todo. **Teoría de fans, sin confirmación textual directa — el juego nunca llega a decir explícitamente que hubo una expedición previa.**
 
 > [!question]- 🎲 ¿Es "ROOTS" un futuro Mundo Oscuro bajo Hometown?
 > "ROOTS" aparece mencionado varias veces fuera de cualquier contexto narrativo claro (ver el análisis de la vidriera 32, más abajo) — y parte del fandom lo interpreta como el nombre de un Mundo Oscuro todavía sin revelar, que existiría bajo el propio Hometown. La lectura más extendida conecta su entrada con el sótano de la Mansión de Queen —donde suena precisamente el tema "Digital Roots" del Cap.2— y con el sótano de la propia casa de los Holiday, dado que la vidriera muestra una casa entre dos árboles, la misma clase de imagen que ya aparece de fondo en la vidriera 05.
 >
-> ![[Basement_queen_mansion.webp]]
 > *El sótano de la Mansión de Queen, donde suena "Digital Roots" — uno de los puntos de entrada que baraja el fandom para un futuro Mundo Oscuro llamado ROOTS.*
+> ![[Basement_queen_mansion.webp]]
 >
-> ![[32_roots_raices.gif]]
 > *La propia vidriera "Roots" — la pista textual más directa de todas, y la que da nombre a toda la teoría.*
+> ![[32_roots_raices.gif]]
 >
 > **Pura especulación de fans basada en pistas dispersas (nombres de temas musicales, un ARG previo al Cap.4, y esta vidriera) — el juego nunca confirma la existencia de ningún Mundo Oscuro con ese nombre.**
 
@@ -383,8 +383,8 @@ El bloque final, mucho más breve y de tono más íntimo que el resto — cierra
 - Los tapices de cristal usan como recurso gráfico el mismo asset ("IMAGE_DEPTH") al que cambia el menú principal del Cap.4 en sepia una vez completado el capítulo.
 - El propio fandom ha hecho charts de identificación intentando emparejar cada vidriera con un personaje o suceso concreto, con distinto grado de acierto según la vidriera.
 
-![[prophecy-identification-v0-jtgejdcm3m6f1.webp]]
 *Uno de los charts de identificación hechos por fans para las vidrieras de la Profecía.*
+![[prophecy-identification-v0-jtgejdcm3m6f1.webp]]
 
 ## Relacionado
 - [[Roaring Knight]]

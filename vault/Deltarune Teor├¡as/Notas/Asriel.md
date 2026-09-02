@@ -118,9 +118,16 @@ Confirmado por el juego: de niño, [[Berdly|Bratty]] convenció a Asriel de darl
 
 > [!question]- ¿Estuvo presente el día de la desaparición de Dess?
 > Sin confirmar. El juego no relaciona explícitamente a Asriel con el incidente concreto que hizo desaparecer a Dess ni con la creación del primer Mundo Oscuro — solo sabemos que, en el flashback general de la familia viendo la tele, él desaparece de la escena después de ella, no antes ni durante. Si estuvo allí ese día en concreto, o si su ausencia de Hometown ya venía de antes, sigue siendo una pregunta completamente abierta.
+>
+> ![[tenna_with_dreemur_and_holiday.webp]]
+> *El mismo flashback de las familias Dreemurr y Holiday viendo la tele juntas — Asriel es el sexto en desvanecerse de la escena, justo después de Dess.*
 
 > [!question]+ ¿Es Ralsei el propio Asriel?
 > La teoría de identidad más antigua y discutida de todo el juego. La evidencia a favor:
+>
+> ![[Ralsei_face_hatless.png]]
+> *Ralsei sin su gorro — la base visual de todo el parecido que se discute en esta teoría.*
+>
 > - **El parecido físico**: según Susie y Noelle, Ralsei sin gorro es prácticamente calcado a Asriel. Noelle se lo dice directamente a Susie en el Cap.4 ("se parecía un poco a Asriel... pero no"), y Susie, al ver una foto real de Asriel ese mismo capítulo, cree al principio que es un Photoshop de Ralsei.
 > - **Kris interviene sin que se le pida**: en el Cap.3, si el jugador insinúa que ya ha visto antes la cara de Ralsei, Kris se ríe y le asegura, sin que nadie se lo pregunte, que no cree que se parezcan tanto — casi como si necesitara convencerse a sí mismo. En el Cap.4, cuando Susie confunde la foto de Asriel con Ralsei, Kris vuelve a interrumpir para señalar "todas las diferencias" entre ambos, otra vez por iniciativa propia.
 > - **El nombre**: "Ralsei" es un anagrama de "Asriel", y también viene de "Ralse", protagonista de un juego del hermano mayor de Toby Fox.

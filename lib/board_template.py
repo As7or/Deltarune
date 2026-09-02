@@ -60,8 +60,15 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     background:radial-gradient(ellipse 60% 100% at 50% 0%, rgba(10,7,4,.5), transparent 72%);
     filter:blur(2px); transition:opacity .18s ease, transform .18s ease; transform-origin:top center;
   }}
-  .node:hover{{ transform:rotate(0deg) scale(1.14) !important; z-index:10; filter:drop-shadow(0 14px 16px rgba(0,0,0,.4)); }}
-  .node:hover::before{{ transform:scaleX(1.3) translateY(4px); opacity:.85; }}
+  /* Antes escalaba a 1.14 y ocultaba las decoraciones (sellos/cruces) de la
+     nota mientras el raton estaba encima, para que no se quedaran "flotando"
+     desalineadas -- pero en un corcho denso con notas superpuestas, cruzar
+     el raton por encima disparaba ese ocultar/mostrar en cascada sobre varias
+     notas a la vez y se sentia como un parpadeo constante. Un escalado mas
+     sutil (1.05) ya no desplaza lo suficiente las decoraciones como para
+     necesitar ocultarlas -- se quedan quietas y el resaltado sigue funcionando. */
+  .node:hover{{ transform:rotate(0deg) scale(1.05) !important; z-index:10; filter:drop-shadow(0 10px 14px rgba(0,0,0,.35)); }}
+  .node:hover::before{{ transform:scaleX(1.15) translateY(2px); opacity:.85; }}
   .node.dimmed{{ opacity:.22; filter:saturate(.5); }}
   .card{{ background:#fdfaf3; padding:6px 6px 8px 6px; border-radius:2px; box-shadow:3px 6px 10px var(--cork-shadow); }}
   .thumb{{ width:100%; display:flex; align-items:center; justify-content:center; overflow:hidden; background-color:#3a3a3a; }}
@@ -1004,12 +1011,20 @@ function clearNetworkHighlight(){{
   document.querySelectorAll('.doodle.dimmed').forEach(d=> d.classList.remove('dimmed'));
 }}
 
+// Pequeno "hover intent": si el raton solo esta de paso (cruzando varias
+// notas superpuestas para llegar a otro sitio del corcho), no dispara el
+// resaltado de red -- eso es lo que se sentia como un parpadeo constante de
+// notas e hilos al mover el raton por encima. Solo se activa si el cursor se
+// queda quieto sobre la nota un instante; salir cancela el aviso al momento.
+let networkHoverTimer = null;
 document.querySelectorAll('.node').forEach(n=>{{
   const nid = n.dataset.id;
   n.addEventListener('mouseenter', ()=>{{
-    applyNetworkHighlight(nid);
+    clearTimeout(networkHoverTimer);
+    networkHoverTimer = setTimeout(()=> applyNetworkHighlight(nid), 90);
   }});
   n.addEventListener('mouseleave', ()=>{{
+    clearTimeout(networkHoverTimer);
     if(pinnedNodeId){{
       applyNetworkHighlight(pinnedNodeId);
     }} else {{
@@ -1033,17 +1048,6 @@ document.querySelectorAll('.node').forEach(n=>{{
     offX=(e.clientX-r.left)/zoom; offY=(e.clientY-r.top)/zoom;
     n.style.transition='none';
   }});
-}});
-
-// Ocultar sellos/cruces/posits de una nota mientras el cursor esta encima:
-// al hacer hover la tarjeta se agranda (scale 1.14) y la decoracion, que no
-// es hija suya, se quedaria "flotando" desalineada -- mejor ocultarla.
-// Reutiliza el mismo mapa nota -> decoraciones que el resaltado de red.
-document.querySelectorAll('.node[data-id]').forEach(n=>{{
-  const decos = decoByOwner[n.dataset.id];
-  if(!decos) return;
-  n.addEventListener('mouseenter', ()=> decos.forEach(d=> d.classList.add('doodle-hidden')));
-  n.addEventListener('mouseleave', ()=> decos.forEach(d=> d.classList.remove('doodle-hidden')));
 }});
 
 viewport.addEventListener('mousedown', e=>{{

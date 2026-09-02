@@ -145,6 +145,9 @@ El día en que Spamton tenía que firmar ese contrato que cambiaría su vida, re
 
 > [!question]- ¿La "persona en el teléfono" es Gaster?
 > Una pista sonora asociada a la caída de Spamton es la frase "no había más que ruido de basura" ("there was nothing but garbage noise") — la misma clase de estática sin sentido que también se asocia a los intentos de comunicación de Gaster en Undertale. Esto ha llevado a parte de la comunidad a preguntarse si la "persona en el teléfono" que arruinó a Spamton y la entidad detrás de la Voz de Deltarune podrían ser la misma cosa. Teoría fuerte pero no confirmada.
+>
+> ![[spamton_addison_garbage_noise.webp]]
+> *"There was nothing but garbage noise" — la propia línea que sostiene esta teoría.*
 
 > [!question]- El elemento "Puppet/Cat"
 > Según la propia terminología que usa Spamton en un Q&A oficial, existe un elemento oculto llamado "Puppet/Cat" (Elemento 6). Varios de sus objetos —las gafas Dealmaker, el FrayedBowtie, el TrueTie (una corbata que se implica que él mismo llevaba antes)— reducen el daño recibido de ataques de este tipo. Es la prueba mecánica, no solo estética, de que Spamton se protege activamente de algo con forma de gato.

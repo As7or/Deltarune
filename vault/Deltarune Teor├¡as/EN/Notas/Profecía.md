@@ -6,8 +6,8 @@ familia: n/a
 confianza: official
 ---
 
-![[Profecy.gif]]
 *The Last Prophecy, as revealed on the crystal stained-glass panes of Ch.4.*
+![[Profecy.gif]]
 
 > [!info]+ Quick facts
 > 📜 Prophetic text present literally within the game, found as crystal stained-glass panes in the Dark Sanctuaries of Ch.4.
@@ -39,29 +39,29 @@ confianza: official
 > [!example]+ Chapter 1 — First mention
 > Ralsei summarizes it to Kris and Susie right after they meet: "There is a LEGEND in this land. A LEGEND that one day, two HEROES of LIGHT will arrive, and fulfill the ancient prophecy, predicted by time and space."
 >
-> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 > *Ralsei summarizing the Legend to Kris and Susie in his castle, Ch.1.*
+> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 
 > [!example]+ Chapter 4 — The crystal panes
 > Additional fragments are revealed in the Dark Sanctuaries as floating crystal stained-glass panes scattered throughout the area, each accompanied by an image. It's also revealed in the Light World as a hymn sung in church, and in a "reading" given by Catty.
 >
-> ![[prophecy_3rd_Sanctuary_location_entrance.png]]
 > *The entrance to the 3rd Dark Sanctuary, where several of these panes are found.*
+> ![[prophecy_3rd_Sanctuary_location_entrance.png]]
 >
-> ![[prophecy_3_heores.png]]
 > *The Prophecy's three heroes together, as revealed on the panes.*
+> ![[prophecy_3_heores.png]]
 >
-> ![[prophecy_Hymn_soundtrack.png]]
 > *The Prophecy's hymn, sung in the Light World's church during Ch.4.*
+> ![[prophecy_Hymn_soundtrack.png]]
 >
-> ![[Prophecy_screenshot_Earth.png]]
 > *One of the scenes associated with the Prophecy, with the Earth as its central image.*
+> ![[Prophecy_screenshot_Earth.png]]
 >
 > > [!danger]- Curious detail
 > > The Prophecy's hymn contains the phrase "the shadows cut deeper" — almost a literal quote of one of the lines associated with W.D. Gaster's Entry Number Seventeen in Undertale, which many read as an indirect signature of his over the prophetic text itself.
 > >
-> > ![[prophecy_Him_increased_contrast.webp]]
 > > *The image associated with that same line, with contrast increased to make it more visible.*
+> > ![[prophecy_Him_increased_contrast.webp]]
 
 ## The Weird Route reinterprets it
 
@@ -143,8 +143,8 @@ A block of paired couplets that announce, in very symbolic terms, the confrontat
 > Possible connection to the "Angel's Heaven" that must be banished according to the prose text — see [[Ángel|Angel]].
 
 > [!example]- 15 — "They'll see the tail of Hell take crawl."
-> ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
 > **Transcription correction**: the real word is "tail," not "trail" — the OCR originally used to build this section misread it the first time. With "tail" in play, the fandom draws a direct connection: "the Tail of Hell" is the popular nickname for [[FRIEND]], the feline entity that stalks the group from the shadows across several chapters — its internal filename in the game's files (`IMAGE_FRIEND`, `DEVICE_FRIEND`) and its design made of circles fit that image of a winding "tail." **Very widespread fan theory, not confirmed by name within the game.**
+> ![[15_theyll_see_the_trail_of_hell_take_crawl.gif]]
 
 > [!example]- 16 — "The Knight which makes with blackened knife."
 > ![[16_the_knight_which_makes_with_blackened_knife.gif]]
@@ -277,8 +277,8 @@ The final block, much shorter and more intimate in tone than the rest — closes
 > [!quote]- Susie
 > Pane 12 describes the Second Hero as "the Girl, with hope crossed on her heart" — the exact line the theory of whether Susie is "the girl" of the Prophecy rests on. She's also the one who physically breaks one of the panes with her hand, until it bleeds, in the most-cited moment of her Ch.4 arc. [[Susie]]
 >
-> ![[prophecy_broking_by_susie.jpeg]]
 > *Susie breaking one of the Prophecy's panes with her hand.*
+> ![[prophecy_broking_by_susie.jpeg]]
 
 > [!quote]- Kris
 > Pane 09 describes the First Hero as "the Cage, with human SOUL and parts" — one of the most-cited descriptions for theories about Kris's nature as a body/container for a SOUL that isn't their own. [[Kris]]
@@ -308,42 +308,42 @@ The final block, much shorter and more intimate in tone than the rest — closes
 > [!question]+ Who really wrote the Prophecy?
 > The textual match with Gaster's Entry 17 has led part of the fandom to wonder whether the Prophecy itself was written, inspired, or altered by the same entity behind the Voice. A strong theory given the near-literal quote, but without direct confirmation within the game itself.
 >
-> ![[prophecy_Him_increased_contrast.webp]]
 > *The image tied to "shadows cut deep" in the hymn — the same line that connects the Prophecy to Gaster.*
+> ![[prophecy_Him_increased_contrast.webp]]
 
 > [!question]- Why is Jockington the only one named?
 > Of the entire legend, Jockington is the only character explicitly mentioned by their own name — neither the Knight nor Queen are. There's no official explanation for why he specifically was chosen as the only named reference within the prophetic text.
 >
-> ![[21_jockington_grows_the_beard.gif]]
 > *Pane 21, the only one of the 35 that names a character directly by name.*
+> ![[21_jockington_grows_the_beard.gif]]
 
 > [!question]- Why does Ralsei only mention "two heroes" in Ch.1, if the full Prophecy says "three"?
 > When Ralsei summarizes the Legend to Kris and Susie right after meeting them (see "Where it appears," above), he literally says that "two HEROES of LIGHT" will fulfill the prophecy — but the full text, and the Ch.4 panes themselves (Block 2, panes 07-13), are unambiguous: there are **three** heroes, numbered First, Second, and Third. The discrepancy sits in the game's own text — it isn't a translation error introduced by this vault.
 >
-> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 > *Ralsei talking about "two heroes of light" in Ch.1...*
+> ![[prophecy_The_legend_screenshot_Ralsei's_castle.png]]
 >
-> ![[06_con_esperanzas_y_suenos_tres_heroes.gif]]
 > *...against the Prophecy's own full text, which unambiguously announces "Three Heroes at the World's End."*
+> ![[06_con_esperanzas_y_suenos_tres_heroes.gif]]
 >
 > The fandom has no official explanation, but the most common reading is that Ralsei, as the Prince of Darkness himself, excludes himself when talking about the "heroes of light" who are yet to arrive — counting only Kris and Susie as the ones still missing to join him, without counting himself even though he's also one of the three per the full text. A more speculative reading is that Ralsei simply doesn't know the complete version of the prophecy as it's later revealed on the Ch.4 panes, and recites an incomplete version from memory. **No official confirmation of which reading is correct.**
 
 > [!question]- 🎲 Did the Prophecy already happen once, with a different group?
 > A fan theory proposes that the Prophecy's trio doesn't necessarily describe the current party, but an earlier expedition made up of Kris, [[Dess]], and [[Asriel]]. The central argument is that the Prophecy describes "the girl" fighting with a sword — a weapon that fits neither Susie's axe nor Noelle's ice magic, but fits Dess better, who as a kid played with toy bats and swords and disappeared in the forest while following a trail of roots (see [[Dess]], theory "Did Dess get lost in the forest following 'the tail'?").
 >
-> ![[sword_route_map_roots.png]]
 > *The map Dess followed before disappearing — the same kind of "roots" that name pane 32 of the Prophecy, further below.*
+> ![[sword_route_map_roots.png]]
 >
 > If this reading is correct, the adventure Kris and Susie's group is living through today would, at bottom, be an echo of another one that already happened years earlier with a different cast — with Asgore publicly taking the blame for Dess's disappearance, and Kris actively avoiding a return to the [[Shelter]] for reasons the game never fully explains. **Fan theory, with no direct textual confirmation — the game never explicitly states that an earlier expedition took place.**
 
 > [!question]- 🎲 Is "ROOTS" a future Dark World beneath Hometown?
 > "ROOTS" comes up several times outside of any clear narrative context (see the analysis of pane 32, further below) — and part of the fandom reads it as the name of a still-unrevealed Dark World that would exist beneath Hometown itself. The most common reading ties its entrance to Queen's Mansion basement — where the Ch.2 track "Digital Roots" plays — and to the Holiday house's own basement, since the pane shows a house between two trees, the same kind of image that already appears in the background of pane 05.
 >
-> ![[Basement_queen_mansion.webp]]
 > *Queen's Mansion basement, where "Digital Roots" plays — one of the entry points the fandom floats for a future Dark World called ROOTS.*
+> ![[Basement_queen_mansion.webp]]
 >
-> ![[32_roots_raices.gif]]
 > *The "Roots" pane itself — the most direct textual clue of all, and the one that names the whole theory.*
+> ![[32_roots_raices.gif]]
 >
 > **Pure fan speculation built on scattered clues (soundtrack track names, a pre-Ch.4 ARG, and this pane) — the game never confirms the existence of any Dark World by that name.**
 
@@ -352,8 +352,8 @@ The final block, much shorter and more intimate in tone than the rest — closes
 - The crystal panes use the same graphical asset ("IMAGE_DEPTH") that the Ch.4 main menu switches to, in sepia, once the chapter is completed.
 - The fandom itself has made identification charts trying to match each pane to a specific character or event, with varying degrees of accuracy depending on the pane.
 
-![[prophecy-identification-v0-jtgejdcm3m6f1.webp]]
 *One of the fan-made identification charts for the Prophecy's panes.*
+![[prophecy-identification-v0-jtgejdcm3m6f1.webp]]
 
 ## Related
 - [[Roaring Knight]]

@@ -145,6 +145,9 @@ On the day Spamton was supposed to sign the contract that would change his life,
 
 > [!question]- Is the "person on the phone" Gaster?
 > One sound clue associated with Spamton's fall is the line "there was nothing but garbage noise" — the same kind of meaningless static also associated with Gaster's communication attempts in Undertale. This has led part of the community to wonder whether the "person on the phone" who ruined Spamton and the entity behind Deltarune's Voice could be the same thing. Strong theory, but unconfirmed.
+>
+> ![[spamton_addison_garbage_noise.webp]]
+> *"There was nothing but garbage noise" — the very line this theory rests on.*
 
 > [!question]- The "Puppet/Cat" element
 > According to Spamton's own terminology in an official Q&A, there's a hidden element called "Puppet/Cat" (Element 6). Several of his items —the Dealmaker glasses, the FrayedBowtie, the TrueTie (a tie he's implied to have worn himself before)— reduce damage taken from this type of attack. It's mechanical, not just aesthetic, proof that Spamton actively protects himself from something shaped like a cat.
