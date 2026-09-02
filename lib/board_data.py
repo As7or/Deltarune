@@ -433,7 +433,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         if not it:
             continue
         rng = random.Random(f"cross-{nid}")
-        cx, cy = on_card(it, x_bias=-0.65, y_bias=-0.7)
+        cx, cy = on_card(it, x_bias=-0.8, y_bias=-0.85)
         rot = rng.uniform(-10, 10)
         out.append(
             f'<div class="doodle doodle-cross" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">'
@@ -456,6 +456,25 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         txt = _stamp_text("dead", nid, lang)
         out.append(
             f'<div class="doodle doodle-stamp stamp-dead" data-owner="{nid}" style="left:{cx:.0f}px; top:{cy:.0f}px; transform:translate(-50%,-50%) rotate({rot:.1f}deg);">{txt}</div>'
+        )
+
+    # ---- Shelter: posit con 3 emoticonos pegado al borde de la tarjeta --
+    #      pino (bosque que rodea el Shelter), placa/escudo (no existe un
+    #      emoji exacto de "placa policial" en Unicode, se usa el escudo
+    #      como aproximacion) y runa delta (triangulo, la forma real de la
+    #      runa no tiene emoji propio). ----
+    EMOJI_NOTE_NIDS = {"g18": "🌲 🛡️ 🔺"}
+    EMOJI_BOX = (78, 56)
+    EMOJI_SIDES = ["r-top", "r-bottom", "l-top", "l-bottom"]
+    for nid, emojis in EMOJI_NOTE_NIDS.items():
+        it = by_id.get(nid)
+        if not it:
+            continue
+        rng = random.Random(f"emoji-note-{nid}")
+        left, top = attach_clear(it, EMOJI_SIDES, *EMOJI_BOX)
+        rot = rng.uniform(-6, 6)
+        out.append(
+            f'<div class="doodle doodle-note emoji-note" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{emojis}</div>'
         )
 
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----
@@ -565,7 +584,8 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
     # visual, solo el ancho -- la altura sigue el aspecto real de la imagen).
     CARD_WIDTH_OVERRIDE = {
         "Gerson Boom": 190,  # mas grande
-        "Alvin": 115,        # mas pequeña
+        "Alvin": 62,         # mas pequeña (se comia a la tarjeta de Profecía)
+        "King": 200,         # mas grande
     }
 
     news_html = ""
