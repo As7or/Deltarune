@@ -260,10 +260,23 @@ _STAMP_TXT = {
     "dead":     {"es": "¿MUERTO?", "en": "DEAD?"},
 }
 FEMININE_NIDS = {"g6", "g_undyne"}  # Dess, Undyne: en español el sello concuerda en genero
-# Dess concuerda en genero segun FEMININE_NIDS, pero ademas su sello va
-# inclinado hacia el lado contrario al resto (para que no queden todos
-# calcados con la misma inclinacion "tipica").
-STAMP_ROT_SIGN_OVERRIDE = {"g6": 1}
+# El signo de la inclinacion de cada sello sale de una semilla determinista
+# por nid (ver _stamp_rot mas abajo) -- con solo 6 sellos en todo el corcho,
+# el azar de esas semillas concretas los dejaba casi todos inclinados hacia
+# el mismo lado (5 de 6 en positivo), lo que se leia como "sellos calcados"
+# en vez de organico. Se fuerza aqui a mano una mezcla real de signos entre
+# los seis sellos conocidos del corcho (Dess, Onionsan, Papyrus, Asriel,
+# Asgore, Undyne) -- si se añade un sello nuevo (mas nids en MISSING_NIDS /
+# WHERE_IS_NIDS / CAPTURED_NIDS), conviene revisar aqui que la mezcla siga
+# equilibrada.
+STAMP_ROT_SIGN_OVERRIDE = {
+    "g6": 1,           # Dess
+    "g25": -1,          # Onionsan
+    "g_papyrus": 1,     # Papyrus
+    "g13": -1,          # Asriel
+    "g21": 1,           # Asgore
+    "g_undyne": -1,     # Undyne
+}
 
 
 def _stamp_text(kind, nid, lang):

@@ -98,8 +98,8 @@ On that same cliff there are binoculars that, when looking south, only show gray
 >
 > 🎲 An analysis video takes this same clue a step further, following the full Spamton Sweepstakes ARG chain (Noelle's blog → Cat Petterz 2 → `deltarune.com/windows` → "lostinthewoodsforest" → "thornchildren," the same tree "therapy" page) to propose a specific answer for exactly what's being repressed: FRIEND. See [[FRIEND]] for the full development of that clue chain.
 >
-> ![[man_2nd_Sanctuary_window_overworld_egg_comparison.png]]
-> *The egg-shaped window in the Second Sanctuary that grants access to the Ch.4 hospital-like room — the central scene this reading rests on as a repressed childhood memory of Kris's.*
+> ![[kriss_therapy_room.webp]]
+> *Kris inside the Ch.4 hospital-like room, next to the receptionist Rudinn — the central scene this reading rests on as a repressed childhood memory of Kris's.*
 
 > [!question]- Is he Papyrus?
 > The weakest of the three readings, based mostly on real merchandising coincidences rather than clues within the game itself: there's an official Fangamer drawing showing Papyrus hidden behind a tree with red leaves almost identical to the Forgotten Man's, and part of the fandom connects the cracked egg shape that would recall Mystery Man's head (the sprite linked to Gaster) with Papyrus's fondness for [TODO: verify exact EN quote] "that oatmeal with dinosaur eggs," mentioned in passing by Flowey in a 2016 Undertale Q&A. On top of that, another official Toby Fox Q&A drawing shows Papyrus "on a date," surrounded by a joke stat panel that includes an icon labeled, with no further explanation, "EGG" — another wink from the author himself linking Papyrus to an egg, even if only as a joke. There's no clue within Deltarune itself that supports this reading beyond those coincidences external to the game. **A highly speculative fan theory, supported by merchandising and trivia external to the game; unconfirmed.**

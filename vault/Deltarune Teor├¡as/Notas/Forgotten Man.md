@@ -98,8 +98,8 @@ En ese mismo acantilado hay unos prismáticos que, al mirar hacia el sur, solo m
 >
 > 🎲 Un vídeo de análisis lleva esta misma pista un paso más allá, siguiendo la cadena completa de la ARG de la Spamton Sweepstakes (blog de Noelle → Cat Petterz 2 → `deltarune.com/windows` → "lostinthewoodsforest" → "thornchildren", la misma página de "terapia" del árbol) hasta proponer una respuesta concreta a qué es exactamente lo reprimido: FRIEND. Desarrollo completo de esa cadena de pistas en [[FRIEND]].
 >
-> ![[man_2nd_Sanctuary_window_overworld_egg_comparison.png]]
-> *La ventana con forma de huevo del Segundo Santuario que da acceso a la sala tipo hospital del Cap.4 — la escena central en la que se apoya esta lectura como recuerdo reprimido de la infancia de Kris.*
+> ![[kriss_therapy_room.webp]]
+> *Kris dentro de la sala tipo hospital del Cap.4, junto al Rudinn recepcionista — la escena central en la que se apoya esta lectura como recuerdo reprimido de la infancia de Kris.*
 
 > [!question]- ¿Es Papyrus?
 > La lectura más débil de las tres, sostenida sobre todo por coincidencias de merchandising real más que por pistas dentro del propio juego: existe un dibujo oficial de Fangamer que muestra a Papyrus escondido tras un árbol de hojas rojas casi idéntico al del Forgotten Man, y parte del fandom conecta la forma de huevo agrietado que recordaría la cabeza del propio Mystery Man (el sprite ligado a Gaster) con la afición de Papyrus por "esa avena con huevos de dinosaurio", mencionada de pasada por Flowey en un Q&A de Undertale de 2016. A esto se suma otra imagen oficial de Q&A de Toby Fox, esta vez de Papyrus "de cita", rodeado de un panel de estadísticas de broma que incluye un icono etiquetado sin más explicación como "EGG" — otro guiño del propio autor asociando a Papyrus con un huevo, aunque sea en un formato de chiste. No hay ninguna pista dentro de Deltarune que sostenga esta lectura más allá de esas coincidencias externas al juego. **Teoría de fans muy especulativa, apoyada en merchandising y trivia externa al juego; no confirmada.**

@@ -239,8 +239,8 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 >
 > Otra pista confirmada que se suma a esta teoría: en la Isla Olvidada (Cap.3), los Siete Ases Voladores —copias de cartas que el propio Kris fotocopió y coloreó a mano de niño— dicen textualmente que "las copias son monocromáticas, pero tú nos coloreaste a cada uno con cariño", y le preguntan por qué no "fotocopia a Kris" para jugar con ellos. El paralelismo con el Vessel —una copia de Kris sin color ni identidad propia— es de las conexiones más citadas del capítulo, aunque no está confirmado que sea una referencia deliberada al Vessel en concreto. Ver [[Forgotten Man]] para el desarrollo completo.
 >
-> ![[Mancountry_location_Forgotten_Island.png]]
-> *La Isla Olvidada, en Mancountry — donde Kris encuentra a los Siete Ases Voladores.*
+> ![[Vessel_naming_screenshot.webp]]
+> *La pantalla "NAME YOUR VESSEL" al final del Cap.1 — el propio momento de creación del Vessel, la prueba más citada de esta teoría.*
 >
 > 🎲 Si el ALMA que controlamos no es la auténtica de Kris, queda abierta la pregunta de dónde está la real — una rama de esta teoría propone que es [[Ralsei]] quien la tiene, ver su nota para el desarrollo completo.
 

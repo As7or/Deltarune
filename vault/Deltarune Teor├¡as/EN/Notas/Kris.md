@@ -239,8 +239,8 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 >
 > Another confirmed clue that adds to this theory: on the Forgotten Island (Ch.3), the Seven Flying Aces — copies of cards that Kris themself photocopied and hand-colored as a child — say, word for word, [TODO: verify exact EN quote] "the copies are monochrome, but you colored each one of us with love," and ask why they don't "photocopy Kris" so they can play with them. The parallel with the Vessel — a copy of Kris with no color or identity of its own — is one of the chapter's most-cited connections, though it isn't confirmed that it's a deliberate reference to the Vessel specifically. See [[Forgotten Man]] for the full development.
 >
-> ![[Mancountry_location_Forgotten_Island.png]]
-> *The Forgotten Island, in Mancountry — where Kris finds the Seven Flying Aces.*
+> ![[Vessel_naming_screenshot.webp]]
+> *The "NAME YOUR VESSEL" screen at the end of Ch.1 — the Vessel's own moment of creation, the most cited proof for this theory.*
 >
 > 🎲 If the SOUL we control isn't Kris's real one, the question of where the real one is remains open — one branch of this theory proposes that [[Ralsei]] has it, see his note for the full development.
 
