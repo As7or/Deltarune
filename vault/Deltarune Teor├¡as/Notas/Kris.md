@@ -251,8 +251,8 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 >
 > Ver [[Jugador]] para el desarrollo completo de la separación entre Kris y quien lo controla.
 >
-> ![[kris_sick_green_skin_bed_chapter5_weird_route.png]]
-> *Hueco de imagen: captura de Kris en la cama con la piel de un verde enfermizo al empezar el Cap.5 tras la Ruta Rara del Cap.4, la escena central de esta lectura. Todavía sin guardar en el vault.*
+> ![[kris_green_skin.png]]
+> *Kris con la piel de un verde enfermizo al empezar el Cap.5 tras la Ruta Rara del Cap.4, la escena central de esta lectura.*
 
 > [!question]- ¿Quién es "tú" realmente?
 > La sospecha más fuerte es que la entidad que controla a Kris guarda relación con Chara — o como mínimo con una fuerza que ya ha protagonizado antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.

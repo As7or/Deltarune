@@ -251,8 +251,8 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 >
 > See [[Jugador|Player]] for the full development of the separation between Kris and whoever controls them.
 >
-> ![[kris_sick_green_skin_bed_chapter5_weird_route.png]]
-> *Image gap: screenshot of Kris in bed with sickly green skin at the start of Ch.5 after Ch.4's Weird Route, the central scene behind this reading. Not yet saved in the vault.*
+> ![[kris_green_skin.png]]
+> *Kris with sickly green skin at the start of Ch.5 after Ch.4's Weird Route, the central scene behind this reading.*
 
 > [!question]- Who is "you" really?
 > The strongest suspicion is that the entity controlling Kris is connected to Chara — or at least to a force that has already been the protagonist of a story about someone able to control a monster/human child from outside.

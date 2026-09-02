@@ -172,19 +172,19 @@ confianza: strong
 >
 > ![[Friend_Dark_World_lore_ralsei.png]]
 > *One of FRIEND's lore fragments that also ends up involving Ralsei — another loose thread about what he really knows.*
-
+>
 > > [!question]- Green as Ralsei's color, not just Asriel's
 > > Confirmed fact: on the rug in Kris's room at the Castle (a Delta Rune with colored triangles), the green triangle represents Ralsei, not Asriel. One fandom reading connects this fact to the theory of Kris's envy toward their brother (see [[Kris]]): if green "belongs" to Asriel in real life and to Ralsei in the Dark World, it would make narrative sense for Kris to color Ralsei green when "creating" him — which is also where the theory that Ralsei might be an idealized copy of Asriel partly comes from — though it remains a symbolic reading with no textual confirmation.
 > >
 > > ![[ralsei_green_deltarune.webp]]
 > > *Another Delta Rune emblem with colored triangles, of the same type as the rug that gives rise to this theory.*
-
+>
 > > [!question]- Is Ralsei Asriel?
 > > Beyond the physical resemblance, after taking off the hat Susie and Noelle separately comment that he looks like Asriel — and his name is an anagram of "Asriel," and also comes from "Ralse," the protagonist of a game by Toby Fox's older brother. Ch.4 complicated the literal reading by showing Asriel as an independent, active character, but the question of what relationship really exists between the two remains fully unresolved.
 > >
 > > ![[asriel_shadow.png]]
 > > *Asriel's silhouette — the silhouette comparison is one of the most cited visual bases for this theory.*
-
+>
 > > [!question]- 🎲 Is Ralsei Kris's original SOUL?
 > > A fandom theory active since 2021, and one that keeps circulating without any chapter having fully ruled it out. It starts from a question the game itself leaves open: the red SOUL the player controls **is never confirmed to be Kris's real soul** — several clues (that Kris can act on their own without a SOUL, that the very design of SOULs in Undertale/Deltarune treats them as something that can be extracted, stored, or replaced) suggest that this SOUL was placed in them from outside at some point. If it isn't theirs... where is Kris's real soul?
 > > - The theory proposes it's **Ralsei**: the only known Darkner who can exist in more than one Dark World without petrifying — the same fact already noted in the theory above, "What is Ralsei really?" — which would make sense if, deep down, he doesn't belong to any specific Dark World because his real origin is Kris themself.
@@ -194,7 +194,7 @@ confianza: strong
 > >
 > > ![[Kris_overworld_SOUL.png]]
 > > *The red SOUL that controls the player — never confirmed as Kris's real soul, the starting point of this whole theory.*
-
+>
 > > [!question]- Is Ralsei actually a tree or a root system under Hometown?
 > > An alternative (and more literal) reading of the same fact above — that Ralsei is the only known Darkner who can appear in more than one Dark World without petrifying: instead of explaining it as his soul being Kris's, this theory proposes that Ralsei doesn't "travel" between Dark Worlds at all, but is deep down a single organism shaped like a root or tree spread out under all of Hometown, and that each Ralsei who shows up in each Dark World is just a "branch" or sprout of that same system reaching the surface at a different point — which is why it feels like teleporting instead of moving. It would fit the recurring "Roots" motif that runs through the game (see [[Rutas|Routes]]) and his thematic link to nature (his Ch.5 fire attack aside, he's a healer, and his robe and colors read more like a plant than an animal). **Fan theory, purely speculative, with no direct textual clue backing it beyond the thematic coincidence with "roots" — more a symbolic reading than a hypothesis with concrete evidence.**
 > >
@@ -202,13 +202,13 @@ confianza: strong
 > > *The Prophecy's stained-glass pane for "Roots" itself — the very panel that gives this motif its name, the one this theory ties Ralsei to.*
 > >
 > > 🎲 A more specific variant of this same idea, popularized after Ch.5, proposes outright that Ralsei is a **flower** — not a tree — whose roots spread throughout Hometown, which would explain his ability to "appear" in any new Dark World just as well. The variant is based on a real comment from Toby Fox years ago, noting that Ralsei "is always mistaken for a flower" [TODO: verify exact EN quote] — suggesting that his Light World version would indeed be a flower. The problem, pointed out by the fandom itself: Ch.5's Colored Flowers explain that a flower without light would die, and Ralsei has probably spent years locked in the school closet without seeing the sun, and yet he's still alive; on top of that, his dialogue portraits have never matched the Flowers' — the Flowers use monochrome icons, Ralsei has had his own colors since Ch.1 — a design inconsistency the tree/roots theory above doesn't have, since it doesn't require Ralsei to literally "be" any specific, visible plant. **Fan theory, with a real citable basis (Toby Fox's own statement) but with at least two serious unresolved textual objections.**
-
+>
 > > [!question]- Is Ralsei the knife Kris carries?
 > > Another proposal for the Light World object that would represent Ralsei (every Darkner has one except him — see "What is Ralsei really?" above): that it's literally the knife Kris carries around at all times. The logic is twofold — it would again explain his ability to "appear" in any new Dark World simply because Kris has the knife with them, and it would fit an ironic reading of the character: someone who hurts people (even unintentionally, mostly emotionally) while taking the shape of a weapon. The fandom itself points out the theory's weak spot: there's no animation of Ralsei "coming out" of the inventory upon arriving at a new Dark World, and in several of them he can already be found doing something on his own before the player even gets there — which fits worse with a stored object than with something already present at the location beforehand. Ch.5's credits weaken it further: in the scene where Susie is shown in the Dark World without Kris present, Ralsei is still there with her — something that shouldn't be possible if he really were an object Kris carries. **Fan theory, unconfirmed, with at least those two counterpoints raised by the fandom itself.**
 > >
 > > ![[Susie_and_Kris_overworld_knife_reveal.gif]]
 > > *The knife Kris carries around at all times — the Light World object this theory proposes as Ralsei's counterpart.*
-
+>
 > > [!question]- 🎲 Is Ralsei a copy of *Lord of the Hammer*, Gerson's book?
 > > Another candidate for the Light World object Ralsei is missing (see "What is Ralsei really?" above): that it's literally a copy of *[[Gerson Boom|Lord of the Hammer]]*, the fantasy saga written by Gerson Boom and directly inspired by the Prophecy (see [[Gerson Boom]] for the full development of the book). The logic runs as follows: the color palette of the covers and the books themselves matches Ralsei's; being based on the Prophecy would naturally explain his impossible knowledge of the future, something no other Darkner has; and within the game's own internal logic, books normally manifest as mages — Ralsei's own combat role — when they take shape as a Darkner.
 > >
