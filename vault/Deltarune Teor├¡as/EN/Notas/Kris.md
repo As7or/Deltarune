@@ -250,6 +250,9 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 > Ch.5 offers the most direct clue to date: coming from Ch.4's Weird Route, Kris spends the whole night without the SOUL on, and the next morning shows up with sickly green skin, moving slowly and trembling as they walk — noticeably weak throughout the whole Festival (see the Ch.5 Weird Route above). An analysis video reads this literally: if Kris, without the Player's SOUL, starts physically deteriorating to a point close to death, that would suggest Kris can't survive on their own without someone else's soul sustaining them — whether because their own soul isn't where it should be, or because they never fully had one at all. Under that reading, the question stops being just "who controls Kris?" and becomes "what exactly is a human without their own soul?" — a considerably darker answer than the simple possession metaphor. **Fan theory, supported by a real, widely cited Ch.5 scene, but dependent on assuming how far Undertale's rules about SOULs apply as-is to Deltarune — something the game itself leaves deliberately ambiguous.**
 >
 > See [[Jugador|Player]] for the full development of the separation between Kris and whoever controls them.
+>
+> ![[kris_sick_green_skin_bed_chapter5_weird_route.png]]
+> *Image gap: screenshot of Kris in bed with sickly green skin at the start of Ch.5 after Ch.4's Weird Route, the central scene behind this reading. Not yet saved in the vault.*
 
 > [!question]- Who is "you" really?
 > The strongest suspicion is that the entity controlling Kris is connected to Chara — or at least to a force that has already been the protagonist of a story about someone able to control a monster/human child from outside.

@@ -89,17 +89,26 @@ On that same cliff there are binoculars that, when looking south, only show gray
 
 > [!question]+ Is he Gaster?
 > The most widespread reading. For: he moves freely between the Light World and the Dark World; he speaks in timeless terms about the origin of the world; he fits the description of someone [TODO: verify exact EN quote] "shattered across space and time"; and the room he appears in during Ch.1 shares its structure with Mystery Man's room in Undertale, the internal sprite linked to Gaster. Against: his way of speaking in Ch.3 is noticeably different from the Voice's, which makes part of the fandom doubt they share an identity. **Fan theory, the most popular of the three; unconfirmed.**
+>
+> ![[gaster.png]]
+> *Mystery Man, the internal Undertale sprite linked to Gaster — his room shares its structure with the Ch.1 room where the Forgotten Man first appears, the main visual basis for this reading.*
 
 > [!question]- Is he a repressed trauma of Kris's?
 > Kris is the only character present in any scene that leads to the Forgotten Man, without exception — no one in the group ever sees him or mentions him afterward. The Ch.3 and 4 appearances revolve explicitly around Kris's childhood, and the Ch.4 scene takes place in what looks like a childhood art therapy session — in fact, the Egg/tree/"therapy" association itself was already confirmed by Toby Fox more than a month before Ch.4's release, through a secret Spamton Sweepstakes page literally titled "Therapy" (see [[Huevo|Egg]] for the detail). Under this reading, the Forgotten Man wouldn't be a "real" character within the fiction, but the projection of a traumatic memory that Kris represses and forgets over and over — hence the character's own name — possibly tied to whatever happened with Dess or the Shelter. **A minority fan theory, but with good textual support in the Ch.3-4 scenes and now also in pre-release material; unconfirmed.**
 >
 > 🎲 An analysis video takes this same clue a step further, following the full Spamton Sweepstakes ARG chain (Noelle's blog → Cat Petterz 2 → `deltarune.com/windows` → "lostinthewoodsforest" → "thornchildren," the same tree "therapy" page) to propose a specific answer for exactly what's being repressed: FRIEND. See [[FRIEND]] for the full development of that clue chain.
+>
+> ![[man_2nd_Sanctuary_window_overworld_egg_comparison.png]]
+> *The egg-shaped window in the Second Sanctuary that grants access to the Ch.4 hospital-like room — the central scene this reading rests on as a repressed childhood memory of Kris's.*
 
 > [!question]- Is he Papyrus?
-> The weakest of the three readings, based mostly on real merchandising coincidences rather than clues within the game itself: there's an official Fangamer drawing showing Papyrus hidden behind a tree with red leaves almost identical to the Forgotten Man's, and part of the fandom connects the cracked egg shape that would recall Mystery Man's head (the sprite linked to Gaster) with Papyrus's fondness for [TODO: verify exact EN quote] "that oatmeal with dinosaur eggs," mentioned in passing by Flowey in a 2016 Undertale Q&A. There's no clue within Deltarune itself that supports this reading beyond those coincidences external to the game. **A highly speculative fan theory, supported by merchandising and trivia external to the game; unconfirmed.**
+> The weakest of the three readings, based mostly on real merchandising coincidences rather than clues within the game itself: there's an official Fangamer drawing showing Papyrus hidden behind a tree with red leaves almost identical to the Forgotten Man's, and part of the fandom connects the cracked egg shape that would recall Mystery Man's head (the sprite linked to Gaster) with Papyrus's fondness for [TODO: verify exact EN quote] "that oatmeal with dinosaur eggs," mentioned in passing by Flowey in a 2016 Undertale Q&A. On top of that, another official Toby Fox Q&A drawing shows Papyrus "on a date," surrounded by a joke stat panel that includes an icon labeled, with no further explanation, "EGG" — another wink from the author himself linking Papyrus to an egg, even if only as a joke. There's no clue within Deltarune itself that supports this reading beyond those coincidences external to the game. **A highly speculative fan theory, supported by merchandising and trivia external to the game; unconfirmed.**
 >
 > ![[papyrus_forgottenman.webp]]
 > *The official Fangamer merchandise drawing: Papyrus next to a striped-trunk tree with red leaves, very similar to the Forgotten Man's.*
+>
+> ![[papyrus_date_egg.png]]
+> *"Here we are!! On our date!!" — official Toby Fox Q&A: Papyrus next to a joke stat panel that includes an icon labeled "EGG," with no further context.*
 
 ## Trivia
 - He's one of the few characters in the whole game whose physical appearance is never shown or described in detail, not even partially.

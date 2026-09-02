@@ -250,6 +250,9 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 > El Cap.5 aporta la pista más directa hasta la fecha: si se viene de la Ruta Rara del Cap.4, Kris pasa toda la noche sin el ALMA puesta, y a la mañana siguiente aparece con la piel de un verde enfermizo, moviéndose con lentitud y temblando al caminar —notablemente débil durante todo el Festival (ver la Ruta Rara del Cap.5 más arriba)—. Un vídeo de análisis lee esto en clave literal: si Kris, sin el ALMA del Jugador, empieza a deteriorarse físicamente hasta un punto cercano a la muerte, eso sugeriría que Kris no puede sobrevivir por sí mismo sin un alma ajena sosteniéndolo —ya sea porque su propia alma no está donde debería, ya sea porque nunca tuvo una del todo—. Bajo esa lectura, la pregunta deja de ser solo "¿quién controla a Kris?" y pasa a ser "¿qué es exactamente un humano sin su propia alma?", con una respuesta bastante más oscura que la simple metáfora de la posesión. **Teoría de fans, apoyada en una escena real y muy citada del Cap.5, pero que depende de asumir hasta qué punto las reglas de Undertale sobre las ALMAS se aplican tal cual a Deltarune — algo que el propio juego deja deliberadamente ambiguo.**
 >
 > Ver [[Jugador]] para el desarrollo completo de la separación entre Kris y quien lo controla.
+>
+> ![[kris_sick_green_skin_bed_chapter5_weird_route.png]]
+> *Hueco de imagen: captura de Kris en la cama con la piel de un verde enfermizo al empezar el Cap.5 tras la Ruta Rara del Cap.4, la escena central de esta lectura. Todavía sin guardar en el vault.*
 
 > [!question]- ¿Quién es "tú" realmente?
 > La sospecha más fuerte es que la entidad que controla a Kris guarda relación con Chara — o como mínimo con una fuerza que ya ha protagonizado antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.

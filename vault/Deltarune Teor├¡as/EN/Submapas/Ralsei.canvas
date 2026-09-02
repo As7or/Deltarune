@@ -1,1 +1,447 @@
-{"nodes":[{"id":"center","type":"text","text":"# Ralsei — the prince without subjects\n\nThird hero of the Prophecy. Kind to the point of self-denial — spends much of the game not believing he deserves anything of his own.","x":-180,"y":-70,"width":380,"height":210,"color":"6"},{"id":"s0","type":"text","text":"**Physical resemblance to Asriel**\nVisual basis for the 'Ralsei is Asriel' theory.","x":-130,"y":-520,"width":270,"height":150,"color":"3"},{"id":"s1","type":"text","text":"**Knows the ending of the Prophecy**\nHides the final part to protect Susie and Kris — it nearly breaks their friendship.","x":346,"y":-209,"width":270,"height":150,"color":"3"},{"id":"s2","type":"text","text":"**Susie**\nPushes him to see himself as more than just a tool in service of the Lightners.","x":164,"y":294,"width":270,"height":150,"color":"4"},{"id":"s3","type":"text","text":"**Etymology of his name**\nAnagram of 'Asriel' + a reference to 'Ralse' from a game by Toby Fox's brother.","x":-424,"y":294,"width":270,"height":150,"color":"1"},{"id":"s4","type":"text","text":"**Flowery**\nHis most strained relationship: old acquaintances through Asgore, now rivals.","x":-606,"y":-209,"width":270,"height":150,"color":"1"},{"id":"s5","type":"text","text":"**What is Ralsei, really?**\nFlowery calls him 'an impossibility': he appears in more than one Dark World, has no known Light World form, and knows too much about the Prophecy. No definitive textual explanation.","x":800,"y":300,"width":300,"height":220,"color":"3"},{"id":"center-img","type":"file","file":"Sprites/Ralsei_overworld_hatless.png","x":-986,"y":-133,"width":100,"height":190},{"id":"s0-img","type":"file","file":"Sprites/asriel.png","x":-129,"y":-920,"width":99,"height":190},{"id":"s1-img","type":"file","file":"Sprites/Profecy.gif","x":709,"y":-357,"width":190,"height":190},{"id":"s2-img","type":"file","file":"Sprites/Susie_overworld_eyes.png","x":418,"y":561,"width":108,"height":190},{"id":"s3-img","type":"file","file":"Sprites/Ralsei_con_gorro.gif","x":-672,"y":557,"width":109,"height":190},{"id":"s4-img","type":"file","file":"Sprites/Flowery_face.webp","x":-860,"y":-560,"width":115,"height":190},{"id":"s5-img","type":"file","file":"Sprites/Ralsei_screenshot_overwhelmed_with_knowledge.png","x":800,"y":80,"width":200,"height":150}],"edges":[{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"3"},{"id":"e1","fromNode":"center","fromSide":"right","toNode":"s1","toSide":"left","color":"3"},{"id":"e2","fromNode":"center","fromSide":"right","toNode":"s2","toSide":"left","color":"4"},{"id":"e3","fromNode":"center","fromSide":"left","toNode":"s3","toSide":"right","color":"1"},{"id":"e4","fromNode":"center","fromSide":"left","toNode":"s4","toSide":"right","color":"1"},{"id":"e5","fromNode":"center","fromSide":"right","toNode":"s5","toSide":"left","color":"3"},{"id":"s5-img-e","fromNode":"s5-img","fromSide":"bottom","toNode":"s5","toSide":"top","color":"6"},{"id":"center-img-e","fromNode":"center-img","fromSide":"right","toNode":"center","toSide":"left","color":"6"},{"id":"s0-img-e","fromNode":"s0-img","fromSide":"bottom","toNode":"s0","toSide":"top","color":"6"},{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},{"id":"s3-img-e","fromNode":"s3-img","fromSide":"bottom","toNode":"s3","toSide":"top","color":"6"},{"id":"s4-img-e","fromNode":"s4-img","fromSide":"bottom","toNode":"s4","toSide":"top","color":"6"},{"id":"cross_asriel_impossible","fromNode":"s0","fromSide":"bottom","toNode":"s5","toSide":"top","color":"3"},{"id":"cross_flowery_impossible","fromNode":"s4","fromSide":"right","toNode":"s5","toSide":"left","color":"3"},{"id":"cross_prophecy_susie","fromNode":"s1","fromSide":"left","toNode":"s2","toSide":"right","color":"1"},{"id":"cross_etymology_asriel","fromNode":"s3","fromSide":"top","toNode":"s0","toSide":"bottom","color":"3"}]}
+{
+    "nodes": [
+        {
+            "id": "center",
+            "type": "text",
+            "text": "# Ralsei — the prince without subjects\n\nThird hero of the Prophecy. Kind to the point of self-denial — spends much of the game not believing he deserves anything of his own.",
+            "x": -180,
+            "y": -70,
+            "width": 380,
+            "height": 210,
+            "color": "6"
+        },
+        {
+            "id": "s0",
+            "type": "text",
+            "text": "**Physical resemblance to Asriel**\nVisual basis for the 'Ralsei is Asriel' theory.",
+            "x": -130,
+            "y": -520,
+            "width": 270,
+            "height": 150,
+            "color": "3"
+        },
+        {
+            "id": "s1",
+            "type": "text",
+            "text": "**Knows the ending of the Prophecy**\nHides the final part to protect Susie and Kris — it nearly breaks their friendship.",
+            "x": 346,
+            "y": -209,
+            "width": 270,
+            "height": 150,
+            "color": "3"
+        },
+        {
+            "id": "s2",
+            "type": "text",
+            "text": "**Susie**\nPushes him to see himself as more than just a tool in service of the Lightners.",
+            "x": 164,
+            "y": 294,
+            "width": 270,
+            "height": 150,
+            "color": "4"
+        },
+        {
+            "id": "s3",
+            "type": "text",
+            "text": "**Etymology of his name**\nAnagram of 'Asriel' + a reference to 'Ralse' from a game by Toby Fox's brother.",
+            "x": -424,
+            "y": 294,
+            "width": 270,
+            "height": 150,
+            "color": "1"
+        },
+        {
+            "id": "s4",
+            "type": "text",
+            "text": "**Flowery**\nHis most strained relationship: old acquaintances through Asgore, now rivals.",
+            "x": -606,
+            "y": -209,
+            "width": 270,
+            "height": 150,
+            "color": "1"
+        },
+        {
+            "id": "s5",
+            "type": "text",
+            "text": "**What is Ralsei, really?**\nFlowery calls him 'an impossibility': he appears in more than one Dark World, has no known Light World form, and knows too much about the Prophecy. No definitive textual explanation.",
+            "x": 800,
+            "y": 300,
+            "width": 300,
+            "height": 220,
+            "color": "3"
+        },
+        {
+            "id": "center-img",
+            "type": "file",
+            "file": "Sprites/Ralsei_overworld_hatless.png",
+            "x": -986,
+            "y": -133,
+            "width": 100,
+            "height": 190
+        },
+        {
+            "id": "s0-img",
+            "type": "file",
+            "file": "Sprites/asriel.png",
+            "x": -129,
+            "y": -920,
+            "width": 99,
+            "height": 190
+        },
+        {
+            "id": "s1-img",
+            "type": "file",
+            "file": "Sprites/Profecy.gif",
+            "x": 709,
+            "y": -357,
+            "width": 190,
+            "height": 190
+        },
+        {
+            "id": "s2-img",
+            "type": "file",
+            "file": "Sprites/Susie_overworld_eyes.png",
+            "x": 418,
+            "y": 561,
+            "width": 108,
+            "height": 190
+        },
+        {
+            "id": "s3-img",
+            "type": "file",
+            "file": "Sprites/Ralsei_con_gorro.gif",
+            "x": -672,
+            "y": 557,
+            "width": 109,
+            "height": 190
+        },
+        {
+            "id": "s4-img",
+            "type": "file",
+            "file": "Sprites/Flowery_face.webp",
+            "x": -860,
+            "y": -560,
+            "width": 115,
+            "height": 190
+        },
+        {
+            "id": "s5-img",
+            "type": "file",
+            "file": "Sprites/Ralsei_screenshot_overwhelmed_with_knowledge.png",
+            "x": 800,
+            "y": 80,
+            "width": 200,
+            "height": 150
+        },
+        {
+            "id": "s6",
+            "type": "text",
+            "text": "**Kris's original SOUL?**\nHis green heart and unconditional devotion would fit if the soul that truly belongs to Kris was never the red one the player carries.",
+            "x": 550,
+            "y": -650,
+            "width": 280,
+            "height": 160,
+            "color": "3"
+        },
+        {
+            "id": "s6-img",
+            "type": "file",
+            "file": "Sprites/Kris_overworld_SOUL.png",
+            "x": 560,
+            "y": -870,
+            "width": 140,
+            "height": 190
+        },
+        {
+            "id": "s7",
+            "type": "text",
+            "text": "**A tree or roots under Hometown?**\nWould explain why he 'appears' in every new Dark World without traveling: he just sprouts at a different point of the same root system.",
+            "x": -130,
+            "y": 700,
+            "width": 300,
+            "height": 170,
+            "color": "3"
+        },
+        {
+            "id": "s7-img",
+            "type": "file",
+            "file": "Sprites/32_roots_raices.gif",
+            "x": -120,
+            "y": 930,
+            "width": 190,
+            "height": 150
+        },
+        {
+            "id": "s8",
+            "type": "text",
+            "text": "**The knife Kris carries?**\nWould explain the same thing more literally, though he still appears even without Kris nearby, according to the Ch.5 credits.",
+            "x": -1000,
+            "y": 250,
+            "width": 280,
+            "height": 160,
+            "color": "3"
+        },
+        {
+            "id": "s8-img",
+            "type": "file",
+            "file": "Sprites/Susie_and_Kris_overworld_knife_reveal.gif",
+            "x": -1010,
+            "y": 470,
+            "width": 190,
+            "height": 140
+        },
+        {
+            "id": "s9",
+            "type": "text",
+            "text": "**A copy of Lord of the Hammer?**\nGerson's fantasy book, inspired by the Prophecy — would explain his impossible knowledge of the future.",
+            "x": -550,
+            "y": -750,
+            "width": 290,
+            "height": 170,
+            "color": "3"
+        },
+        {
+            "id": "s9-img",
+            "type": "file",
+            "file": "Sprites/Lord_of_the_Hammer_library_stant.webp",
+            "x": -540,
+            "y": -970,
+            "width": 170,
+            "height": 190
+        }
+    ],
+    "edges": [
+        {
+            "id": "e0",
+            "fromNode": "center",
+            "fromSide": "left",
+            "toNode": "s0",
+            "toSide": "right",
+            "color": "3"
+        },
+        {
+            "id": "e1",
+            "fromNode": "center",
+            "fromSide": "right",
+            "toNode": "s1",
+            "toSide": "left",
+            "color": "3"
+        },
+        {
+            "id": "e2",
+            "fromNode": "center",
+            "fromSide": "right",
+            "toNode": "s2",
+            "toSide": "left",
+            "color": "4"
+        },
+        {
+            "id": "e3",
+            "fromNode": "center",
+            "fromSide": "left",
+            "toNode": "s3",
+            "toSide": "right",
+            "color": "1"
+        },
+        {
+            "id": "e4",
+            "fromNode": "center",
+            "fromSide": "left",
+            "toNode": "s4",
+            "toSide": "right",
+            "color": "1"
+        },
+        {
+            "id": "e5",
+            "fromNode": "center",
+            "fromSide": "right",
+            "toNode": "s5",
+            "toSide": "left",
+            "color": "3"
+        },
+        {
+            "id": "s5-img-e",
+            "fromNode": "s5-img",
+            "fromSide": "bottom",
+            "toNode": "s5",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "center-img-e",
+            "fromNode": "center-img",
+            "fromSide": "right",
+            "toNode": "center",
+            "toSide": "left",
+            "color": "6"
+        },
+        {
+            "id": "s0-img-e",
+            "fromNode": "s0-img",
+            "fromSide": "bottom",
+            "toNode": "s0",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s1-img-e",
+            "fromNode": "s1-img",
+            "fromSide": "bottom",
+            "toNode": "s1",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s2-img-e",
+            "fromNode": "s2-img",
+            "fromSide": "bottom",
+            "toNode": "s2",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s3-img-e",
+            "fromNode": "s3-img",
+            "fromSide": "bottom",
+            "toNode": "s3",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s4-img-e",
+            "fromNode": "s4-img",
+            "fromSide": "bottom",
+            "toNode": "s4",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "cross_asriel_impossible",
+            "fromNode": "s0",
+            "fromSide": "bottom",
+            "toNode": "s5",
+            "toSide": "top",
+            "color": "3"
+        },
+        {
+            "id": "cross_flowery_impossible",
+            "fromNode": "s4",
+            "fromSide": "right",
+            "toNode": "s5",
+            "toSide": "left",
+            "color": "3"
+        },
+        {
+            "id": "cross_prophecy_susie",
+            "fromNode": "s1",
+            "fromSide": "left",
+            "toNode": "s2",
+            "toSide": "right",
+            "color": "1"
+        },
+        {
+            "id": "cross_etymology_asriel",
+            "fromNode": "s3",
+            "fromSide": "top",
+            "toNode": "s0",
+            "toSide": "bottom",
+            "color": "3"
+        },
+        {
+            "id": "e6",
+            "fromNode": "center",
+            "fromSide": "right",
+            "toNode": "s6",
+            "toSide": "left",
+            "color": "3"
+        },
+        {
+            "id": "e7",
+            "fromNode": "center",
+            "fromSide": "bottom",
+            "toNode": "s7",
+            "toSide": "top",
+            "color": "3"
+        },
+        {
+            "id": "e8",
+            "fromNode": "center",
+            "fromSide": "left",
+            "toNode": "s8",
+            "toSide": "right",
+            "color": "3"
+        },
+        {
+            "id": "e9",
+            "fromNode": "center",
+            "fromSide": "left",
+            "toNode": "s9",
+            "toSide": "right",
+            "color": "3"
+        },
+        {
+            "id": "s6-img-e",
+            "fromNode": "s6-img",
+            "fromSide": "bottom",
+            "toNode": "s6",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s7-img-e",
+            "fromNode": "s7-img",
+            "fromSide": "bottom",
+            "toNode": "s7",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s8-img-e",
+            "fromNode": "s8-img",
+            "fromSide": "bottom",
+            "toNode": "s8",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "s9-img-e",
+            "fromNode": "s9-img",
+            "fromSide": "bottom",
+            "toNode": "s9",
+            "toSide": "top",
+            "color": "6"
+        },
+        {
+            "id": "cross_soul_impossible",
+            "fromNode": "s6",
+            "fromSide": "bottom",
+            "toNode": "s5",
+            "toSide": "top",
+            "color": "3"
+        },
+        {
+            "id": "cross_roots_impossible",
+            "fromNode": "s7",
+            "fromSide": "right",
+            "toNode": "s5",
+            "toSide": "left",
+            "color": "3"
+        },
+        {
+            "id": "cross_knife_impossible",
+            "fromNode": "s8",
+            "fromSide": "bottom",
+            "toNode": "s5",
+            "toSide": "top",
+            "color": "3"
+        },
+        {
+            "id": "cross_book_impossible",
+            "fromNode": "s9",
+            "fromSide": "top",
+            "toNode": "s5",
+            "toSide": "bottom",
+            "color": "3"
+        }
+    ]
+}

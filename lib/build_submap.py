@@ -736,6 +736,11 @@ def build_submap(canvas_path, title_name, lang="es"):
     FRIEND_STEMS = {"FRIEND"}
     FORGOTTEN_STEMS = {"Forgotten Man", "Huevo", "Everyman"}
     RUTAS_STEMS = {"Rutas"}
+    # Submapas con muchas burbujas (notas largas, con muchas teorias propias)
+    # donde la inclinacion aleatoria tipo postit -4..4 grados, sumada en tantas
+    # tarjetas a la vez, termina leyendose como "torcido" en vez de organico --
+    # se detectan por titulo exacto del centro y se renderizan sin rotacion.
+    NO_ROTATE_SUBMAPS = {"Ralsei"}
     # Si el propio centro del submapa es una de esas 6 notas especiales, todo
     # el fondo del sub-corcho cambia a juego (no solo la tarjeta central).
     center_title_raw = next((it["title"] for it in items if it["is_center"]), "")
@@ -750,7 +755,7 @@ def build_submap(canvas_path, title_name, lang="es"):
     for it in items:
         nid = it["id"]
         random.seed(canvas_path + nid)
-        rot = random.uniform(-4, 4)
+        rot = 0 if center_title in NO_ROTATE_SUBMAPS else random.uniform(-4, 4)
         is_center = it["is_center"]
         width = 250 if is_center else 190
         x, y = it["px"], it["py"]

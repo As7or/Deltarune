@@ -89,17 +89,26 @@ En ese mismo acantilado hay unos prismáticos que, al mirar hacia el sur, solo m
 
 > [!question]+ ¿Es Gaster?
 > La lectura más extendida. A favor: se mueve libremente entre el Mundo Claro y el Oscuro; habla en términos atemporales sobre el origen del mundo; encaja con la descripción de alguien "hecho añicos a través del espacio y el tiempo"; y la sala en la que aparece en el Cap.1 comparte estructura con la sala de Mystery Man en Undertale, el sprite interno vinculado a Gaster. En contra: su forma de hablar en el Cap.3 es notablemente distinta a la de la Voz, lo que hace dudar a parte del fandom de que compartan identidad. **Teoría de fans, la más popular de las tres; no confirmada.**
+>
+> ![[gaster.png]]
+> *Mystery Man, el sprite interno de Undertale vinculado a Gaster — su sala comparte estructura con la sala del Cap.1 en la que aparece por primera vez el Forgotten Man, la base visual principal de esta lectura.*
 
 > [!question]- ¿Es un trauma reprimido de Kris?
 > Kris es el único personaje presente en cualquier escena que lleve al Forgotten Man, sin excepción — nadie del grupo lo ve nunca ni se le menciona después. Las apariciones del Cap.3 y 4 giran explícitamente en torno a la infancia de Kris, y la escena del Cap.4 tiene lugar en lo que parece una sesión de terapia artística infantil — de hecho, la propia asociación Huevo/árbol/"terapia" ya estaba confirmada por Toby Fox más de un mes antes del lanzamiento del Cap.4, a través de una página secreta de la Spamton Sweepstakes titulada literalmente "Terapia" (ver [[Huevo]] para el detalle). Bajo esta lectura, el Forgotten Man no sería un personaje "real" dentro de la ficción, sino la proyección de un recuerdo traumático que Kris reprime y olvida una y otra vez —de ahí el propio nombre del personaje—, posiblemente ligado a lo mismo que ocurriera con Dess o con el Shelter. **Teoría de fans, minoritaria pero con buen respaldo textual en las escenas del Cap.3-4 y ahora también en material previo al lanzamiento; no confirmada.**
 >
 > 🎲 Un vídeo de análisis lleva esta misma pista un paso más allá, siguiendo la cadena completa de la ARG de la Spamton Sweepstakes (blog de Noelle → Cat Petterz 2 → `deltarune.com/windows` → "lostinthewoodsforest" → "thornchildren", la misma página de "terapia" del árbol) hasta proponer una respuesta concreta a qué es exactamente lo reprimido: FRIEND. Desarrollo completo de esa cadena de pistas en [[FRIEND]].
+>
+> ![[man_2nd_Sanctuary_window_overworld_egg_comparison.png]]
+> *La ventana con forma de huevo del Segundo Santuario que da acceso a la sala tipo hospital del Cap.4 — la escena central en la que se apoya esta lectura como recuerdo reprimido de la infancia de Kris.*
 
 > [!question]- ¿Es Papyrus?
-> La lectura más débil de las tres, sostenida sobre todo por coincidencias de merchandising real más que por pistas dentro del propio juego: existe un dibujo oficial de Fangamer que muestra a Papyrus escondido tras un árbol de hojas rojas casi idéntico al del Forgotten Man, y parte del fandom conecta la forma de huevo agrietado que recordaría la cabeza del propio Mystery Man (el sprite ligado a Gaster) con la afición de Papyrus por "esa avena con huevos de dinosaurio", mencionada de pasada por Flowey en un Q&A de Undertale de 2016. No hay ninguna pista dentro de Deltarune que sostenga esta lectura más allá de esas coincidencias externas al juego. **Teoría de fans muy especulativa, apoyada en merchandising y trivia externa al juego; no confirmada.**
+> La lectura más débil de las tres, sostenida sobre todo por coincidencias de merchandising real más que por pistas dentro del propio juego: existe un dibujo oficial de Fangamer que muestra a Papyrus escondido tras un árbol de hojas rojas casi idéntico al del Forgotten Man, y parte del fandom conecta la forma de huevo agrietado que recordaría la cabeza del propio Mystery Man (el sprite ligado a Gaster) con la afición de Papyrus por "esa avena con huevos de dinosaurio", mencionada de pasada por Flowey en un Q&A de Undertale de 2016. A esto se suma otra imagen oficial de Q&A de Toby Fox, esta vez de Papyrus "de cita", rodeado de un panel de estadísticas de broma que incluye un icono etiquetado sin más explicación como "EGG" — otro guiño del propio autor asociando a Papyrus con un huevo, aunque sea en un formato de chiste. No hay ninguna pista dentro de Deltarune que sostenga esta lectura más allá de esas coincidencias externas al juego. **Teoría de fans muy especulativa, apoyada en merchandising y trivia externa al juego; no confirmada.**
 >
 > ![[papyrus_forgottenman.webp]]
 > *El dibujo oficial de merchandising de Fangamer: Papyrus junto a un árbol de tronco rayado y hojas rojas, muy similar al del Forgotten Man.*
+>
+> ![[papyrus_date_egg.png]]
+> *"Here we are!! On our date!!" — Q&A oficial de Toby Fox: Papyrus junto a un panel de estadísticas de broma que incluye un icono etiquetado "EGG", sin más contexto.*
 
 ## Curiosidades
 - Es uno de los pocos personajes de todo el juego cuya apariencia física nunca se muestra ni se describe en detalle, ni siquiera de forma parcial.
