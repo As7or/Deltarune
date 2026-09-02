@@ -164,6 +164,12 @@ confianza: fuerte
 
 ## Teorías
 
+> [!question]- El verde como color de Ralsei, no solo de Asriel
+> Dato confirmado: en la alfombra del cuarto de Kris en el Castillo (Runa Delta con triángulos de colores), el triángulo verde representa a Ralsei, no a Asriel. Una lectura de fandom conecta este dato con la teoría de la envidia de Kris hacia su hermano (ver [[Kris]]): si el verde "pertenece" a Asriel en la vida real y a Ralsei en el Mundo Oscuro, tendría sentido narrativo que Kris coloreara a Ralsei de verde al "crearlo" —de ahí también parte la teoría de que Ralsei sería una copia idealizada de Asriel—, aunque sigue siendo una lectura simbólica sin confirmación textual.
+>
+> ![[ralsei_green_deltarune.webp]]
+> *Otro emblema de la Runa Delta con triángulos de colores, del mismo tipo que la alfombra que da pie a esta teoría.*
+
 > [!question]+ ¿Qué es Ralsei realmente?
 > El Cap.5 complica más que nunca la naturaleza de Ralsei: Flowery llega a llamarlo directamente "una imposibilidad". Es el único Darkner conocido capaz de aparecer en más de un Mundo Oscuro, no tiene ninguna forma "Mundo Claro" identificada pese a que todos los demás Darkners sí la tienen, y conoce detalles de la Profecía y de la propia mecánica del juego que ningún otro Darkner conoce. Nada de esto prueba que sea malvado ni que oculte una identidad siniestra — más bien sugiere que tiene miedo, guarda secretos por protección, y está atrapado entre el guion que cree que debe seguir y el deseo de salirse de él, igual que Susie lleva insistiéndole todo el juego. **Sigue sin haber ninguna explicación textual cerrada sobre qué es Ralsei exactamente.**
 >
@@ -172,12 +178,6 @@ confianza: fuerte
 >
 > ![[Friend_Dark_World_lore_ralsei.png]]
 > *Uno de los fragmentos de lore de FRIEND que también termina involucrando a Ralsei — otro hilo suelto sobre lo que realmente sabe.*
->
-> > [!question]- El verde como color de Ralsei, no solo de Asriel
-> > Dato confirmado: en la alfombra del cuarto de Kris en el Castillo (Runa Delta con triángulos de colores), el triángulo verde representa a Ralsei, no a Asriel. Una lectura de fandom conecta este dato con la teoría de la envidia de Kris hacia su hermano (ver [[Kris]]): si el verde "pertenece" a Asriel en la vida real y a Ralsei en el Mundo Oscuro, tendría sentido narrativo que Kris coloreara a Ralsei de verde al "crearlo" —de ahí también parte la teoría de que Ralsei sería una copia idealizada de Asriel—, aunque sigue siendo una lectura simbólica sin confirmación textual.
-> >
-> > ![[ralsei_green_deltarune.webp]]
-> > *Otro emblema de la Runa Delta con triángulos de colores, del mismo tipo que la alfombra que da pie a esta teoría.*
 >
 > > [!question]- ¿Ralsei es Asriel?
 > > Además del parecido físico, tras quitarse el gorro Susie y Noelle comentan por separado que se parece a Asriel — y su nombre es un anagrama de "Asriel", además de venir de "Ralse", protagonista de un juego del hermano mayor de Toby Fox. El Cap.4 complicó la lectura literal al mostrar a Asriel como personaje independiente y activo, pero la pregunta de qué relación hay realmente entre ambos sigue sin cerrarse del todo.
