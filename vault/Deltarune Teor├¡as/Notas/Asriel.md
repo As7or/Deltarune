@@ -125,7 +125,7 @@ Confirmado por el juego: de niño, [[Berdly|Bratty]] convenció a Asriel de darl
 > [!question]+ ¿Es Ralsei el propio Asriel?
 > La teoría de identidad más antigua y discutida de todo el juego. La evidencia a favor:
 >
-> ![[Ralsei_face_hatless.png]]
+> ![[Ralsei_face_hatless.png|160]]
 > *Ralsei sin su gorro — la base visual de todo el parecido que se discute en esta teoría.*
 >
 > - **El parecido físico**: según Susie y Noelle, Ralsei sin gorro es prácticamente calcado a Asriel. Noelle se lo dice directamente a Susie en el Cap.4 ("se parecía un poco a Asriel... pero no"), y Susie, al ver una foto real de Asriel ese mismo capítulo, cree al principio que es un Photoshop de Ralsei.

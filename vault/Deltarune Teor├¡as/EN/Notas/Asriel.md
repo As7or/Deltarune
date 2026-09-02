@@ -125,7 +125,7 @@ Confirmed by the game: as a kid, [[Berdly|Bratty]] convinced Asriel to give her 
 > [!question]+ Is Ralsei actually Asriel?
 > The oldest and most-debated identity theory in the whole game. The evidence in favor:
 >
-> ![[Ralsei_face_hatless.png]]
+> ![[Ralsei_face_hatless.png|160]]
 > *Ralsei without his hat — the visual basis for the whole resemblance this theory argues over.*
 >
 > - **The physical resemblance**: according to Susie and Noelle, Ralsei without his hat is nearly a carbon copy of Asriel. Noelle says it directly to Susie in Ch.4 ("[TODO: verify exact EN quote] he looked a little like Asriel... but not"), and Susie, on seeing an actual photo of Asriel that same chapter, at first thinks it's a Photoshop of Ralsei.
