@@ -200,12 +200,25 @@ confianza: strong
 >
 > ![[32_roots_raices.gif]]
 > *The Prophecy's stained-glass pane for "Roots" itself — the very panel that gives this motif its name, the one this theory ties Ralsei to.*
+>
+> 🎲 A more specific variant of this same idea, popularized after Ch.5, proposes outright that Ralsei is a **flower** — not a tree — whose roots spread throughout Hometown, which would explain his ability to "appear" in any new Dark World just as well. The variant is based on a real comment from Toby Fox years ago, noting that Ralsei "is always mistaken for a flower" [TODO: verify exact EN quote] — suggesting that his Light World version would indeed be a flower. The problem, pointed out by the fandom itself: Ch.5's Colored Flowers explain that a flower without light would die, and Ralsei has probably spent years locked in the school closet without seeing the sun, and yet he's still alive; on top of that, his dialogue portraits have never matched the Flowers' — the Flowers use monochrome icons, Ralsei has had his own colors since Ch.1 — a design inconsistency the tree/roots theory above doesn't have, since it doesn't require Ralsei to literally "be" any specific, visible plant. **Fan theory, with a real citable basis (Toby Fox's own statement) but with at least two serious unresolved textual objections.**
 
 > [!question]- Is Ralsei the knife Kris carries?
 > Another proposal for the Light World object that would represent Ralsei (every Darkner has one except him — see "What is Ralsei really?" above): that it's literally the knife Kris carries around at all times. The logic is twofold — it would again explain his ability to "appear" in any new Dark World simply because Kris has the knife with them, and it would fit an ironic reading of the character: someone who hurts people (even unintentionally, mostly emotionally) while taking the shape of a weapon. The fandom itself points out the theory's weak spot: there's no animation of Ralsei "coming out" of the inventory upon arriving at a new Dark World, and in several of them he can already be found doing something on his own before the player even gets there — which fits worse with a stored object than with something already present at the location beforehand. Ch.5's credits weaken it further: in the scene where Susie is shown in the Dark World without Kris present, Ralsei is still there with her — something that shouldn't be possible if he really were an object Kris carries. **Fan theory, unconfirmed, with at least those two counterpoints raised by the fandom itself.**
 >
 > ![[Susie_and_Kris_overworld_knife_reveal.gif]]
 > *The knife Kris carries around at all times — the Light World object this theory proposes as Ralsei's counterpart.*
+
+> [!question]- 🎲 Is Ralsei a copy of *Lord of the Hammer*, Gerson's book?
+> Another candidate for the Light World object Ralsei is missing (see "What is Ralsei really?" above): that it's literally a copy of *[[Gerson Boom|Lord of the Hammer]]*, the fantasy saga written by Gerson Boom and directly inspired by the Prophecy (see [[Gerson Boom]] for the full development of the book). The logic runs as follows: the color palette of the covers and the books themselves matches Ralsei's; being based on the Prophecy would naturally explain his impossible knowledge of the future, something no other Darkner has; and within the game's own internal logic, books normally manifest as mages — Ralsei's own combat role — when they take shape as a Darkner.
+>
+> The theory doesn't rule out that what Ralsei "really" is could still be something bigger, like a titan: Flowery goes as far as calling him directly "an impossibility" (see above), a description that would fit Deltarune's overall theme that fear of the unknown — the titans themselves — can also give birth to passions, dreams, and hopes, represented by a prince who lives in the deepest darkness. **Fan theory, supported by the color coincidence and the book's own symbolism, but with no direct textual confirmation that Ralsei is that specific object.**
+>
+> ![[Lord_of_the_Hammer_library_stant.webp]]
+> *The first volume of "Lord of the Hammer" in the library — the object this theory proposes as Ralsei's true Light World counterpart.*
+>
+> ![[lord_of_hammer_cap5.png]]
+> *The illustration for the saga's fifth volume, "The Pink and Gold Field" — the same chapter that, according to Gerson, he sums up as "the vast garden burns in an inferno of jealousy," right when Ralsei attacks with fire for the first time in Ch.5 (see [[Gerson Boom]]).*
 
 ## Stats-menu nickname 🕵️‍♂️📛
 

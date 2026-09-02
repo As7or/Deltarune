@@ -87,7 +87,7 @@ La vidriera 04 de la Última Profecía —"Si las Fuentes se liberan, el Rugido 
 > Explica en el Cap.2 la mecánica exacta de cómo se abre una Fuente (voluntad + objeto afilado + determinación), y coacciona a Noelle para que abra una propia — Noelle se niega tras la advertencia de Ralsei sobre el Rugido. [[Queen]]
 
 > [!quote]- Noelle
-> Presionada por Queen para abrir una Fuente en el Cap.2; se planta y se niega. Es también, sin comerlo ni beberlo, el centro temático del Mundo Cíber pese a no haberlo abierto ella —fue el Caballero—, lo que deja abierta la pregunta de por qué un mundo ajeno gira tan de cerca en torno a su trauma personal. [[Noelle]]
+> Presionada por Queen para abrir una Fuente en el Cap.2; se planta y se niega. Es también, sin comerlo ni beberlo, el centro temático del Mundo Cíber pese a no haberlo abierto ella —fue el Caballero—, lo que deja abierta la pregunta de por qué un mundo ajeno gira tan de cerca en torno a su trauma personal. Una teoría de fans propone una respuesta directa a esa pregunta: ver la prueba de Ramb en [[Dess]]. [[Noelle]]
 
 > [!quote]- Berdly
 > A punto de abrir una Fuente dentro del propio Mundo Cíber al final del Cap.2, como disculpa hacia Noelle — se echa atrás en cuanto Ralsei le explica el Rugido. De haberlo hecho, habría sido el primer caso conocido de una Fuente abierta dentro de otro Mundo Oscuro, dos capítulos antes de que el Caballero lo consiga de verdad en el Cap.4. [[Berdly]]
@@ -111,6 +111,17 @@ La vidriera 04 de la Última Profecía —"Si las Fuentes se liberan, el Rugido 
 >
 > ![[kris_Knight_overworld_knighting.gif]]
 > *Kris y el Caballero, ligados incluso en tono de broma dentro del propio juego — la base visual que alimenta la teoría de que son, de algún modo, la misma entidad.*
+
+> [!question]- 🎲 ¿Podría un Titán (o un cuerpo reanimado por oscuridad) abrir una Fuente?
+> Uno de los argumentos más repetidos contra las teorías que identifican al Caballero con alguien que ya no sería un Lightner normal (Dess muerta y devuelta por el Shelter, un Titán con conciencia, etc.) es que Queen explica en el Cap.2 que abrir una Fuente exige determinación, y da a entender que es "algo que todos los habitantes de la luz poseen" — como si fuera un atributo exclusivo de los Lightners con vida. Un vídeo de análisis cuestiona esa lectura con tres puntos:
+> - **Queen no es una fuente fiable en esto**: ella misma admite no tener ni idea de que el Caballero buscaba provocar el Rugido —asumía que solo quería un mundo como el suyo—, lo que debilita cualquier explicación mecánica que dé por sentada.
+> - **No está claro de dónde sale exactamente el poder de abrir una Fuente**: si de la determinación del alma, del cuerpo con vida, o de la conciencia en sí — el juego nunca lo aclara, y por tanto tampoco aclara si un cuerpo reanimado por oscuridad (sin estar "vivo" en el sentido normal) podría seguir teniendo acceso a ella.
+> - **La propia Profecía habla de Fuentes anteriores al Caballero actual**: si el texto profético ya predecía la apertura de Mundos Oscuros antes de que exista el Caballero tal y como lo conocemos, cabría la posibilidad de que la capacidad de abrir Fuentes no dependa estrictamente de ser un Lightner con vida, sino que un Titán (o una entidad similar) con la conciencia de un antiguo habitante de la luz pudiera seguir haciéndolo.
+>
+> Bajo esta lectura, el "no sabemos" pesa más que el "no puede": el propio Toby Fox ha avisado (newsletter previa al Cap.5) de que las teorías actuales sobre el Caballero se hacen todavía sin pistas completas. **Hipótesis de fans, explícitamente presentada como especulación para tapar un hueco de la teoría "Dess es el Caballero" más que como una lectura con pruebas propias — no descarta el mecanismo que explica Queen, solo cuestiona que sea la única explicación posible.**
+>
+> ![[dark_fountain_3_sanctuary_titan_creation.png]]
+> *La Fuente del 3er Santuario, la más potente vista hasta la fecha — el mismo tipo de Fuente que esta teoría se pregunta si un Titán con conciencia propia podría abrir por sí mismo.*
 
 > [!question]- 🎲 La Fuente del Shelter, el gran cabo suelto
 > A diferencia de cualquier otra, nadie ha visto nunca el momento en que se abre, nadie sabe quién lo hizo, y nunca se ha sellado ni explorado más allá de un vistazo a la forma Darkner de Undyne. Es, junto con la incógnita del Cap.1, de los mayores misterios sin resolver de toda la serie — ver [[Shelter]] para el desarrollo completo de todas las teorías que la rodean.

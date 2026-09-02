@@ -200,12 +200,25 @@ confianza: fuerte
 >
 > ![[32_roots_raices.gif]]
 > *La vidriera de la Profecía correspondiente a "Roots" (raíces) — el propio panel que da nombre al motivo que esta teoría conecta con Ralsei.*
+>
+> 🎲 Una variante más concreta de esta misma idea, popularizada tras el Cap.5, propone directamente que Ralsei sea una **flor** —no un árbol— cuyas raíces se extienden por todo Hometown, lo que explicaría igual de bien su capacidad de "aparecer" en cualquier Mundo Oscuro nuevo. La variante se apoya en un comentario real de Toby Fox de hace años, señalando que a Ralsei "siempre lo confunden con una flor" — lo que sugiere que su versión en el Mundo Claro sería, efectivamente, una flor. El problema, señalado por el propio fandom: las Flores de Colores del Cap.5 explican que una flor sin luz moriría, y Ralsei lleva probablemente años guardado en el armario del colegio sin ver el sol, y aun así sigue vivo; a eso se suma que sus retratos de diálogo nunca han coincidido con los de las Flores —las Flores usan iconos monocromáticos, Ralsei lleva colores propios desde el Cap.1—, una inconsistencia de diseño que la teoría del árbol/raíces de arriba no tiene, al no exigir que Ralsei "sea" ninguna planta concreta y visible. **Teoría de fans, con una base real citable (la propia declaración de Toby Fox) pero con al menos dos objeciones textuales serias sin resolver.**
 
 > [!question]- ¿Es Ralsei el cuchillo que lleva Kris?
 > Otra propuesta para el objeto del Mundo Claro que representaría a Ralsei (ningún Darkner carece de uno, salvo él, ver "¿Qué es Ralsei realmente?" arriba): que sea literalmente el cuchillo que Kris lleva encima constantemente. La lógica es doble — explicaría de nuevo su capacidad de "aparecer" en cualquier Mundo Oscuro nuevo con solo que Kris lleve el cuchillo consigo, y encajaría con una lectura irónica del personaje: alguien que hiere (aunque sea sin querer, sobre todo emocionalmente) llevando la forma de un arma. La propia comunidad señala el punto débil de la teoría: no existe ninguna animación de Ralsei "saliendo" del inventario al llegar a un Mundo Oscuro nuevo, y en varios de ellos se le puede encontrar ya haciendo algo por su cuenta antes de que el jugador llegue — lo que encaja peor con un objeto guardado que con algo ya presente en el lugar de antemano. Los créditos del Cap.5 la debilitan todavía más: en la escena donde se ve a Susie en el Mundo Oscuro sin Kris presente, Ralsei sigue estando ahí con ella — algo que no debería ser posible si de verdad fuera un objeto que Kris lleva encima. **Teoría de fans sin confirmación, y con al menos esos dos puntos en contra señalados por el propio fandom.**
 >
 > ![[Susie_and_Kris_overworld_knife_reveal.gif]]
 > *El cuchillo que Kris lleva encima constantemente — el objeto del Mundo Claro que esta teoría propone como la contraparte de Ralsei.*
+
+> [!question]- 🎲 ¿Es Ralsei una copia de *Lord of the Hammer*, el libro de Gerson?
+> Otra candidata al objeto de Mundo Claro que le falta a Ralsei (ver "¿Qué es Ralsei realmente?" arriba): que sea, literalmente, un ejemplar de *[[Gerson Boom|Lord of the Hammer]]*, la saga de fantasía escrita por Gerson Boom e inspirada directamente en la Profecía (ver [[Gerson Boom]] para el desarrollo completo del libro). La lógica es la siguiente: la paleta de colores de las portadas y los propios libros encaja con la de Ralsei; al estar basado en la Profecía, explicaría de forma natural su conocimiento imposible del futuro, algo que ningún otro Darkner tiene; y dentro de la lógica interna del propio juego, los libros normalmente se manifiestan como magos —el propio rol de combate de Ralsei— cuando dan forma a un Darkner.
+>
+> La teoría no descarta que lo que Ralsei sea "en el fondo" siga siendo algo más grande, como un titán: Flowery llega a llamarlo directamente "una imposibilidad" (ver arriba), una descripción que encajaría con la temática general de Deltarune de que del miedo a lo desconocido —los propios titanes— puedan nacer también pasiones, sueños y esperanzas, representadas por un príncipe que vive en la oscuridad más profunda. **Teoría de fans, apoyada en la coincidencia de colores y en el propio simbolismo del libro, pero sin ninguna confirmación textual directa de que Ralsei sea ese objeto en concreto.**
+>
+> ![[Lord_of_the_Hammer_library_stant.webp]]
+> *El primer tomo de "Lord of the Hammer" en la biblioteca — el objeto que esta teoría propone como la verdadera contraparte de Mundo Claro de Ralsei.*
+>
+> ![[lord_of_hammer_cap5.png]]
+> *La ilustración del quinto tomo de la saga, "El Campo Rosa y Oro" — el mismo capítulo que, según Gerson, resume como "el vasto jardín arde en un infierno de celos", justo cuando Ralsei ataca por primera vez con fuego en el Cap.5 (ver [[Gerson Boom]]).*
 
 ## Apodo del menú de estadísticas 🕵️‍♂️📛
 

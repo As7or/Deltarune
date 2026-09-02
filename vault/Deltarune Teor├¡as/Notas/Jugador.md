@@ -87,7 +87,7 @@ confianza: fuerte
 > Su vínculo con Clam Girl —transformándose en "Clam Goner" justo antes de desaparecer— comparte el mismo patrón visual y sonoro que el propio Vessel del Jugador, y alimenta la teoría de Gaster poseyendo o usando cuerpos ajenos como vasijas. [[Clam Guy]]
 
 > [!quote]- Kris
-> La relación central de toda esta nota: el juego confirma mecánicamente, una y otra vez, que Kris y el Jugador son dos entidades distintas — Kris tolera el control la mayor parte del tiempo, pero se resiste de forma explícita en los puntos clave de cada capítulo. [[Kris]]
+> La relación central de toda esta nota: el juego confirma mecánicamente, una y otra vez, que Kris y el Jugador son dos entidades distintas — Kris tolera el control la mayor parte del tiempo, pero se resiste de forma explícita en los puntos clave de cada capítulo. Una teoría de fans lleva esto un paso más allá: si Kris se deteriora físicamente al pasar tiempo sin el ALMA (ver la Ruta Rara del Cap.5 en su nota), ¿hasta qué punto sigue "vivo" sin ella? Ver [[Kris]] para el desarrollo completo. [[Kris]]
 
 > [!quote]- Noelle
 > Es una de las pocas Lightners que parece percibir conscientemente la presencia del Jugador, llegando a preguntar en voz alta durante la Ruta Snowgrave si de verdad es Kris quien actúa. [[Noelle]]

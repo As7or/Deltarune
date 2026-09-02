@@ -87,7 +87,7 @@ confianza: strong
 > His link to Clam Girl — turning into "Clam Goner" right before disappearing — shares the same visual and audio pattern as the Player's own Vessel, and feeds the theory of Gaster possessing or using other people's bodies as vessels. [[Clam Guy]]
 
 > [!quote]- Kris
-> The central relationship of this whole note: the game mechanically confirms, again and again, that Kris and the Player are two distinct entities — Kris tolerates the control most of the time, but resists explicitly at key points in every chapter. [[Kris]]
+> The central relationship of this whole note: the game mechanically confirms, again and again, that Kris and the Player are two distinct entities — Kris tolerates the control most of the time, but resists explicitly at key points in every chapter. A fan theory takes this a step further: if Kris deteriorates physically after spending time without the SOUL (see the Chapter 5 Weird Route in his own note), to what extent is he still "alive" without it? See [[Kris]] for the full development. [[Kris]]
 
 > [!quote]- Noelle
 > One of the few Lightners who seems to consciously perceive the Player's presence, going so far as to ask out loud during the Snowgrave Route whether it's really Kris acting. [[Noelle]]

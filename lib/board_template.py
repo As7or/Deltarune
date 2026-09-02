@@ -452,9 +452,30 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     font-family:'Segoe Print','Comic Sans MS',cursive,sans-serif;
     font-size:8.5px; color:#4a3d28; letter-spacing:.2px;
   }}
+  /* Posit de Shelter: placa de metal oxidada a juego con el tema de la
+     propia nota (ver .node-rusted más abajo), como si los iconos fuesen
+     un codigo grabado a mano en la chapa en vez de un post-it de papel. */
   .doodle-note.emoji-note{{
-    background:#f5e6a3; text-align:center; line-height:1;
-    font-size:20px; letter-spacing:4px; padding:11px 8px 13px; max-width:92px;
+    position:relative; overflow:hidden; text-align:center; line-height:1;
+    font-size:19px; letter-spacing:7px; padding:14px 6px 15px 13px; max-width:92px;
+    border-radius:2px; border:2px solid #7a6a52; color:#e8c9a0;
+    background:
+      repeating-linear-gradient(90deg, rgba(0,0,0,.22) 0 2px, transparent 2px 26px),
+      repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0 2px, transparent 2px 26px),
+      radial-gradient(ellipse 70% 40% at 15% 10%, rgba(200,100,40,.32) 0, transparent 55%),
+      radial-gradient(ellipse 55% 40% at 85% 90%, rgba(160,70,25,.4) 0, transparent 60%),
+      linear-gradient(160deg, #6b6058 0%, #3a332e 100%);
+    box-shadow:2px 5px 10px rgba(0,0,0,.35), inset 0 0 18px rgba(0,0,0,.4), inset 0 0 0 1px rgba(0,0,0,.4);
+  }}
+  .doodle-note.emoji-note::before{{
+    width:8px; height:8px; top:-4px;
+    background:radial-gradient(circle at 35% 30%, #d8c9a8, #7a6a50 65%);
+    box-shadow:0 1px 2px rgba(0,0,0,.6);
+  }}
+  .doodle-note.emoji-note .emoji-ink{{
+    display:inline-block;
+    filter: grayscale(.6) sepia(.65) saturate(2.4) hue-rotate(-12deg) brightness(.72) contrast(1.2)
+      drop-shadow(1px 1px 0 rgba(0,0,0,.75)) drop-shadow(-.5px -.5px 0 rgba(232,201,160,.3));
   }}
   .doodle-stamp{{
     z-index:4; width:fit-content; padding:5px 10px;
@@ -469,12 +490,12 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .doodle-stamp.stamp-captured{{
     color:#161310; border-color:#161310; outline-color:#161310;
     background:
-      radial-gradient(circle at 18% 25%, rgba(8,6,4,.6) 0%, transparent 42%),
-      radial-gradient(circle at 78% 18%, rgba(8,6,4,.45) 0%, transparent 38%),
-      radial-gradient(circle at 60% 82%, rgba(8,6,4,.55) 0%, transparent 46%),
-      radial-gradient(circle at 12% 80%, rgba(8,6,4,.4) 0%, transparent 36%),
-      radial-gradient(circle at 92% 68%, rgba(8,6,4,.32) 0%, transparent 30%),
-      rgba(249,242,221,.16);
+      radial-gradient(circle at 18% 25%, rgba(8,6,4,.42) 0%, transparent 42%),
+      radial-gradient(circle at 78% 18%, rgba(8,6,4,.3) 0%, transparent 38%),
+      radial-gradient(circle at 60% 82%, rgba(8,6,4,.36) 0%, transparent 46%),
+      radial-gradient(circle at 12% 80%, rgba(8,6,4,.26) 0%, transparent 36%),
+      radial-gradient(circle at 92% 68%, rgba(8,6,4,.2) 0%, transparent 30%),
+      rgba(238,228,198,.78);
   }}
   .doodle-stamp.stamp-dead{{ color:#8f0d33; background:rgba(247,235,232,.16); border-color:#8f0d33; outline-color:#8f0d33; }}
   .doodle-cross{{ z-index:4; width:28px; height:58px; }}

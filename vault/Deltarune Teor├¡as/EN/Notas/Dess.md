@@ -81,6 +81,16 @@ confianza: strong
 > ![[dess_knight2.png]]
 > ![[dess_knight3.png]]
 > *Visual comparison used by the fandom to support the Dess = Roaring Knight theory: silhouette, build, and design details that match between the two.*
+>
+> 🎲 **Ramb's clue and the Library Fountain (Ch.3).** Ramb remembers Kris playing as a kid with "that girl" using the family laptop: *"Seems like just yesterday you an' that girl were playin'. Queen on her side, king on yours, it was chaos, chaos. Only kids like you would bring a laptop home to play with your imagination. Tell me, Kris, how's she doing?"* [TODO: verify exact EN quote] — the wiki confirms that same laptop from Kris's childhood is, literally, Queen's Light World object (see [[Queen]]). And it's already confirmed (see [[Fuentes Oscuras|Dark Fountains]]) that whoever opens the Library Fountain in Ch.2 — where that laptop comes to life as Queen, without Noelle or Berdly doing anything to trigger it — is the Roaring Knight himself, not Noelle. An analysis video connects both facts: for the Fountain the Knight opens to take shape specifically as Queen — the character Kris invented as a kid with "that girl" — the Knight, within his own inner fantasy, has to already know Queen from before. The only person who fits "that girl" Kris used to play with as a child, the one he invented King and Queen with, is December Holiday: it can't be Noelle (see [[Noelle]] — upon entering the Cyber World she herself doesn't recognize Queen), and Carol doesn't fit the description of a "girl" playing with Kris either. This also directly answers a question this very vault leaves open in [[Fuentes Oscuras|Dark Fountains]] — why a Dark World the Knight opens revolves so closely around such a personal trauma of Kris and Noelle's family — because, under this reading, the Knight himself is the one who shares that childhood trauma. **Fan theory with unusually solid textual grounding — it links a direct quote from Ramb with an already-confirmed fact about who opens the Fountain — but the Knight's final identification still has no direct confirmation from the game.**
+>
+> ![[queen_king_interaction.png]]
+> *Queen and King, the characters that — according to Ramb — Kris invented as a kid with "that girl" using the family laptop, with the roles of king and queen swapped between them.*
+>
+> 🎲 **Gerson's clue and the church (Ch.4).** The Ch.4 church Dark World revives Gerson Boom from the dust of his hammer (see [[Gerson Boom]]); when a second Fountain opens to talk to him again, the group instead finds a nameless hostile silhouette — one of his own studio's statues, come aggressively to life — and it's then that Ralsei explains a new rule: Darkners based on the memory of a loved one can only manifest under a very specific level of darkness, matching however well the person who opened that particular Fountain remembers them. Since Gerson himself can manifest (to some degree) as a Lightner within that Dark World, whoever opened both the first and third Dark Fountain of the chapter had to **have personally known Gerson**. The obvious candidate would be his son Alvin — but throughout the Sanctuary, Gerson isn't remembered as a father, but as a teacher, teaching "a rebellious girl" to break the Prophecy; he even tells Susie directly, without her fully understanding why, "you remind me of someone else." [TODO: verify exact EN quote] Before Alphys inherited his position as the school's teacher (see [[Gerson Boom]]), Gerson very likely taught Asriel's generation — the same generation as December. Under this reading, the Knight would remember Gerson as the teacher who taught her, as a girl, to "break the prophecy" — consistent with the Knight being the one who, decades later, is still trying to twist its fulfillment. **Fan theory, speculative in its final stretch (that Gerson specifically taught Asriel and December's class isn't confirmed, only likely by dates), but built on a game rule textually confirmed by Ralsei.**
+>
+> ![[gerson_presentation.png]]
+> *Gerson introducing himself to the group as a Darkner in Ch.4 — the manifestation that, according to Ralsei, requires whoever opened that Fountain to have personally known him beforehand.*
 
 > [!question]- The hidden "UNUSED" text — Dess speaking from the darkness?
 > Since Ch.1, the game's files have hidden a block of dialogue never used in actual gameplay, saved literally under the code name "UNUSED" (or "UNUSED_SLASH_UNUSED"). It describes someone trapped in total darkness, disoriented, who doesn't know how they got there or whether anyone can hear them — very similar to what Flowey says at the memory flower in Waterfall, in Undertale.
@@ -145,6 +155,10 @@ confianza: strong
 - [[Carol]]
 - [[Susie]]
 - [[FRIEND]]
+- [[Gerson Boom]]
+- [[Ramb]]
+- [[Queen]]
+- [[Fuentes Oscuras|Dark Fountains]]
 
 ## Submap
 [[Submapas/Dess.canvas|Open graphical submap]]

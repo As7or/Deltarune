@@ -241,7 +241,7 @@ GASTER_QUOTES = [
 # personaje en un estado narrativo concreto lleva un posit/sello que lo dice
 # directamente. Anclados junto al nodo, nunca encima de la tarjeta.
 DARK_CRYSTAL_NIDS = {"g_jevil", "g12", "g7", "g_gerson", "g_pink"}   # Jevil, Spamton, Roaring Knight, Gerson Boom, Mad Mew Mew (Pink): los 5 jefes que sueltan un Cristal Oscuro
-MISSING_NIDS = {"g6"}                                                # Dess: desaparecida antes del juego -- sello "DESAPARECIDA"
+MISSING_NIDS = {"g6", "g25"}                                         # Dess: desaparecida antes del juego; Onionsan: desaparecido -- sello "DESAPARECIDO/A"
 WHERE_IS_NIDS = {"g_papyrus", "g13"}                                 # Papyrus (nunca visto), Asriel: en vez de "desaparecido", el misterio es DONDE estan
 CAPTURED_NIDS = {"g21", "g_undyne"}                                  # Asgore, Undyne: capturados por el Caballero
 DEAD_CROSS_NIDS = {"g_gerson"}                                       # Gerson Boom: cruz de tumba (ya revivido como Old Man, pero sigue siendo un Lightner fallecido)
@@ -474,7 +474,8 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         left, top = attach_clear(it, EMOJI_SIDES, *EMOJI_BOX)
         rot = rng.uniform(-6, 6)
         out.append(
-            f'<div class="doodle doodle-note emoji-note" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">{emojis}</div>'
+            f'<div class="doodle doodle-note emoji-note" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
+            f'<span class="emoji-ink">{emojis}</span></div>'
         )
 
     # ---- Rincon de Gaster: foco de paranoia y deterioro ----
@@ -564,9 +565,21 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
     board_w = int((maxx - minx) * scale + pad * 2)
     board_h = int((maxy - miny) * scale + pad * 2)
 
+    # Pequeños ajustes de posicion puntuales (en px del corcho ya escalado),
+    # solo para des-solapar visualmente una tarjeta de su vecina sin tocar
+    # la disposicion manual real del canvas -- por ejemplo, al ensanchar
+    # una tarjeta con CARD_WIDTH_OVERRIDE mas abajo.
+    NODE_OFFSET = {
+        "Alvin": (0, 40),  # empujada hacia abajo para no tapar la Profecía al ensancharla
+    }
+
     for it in items:
         it["px"] = (it["cx"] - minx) * scale + pad
         it["py"] = (it["cy"] - miny) * scale + pad
+        if it["label"] in NODE_OFFSET:
+            dx, dy = NODE_OFFSET[it["label"]]
+            it["px"] += dx
+            it["py"] += dy
 
     inner_w = card_w - 12
     min_h, max_h = 60, 230
@@ -584,7 +597,7 @@ def build_board_html(data, scale=0.24, pad=220, card_w=150, index_cards=None, sp
     # visual, solo el ancho -- la altura sigue el aspecto real de la imagen).
     CARD_WIDTH_OVERRIDE = {
         "Gerson Boom": 190,  # mas grande
-        "Alvin": 62,         # mas pequeña (se comia a la tarjeta de Profecía)
+        "Alvin": 100,        # mas ancha, manteniendo proporcion de la imagen
         "King": 200,         # mas grande
     }
 

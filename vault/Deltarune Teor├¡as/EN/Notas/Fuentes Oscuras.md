@@ -87,7 +87,7 @@ Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the R
 > Explains in Chapter 2 the exact mechanic for opening a Fountain (will + sharp object + determination), and coerces Noelle into opening one of her own — Noelle refuses after Ralsei's warning about the Roaring. [[Queen]]
 
 > [!quote]- Noelle
-> Pressured by Queen to open a Fountain in Chapter 2; she stands her ground and refuses. She's also, without meaning to, the thematic center of the Cyber World despite not being the one who opened it — that was the Knight — which leaves open the question of why a world that isn't hers revolves so closely around her personal trauma. [[Noelle]]
+> Pressured by Queen to open a Fountain in Chapter 2; she stands her ground and refuses. She's also, without meaning to, the thematic center of the Cyber World despite not being the one who opened it — that was the Knight — which leaves open the question of why a world that isn't hers revolves so closely around her personal trauma. A fan theory proposes a direct answer to that question: see Ramb's evidence in [[Dess]]. [[Noelle]]
 
 > [!quote]- Berdly
 > About to open a Fountain inside the Cyber World itself at the end of Chapter 2, as an apology to Noelle — he backs off as soon as Ralsei explains the Roaring to him. Had he gone through with it, it would have been the first known case of a Fountain opened inside another Dark World, two chapters before the Knight actually manages it in Chapter 4. [[Berdly]]
@@ -111,6 +111,17 @@ Stained glass 04 of the Ultimate Prophecy — "If the Fountains are freed, the R
 >
 > ![[kris_Knight_overworld_knighting.gif]]
 > *Kris and the Knight, tied together even in a joking moment within the game itself — the visual basis fueling the theory that they're, in some way, the same entity.*
+
+> [!question]- 🎲 Could a Titan (or a body reanimated by darkness) open a Fountain?
+> One of the most-repeated arguments against theories that identify the Knight with someone who would no longer be a normal Lightner (Dess dead and returned by the Shelter, a conscious Titan, etc.) is that Queen explains in Chapter 2 that opening a Fountain requires determination, implying it's [TODO: verify exact EN quote] "something every inhabitant of the light possesses" — as if it were an attribute exclusive to living Lightners. An analysis video questions that reading with three points:
+> - **Queen isn't a reliable source on this**: she herself admits she had no idea the Knight was trying to trigger the Roaring — she assumed he just wanted a world like her own — which weakens any mechanical explanation that takes her word for granted.
+> - **It isn't clear exactly where the power to open a Fountain comes from**: whether from the soul's determination, from the living body, or from consciousness itself — the game never clarifies it, and therefore never clarifies whether a body reanimated by darkness (without being "alive" in the normal sense) could still have access to it.
+> - **The Prophecy itself speaks of Fountains predating the current Knight**: if the prophetic text already predicted Dark Worlds opening before the Knight as we know it even existed, that would leave room for the possibility that the ability to open Fountains doesn't strictly depend on being a living Lightner, and that a Titan (or a similar entity) carrying the consciousness of a former inhabitant of the light could still do it.
+>
+> Under this reading, "we don't know" outweighs "he can't": Toby Fox himself has warned (in the newsletter before Ch.5) that current theories about the Knight are still being made without the full picture. **Fan hypothesis, explicitly presented as speculation to patch a hole in the "Dess is the Knight" theory rather than as a reading with evidence of its own — it doesn't rule out the mechanism Queen explains, it only questions whether it's the only possible explanation.**
+>
+> ![[dark_fountain_3_sanctuary_titan_creation.png]]
+> *The 3rd Sanctuary Fountain, the most powerful seen to date — the same type of Fountain this theory asks whether a Titan with its own consciousness could open on its own.*
 
 > [!question]- 🎲 The Shelter's Fountain, the big loose end
 > Unlike any other, no one has ever seen the moment it opens, no one knows who did it, and it has never been sealed or explored beyond a glimpse of Undyne's Darkner form. It is, along with the Chapter 1 unknown, one of the biggest unresolved mysteries in the whole series — see [[Shelter]] for the full breakdown of every theory surrounding it.

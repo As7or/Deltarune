@@ -81,6 +81,16 @@ confianza: fuerte
 > ![[dess_knight2.png]]
 > ![[dess_knight3.png]]
 > *Comparativa visual usada por el fandom para sostener la teoría Dess = Caballero Rugiente: silueta, complexión y detalles de diseño que coinciden entre ambos.*
+>
+> 🎲 **La prueba de Ramb y la Fuente de la biblioteca (Cap.3).** Ramb recuerda a Kris jugando de niño con "esa chica" usando el portátil familiar: *"Parece como si fuera ayer cuando tú y esa chica estabais jugando. Reina de su lado, rey del tuyo, era caos, caos. Solo niños como vosotros traeríais un portátil a casa para jugar con vuestra imaginación. Dime, Kris, ¿cómo está ella?"* — la wiki confirma que ese mismo portátil de la infancia de Kris es, literalmente, el objeto de Mundo Claro de Queen (ver [[Queen]]). Y ya está confirmado (ver [[Fuentes Oscuras]]) que quien abre la Fuente de la biblioteca del Cap.2 —donde ese portátil cobra vida como Queen, sin que Noelle ni Berdly hicieran nada para provocarlo— es el propio Caballero Rugiente, no Noelle. Un vídeo de análisis conecta ambos datos: para que la Fuente que abre el Caballero dé forma justo a Queen —el personaje que Kris inventó de niño con "esa chica"—, el Caballero, dentro de su propia fantasía interior, tiene que conocer ya a Queen de antes. La única persona que encaja con "esa chica" con la que Kris jugaba de pequeño e inventó a King y Queen es December Holiday: no puede ser Noelle (ver [[Noelle]], página 216 de esta nota — al entrar al Mundo Cíber ella misma no reconoce a Queen), y Carol tampoco encaja con la descripción de "niña" jugando con Kris. Esto además responde directamente a una pregunta que este mismo vault deja abierta en [[Fuentes Oscuras]] — por qué un Mundo Oscuro que abre el Caballero gira tan de cerca en torno a un trauma tan personal de la familia de Kris y Noelle —: porque, bajo esta lectura, el propio Caballero es quien comparte ese trauma de infancia. **Teoría de fans con una base textual inusualmente sólida —une una cita directa de Ramb con un dato ya confirmado sobre quién abre la Fuente—, pero la identificación final del Caballero sigue sin confirmación directa del juego.**
+>
+> ![[queen_king_interaction.png]]
+> *Queen y King, los personajes que —según Ramb— Kris inventó de niño con "esa chica" usando el portátil familiar, con los papeles de rey y reina invertidos entre ambos.*
+>
+> 🎲 **La prueba de Gerson y la iglesia (Cap.4).** El Mundo Oscuro de la iglesia del Cap.4 revive a Gerson Boom a partir del polvo de su martillo (ver [[Gerson Boom]]); al abrirse una segunda Fuente para volver a hablar con él, el grupo encuentra en su lugar una silueta hostil sin nombre —una de las estatuas de su propio estudio, cobrada vida de forma agresiva—, y es entonces cuando Ralsei explica una regla nueva: los Darkners basados en el recuerdo de un ser querido solo pueden manifestarse bajo un nivel de oscuridad muy concreto, compatible con el recuerdo que tenga de ellos quien abrió esa Fuente en particular. Como el propio Gerson sí puede manifestarse (hasta cierto punto) como Lightner dentro de ese Mundo Oscuro, quien abrió tanto la primera como la tercera Fuente Oscura del capítulo tuvo que **conocer personalmente a Gerson**. El candidato obvio sería su hijo Alvin —pero en todo el Santuario, Gerson no es recordado como un padre, sino como un maestro, enseñando a "una chica rebelde" a romper la Profecía; llega a decirle a Susie directamente, sin que ella entienda del todo por qué, "tú me recuerdas a alguien más". Antes de que Alphys heredara su puesto como profesora del colegio (ver [[Gerson Boom]]), Gerson daba clase muy probablemente a la generación de Asriel — la misma generación de December. Bajo esta lectura, el Caballero recordaría a Gerson como el maestro que le enseñaba, de niña, a "romper la profecía" — coherente con que sea el propio Caballero quien décadas después sigue intentando torcer su cumplimiento. **Teoría de fans, especulativa en el tramo final (que Gerson enseñara específicamente a la clase de Asriel y December no está confirmado, solo es probable por fechas), pero construida sobre una regla del juego confirmada textualmente por Ralsei.**
+>
+> ![[gerson_presentation.png]]
+> *Gerson presentándose ante el grupo como Darkner en el Cap.4 — la manifestación que, según Ralsei, exige que quien abrió esa Fuente lo conociera personalmente de antes.*
 
 > [!question]+ El texto oculto "UNUSED" — ¿Dess hablando desde la oscuridad?
 > Desde el Cap.1, los archivos del juego esconden un bloque de diálogo nunca usado en la partida real, guardado literalmente bajo el nombre en código "UNUSED" (o "UNUSED_SLASH_UNUSED"). Describe a alguien atrapado en una oscuridad total, desorientado, que no sabe cómo llegó ahí ni si alguien puede oírle — muy similar a lo que dice Flowey en la flor de los recuerdos de Waterfall, en Undertale.
@@ -145,6 +155,10 @@ confianza: fuerte
 - [[Carol]]
 - [[Susie]]
 - [[FRIEND]]
+- [[Gerson Boom]]
+- [[Ramb]]
+- [[Queen]]
+- [[Fuentes Oscuras]]
 
 ## Submapa
 [[Submapas/Dess.canvas|Abrir submapa gráfico]]

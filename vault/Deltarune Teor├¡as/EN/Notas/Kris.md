@@ -244,6 +244,13 @@ Kris shares with Chara from Undertale a fascination with knives, a taste for cho
 >
 > 🎲 If the SOUL we control isn't Kris's real one, the question of where the real one is remains open — one branch of this theory proposes that [[Ralsei]] has it, see his note for the full development.
 
+> [!question]- 🎲 Is Kris, to some extent, already dead?
+> Deltarune never fully explains what a SOUL is within its own fiction — the only book that mentions it describes it as "the essence of our being," [TODO: verify exact EN quote] with no defined shape, very different from the closed definition Undertale gives (a heart representing the soul of a human or a monster). That deliberate ambiguity leaves an uncomfortable question open: if souls in Deltarune are something more abstract than a physical object, what exactly does it mean that the Player's red SOUL — never confirmed to be Kris's "real" soul (see the Vessel Theory above) — is the one Kris wears most of the time?
+>
+> Ch.5 offers the most direct clue to date: coming from Ch.4's Weird Route, Kris spends the whole night without the SOUL on, and the next morning shows up with sickly green skin, moving slowly and trembling as they walk — noticeably weak throughout the whole Festival (see the Ch.5 Weird Route above). An analysis video reads this literally: if Kris, without the Player's SOUL, starts physically deteriorating to a point close to death, that would suggest Kris can't survive on their own without someone else's soul sustaining them — whether because their own soul isn't where it should be, or because they never fully had one at all. Under that reading, the question stops being just "who controls Kris?" and becomes "what exactly is a human without their own soul?" — a considerably darker answer than the simple possession metaphor. **Fan theory, supported by a real, widely cited Ch.5 scene, but dependent on assuming how far Undertale's rules about SOULs apply as-is to Deltarune — something the game itself leaves deliberately ambiguous.**
+>
+> See [[Jugador|Player]] for the full development of the separation between Kris and whoever controls them.
+
 > [!question]- Who is "you" really?
 > The strongest suspicion is that the entity controlling Kris is connected to Chara — or at least to a force that has already been the protagonist of a story about someone able to control a monster/human child from outside.
 >

@@ -244,6 +244,13 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 >
 > 🎲 Si el ALMA que controlamos no es la auténtica de Kris, queda abierta la pregunta de dónde está la real — una rama de esta teoría propone que es [[Ralsei]] quien la tiene, ver su nota para el desarrollo completo.
 
+> [!question]- 🎲 ¿Está Kris, hasta cierto punto, ya muerto?
+> Deltarune nunca explica del todo qué es un ALMA dentro de su propia ficción — el único libro que la menciona la describe como "la esencia de nuestro ser", sin forma definida, muy distinta de la definición cerrada que da Undertale (un corazón que representa el alma de un humano o un monstruo). Esa ambigüedad deliberada deja abierta una pregunta incómoda: si en Deltarune las almas son algo más abstracto que un objeto físico, ¿qué significa exactamente que el ALMA roja del Jugador —nunca confirmada como el alma "real" de Kris (ver Teoría del Vessel arriba)— sea la que Kris lleva puesta la mayor parte del tiempo?
+>
+> El Cap.5 aporta la pista más directa hasta la fecha: si se viene de la Ruta Rara del Cap.4, Kris pasa toda la noche sin el ALMA puesta, y a la mañana siguiente aparece con la piel de un verde enfermizo, moviéndose con lentitud y temblando al caminar —notablemente débil durante todo el Festival (ver la Ruta Rara del Cap.5 más arriba)—. Un vídeo de análisis lee esto en clave literal: si Kris, sin el ALMA del Jugador, empieza a deteriorarse físicamente hasta un punto cercano a la muerte, eso sugeriría que Kris no puede sobrevivir por sí mismo sin un alma ajena sosteniéndolo —ya sea porque su propia alma no está donde debería, ya sea porque nunca tuvo una del todo—. Bajo esa lectura, la pregunta deja de ser solo "¿quién controla a Kris?" y pasa a ser "¿qué es exactamente un humano sin su propia alma?", con una respuesta bastante más oscura que la simple metáfora de la posesión. **Teoría de fans, apoyada en una escena real y muy citada del Cap.5, pero que depende de asumir hasta qué punto las reglas de Undertale sobre las ALMAS se aplican tal cual a Deltarune — algo que el propio juego deja deliberadamente ambiguo.**
+>
+> Ver [[Jugador]] para el desarrollo completo de la separación entre Kris y quien lo controla.
+
 > [!question]- ¿Quién es "tú" realmente?
 > La sospecha más fuerte es que la entidad que controla a Kris guarda relación con Chara — o como mínimo con una fuerza que ya ha protagonizado antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.
 >

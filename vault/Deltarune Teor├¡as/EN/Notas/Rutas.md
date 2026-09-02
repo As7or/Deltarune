@@ -93,6 +93,14 @@ confianza: strong
 > ![[kriss_Weird_Route_screenshot_Chapter_5.png]]
 > *One of the Ch.5 Weird Route scenes — the accumulation of consequences that fuels this question.*
 
+> [!question]- 🎲 The device reveal — are we watching a recording, not a game?
+> The end of the Ch.5 Weird Route's Lake doesn't just cut to "Insert Chapter 7, Side B" — the screen showing that message is, within the fiction, an **old television**, and the text refers to the chapters as physical objects that get "inserted" into some kind of device to experience the story. Since Ch.2 a theory has circulated, taken almost as a given by the fandom, that the Player interacts with Deltarune through some device within the fiction itself (see [[Jugador|Player]]) — but this is the first time that device is seen, even if only indirectly, hinted at through its own interface.
+>
+> An analysis video's reading goes beyond "there's a device": if the chapters are objects inserted to *experience* the story, Deltarune might not be a video game within its own fiction, but the recording of an event that already happened, with an ending already fixed in advance — which would turn the entire cast, every good moment lived with them, into something that was never "real" even to the characters themselves: either they're NPCs inside a game, or they're actors in a recorded, past event. Ch.3 itself already puts Susie in front of that same revelation on a smaller scale — Ralsei, Lancer, and Queen are objects, and their lives in the dark "are nothing" compared to Susie's real life — and she decides to love them anyway, without that making it any less real. Under this reading, the Player (a real person, outside the fiction) now faces that same revelation on a bigger scale: that not even the cast itself is "real" within its own universe, and yet chooses to love it, suffer with it, and fight for it exactly the way Susie would. **Fan theory, built on a real textual detail (the "Insert Chapter 7, Side B" message itself and its old-television aesthetic) taken to a broader reading still without direct confirmation from Toby Fox.**
+>
+> ![[chapter7_sideB_insert_screen.png]]
+> *Image gap: the "Insert Chapter 7, Side B" screen as it appears upon completing the Ch.5 Weird Route — the first real, if indirect, look at the device this theory refers to. Not yet saved to the vault.*
+
 > [!question]- Why does the Weird Route "punish" instead of reward?
 > Unlike other games with hidden routes, Deltarune's Weird Route never offers a mechanical reward or an alternate "good ending" — only an escalation of increasingly uncomfortable consequences for Noelle and Kris. Part of the fandom reads this as a deliberate narrative choice: the route's very design would be "punishing" the Player for giving in to the temptation to manipulate the characters, instead of rewarding that curiosity the way a more traditional game would.
 >
