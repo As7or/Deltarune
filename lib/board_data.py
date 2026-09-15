@@ -394,6 +394,22 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     # rellenando conforme se colocan, para que la foto del Cristal Oscuro y
     # las fotos extra de cada personaje (mas abajo) no se pisen entre si.
     extra_obstacles = []
+    # Posiciones finales ya usadas por CUALQUIER foto (Cristal Oscuro o
+    # extra de personaje): si dos caen en el mismo punto exacto por
+    # coincidencia de geometria (mismo lado, mismo gap, mismo tamaño de
+    # caja), se separan a mano en vez de quedar perfectamente apiladas.
+    used_photo_positions = set()
+
+    def claim_position(left, top, box_w, box_h):
+        key = (round(left), round(top))
+        nudge = 0
+        while key in used_photo_positions:
+            nudge += 14
+            key = (round(left) + nudge, round(top) + nudge)
+        if nudge:
+            left, top = left + nudge, top + nudge
+        used_photo_positions.add(key)
+        return left, top
 
     def attach_clear_ex(it, sides, box_w, box_h, gap=7, rot_pad=16):
         """Igual que attach_clear, pero tambien evita 'extra_obstacles'. En
@@ -404,7 +420,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         de verdad."""
         own_id = it["id"]
         first_fallback = None
-        for gap_try in (gap, gap + 35, gap + 80, gap + 130, gap + 190):
+        for gap_try in (gap, gap + 25, gap + 55, gap + 90):
             fallback = None
             for side in sides:
                 left, top = attach(it, side, box_w, box_h, gap=gap_try)
@@ -427,37 +443,50 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             continue
         rng = random.Random(f"crystal-{nid}")
         left, top = attach_clear(it, CRYSTAL_SIDES, *CRYSTAL_BOX)
+        left, top = claim_position(left, top, *CRYSTAL_BOX)
         rot = rng.uniform(-8, 8)
         extra_obstacles.append((left, top, left + CRYSTAL_BOX[0], top + CRYSTAL_BOX[1]))
         out.append(
             f'<div class="doodle doodle-note item-photo" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
-            f'<img src="{crystal_src}" alt="" loading="lazy"><span class="cap">{html.escape(crystal_cap)}</span></div>'
+            f'<img src="{crystal_src}" alt="" loading="lazy" onmousedown="event.stopPropagation()"><span class="cap">{html.escape(crystal_cap)}</span></div>'
         )
 
     # ---- Fotos decorativas por personaje: hasta 3 imagenes de lo mas
     #      iconico de cada uno (2 en los 5 que ya llevan foto del Cristal
     #      Oscuro), pegadas al borde de su tarjeta con el mismo estilo que
     #      esta -- ver 'extra_photos' en extract_main_canvas_data, que lee
-    #      los nodos "<gid>-dec1/2/3" añadidos a mano en el canvas. ----
+    #      los nodos "<gid>-dec1/2/3" añadidos a mano en el canvas. Cada
+    #      indice arranca probando una esquina PRIMARIA distinta (en vez de
+    #      solo variar el orden de busqueda) para que dos fotos del mismo
+    #      personaje no acaben cayendo en la misma esquina por fallback y se
+    #      entremezclen -- y el gap ya no escala tanto (ver
+    #      attach_clear_ex) para que no se alejen tanto de la tarjeta. ----
     PHOTO_BOX = CRYSTAL_BOX
-    PHOTO_SIDE_ROTATIONS = [
-        ["r-bottom", "r-top", "l-bottom", "l-top"],
-        ["l-bottom", "l-top", "r-bottom", "r-top"],
-        ["r-top", "l-top", "r-bottom", "l-bottom"],
+    PHOTO_BOX_WIDE = (100, 82)
+    SCREENSHOT_HINT = "screenshot"
+    PHOTO_CORNER_ORDER = [
+        ["r-bottom", "l-bottom", "r-top", "l-top"],
+        ["l-bottom", "r-top", "l-top", "r-bottom"],
+        ["r-top", "l-top", "l-bottom", "r-bottom"],
+        ["l-top", "r-bottom", "r-top", "l-bottom"],
     ]
     for it in items:
         photos = it.get("extra_photos") or []
         nid = it["id"]
         for i, img_name in enumerate(photos):
             rng = random.Random(f"decphoto-{nid}-{i}")
-            sides = PHOTO_SIDE_ROTATIONS[i % len(PHOTO_SIDE_ROTATIONS)]
-            left, top = attach_clear_ex(it, sides, *PHOTO_BOX)
-            extra_obstacles.append((left, top, left + PHOTO_BOX[0], top + PHOTO_BOX[1]))
+            sides = PHOTO_CORNER_ORDER[i % len(PHOTO_CORNER_ORDER)]
+            is_wide = SCREENSHOT_HINT in img_name.lower()
+            box = PHOTO_BOX_WIDE if is_wide else PHOTO_BOX
+            left, top = attach_clear_ex(it, sides, *box, gap=7 + i * 5)
+            left, top = claim_position(left, top, *box)
+            extra_obstacles.append((left, top, left + box[0], top + box[1]))
             rot = rng.uniform(-8, 8)
             src = sprites_prefix + urllib.parse.quote(img_name)
+            cls = "doodle doodle-note item-photo wide" if is_wide else "doodle doodle-note item-photo"
             out.append(
-                f'<div class="doodle doodle-note item-photo" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
-                f'<img src="{src}" alt="" loading="lazy"></div>'
+                f'<div class="{cls}" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
+                f'<img src="{src}" alt="" loading="lazy" onmousedown="event.stopPropagation()"></div>'
             )
 
     # ---- Desaparecidos / no vistos aun: sello rojo, ESTAMPADO encima de la

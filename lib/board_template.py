@@ -453,12 +453,18 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
   .doodle-note.item-photo img{{
     width:100%; height:46px; object-fit:contain; display:block;
     filter:drop-shadow(0 1px 2px rgba(0,0,0,.35));
+    pointer-events:auto; cursor:zoom-in;
   }}
   .doodle-note.item-photo .cap{{
     position:absolute; left:2px; right:2px; bottom:4px;
     font-family:'Segoe Print','Comic Sans MS',cursive,sans-serif;
     font-size:8.5px; color:#4a3d28; letter-spacing:.2px;
   }}
+  /* Fotos decorativas tipo captura de gameplay (pantallas enteras, no
+     sprites sueltos): un pelin mas grandes que el resto para que se lean
+     mejor -- ver SCREENSHOT_HINT en board_data.py. */
+  .doodle-note.item-photo.wide{{ max-width:100px; }}
+  .doodle-note.item-photo.wide img{{ height:62px; }}
   /* Posit de Shelter: placa de metal oxidada a juego con el tema de la
      propia nota (ver .node-rusted más abajo), como si los iconos fuesen
      un codigo grabado a mano en la chapa en vez de un post-it de papel. */
@@ -726,6 +732,19 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
     filter:drop-shadow(6px 10px 14px rgba(0,0,0,.6));
   }}
   @media (max-width: 1100px){{ #pipis-guest{{ display:none; }} }}
+
+  /* ---- Ventanita a pantalla completa para las fotos decorativas, igual
+     que en las paginas de nota (ver note_page_template.py) ---- */
+  #lightbox-overlay{{
+    display:none; position:fixed; inset:0; z-index:9999;
+    background:rgba(0,0,0,0.86); align-items:center; justify-content:center;
+    cursor: zoom-out; padding:24px; box-sizing:border-box;
+  }}
+  #lightbox-overlay.open{{ display:flex; }}
+  #lightbox-overlay img{{
+    max-width:92vw; max-height:92vh; width:auto; height:auto; display:block;
+    margin:0; border-radius:4px; box-shadow:0 8px 32px rgba(0,0,0,0.6); cursor: zoom-out;
+  }}
 </style>
 <svg width="0" height="0" style="position:absolute">
 <defs>
@@ -757,6 +776,7 @@ BOARD_TEMPLATE = '''<!DOCTYPE html>
 <div class="frame-screw" style="left:11px; bottom:11px;"></div>
 <div class="frame-screw" style="right:11px; bottom:11px;"></div>
 <img id="pipis-guest" src="{sprites_prefix}nike_Green_Pippins_overworld_exasperated.gif" alt="{pipis_alt}">
+<div id="lightbox-overlay"><img id="lightbox-img" src="" alt=""></div>
 <div id="viewport">
   <div id="cork-bg"></div>
   <div id="board">
@@ -1149,6 +1169,27 @@ function closeNote(){{
 }}
 document.getElementById('note-close').addEventListener('click', closeNote);
 overlay.addEventListener('click', closeNote);
+
+// Ventanita a pantalla completa para las fotos decorativas (Cristal
+// Oscuro + fotos extra por personaje), igual que en las paginas de nota.
+(function(){{
+  var lbOverlay = document.getElementById('lightbox-overlay');
+  var lbImg = document.getElementById('lightbox-img');
+  document.addEventListener('click', function(e){{
+    var t = e.target;
+    if(t && t.tagName === 'IMG' && t.closest('.item-photo')){{
+      e.stopPropagation();
+      lbImg.src = t.getAttribute('src');
+      lbOverlay.classList.add('open');
+    }} else if(lbOverlay.classList.contains('open')){{
+      lbOverlay.classList.remove('open');
+      lbImg.src = '';
+    }}
+  }});
+  document.addEventListener('keydown', function(e){{
+    if(e.key === 'Escape'){{ lbOverlay.classList.remove('open'); lbImg.src = ''; }}
+  }});
+}})();
 </script>
 </body>
 </html>

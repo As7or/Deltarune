@@ -1242,7 +1242,7 @@
 		{
 			"id": "g_king-dec2",
 			"type": "file",
-			"file": "Sprites/King_overworld_sleep.gif",
+			"file": "Sprites/Cards_item_Lancer.gif",
 			"x": 7021,
 			"y": -4114,
 			"width": 175,
@@ -1413,7 +1413,7 @@
 		{
 			"id": "g24-dec3",
 			"type": "file",
-			"file": "Sprites/tenna_villian.gif",
+			"file": "Sprites/tenna_lightworld_form.png",
 			"x": 5492,
 			"y": -1893,
 			"width": 175,
@@ -1521,7 +1521,7 @@
 		{
 			"id": "g_pink-dec1",
 			"type": "file",
-			"file": "Sprites/Cutie_Mew_Mew_Magic_soundtrack.png",
+			"file": "Sprites/Pink_overworld_action_figure.png",
 			"x": -2219,
 			"y": 1217,
 			"width": 175,
@@ -1710,7 +1710,7 @@
 		{
 			"id": "g_rouxls-dec3",
 			"type": "file",
-			"file": "Sprites/Rouxls_Kaard_soundtrack.png",
+			"file": "Sprites/Cards_item_rouxl.gif",
 			"x": 8952,
 			"y": -2545,
 			"width": 175,
@@ -1818,7 +1818,7 @@
 		{
 			"id": "g_ramb-dec3",
 			"type": "file",
-			"file": "Sprites/Green_Room_location_Ramb's_bar.png",
+			"file": "Sprites/cables_plugs_lightworld.png",
 			"x": 6202,
 			"y": -1955,
 			"width": 175,
@@ -1845,7 +1845,7 @@
 		{
 			"id": "g21-dec3",
 			"type": "file",
-			"file": "Sprites/asgore_talksprite.webp",
+			"file": "Sprites/Asgore_Dark_World.webp",
 			"x": -2390,
 			"y": -2895,
 			"width": 175,
@@ -1917,7 +1917,7 @@
 		{
 			"id": "g12-dec2",
 			"type": "file",
-			"file": "Sprites/spamton_neo_weirdroute_fight.webp",
+			"file": "Sprites/spamton_oldposter.jpg",
 			"x": 5493,
 			"y": 747,
 			"width": 175,
@@ -2052,7 +2052,7 @@
 		{
 			"id": "g_queen-dec3",
 			"type": "file",
-			"file": "Sprites/Queen_overworld_shimmying.gif",
+			"file": "Sprites/Queen_overworld_laptop.png",
 			"x": 3302,
 			"y": -2585,
 			"width": 175,
@@ -2196,7 +2196,7 @@
 		{
 			"id": "g3-dec1",
 			"type": "file",
-			"file": "Sprites/Noelle_overworld_weird_route_wind_sprite_cap4.gif",
+			"file": "Sprites/Noelle_darkworld.png",
 			"x": 376,
 			"y": -635,
 			"width": 172,
@@ -2259,7 +2259,7 @@
 		{
 			"id": "g_jevil-dec2",
 			"type": "file",
-			"file": "Sprites/Shadow_Crystal_item_Jevil.png",
+			"file": "Sprites/cards_lightworld.png",
 			"x": 5313,
 			"y": 2217,
 			"width": 156,
@@ -2286,7 +2286,7 @@
 		{
 			"id": "g_pippins-dec3",
 			"type": "file",
-			"file": "Sprites/nike_Green_Pippins_overworld_exasperated.gif",
+			"file": "Sprites/Pippins_overworld_lightworld.png",
 			"x": 8330,
 			"y": -679,
 			"width": 155,
@@ -2376,7 +2376,7 @@
 		{
 			"id": "g1-dec2",
 			"type": "file",
-			"file": "Sprites/Susie_overworld_couch_sleeping.gif",
+			"file": "Sprites/Susie_overworld_dark_world_eyes.webp",
 			"x": -148,
 			"y": -1375,
 			"width": 155,
@@ -2610,7 +2610,7 @@
 		{
 			"id": "g0-dec3",
 			"type": "file",
-			"file": "Sprites/kris_Knight_overworld_knighting.gif",
+			"file": "Sprites/Kris_darkworld.png",
 			"x": -936,
 			"y": -654,
 			"width": 138,
@@ -2619,7 +2619,7 @@
 		{
 			"id": "g_7flores-dec1",
 			"type": "file",
-			"file": "Sprites/Seth_and_Kris_overworld_give_feather.gif",
+			"file": "Sprites/Aqua_overworld_container.png",
 			"x": -3044,
 			"y": -4335,
 			"width": 126,
@@ -2628,7 +2628,7 @@
 		{
 			"id": "g_7flores-dec2",
 			"type": "file",
-			"file": "Sprites/Seth_overworld_Aqua_hair.gif",
+			"file": "Sprites/Seth_overworld_container.png",
 			"x": -2893,
 			"y": -4335,
 			"width": 126,
@@ -2637,9 +2637,36 @@
 		{
 			"id": "g_7flores-dec3",
 			"type": "file",
-			"file": "Sprites/Orange_overworld_cry.gif",
+			"file": "Sprites/Orange_overworld_container.png",
 			"x": -2742,
 			"y": -4335,
+			"width": 126,
+			"height": 103
+		},
+		{
+			"id": "g_7flores-dec4",
+			"type": "file",
+			"file": "Sprites/Green_overworld_container.png",
+			"x": -3044,
+			"y": -4212,
+			"width": 126,
+			"height": 103
+		},
+		{
+			"id": "g_7flores-dec5",
+			"type": "file",
+			"file": "Sprites/Yellow_overworld_container.png",
+			"x": -2893,
+			"y": -4212,
+			"width": 126,
+			"height": 103
+		},
+		{
+			"id": "g_7flores-dec6",
+			"type": "file",
+			"file": "Sprites/Blue_overworld_container.png",
+			"x": -2742,
+			"y": -4212,
 			"width": 126,
 			"height": 103
 		},
@@ -6476,6 +6503,30 @@
 		{
 			"id": "g_7flores-dec3-e",
 			"fromNode": "g_7flores-dec3",
+			"fromSide": "top",
+			"toNode": "g_7flores",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_7flores-dec4-e",
+			"fromNode": "g_7flores-dec4",
+			"fromSide": "top",
+			"toNode": "g_7flores",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_7flores-dec5-e",
+			"fromNode": "g_7flores-dec5",
+			"fromSide": "top",
+			"toNode": "g_7flores",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_7flores-dec6-e",
+			"fromNode": "g_7flores-dec6",
 			"fromSide": "top",
 			"toNode": "g_7flores",
 			"toSide": "bottom",
