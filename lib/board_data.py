@@ -328,20 +328,24 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     def rects_overlap(a, b):
         return not (a[2] <= b[0] or b[2] <= a[0] or a[3] <= b[1] or b[3] <= a[1])
 
-    def attach(it, side, box_w, box_h, gap=7):
+    def attach(it, side, box_w, box_h, gap=7, off=0.0):
         """Calcula la posicion (left, top) de una decoracion pegada al borde
         de la tarjeta de 'it', por fuera (nunca encima). Usa el hueco real
-        de la tarjeta guardado en it['_render_w']/it['_render_h']."""
+        de la tarjeta guardado en it['_render_w']/it['_render_h']. 'off'
+        desliza la decoracion arriba/abajo a lo largo de ese mismo borde (en
+        fracciones de box_h), para poder colocar varias pegadas al mismo
+        lado sin superponerse, sin tener que alejarlas del borde."""
         ox, oy = it["px"], it["py"]
         halfw = it.get("_render_w", 150) / 2
         halfh = it.get("_render_h", 150) / 2
+        slide = off * box_h
         if side == "r-bottom":
-            return ox + halfw + gap, oy + halfh - box_h * 0.65
+            return ox + halfw + gap, oy + halfh - box_h * 0.65 + slide
         if side == "r-top":
-            return ox + halfw + gap, oy - halfh + box_h * 0.15
+            return ox + halfw + gap, oy - halfh + box_h * 0.15 + slide
         if side == "l-bottom":
-            return ox - halfw - gap - box_w, oy + halfh - box_h * 0.65
-        return ox - halfw - gap - box_w, oy - halfh + box_h * 0.35  # "l-top"
+            return ox - halfw - gap - box_w, oy + halfh - box_h * 0.65 + slide
+        return ox - halfw - gap - box_w, oy - halfh + box_h * 0.35 + slide  # "l-top"
 
     def attach_clear(it, sides, box_w, box_h, gap=7, rot_pad=16):
         """Prueba los lados en 'sides' en orden y devuelve el primero que no
@@ -411,31 +415,50 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         used_photo_positions.add(key)
         return left, top
 
-    def attach_clear_ex(it, sides, box_w, box_h, gap=7, rot_pad=16):
-        """Igual que attach_clear, pero tambien evita 'extra_obstacles'. En
-        zonas muy apretadas (varias tarjetas + varias fotos pegadas unas a
-        otras) puede que los 4 lados esten ocupados con el gap por defecto;
-        en vez de rendirse y apilar dos fotos exactamente en el mismo sitio,
-        se reintentan los mismos lados con mas separacion antes de rendirse
-        de verdad."""
+    # Deslizamientos a lo largo del propio borde (en fracciones de box_h)
+    # que se prueban ANTES de alejar nada de la tarjeta: mejor otra decoracion
+    # pegada un poco mas arriba/abajo del mismo lado, que una que se aleja o
+    # que se superpone con otra cosa.
+    SLIDE_OFFSETS = (0.0, 0.6, -0.6, 1.2, -1.2, 1.8, -1.8, 2.4, -2.4, 3.0, -3.0)
+
+    def rect_overlap_area(a, b):
+        ox = max(0.0, min(a[2], b[2]) - max(a[0], b[0]))
+        oy = max(0.0, min(a[3], b[3]) - max(a[1], b[1]))
+        return ox * oy
+
+    def attach_clear_ex(it, sides, box_w, box_h, gap=7, rot_pad=14):
+        """Igual que attach_clear, pero tambien evita 'extra_obstacles'.
+        Busca primero deslizando cada lado (SLIDE_OFFSETS) sin alejarse del
+        borde; solo si NINGUN lado tiene hueco libre en ningun deslizamiento
+        se prueba con un poco mas de separacion (gap). Si de verdad no hay
+        ningun hueco totalmente libre, se queda con la posicion candidata
+        que MENOS se superponga con otras cosas (en vez de la primera que
+        se probó, que podia ser la que peor quedaba) -- 'que rodeen la
+        nota, no tanto espacio, y que no se superpongan'."""
         own_id = it["id"]
-        first_fallback = None
-        for gap_try in (gap, gap + 25, gap + 55, gap + 90):
-            fallback = None
+        best = None  # (overlap_area, left, top)
+
+        def obstacles():
+            for nid2, r2 in all_card_rects:
+                if nid2 != own_id:
+                    yield r2
+            for r2 in extra_obstacles:
+                yield r2
+
+        for gap_try in (gap, gap + 14, gap + 28, gap + 45, gap + 70, gap + 110):
             for side in sides:
-                left, top = attach(it, side, box_w, box_h, gap=gap_try)
-                cand = (left - rot_pad, top - rot_pad, left + box_w + rot_pad, top + box_h + rot_pad)
-                collides = any(
-                    nid2 != own_id and rects_overlap(cand, r2)
-                    for nid2, r2 in all_card_rects
-                ) or any(rects_overlap(cand, r2) for r2 in extra_obstacles)
-                if not collides:
-                    return left, top
-                if fallback is None:
-                    fallback = (left, top)
-            if first_fallback is None:
-                first_fallback = fallback
-        return first_fallback
+                for off in SLIDE_OFFSETS:
+                    left, top = attach(it, side, box_w, box_h, gap=gap_try, off=off)
+                    cand = (left - rot_pad, top - rot_pad, left + box_w + rot_pad, top + box_h + rot_pad)
+                    total_overlap = sum(
+                        rect_overlap_area(cand, r2) for r2 in obstacles()
+                        if rects_overlap(cand, r2)
+                    )
+                    if total_overlap == 0:
+                        return left, top
+                    if best is None or total_overlap < best[0]:
+                        best = (total_overlap, left, top)
+        return best[1], best[2]
 
     for nid in DARK_CRYSTAL_NIDS:
         it = by_id.get(nid)
@@ -478,7 +501,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             sides = PHOTO_CORNER_ORDER[i % len(PHOTO_CORNER_ORDER)]
             is_wide = SCREENSHOT_HINT in img_name.lower()
             box = PHOTO_BOX_WIDE if is_wide else PHOTO_BOX
-            left, top = attach_clear_ex(it, sides, *box, gap=7 + i * 5)
+            left, top = attach_clear_ex(it, sides, *box, gap=7)
             left, top = claim_position(left, top, *box)
             extra_obstacles.append((left, top, left + box[0], top + box[1]))
             rot = rng.uniform(-8, 8)

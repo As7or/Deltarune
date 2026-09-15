@@ -2619,7 +2619,7 @@
 		{
 			"id": "g_7flores-dec1",
 			"type": "file",
-			"file": "Sprites/Aqua_overworld_container.png",
+			"file": "Sprites/Aqua_battle_idle.gif",
 			"x": -3044,
 			"y": -4335,
 			"width": 126,
@@ -2628,7 +2628,7 @@
 		{
 			"id": "g_7flores-dec2",
 			"type": "file",
-			"file": "Sprites/Seth_overworld_container.png",
+			"file": "Sprites/Seth_battle_idle.gif",
 			"x": -2893,
 			"y": -4335,
 			"width": 126,
@@ -2637,7 +2637,7 @@
 		{
 			"id": "g_7flores-dec3",
 			"type": "file",
-			"file": "Sprites/Orange_overworld_container.png",
+			"file": "Sprites/Orange_battle_idle.gif",
 			"x": -2742,
 			"y": -4335,
 			"width": 126,
@@ -2646,7 +2646,7 @@
 		{
 			"id": "g_7flores-dec4",
 			"type": "file",
-			"file": "Sprites/Green_overworld_container.png",
+			"file": "Sprites/Green_battle_idle.gif",
 			"x": -3044,
 			"y": -4212,
 			"width": 126,
@@ -2655,7 +2655,7 @@
 		{
 			"id": "g_7flores-dec5",
 			"type": "file",
-			"file": "Sprites/Yellow_overworld_container.png",
+			"file": "Sprites/Yellow_battle_idle.gif",
 			"x": -2893,
 			"y": -4212,
 			"width": 126,
@@ -2664,7 +2664,7 @@
 		{
 			"id": "g_7flores-dec6",
 			"type": "file",
-			"file": "Sprites/Blue_overworld_container.png",
+			"file": "Sprites/Blue_battle_idle.gif",
 			"x": -2742,
 			"y": -4212,
 			"width": 126,
