@@ -1229,6 +1229,1500 @@
 			"width": 410,
 			"height": 320,
 			"color": "#6b7280"
+		},
+		{
+			"id": "g_king-dec1",
+			"type": "file",
+			"file": "Sprites/King_battle_throw.gif",
+			"x": 6821,
+			"y": -4114,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_king-dec2",
+			"type": "file",
+			"file": "Sprites/King_overworld_sleep.gif",
+			"x": 7021,
+			"y": -4114,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_king-dec3",
+			"type": "file",
+			"file": "Sprites/King_face.png",
+			"x": 7221,
+			"y": -4114,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g18-dec1",
+			"type": "file",
+			"file": "Sprites/shelter_chapter2_snowdrake_monsterkid.png",
+			"x": 4280,
+			"y": -2407,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g18-dec2",
+			"type": "file",
+			"file": "Sprites/flowery_shelter_code_scene.webp",
+			"x": 4480,
+			"y": -2407,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g18-dec3",
+			"type": "file",
+			"file": "Sprites/carol_investigation_shelter.webp",
+			"x": 4680,
+			"y": -2407,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g16-dec1",
+			"type": "file",
+			"file": "Sprites/Normal_NPC_screenshot_lake.png",
+			"x": 1740,
+			"y": -137,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g16-dec2",
+			"type": "file",
+			"file": "Sprites/Lake_susie_hear_song_far_away.webp",
+			"x": 1940,
+			"y": -137,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g16-dec3",
+			"type": "file",
+			"file": "Sprites/Lake_Susie_and_Noelle_screenshot_confession.png",
+			"x": 2140,
+			"y": -137,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g19-dec1",
+			"type": "file",
+			"file": "Sprites/shadow_crystal_lagrimas_cristal_teoria.webp",
+			"x": 1086,
+			"y": 2152,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g19-dec2",
+			"type": "file",
+			"file": "Sprites/Spamton_NEO_battle.gif",
+			"x": 1286,
+			"y": 2152,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g19-dec3",
+			"type": "file",
+			"file": "Sprites/Hammer_of_Justice_battle_idle.gif",
+			"x": 1486,
+			"y": 2152,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g10-dec1",
+			"type": "file",
+			"file": "Sprites/86374-and-sans-undertale-black-line-white-sprite.png",
+			"x": 168,
+			"y": -3995,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g10-dec2",
+			"type": "file",
+			"file": "Sprites/everyman_undertale.png",
+			"x": 368,
+			"y": -3995,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g10-dec3",
+			"type": "file",
+			"file": "Sprites/sans_bleeding.webp",
+			"x": 568,
+			"y": -3995,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g5-dec1",
+			"type": "file",
+			"file": "Sprites/man_Egg_item_Chapter_1.png",
+			"x": 2638,
+			"y": -495,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g5-dec2",
+			"type": "file",
+			"file": "Sprites/Mancountry_location_Forgotten_Island.png",
+			"x": 2838,
+			"y": -495,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g5-dec3",
+			"type": "file",
+			"file": "Sprites/man_Cliffs_screenshot_harvesting.png",
+			"x": 3038,
+			"y": -495,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g24-dec1",
+			"type": "file",
+			"file": "Sprites/Tenna_overworld_arms_cut.gif",
+			"x": 5092,
+			"y": -1893,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g24-dec2",
+			"type": "file",
+			"file": "Sprites/Tenna_funnytext_physical_challenge.gif",
+			"x": 5292,
+			"y": -1893,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g24-dec3",
+			"type": "file",
+			"file": "Sprites/tenna_villian.gif",
+			"x": 5492,
+			"y": -1893,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g14-dec1",
+			"type": "file",
+			"file": "Sprites/Small_Mike_battle_idle.gif",
+			"x": 7192,
+			"y": 912,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g14-dec2",
+			"type": "file",
+			"file": "Sprites/Cat_Mike_battle_idle.gif",
+			"x": 7392,
+			"y": 912,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g14-dec3",
+			"type": "file",
+			"file": "Sprites/Cowboy_Hat_Mike_battle_idle.gif",
+			"x": 7592,
+			"y": 912,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_papyrus-dec1",
+			"type": "file",
+			"file": "Sprites/Papyrus_sprite1.webp",
+			"x": 473,
+			"y": -5025,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_papyrus-dec2",
+			"type": "file",
+			"file": "Sprites/Papyrus_flowery.png",
+			"x": 673,
+			"y": -5025,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_papyrus-dec3",
+			"type": "file",
+			"file": "Sprites/papyrus_forgottenman.webp",
+			"x": 873,
+			"y": -5025,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g7-dec1",
+			"type": "file",
+			"file": "Sprites/Knight_overworld_transform_flight.gif",
+			"x": 1207,
+			"y": 945,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g7-dec2",
+			"type": "file",
+			"file": "Sprites/Susie_and_Knight_overworld_clash.gif",
+			"x": 1407,
+			"y": 945,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_shuttah-dec1",
+			"type": "file",
+			"file": "Sprites/Shuttah_battle_spared.gif",
+			"x": 7791,
+			"y": -2709,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_shuttah-dec2",
+			"type": "file",
+			"file": "Sprites/Shuttah_overworld_hand.gif",
+			"x": 7991,
+			"y": -2709,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_shuttah-dec3",
+			"type": "file",
+			"file": "Sprites/shuttah_taking_photo_retro_game_black_and_white.webp",
+			"x": 8191,
+			"y": -2709,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_pink-dec1",
+			"type": "file",
+			"file": "Sprites/Cutie_Mew_Mew_Magic_soundtrack.png",
+			"x": -2219,
+			"y": 1217,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_pink-dec2",
+			"type": "file",
+			"file": "Sprites/Pink_battle_bomb_attack_unused.gif",
+			"x": -2019,
+			"y": 1217,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_gerson-dec1",
+			"type": "file",
+			"file": "Sprites/Gerson_overworld_laugh.gif",
+			"x": -1394,
+			"y": 2265,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_gerson-dec2",
+			"type": "file",
+			"file": "Sprites/Gerson_battle_spare.gif",
+			"x": -1194,
+			"y": 2265,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_lancer-dec1",
+			"type": "file",
+			"file": "Sprites/Lancer_battle_bike.gif",
+			"x": 7272,
+			"y": -3909,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_lancer-dec2",
+			"type": "file",
+			"file": "Sprites/Cards_item_Lancer.gif",
+			"x": 7472,
+			"y": -3909,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_lancer-dec3",
+			"type": "file",
+			"file": "Sprites/Susie_and_Lancer_overworld_high_five.gif",
+			"x": 7672,
+			"y": -3909,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g11-dec1",
+			"type": "file",
+			"file": "Sprites/FRIEND_overworld_8bit_laugh.gif",
+			"x": 3832,
+			"y": 1465,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g11-dec2",
+			"type": "file",
+			"file": "Sprites/Candy_dropped_by_FRIEND.gif",
+			"x": 4032,
+			"y": 1465,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g11-dec3",
+			"type": "file",
+			"file": "Sprites/FRIEND_screenshot_Shadow_Mantle_holder_battle.png",
+			"x": 4232,
+			"y": 1465,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_clamgirl-dec1",
+			"type": "file",
+			"file": "Sprites/gaster_Clam_Girl_overworld.png",
+			"x": 5638,
+			"y": -3936,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_clamgirl-dec2",
+			"type": "file",
+			"file": "Sprites/gaster_gonerclampgirl.webp",
+			"x": 5838,
+			"y": -3936,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_clamgirl-dec3",
+			"type": "file",
+			"file": "Sprites/gaster_and_deltarune_clampgirl_goner_speech.webp",
+			"x": 6038,
+			"y": -3936,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_seam-dec1",
+			"type": "file",
+			"file": "Sprites/Seam_lightowrld.png",
+			"x": 3252,
+			"y": 2745,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_seam-dec2",
+			"type": "file",
+			"file": "Sprites/Seam's_Shop_location.png",
+			"x": 3452,
+			"y": 2745,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_seam-dec3",
+			"type": "file",
+			"file": "Sprites/Seam_screenshot_premonition.png",
+			"x": 3652,
+			"y": 2745,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_titan-dec1",
+			"type": "file",
+			"file": "Sprites/Titan_Spawn_battle_idle.gif",
+			"x": 2112,
+			"y": 1895,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_titan-dec2",
+			"type": "file",
+			"file": "Sprites/Titan_overworld_hand_blast.gif",
+			"x": 2312,
+			"y": 1895,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_titan-dec3",
+			"type": "file",
+			"file": "Sprites/Titan_attack_big_shots_3.webp",
+			"x": 2512,
+			"y": 1895,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_rouxls-dec1",
+			"type": "file",
+			"file": "Sprites/Rouxls_Kaard_overworld_appear.gif",
+			"x": 8552,
+			"y": -2545,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_rouxls-dec2",
+			"type": "file",
+			"file": "Sprites/Rouxls_Kaard_face_shop.gif",
+			"x": 8752,
+			"y": -2545,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_rouxls-dec3",
+			"type": "file",
+			"file": "Sprites/Rouxls_Kaard_soundtrack.png",
+			"x": 8952,
+			"y": -2545,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g6-dec1",
+			"type": "file",
+			"file": "Sprites/dess_band_concert_tvworld.jpg",
+			"x": 1978,
+			"y": -1535,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g6-dec2",
+			"type": "file",
+			"file": "Sprites/dess_room.jpg",
+			"x": 2178,
+			"y": -1535,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g6-dec3",
+			"type": "file",
+			"file": "Sprites/dess_guitar.png",
+			"x": 2378,
+			"y": -1535,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g22-dec1",
+			"type": "file",
+			"file": "Sprites/Toriel_and_Rudy_overworld_fruit_juice.gif",
+			"x": 1154,
+			"y": -3475,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g22-dec2",
+			"type": "file",
+			"file": "Sprites/Rudy_face.png",
+			"x": 1354,
+			"y": -3475,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g22-dec3",
+			"type": "file",
+			"file": "Sprites/Rudy_overworld_hospital_bed.png",
+			"x": 1554,
+			"y": -3475,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g9-dec1",
+			"type": "file",
+			"file": "Sprites/profecia_paneles_cap4_1/final_gifs/09_the_first_hero_the_cage_with_human_soul_and_parts.gif",
+			"x": 243,
+			"y": 565,
+			"width": 168,
+			"height": 138
+		},
+		{
+			"id": "g9-dec2",
+			"type": "file",
+			"file": "Sprites/prophecy_The_legend_screenshot_Ralsei's_castle.png",
+			"x": 436,
+			"y": 565,
+			"width": 168,
+			"height": 138
+		},
+		{
+			"id": "g9-dec3",
+			"type": "file",
+			"file": "Sprites/prophecy_3rd_Sanctuary_location_entrance.png",
+			"x": 629,
+			"y": 565,
+			"width": 168,
+			"height": 138
+		},
+		{
+			"id": "g_ramb-dec1",
+			"type": "file",
+			"file": "Sprites/Ramb_overworld_cleaning.gif",
+			"x": 5802,
+			"y": -1955,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_ramb-dec2",
+			"type": "file",
+			"file": "Sprites/Ramb_screenshot_original_game.png",
+			"x": 6002,
+			"y": -1955,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_ramb-dec3",
+			"type": "file",
+			"file": "Sprites/Green_Room_location_Ramb's_bar.png",
+			"x": 6202,
+			"y": -1955,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g21-dec1",
+			"type": "file",
+			"file": "Sprites/Asgore_Dreemurr_overworld_hug.gif",
+			"x": -2790,
+			"y": -2895,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g21-dec2",
+			"type": "file",
+			"file": "Sprites/Asgore_and_Toriel_overworld_awkward.gif",
+			"x": -2590,
+			"y": -2895,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g21-dec3",
+			"type": "file",
+			"file": "Sprites/asgore_talksprite.webp",
+			"x": -2390,
+			"y": -2895,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g23-dec1",
+			"type": "file",
+			"file": "Sprites/Carol_face.png",
+			"x": 1970,
+			"y": -3435,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g23-dec2",
+			"type": "file",
+			"file": "Sprites/Carol_face_ominous_unused.png",
+			"x": 2170,
+			"y": -3435,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g23-dec3",
+			"type": "file",
+			"file": "Sprites/carol_town_hall.png",
+			"x": 2370,
+			"y": -3435,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g26-dec1",
+			"type": "file",
+			"file": "Sprites/Normal_NPC_screenshot_library.png",
+			"x": 4605,
+			"y": 85,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g26-dec2",
+			"type": "file",
+			"file": "Sprites/gaster_Ficus_Licker_overworld(follower1).webp",
+			"x": 4805,
+			"y": 85,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g26-dec3",
+			"type": "file",
+			"file": "Sprites/gaster_Scared_donut_guy_overworld(follower2).webp",
+			"x": 5005,
+			"y": 85,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g12-dec1",
+			"type": "file",
+			"file": "Sprites/Spamton_NEO_battle.gif",
+			"x": 5293,
+			"y": 747,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g12-dec2",
+			"type": "file",
+			"file": "Sprites/spamton_neo_weirdroute_fight.webp",
+			"x": 5493,
+			"y": 747,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g13-dec1",
+			"type": "file",
+			"file": "Sprites/asriel_room.png",
+			"x": -498,
+			"y": -2447,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g13-dec2",
+			"type": "file",
+			"file": "Sprites/asriel_tenna_mention.png",
+			"x": -298,
+			"y": -2447,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g13-dec3",
+			"type": "file",
+			"file": "Sprites/asriel_letter_to_catty.png",
+			"x": -98,
+			"y": -2447,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_eram-dec1",
+			"type": "file",
+			"file": "Sprites/ERAM_FRIEND_attack.png",
+			"x": 6062,
+			"y": 1785,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_eram-dec2",
+			"type": "file",
+			"file": "Sprites/Weird_Route_Eram_talking.webp",
+			"x": 6262,
+			"y": 1785,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_eram-dec3",
+			"type": "file",
+			"file": "Sprites/Shadow_Mantle_holder_battle_idle.gif",
+			"x": 6462,
+			"y": 1785,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g15-dec1",
+			"type": "file",
+			"file": "Sprites/everyman_undertale.png",
+			"x": 6646,
+			"y": -515,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g15-dec2",
+			"type": "file",
+			"file": "Sprites/Everyman_ducks_screenshot.webp",
+			"x": 6846,
+			"y": -515,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g15-dec3",
+			"type": "file",
+			"file": "Sprites/everyman_wall_paint.png",
+			"x": 7046,
+			"y": -515,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g4-dec1",
+			"type": "file",
+			"file": "Sprites/gaster_follower1.gif",
+			"x": 4162,
+			"y": -4755,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g4-dec2",
+			"type": "file",
+			"file": "Sprites/gaster_goonerkid.gif",
+			"x": 4362,
+			"y": -4755,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g4-dec3",
+			"type": "file",
+			"file": "Sprites/Gaster_mysteryman_door_undertale.gif",
+			"x": 4562,
+			"y": -4755,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_queen-dec1",
+			"type": "file",
+			"file": "Sprites/GIGA_Queen_battle.gif",
+			"x": 2902,
+			"y": -2585,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_queen-dec2",
+			"type": "file",
+			"file": "Sprites/Queen_battle.gif",
+			"x": 3102,
+			"y": -2585,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_queen-dec3",
+			"type": "file",
+			"file": "Sprites/Queen_overworld_shimmying.gif",
+			"x": 3302,
+			"y": -2585,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g17-dec1",
+			"type": "file",
+			"file": "Sprites/Shadow_Mantle_holder_battle_idle.gif",
+			"x": -422,
+			"y": -55,
+			"width": 173,
+			"height": 142
+		},
+		{
+			"id": "g17-dec2",
+			"type": "file",
+			"file": "Sprites/Noelle_battle_SnowGrave.gif",
+			"x": -224,
+			"y": -55,
+			"width": 173,
+			"height": 142
+		},
+		{
+			"id": "g17-dec3",
+			"type": "file",
+			"file": "Sprites/shadow_mantle.gif",
+			"x": -26,
+			"y": -55,
+			"width": 173,
+			"height": 142
+		},
+		{
+			"id": "g_sans-dec1",
+			"type": "file",
+			"file": "Sprites/Sans_and_Toriel_overworld_dancing.gif",
+			"x": -937,
+			"y": -4385,
+			"width": 168,
+			"height": 138
+		},
+		{
+			"id": "g_sans-dec2",
+			"type": "file",
+			"file": "Sprites/Sans_overworld_dancing.gif",
+			"x": -744,
+			"y": -4385,
+			"width": 168,
+			"height": 138
+		},
+		{
+			"id": "g_sans-dec3",
+			"type": "file",
+			"file": "Sprites/Sans_face.png",
+			"x": -551,
+			"y": -4385,
+			"width": 168,
+			"height": 138
+		},
+		{
+			"id": "g_flowery-dec1",
+			"type": "file",
+			"file": "Sprites/Flowery_battle_idle.gif",
+			"x": -3878,
+			"y": -3495,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_flowery-dec2",
+			"type": "file",
+			"file": "Sprites/Flowery_overworld_make_juice.gif",
+			"x": -3678,
+			"y": -3495,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g_flowery-dec3",
+			"type": "file",
+			"file": "Sprites/Flowery_and_Knight_battle_clash.gif",
+			"x": -3478,
+			"y": -3495,
+			"width": 175,
+			"height": 144
+		},
+		{
+			"id": "g20-dec1",
+			"type": "file",
+			"file": "Sprites/Asgore_and_Toriel_overworld_awkward.gif",
+			"x": -1992,
+			"y": -3195,
+			"width": 171,
+			"height": 140
+		},
+		{
+			"id": "g20-dec2",
+			"type": "file",
+			"file": "Sprites/Sans_and_Toriel_overworld_dancing.gif",
+			"x": -1796,
+			"y": -3195,
+			"width": 171,
+			"height": 140
+		},
+		{
+			"id": "g20-dec3",
+			"type": "file",
+			"file": "Sprites/Toriel_and_Rudy_overworld_fruit_juice.gif",
+			"x": -1600,
+			"y": -3195,
+			"width": 171,
+			"height": 140
+		},
+		{
+			"id": "g_fuentes-dec1",
+			"type": "file",
+			"file": "Sprites/Dark_Fountain_overworld_projector_footage.gif",
+			"x": -168,
+			"y": 2460,
+			"width": 154,
+			"height": 127
+		},
+		{
+			"id": "g_fuentes-dec2",
+			"type": "file",
+			"file": "Sprites/kris_Knight_overworld_knighting.gif",
+			"x": 11,
+			"y": 2460,
+			"width": 154,
+			"height": 127
+		},
+		{
+			"id": "g_fuentes-dec3",
+			"type": "file",
+			"file": "Sprites/dark_fountain_3_sanctuary_titan_creation.png",
+			"x": 190,
+			"y": 2460,
+			"width": 154,
+			"height": 127
+		},
+		{
+			"id": "g3-dec1",
+			"type": "file",
+			"file": "Sprites/Noelle_overworld_weird_route_wind_sprite_cap4.gif",
+			"x": 376,
+			"y": -635,
+			"width": 172,
+			"height": 141
+		},
+		{
+			"id": "g3-dec2",
+			"type": "file",
+			"file": "Sprites/Noelle_battle_SnowGrave.gif",
+			"x": 573,
+			"y": -635,
+			"width": 172,
+			"height": 141
+		},
+		{
+			"id": "g3-dec3",
+			"type": "file",
+			"file": "Sprites/noelle_White_Cloak_overworld.gif",
+			"x": 770,
+			"y": -635,
+			"width": 172,
+			"height": 141
+		},
+		{
+			"id": "g2-dec1",
+			"type": "file",
+			"file": "Sprites/Ralsei_overworld_fireball.gif",
+			"x": -3630,
+			"y": -1517,
+			"width": 167,
+			"height": 137
+		},
+		{
+			"id": "g2-dec2",
+			"type": "file",
+			"file": "Sprites/Ralsei_battle_serious.gif",
+			"x": -3438,
+			"y": -1517,
+			"width": 167,
+			"height": 137
+		},
+		{
+			"id": "g2-dec3",
+			"type": "file",
+			"file": "Sprites/Kris_and_Ralsei_overworld_tug.gif",
+			"x": -3246,
+			"y": -1517,
+			"width": 167,
+			"height": 137
+		},
+		{
+			"id": "g_jevil-dec1",
+			"type": "file",
+			"file": "Sprites/Jevil_attack_Chaos_Chaos.gif",
+			"x": 5132,
+			"y": 2217,
+			"width": 156,
+			"height": 128
+		},
+		{
+			"id": "g_jevil-dec2",
+			"type": "file",
+			"file": "Sprites/Shadow_Crystal_item_Jevil.png",
+			"x": 5313,
+			"y": 2217,
+			"width": 156,
+			"height": 128
+		},
+		{
+			"id": "g_pippins-dec1",
+			"type": "file",
+			"file": "Sprites/Pippins_battle_spared.gif",
+			"x": 7970,
+			"y": -679,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_pippins-dec2",
+			"type": "file",
+			"file": "Sprites/mike_Green_Pippins_overworld_reveal.gif",
+			"x": 8150,
+			"y": -679,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_pippins-dec3",
+			"type": "file",
+			"file": "Sprites/nike_Green_Pippins_overworld_exasperated.gif",
+			"x": 8330,
+			"y": -679,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_catti-dec1",
+			"type": "file",
+			"file": "Sprites/Catti_overworld_construction.png",
+			"x": -4794,
+			"y": -395,
+			"width": 152,
+			"height": 125
+		},
+		{
+			"id": "g_catti-dec2",
+			"type": "file",
+			"file": "Sprites/Catti_screenshot_upset_cd_back_chapter_5.png",
+			"x": -4618,
+			"y": -395,
+			"width": 152,
+			"height": 125
+		},
+		{
+			"id": "g_huevo-dec1",
+			"type": "file",
+			"file": "Sprites/Man_overworld_retro_tree.gif",
+			"x": 3188,
+			"y": 327,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_huevo-dec2",
+			"type": "file",
+			"file": "Sprites/man_Egg_item_Chapter_1.png",
+			"x": 3364,
+			"y": 327,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_huevo-dec3",
+			"type": "file",
+			"file": "Sprites/man_LancerCon_item_first_console.png",
+			"x": 3540,
+			"y": 327,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_cattenheimer-dec1",
+			"type": "file",
+			"file": "Sprites/Asgore_Rudy_and_Mr.Cat_enjoying_bbq.gif",
+			"x": -4582,
+			"y": 815,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_cattenheimer-dec2",
+			"type": "file",
+			"file": "Sprites/cat_house_3_ codes_password.webp",
+			"x": -4406,
+			"y": 815,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_cattenheimer-dec3",
+			"type": "file",
+			"file": "Sprites/Toriel_sing_in_the_church.png",
+			"x": -4230,
+			"y": 815,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g1-dec1",
+			"type": "file",
+			"file": "Sprites/Susie_and_Lancer_overworld_high_five.gif",
+			"x": -328,
+			"y": -1375,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g1-dec2",
+			"type": "file",
+			"file": "Sprites/Susie_overworld_couch_sleeping.gif",
+			"x": -148,
+			"y": -1375,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g1-dec3",
+			"type": "file",
+			"file": "Sprites/Susie_and_Gerson_overworld_proud.gif",
+			"x": 32,
+			"y": -1375,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_napstablook-dec1",
+			"type": "file",
+			"file": "Sprites/Napstablook_overworld_ground.png",
+			"x": -3488,
+			"y": 992,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_napstablook-dec2",
+			"type": "file",
+			"file": "Sprites/Napstablook_screenshot_strength_tester.png",
+			"x": -3308,
+			"y": 992,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_napstablook-dec3",
+			"type": "file",
+			"file": "Sprites/napstabloock_Chill_Jailbreak_Alarm_To_Study_And_Relax_To_soundtrack.png",
+			"x": -3128,
+			"y": 992,
+			"width": 155,
+			"height": 127
+		},
+		{
+			"id": "g_undyne-dec1",
+			"type": "file",
+			"file": "Sprites/Undyne_Dark_World_Sprite.webp",
+			"x": -3902,
+			"y": -156,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_undyne-dec2",
+			"type": "file",
+			"file": "Sprites/Undyne_overworld_bench-press.webp",
+			"x": -3726,
+			"y": -156,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_undyne-dec3",
+			"type": "file",
+			"file": "Sprites/Knight_screenshot_Undyne_captured.png",
+			"x": -3550,
+			"y": -156,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_alphys-dec1",
+			"type": "file",
+			"file": "Sprites/Alphys_overworld_vampire_attire_spin.gif",
+			"x": -4702,
+			"y": -2825,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_alphys-dec2",
+			"type": "file",
+			"file": "Sprites/Alphys_face.png",
+			"x": -4526,
+			"y": -2825,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_alphys-dec3",
+			"type": "file",
+			"file": "Sprites/undertale_alphys.webp",
+			"x": -4350,
+			"y": -2825,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_alvin-dec1",
+			"type": "file",
+			"file": "Sprites/Alvin_overworld_vampire_attire.png",
+			"x": 426,
+			"y": 1565,
+			"width": 153,
+			"height": 126
+		},
+		{
+			"id": "g_alvin-dec2",
+			"type": "file",
+			"file": "Sprites/alvin_in_the_grave_of_his_father.png",
+			"x": 604,
+			"y": 1565,
+			"width": 153,
+			"height": 126
+		},
+		{
+			"id": "g_alvin-dec3",
+			"type": "file",
+			"file": "Sprites/alvin_susie_discover_gerson_dust.webp",
+			"x": 782,
+			"y": 1565,
+			"width": 153,
+			"height": 126
+		},
+		{
+			"id": "g_berdly-dec1",
+			"type": "file",
+			"file": "Sprites/Berdly_battle_intro.gif",
+			"x": 358,
+			"y": -2895,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_berdly-dec2",
+			"type": "file",
+			"file": "Sprites/Berdly_overworld_frozen.png",
+			"x": 534,
+			"y": -2895,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g_berdly-dec3",
+			"type": "file",
+			"file": "Sprites/Berdly_Darkworld.webp",
+			"x": 710,
+			"y": -2895,
+			"width": 151,
+			"height": 124
+		},
+		{
+			"id": "g25-dec1",
+			"type": "file",
+			"file": "Sprites/Onion_screenshot_Chapter_1.png",
+			"x": 2550,
+			"y": 907,
+			"width": 142,
+			"height": 116
+		},
+		{
+			"id": "g25-dec2",
+			"type": "file",
+			"file": "Sprites/Onion_screenshot_Chapter_2.png",
+			"x": 2716,
+			"y": 907,
+			"width": 142,
+			"height": 116
+		},
+		{
+			"id": "g_pipis-dec1",
+			"type": "file",
+			"file": "Sprites/Pipis_item.png",
+			"x": 4164,
+			"y": -684,
+			"width": 139,
+			"height": 114
+		},
+		{
+			"id": "g_pipis-dec2",
+			"type": "file",
+			"file": "Sprites/Ms._Pipis_battle_static.png",
+			"x": 4328,
+			"y": -684,
+			"width": 139,
+			"height": 114
+		},
+		{
+			"id": "g_jockington-dec1",
+			"type": "file",
+			"file": "Sprites/Jockington_face.png",
+			"x": -4840,
+			"y": -1669,
+			"width": 130,
+			"height": 107
+		},
+		{
+			"id": "g_jockington-dec2",
+			"type": "file",
+			"file": "Sprites/profecia_paneles_cap4_1/final_gifs/21_jockington_grows_the_beard.gif",
+			"x": -4685,
+			"y": -1669,
+			"width": 130,
+			"height": 107
+		},
+		{
+			"id": "g_jockington-dec3",
+			"type": "file",
+			"file": "Sprites/Jockington_screenshot_been_real.png",
+			"x": -4530,
+			"y": -1669,
+			"width": 130,
+			"height": 107
+		},
+		{
+			"id": "g0-dec1",
+			"type": "file",
+			"file": "Sprites/Kris_overworld_piano.gif",
+			"x": -1262,
+			"y": -654,
+			"width": 138,
+			"height": 113
+		},
+		{
+			"id": "g0-dec2",
+			"type": "file",
+			"file": "Sprites/Kris_and_Noelle_overworld_ThornRing.gif",
+			"x": -1099,
+			"y": -654,
+			"width": 138,
+			"height": 113
+		},
+		{
+			"id": "g0-dec3",
+			"type": "file",
+			"file": "Sprites/kris_Knight_overworld_knighting.gif",
+			"x": -936,
+			"y": -654,
+			"width": 138,
+			"height": 113
+		},
+		{
+			"id": "g_7flores-dec1",
+			"type": "file",
+			"file": "Sprites/Seth_and_Kris_overworld_give_feather.gif",
+			"x": -3044,
+			"y": -4335,
+			"width": 126,
+			"height": 103
+		},
+		{
+			"id": "g_7flores-dec2",
+			"type": "file",
+			"file": "Sprites/Seth_overworld_Aqua_hair.gif",
+			"x": -2893,
+			"y": -4335,
+			"width": 126,
+			"height": 103
+		},
+		{
+			"id": "g_7flores-dec3",
+			"type": "file",
+			"file": "Sprites/Orange_overworld_cry.gif",
+			"x": -2742,
+			"y": -4335,
+			"width": 126,
+			"height": 103
+		},
+		{
+			"id": "g_jackenstein-dec1",
+			"type": "file",
+			"file": "Sprites/Jackenstein_battle_idle.gif",
+			"x": -728,
+			"y": 1285,
+			"width": 122,
+			"height": 100
+		},
+		{
+			"id": "g_jackenstein-dec2",
+			"type": "file",
+			"file": "Sprites/Jackenstein_overworld_run_away.gif",
+			"x": -581,
+			"y": 1285,
+			"width": 122,
+			"height": 100
+		},
+		{
+			"id": "g_jackenstein-dec3",
+			"type": "file",
+			"file": "Sprites/Jackenstein_attack_final.png",
+			"x": -434,
+			"y": 1285,
+			"width": 122,
+			"height": 100
+		},
+		{
+			"id": "g_jugador-dec1",
+			"type": "file",
+			"file": "Sprites/player_soul_discarded_voice.png",
+			"x": -2537,
+			"y": -925,
+			"width": 106,
+			"height": 87
+		},
+		{
+			"id": "g_jugador-dec2",
+			"type": "file",
+			"file": "Sprites/player_kris_soul_cap1_final_scene.png",
+			"x": -2406,
+			"y": -925,
+			"width": 106,
+			"height": 87
+		},
+		{
+			"id": "g_jugador-dec3",
+			"type": "file",
+			"file": "Sprites/kris_open_dark_fountain_tv.gif",
+			"x": -2275,
+			"y": -925,
+			"width": 106,
+			"height": 87
+		},
+		{
+			"id": "g8-dec1",
+			"type": "file",
+			"file": "Sprites/Angel_doll_overworld.png",
+			"x": -1852,
+			"y": 19,
+			"width": 85,
+			"height": 70
+		},
+		{
+			"id": "g8-dec2",
+			"type": "file",
+			"file": "Sprites/profecia_paneles_cap4_1/final_gifs/14_theyll_hear_the_ring_of_heavens_call.gif",
+			"x": -1742,
+			"y": 19,
+			"width": 85,
+			"height": 70
+		},
+		{
+			"id": "g8-dec3",
+			"type": "file",
+			"file": "Sprites/angel_asriel_theory.gif",
+			"x": -1632,
+			"y": 19,
+			"width": 85,
+			"height": 70
 		}
 	],
 	"edges": [
@@ -3730,6 +5224,1334 @@
 			"toSide": "top",
 			"color": "1",
 			"label": "única parte de la Profecía cumplida al pie de la letra"
+		},
+		{
+			"id": "g_king-dec1-e",
+			"fromNode": "g_king-dec1",
+			"fromSide": "top",
+			"toNode": "g_king",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_king-dec2-e",
+			"fromNode": "g_king-dec2",
+			"fromSide": "top",
+			"toNode": "g_king",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_king-dec3-e",
+			"fromNode": "g_king-dec3",
+			"fromSide": "top",
+			"toNode": "g_king",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g18-dec1-e",
+			"fromNode": "g18-dec1",
+			"fromSide": "top",
+			"toNode": "g18",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g18-dec2-e",
+			"fromNode": "g18-dec2",
+			"fromSide": "top",
+			"toNode": "g18",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g18-dec3-e",
+			"fromNode": "g18-dec3",
+			"fromSide": "top",
+			"toNode": "g18",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g16-dec1-e",
+			"fromNode": "g16-dec1",
+			"fromSide": "top",
+			"toNode": "g16",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g16-dec2-e",
+			"fromNode": "g16-dec2",
+			"fromSide": "top",
+			"toNode": "g16",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g16-dec3-e",
+			"fromNode": "g16-dec3",
+			"fromSide": "top",
+			"toNode": "g16",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g19-dec1-e",
+			"fromNode": "g19-dec1",
+			"fromSide": "top",
+			"toNode": "g19",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g19-dec2-e",
+			"fromNode": "g19-dec2",
+			"fromSide": "top",
+			"toNode": "g19",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g19-dec3-e",
+			"fromNode": "g19-dec3",
+			"fromSide": "top",
+			"toNode": "g19",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g10-dec1-e",
+			"fromNode": "g10-dec1",
+			"fromSide": "top",
+			"toNode": "g10",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g10-dec2-e",
+			"fromNode": "g10-dec2",
+			"fromSide": "top",
+			"toNode": "g10",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g10-dec3-e",
+			"fromNode": "g10-dec3",
+			"fromSide": "top",
+			"toNode": "g10",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g5-dec1-e",
+			"fromNode": "g5-dec1",
+			"fromSide": "top",
+			"toNode": "g5",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g5-dec2-e",
+			"fromNode": "g5-dec2",
+			"fromSide": "top",
+			"toNode": "g5",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g5-dec3-e",
+			"fromNode": "g5-dec3",
+			"fromSide": "top",
+			"toNode": "g5",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g24-dec1-e",
+			"fromNode": "g24-dec1",
+			"fromSide": "bottom",
+			"toNode": "g24",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g24-dec2-e",
+			"fromNode": "g24-dec2",
+			"fromSide": "bottom",
+			"toNode": "g24",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g24-dec3-e",
+			"fromNode": "g24-dec3",
+			"fromSide": "bottom",
+			"toNode": "g24",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g14-dec1-e",
+			"fromNode": "g14-dec1",
+			"fromSide": "top",
+			"toNode": "g14",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g14-dec2-e",
+			"fromNode": "g14-dec2",
+			"fromSide": "top",
+			"toNode": "g14",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g14-dec3-e",
+			"fromNode": "g14-dec3",
+			"fromSide": "top",
+			"toNode": "g14",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_papyrus-dec1-e",
+			"fromNode": "g_papyrus-dec1",
+			"fromSide": "top",
+			"toNode": "g_papyrus",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_papyrus-dec2-e",
+			"fromNode": "g_papyrus-dec2",
+			"fromSide": "top",
+			"toNode": "g_papyrus",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_papyrus-dec3-e",
+			"fromNode": "g_papyrus-dec3",
+			"fromSide": "top",
+			"toNode": "g_papyrus",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g7-dec1-e",
+			"fromNode": "g7-dec1",
+			"fromSide": "top",
+			"toNode": "g7",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g7-dec2-e",
+			"fromNode": "g7-dec2",
+			"fromSide": "top",
+			"toNode": "g7",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_shuttah-dec1-e",
+			"fromNode": "g_shuttah-dec1",
+			"fromSide": "bottom",
+			"toNode": "g_shuttah",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g_shuttah-dec2-e",
+			"fromNode": "g_shuttah-dec2",
+			"fromSide": "bottom",
+			"toNode": "g_shuttah",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g_shuttah-dec3-e",
+			"fromNode": "g_shuttah-dec3",
+			"fromSide": "bottom",
+			"toNode": "g_shuttah",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g_pink-dec1-e",
+			"fromNode": "g_pink-dec1",
+			"fromSide": "top",
+			"toNode": "g_pink",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_pink-dec2-e",
+			"fromNode": "g_pink-dec2",
+			"fromSide": "top",
+			"toNode": "g_pink",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_gerson-dec1-e",
+			"fromNode": "g_gerson-dec1",
+			"fromSide": "top",
+			"toNode": "g_gerson",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_gerson-dec2-e",
+			"fromNode": "g_gerson-dec2",
+			"fromSide": "top",
+			"toNode": "g_gerson",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_lancer-dec1-e",
+			"fromNode": "g_lancer-dec1",
+			"fromSide": "bottom",
+			"toNode": "g_lancer",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g_lancer-dec2-e",
+			"fromNode": "g_lancer-dec2",
+			"fromSide": "bottom",
+			"toNode": "g_lancer",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g_lancer-dec3-e",
+			"fromNode": "g_lancer-dec3",
+			"fromSide": "bottom",
+			"toNode": "g_lancer",
+			"toSide": "top",
+			"color": "6"
+		},
+		{
+			"id": "g11-dec1-e",
+			"fromNode": "g11-dec1",
+			"fromSide": "top",
+			"toNode": "g11",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g11-dec2-e",
+			"fromNode": "g11-dec2",
+			"fromSide": "top",
+			"toNode": "g11",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g11-dec3-e",
+			"fromNode": "g11-dec3",
+			"fromSide": "top",
+			"toNode": "g11",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_clamgirl-dec1-e",
+			"fromNode": "g_clamgirl-dec1",
+			"fromSide": "top",
+			"toNode": "g_clamgirl",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_clamgirl-dec2-e",
+			"fromNode": "g_clamgirl-dec2",
+			"fromSide": "top",
+			"toNode": "g_clamgirl",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_clamgirl-dec3-e",
+			"fromNode": "g_clamgirl-dec3",
+			"fromSide": "top",
+			"toNode": "g_clamgirl",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_seam-dec1-e",
+			"fromNode": "g_seam-dec1",
+			"fromSide": "top",
+			"toNode": "g_seam",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_seam-dec2-e",
+			"fromNode": "g_seam-dec2",
+			"fromSide": "top",
+			"toNode": "g_seam",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_seam-dec3-e",
+			"fromNode": "g_seam-dec3",
+			"fromSide": "top",
+			"toNode": "g_seam",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_titan-dec1-e",
+			"fromNode": "g_titan-dec1",
+			"fromSide": "top",
+			"toNode": "g_titan",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_titan-dec2-e",
+			"fromNode": "g_titan-dec2",
+			"fromSide": "top",
+			"toNode": "g_titan",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_titan-dec3-e",
+			"fromNode": "g_titan-dec3",
+			"fromSide": "top",
+			"toNode": "g_titan",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_rouxls-dec1-e",
+			"fromNode": "g_rouxls-dec1",
+			"fromSide": "top",
+			"toNode": "g_rouxls",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_rouxls-dec2-e",
+			"fromNode": "g_rouxls-dec2",
+			"fromSide": "top",
+			"toNode": "g_rouxls",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_rouxls-dec3-e",
+			"fromNode": "g_rouxls-dec3",
+			"fromSide": "top",
+			"toNode": "g_rouxls",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g6-dec1-e",
+			"fromNode": "g6-dec1",
+			"fromSide": "top",
+			"toNode": "g6",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g6-dec2-e",
+			"fromNode": "g6-dec2",
+			"fromSide": "top",
+			"toNode": "g6",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g6-dec3-e",
+			"fromNode": "g6-dec3",
+			"fromSide": "top",
+			"toNode": "g6",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g22-dec1-e",
+			"fromNode": "g22-dec1",
+			"fromSide": "top",
+			"toNode": "g22",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g22-dec2-e",
+			"fromNode": "g22-dec2",
+			"fromSide": "top",
+			"toNode": "g22",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g22-dec3-e",
+			"fromNode": "g22-dec3",
+			"fromSide": "top",
+			"toNode": "g22",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g9-dec1-e",
+			"fromNode": "g9-dec1",
+			"fromSide": "top",
+			"toNode": "g9",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g9-dec2-e",
+			"fromNode": "g9-dec2",
+			"fromSide": "top",
+			"toNode": "g9",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g9-dec3-e",
+			"fromNode": "g9-dec3",
+			"fromSide": "top",
+			"toNode": "g9",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_ramb-dec1-e",
+			"fromNode": "g_ramb-dec1",
+			"fromSide": "top",
+			"toNode": "g_ramb",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_ramb-dec2-e",
+			"fromNode": "g_ramb-dec2",
+			"fromSide": "top",
+			"toNode": "g_ramb",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_ramb-dec3-e",
+			"fromNode": "g_ramb-dec3",
+			"fromSide": "top",
+			"toNode": "g_ramb",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g21-dec1-e",
+			"fromNode": "g21-dec1",
+			"fromSide": "top",
+			"toNode": "g21",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g21-dec2-e",
+			"fromNode": "g21-dec2",
+			"fromSide": "top",
+			"toNode": "g21",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g21-dec3-e",
+			"fromNode": "g21-dec3",
+			"fromSide": "top",
+			"toNode": "g21",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g23-dec1-e",
+			"fromNode": "g23-dec1",
+			"fromSide": "top",
+			"toNode": "g23",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g23-dec2-e",
+			"fromNode": "g23-dec2",
+			"fromSide": "top",
+			"toNode": "g23",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g23-dec3-e",
+			"fromNode": "g23-dec3",
+			"fromSide": "top",
+			"toNode": "g23",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g26-dec1-e",
+			"fromNode": "g26-dec1",
+			"fromSide": "top",
+			"toNode": "g26",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g26-dec2-e",
+			"fromNode": "g26-dec2",
+			"fromSide": "top",
+			"toNode": "g26",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g26-dec3-e",
+			"fromNode": "g26-dec3",
+			"fromSide": "top",
+			"toNode": "g26",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g12-dec1-e",
+			"fromNode": "g12-dec1",
+			"fromSide": "top",
+			"toNode": "g12",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g12-dec2-e",
+			"fromNode": "g12-dec2",
+			"fromSide": "top",
+			"toNode": "g12",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g13-dec1-e",
+			"fromNode": "g13-dec1",
+			"fromSide": "top",
+			"toNode": "g13",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g13-dec2-e",
+			"fromNode": "g13-dec2",
+			"fromSide": "top",
+			"toNode": "g13",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g13-dec3-e",
+			"fromNode": "g13-dec3",
+			"fromSide": "top",
+			"toNode": "g13",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_eram-dec1-e",
+			"fromNode": "g_eram-dec1",
+			"fromSide": "top",
+			"toNode": "g_eram",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_eram-dec2-e",
+			"fromNode": "g_eram-dec2",
+			"fromSide": "top",
+			"toNode": "g_eram",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_eram-dec3-e",
+			"fromNode": "g_eram-dec3",
+			"fromSide": "top",
+			"toNode": "g_eram",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g15-dec1-e",
+			"fromNode": "g15-dec1",
+			"fromSide": "top",
+			"toNode": "g15",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g15-dec2-e",
+			"fromNode": "g15-dec2",
+			"fromSide": "top",
+			"toNode": "g15",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g15-dec3-e",
+			"fromNode": "g15-dec3",
+			"fromSide": "top",
+			"toNode": "g15",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g4-dec1-e",
+			"fromNode": "g4-dec1",
+			"fromSide": "top",
+			"toNode": "g4",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g4-dec2-e",
+			"fromNode": "g4-dec2",
+			"fromSide": "top",
+			"toNode": "g4",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g4-dec3-e",
+			"fromNode": "g4-dec3",
+			"fromSide": "top",
+			"toNode": "g4",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_queen-dec1-e",
+			"fromNode": "g_queen-dec1",
+			"fromSide": "top",
+			"toNode": "g_queen",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_queen-dec2-e",
+			"fromNode": "g_queen-dec2",
+			"fromSide": "top",
+			"toNode": "g_queen",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_queen-dec3-e",
+			"fromNode": "g_queen-dec3",
+			"fromSide": "top",
+			"toNode": "g_queen",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g17-dec1-e",
+			"fromNode": "g17-dec1",
+			"fromSide": "top",
+			"toNode": "g17",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g17-dec2-e",
+			"fromNode": "g17-dec2",
+			"fromSide": "top",
+			"toNode": "g17",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g17-dec3-e",
+			"fromNode": "g17-dec3",
+			"fromSide": "top",
+			"toNode": "g17",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_sans-dec1-e",
+			"fromNode": "g_sans-dec1",
+			"fromSide": "top",
+			"toNode": "g_sans",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_sans-dec2-e",
+			"fromNode": "g_sans-dec2",
+			"fromSide": "top",
+			"toNode": "g_sans",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_sans-dec3-e",
+			"fromNode": "g_sans-dec3",
+			"fromSide": "top",
+			"toNode": "g_sans",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_flowery-dec1-e",
+			"fromNode": "g_flowery-dec1",
+			"fromSide": "top",
+			"toNode": "g_flowery",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_flowery-dec2-e",
+			"fromNode": "g_flowery-dec2",
+			"fromSide": "top",
+			"toNode": "g_flowery",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_flowery-dec3-e",
+			"fromNode": "g_flowery-dec3",
+			"fromSide": "top",
+			"toNode": "g_flowery",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g20-dec1-e",
+			"fromNode": "g20-dec1",
+			"fromSide": "top",
+			"toNode": "g20",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g20-dec2-e",
+			"fromNode": "g20-dec2",
+			"fromSide": "top",
+			"toNode": "g20",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g20-dec3-e",
+			"fromNode": "g20-dec3",
+			"fromSide": "top",
+			"toNode": "g20",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_fuentes-dec1-e",
+			"fromNode": "g_fuentes-dec1",
+			"fromSide": "top",
+			"toNode": "g_fuentes",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_fuentes-dec2-e",
+			"fromNode": "g_fuentes-dec2",
+			"fromSide": "top",
+			"toNode": "g_fuentes",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_fuentes-dec3-e",
+			"fromNode": "g_fuentes-dec3",
+			"fromSide": "top",
+			"toNode": "g_fuentes",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g3-dec1-e",
+			"fromNode": "g3-dec1",
+			"fromSide": "top",
+			"toNode": "g3",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g3-dec2-e",
+			"fromNode": "g3-dec2",
+			"fromSide": "top",
+			"toNode": "g3",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g3-dec3-e",
+			"fromNode": "g3-dec3",
+			"fromSide": "top",
+			"toNode": "g3",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g2-dec1-e",
+			"fromNode": "g2-dec1",
+			"fromSide": "top",
+			"toNode": "g2",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g2-dec2-e",
+			"fromNode": "g2-dec2",
+			"fromSide": "top",
+			"toNode": "g2",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g2-dec3-e",
+			"fromNode": "g2-dec3",
+			"fromSide": "top",
+			"toNode": "g2",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jevil-dec1-e",
+			"fromNode": "g_jevil-dec1",
+			"fromSide": "top",
+			"toNode": "g_jevil",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jevil-dec2-e",
+			"fromNode": "g_jevil-dec2",
+			"fromSide": "top",
+			"toNode": "g_jevil",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_pippins-dec1-e",
+			"fromNode": "g_pippins-dec1",
+			"fromSide": "top",
+			"toNode": "g_pippins",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_pippins-dec2-e",
+			"fromNode": "g_pippins-dec2",
+			"fromSide": "top",
+			"toNode": "g_pippins",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_pippins-dec3-e",
+			"fromNode": "g_pippins-dec3",
+			"fromSide": "top",
+			"toNode": "g_pippins",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_catti-dec1-e",
+			"fromNode": "g_catti-dec1",
+			"fromSide": "top",
+			"toNode": "g_catti",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_catti-dec2-e",
+			"fromNode": "g_catti-dec2",
+			"fromSide": "top",
+			"toNode": "g_catti",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_huevo-dec1-e",
+			"fromNode": "g_huevo-dec1",
+			"fromSide": "top",
+			"toNode": "g_huevo",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_huevo-dec2-e",
+			"fromNode": "g_huevo-dec2",
+			"fromSide": "top",
+			"toNode": "g_huevo",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_huevo-dec3-e",
+			"fromNode": "g_huevo-dec3",
+			"fromSide": "top",
+			"toNode": "g_huevo",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_cattenheimer-dec1-e",
+			"fromNode": "g_cattenheimer-dec1",
+			"fromSide": "top",
+			"toNode": "g_cattenheimer",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_cattenheimer-dec2-e",
+			"fromNode": "g_cattenheimer-dec2",
+			"fromSide": "top",
+			"toNode": "g_cattenheimer",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_cattenheimer-dec3-e",
+			"fromNode": "g_cattenheimer-dec3",
+			"fromSide": "top",
+			"toNode": "g_cattenheimer",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g1-dec1-e",
+			"fromNode": "g1-dec1",
+			"fromSide": "top",
+			"toNode": "g1",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g1-dec2-e",
+			"fromNode": "g1-dec2",
+			"fromSide": "top",
+			"toNode": "g1",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g1-dec3-e",
+			"fromNode": "g1-dec3",
+			"fromSide": "top",
+			"toNode": "g1",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_napstablook-dec1-e",
+			"fromNode": "g_napstablook-dec1",
+			"fromSide": "top",
+			"toNode": "g_napstablook",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_napstablook-dec2-e",
+			"fromNode": "g_napstablook-dec2",
+			"fromSide": "top",
+			"toNode": "g_napstablook",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_napstablook-dec3-e",
+			"fromNode": "g_napstablook-dec3",
+			"fromSide": "top",
+			"toNode": "g_napstablook",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_undyne-dec1-e",
+			"fromNode": "g_undyne-dec1",
+			"fromSide": "top",
+			"toNode": "g_undyne",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_undyne-dec2-e",
+			"fromNode": "g_undyne-dec2",
+			"fromSide": "top",
+			"toNode": "g_undyne",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_undyne-dec3-e",
+			"fromNode": "g_undyne-dec3",
+			"fromSide": "top",
+			"toNode": "g_undyne",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_alphys-dec1-e",
+			"fromNode": "g_alphys-dec1",
+			"fromSide": "top",
+			"toNode": "g_alphys",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_alphys-dec2-e",
+			"fromNode": "g_alphys-dec2",
+			"fromSide": "top",
+			"toNode": "g_alphys",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_alphys-dec3-e",
+			"fromNode": "g_alphys-dec3",
+			"fromSide": "top",
+			"toNode": "g_alphys",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_alvin-dec1-e",
+			"fromNode": "g_alvin-dec1",
+			"fromSide": "top",
+			"toNode": "g_alvin",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_alvin-dec2-e",
+			"fromNode": "g_alvin-dec2",
+			"fromSide": "top",
+			"toNode": "g_alvin",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_alvin-dec3-e",
+			"fromNode": "g_alvin-dec3",
+			"fromSide": "top",
+			"toNode": "g_alvin",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_berdly-dec1-e",
+			"fromNode": "g_berdly-dec1",
+			"fromSide": "top",
+			"toNode": "g_berdly",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_berdly-dec2-e",
+			"fromNode": "g_berdly-dec2",
+			"fromSide": "top",
+			"toNode": "g_berdly",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_berdly-dec3-e",
+			"fromNode": "g_berdly-dec3",
+			"fromSide": "top",
+			"toNode": "g_berdly",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g25-dec1-e",
+			"fromNode": "g25-dec1",
+			"fromSide": "top",
+			"toNode": "g25",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g25-dec2-e",
+			"fromNode": "g25-dec2",
+			"fromSide": "top",
+			"toNode": "g25",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_pipis-dec1-e",
+			"fromNode": "g_pipis-dec1",
+			"fromSide": "top",
+			"toNode": "g_pipis",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_pipis-dec2-e",
+			"fromNode": "g_pipis-dec2",
+			"fromSide": "top",
+			"toNode": "g_pipis",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jockington-dec1-e",
+			"fromNode": "g_jockington-dec1",
+			"fromSide": "top",
+			"toNode": "g_jockington",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jockington-dec2-e",
+			"fromNode": "g_jockington-dec2",
+			"fromSide": "top",
+			"toNode": "g_jockington",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jockington-dec3-e",
+			"fromNode": "g_jockington-dec3",
+			"fromSide": "top",
+			"toNode": "g_jockington",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g0-dec1-e",
+			"fromNode": "g0-dec1",
+			"fromSide": "top",
+			"toNode": "g0",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g0-dec2-e",
+			"fromNode": "g0-dec2",
+			"fromSide": "top",
+			"toNode": "g0",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g0-dec3-e",
+			"fromNode": "g0-dec3",
+			"fromSide": "top",
+			"toNode": "g0",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_7flores-dec1-e",
+			"fromNode": "g_7flores-dec1",
+			"fromSide": "top",
+			"toNode": "g_7flores",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_7flores-dec2-e",
+			"fromNode": "g_7flores-dec2",
+			"fromSide": "top",
+			"toNode": "g_7flores",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_7flores-dec3-e",
+			"fromNode": "g_7flores-dec3",
+			"fromSide": "top",
+			"toNode": "g_7flores",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jackenstein-dec1-e",
+			"fromNode": "g_jackenstein-dec1",
+			"fromSide": "top",
+			"toNode": "g_jackenstein",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jackenstein-dec2-e",
+			"fromNode": "g_jackenstein-dec2",
+			"fromSide": "top",
+			"toNode": "g_jackenstein",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jackenstein-dec3-e",
+			"fromNode": "g_jackenstein-dec3",
+			"fromSide": "top",
+			"toNode": "g_jackenstein",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jugador-dec1-e",
+			"fromNode": "g_jugador-dec1",
+			"fromSide": "top",
+			"toNode": "g_jugador",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jugador-dec2-e",
+			"fromNode": "g_jugador-dec2",
+			"fromSide": "top",
+			"toNode": "g_jugador",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g_jugador-dec3-e",
+			"fromNode": "g_jugador-dec3",
+			"fromSide": "top",
+			"toNode": "g_jugador",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g8-dec1-e",
+			"fromNode": "g8-dec1",
+			"fromSide": "top",
+			"toNode": "g8",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g8-dec2-e",
+			"fromNode": "g8-dec2",
+			"fromSide": "top",
+			"toNode": "g8",
+			"toSide": "bottom",
+			"color": "6"
+		},
+		{
+			"id": "g8-dec3-e",
+			"fromNode": "g8-dec3",
+			"fromSide": "top",
+			"toNode": "g8",
+			"toSide": "bottom",
+			"color": "6"
 		}
 	]
 }

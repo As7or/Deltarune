@@ -28,8 +28,8 @@ confianza: fuerte
 >
 > Tras el cuerpo, la voz hace una serie de preguntas en formato de encuesta, seleccionables con el propio ALMA: comida favorita, tipo de sangre favorito, color favorito, y que se le dé un "regalo" (por defecto, MIND) — y remata con "¿qué sientes sobre tu creación? No te va a escuchar", "¿contestaste con honestidad?" y "reconoce la posibilidad de dolor y convulsiones". Responder que no a cualquiera de las dos últimas no cambia nada: la voz responde "ENTENDIDO" y continúa igual, sin dar opción real a retractarse. Existió contenido descartado que no llegó a la versión final: una pregunta sobre fotosensibilidad, y varias respuestas alternativas para la comida favorita (cereales, carne, lácteos, dulces, fruta, verdura, huevo) que ya no están disponibles.
 >
-> ![[jugador_encuesta_vessel.png|300]]
-> *Hueco de imagen: falta una captura de la pantalla de encuesta (comida/sangre/color favoritos) durante la creación del Vessel.*
+> ![[vessel_food.jpg|300]]
+> *La pantalla de encuesta (comida/sangre/color favoritos) durante la creación del Vessel.*
 >
 > ![[Voice_screenshot_connection.png]]
 > *"WE MAY BEGIN." — la Voz, justo al confirmar la conexión, antes de empezar a construir el Vessel.*
@@ -43,8 +43,8 @@ confianza: fuerte
 >
 > Hay más reacciones especiales escondidas en esas dos pantallas de nombre, la base real de toda la teoría "Gaster's List" (ver [[Gaster (W. D. Gaster)]]): ponerle al Vessel el nombre de cualquier Lightner real de Hometown (Toriel, Asgore, Asriel, Sans...) hace que la voz responda "¡Qué interesante coincidencia!"; ponerse uno mismo, como jugador, el nombre de Kris, Susie o Noelle hace que diga en cambio "Estás a punto de conocer a alguien maravilloso" — reacción que curiosamente no se dispara con nombres de Darkners. Y si el nombre del Vessel y el del jugador coinciden entre sí, la voz comenta, con calma: "Por supuesto, por supuesto. Son lo mismo".
 >
-> ![[jugador_coincidencia_nombre.png|300]]
-> *Hueco de imagen: falta una captura de "¡Qué interesante coincidencia!" o "Estás a punto de conocer a alguien maravilloso" en la pantalla de nombre.*
+> ![[vessel_coincidence.png|300]]
+> *"¡Qué interesante coincidencia!" — la reacción de la Voz al nombrar al Vessel como un Lightner real de Hometown.*
 >
 > ![[Vessel_naming_screenshot.webp]]
 > *La pantalla "NAME YOUR VESSEL" — el propio Vessel, todavía sin rasgos, esperando nombre.*
