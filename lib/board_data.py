@@ -151,6 +151,27 @@ def extract_main_canvas_data(canvas_path, notes_dir, submaps_dir, sprites_dir):
     if os.path.isdir(submaps_dir):
         submap_stems = {os.path.splitext(f)[0] for f in os.listdir(submaps_dir) if f.endswith(".canvas")}
 
+    # Fotos decorativas extra por personaje: nodos tipo "file" con id
+    # "<gid>-dec1", "<gid>-dec2", "<gid>-dec3"... añadidos a mano en el
+    # canvas junto a cada grupo (su x/y en el canvas solo importa para la
+    # vista en Obsidian -- en la web, _build_board_decorations calcula su
+    # posicion real enganchada al borde de la tarjeta ya renderizada, igual
+    # que hace con la foto del Cristal Oscuro).
+    dec_re = re.compile(r"^(.+)-dec(\d+)$")
+    extra_photos_by_gid = {}
+    for nid, n in nodes.items():
+        if n.get("type") != "file":
+            continue
+        m = dec_re.match(nid)
+        if not m:
+            continue
+        base_gid, idx = m.group(1), int(m.group(2))
+        f = n.get("file", "")
+        img_name = f.split("/", 1)[1] if f.startswith("Sprites/") else f.split("/")[-1]
+        extra_photos_by_gid.setdefault(base_gid, []).append((idx, img_name))
+    for gid in extra_photos_by_gid:
+        extra_photos_by_gid[gid] = [fn for _, fn in sorted(extra_photos_by_gid[gid])]
+
     items = []
     for gid, n in nodes.items():
         if n.get("type") != "group":
@@ -177,6 +198,7 @@ def extract_main_canvas_data(canvas_path, notes_dir, submaps_dir, sprites_dir):
             "img": img_name, "dark": dark,
             "note": _note_for_label(label, note_stems),
             "submap": _match_submap(label, submap_stems),
+            "extra_photos": extra_photos_by_gid.get(gid, []),
         })
 
     group_ids = {it["id"] for it in items}
@@ -368,6 +390,37 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     crystal_cap = "Shadow Crystal" if lang == "en" else "Cristal Oscuro"
     CRYSTAL_BOX = (70, 80)
     CRYSTAL_SIDES = ["r-bottom", "r-top", "l-bottom", "l-top"]
+    # Rectangulos ya ocupados por decoraciones (no solo tarjetas): se va
+    # rellenando conforme se colocan, para que la foto del Cristal Oscuro y
+    # las fotos extra de cada personaje (mas abajo) no se pisen entre si.
+    extra_obstacles = []
+
+    def attach_clear_ex(it, sides, box_w, box_h, gap=7, rot_pad=16):
+        """Igual que attach_clear, pero tambien evita 'extra_obstacles'. En
+        zonas muy apretadas (varias tarjetas + varias fotos pegadas unas a
+        otras) puede que los 4 lados esten ocupados con el gap por defecto;
+        en vez de rendirse y apilar dos fotos exactamente en el mismo sitio,
+        se reintentan los mismos lados con mas separacion antes de rendirse
+        de verdad."""
+        own_id = it["id"]
+        first_fallback = None
+        for gap_try in (gap, gap + 35, gap + 80, gap + 130, gap + 190):
+            fallback = None
+            for side in sides:
+                left, top = attach(it, side, box_w, box_h, gap=gap_try)
+                cand = (left - rot_pad, top - rot_pad, left + box_w + rot_pad, top + box_h + rot_pad)
+                collides = any(
+                    nid2 != own_id and rects_overlap(cand, r2)
+                    for nid2, r2 in all_card_rects
+                ) or any(rects_overlap(cand, r2) for r2 in extra_obstacles)
+                if not collides:
+                    return left, top
+                if fallback is None:
+                    fallback = (left, top)
+            if first_fallback is None:
+                first_fallback = fallback
+        return first_fallback
+
     for nid in DARK_CRYSTAL_NIDS:
         it = by_id.get(nid)
         if not it:
@@ -375,10 +428,37 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
         rng = random.Random(f"crystal-{nid}")
         left, top = attach_clear(it, CRYSTAL_SIDES, *CRYSTAL_BOX)
         rot = rng.uniform(-8, 8)
+        extra_obstacles.append((left, top, left + CRYSTAL_BOX[0], top + CRYSTAL_BOX[1]))
         out.append(
             f'<div class="doodle doodle-note item-photo" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
             f'<img src="{crystal_src}" alt="" loading="lazy"><span class="cap">{html.escape(crystal_cap)}</span></div>'
         )
+
+    # ---- Fotos decorativas por personaje: hasta 3 imagenes de lo mas
+    #      iconico de cada uno (2 en los 5 que ya llevan foto del Cristal
+    #      Oscuro), pegadas al borde de su tarjeta con el mismo estilo que
+    #      esta -- ver 'extra_photos' en extract_main_canvas_data, que lee
+    #      los nodos "<gid>-dec1/2/3" añadidos a mano en el canvas. ----
+    PHOTO_BOX = CRYSTAL_BOX
+    PHOTO_SIDE_ROTATIONS = [
+        ["r-bottom", "r-top", "l-bottom", "l-top"],
+        ["l-bottom", "l-top", "r-bottom", "r-top"],
+        ["r-top", "l-top", "r-bottom", "l-bottom"],
+    ]
+    for it in items:
+        photos = it.get("extra_photos") or []
+        nid = it["id"]
+        for i, img_name in enumerate(photos):
+            rng = random.Random(f"decphoto-{nid}-{i}")
+            sides = PHOTO_SIDE_ROTATIONS[i % len(PHOTO_SIDE_ROTATIONS)]
+            left, top = attach_clear_ex(it, sides, *PHOTO_BOX)
+            extra_obstacles.append((left, top, left + PHOTO_BOX[0], top + PHOTO_BOX[1]))
+            rot = rng.uniform(-8, 8)
+            src = sprites_prefix + urllib.parse.quote(img_name)
+            out.append(
+                f'<div class="doodle doodle-note item-photo" data-owner="{nid}" style="left:{left:.0f}px; top:{top:.0f}px; transform:rotate({rot:.1f}deg);">'
+                f'<img src="{src}" alt="" loading="lazy"></div>'
+            )
 
     # ---- Desaparecidos / no vistos aun: sello rojo, ESTAMPADO encima de la
     #      propia foto de la tarjeta -- contra el corcho no se leia, pero
