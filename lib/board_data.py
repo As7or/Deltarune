@@ -419,24 +419,34 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     # que se prueban ANTES de alejar nada de la tarjeta: mejor otra decoracion
     # pegada un poco mas arriba/abajo del mismo lado, que una que se aleja o
     # que se superpone con otra cosa.
-    SLIDE_OFFSETS = (0.0, 0.6, -0.6, 1.2, -1.2, 1.8, -1.8, 2.4, -2.4, 3.0, -3.0)
+    SLIDE_OFFSETS = (0.0, 0.45, -0.45, 0.9, -0.9, 1.35, -1.35)
 
     def rect_overlap_area(a, b):
         ox = max(0.0, min(a[2], b[2]) - max(a[0], b[0]))
         oy = max(0.0, min(a[3], b[3]) - max(a[1], b[1]))
         return ox * oy
 
+    # Un pequeño roce (una esquina que se toca un poco) es preferible a
+    # alejar la decoracion de su tarjeta solo para conseguir un hueco
+    # perfecto: en cuanto un nivel de separacion tiene una opcion "bastante
+    # buena", se usa esa en vez de seguir alejandose en busca de la
+    # perfeccion. Umbral en px^2 (una caja tipica mide 70x80=5600).
+    OVERLAP_TOLERANCE = 450
+
     def attach_clear_ex(it, sides, box_w, box_h, gap=7, rot_pad=14):
         """Igual que attach_clear, pero tambien evita 'extra_obstacles'.
         Busca primero deslizando cada lado (SLIDE_OFFSETS) sin alejarse del
-        borde; solo si NINGUN lado tiene hueco libre en ningun deslizamiento
-        se prueba con un poco mas de separacion (gap). Si de verdad no hay
-        ningun hueco totalmente libre, se queda con la posicion candidata
-        que MENOS se superponga con otras cosas (en vez de la primera que
-        se probó, que podia ser la que peor quedaba) -- 'que rodeen la
-        nota, no tanto espacio, y que no se superpongan'."""
+        borde. Se prueba SIEMPRE con la separacion minima (gap) primero: si
+        ahi ya hay una opcion sin superposicion (o con un roce minimo, por
+        debajo de OVERLAP_TOLERANCE) se usa esa sin más, en vez de seguir
+        probando separaciones mayores solo por conseguir un hueco perfecto
+        -- 'que rodeen la nota, que el espacio entre la nota y las
+        decorativas sea muy poco'. Solo se aleja un poco (gap mayor) si de
+        verdad no hay ningun sitio decente pegado al borde, y como ultimo
+        recurso se acepta la posicion que menos se superponga de todas las
+        probadas."""
         own_id = it["id"]
-        best = None  # (overlap_area, left, top)
+        best_overall = None  # (overlap_area, left, top)
 
         def obstacles():
             for nid2, r2 in all_card_rects:
@@ -445,7 +455,8 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
             for r2 in extra_obstacles:
                 yield r2
 
-        for gap_try in (gap, gap + 14, gap + 28, gap + 45, gap + 70, gap + 110):
+        for gap_try in (gap, gap + 10, gap + 20, gap + 40, gap + 70):
+            best_this_tier = None
             for side in sides:
                 for off in SLIDE_OFFSETS:
                     left, top = attach(it, side, box_w, box_h, gap=gap_try, off=off)
@@ -456,9 +467,13 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
                     )
                     if total_overlap == 0:
                         return left, top
-                    if best is None or total_overlap < best[0]:
-                        best = (total_overlap, left, top)
-        return best[1], best[2]
+                    if best_this_tier is None or total_overlap < best_this_tier[0]:
+                        best_this_tier = (total_overlap, left, top)
+                    if best_overall is None or total_overlap < best_overall[0]:
+                        best_overall = (total_overlap, left, top)
+            if best_this_tier is not None and best_this_tier[0] <= OVERLAP_TOLERANCE:
+                return best_this_tier[1], best_this_tier[2]
+        return best_overall[1], best_overall[2]
 
     for nid in DARK_CRYSTAL_NIDS:
         it = by_id.get(nid)
