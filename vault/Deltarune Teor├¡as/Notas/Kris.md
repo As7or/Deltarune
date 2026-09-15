@@ -253,6 +253,8 @@ Comparte con Chara de Undertale la fascinación por los cuchillos, el gusto por 
 >
 > ![[kris_green_skin.png]]
 > *Kris con la piel de un verde enfermizo al empezar el Cap.5 tras la Ruta Rara del Cap.4, la escena central de esta lectura.*
+>
+> Un vídeo de análisis lee esta misma escena en clave de la Teoría del Vessel de arriba, más que como un simple "debilitamiento": el color al que vira la piel de Kris se leería menos como un verde de enfermo y más como un paso intermedio hacia el gris liso de un Vessel/Goner —el mismo gris con el que ya se coloreó de niño a los Siete Ases Voladores de la Isla Olvidada (ver arriba)—, como si pasar demasiado tiempo sin el ALMA no solo debilitara a Kris, sino que empezara a "decolorarlo" de vuelta a su estado original. Es una relectura de una escena ya confirmada, no un dato nuevo; sigue sin haber confirmación textual de que el tono sea literalmente gris y no verde.
 
 > [!question]- ¿Quién es "tú" realmente?
 > La sospecha más fuerte es que la entidad que controla a Kris guarda relación con Chara — o como mínimo con una fuerza que ya ha protagonizado antes una historia sobre alguien capaz de controlar a un niño monstruo/humano desde fuera.

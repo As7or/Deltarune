@@ -153,7 +153,7 @@ El mismo patrón ha vuelto a repetirse en tuits mucho más recientes, de agosto 
 > - Escribir "GASTER" como nombre del Vessel o del propio Jugador reinicia la introducción — el mismo truco que en Undertale al llamar "Gaster" al humano caído.
 > - El tono y formato de los tuits de Twitter de la noche antes del Cap.1 (ver sección de arriba) coincide punto por punto con el de la Voz dentro del juego; ambos citan casi textualmente la Entrada 17 ("muy, muy interesante").
 > - El valor de tipografía de la Voz en la introducción es 666.
-> - Según la teoría conocida como "Gaster's List", cada nombre que recibe una respuesta especial de la Voz al escribirlo en la secuencia pertenece, casi sin excepción, a un Lightner real de Hometown — como si quien pregunta ya conociera, o estuviera catalogando, a la gente real de ese mundo.
+> - Según la teoría conocida como "Gaster's List", cada nombre que recibe una respuesta especial de la Voz al escribirlo en la secuencia pertenece, casi sin excepción, a un Lightner real de Hometown — como si quien pregunta ya conociera, o estuviera catalogando, a la gente real de ese mundo. Nombrar al Vessel como cualquiera de esos Lightners hace que la Voz responda "¡Qué interesante coincidencia!"; nombrarse a uno mismo (el jugador) como Kris, Susie o Noelle desbloquea en cambio "Estás a punto de conocer a alguien maravilloso" — reacción que, de forma reveladora, nunca se dispara con nombres de Darkners. Ver [[Jugador]] para el desarrollo completo de la secuencia de nombres.
 >
 > ![[Vessel_naming_screenshot.webp]]
 > *La pantalla "NAME YOUR VESSEL" — escribir "GASTER" aquí reinicia la introducción por completo, una de las pistas centrales de esta teoría.*
@@ -194,6 +194,14 @@ El mismo patrón ha vuelto a repetirse en tuits mucho más recientes, de agosto 
 >
 > **Teoría de fans muy especulativa, con dos capas de "sin confirmar" apiladas; no confirmada.**
 
+> [!question]- ¿Le "hablan" los textos demonio del código a Cara, y Cara sirve a Gaster?
+> Dentro del código de Undertale hay un script contra el datamining (`attention_hackerz_no_2`) con variables literalmente llamadas `demonx`, `demony`, `demonz`. En la versión 1.00 avisaban, sin mucha sutileza, de no filtrar los secretos del juego, cerrando con "tu impaciencia te ha dañado de verdad, ¿no?". En la actualización 1.001 el texto cambió por completo —y las variables pasaron a llamarse `demona`, `demonb`, `demonc`—: el nuevo mensaje empieza con "Greetings" (Saludos), sigue con "has dejado tu punto completamente claro, entendido" y cierra con "yo, tu humilde siervo, te seguiré hasta el final" — la misma frase que cita la máquina "sonreír" del Cap.3 de Deltarune (ver arriba). Este cambio de texto está confirmado y documentado (The Cutting Room Floor).
+>
+> ![[gaster_cara_texto_demonio.png|300]]
+> *Hueco de imagen: falta una captura del texto "Greetings..." (ya sea del código extraído, o de Cara diciendo "Greetings. I am [nombre]." en la Ruta Genocida de Undertale).*
+>
+> Lo que no está confirmado es la lectura que hace parte del fandom: que ese "humilde siervo" sea Cara. La base es que Cara, en Undertale, también se dirige al jugador empezando exactamente con "Greetings" (en la escena final de la Ruta Genocida: "Greetings. I am [tu nombre]."), el mismo saludo formal y espaciado que usa el texto del código tras la actualización 1.001. Si se acepta ese parecido de tono como algo más que casualidad, y se suma que Cara dice servir a alguien sin nombrarlo, la sospecha recae sobre Gaster/la Voz, por el patrón ya establecido en el resto de esta nota (mayúsculas, tono espaciado y formal, "él" como etiqueta interna en los archivos). **Muy especulativa: el cambio de texto en el código es un hecho verificable, pero que ese "siervo" sea literalmente Cara —y que Cara sirva a Gaster— es una lectura de un vídeo de análisis apoyada solo en el parecido de tono, sin ninguna confirmación directa en ninguno de los dos juegos.**
+
 ## Referencias y pistas por capítulo (Deltarune)
 Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Deltarune se ha ido conectando con Gaster — para separarlo claramente de las pistas que vienen de Undertale (Seguidores, Mystery Man, Entrada 17, Clam Girl), recogidas más arriba.
 
@@ -211,7 +219,7 @@ Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Delta
 > - **El gris con valor 666**: cuando Tenna cree que el grupo no quiere participar en el concurso, el rótulo del programa se pone gris — un gris cuyo valor decimal de color es exactamente 666.
 > - **Sonido "crowd/love"**: el efecto de sonido del susto de FRIEND en la cinemática de Ralsei explicando los Mundos Oscuros se llama internamente "crowd/love" y suena hasta cuatro veces en esa misma escena, en distintos tonos y velocidades — pese a que las risas de "público" que se oyen después en otras escenas usan un nombre de archivo distinto.
 > - **Northern Light al 66% y Glacier al 1332%**: dentro del Palacio de Hielo (Ruta Espada), la música "Northern Light" suena ralentizada al 66%, y más adelante, dentro del propio Refugio en su recreación de 8 bits, suena "Glacier" (la música del propio Palacio de Hielo) ralentizada a un 1332% — exactamente el doble de 666.
-> - **La máquina "sonreír"**: en una máquina expendedora del backstage se puede comprar un objeto llamado "sonreír" (smile), y el juego responde "a su humilde servicio" — puede que aluda al propio sonido `smile` de la Entrada 17, y la frase de "humilde servicio" recuerda a un diálogo descartado de un demonio en el código de Undertale ("Yo, tu humilde siervo, te seguiré hasta el final").
+> - **La máquina "sonreír"**: en una máquina expendedora del backstage se puede comprar un objeto llamado "sonreír" (smile), y el juego responde "a su humilde servicio" — puede que aluda al propio sonido `smile` de la Entrada 17, y la frase de "humilde servicio" recuerda a un diálogo descartado de un demonio en el código de Undertale ("Yo, tu humilde siervo, te seguiré hasta el final"). Contexto completo de ese diálogo y una teoría que lo conecta con Cara, más abajo.
 > - **Mercancía real con nomenclatura interna de Gaster**: las tres figuras Mini oficiales de Susie, Ralsei y Kris usan como nombre de producto el mismo formato interno de archivo que usan las armas ligadas a la Voz/Gaster en el código del juego: "Hero/Scarf", "Hero/Sword" y "Hero/Axe".
 > - **Ramb y Mystery Man**: según listas de diseño filtradas, Ramb comparte una cara moderadamente similar a la de Mystery Man, junto con Jevil y Rouxls Kaard.
 > - Las zonas ocultas de Mancountry (Isla Olvidada) usan un suelo y una estética completamente monocroma, la misma paleta "sin color" ligada a él en Undertale.
@@ -283,6 +291,7 @@ Esta sección reúne, capítulo a capítulo, todo lo que dentro del propio Delta
 > La frase "las sombras cortan más profundo" del himno de la Profecía (Cap.4) coincide casi textualmente con una línea de la Entrada 17. Seam, en el Cap.1, y Ralsei, en el Cap.3, citan también casi literalmente "más oscuro, aún más oscuro". [[Profecía]]
 
 ## Curiosidades
+- "Goner" (de donde vienen "Gaster Follower" → "Goner", "Goner Kid", "Clam Goner"...) es una palabra inglesa real, de "gone" ("ido") más el sufijo "-er": se usa para alguien o algo sin ninguna esperanza de recuperación, ya condenado sin remedio — el mismo campo semántico que "desahuciado" en español.
 - Su nombre completo, "W. D. Gaster", es casi con toda seguridad un juego de palabras con "Wingdings", la fuente en la que habla.
 - El archivo de audio de su tema musical en Undertale se llama internamente `mus_st_him`; el tema de la introducción de Deltarune se llama `ANOTHER HIM` — la misma palabra clave, "él", en ambos.
 - 🚫 Si escribes "GASTER" como nombre del vessel o del creador en la introducción, el juego se reinicia al principio del capítulo — igual que pasa en Undertale al llamar "Gaster" al humano caído.

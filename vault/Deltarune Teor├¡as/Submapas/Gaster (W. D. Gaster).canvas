@@ -23,7 +23,8 @@
 		{"id":"s0","type":"text","text":"**Entrada Número 17**\n'¿Qué opináis vosotros dos?' — su único texto real, oculto en Wingdings.","x":-280,"y":-875,"width":270,"height":160,"color":"3"},
 		{"id":"s0-img","type":"file","file":"Sprites/gaster_entry17.jpg","x":-258,"y":-1220,"width":170,"height":170},
 		{"id":"center-img","type":"file","file":"Sprites/gaster.png","x":-100,"y":-636,"width":220,"height":566},
-		{"id":"s_cap3","type":"text","text":"**Pistas nuevas del Cap.3** La G que falta al elegir siglas, ausencia de sonidos G/A, el gris con valor 666, \"crowd/love\" sonando 4 veces, Northern Light al 66%/Glacier al 1332% — coincidencias débiles por separado.","x":1180,"y":-538,"width":290,"height":190,"color":"1"}
+		{"id":"s_cap3","type":"text","text":"**Pistas nuevas del Cap.3** La G que falta al elegir siglas, ausencia de sonidos G/A, el gris con valor 666, \"crowd/love\" sonando 4 veces, Northern Light al 66%/Glacier al 1332% — coincidencias débiles por separado.","x":1180,"y":-538,"width":290,"height":190,"color":"1"},
+		{"id":"s11","type":"text","text":"**¿Cara le sirve?**\nLos \"textos demonio\" del código cambian a un \"Greetings... tu humilde siervo\" tras la 1.001 — el mismo saludo con el que Cara se presenta. Muy especulativo.","x":600,"y":900,"width":280,"height":180,"color":"1"}
 	],
 	"edges":[
 		{"id":"e0","fromNode":"center","fromSide":"left","toNode":"s0","toSide":"right","color":"3"},
@@ -48,6 +49,7 @@
 		{"id":"e10","fromNode":"s1","fromSide":"right","toNode":"s10","toSide":"top","color":"1"},
 		{"id":"s1-img-e","fromNode":"s1-img","fromSide":"bottom","toNode":"s1","toSide":"top","color":"6"},
 		{"id":"s2-img-e","fromNode":"s2-img","fromSide":"bottom","toNode":"s2","toSide":"top","color":"6"},
-		{"id":"e_cap3","fromNode":"s1","fromSide":"right","toNode":"s_cap3","toSide":"left","color":"1"}
+		{"id":"e_cap3","fromNode":"s1","fromSide":"right","toNode":"s_cap3","toSide":"left","color":"1"},
+		{"id":"e11","fromNode":"center","fromSide":"bottom","toNode":"s11","toSide":"top","color":"1"}
 	]
 }

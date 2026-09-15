@@ -24,7 +24,12 @@ confianza: fuerte
 ## Dónde aparece
 
 > [!example]+ Capítulo 1 — La creación del Vessel (Goner Maker)
-> Antes de que exista Kris, y con la ventana del juego literalmente titulada "CONTACT", una voz sin cuerpo pregunta al Jugador si está "conectado". Nada más confirmarlo, la voz anuncia "WE MAY BEGIN." y aparece un ALMA roja: la voz guía la construcción de un cuerpo —un "VESSEL"— eligiendo cabeza (8 opciones), cuerpo (6) y piernas (5): todas las piezas seleccionables aparecen en escala de grises. Pregunta también qué "regalo" debería tener (por defecto, MIND) y dos preguntas de sí/no sobre si se acepta "la posibilidad de dolor y convulsiones" — responder que no a cualquiera de las dos no cambia nada: la voz responde "ENTENDIDO" y continúa igualmente, sin dar opción real a retractarse.
+> Antes de que exista Kris, y con la ventana del juego literalmente titulada "CONTACT", una voz sin cuerpo pregunta al Jugador si está "conectado". Nada más confirmarlo, la voz anuncia "WE MAY BEGIN." y aparece un ALMA roja: la voz guía la construcción de un cuerpo —un "VESSEL"— eligiendo cabeza (8 opciones), cuerpo (6) y piernas (5): todas las piezas seleccionables aparecen en escala de grises. Antes incluso de esto, al instalar el capítulo en 2018 (cuando ni siquiera estaba en Steam) aparecía una ventana de instalación titulada "Survey Program" que ya advertía: "aceptarás todo lo que pase a partir de ahora".
+>
+> Tras el cuerpo, la voz hace una serie de preguntas en formato de encuesta, seleccionables con el propio ALMA: comida favorita, tipo de sangre favorito, color favorito, y que se le dé un "regalo" (por defecto, MIND) — y remata con "¿qué sientes sobre tu creación? No te va a escuchar", "¿contestaste con honestidad?" y "reconoce la posibilidad de dolor y convulsiones". Responder que no a cualquiera de las dos últimas no cambia nada: la voz responde "ENTENDIDO" y continúa igual, sin dar opción real a retractarse. Existió contenido descartado que no llegó a la versión final: una pregunta sobre fotosensibilidad, y varias respuestas alternativas para la comida favorita (cereales, carne, lácteos, dulces, fruta, verdura, huevo) que ya no están disponibles.
+>
+> ![[jugador_encuesta_vessel.png|300]]
+> *Hueco de imagen: falta una captura de la pantalla de encuesta (comida/sangre/color favoritos) durante la creación del Vessel.*
 >
 > ![[Voice_screenshot_connection.png]]
 > *"WE MAY BEGIN." — la Voz, justo al confirmar la conexión, antes de empezar a construir el Vessel.*
@@ -35,6 +40,11 @@ confianza: fuerte
 > *"THE HALFWAY MARK HAS BEEN ATTAINED." — la Voz, a mitad de la creación del Vessel.*
 >
 > Por último, pide nombrar al Vessel (máximo 9 caracteres, ej. "DELTARUNE") y, después, el nombre real de quien está jugando (máximo 12, solo mayúsculas) — rompiendo la cuarta pared de la forma más directa de todo el juego. Escribir "GASTER" como cualquiera de los dos nombres reinicia la introducción por completo, un guiño directo a que en Undertale ponerle ese mismo nombre al humano caído devolvía al jugador al prólogo.
+>
+> Hay más reacciones especiales escondidas en esas dos pantallas de nombre, la base real de toda la teoría "Gaster's List" (ver [[Gaster (W. D. Gaster)]]): ponerle al Vessel el nombre de cualquier Lightner real de Hometown (Toriel, Asgore, Asriel, Sans...) hace que la voz responda "¡Qué interesante coincidencia!"; ponerse uno mismo, como jugador, el nombre de Kris, Susie o Noelle hace que diga en cambio "Estás a punto de conocer a alguien maravilloso" — reacción que curiosamente no se dispara con nombres de Darkners. Y si el nombre del Vessel y el del jugador coinciden entre sí, la voz comenta, con calma: "Por supuesto, por supuesto. Son lo mismo".
+>
+> ![[jugador_coincidencia_nombre.png|300]]
+> *Hueco de imagen: falta una captura de "¡Qué interesante coincidencia!" o "Estás a punto de conocer a alguien maravilloso" en la pantalla de nombre.*
 >
 > ![[Vessel_naming_screenshot.webp]]
 > *La pantalla "NAME YOUR VESSEL" — el propio Vessel, todavía sin rasgos, esperando nombre.*
