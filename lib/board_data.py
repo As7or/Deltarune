@@ -419,7 +419,7 @@ def _build_board_decorations(items, board_w, board_h, lang, sprites_prefix="Spri
     # que se prueban ANTES de alejar nada de la tarjeta: mejor otra decoracion
     # pegada un poco mas arriba/abajo del mismo lado, que una que se aleja o
     # que se superpone con otra cosa.
-    SLIDE_OFFSETS = (0.0, 0.45, -0.45, 0.9, -0.9, 1.35, -1.35, 1.8, -1.8, 2.25, -2.25)
+    SLIDE_OFFSETS = (0.0, 0.35, -0.35, 0.7, -0.7)
 
     def rect_overlap_area(a, b):
         ox = max(0.0, min(a[2], b[2]) - max(a[0], b[0]))
